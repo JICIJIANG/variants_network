@@ -1,0 +1,28 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+TTR	A25T	TTHY_HUMAN	CHAIN	Transthyretin	protein folding	TTR -[Activation]-> ATF6 -[Inhibition]-> endoplasmic reticulum -[Activation]-> protein folding	25444553	0																																		
+TTR	A25T	TTHY_HUMAN	CHAIN	Transthyretin	transcription, DNA-templated	TTR -[Activation]-> ATF6 -[Inhibition]-> Proteasome -[Inhibition]-> transcription, DNA-templated	25444553	0																																		
+TTR	D18G				cell population proliferation	TTR -[Glycosylation]-> STT3B -[Activation]-> cell population proliferation	22607976	0																																		
+TTR	D18G				homeostatic process	TTR -[Glycosylation]-> STT3B -[Activation]-> cell population proliferation -[Inhibition]-> homeostatic process	22607976	0																																		
+TTR	D18G				protein folding	TTR -[Activation]-> ATF6 -[Inhibition]-> endoplasmic reticulum -[Activation]-> protein folding	25444553	0																																		
+TTR	D18G				transcription, DNA-templated	TTR -[Activation]-> ATF6 -[Inhibition]-> Proteasome -[Inhibition]-> transcription, DNA-templated	25444553	0																																		
+TTR	G83R	TTHY_HUMAN	CHAIN	Transthyretin	Amyloidosis	TTR -[Activation]-> Amyloidosis	36659956	0																																		
+TTR	K55N	TTHY_HUMAN	CHAIN	Transthyretin	Amyloidosis	TTR -[Activation]-> Amyloidosis	35141244	1	570118	single nucleotide variant	NM_000371.4(TTR):c.165G>T (p.Lys55Asn)	1567945684	not provided	Pathogenic/Likely pathogenic	2.0	Amyloidosis, hereditary systemic 1	Pathogenic	1.0																								
+TTR	L55P	TTHY_HUMAN	CHAIN	Transthyretin	protein folding	TTR -[Activation]-> ATF6 -[Inhibition]-> endoplasmic reticulum -[Activation]-> protein folding	25444553	0																																		
+TTR	L55P	TTHY_HUMAN	CHAIN	Transthyretin	response to stress	TTR -[Activation]-> response to stress	32735824	0																																		
+TTR	L55P	TTHY_HUMAN	CHAIN	Transthyretin	transcription, DNA-templated	TTR -[Activation]-> ATF6 -[Inhibition]-> Proteasome -[Inhibition]-> transcription, DNA-templated	25444553	0																																		
+TTR	V122I	TTHY_HUMAN	CHAIN	Transthyretin	Cell Survival	TTR -[Inhibition]-> Cell Survival	25395306	0																																		
+TTR	V122I	TTHY_HUMAN	CHAIN	Transthyretin	Osteoarthritis	TTR -[Activation]-> Osteoarthritis	28941045	0																																		
+TTR	V122I	TTHY_HUMAN	CHAIN	Transthyretin	apoptotic process	TTR -[Activation]-> apoptotic process	25940564	0																																		
+TTR	V122I	TTHY_HUMAN	CHAIN	Transthyretin	cell death	TTR -[Activation]-> cell death	25940564	0																																		
+TTR	V122I	TTHY_HUMAN	CHAIN	Transthyretin	cell death	TTR -[Inhibition]-> cell death	28941045	0																																		
+TTR	V122I	TTHY_HUMAN	CHAIN	Transthyretin	inflammatory response	TTR -[Activation]-> inflammatory response	28941045	0																																		
+TTR	V30A	TTHY_HUMAN	CHAIN	Transthyretin	apoptotic process	TTR -[Activation]-> apoptotic process	23523753	0																																		
+TTR	V30M	TTHY_HUMAN	CHAIN	Transthyretin	Amyloid Neuropathies, Familial	TTR -[Inhibition]-> Amyloid Neuropathies, Familial	37304406	0																																		
+TTR	V30M	TTHY_HUMAN	CHAIN	Transthyretin	apoptotic process	TTR -[Activation]-> apoptotic process	26088020	0																																		
+TTR	V30M	TTHY_HUMAN	CHAIN	Transthyretin	protein folding	TTR -[Activation]-> ATF6 -[Inhibition]-> endoplasmic reticulum -[Activation]-> protein folding	25444553	0																																		
+TTR	V30M	TTHY_HUMAN	CHAIN	Transthyretin	regeneration	TTR -[Inhibition]-> regeneration	24800914	0																																		
+TTR	V30M	TTHY_HUMAN	CHAIN	Transthyretin	response to stress	TTR -[Activation]-> response to stress	18485534	0																																		
+TTR	V30M	TTHY_HUMAN	CHAIN	Transthyretin	signal transduction	TTR -[Activation]-> signal transduction	34093538	0																																		
+TTR	V30M	TTHY_HUMAN	CHAIN	Transthyretin	tissue regeneration	TTR -[Activation]-> Chemokine -[Activation]-> tissue regeneration	34093538	0																																		
+TTR	V30M	TTHY_HUMAN	CHAIN	Transthyretin	transcription, DNA-templated	TTR -[Activation]-> ATF6 -[Inhibition]-> Proteasome -[Inhibition]-> transcription, DNA-templated	25444553	0																																		
+TTR	V50M	TTHY_HUMAN	CHAIN	Transthyretin	Amyloidosis, Familial	TTR -[Activation]-> Amyloidosis, Familial	27793437	1	28456	single nucleotide variant	NM_000371.4(TTR):c.148G>A (p.Val50Met)	28933979	Amyloidosis, hereditary systemic 1	Pathogenic	2.0	not provided			Cardiomyopathy			Cardiovascular phenotype			Hyperthyroxinemia, dystransthyretinemic			Carpal tunnel syndrome 1			Charcot-Marie-Tooth disease			TTR-related disorder								

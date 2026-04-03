@@ -1,0 +1,29 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+SLC16A1	D302R	MOT1_HUMAN	CHAIN	Monocarboxylate transporter 1	Hydrogen-Ion Concentration	SLC16A1 -[Activation]-> lactate -[Activation]-> Hydrogen-Ion Concentration	17127621	0																																		
+SLC16A1	D302R	MOT1_HUMAN	CHAIN	Monocarboxylate transporter 1	transport	SLC16A1 -[Activation]-> transport	17127621	0																																		
+SLC16A1	R306E	MOT1_HUMAN	CHAIN	Monocarboxylate transporter 1	Hydrogen-Ion Concentration	SLC16A1 -[Activation]-> lactate -[Activation]-> Hydrogen-Ion Concentration	17127621	0																																		
+SLC16A1	R306E	MOT1_HUMAN	CHAIN	Monocarboxylate transporter 1	transport	SLC16A1 -[Activation]-> transport	17127621	0																																		
+SLC16A1	S118A	MOT1_HUMAN	CHAIN	Monocarboxylate transporter 1	Cell Survival	SLC16A1 -[Activation]-> Cell Survival	21138557	0																																		
+SLC16A1	S118A	MOT1_HUMAN	CHAIN	Monocarboxylate transporter 1	DNA Damage	SLC16A1 -[Inhibition]-> TP53 -[Inhibition]-> DNA Damage	21138557	0																																		
+SLC16A1	S118A	MOT1_HUMAN	CHAIN	Monocarboxylate transporter 1	angiogenesis	SLC16A1 -[Activation]-> angiogenesis	21138557	0																																		
+SLC16A1	S118A	MOT1_HUMAN	CHAIN	Monocarboxylate transporter 1	apoptotic process	SLC16A1 -[Inhibition]-> TP53 -[Inhibition]-> apoptotic process	21138557	0																																		
+SLC16A1	S118A	MOT1_HUMAN	CHAIN	Monocarboxylate transporter 1	cell migration	SLC16A1 -[Inhibition]-> TP53 -[Inhibition]-> cell migration	21138557	0																																		
+SLC16A1	S118A	MOT1_HUMAN	CHAIN	Monocarboxylate transporter 1	cell population proliferation	SLC16A1 -[Activation]-> cell population proliferation	21138557	0																																		
+SLC16A1	S118A	MOT1_HUMAN	CHAIN	Monocarboxylate transporter 1	proteolysis	SLC16A1 -[Inhibition]-> proteolysis	21138557	0																																		
+SLC16A1	S118A	MOT1_HUMAN	CHAIN	Monocarboxylate transporter 1	transcription, DNA-templated	SLC16A1 -[Inhibition]-> TP53 -[Activation]-> transcription, DNA-templated	21138557	0																																		
+SLC16A1	S118D	MOT1_HUMAN	CHAIN	Monocarboxylate transporter 1	Cell Survival	SLC16A1 -[Activation]-> Cell Survival	21138557	0																																		
+SLC16A1	S118D	MOT1_HUMAN	CHAIN	Monocarboxylate transporter 1	DNA Damage	SLC16A1 -[Inhibition]-> TP53 -[Inhibition]-> DNA Damage	21138557	0																																		
+SLC16A1	S118D	MOT1_HUMAN	CHAIN	Monocarboxylate transporter 1	angiogenesis	SLC16A1 -[Activation]-> angiogenesis	21138557	0																																		
+SLC16A1	S118D	MOT1_HUMAN	CHAIN	Monocarboxylate transporter 1	apoptotic process	SLC16A1 -[Inhibition]-> TP53 -[Inhibition]-> apoptotic process	21138557	0																																		
+SLC16A1	S118D	MOT1_HUMAN	CHAIN	Monocarboxylate transporter 1	cell migration	SLC16A1 -[Inhibition]-> TP53 -[Inhibition]-> cell migration	21138557	0																																		
+SLC16A1	S118D	MOT1_HUMAN	CHAIN	Monocarboxylate transporter 1	cell population proliferation	SLC16A1 -[Activation]-> cell population proliferation	21138557	0																																		
+SLC16A1	S118D	MOT1_HUMAN	CHAIN	Monocarboxylate transporter 1	proteolysis	SLC16A1 -[Inhibition]-> proteolysis	21138557	0																																		
+SLC16A1	S118D	MOT1_HUMAN	CHAIN	Monocarboxylate transporter 1	transcription, DNA-templated	SLC16A1 -[Inhibition]-> TP53 -[Activation]-> transcription, DNA-templated	21138557	0																																		
+SLC16A1	S118E	MOT1_HUMAN	CHAIN	Monocarboxylate transporter 1	Cell Survival	SLC16A1 -[Activation]-> Cell Survival	21138557	0																																		
+SLC16A1	S118E	MOT1_HUMAN	CHAIN	Monocarboxylate transporter 1	DNA Damage	SLC16A1 -[Inhibition]-> TP53 -[Inhibition]-> DNA Damage	21138557	0																																		
+SLC16A1	S118E	MOT1_HUMAN	CHAIN	Monocarboxylate transporter 1	angiogenesis	SLC16A1 -[Activation]-> angiogenesis	21138557	0																																		
+SLC16A1	S118E	MOT1_HUMAN	CHAIN	Monocarboxylate transporter 1	apoptotic process	SLC16A1 -[Inhibition]-> TP53 -[Inhibition]-> apoptotic process	21138557	0																																		
+SLC16A1	S118E	MOT1_HUMAN	CHAIN	Monocarboxylate transporter 1	cell migration	SLC16A1 -[Inhibition]-> TP53 -[Inhibition]-> cell migration	21138557	0																																		
+SLC16A1	S118E	MOT1_HUMAN	CHAIN	Monocarboxylate transporter 1	cell population proliferation	SLC16A1 -[Activation]-> cell population proliferation	21138557	0																																		
+SLC16A1	S118E	MOT1_HUMAN	CHAIN	Monocarboxylate transporter 1	proteolysis	SLC16A1 -[Inhibition]-> proteolysis	21138557	0																																		
+SLC16A1	S118E	MOT1_HUMAN	CHAIN	Monocarboxylate transporter 1	transcription, DNA-templated	SLC16A1 -[Inhibition]-> TP53 -[Activation]-> transcription, DNA-templated	21138557	0																																		

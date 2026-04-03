@@ -1,0 +1,12 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+CLCN5	E211A	CLCN5_HUMAN	CHAIN	H(+)/Cl(-) exchange transporter 5	transport	CLCN5 -[Inhibition]-> transport	16380443	0																																		
+CLCN5	E211G	CLCN5_HUMAN	CHAIN	H(+)/Cl(-) exchange transporter 5	transport	CLCN5 -[Inhibition]-> transport	32390228	0																																		
+CLCN5	E268A	CLCN5_HUMAN	CHAIN	H(+)/Cl(-) exchange transporter 5	transport	CLCN5 -[Inhibition]-> transport	22824269	0																																		
+CLCN5	E268Q	CLCN5_HUMAN	CHAIN	H(+)/Cl(-) exchange transporter 5	Hydrogen-Ion Concentration	CLCN5 -[Inhibition]-> Hydrogen-Ion Concentration	28348980	0																																		
+CLCN5	E268Q	CLCN5_HUMAN	CHAIN	H(+)/Cl(-) exchange transporter 5	Poisoning	CLCN5 -[Activation]-> Poisoning	28348980	0																																		
+CLCN5	E268Q	CLCN5_HUMAN	CHAIN	H(+)/Cl(-) exchange transporter 5	endocytosis	CLCN5 -[Activation]-> endocytosis	28348980	0																																		
+CLCN5	E268Q	CLCN5_HUMAN	CHAIN	H(+)/Cl(-) exchange transporter 5	pH reduction	CLCN5 -[Activation]-> pH reduction	28348980	0																																		
+CLCN5	E268Q	CLCN5_HUMAN	CHAIN	H(+)/Cl(-) exchange transporter 5	transport	CLCN5 -[Activation]-> transport	28348980	0																																		
+CLCN5	G261E	CLCN5_HUMAN	CHAIN	H(+)/Cl(-) exchange transporter 5	Endoplasmic Reticulum Stress	CLCN5 -[Complex]-> BSND -[Activation]-> Endoplasmic Reticulum Stress	30405442	0																																		
+CLCN5	G261E	CLCN5_HUMAN	CHAIN	H(+)/Cl(-) exchange transporter 5	ion transport	CLCN5 -[Activation]-> ion transport	30405442	0																																		
+CLCN5	G261E	CLCN5_HUMAN	CHAIN	H(+)/Cl(-) exchange transporter 5	transport	CLCN5 -[Activation]-> transport	30405442	0																																		

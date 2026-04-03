@@ -1,0 +1,15 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+SMURF1	C699A	SMUF1_HUMAN	CHAIN;DOMAIN	E3 ubiquitin-protein ligase SMURF1;HECT	Neoplasm Invasiveness	SMURF1 -[Inhibition]-> Neoplasm Invasiveness	21887346	0																																		
+SMURF1	C699A	SMUF1_HUMAN	CHAIN;DOMAIN	E3 ubiquitin-protein ligase SMURF1;HECT	autophagy	SMURF1 -[Activation]-> autophagy	28017659	0																																		
+SMURF1	C699A	SMUF1_HUMAN	CHAIN;DOMAIN	E3 ubiquitin-protein ligase SMURF1;HECT	cell adhesion	SMURF1 -[Inhibition]-> cell adhesion	28408404	0																																		
+SMURF1	C699A	SMUF1_HUMAN	CHAIN;DOMAIN	E3 ubiquitin-protein ligase SMURF1;HECT	cell population proliferation	SMURF1 -[Activation]-> cell population proliferation	21887346	0																																		
+SMURF1	C699A	SMUF1_HUMAN	CHAIN;DOMAIN	E3 ubiquitin-protein ligase SMURF1;HECT	contact inhibition	SMURF1 -[Activation]-> contact inhibition	21887346	0																																		
+SMURF1	C699A	SMUF1_HUMAN	CHAIN;DOMAIN	E3 ubiquitin-protein ligase SMURF1;HECT	inflammatory response	SMURF1 -[Activation]-> inflammatory response	28017659	0																																		
+SMURF1	C699A	SMUF1_HUMAN	CHAIN;DOMAIN	E3 ubiquitin-protein ligase SMURF1;HECT	proteolysis	SMURF1 -[Inhibition]-> proteolysis	28408404	0																																		
+SMURF1	C699A	SMUF1_HUMAN	CHAIN;DOMAIN	E3 ubiquitin-protein ligase SMURF1;HECT	transcription, DNA-templated	SMURF1 -[Inhibition]-> transcription, DNA-templated	21382345	0																																		
+SMURF1	C699A	SMUF1_HUMAN	CHAIN;DOMAIN	E3 ubiquitin-protein ligase SMURF1;HECT	transcription, DNA-templated	SMURF1 -[Inhibition]-> transcription, DNA-templated	21887346	0																																		
+SMURF1	S148A	SMUF1_HUMAN	CHAIN	E3 ubiquitin-protein ligase SMURF1	cell differentiation	SMURF1 -[Activation]-> cell differentiation	27052174	0																																		
+SMURF1	T306A	SMUF1_HUMAN	CHAIN;DOMAIN	E3 ubiquitin-protein ligase SMURF1;WW 2	cell differentiation	SMURF1 -[Inhibition]-> BDNF -[Activation]-> cell differentiation	21262463	0																																		
+SMURF1	T306A	SMUF1_HUMAN	CHAIN;DOMAIN	E3 ubiquitin-protein ligase SMURF1;WW 2	proteolysis	SMURF1 -[Inhibition]-> proteolysis	21262463	0																																		
+SMURF1	T306D	SMUF1_HUMAN	CHAIN;DOMAIN	E3 ubiquitin-protein ligase SMURF1;WW 2	cell differentiation	SMURF1 -[Inhibition]-> BDNF -[Activation]-> cell differentiation	21262463	0																																		
+SMURF1	T306D	SMUF1_HUMAN	CHAIN;DOMAIN	E3 ubiquitin-protein ligase SMURF1;WW 2	proteolysis	SMURF1 -[Inhibition]-> proteolysis	21262463	0																																		

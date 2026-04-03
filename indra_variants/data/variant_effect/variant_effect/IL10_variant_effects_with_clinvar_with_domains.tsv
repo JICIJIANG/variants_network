@@ -1,0 +1,6 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+IL10	D25A	IL10_HUMAN	CHAIN	Interleukin-10	macrophage activation	IL10 -[Inhibition]-> macrophage activation	33737461	0																																		
+IL10	E96A	IL10_HUMAN	CHAIN	Interleukin-10	macrophage activation	IL10 -[Inhibition]-> macrophage activation	33737461	0																																		
+IL10	E96K	IL10_HUMAN	CHAIN	Interleukin-10	macrophage activation	IL10 -[Inhibition]-> macrophage activation	33737461	0																																		
+IL10	G1082A				Diabetic Nephropathies	IL10 -[Inhibition]-> Diabetic Nephropathies	27173343	0																																		
+IL10	G1082G				immune response	IL10 -[Inhibition]-> immune response	19608431	0																																		

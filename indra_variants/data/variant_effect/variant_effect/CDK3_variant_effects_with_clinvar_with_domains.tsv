@@ -1,0 +1,9 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+CDK3	C140S	CDK3_HUMAN	CHAIN;DOMAIN	Cyclin-dependent kinase 3;Protein kinase	Carcinogenesis	CDK3 -[Inhibition]-> Carcinogenesis	25360622	0																																		
+CDK3	C140S	CDK3_HUMAN	CHAIN;DOMAIN	Cyclin-dependent kinase 3;Protein kinase	Cell Survival	CDK3 -[Inhibition]-> Cell Survival	25360622	0																																		
+CDK3	C140S	CDK3_HUMAN	CHAIN;DOMAIN	Cyclin-dependent kinase 3;Protein kinase	Death	CDK3 -[Activation]-> Death	25360622	0																																		
+CDK3	C140S	CDK3_HUMAN	CHAIN;DOMAIN	Cyclin-dependent kinase 3;Protein kinase	Genomic Instability	CDK3 -[Inhibition]-> cell population proliferation -[Activation]-> Genomic Instability	25360622	0																																		
+CDK3	C140S	CDK3_HUMAN	CHAIN;DOMAIN	Cyclin-dependent kinase 3;Protein kinase	Leukemia	CDK3 -[Activation]-> imatinib -[Inhibition]-> Leukemia	25360622	0																																		
+CDK3	C140S	CDK3_HUMAN	CHAIN;DOMAIN	Cyclin-dependent kinase 3;Protein kinase	apoptotic process	CDK3 -[Activation]-> apoptotic process	25360622	0																																		
+CDK3	C140S	CDK3_HUMAN	CHAIN;DOMAIN	Cyclin-dependent kinase 3;Protein kinase	cell cycle	CDK3 -[Inhibition]-> CDK2 -[Inhibition]-> cell cycle	25360622	0																																		
+CDK3	C140S	CDK3_HUMAN	CHAIN;DOMAIN	Cyclin-dependent kinase 3;Protein kinase	cell population proliferation	CDK3 -[Inhibition]-> cell population proliferation	25360622	0																																		

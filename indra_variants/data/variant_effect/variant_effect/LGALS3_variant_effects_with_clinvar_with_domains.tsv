@@ -1,0 +1,8 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+LGALS3	G182A	LEG3_HUMAN	CHAIN;DOMAIN	Galectin-3;Galectin	apoptotic process	LGALS3 -[Inhibition]-> apoptotic process	25393982	0																																		
+LGALS3	G182A	LEG3_HUMAN	CHAIN;DOMAIN	Galectin-3;Galectin	cell death	LGALS3 -[Activation]-> cell death	25393982	0																																		
+LGALS3	G182A	LEG3_HUMAN	CHAIN;DOMAIN	Galectin-3;Galectin	cell growth	LGALS3 -[Activation]-> cell growth	25393982	0																																		
+LGALS3	S96A	LEG3_HUMAN	CHAIN;REPEAT;REGION	Galectin-3;7; approximate;8 X 9 AA tandem repeats of Y-P-G-X(3)-P-G-A	cell differentiation	LGALS3 -[Inhibition]-> cell differentiation	26752347	0																																		
+LGALS3	V125A	LEG3_HUMAN	CHAIN;DOMAIN	Galectin-3;Galectin	apoptotic process	LGALS3 -[Inhibition]-> apoptotic process	18701484	0																																		
+LGALS3	V125A	LEG3_HUMAN	CHAIN;DOMAIN	Galectin-3;Galectin	cell growth	LGALS3 -[Activation]-> cell growth	18701484	0																																		
+LGALS3	V125A	LEG3_HUMAN	CHAIN;DOMAIN	Galectin-3;Galectin	cell population proliferation	LGALS3 -[Activation]-> cell population proliferation	18701484	0																																		

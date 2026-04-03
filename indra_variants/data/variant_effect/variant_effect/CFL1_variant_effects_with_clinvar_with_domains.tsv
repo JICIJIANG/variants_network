@@ -1,0 +1,19 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+CFL1	S3A	COF1_HUMAN	CHAIN	Cofilin-1	DNA Damage	CFL1 -[Inhibition]-> DNA Damage	23362981	0																																		
+CFL1	S3A	COF1_HUMAN	CHAIN	Cofilin-1	DNA repair	CFL1 -[Inhibition]-> DNA repair	23362981	0																																		
+CFL1	S3A	COF1_HUMAN	CHAIN	Cofilin-1	Neoplasm Invasiveness	CFL1 -[Activation]-> Neoplasm Invasiveness	23362981	0																																		
+CFL1	S3A	COF1_HUMAN	CHAIN	Cofilin-1	Neoplasms	CFL1 -[Activation]-> Neoplasms	23362981	0																																		
+CFL1	S3D	COF1_HUMAN	CHAIN	Cofilin-1	Aging	CFL1 -[Activation]-> Aging	33336885	0																																		
+CFL1	S3D	COF1_HUMAN	CHAIN	Cofilin-1	DNA Damage	CFL1 -[Inhibition]-> DNA Damage	23362981	0																																		
+CFL1	S3D	COF1_HUMAN	CHAIN	Cofilin-1	DNA repair	CFL1 -[Inhibition]-> DNA repair	23362981	0																																		
+CFL1	S3D	COF1_HUMAN	CHAIN	Cofilin-1	Growth delay	CFL1 -[Activation]-> Growth delay	33336885	0																																		
+CFL1	S3D	COF1_HUMAN	CHAIN	Cofilin-1	Neoplasm Invasiveness	CFL1 -[Activation]-> Neoplasm Invasiveness	23362981	0																																		
+CFL1	S3D	COF1_HUMAN	CHAIN	Cofilin-1	Neoplasms	CFL1 -[Activation]-> Neoplasms	23362981	0																																		
+CFL1	S3D	COF1_HUMAN	CHAIN	Cofilin-1	cell growth	CFL1 -[Activation]-> cell growth	33336885	0																																		
+CFL1	S3D	COF1_HUMAN	CHAIN	Cofilin-1	cellular senescence	CFL1 -[Activation]-> cellular senescence	33336885	0																																		
+CFL1	S3D	COF1_HUMAN	CHAIN	Cofilin-1	transcription, DNA-templated	CFL1 -[Activation]-> transcription, DNA-templated	33336885	0																																		
+CFL1	Y68F	COF1_HUMAN	CHAIN;DOMAIN	Cofilin-1;ADF-H	Aging	CFL1 -[Activation]-> Aging	33336885	0																																		
+CFL1	Y68F	COF1_HUMAN	CHAIN;DOMAIN	Cofilin-1;ADF-H	Growth delay	CFL1 -[Activation]-> Growth delay	33336885	0																																		
+CFL1	Y68F	COF1_HUMAN	CHAIN;DOMAIN	Cofilin-1;ADF-H	cell growth	CFL1 -[Activation]-> cell growth	33336885	0																																		
+CFL1	Y68F	COF1_HUMAN	CHAIN;DOMAIN	Cofilin-1;ADF-H	cellular senescence	CFL1 -[Activation]-> cellular senescence	33336885	0																																		
+CFL1	Y68F	COF1_HUMAN	CHAIN;DOMAIN	Cofilin-1;ADF-H	transcription, DNA-templated	CFL1 -[Activation]-> transcription, DNA-templated	33336885	0																																		

@@ -1,0 +1,13 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+KDM3A	D1122N	KDM3A_HUMAN	CHAIN;DOMAIN	Lysine-specific demethylase 3A;JmjC	Cell Survival	KDM3A -[Inhibition]-> Cell Survival	27472901	0																																		
+KDM3A	D1122N	KDM3A_HUMAN	CHAIN;DOMAIN	Lysine-specific demethylase 3A;JmjC	Neoplasm Metastasis	KDM3A -[Inhibition]-> Neoplasm Metastasis	27472901	0																																		
+KDM3A	D1122N	KDM3A_HUMAN	CHAIN;DOMAIN	Lysine-specific demethylase 3A;JmjC	apoptotic process	KDM3A -[Inhibition]-> apoptotic process	27472901	0																																		
+KDM3A	D1122N	KDM3A_HUMAN	CHAIN;DOMAIN	Lysine-specific demethylase 3A;JmjC	cell death	KDM3A -[Activation]-> cell death	27472901	0																																		
+KDM3A	H1120G	KDM3A_HUMAN	CHAIN;DOMAIN	Lysine-specific demethylase 3A;JmjC	Cell Survival	KDM3A -[Inhibition]-> Cell Survival	27472901	0																																		
+KDM3A	H1120G	KDM3A_HUMAN	CHAIN;DOMAIN	Lysine-specific demethylase 3A;JmjC	Neoplasm Metastasis	KDM3A -[Inhibition]-> Neoplasm Metastasis	27472901	0																																		
+KDM3A	H1120G	KDM3A_HUMAN	CHAIN;DOMAIN	Lysine-specific demethylase 3A;JmjC	apoptotic process	KDM3A -[Inhibition]-> apoptotic process	27472901	0																																		
+KDM3A	H1120G	KDM3A_HUMAN	CHAIN;DOMAIN	Lysine-specific demethylase 3A;JmjC	cell death	KDM3A -[Activation]-> cell death	27472901	0																																		
+KDM3A	H1120Y	KDM3A_HUMAN	CHAIN;DOMAIN	Lysine-specific demethylase 3A;JmjC	Urinary Bladder Neoplasms	KDM3A -[Inhibition]-> Urinary Bladder Neoplasms	28263974	0																																		
+KDM3A	H1120Y	KDM3A_HUMAN	CHAIN;DOMAIN	Lysine-specific demethylase 3A;JmjC	cell growth	KDM3A -[Inhibition]-> cell growth	28263974	0																																		
+KDM3A	H1120Y	KDM3A_HUMAN	CHAIN;DOMAIN	Lysine-specific demethylase 3A;JmjC	glycolytic process	KDM3A -[Inhibition]-> glycolytic process	28263974	0																																		
+KDM3A	H1120Y	KDM3A_HUMAN	CHAIN;DOMAIN	Lysine-specific demethylase 3A;JmjC	metabolic process	KDM3A -[Activation]-> metabolic process	28263974	0																																		

@@ -1,0 +1,78 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+CDC42	C18A	CDC42_HUMAN	CHAIN	Cell division control protein 42 homolog	actin filament polymerization	CDC42 -[Activation]-> actin filament polymerization	34818546	0																																		
+CDC42	C18A	CDC42_HUMAN	CHAIN	Cell division control protein 42 homolog	cell migration	CDC42 -[Activation]-> cell migration	34818546	0																																		
+CDC42	C18A	CDC42_HUMAN	CHAIN	Cell division control protein 42 homolog	chemotaxis	CDC42 -[Activation]-> chemotaxis	34818546	0																																		
+CDC42	C18A	CDC42_HUMAN	CHAIN	Cell division control protein 42 homolog	establishment or maintenance of cell polarity	CDC42 -[Activation]-> establishment or maintenance of cell polarity	34818546	0																																		
+CDC42	C42A	CDC42_HUMAN	CHAIN	Cell division control protein 42 homolog	exocytosis	CDC42 -[Activation]-> exocytosis	22166067	0																																		
+CDC42	C42A	CDC42_HUMAN	CHAIN	Cell division control protein 42 homolog	transport	CDC42 -[Activation]-> transport	22166067	0																																		
+CDC42	D118N	CDC42_HUMAN	CHAIN	Cell division control protein 42 homolog	Cell Transformation, Neoplastic	CDC42 -[Activation]-> Cell Transformation, Neoplastic	12369824	0																																		
+CDC42	D118N	CDC42_HUMAN	CHAIN	Cell division control protein 42 homolog	cell growth	CDC42 -[Inhibition]-> cell growth	12369824	0																																		
+CDC42	D57Y	CDC42_HUMAN	CHAIN	Cell division control protein 42 homolog	Cell Polarity	CDC42 -[Activation]-> Cell Polarity	24348237	0																																		
+CDC42	D57Y	CDC42_HUMAN	CHAIN	Cell division control protein 42 homolog	GDP-dissociation inhibitor activity	CDC42 -[Complex]-> GDP-dissociation inhibitor activity	23651995	0																																		
+CDC42	D57Y	CDC42_HUMAN	CHAIN	Cell division control protein 42 homolog	cell cycle	CDC42 -[Activation]-> cell cycle	25002677	0																																		
+CDC42	F28L	CDC42_HUMAN	CHAIN	Cell division control protein 42 homolog	Cell Transformation, Neoplastic	CDC42 -[Activation]-> Cell Transformation, Neoplastic	12369824	0																																		
+CDC42	F28L	CDC42_HUMAN	CHAIN	Cell division control protein 42 homolog	Cell Transformation, Neoplastic	CDC42 -[Activation]-> Cell Transformation, Neoplastic	25945738	0																																		
+CDC42	F28L	CDC42_HUMAN	CHAIN	Cell division control protein 42 homolog	KDEL sequence binding	CDC42 -[Inhibition]-> KDEL sequence binding	25945738	0																																		
+CDC42	F28L	CDC42_HUMAN	CHAIN	Cell division control protein 42 homolog	Neoplasm Metastasis	CDC42 -[Dephosphorylation]-> EGFR -[Activation]-> Neoplasm Metastasis	28670141	0																																		
+CDC42	F28L	CDC42_HUMAN	CHAIN	Cell division control protein 42 homolog	cell adhesion	CDC42 -[Inhibition]-> LYPLA1 -[Activation]-> cell adhesion	29295957	0																																		
+CDC42	F28L	CDC42_HUMAN	CHAIN	Cell division control protein 42 homolog	cell cycle	CDC42 -[Dephosphorylation]-> EGFR -[Activation]-> cell population proliferation -[Activation]-> cell cycle	28670141	0																																		
+CDC42	F28L	CDC42_HUMAN	CHAIN	Cell division control protein 42 homolog	cell growth	CDC42 -[Inhibition]-> cell growth	12369824	0																																		
+CDC42	F28L	CDC42_HUMAN	CHAIN	Cell division control protein 42 homolog	cell population proliferation	CDC42 -[Dephosphorylation]-> EGFR -[Activation]-> cell population proliferation	28670141	0																																		
+CDC42	F28L	CDC42_HUMAN	CHAIN	Cell division control protein 42 homolog	localization	CDC42 -[Activation]-> F11R -[Inhibition]-> localization	26306570	0																																		
+CDC42	F28L	CDC42_HUMAN	CHAIN	Cell division control protein 42 homolog	localization	CDC42 -[Inhibition]-> localization	29295957	0																																		
+CDC42	F28L	CDC42_HUMAN	CHAIN	Cell division control protein 42 homolog	protein localization	CDC42 -[Activation]-> protein localization	29295957	0																																		
+CDC42	F28L	CDC42_HUMAN	CHAIN	Cell division control protein 42 homolog	signal transduction	CDC42 -[Activation]-> F11R -[Activation]-> signal transduction	26306570	0																																		
+CDC42	F28L	CDC42_HUMAN	CHAIN	Cell division control protein 42 homolog	transcription, DNA-templated	CDC42 -[Activation]-> transcription, DNA-templated	19097998	0																																		
+CDC42	F28L	CDC42_HUMAN	CHAIN	Cell division control protein 42 homolog	transport	CDC42 -[Activation]-> transport	15866890	0																																		
+CDC42	F28L	CDC42_HUMAN	CHAIN	Cell division control protein 42 homolog	transport	CDC42 -[Activation]-> transport	25945738	0																																		
+CDC42	F56W	CDC42_HUMAN	CHAIN	Cell division control protein 42 homolog	GAP	CDC42 -[Complex]-> PLCB2 -[Complex]-> RAC1 -[Complex]-> PLXNB1 -[Inhibition]-> GAP	25830673	0																																		
+CDC42	G12V	CDC42_HUMAN	CHAIN	Cell division control protein 42 homolog	Carcinogenesis	CDC42 -[Activation]-> PAK4 -[Activation]-> Carcinogenesis	26068882	0																																		
+CDC42	G12V	CDC42_HUMAN	CHAIN	Cell division control protein 42 homolog	G1 phase	CDC42 -[Activation]-> HOG1 -[Activation]-> G1 phase	23028184	0																																		
+CDC42	G12V	CDC42_HUMAN	CHAIN	Cell division control protein 42 homolog	GAP	CDC42 -[Activation]-> PI3K -[Activation]-> ARF1 -[Activation]-> GAP	19955216	0																																		
+CDC42	G12V	CDC42_HUMAN	CHAIN	Cell division control protein 42 homolog	RhoGDI	CDC42 -[Complex]-> RhoGDI	15225553	0																																		
+CDC42	G12V	CDC42_HUMAN	CHAIN	Cell division control protein 42 homolog	cell migration	CDC42 -[Activation]-> PAK4 -[Inhibition]-> cell migration	26068882	0																																		
+CDC42	G12V	CDC42_HUMAN	CHAIN	Cell division control protein 42 homolog	chromatin remodeling	CDC42 -[Activation]-> HOG1 -[Phosphorylation]-> SKO1 -[Activation]-> chromatin remodeling	23028184	0																																		
+CDC42	G12V	CDC42_HUMAN	CHAIN	Cell division control protein 42 homolog	endocytosis	CDC42 -[Activation]-> endocytosis	24996924	0																																		
+CDC42	G12V	CDC42_HUMAN	CHAIN	Cell division control protein 42 homolog	exocytosis	CDC42 -[Activation]-> exocytosis	24996924	0																																		
+CDC42	G12V	CDC42_HUMAN	CHAIN	Cell division control protein 42 homolog	localization	CDC42 -[Activation]-> localization	20678498	0																																		
+CDC42	G12V	CDC42_HUMAN	CHAIN	Cell division control protein 42 homolog	localization	CDC42 -[Activation]-> localization	26068882	0																																		
+CDC42	G12V	CDC42_HUMAN	CHAIN	Cell division control protein 42 homolog	localization	CDC42 -[Complex]-> BAIAP2 -[Activation]-> localization	24584464	0																																		
+CDC42	G12V	CDC42_HUMAN	CHAIN	Cell division control protein 42 homolog	transcription, DNA-templated	CDC42 -[Activation]-> HOG1 -[Inhibition]-> transcription, DNA-templated	23028184	0																																		
+CDC42	Q61L	CDC42_HUMAN	CHAIN	Cell division control protein 42 homolog	ATPase activity	CDC42 -[Inhibition]-> SMARCA4 -[Complex]-> ATPase activity	34233189	0																																		
+CDC42	Q61L	CDC42_HUMAN	CHAIN	Cell division control protein 42 homolog	Carcinogenesis	CDC42 -[Activation]-> IQGAP1 -[Activation]-> Carcinogenesis	18541705	0																																		
+CDC42	Q61L	CDC42_HUMAN	CHAIN	Cell division control protein 42 homolog	Cell Survival	CDC42 -[DecreaseAmount]-> MYC -[Inhibition]-> Cell Survival	28152508	0																																		
+CDC42	Q61L	CDC42_HUMAN	CHAIN	Cell division control protein 42 homolog	GAP	CDC42 -[Complex]-> RHOQ -[Complex]-> GST -[Complex]-> GAP	9799731	0																																		
+CDC42	Q61L	CDC42_HUMAN	CHAIN	Cell division control protein 42 homolog	Neoplasm Invasiveness	CDC42 -[Activation]-> Neoplasm Invasiveness	26895102	0																																		
+CDC42	Q61L	CDC42_HUMAN	CHAIN	Cell division control protein 42 homolog	Neoplasm Invasiveness	CDC42 -[Complex]-> EXOC -[Inhibition]-> Neoplasm Invasiveness	18541705	0																																		
+CDC42	Q61L	CDC42_HUMAN	CHAIN	Cell division control protein 42 homolog	Neoplasm Metastasis	CDC42 -[Activation]-> DOCK10 -[Activation]-> Neoplasm Metastasis	26895102	0																																		
+CDC42	Q61L	CDC42_HUMAN	CHAIN	Cell division control protein 42 homolog	Neoplasms	CDC42 -[Complex]-> NELL2 -[Inhibition]-> Neoplasms	34233189	0																																		
+CDC42	Q61L	CDC42_HUMAN	CHAIN	Cell division control protein 42 homolog	RhoGDI	CDC42 -[Complex]-> RhoGDI	15225553	0																																		
+CDC42	Q61L	CDC42_HUMAN	CHAIN	Cell division control protein 42 homolog	RhoGDI	CDC42 -[Complex]-> RhoGDI	23538840	0																																		
+CDC42	Q61L	CDC42_HUMAN	CHAIN	Cell division control protein 42 homolog	Sarcoma, Ewing	CDC42 -[Complex]-> NELL2 -[Inhibition]-> Sarcoma, Ewing	34233189	0																																		
+CDC42	Q61L	CDC42_HUMAN	CHAIN	Cell division control protein 42 homolog	actin filament polymerization	CDC42 -[Activation]-> actin filament polymerization	34233189	0																																		
+CDC42	Q61L	CDC42_HUMAN	CHAIN	Cell division control protein 42 homolog	apoptotic process	CDC42 -[DecreaseAmount]-> MYC -[Activation]-> apoptotic process	28152508	0																																		
+CDC42	Q61L	CDC42_HUMAN	CHAIN	Cell division control protein 42 homolog	autocrine signaling	CDC42 -[Complex]-> NELL2 -[Activation]-> autocrine signaling	34233189	0																																		
+CDC42	Q61L	CDC42_HUMAN	CHAIN	Cell division control protein 42 homolog	axon guidance	CDC42 -[Complex]-> NELL2 -[Activation]-> axon guidance	34233189	0																																		
+CDC42	Q61L	CDC42_HUMAN	CHAIN	Cell division control protein 42 homolog	cell cycle	CDC42 -[Activation]-> cell cycle	9799731	0																																		
+CDC42	Q61L	CDC42_HUMAN	CHAIN	Cell division control protein 42 homolog	cell cycle	CDC42 -[DecreaseAmount]-> MYC -[Activation]-> cell cycle	28152508	0																																		
+CDC42	Q61L	CDC42_HUMAN	CHAIN	Cell division control protein 42 homolog	cell death	CDC42 -[DecreaseAmount]-> MYC -[Activation]-> cell death	28152508	0																																		
+CDC42	Q61L	CDC42_HUMAN	CHAIN	Cell division control protein 42 homolog	cell growth	CDC42 -[DecreaseAmount]-> MYC -[Activation]-> cell growth	28152508	0																																		
+CDC42	Q61L	CDC42_HUMAN	CHAIN	Cell division control protein 42 homolog	cell growth	CDC42 -[Phosphorylation]-> HACE1 -[Ubiquitination]-> RAC1 -[Inhibition]-> cell growth	29362425	0																																		
+CDC42	Q61L	CDC42_HUMAN	CHAIN	Cell division control protein 42 homolog	cell population proliferation	CDC42 -[Activation]-> cell population proliferation	10873802	0																																		
+CDC42	Q61L	CDC42_HUMAN	CHAIN	Cell division control protein 42 homolog	cell population proliferation	CDC42 -[Inhibition]-> cell population proliferation	34233189	0																																		
+CDC42	Q61L	CDC42_HUMAN	CHAIN	Cell division control protein 42 homolog	chromatin remodeling	CDC42 -[Complex]-> NELL2 -[Activation]-> chromatin remodeling	34233189	0																																		
+CDC42	Q61L	CDC42_HUMAN	CHAIN	Cell division control protein 42 homolog	endocytosis	CDC42 -[Inhibition]-> endocytosis	23538840	0																																		
+CDC42	Q61L	CDC42_HUMAN	CHAIN	Cell division control protein 42 homolog	gene expression	CDC42 -[Complex]-> NELL2 -[Inhibition]-> gene expression	34233189	0																																		
+CDC42	Q61L	CDC42_HUMAN	CHAIN	Cell division control protein 42 homolog	proteolysis	CDC42 -[Activation]-> IQGAP1 -[Activation]-> proteolysis	18541705	0																																		
+CDC42	Q61L	CDC42_HUMAN	CHAIN	Cell division control protein 42 homolog	proteolysis	CDC42 -[DecreaseAmount]-> MYC -[Inhibition]-> proteolysis	28152508	0																																		
+CDC42	Q61L	CDC42_HUMAN	CHAIN	Cell division control protein 42 homolog	transcription, DNA-templated	CDC42 -[Activation]-> transcription, DNA-templated	9799731	0																																		
+CDC42	Q61L	CDC42_HUMAN	CHAIN	Cell division control protein 42 homolog	transport	CDC42 -[Activation]-> transport	15866890	0																																		
+CDC42	Q61L	CDC42_HUMAN	CHAIN	Cell division control protein 42 homolog	transport	CDC42 -[Activation]-> transport	23538840	0																																		
+CDC42	T17N	CDC42_HUMAN	CHAIN	Cell division control protein 42 homolog	Carcinogenesis	CDC42 -[Activation]-> IQGAP1 -[Activation]-> Carcinogenesis	18541705	0																																		
+CDC42	T17N	CDC42_HUMAN	CHAIN	Cell division control protein 42 homolog	Neoplasm Invasiveness	CDC42 -[Complex]-> EXOC -[Inhibition]-> Neoplasm Invasiveness	18541705	0																																		
+CDC42	T17N	CDC42_HUMAN	CHAIN	Cell division control protein 42 homolog	RhoGDI	CDC42 -[Complex]-> RhoGDI	23538840	0																																		
+CDC42	T17N	CDC42_HUMAN	CHAIN	Cell division control protein 42 homolog	cell cycle	CDC42 -[Activation]-> cell cycle	25002677	0																																		
+CDC42	T17N	CDC42_HUMAN	CHAIN	Cell division control protein 42 homolog	cell migration	CDC42 -[Inhibition]-> cell migration	26905694	0																																		
+CDC42	T17N	CDC42_HUMAN	CHAIN	Cell division control protein 42 homolog	endocytosis	CDC42 -[Inhibition]-> endocytosis	23538840	0																																		
+CDC42	T17N	CDC42_HUMAN	CHAIN	Cell division control protein 42 homolog	proteolysis	CDC42 -[Activation]-> IQGAP1 -[Activation]-> proteolysis	18541705	0																																		
+CDC42	T17N	CDC42_HUMAN	CHAIN	Cell division control protein 42 homolog	transport	CDC42 -[Activation]-> transport	23538840	0																																		

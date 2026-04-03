@@ -1,0 +1,6 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+SHC1	W134F	SHC1_HUMAN	CHAIN	SHC-transforming protein 1	cell growth	SHC1 -[Inhibition]-> cell growth	22561705	0																																		
+SHC1	W134F	SHC1_HUMAN	CHAIN	SHC-transforming protein 1	cell migration	SHC1 -[Activation]-> cell migration	29462661	0																																		
+SHC1	W134F	SHC1_HUMAN	CHAIN	SHC-transforming protein 1	cell population proliferation	SHC1 -[Activation]-> cell population proliferation	22561705	0																																		
+SHC1	W134F	SHC1_HUMAN	CHAIN	SHC-transforming protein 1	oxidoreductase activity	SHC1 -[Complex]-> oxidoreductase activity	22561705	0																																		
+SHC1	Y313F	SHC1_HUMAN	CHAIN;DOMAIN	SHC-transforming protein 1;PID	cell death	SHC1 -[Inhibition]-> cell death	19826412	0																																		

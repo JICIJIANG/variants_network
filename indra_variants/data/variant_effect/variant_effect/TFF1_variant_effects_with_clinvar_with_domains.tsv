@@ -1,0 +1,19 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+TFF1	D263A				Death	TFF1 -[Inhibition]-> calcium(2+) -[Activation]-> Death	20201820	0																																		
+TFF1	D263A				cell death	TFF1 -[Inhibition]-> calcium(2+) -[Activation]-> cell death	20201820	0																																		
+TFF1	D263A				cell population proliferation	TFF1 -[Inhibition]-> calcium(2+) -[Activation]-> cell population proliferation	20201820	0																																		
+TFF1	I141N				cell death	TFF1 -[Activation]-> cell death	10069390	0																																		
+TFF1	M239I				homeostatic process	TFF1 -[Activation]-> homeostatic process	15006697	0																																		
+TFF1	M298D				Alzheimer Disease	TFF1 -[Inhibition]-> PSEN1 -[IncreaseAmount]-> APP -[Activation]-> Alzheimer Disease	19415127	0																																		
+TFF1	N141I				Alzheimer Disease	TFF1 -[Activation]-> Alzheimer Disease	10393846	0																																		
+TFF1	N141I				Alzheimer Disease	TFF1 -[Activation]-> Alzheimer Disease	21234330	0																																		
+TFF1	N141I				Alzheimer Disease	TFF1 -[Activation]-> calcium(2+) -[Activation]-> Alzheimer Disease	31991578	0																																		
+TFF1	N141I				apoptotic process	TFF1 -[Activation]-> apoptotic process	10366599	0																																		
+TFF1	N141I				apoptotic process	TFF1 -[Activation]-> apoptotic process	10491396	0																																		
+TFF1	N141I				apoptotic process	TFF1 -[Inhibition]-> apoptotic process	10393846	0																																		
+TFF1	N141I				cell cycle	TFF1 -[Activation]-> cell cycle	10393846	0																																		
+TFF1	N141I				cell cycle	TFF1 -[Activation]-> cell cycle	19114068	0																																		
+TFF1	N141I				cell death	TFF1 -[Activation]-> Alzheimer Disease -[Activation]-> cell death	10393846	0																																		
+TFF1	N141I				cell death	TFF1 -[Activation]-> cell death	10366599	0																																		
+TFF1	N141I				signal transduction	TFF1 -[Activation]-> CIB1 -[Activation]-> signal transduction	10366599	0																																		
+TFF1	V299A				Alzheimer Disease	TFF1 -[Inhibition]-> PSEN1 -[IncreaseAmount]-> APP -[Activation]-> Alzheimer Disease	19415127	0																																		

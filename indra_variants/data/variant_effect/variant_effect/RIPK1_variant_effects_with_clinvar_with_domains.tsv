@@ -1,0 +1,120 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+RIPK1	D138N	RIPK1_HUMAN	CHAIN;DOMAIN	;Protein kinase	Alzheimer Disease	RIPK1 -[Activation]-> inflammatory response -[Activation]-> Alzheimer Disease	30467385	0																																		
+RIPK1	D138N	RIPK1_HUMAN	CHAIN;DOMAIN	;Protein kinase	Death	RIPK1 -[Activation]-> Death	25015821	0																																		
+RIPK1	D138N	RIPK1_HUMAN	CHAIN;DOMAIN	;Protein kinase	Death	RIPK1 -[Activation]-> Death	30737145	0																																		
+RIPK1	D138N	RIPK1_HUMAN	CHAIN;DOMAIN	;Protein kinase	Necrosis	RIPK1 -[Activation]-> necroptotic process -[Activation]-> Necrosis	30467385	0																																		
+RIPK1	D138N	RIPK1_HUMAN	CHAIN;DOMAIN	;Protein kinase	apoptotic process	RIPK1 -[Activation]-> TNIP1 -[Activation]-> apoptotic process	29203883	0																																		
+RIPK1	D138N	RIPK1_HUMAN	CHAIN;DOMAIN	;Protein kinase	apoptotic process	RIPK1 -[Activation]-> apoptotic process	25015821	0																																		
+RIPK1	D138N	RIPK1_HUMAN	CHAIN;DOMAIN	;Protein kinase	apoptotic process	RIPK1 -[Activation]-> apoptotic process	25459879	0																																		
+RIPK1	D138N	RIPK1_HUMAN	CHAIN;DOMAIN	;Protein kinase	cell death	RIPK1 -[Activation]-> cell death	29203883	0																																		
+RIPK1	D138N	RIPK1_HUMAN	CHAIN;DOMAIN	;Protein kinase	cell death	RIPK1 -[Activation]-> cell death	30467385	0																																		
+RIPK1	D138N	RIPK1_HUMAN	CHAIN;DOMAIN	;Protein kinase	cell death	RIPK1 -[Inhibition]-> cell death	25459879	0																																		
+RIPK1	D138N	RIPK1_HUMAN	CHAIN;DOMAIN	;Protein kinase	cell death	RIPK1 -[Inhibition]-> cell death	30737145	0																																		
+RIPK1	D138N	RIPK1_HUMAN	CHAIN;DOMAIN	;Protein kinase	inflammatory response	RIPK1 -[Activation]-> inflammatory response	25459879	0																																		
+RIPK1	D138N	RIPK1_HUMAN	CHAIN;DOMAIN	;Protein kinase	inflammatory response	RIPK1 -[Activation]-> inflammatory response	27493188	0																																		
+RIPK1	D138N	RIPK1_HUMAN	CHAIN;DOMAIN	;Protein kinase	inflammatory response	RIPK1 -[Activation]-> inflammatory response	27959630	0																																		
+RIPK1	D138N	RIPK1_HUMAN	CHAIN;DOMAIN	;Protein kinase	inflammatory response	RIPK1 -[Activation]-> inflammatory response	30467385	0																																		
+RIPK1	D138N	RIPK1_HUMAN	CHAIN;DOMAIN	;Protein kinase	necroptotic process	RIPK1 -[Activation]-> necroptotic process	25015821	0																																		
+RIPK1	D138N	RIPK1_HUMAN	CHAIN;DOMAIN	;Protein kinase	necroptotic process	RIPK1 -[Activation]-> necroptotic process	30467385	0																																		
+RIPK1	D138N	RIPK1_HUMAN	CHAIN;DOMAIN	;Protein kinase	necroptotic process	RIPK1 -[Complex]-> OPTN -[Activation]-> necroptotic process	27493188	0																																		
+RIPK1	D138N	RIPK1_HUMAN	CHAIN;DOMAIN	;Protein kinase	necroptotic process	RIPK1 -[Inhibition]-> necroptotic process	25459879	0																																		
+RIPK1	D138N	RIPK1_HUMAN	CHAIN;DOMAIN	;Protein kinase	necroptotic process	RIPK1 -[Inhibition]-> necroptotic process	27959630	0																																		
+RIPK1	D138N	RIPK1_HUMAN	CHAIN;DOMAIN	;Protein kinase	necroptotic process	RIPK1 -[Inhibition]-> necroptotic process	29203883	0																																		
+RIPK1	D138N	RIPK1_HUMAN	CHAIN;DOMAIN	;Protein kinase	necrotic cell death	RIPK1 -[Inhibition]-> necroptotic process -[Activation]-> necrotic cell death	27959630	0																																		
+RIPK1	D138N	RIPK1_HUMAN	CHAIN;DOMAIN	;Protein kinase	necrotic cell death	RIPK1 -[Inhibition]-> necrotic cell death	29203883	0																																		
+RIPK1	D138N	RIPK1_HUMAN	CHAIN;DOMAIN	;Protein kinase	signal transduction	RIPK1 -[Activation]-> signal transduction	27959630	0																																		
+RIPK1	D138N	RIPK1_HUMAN	CHAIN;DOMAIN	;Protein kinase	signal transduction	RIPK1 -[Inhibition]-> signal transduction	30467385	0																																		
+RIPK1	D324K	RIPK1_HUMAN	CHAIN;REGION	;Interaction with SQSTM1	Neoplasm Metastasis	RIPK1 -[Activation]-> Neoplasm Metastasis	33980862	0																																		
+RIPK1	D324K	RIPK1_HUMAN	CHAIN;REGION	;Interaction with SQSTM1	apoptotic process	RIPK1 -[Activation]-> AQP1 -[Activation]-> apoptotic process	33980862	0																																		
+RIPK1	D324K	RIPK1_HUMAN	CHAIN;REGION	;Interaction with SQSTM1	cell death	RIPK1 -[Activation]-> AQP1 -[Activation]-> cell death	33980862	0																																		
+RIPK1	D324K	RIPK1_HUMAN	CHAIN;REGION	;Interaction with SQSTM1	necroptotic process	RIPK1 -[Activation]-> AQP1 -[Activation]-> necroptotic process	33980862	0																																		
+RIPK1	D325A	RIPK1_HUMAN	CHAIN;REGION	;Interaction with SQSTM1	cell death	RIPK1 -[Activation]-> cell death	31827281	0																																		
+RIPK1	D325A	RIPK1_HUMAN	CHAIN;REGION	;Interaction with SQSTM1	cell death	RIPK1 -[Activation]-> cell death	33805003	0																																		
+RIPK1	D325A	RIPK1_HUMAN	CHAIN;REGION	;Interaction with SQSTM1	inflammatory response	RIPK1 -[Activation]-> cell death -[Activation]-> inflammatory response	31827281	0																																		
+RIPK1	D325A	RIPK1_HUMAN	CHAIN;REGION	;Interaction with SQSTM1	necroptotic process	RIPK1 -[Inhibition]-> necroptotic process	31827281	0																																		
+RIPK1	I533D	RIPK1_HUMAN	CHAIN;REGION;MOTIF	;Interaction with SQSTM1;RIP homotypic interaction motif (RHIM)	necroptotic process	RIPK1 -[Activation]-> necroptotic process	33712586	0																																		
+RIPK1	I533D	RIPK1_HUMAN	CHAIN;REGION;MOTIF	;Interaction with SQSTM1;RIP homotypic interaction motif (RHIM)	necrotic cell death	RIPK1 -[Inhibition]-> RIPK3 -[Inhibition]-> necrotic cell death	33712586	0																																		
+RIPK1	K115R	RIPK1_HUMAN	CHAIN;DOMAIN	;Protein kinase	cell death	RIPK1 -[Inhibition]-> cell death	27518435	0																																		
+RIPK1	K115R	RIPK1_HUMAN	CHAIN;DOMAIN	;Protein kinase	necroptotic process	RIPK1 -[Activation]-> necroptotic process	27518435	0																																		
+RIPK1	K376R	RIPK1_HUMAN	CHAIN;REGION	;Interaction with SQSTM1	Death	RIPK1 -[Inhibition]-> Death	32999468	0																																		
+RIPK1	K376R	RIPK1_HUMAN	CHAIN;REGION	;Interaction with SQSTM1	Neoplasms	RIPK1 -[Inhibition]-> Neoplasms	31519887	0																																		
+RIPK1	K376R	RIPK1_HUMAN	CHAIN;REGION	;Interaction with SQSTM1	apoptotic process	RIPK1 -[Activation]-> apoptotic process	31519887	0																																		
+RIPK1	K376R	RIPK1_HUMAN	CHAIN;REGION	;Interaction with SQSTM1	cell death	RIPK1 -[Inhibition]-> cell death	31519887	0																																		
+RIPK1	K376R	RIPK1_HUMAN	CHAIN;REGION	;Interaction with SQSTM1	cell death	RIPK1 -[Inhibition]-> cell death	32999468	0																																		
+RIPK1	K376R	RIPK1_HUMAN	CHAIN;REGION	;Interaction with SQSTM1	inflammatory response	RIPK1 -[Activation]-> inflammatory response	31519887	0																																		
+RIPK1	K376R	RIPK1_HUMAN	CHAIN;REGION	;Interaction with SQSTM1	inflammatory response	RIPK1 -[Phosphorylation]-> RIPK3 -[Inhibition]-> inflammatory response	32999468	0																																		
+RIPK1	K376R	RIPK1_HUMAN	CHAIN;REGION	;Interaction with SQSTM1	necroptotic process	RIPK1 -[Activation]-> necroptotic process	31519887	0																																		
+RIPK1	K377R	RIPK1_HUMAN	CHAIN;REGION	;Interaction with SQSTM1	Cell Survival	RIPK1 -[Complex]-> TNFRSF1A -[Activation]-> Cell Survival	20237426	0																																		
+RIPK1	K377R	RIPK1_HUMAN	CHAIN;REGION	;Interaction with SQSTM1	Death	RIPK1 -[Activation]-> Death	20237426	0																																		
+RIPK1	K377R	RIPK1_HUMAN	CHAIN;REGION	;Interaction with SQSTM1	Infections	RIPK1 -[Activation]-> NFkappaB -[Complex]-> TNF -[Activation]-> Infections	28570668	0																																		
+RIPK1	K377R	RIPK1_HUMAN	CHAIN;REGION	;Interaction with SQSTM1	apoptotic process	RIPK1 -[Activation]-> apoptotic process	20237426	0																																		
+RIPK1	K377R	RIPK1_HUMAN	CHAIN;REGION	;Interaction with SQSTM1	apoptotic process	RIPK1 -[Activation]-> apoptotic process	24098568	0																																		
+RIPK1	K377R	RIPK1_HUMAN	CHAIN;REGION	;Interaction with SQSTM1	cell death	RIPK1 -[Activation]-> cell death	20237426	0																																		
+RIPK1	K377R	RIPK1_HUMAN	CHAIN;REGION	;Interaction with SQSTM1	cell death	RIPK1 -[Activation]-> cell death	28570668	0																																		
+RIPK1	K377R	RIPK1_HUMAN	CHAIN;REGION	;Interaction with SQSTM1	inflammatory response	RIPK1 -[Inhibition]-> necrotic cell death -[Activation]-> inflammatory response	24098568	0																																		
+RIPK1	K377R	RIPK1_HUMAN	CHAIN;REGION	;Interaction with SQSTM1	necrotic cell death	RIPK1 -[Inhibition]-> necrotic cell death	20237426	0																																		
+RIPK1	K377R	RIPK1_HUMAN	CHAIN;REGION	;Interaction with SQSTM1	necrotic cell death	RIPK1 -[Inhibition]-> necrotic cell death	24098568	0																																		
+RIPK1	K377R	RIPK1_HUMAN	CHAIN;REGION	;Interaction with SQSTM1	transcription, DNA-templated	RIPK1 -[Activation]-> NFkappaB -[Activation]-> transcription, DNA-templated	20237426	0																																		
+RIPK1	K45A	RIPK1_HUMAN	CHAIN;DOMAIN	;Protein kinase	Death	RIPK1 -[Activation]-> Death	29789521	0																																		
+RIPK1	K45A	RIPK1_HUMAN	CHAIN;DOMAIN	;Protein kinase	Death	RIPK1 -[Activation]-> Death	30050136	0																																		
+RIPK1	K45A	RIPK1_HUMAN	CHAIN;DOMAIN	;Protein kinase	Death	RIPK1 -[Activation]-> Death	30136236	0																																		
+RIPK1	K45A	RIPK1_HUMAN	CHAIN;DOMAIN	;Protein kinase	cell death	RIPK1 -[Complex]-> RIPK3 -[Inhibition]-> cell death	30050136	0																																		
+RIPK1	K45A	RIPK1_HUMAN	CHAIN;DOMAIN	;Protein kinase	necroptotic process	RIPK1 -[Activation]-> necroptotic process	29789521	0																																		
+RIPK1	K45A	RIPK1_HUMAN	CHAIN;DOMAIN	;Protein kinase	necroptotic process	RIPK1 -[Activation]-> necroptotic process	30136236	0																																		
+RIPK1	K45A	RIPK1_HUMAN	CHAIN;DOMAIN	;Protein kinase	necroptotic process	RIPK1 -[Activation]-> necroptotic process	35858757	0																																		
+RIPK1	K45A	RIPK1_HUMAN	CHAIN;DOMAIN	;Protein kinase	necroptotic process	RIPK1 -[Complex]-> RIPK3 -[Activation]-> necroptotic process	30050136	0																																		
+RIPK1	K45M	RIPK1_HUMAN	CHAIN;DOMAIN	;Protein kinase	Cell Survival	RIPK1 -[Complex]-> AMPK -[Activation]-> Cell Survival	37384704	0																																		
+RIPK1	K45M	RIPK1_HUMAN	CHAIN;DOMAIN	;Protein kinase	Death_receptor	RIPK1 -[Activation]-> Death_receptor	37384704	0																																		
+RIPK1	K45M	RIPK1_HUMAN	CHAIN;DOMAIN	;Protein kinase	Osteosarcoma	RIPK1 -[Activation]-> glucose -[Activation]-> Osteosarcoma	37384704	0																																		
+RIPK1	K45M	RIPK1_HUMAN	CHAIN;DOMAIN	;Protein kinase	Reperfusion Injury	RIPK1 -[Activation]-> Reperfusion Injury	37384704	0																																		
+RIPK1	K45M	RIPK1_HUMAN	CHAIN;DOMAIN	;Protein kinase	Starvation	RIPK1 -[Activation]-> Starvation	37384704	0																																		
+RIPK1	K45M	RIPK1_HUMAN	CHAIN;DOMAIN	;Protein kinase	apoptotic process	RIPK1 -[Activation]-> apoptotic process	37384704	0																																		
+RIPK1	K45M	RIPK1_HUMAN	CHAIN;DOMAIN	;Protein kinase	cell death	RIPK1 -[Inhibition]-> cell death	37384704	0																																		
+RIPK1	K45M	RIPK1_HUMAN	CHAIN;DOMAIN	;Protein kinase	gene expression	RIPK1 -[Inhibition]-> gene expression	37384704	0																																		
+RIPK1	K45M	RIPK1_HUMAN	CHAIN;DOMAIN	;Protein kinase	inflammatory response	RIPK1 -[Activation]-> inflammatory response	37384704	0																																		
+RIPK1	K45M	RIPK1_HUMAN	CHAIN;DOMAIN	;Protein kinase	necroptotic process	RIPK1 -[Activation]-> necroptotic process	37384704	0																																		
+RIPK1	K612R	RIPK1_HUMAN	CHAIN;DOMAIN	;Death	Cell Survival	RIPK1 -[Activation]-> Cell Survival	33311474	0																																		
+RIPK1	K612R	RIPK1_HUMAN	CHAIN;DOMAIN	;Death	apoptotic process	RIPK1 -[Activation]-> apoptotic process	34162724	0																																		
+RIPK1	K612R	RIPK1_HUMAN	CHAIN;DOMAIN	;Death	apoptotic process	RIPK1 -[Inhibition]-> apoptotic process	33311474	0																																		
+RIPK1	K612R	RIPK1_HUMAN	CHAIN;DOMAIN	;Death	cell death	RIPK1 -[Activation]-> cell death	34162724	0																																		
+RIPK1	K612R	RIPK1_HUMAN	CHAIN;DOMAIN	;Death	inflammatory response	RIPK1 -[Activation]-> inflammatory response	33311474	0																																		
+RIPK1	K612R	RIPK1_HUMAN	CHAIN;DOMAIN	;Death	necroptotic process	RIPK1 -[Activation]-> necroptotic process	34162724	0																																		
+RIPK1	K612R	RIPK1_HUMAN	CHAIN;DOMAIN	;Death	necroptotic process	RIPK1 -[Inhibition]-> necroptotic process	33311474	0																																		
+RIPK1	K627R	RIPK1_HUMAN	CHAIN;DOMAIN	;Death	Cell Survival	RIPK1 -[Activation]-> Cell Survival	33311474	0																																		
+RIPK1	K627R	RIPK1_HUMAN	CHAIN;DOMAIN	;Death	apoptotic process	RIPK1 -[Inhibition]-> apoptotic process	33311474	0																																		
+RIPK1	K627R	RIPK1_HUMAN	CHAIN;DOMAIN	;Death	inflammatory response	RIPK1 -[Activation]-> inflammatory response	33311474	0																																		
+RIPK1	K627R	RIPK1_HUMAN	CHAIN;DOMAIN	;Death	necroptotic process	RIPK1 -[Inhibition]-> necroptotic process	33311474	0																																		
+RIPK1	M547D	RIPK1_HUMAN	CHAIN;REGION;MOTIF	;Interaction with SQSTM1;RIP homotypic interaction motif (RHIM)	necroptotic process	RIPK1 -[Activation]-> necroptotic process	33712586	0																																		
+RIPK1	M547D	RIPK1_HUMAN	CHAIN;REGION;MOTIF	;Interaction with SQSTM1;RIP homotypic interaction motif (RHIM)	necrotic cell death	RIPK1 -[Inhibition]-> RIPK3 -[Inhibition]-> necrotic cell death	33712586	0																																		
+RIPK1	P195A	RIPK1_HUMAN	CHAIN;DOMAIN	;Protein kinase	Cell Survival	RIPK1 -[Activation]-> VHL -[Complex]-> HIF1 -[Activation]-> Cell Survival	37400498	0																																		
+RIPK1	P195A	RIPK1_HUMAN	CHAIN;DOMAIN	;Protein kinase	Death	RIPK1 -[Activation]-> Death	37400498	0																																		
+RIPK1	P195A	RIPK1_HUMAN	CHAIN;DOMAIN	;Protein kinase	Fibrosis	RIPK1 -[Activation]-> Fibrosis	37400498	0																																		
+RIPK1	P195A	RIPK1_HUMAN	CHAIN;DOMAIN	;Protein kinase	Weight Gain	RIPK1 -[Activation]-> VHL -[Activation]-> Weight Gain	37400498	0																																		
+RIPK1	P195A	RIPK1_HUMAN	CHAIN;DOMAIN	;Protein kinase	apoptotic process	RIPK1 -[Activation]-> apoptotic process	37400498	0																																		
+RIPK1	P195A	RIPK1_HUMAN	CHAIN;DOMAIN	;Protein kinase	cell death	RIPK1 -[Inhibition]-> cell death	37400498	0																																		
+RIPK1	P195A	RIPK1_HUMAN	CHAIN;DOMAIN	;Protein kinase	inflammatory response	RIPK1 -[Activation]-> inflammatory response	37400498	0																																		
+RIPK1	P195A	RIPK1_HUMAN	CHAIN;DOMAIN	;Protein kinase	lipid metabolic process	RIPK1 -[Activation]-> VHL -[Inhibition]-> lipid metabolic process	37400498	0																																		
+RIPK1	P195A	RIPK1_HUMAN	CHAIN;DOMAIN	;Protein kinase	necroptotic process	RIPK1 -[Activation]-> necroptotic process	37400498	0																																		
+RIPK1	P195A	RIPK1_HUMAN	CHAIN;DOMAIN	;Protein kinase	response to hypoxia	RIPK1 -[Inhibition]-> response to hypoxia	37400498	0																																		
+RIPK1	P196A	RIPK1_HUMAN	CHAIN;DOMAIN	;Protein kinase	Cell Survival	RIPK1 -[Activation]-> VHL -[Complex]-> HIF1 -[Activation]-> Cell Survival	37400498	0																																		
+RIPK1	P196A	RIPK1_HUMAN	CHAIN;DOMAIN	;Protein kinase	Death	RIPK1 -[Activation]-> Death	37400498	0																																		
+RIPK1	P196A	RIPK1_HUMAN	CHAIN;DOMAIN	;Protein kinase	Fibrosis	RIPK1 -[Activation]-> Fibrosis	37400498	0																																		
+RIPK1	P196A	RIPK1_HUMAN	CHAIN;DOMAIN	;Protein kinase	Weight Gain	RIPK1 -[Activation]-> VHL -[Activation]-> Weight Gain	37400498	0																																		
+RIPK1	P196A	RIPK1_HUMAN	CHAIN;DOMAIN	;Protein kinase	apoptotic process	RIPK1 -[Activation]-> apoptotic process	37400498	0																																		
+RIPK1	P196A	RIPK1_HUMAN	CHAIN;DOMAIN	;Protein kinase	cell death	RIPK1 -[Inhibition]-> cell death	37400498	0																																		
+RIPK1	P196A	RIPK1_HUMAN	CHAIN;DOMAIN	;Protein kinase	inflammatory response	RIPK1 -[Activation]-> inflammatory response	37400498	0																																		
+RIPK1	P196A	RIPK1_HUMAN	CHAIN;DOMAIN	;Protein kinase	lipid metabolic process	RIPK1 -[Activation]-> VHL -[Inhibition]-> lipid metabolic process	37400498	0																																		
+RIPK1	P196A	RIPK1_HUMAN	CHAIN;DOMAIN	;Protein kinase	necroptotic process	RIPK1 -[Activation]-> necroptotic process	37400498	0																																		
+RIPK1	P196A	RIPK1_HUMAN	CHAIN;DOMAIN	;Protein kinase	response to hypoxia	RIPK1 -[Inhibition]-> response to hypoxia	37400498	0																																		
+RIPK1	S161E	RIPK1_HUMAN	CHAIN;DOMAIN	;Protein kinase	necroptotic process	RIPK1 -[Activation]-> necroptotic process	20045303	0																																		
+RIPK1	S415A	RIPK1_HUMAN	CHAIN;REGION;REGION	;Interaction with SQSTM1;Disordered	Cell Survival	RIPK1 -[Complex]-> AMPK -[Activation]-> Cell Survival	37384704	0																																		
+RIPK1	S415A	RIPK1_HUMAN	CHAIN;REGION;REGION	;Interaction with SQSTM1;Disordered	Death_receptor	RIPK1 -[Activation]-> Death_receptor	37384704	0																																		
+RIPK1	S415A	RIPK1_HUMAN	CHAIN;REGION;REGION	;Interaction with SQSTM1;Disordered	Insulin Resistance	RIPK1 -[Activation]-> Insulin Resistance	35156314	0																																		
+RIPK1	S415A	RIPK1_HUMAN	CHAIN;REGION;REGION	;Interaction with SQSTM1;Disordered	Osteosarcoma	RIPK1 -[Activation]-> glucose -[Activation]-> Osteosarcoma	37384704	0																																		
+RIPK1	S415A	RIPK1_HUMAN	CHAIN;REGION;REGION	;Interaction with SQSTM1;Disordered	Reperfusion Injury	RIPK1 -[Activation]-> Reperfusion Injury	37384704	0																																		
+RIPK1	S415A	RIPK1_HUMAN	CHAIN;REGION;REGION	;Interaction with SQSTM1;Disordered	Starvation	RIPK1 -[Activation]-> Starvation	37384704	0																																		
+RIPK1	S415A	RIPK1_HUMAN	CHAIN;REGION;REGION	;Interaction with SQSTM1;Disordered	apoptotic process	RIPK1 -[Activation]-> apoptotic process	37384704	0																																		
+RIPK1	S415A	RIPK1_HUMAN	CHAIN;REGION;REGION	;Interaction with SQSTM1;Disordered	cell death	RIPK1 -[Inhibition]-> cell death	37384704	0																																		
+RIPK1	S415A	RIPK1_HUMAN	CHAIN;REGION;REGION	;Interaction with SQSTM1;Disordered	gene expression	RIPK1 -[Inhibition]-> gene expression	37384704	0																																		
+RIPK1	S415A	RIPK1_HUMAN	CHAIN;REGION;REGION	;Interaction with SQSTM1;Disordered	inflammatory response	RIPK1 -[Activation]-> inflammatory response	37384704	0																																		
+RIPK1	S415A	RIPK1_HUMAN	CHAIN;REGION;REGION	;Interaction with SQSTM1;Disordered	necroptotic process	RIPK1 -[Activation]-> necroptotic process	37384704	0																																		

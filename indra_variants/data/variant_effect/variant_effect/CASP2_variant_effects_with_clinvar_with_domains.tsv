@@ -1,0 +1,10 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+CASP2	C320S	CASP2_HUMAN	CHAIN	Caspase-2 subunit p18	DNA Damage	CASP2 -[Inhibition]-> DNA Damage	27991927	0																																		
+CASP2	C320S	CASP2_HUMAN	CHAIN	Caspase-2 subunit p18	apoptotic process	CASP2 -[Activation]-> apoptotic process	27991927	0																																		
+CASP2	C320S	CASP2_HUMAN	CHAIN	Caspase-2 subunit p18	cell cycle	CASP2 -[Inhibition]-> cell cycle	27991927	0																																		
+CASP2	C320S	CASP2_HUMAN	CHAIN	Caspase-2 subunit p18	cell death	CASP2 -[Inhibition]-> cell death	27991927	0																																		
+CASP2	S384E	CASP2_HUMAN	CHAIN;CHAIN	Caspase-2 subunit p13;Caspase-2 subunit p12	apoptotic process	CASP2 -[Complex]-> AURKB -[Inhibition]-> apoptotic process	32811973	0																																		
+CASP2	S384E	CASP2_HUMAN	CHAIN;CHAIN	Caspase-2 subunit p13;Caspase-2 subunit p12	cell cycle	CASP2 -[Complex]-> AURKB -[Activation]-> cell cycle	32811973	0																																		
+CASP2	S384E	CASP2_HUMAN	CHAIN;CHAIN	Caspase-2 subunit p13;Caspase-2 subunit p12	cell death	CASP2 -[Inhibition]-> cell death	32811973	0																																		
+CASP2	S384E	CASP2_HUMAN	CHAIN;CHAIN	Caspase-2 subunit p13;Caspase-2 subunit p12	cell population proliferation	CASP2 -[Inhibition]-> cell population proliferation	32811973	0																																		
+CASP2	S384E	CASP2_HUMAN	CHAIN;CHAIN	Caspase-2 subunit p13;Caspase-2 subunit p12	cytokinesis	CASP2 -[Complex]-> AURKB -[Inhibition]-> cytokinesis	32811973	0																																		

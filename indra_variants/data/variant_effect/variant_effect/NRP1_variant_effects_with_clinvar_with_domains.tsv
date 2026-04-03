@@ -1,0 +1,23 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+NRP1	D320A	NRP1_HUMAN	CHAIN;DOMAIN	Neuropilin-1;F5/8 type C 1	Cell Survival	NRP1 -[Inhibition]-> VEGF -[Activation]-> Cell Survival	21653826	0																																		
+NRP1	D320A	NRP1_HUMAN	CHAIN;DOMAIN	Neuropilin-1;F5/8 type C 1	angiogenesis	NRP1 -[Inhibition]-> angiogenesis	21653826	0																																		
+NRP1	D320A	NRP1_HUMAN	CHAIN;DOMAIN	Neuropilin-1;F5/8 type C 1	cell adhesion	NRP1 -[Inhibition]-> cell adhesion	21653826	0																																		
+NRP1	D320A	NRP1_HUMAN	CHAIN;DOMAIN	Neuropilin-1;F5/8 type C 1	cell migration	NRP1 -[Inhibition]-> VEGF -[Activation]-> cell migration	21653826	0																																		
+NRP1	D320A	NRP1_HUMAN	CHAIN;DOMAIN	Neuropilin-1;F5/8 type C 1	cell population proliferation	NRP1 -[Inhibition]-> VEGF -[Activation]-> cell population proliferation	21653826	0																																		
+NRP1	D320K	NRP1_HUMAN	CHAIN;DOMAIN	Neuropilin-1;F5/8 type C 1	PDGF	NRP1 -[Inhibition]-> PDGF	26849476	0																																		
+NRP1	D320K	NRP1_HUMAN	CHAIN;DOMAIN	Neuropilin-1;F5/8 type C 1	angiogenesis	NRP1 -[Inhibition]-> VEGF -[Activation]-> angiogenesis	25244320	0																																		
+NRP1	D320K	NRP1_HUMAN	CHAIN;DOMAIN	Neuropilin-1;F5/8 type C 1	angiogenesis	NRP1 -[Inhibition]-> angiogenesis	26849476	0																																		
+NRP1	D320K	NRP1_HUMAN	CHAIN;DOMAIN	Neuropilin-1;F5/8 type C 1	cell adhesion	NRP1 -[Activation]-> cell adhesion	26849476	0																																		
+NRP1	D320K	NRP1_HUMAN	CHAIN;DOMAIN	Neuropilin-1;F5/8 type C 1	cell population proliferation	NRP1 -[Activation]-> cell population proliferation	26849476	0																																		
+NRP1	D320K	NRP1_HUMAN	CHAIN;DOMAIN	Neuropilin-1;F5/8 type C 1	coreceptor activity	NRP1 -[Complex]-> coreceptor activity	25244320	0																																		
+NRP1	S612A	NRP1_HUMAN	CHAIN	Neuropilin-1	PDGF	NRP1 -[Activation]-> PDGF	21306301	0																																		
+NRP1	S612A	NRP1_HUMAN	CHAIN	Neuropilin-1	cell migration	NRP1 -[Activation]-> cell migration	21306301	0																																		
+NRP1	S612A	NRP1_HUMAN	CHAIN	Neuropilin-1	chemotaxis	NRP1 -[Activation]-> PDGF_BB -[Activation]-> chemotaxis	21306301	0																																		
+NRP1	Y297A	NRP1_HUMAN	CHAIN;DOMAIN	Neuropilin-1;F5/8 type C 1	Cell Survival	NRP1 -[Inhibition]-> VEGF -[Activation]-> Cell Survival	21653826	0																																		
+NRP1	Y297A	NRP1_HUMAN	CHAIN;DOMAIN	Neuropilin-1;F5/8 type C 1	angiogenesis	NRP1 -[Activation]-> VEGF -[Inhibition]-> angiogenesis	24401374	0																																		
+NRP1	Y297A	NRP1_HUMAN	CHAIN;DOMAIN	Neuropilin-1;F5/8 type C 1	angiogenesis	NRP1 -[Inhibition]-> VEGF -[Activation]-> angiogenesis	25244320	0																																		
+NRP1	Y297A	NRP1_HUMAN	CHAIN;DOMAIN	Neuropilin-1;F5/8 type C 1	angiogenesis	NRP1 -[Inhibition]-> angiogenesis	21653826	0																																		
+NRP1	Y297A	NRP1_HUMAN	CHAIN;DOMAIN	Neuropilin-1;F5/8 type C 1	cell adhesion	NRP1 -[Inhibition]-> cell adhesion	21653826	0																																		
+NRP1	Y297A	NRP1_HUMAN	CHAIN;DOMAIN	Neuropilin-1;F5/8 type C 1	cell migration	NRP1 -[Inhibition]-> VEGF -[Activation]-> cell migration	21653826	0																																		
+NRP1	Y297A	NRP1_HUMAN	CHAIN;DOMAIN	Neuropilin-1;F5/8 type C 1	cell population proliferation	NRP1 -[Inhibition]-> VEGF -[Activation]-> cell population proliferation	21653826	0																																		
+NRP1	Y297A	NRP1_HUMAN	CHAIN;DOMAIN	Neuropilin-1;F5/8 type C 1	coreceptor activity	NRP1 -[Complex]-> coreceptor activity	25244320	0																																		

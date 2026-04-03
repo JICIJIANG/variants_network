@@ -1,0 +1,9 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+TAS1R3	S350D	TS1R3_HUMAN	CHAIN	Taste receptor type 1 member 3	angiogenesis	TAS1R3 -[Activation]-> angiogenesis	30391133	0																																		
+TAS1R3	S350D	TS1R3_HUMAN	CHAIN	Taste receptor type 1 member 3	cell adhesion	TAS1R3 -[Activation]-> cell adhesion	30391133	0																																		
+TAS1R3	S350D	TS1R3_HUMAN	CHAIN	Taste receptor type 1 member 3	cell growth	TAS1R3 -[Activation]-> cell growth	30391133	0																																		
+TAS1R3	S350D	TS1R3_HUMAN	CHAIN	Taste receptor type 1 member 3	cell migration	TAS1R3 -[Activation]-> Integrins -[Activation]-> cell migration	30391133	0																																		
+TAS1R3	S350D	TS1R3_HUMAN	CHAIN	Taste receptor type 1 member 3	cell population proliferation	TAS1R3 -[Activation]-> cell population proliferation	30391133	0																																		
+TAS1R3	S351D	TS1R3_HUMAN	CHAIN	Taste receptor type 1 member 3	angiogenesis	TAS1R3 -[Activation]-> angiogenesis	26155943	0																																		
+TAS1R3	S351D	TS1R3_HUMAN	CHAIN	Taste receptor type 1 member 3	cell growth	TAS1R3 -[Activation]-> cell growth	26155943	0																																		
+TAS1R3	S351D	TS1R3_HUMAN	CHAIN	Taste receptor type 1 member 3	cell population proliferation	TAS1R3 -[Activation]-> cell population proliferation	26155943	0																																		

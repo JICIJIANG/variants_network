@@ -1,0 +1,64 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+BCL2	A43A	BCL2_HUMAN	CHAIN;REGION	Apoptosis regulator Bcl-2;Disordered	Cell Survival	BCL2 -[Activation]-> Cell Survival	17561354	0																																		
+BCL2	A43A	BCL2_HUMAN	CHAIN;REGION	Apoptosis regulator Bcl-2;Disordered	apoptotic process	BCL2 -[Complex]-> FAS -[Activation]-> apoptotic process	17561354	0																																		
+BCL2	D34A	BCL2_HUMAN	CHAIN	Apoptosis regulator Bcl-2	Cell Survival	BCL2 -[Activation]-> Cell Survival	10359585	0																																		
+BCL2	D34A	BCL2_HUMAN	CHAIN	Apoptosis regulator Bcl-2	apoptotic process	BCL2 -[Inhibition]-> apoptotic process	10359585	0																																		
+BCL2	F104L	BCL2_HUMAN	CHAIN;REGION;MOTIF	Apoptosis regulator Bcl-2;;BH3	Death	BCL2 -[Inhibition]-> venetoclax -[Activation]-> Death	35904479	0																																		
+BCL2	F104L	BCL2_HUMAN	CHAIN;REGION;MOTIF	Apoptosis regulator Bcl-2;;BH3	Leukemia, B-Cell	BCL2 -[Inhibition]-> venetoclax -[Activation]-> Leukemia, B-Cell	35904479	0																																		
+BCL2	F104L	BCL2_HUMAN	CHAIN;REGION;MOTIF	Apoptosis regulator Bcl-2;;BH3	Lymphoma	BCL2 -[Activation]-> Lymphoma	35904479	0																																		
+BCL2	F104L	BCL2_HUMAN	CHAIN;REGION;MOTIF	Apoptosis regulator Bcl-2;;BH3	Lymphoma, Non-Hodgkin	BCL2 -[Inhibition]-> CARTPT -[Activation]-> Lymphoma, Non-Hodgkin	35904479	0																																		
+BCL2	F104L	BCL2_HUMAN	CHAIN;REGION;MOTIF	Apoptosis regulator Bcl-2;;BH3	Neoplasms	BCL2 -[Activation]-> Neoplasms	35904479	0																																		
+BCL2	F104L	BCL2_HUMAN	CHAIN;REGION;MOTIF	Apoptosis regulator Bcl-2;;BH3	apoptotic process	BCL2 -[Activation]-> apoptotic process	35904479	0																																		
+BCL2	F104L	BCL2_HUMAN	CHAIN;REGION;MOTIF	Apoptosis regulator Bcl-2;;BH3	cell cycle	BCL2 -[Inhibition]-> venetoclax -[Inhibition]-> cell cycle	35904479	0																																		
+BCL2	G101V	BCL2_HUMAN	CHAIN;REGION;MOTIF	Apoptosis regulator Bcl-2;;BH3	apoptotic process	BCL2 -[Inhibition]-> apoptotic process	31160589	0																																		
+BCL2	G145A	BCL2_HUMAN	CHAIN;MOTIF	Apoptosis regulator Bcl-2;BH1	DNA repair	BCL2 -[Inhibition]-> DNA repair	22677530	0																																		
+BCL2	G145A	BCL2_HUMAN	CHAIN;MOTIF	Apoptosis regulator Bcl-2;BH1	Death	BCL2 -[Inhibition]-> PARP1 -[Inhibition]-> Death	22677530	0																																		
+BCL2	G145A	BCL2_HUMAN	CHAIN;MOTIF	Apoptosis regulator Bcl-2;BH1	apoptotic process	BCL2 -[Inhibition]-> apoptotic process	21767261	0																																		
+BCL2	G145A	BCL2_HUMAN	CHAIN;MOTIF	Apoptosis regulator Bcl-2;BH1	apoptotic process	BCL2 -[Inhibition]-> apoptotic process	22677530	0																																		
+BCL2	G145A	BCL2_HUMAN	CHAIN;MOTIF	Apoptosis regulator Bcl-2;BH1	apoptotic process	BCL2 -[Inhibition]-> apoptotic process	9202007	0																																		
+BCL2	G145A	BCL2_HUMAN	CHAIN;MOTIF	Apoptosis regulator Bcl-2;BH1	cell death	BCL2 -[Inhibition]-> BAX -[Activation]-> cell death	22677530	0																																		
+BCL2	G145A	BCL2_HUMAN	CHAIN;MOTIF	Apoptosis regulator Bcl-2;BH1	cell death	BCL2 -[Inhibition]-> cell death	21767261	0																																		
+BCL2	G145A	BCL2_HUMAN	CHAIN;MOTIF	Apoptosis regulator Bcl-2;BH1	homologous recombination	BCL2 -[Inhibition]-> homologous recombination	22677530	0																																		
+BCL2	G4S	BCL2_HUMAN	CHAIN	Apoptosis regulator Bcl-2	DNA Damage	BCL2 -[Activation]-> DNA Damage	27898051	0																																		
+BCL2	G4S	BCL2_HUMAN	CHAIN	Apoptosis regulator Bcl-2	apoptotic process	BCL2 -[Activation]-> apoptotic process	27898051	0																																		
+BCL2	G4S	BCL2_HUMAN	CHAIN	Apoptosis regulator Bcl-2	cell population proliferation	BCL2 -[Activation]-> cell population proliferation	27898051	0																																		
+BCL2	G4S	BCL2_HUMAN	CHAIN	Apoptosis regulator Bcl-2	cellular senescence	BCL2 -[Activation]-> cellular senescence	27898051	0																																		
+BCL2	S70A	BCL2_HUMAN	CHAIN;REGION	Apoptosis regulator Bcl-2;Disordered	Carcinogenesis	BCL2 -[Activation]-> MYC -[Activation]-> Carcinogenesis	32188705	0																																		
+BCL2	S70A	BCL2_HUMAN	CHAIN;REGION	Apoptosis regulator Bcl-2;Disordered	Cell Survival	BCL2 -[Activation]-> Cell Survival	9115213	0																																		
+BCL2	S70A	BCL2_HUMAN	CHAIN;REGION	Apoptosis regulator Bcl-2;Disordered	apoptotic process	BCL2 -[Activation]-> apoptotic process	24097825	0																																		
+BCL2	S70A	BCL2_HUMAN	CHAIN;REGION	Apoptosis regulator Bcl-2;Disordered	apoptotic process	BCL2 -[Activation]-> apoptotic process	32188705	0																																		
+BCL2	S70A	BCL2_HUMAN	CHAIN;REGION	Apoptosis regulator Bcl-2;Disordered	apoptotic process	BCL2 -[Inhibition]-> apoptotic process	29238080	0																																		
+BCL2	S70A	BCL2_HUMAN	CHAIN;REGION	Apoptosis regulator Bcl-2;Disordered	apoptotic process	BCL2 -[Inhibition]-> apoptotic process	9115213	0																																		
+BCL2	S70A	BCL2_HUMAN	CHAIN;REGION	Apoptosis regulator Bcl-2;Disordered	cell cycle	BCL2 -[Activation]-> cell cycle	24097825	0																																		
+BCL2	S70A	BCL2_HUMAN	CHAIN;REGION	Apoptosis regulator Bcl-2;Disordered	cell death	BCL2 -[Complex]-> JNK -[Activation]-> transcription, DNA-templated -[Activation]-> cell death	29238080	0																																		
+BCL2	S70A	BCL2_HUMAN	CHAIN;REGION	Apoptosis regulator Bcl-2;Disordered	cell growth	BCL2 -[Activation]-> cell growth	32188705	0																																		
+BCL2	S70A	BCL2_HUMAN	CHAIN;REGION	Apoptosis regulator Bcl-2;Disordered	transcription, DNA-templated	BCL2 -[Complex]-> JNK -[Activation]-> transcription, DNA-templated	29238080	0																																		
+BCL2	S70E	BCL2_HUMAN	CHAIN;REGION	Apoptosis regulator Bcl-2;Disordered	Carcinogenesis	BCL2 -[Activation]-> MYC -[Activation]-> Carcinogenesis	32188705	0																																		
+BCL2	S70E	BCL2_HUMAN	CHAIN;REGION	Apoptosis regulator Bcl-2;Disordered	apoptotic process	BCL2 -[Activation]-> apoptotic process	24097825	0																																		
+BCL2	S70E	BCL2_HUMAN	CHAIN;REGION	Apoptosis regulator Bcl-2;Disordered	apoptotic process	BCL2 -[Activation]-> apoptotic process	32188705	0																																		
+BCL2	S70E	BCL2_HUMAN	CHAIN;REGION	Apoptosis regulator Bcl-2;Disordered	cell cycle	BCL2 -[Activation]-> cell cycle	24097825	0																																		
+BCL2	S70E	BCL2_HUMAN	CHAIN;REGION	Apoptosis regulator Bcl-2;Disordered	cell growth	BCL2 -[Activation]-> cell growth	32188705	0																																		
+BCL2	T56D	BCL2_HUMAN	CHAIN;REGION	Apoptosis regulator Bcl-2;Disordered	Parkinson Disease	BCL2 -[Complex]-> LRRK2 -[Activation]-> Parkinson Disease	25446991	0																																		
+BCL2	T56D	BCL2_HUMAN	CHAIN;REGION	Apoptosis regulator Bcl-2;Disordered	autophagy	BCL2 -[Inhibition]-> autophagy	25446991	0																																		
+BCL2	T69A	BCL2_HUMAN	CHAIN;REGION	Apoptosis regulator Bcl-2;Disordered	Brain Neoplasms	BCL2 -[Inhibition]-> Brain Neoplasms	28035139	0																																		
+BCL2	T69A	BCL2_HUMAN	CHAIN;REGION	Apoptosis regulator Bcl-2;Disordered	Carcinogenesis	BCL2 -[Activation]-> Carcinogenesis	28035139	0																																		
+BCL2	T69A	BCL2_HUMAN	CHAIN;REGION	Apoptosis regulator Bcl-2;Disordered	Neoplasms	BCL2 -[Complex]-> PKM -[Inhibition]-> Neoplasms	28035139	0																																		
+BCL2	T69A	BCL2_HUMAN	CHAIN;REGION	Apoptosis regulator Bcl-2;Disordered	apoptotic process	BCL2 -[Activation]-> apoptotic process	28035139	0																																		
+BCL2	T69A	BCL2_HUMAN	CHAIN;REGION	Apoptosis regulator Bcl-2;Disordered	cell cycle	BCL2 -[Phosphorylation]-> PKM2 -[Activation]-> cell cycle	28035139	0																																		
+BCL2	T69A	BCL2_HUMAN	CHAIN;REGION	Apoptosis regulator Bcl-2;Disordered	cell death	BCL2 -[Phosphorylation]-> PKM2 -[Activation]-> cell death	28035139	0																																		
+BCL2	T69A	BCL2_HUMAN	CHAIN;REGION	Apoptosis regulator Bcl-2;Disordered	cell differentiation	BCL2 -[Phosphorylation]-> PKM2 -[Inhibition]-> cell differentiation	28035139	0																																		
+BCL2	T69A	BCL2_HUMAN	CHAIN;REGION	Apoptosis regulator Bcl-2;Disordered	cell population proliferation	BCL2 -[Phosphorylation]-> PKM2 -[Activation]-> cell population proliferation	28035139	0																																		
+BCL2	T69A	BCL2_HUMAN	CHAIN;REGION	Apoptosis regulator Bcl-2;Disordered	cytokinesis	BCL2 -[Phosphorylation]-> PKM2 -[Phosphorylation]-> MLC2 -[Activation]-> cytokinesis	28035139	0																																		
+BCL2	T69A	BCL2_HUMAN	CHAIN;REGION	Apoptosis regulator Bcl-2;Disordered	glycolytic process	BCL2 -[Phosphorylation]-> PKM2 -[Inhibition]-> glycolytic process	28035139	0																																		
+BCL2	T69A	BCL2_HUMAN	CHAIN;REGION	Apoptosis regulator Bcl-2;Disordered	mitotic cell cycle	BCL2 -[Phosphorylation]-> PKM2 -[Phosphorylation]-> MLC2 -[Activation]-> mitotic cell cycle	28035139	0																																		
+BCL2	T69E	BCL2_HUMAN	CHAIN;REGION	Apoptosis regulator Bcl-2;Disordered	Brain Neoplasms	BCL2 -[Inhibition]-> Brain Neoplasms	28035139	0																																		
+BCL2	T69E	BCL2_HUMAN	CHAIN;REGION	Apoptosis regulator Bcl-2;Disordered	Carcinogenesis	BCL2 -[Activation]-> Carcinogenesis	28035139	0																																		
+BCL2	T69E	BCL2_HUMAN	CHAIN;REGION	Apoptosis regulator Bcl-2;Disordered	Neoplasms	BCL2 -[Complex]-> PKM -[Inhibition]-> Neoplasms	28035139	0																																		
+BCL2	T69E	BCL2_HUMAN	CHAIN;REGION	Apoptosis regulator Bcl-2;Disordered	apoptotic process	BCL2 -[Activation]-> apoptotic process	28035139	0																																		
+BCL2	T69E	BCL2_HUMAN	CHAIN;REGION	Apoptosis regulator Bcl-2;Disordered	cell cycle	BCL2 -[Phosphorylation]-> PKM2 -[Activation]-> cell cycle	28035139	0																																		
+BCL2	T69E	BCL2_HUMAN	CHAIN;REGION	Apoptosis regulator Bcl-2;Disordered	cell death	BCL2 -[Phosphorylation]-> PKM2 -[Activation]-> cell death	28035139	0																																		
+BCL2	T69E	BCL2_HUMAN	CHAIN;REGION	Apoptosis regulator Bcl-2;Disordered	cell differentiation	BCL2 -[Phosphorylation]-> PKM2 -[Inhibition]-> cell differentiation	28035139	0																																		
+BCL2	T69E	BCL2_HUMAN	CHAIN;REGION	Apoptosis regulator Bcl-2;Disordered	cell population proliferation	BCL2 -[Phosphorylation]-> PKM2 -[Activation]-> cell population proliferation	28035139	0																																		
+BCL2	T69E	BCL2_HUMAN	CHAIN;REGION	Apoptosis regulator Bcl-2;Disordered	cytokinesis	BCL2 -[Phosphorylation]-> PKM2 -[Phosphorylation]-> MLC2 -[Activation]-> cytokinesis	28035139	0																																		
+BCL2	T69E	BCL2_HUMAN	CHAIN;REGION	Apoptosis regulator Bcl-2;Disordered	glycolytic process	BCL2 -[Phosphorylation]-> PKM2 -[Inhibition]-> glycolytic process	28035139	0																																		
+BCL2	T69E	BCL2_HUMAN	CHAIN;REGION	Apoptosis regulator Bcl-2;Disordered	mitotic cell cycle	BCL2 -[Phosphorylation]-> PKM2 -[Phosphorylation]-> MLC2 -[Activation]-> mitotic cell cycle	28035139	0																																		

@@ -1,0 +1,45 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+NME1	C109A	NDKA_HUMAN	CHAIN	Nucleoside diphosphate kinase A	Neoplasm Metastasis	NME1 -[Activation]-> Neoplasm Metastasis	19956735	0																																		
+NME1	C109A	NDKA_HUMAN	CHAIN	Nucleoside diphosphate kinase A	cell migration	NME1 -[Inhibition]-> cell migration	19956735	0																																		
+NME1	C109A	NDKA_HUMAN	CHAIN	Nucleoside diphosphate kinase A	cell motility	NME1 -[Activation]-> cell motility	19956735	0																																		
+NME1	C145S	NDKA_HUMAN	CHAIN	Nucleoside diphosphate kinase A	Neoplasm Metastasis	NME1 -[Inhibition]-> Neoplasm Metastasis	17314099	0																																		
+NME1	C145S	NDKA_HUMAN	CHAIN	Nucleoside diphosphate kinase A	apoptotic process	NME1 -[Inhibition]-> apoptotic process	17314099	0																																		
+NME1	H118A	NDKA_HUMAN	CHAIN	Nucleoside diphosphate kinase A	Neoplasm Metastasis	NME1 -[Activation]-> Neoplasm Metastasis	19956735	0																																		
+NME1	H118A	NDKA_HUMAN	CHAIN	Nucleoside diphosphate kinase A	cell migration	NME1 -[Inhibition]-> cell migration	19956735	0																																		
+NME1	H118A	NDKA_HUMAN	CHAIN	Nucleoside diphosphate kinase A	cell motility	NME1 -[Activation]-> cell motility	19956735	0																																		
+NME1	H118F	NDKA_HUMAN	CHAIN	Nucleoside diphosphate kinase A	Neoplasm Invasiveness	NME1 -[Activation]-> CAMK2_complex -[Activation]-> Neoplasm Invasiveness	31141673	0																																		
+NME1	H118F	NDKA_HUMAN	CHAIN	Nucleoside diphosphate kinase A	Neoplasm Metastasis	NME1 -[Activation]-> Neoplasm Metastasis	19956735	0																																		
+NME1	H118F	NDKA_HUMAN	CHAIN	Nucleoside diphosphate kinase A	cell migration	NME1 -[Activation]-> CAMK2_complex -[Activation]-> cell migration	31141673	0																																		
+NME1	H118F	NDKA_HUMAN	CHAIN	Nucleoside diphosphate kinase A	cell migration	NME1 -[Inhibition]-> cell migration	19956735	0																																		
+NME1	H118F	NDKA_HUMAN	CHAIN	Nucleoside diphosphate kinase A	cell motility	NME1 -[Activation]-> cell motility	19956735	0																																		
+NME1	K12Q	NDKA_HUMAN	CHAIN	Nucleoside diphosphate kinase A	Genomic Instability	NME1 -[Activation]-> Genomic Instability	21611737	0																																		
+NME1	K12Q	NDKA_HUMAN	CHAIN	Nucleoside diphosphate kinase A	apoptotic process	NME1 -[Activation]-> apoptotic process	21611737	0																																		
+NME1	K12Q	NDKA_HUMAN	CHAIN	Nucleoside diphosphate kinase A	exonuclease activity	NME1 -[Inhibition]-> exonuclease activity	21611737	0																																		
+NME1	P96S	NDKA_HUMAN	CHAIN	Nucleoside diphosphate kinase A	MAPK cascade	NME1 -[Activation]-> NDK1 -[Activation]-> MAPK cascade	32823988	0																																		
+NME1	P96S	NDKA_HUMAN	CHAIN	Nucleoside diphosphate kinase A	Neoplasm Invasiveness	NME1 -[Dephosphorylation]-> MYL -[Activation]-> Neoplasm Invasiveness	32823988	0																																		
+NME1	P96S	NDKA_HUMAN	CHAIN	Nucleoside diphosphate kinase A	Neoplasm Metastasis	NME1 -[Inhibition]-> methylamine -[Inhibition]-> Neoplasm Metastasis	29535799	0																																		
+NME1	P96S	NDKA_HUMAN	CHAIN	Nucleoside diphosphate kinase A	T cell activation	NME1 -[Activation]-> T cell activation	32823988	0																																		
+NME1	P96S	NDKA_HUMAN	CHAIN	Nucleoside diphosphate kinase A	cell death	NME1 -[Activation]-> cell death	32823988	0																																		
+NME1	P96S	NDKA_HUMAN	CHAIN	Nucleoside diphosphate kinase A	cell migration	NME1 -[Inhibition]-> cell migration	32823988	0																																		
+NME1	P96S	NDKA_HUMAN	CHAIN	Nucleoside diphosphate kinase A	cell motility	NME1 -[Inhibition]-> methylamine -[Inhibition]-> cell motility	29535799	0																																		
+NME1	P96S	NDKA_HUMAN	CHAIN	Nucleoside diphosphate kinase A	endocytosis	NME1 -[Activation]-> endocytosis	32823988	0																																		
+NME1	P96S	NDKA_HUMAN	CHAIN	Nucleoside diphosphate kinase A	lyase activity	NME1 -[Phosphorylation]-> lyase activity	9256424	0																																		
+NME1	S120A	NDKA_HUMAN	CHAIN	Nucleoside diphosphate kinase A	Neoplasm Metastasis	NME1 -[Inhibition]-> Neoplasm Metastasis	28831131	0																																		
+NME1	S120A	NDKA_HUMAN	CHAIN	Nucleoside diphosphate kinase A	cell migration	NME1 -[Inhibition]-> cell migration	28831131	0																																		
+NME1	S120A	NDKA_HUMAN	CHAIN	Nucleoside diphosphate kinase A	cell population proliferation	NME1 -[IncreaseAmount]-> SP1 -[Activation]-> cell population proliferation	28831131	0																																		
+NME1	S120A	NDKA_HUMAN	CHAIN	Nucleoside diphosphate kinase A	epithelial to mesenchymal transition	NME1 -[Inhibition]-> epithelial to mesenchymal transition	28831131	0																																		
+NME1	S120A	NDKA_HUMAN	CHAIN	Nucleoside diphosphate kinase A	translation	NME1 -[Activation]-> HNRNPA2B1 -[Activation]-> translation	28831131	0																																		
+NME1	S120G	NDKA_HUMAN	CHAIN	Nucleoside diphosphate kinase A	Cell Survival	NME1 -[Activation]-> Cell Survival	15280446	0																																		
+NME1	S120G	NDKA_HUMAN	CHAIN	Nucleoside diphosphate kinase A	Neoplasm Metastasis	NME1 -[Activation]-> Neoplasm Metastasis	15280446	0																																		
+NME1	S120G	NDKA_HUMAN	CHAIN	Nucleoside diphosphate kinase A	Neoplasm Metastasis	NME1 -[Inhibition]-> Neoplasm Metastasis	16944299	0																																		
+NME1	S120G	NDKA_HUMAN	CHAIN	Nucleoside diphosphate kinase A	Neuroblastoma	NME1 -[Activation]-> Neuroblastoma	15280446	0																																		
+NME1	S120G	NDKA_HUMAN	CHAIN	Nucleoside diphosphate kinase A	cell adhesion	NME1 -[Inhibition]-> cell adhesion	15280446	0																																		
+NME1	S120G	NDKA_HUMAN	CHAIN	Nucleoside diphosphate kinase A	cell differentiation	NME1 -[Inhibition]-> cell differentiation	15280446	0																																		
+NME1	S120G	NDKA_HUMAN	CHAIN	Nucleoside diphosphate kinase A	cell differentiation	NME1 -[Inhibition]-> cell differentiation	23505541	0																																		
+NME1	S120G	NDKA_HUMAN	CHAIN	Nucleoside diphosphate kinase A	cell migration	NME1 -[Activation]-> cell migration	15280446	0																																		
+NME1	S120G	NDKA_HUMAN	CHAIN	Nucleoside diphosphate kinase A	lyase activity	NME1 -[Phosphorylation]-> lyase activity	9256424	0																																		
+NME1	S122A	NDKA_HUMAN	CHAIN	Nucleoside diphosphate kinase A	Neoplasm Metastasis	NME1 -[Inhibition]-> Neoplasm Metastasis	28831131	0																																		
+NME1	S122A	NDKA_HUMAN	CHAIN	Nucleoside diphosphate kinase A	cell migration	NME1 -[Inhibition]-> cell migration	28831131	0																																		
+NME1	S122A	NDKA_HUMAN	CHAIN	Nucleoside diphosphate kinase A	cell population proliferation	NME1 -[IncreaseAmount]-> SP1 -[Activation]-> cell population proliferation	28831131	0																																		
+NME1	S122A	NDKA_HUMAN	CHAIN	Nucleoside diphosphate kinase A	epithelial to mesenchymal transition	NME1 -[Inhibition]-> epithelial to mesenchymal transition	28831131	0																																		
+NME1	S122A	NDKA_HUMAN	CHAIN	Nucleoside diphosphate kinase A	translation	NME1 -[Activation]-> HNRNPA2B1 -[Activation]-> translation	28831131	0																																		

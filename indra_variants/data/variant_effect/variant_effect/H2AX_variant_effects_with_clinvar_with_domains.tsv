@@ -1,0 +1,23 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+H2AX	K5R	H2AX_HUMAN	CHAIN;REGION	Histone H2AX;Disordered	Genomic Instability	H2AX -[Inhibition]-> Genomic Instability	20703100	0																																		
+H2AX	K5R	H2AX_HUMAN	CHAIN;REGION	Histone H2AX;Disordered	Radiation, Ionizing	H2AX -[Inhibition]-> Radiation, Ionizing	20703100	0																																		
+H2AX	K5R	H2AX_HUMAN	CHAIN;REGION	Histone H2AX;Disordered	homologous recombination	H2AX -[Activation]-> homologous recombination	20703100	0																																		
+H2AX	K9R	H2AX_HUMAN	CHAIN;REGION;COMPBIAS	Histone H2AX;Disordered;Basic residues	Genomic Instability	H2AX -[Inhibition]-> Genomic Instability	20703100	0																																		
+H2AX	K9R	H2AX_HUMAN	CHAIN;REGION;COMPBIAS	Histone H2AX;Disordered;Basic residues	Radiation, Ionizing	H2AX -[Inhibition]-> Radiation, Ionizing	20703100	0																																		
+H2AX	K9R	H2AX_HUMAN	CHAIN;REGION;COMPBIAS	Histone H2AX;Disordered;Basic residues	homologous recombination	H2AX -[Activation]-> homologous recombination	20703100	0																																		
+H2AX	S139A	H2AX_HUMAN	CHAIN;REGION	Histone H2AX;Disordered	Genomic Instability	H2AX -[Inhibition]-> Genomic Instability	20703100	0																																		
+H2AX	S139A	H2AX_HUMAN	CHAIN;REGION	Histone H2AX;Disordered	Radiation, Ionizing	H2AX -[Inhibition]-> Radiation, Ionizing	20703100	0																																		
+H2AX	S139A	H2AX_HUMAN	CHAIN;REGION	Histone H2AX;Disordered	homologous recombination	H2AX -[Activation]-> homologous recombination	20703100	0																																		
+H2AX	T101A	H2AX_HUMAN	CHAIN	Histone H2AX	Genomic Instability	H2AX -[Inhibition]-> Genomic Instability	20703100	0																																		
+H2AX	T101A	H2AX_HUMAN	CHAIN	Histone H2AX	Radiation, Ionizing	H2AX -[Inhibition]-> Radiation, Ionizing	20703100	0																																		
+H2AX	T101A	H2AX_HUMAN	CHAIN	Histone H2AX	homologous recombination	H2AX -[Activation]-> homologous recombination	20703100	0																																		
+H2AX	T136V	H2AX_HUMAN	CHAIN;REGION	Histone H2AX;Disordered	Genomic Instability	H2AX -[Inhibition]-> Genomic Instability	20703100	0																																		
+H2AX	T136V	H2AX_HUMAN	CHAIN;REGION	Histone H2AX;Disordered	Radiation, Ionizing	H2AX -[Inhibition]-> Radiation, Ionizing	20703100	0																																		
+H2AX	T136V	H2AX_HUMAN	CHAIN;REGION	Histone H2AX;Disordered	homologous recombination	H2AX -[Activation]-> homologous recombination	20703100	0																																		
+H2AX	Y142A	H2AX_HUMAN	CHAIN;REGION	Histone H2AX;Disordered	Genomic Instability	H2AX -[Inhibition]-> Genomic Instability	20703100	0																																		
+H2AX	Y142A	H2AX_HUMAN	CHAIN;REGION	Histone H2AX;Disordered	Radiation, Ionizing	H2AX -[Inhibition]-> Radiation, Ionizing	20703100	0																																		
+H2AX	Y142A	H2AX_HUMAN	CHAIN;REGION	Histone H2AX;Disordered	cell death	H2AX -[Activation]-> cell death	23772364	0																																		
+H2AX	Y142A	H2AX_HUMAN	CHAIN;REGION	Histone H2AX;Disordered	homologous recombination	H2AX -[Activation]-> homologous recombination	20703100	0																																		
+H2AX	Y142F	H2AX_HUMAN	CHAIN;REGION	Histone H2AX;Disordered	Genomic Instability	H2AX -[Inhibition]-> Genomic Instability	20703100	0																																		
+H2AX	Y142F	H2AX_HUMAN	CHAIN;REGION	Histone H2AX;Disordered	Radiation, Ionizing	H2AX -[Inhibition]-> Radiation, Ionizing	20703100	0																																		
+H2AX	Y142F	H2AX_HUMAN	CHAIN;REGION	Histone H2AX;Disordered	homologous recombination	H2AX -[Activation]-> homologous recombination	20703100	0																																		

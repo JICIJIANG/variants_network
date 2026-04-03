@@ -1,0 +1,16 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+TEAD4	Y429H	TEAD4_HUMAN	CHAIN	Transcriptional enhancer factor TEF-3	Brain Neoplasms	TEAD4 -[Activation]-> YAP1 -[Complex]-> TEAD2 -[Activation]-> Brain Neoplasms	35602596	0																																		
+TEAD4	Y429H	TEAD4_HUMAN	CHAIN	Transcriptional enhancer factor TEF-3	Carcinogenesis	TEAD4 -[Activation]-> YAP1 -[Activation]-> Carcinogenesis	35602596	0																																		
+TEAD4	Y429H	TEAD4_HUMAN	CHAIN	Transcriptional enhancer factor TEF-3	Neoplasm Invasiveness	TEAD4 -[Activation]-> Neoplasm Invasiveness	35602596	0																																		
+TEAD4	Y429H	TEAD4_HUMAN	CHAIN	Transcriptional enhancer factor TEF-3	Neoplasm Metastasis	TEAD4 -[Activation]-> Neoplasm Metastasis	35602596	0																																		
+TEAD4	Y429H	TEAD4_HUMAN	CHAIN	Transcriptional enhancer factor TEF-3	Stomach Neoplasms	TEAD4 -[Inhibition]-> RUNX2 -[Complex]-> VGLL4 -[Inhibition]-> Stomach Neoplasms	33097532	0																																		
+TEAD4	Y429H	TEAD4_HUMAN	CHAIN	Transcriptional enhancer factor TEF-3	apoptotic process	TEAD4 -[Activation]-> YAP1 -[Inhibition]-> apoptotic process	35602596	0																																		
+TEAD4	Y429H	TEAD4_HUMAN	CHAIN	Transcriptional enhancer factor TEF-3	cell differentiation	TEAD4 -[Activation]-> YAP1 -[Activation]-> cell differentiation	35602596	0																																		
+TEAD4	Y429H	TEAD4_HUMAN	CHAIN	Transcriptional enhancer factor TEF-3	cell differentiation	TEAD4 -[Inhibition]-> RUNX2 -[Activation]-> cell differentiation	33097532	0																																		
+TEAD4	Y429H	TEAD4_HUMAN	CHAIN	Transcriptional enhancer factor TEF-3	cell population proliferation	TEAD4 -[Activation]-> cell population proliferation	35602596	0																																		
+TEAD4	Y429H	TEAD4_HUMAN	CHAIN	Transcriptional enhancer factor TEF-3	fat cell differentiation	TEAD4 -[Inhibition]-> fat cell differentiation	35602596	0																																		
+TEAD4	Y429H	TEAD4_HUMAN	CHAIN	Transcriptional enhancer factor TEF-3	gene expression	TEAD4 -[Inhibition]-> gene expression	35602596	0																																		
+TEAD4	Y429H	TEAD4_HUMAN	CHAIN	Transcriptional enhancer factor TEF-3	lung cancer	TEAD4 -[Inhibition]-> RUNX2 -[Complex]-> VGLL4 -[Inhibition]-> lung cancer	33097532	0																																		
+TEAD4	Y429H	TEAD4_HUMAN	CHAIN	Transcriptional enhancer factor TEF-3	myoblast proliferation	TEAD4 -[Inhibition]-> VGLL4 -[Activation]-> myoblast proliferation	35602596	0																																		
+TEAD4	Y429H	TEAD4_HUMAN	CHAIN	Transcriptional enhancer factor TEF-3	oxidative phosphorylation	TEAD4 -[Activation]-> oxidative phosphorylation	35602596	0																																		
+TEAD4	Y429H	TEAD4_HUMAN	CHAIN	Transcriptional enhancer factor TEF-3	transcription, DNA-templated	TEAD4 -[Activation]-> transcription, DNA-templated	35602596	0																																		

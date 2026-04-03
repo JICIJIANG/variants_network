@@ -1,0 +1,12 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+GARS1	C157R	GARS_HUMAN	CHAIN	Glycine--tRNA ligase	angiogenesis	GARS1 -[Inhibition]-> VEGFA -[Activation]-> angiogenesis	28835631	0																																		
+GARS1	G240R	GARS_HUMAN	CHAIN	Glycine--tRNA ligase	Neuralgia	GARS1 -[Activation]-> Neuralgia	25120326	0																																		
+GARS1	G240R	GARS_HUMAN	CHAIN	Glycine--tRNA ligase	Pain	GARS1 -[Activation]-> Pain	25120326	0																																		
+GARS1	L129P	GARS_HUMAN	CHAIN	Glycine--tRNA ligase	Neuralgia	GARS1 -[Activation]-> Neuralgia	25120326	0																																		
+GARS1	L129P	GARS_HUMAN	CHAIN	Glycine--tRNA ligase	Pain	GARS1 -[Activation]-> Pain	25120326	0																																		
+GARS1	M6A				Osteoporosis, Postmenopausal	GARS1 -[Activation]-> METTL14 -[Inhibition]-> Osteoporosis, Postmenopausal	36319624	0																																		
+GARS1	M6A				biomineralization	GARS1 -[Activation]-> METTL14 -[Inhibition]-> biomineralization	36319624	0																																		
+GARS1	M6A				cell differentiation	GARS1 -[Inhibition]-> cell differentiation	36319624	0																																		
+GARS1	M6A				cell growth	GARS1 -[Activation]-> METTL14 -[Activation]-> cell growth	36319624	0																																		
+GARS1	M6A				cell population proliferation	GARS1 -[Activation]-> METTL14 -[Activation]-> cell population proliferation	36319624	0																																		
+GARS1	M6A				ossification	GARS1 -[Activation]-> METTL14 -[Activation]-> ossification	36319624	0																																		

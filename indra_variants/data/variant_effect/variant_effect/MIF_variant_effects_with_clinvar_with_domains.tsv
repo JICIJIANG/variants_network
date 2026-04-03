@@ -1,0 +1,33 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+MIF	C60S	MIF_HUMAN	CHAIN	Macrophage migration inhibitory factor	Death	MIF -[Inhibition]-> Death	25801706	0																																		
+MIF	C81S	MIF_HUMAN	CHAIN	Macrophage migration inhibitory factor	apoptotic process	MIF -[Inhibition]-> apoptotic process	18502749	0																																		
+MIF	C81S	MIF_HUMAN	CHAIN	Macrophage migration inhibitory factor	transcription, DNA-templated	MIF -[Activation]-> TP53 -[Inhibition]-> transcription, DNA-templated	18502749	0																																		
+MIF	E22A	MIF_HUMAN	CHAIN	Macrophage migration inhibitory factor	Brain Injuries	MIF -[Activation]-> Brain Injuries	34921640	0																																		
+MIF	E22A	MIF_HUMAN	CHAIN	Macrophage migration inhibitory factor	DNA Damage	MIF -[Activation]-> N-methyl-D-aspartic acid -[Activation]-> DNA Damage	27846469	0																																		
+MIF	E22A	MIF_HUMAN	CHAIN	Macrophage migration inhibitory factor	Stroke	MIF -[Activation]-> Stroke	27846469	0																																		
+MIF	E22A	MIF_HUMAN	CHAIN	Macrophage migration inhibitory factor	astrocyte activation	MIF -[Inhibition]-> TBI -[Activation]-> astrocyte activation	34921640	0																																		
+MIF	E22A	MIF_HUMAN	CHAIN	Macrophage migration inhibitory factor	cell death	MIF -[Activation]-> cell death	27846469	0																																		
+MIF	E22A	MIF_HUMAN	CHAIN	Macrophage migration inhibitory factor	cell death	MIF -[Activation]-> cell death	34921640	0																																		
+MIF	E22A	MIF_HUMAN	CHAIN	Macrophage migration inhibitory factor	gene expression	MIF -[Activation]-> gene expression	34921640	0																																		
+MIF	E22A	MIF_HUMAN	CHAIN	Macrophage migration inhibitory factor	inflammatory response	MIF -[Activation]-> inflammatory response	34921640	0																																		
+MIF	E22Q	MIF_HUMAN	CHAIN	Macrophage migration inhibitory factor	DNA Damage	MIF -[Activation]-> N-methyl-D-aspartic acid -[Activation]-> DNA Damage	27846469	0																																		
+MIF	E22Q	MIF_HUMAN	CHAIN	Macrophage migration inhibitory factor	Parkinson Disease	MIF -[Activation]-> Parkinson Disease	35545089	0																																		
+MIF	E22Q	MIF_HUMAN	CHAIN	Macrophage migration inhibitory factor	Stroke	MIF -[Activation]-> Stroke	27846469	0																																		
+MIF	E22Q	MIF_HUMAN	CHAIN	Macrophage migration inhibitory factor	cell death	MIF -[Activation]-> cell death	27846469	0																																		
+MIF	E22Q	MIF_HUMAN	CHAIN	Macrophage migration inhibitory factor	cell death	MIF -[Activation]-> cell death	35545089	0																																		
+MIF	E22Q	MIF_HUMAN	CHAIN	Macrophage migration inhibitory factor	inflammatory response	MIF -[IncreaseAmount]-> PRKN -[Inhibition]-> inflammatory response	35545089	0																																		
+MIF	G173C				Cell Survival	MIF -[Inhibition]-> Cell Survival	23770720	0																																		
+MIF	G173C				Liver Cirrhosis	MIF -[Activation]-> Liver Cirrhosis	23770720	0																																		
+MIF	G173C				Neoplasms	MIF -[Inhibition]-> Neoplasms	26107210	0																																		
+MIF	G173C				apoptotic process	MIF -[Activation]-> apoptotic process	23770720	0																																		
+MIF	L62A	MIF_HUMAN	CHAIN	Macrophage migration inhibitory factor	Parkinson Disease	MIF -[Activation]-> Parkinson Disease	35545089	0																																		
+MIF	L62A	MIF_HUMAN	CHAIN	Macrophage migration inhibitory factor	cell death	MIF -[Activation]-> cell death	35545089	0																																		
+MIF	L62A	MIF_HUMAN	CHAIN	Macrophage migration inhibitory factor	inflammatory response	MIF -[IncreaseAmount]-> PRKN -[Inhibition]-> inflammatory response	35545089	0																																		
+MIF	N73A	MIF_HUMAN	CHAIN	Macrophage migration inhibitory factor	Parkinson Disease	MIF -[Activation]-> Parkinson Disease	35545089	0																																		
+MIF	N73A	MIF_HUMAN	CHAIN	Macrophage migration inhibitory factor	cell death	MIF -[Activation]-> cell death	35545089	0																																		
+MIF	N73A	MIF_HUMAN	CHAIN	Macrophage migration inhibitory factor	inflammatory response	MIF -[IncreaseAmount]-> PRKN -[Inhibition]-> inflammatory response	35545089	0																																		
+MIF	P1G				apoptotic process	MIF -[Complex]-> CD74 -[Activation]-> apoptotic process	27780588	0																																		
+MIF	P1G				immune response	MIF -[Activation]-> immune response	27780588	0																																		
+MIF	P2G	MIF_HUMAN	CHAIN	Macrophage migration inhibitory factor	Parkinson Disease	MIF -[Activation]-> Parkinson Disease	35545089	0																																		
+MIF	P2G	MIF_HUMAN	CHAIN	Macrophage migration inhibitory factor	cell death	MIF -[Activation]-> cell death	35545089	0																																		
+MIF	P2G	MIF_HUMAN	CHAIN	Macrophage migration inhibitory factor	inflammatory response	MIF -[IncreaseAmount]-> PRKN -[Inhibition]-> inflammatory response	35545089	0																																		

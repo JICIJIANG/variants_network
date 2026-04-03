@@ -1,0 +1,9 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+OTULIN	C129A	OTUL_HUMAN	CHAIN;DOMAIN	Ubiquitin thioesterase otulin;OTU	MAPK cascade	OTULIN -[Activation]-> MAPK cascade	33288901	0																																		
+OTULIN	C129A	OTUL_HUMAN	CHAIN;DOMAIN	Ubiquitin thioesterase otulin;OTU	Protein Stability	OTULIN -[Activation]-> cell fate control -[Activation]-> Protein Stability	33288901	0																																		
+OTULIN	C129A	OTUL_HUMAN	CHAIN;DOMAIN	Ubiquitin thioesterase otulin;OTU	cell death	OTULIN -[Activation]-> cell death	30804083	0																																		
+OTULIN	C129A	OTUL_HUMAN	CHAIN;DOMAIN	Ubiquitin thioesterase otulin;OTU	cell death	OTULIN -[Inhibition]-> cell death	33288901	0																																		
+OTULIN	C129A	OTUL_HUMAN	CHAIN;DOMAIN	Ubiquitin thioesterase otulin;OTU	cytokine production	OTULIN -[Activation]-> GZMM -[Inhibition]-> cytokine production	26997266	0																																		
+OTULIN	C129A	OTUL_HUMAN	CHAIN;DOMAIN	Ubiquitin thioesterase otulin;OTU	inflammatory response	OTULIN -[Activation]-> inflammatory response	30804083	0																																		
+OTULIN	C129A	OTUL_HUMAN	CHAIN;DOMAIN	Ubiquitin thioesterase otulin;OTU	inflammatory response	OTULIN -[Phosphorylation]-> CYLD -[Inhibition]-> inflammatory response	33288901	0																																		
+OTULIN	N341D	OTUL_HUMAN	CHAIN;DOMAIN	Ubiquitin thioesterase otulin;OTU	cell death	OTULIN -[Inhibition]-> cell death	23746843	0																																		

@@ -1,0 +1,20 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+CAV3	F97C	CAV3_HUMAN	CHAIN;REGION	Caveolin-3;Required for interaction with DAG1	Long QT Syndrome	CAV3 -[Inhibition]-> sodium(1+) -[Activation]-> Long QT Syndrome	23541953	1	23331	single nucleotide variant	NM_033337.3(CAV3):c.290T>G (p.Phe97Cys)	104893714	Long QT syndrome 9, acquired, susceptibility to	risk factor	0.0	not provided																										
+CAV3	G56S	CAV3_HUMAN	CHAIN	Caveolin-3	localization	CAV3 -[Activation]-> localization	27739254	1	23317	single nucleotide variant	NM_033337.3(CAV3):c.166G>A (p.Gly56Ser)	72546667	Rippling muscle disease 2	Benign/Likely benign	2.0	not specified			not provided			Limb-girdle muscular dystrophy			Cardiovascular phenotype			Limb-Girdle Muscular Dystrophy, Dominant			Long QT syndrome 1			Cardiomyopathy			Long QT syndrome			Caveolinopathy		
+CAV3	K15N	CAV3_HUMAN	CHAIN	Caveolin-3	metabolic process	CAV3 -[Activation]-> INS -[Inhibition]-> metabolic process	31572504	0																																		
+CAV3	P104L	CAV3_HUMAN	CHAIN;REGION	Caveolin-3;Required for interaction with DAG1	cell differentiation	CAV3 -[Inhibition]-> cell differentiation	22584670	0																																		
+CAV3	P104L	CAV3_HUMAN	CHAIN;REGION	Caveolin-3;Required for interaction with DAG1	cell growth	CAV3 -[Activation]-> AMPK -[Activation]-> cell growth	29206848	0																																		
+CAV3	P104L	CAV3_HUMAN	CHAIN;REGION	Caveolin-3;Required for interaction with DAG1	cell population proliferation	CAV3 -[Activation]-> cell population proliferation	29206848	0																																		
+CAV3	P104L	CAV3_HUMAN	CHAIN;REGION	Caveolin-3;Required for interaction with DAG1	cell population proliferation	CAV3 -[Activation]-> cell population proliferation	30958599	0																																		
+CAV3	P104L	CAV3_HUMAN	CHAIN;REGION	Caveolin-3;Required for interaction with DAG1	localization	CAV3 -[Activation]-> localization	29206848	0																																		
+CAV3	P104L	CAV3_HUMAN	CHAIN;REGION	Caveolin-3;Required for interaction with DAG1	metabolic process	CAV3 -[Inhibition]-> metabolic process	29206848	0																																		
+CAV3	P104L	CAV3_HUMAN	CHAIN;REGION	Caveolin-3;Required for interaction with DAG1	metabolic process	CAV3 -[Inhibition]-> metabolic process	30958599	0																																		
+CAV3	P104L	CAV3_HUMAN	CHAIN;REGION	Caveolin-3;Required for interaction with DAG1	transcription, DNA-templated	CAV3 -[Activation]-> MSTN -[Inhibition]-> transcription, DNA-templated	26226340	0																																		
+CAV3	P28L	CAV3_HUMAN	CHAIN	Caveolin-3	Muscular Diseases	CAV3 -[Activation]-> Muscular Diseases	31036801	0																																		
+CAV3	P28L	CAV3_HUMAN	CHAIN	Caveolin-3	Rupture	CAV3 -[Activation]-> Rupture	31036801	0																																		
+CAV3	P28L	CAV3_HUMAN	CHAIN	Caveolin-3	localization	CAV3 -[Activation]-> localization	31036801	0																																		
+CAV3	P28L	CAV3_HUMAN	CHAIN	Caveolin-3	regulation of signaling	CAV3 -[Activation]-> regulation of signaling	31036801	0																																		
+CAV3	R26Q	CAV3_HUMAN	CHAIN	Caveolin-3	Muscular Diseases	CAV3 -[Activation]-> Muscular Diseases	31036801	0																																		
+CAV3	R26Q	CAV3_HUMAN	CHAIN	Caveolin-3	Rupture	CAV3 -[Activation]-> Rupture	31036801	0																																		
+CAV3	R26Q	CAV3_HUMAN	CHAIN	Caveolin-3	localization	CAV3 -[Activation]-> localization	31036801	0																																		
+CAV3	R26Q	CAV3_HUMAN	CHAIN	Caveolin-3	regulation of signaling	CAV3 -[Activation]-> regulation of signaling	31036801	0																																		

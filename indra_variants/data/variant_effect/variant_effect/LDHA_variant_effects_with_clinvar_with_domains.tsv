@@ -1,0 +1,13 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+LDHA	K222E	LDHA_HUMAN	CHAIN	L-lactate dehydrogenase A chain	Neoplasm Invasiveness	LDHA -[Activation]-> Neoplasm Invasiveness	32859246	0																																		
+LDHA	K222E	LDHA_HUMAN	CHAIN	L-lactate dehydrogenase A chain	Neoplasm Metastasis	LDHA -[Activation]-> Neoplasm Metastasis	32859246	0																																		
+LDHA	K222E	LDHA_HUMAN	CHAIN	L-lactate dehydrogenase A chain	Stomach Neoplasms	LDHA -[Activation]-> Stomach Neoplasms	32859246	0																																		
+LDHA	K222E	LDHA_HUMAN	CHAIN	L-lactate dehydrogenase A chain	cell population proliferation	LDHA -[Activation]-> cell population proliferation	32859246	0																																		
+LDHA	K5Q	LDHA_HUMAN	CHAIN	L-lactate dehydrogenase A chain	cell migration	LDHA -[Inhibition]-> cell migration	23523103	0																																		
+LDHA	K5Q	LDHA_HUMAN	CHAIN	L-lactate dehydrogenase A chain	cell population proliferation	LDHA -[Activation]-> cell population proliferation	23523103	0																																		
+LDHA	K5Q	LDHA_HUMAN	CHAIN	L-lactate dehydrogenase A chain	regulation of mitochondrial membrane potential	LDHA -[Activation]-> regulation of mitochondrial membrane potential	23523103	0																																		
+LDHA	Y10F	LDHA_HUMAN	CHAIN	L-lactate dehydrogenase A chain	Neoplasm Invasiveness	LDHA -[Inhibition]-> Neoplasm Invasiveness	28218905	0																																		
+LDHA	Y10F	LDHA_HUMAN	CHAIN	L-lactate dehydrogenase A chain	Neoplasm Metastasis	LDHA -[Inhibition]-> Neoplasm Metastasis	28218905	0																																		
+LDHA	Y10F	LDHA_HUMAN	CHAIN	L-lactate dehydrogenase A chain	cell population proliferation	LDHA -[Inhibition]-> Neoplasm Invasiveness -[Activation]-> cell population proliferation	28218905	0																																		
+LDHA	Y10F	LDHA_HUMAN	CHAIN	L-lactate dehydrogenase A chain	glycolytic process	LDHA -[Activation]-> glycolytic process	28218905	0																																		
+LDHA	Y10F	LDHA_HUMAN	CHAIN	L-lactate dehydrogenase A chain	metabolic process	LDHA -[Activation]-> metabolic process	28218905	0																																		

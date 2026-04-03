@@ -1,0 +1,8 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+ID2	S14A	ID2_HUMAN	CHAIN	DNA-binding protein inhibitor ID-2	localization	ID2 -[Activation]-> localization	27938661	0																																		
+ID2	S5A	ID2_HUMAN	CHAIN	DNA-binding protein inhibitor ID-2	apoptotic process	ID2 -[Activation]-> apoptotic process	21947283	0																																		
+ID2	S5A	ID2_HUMAN	CHAIN	DNA-binding protein inhibitor ID-2	cell differentiation	ID2 -[Activation]-> cell differentiation	21947283	0																																		
+ID2	T27A	ID2_HUMAN	CHAIN;DOMAIN	DNA-binding protein inhibitor ID-2;bHLH	cell population proliferation	ID2 -[Complex]-> DYRK1A -[Inhibition]-> cell population proliferation	26735018	0																																		
+ID2	T27A	ID2_HUMAN	CHAIN;DOMAIN	DNA-binding protein inhibitor ID-2;bHLH	cell quiescence	ID2 -[Complex]-> DYRK1A -[Activation]-> cell quiescence	26735018	0																																		
+ID2	T27E	ID2_HUMAN	CHAIN;DOMAIN	DNA-binding protein inhibitor ID-2;bHLH	cell population proliferation	ID2 -[Complex]-> DYRK1A -[Inhibition]-> cell population proliferation	26735018	0																																		
+ID2	T27E	ID2_HUMAN	CHAIN;DOMAIN	DNA-binding protein inhibitor ID-2;bHLH	cell quiescence	ID2 -[Complex]-> DYRK1A -[Activation]-> cell quiescence	26735018	0																																		

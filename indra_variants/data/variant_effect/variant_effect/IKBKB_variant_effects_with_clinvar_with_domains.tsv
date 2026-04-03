@@ -1,0 +1,27 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+IKBKB	C179S	IKKB_HUMAN	CHAIN;DOMAIN	;Protein kinase	cell population proliferation	IKBKB -[Inhibition]-> FGF2 -[Activation]-> cell population proliferation	33706169	0																																		
+IKBKB	C179S	IKKB_HUMAN	CHAIN;DOMAIN	;Protein kinase	homeostatic process	IKBKB -[Complex]-> TXN -[Activation]-> homeostatic process	33706169	0																																		
+IKBKB	C179S	IKKB_HUMAN	CHAIN;DOMAIN	;Protein kinase	inflammatory response	IKBKB -[Activation]-> inflammatory response	31654061	0																																		
+IKBKB	C179S	IKKB_HUMAN	CHAIN;DOMAIN	;Protein kinase	inflammatory response	IKBKB -[Inhibition]-> inflammatory response	33706169	0																																		
+IKBKB	C46A	IKKB_HUMAN	CHAIN;DOMAIN	;Protein kinase	cell population proliferation	IKBKB -[Complex]-> DMY-biotin -[Inhibition]-> cell population proliferation	26378659	0																																		
+IKBKB	C46A	IKKB_HUMAN	CHAIN;DOMAIN	;Protein kinase	cytokine production	IKBKB -[Complex]-> dmrt1y -[Inhibition]-> cytokine production	26378659	0																																		
+IKBKB	C46A	IKKB_HUMAN	CHAIN;DOMAIN	;Protein kinase	inflammatory response	IKBKB -[Complex]-> dmrt1y -[Inhibition]-> inflammatory response	26378659	0																																		
+IKBKB	D373A	IKKB_HUMAN	CHAIN		apoptotic process	IKBKB -[Inhibition]-> apoptotic process	11741536	0																																		
+IKBKB	D373A	IKKB_HUMAN	CHAIN		proteolysis	IKBKB -[Activation]-> CASP3 -[Inhibition]-> proteolysis	11741536	0																																		
+IKBKB	D546A	IKKB_HUMAN	CHAIN		apoptotic process	IKBKB -[Inhibition]-> apoptotic process	11741536	0																																		
+IKBKB	D546A	IKKB_HUMAN	CHAIN		proteolysis	IKBKB -[Activation]-> CASP3 -[Inhibition]-> proteolysis	11741536	0																																		
+IKBKB	K44A	IKKB_HUMAN	CHAIN;DOMAIN	;Protein kinase	Cell Survival	IKBKB -[Inhibition]-> Cell Survival	15695387	0																																		
+IKBKB	K44A	IKKB_HUMAN	CHAIN;DOMAIN	;Protein kinase	apoptotic process	IKBKB -[Activation]-> SGK1 -[Inhibition]-> apoptotic process	15695387	0																																		
+IKBKB	K44M	IKKB_HUMAN	CHAIN;DOMAIN	;Protein kinase	cell differentiation	IKBKB -[Phosphorylation]-> RORgammat -[Complex]-> AHR -[Activation]-> cell differentiation	30214937	0																																		
+IKBKB	K44M	IKKB_HUMAN	CHAIN;DOMAIN	;Protein kinase	cell population proliferation	IKBKB -[Activation]-> IL17A -[Activation]-> cell population proliferation	30214937	0																																		
+IKBKB	K44M	IKKB_HUMAN	CHAIN;DOMAIN	;Protein kinase	localization	IKBKB -[IncreaseAmount]-> RELB -[Inhibition]-> localization	20923761	0																																		
+IKBKB	S177E	IKKB_HUMAN	CHAIN;DOMAIN	;Protein kinase	Neoplasm Metastasis	IKBKB -[Inhibition]-> TNFRSF12A -[Inhibition]-> Neoplasm Metastasis	24970477	0																																		
+IKBKB	S177E	IKKB_HUMAN	CHAIN;DOMAIN	;Protein kinase	Prostatic Neoplasms	IKBKB -[Inhibition]-> TNFRSF12A -[Activation]-> Prostatic Neoplasms	24970477	0																																		
+IKBKB	S177E	IKKB_HUMAN	CHAIN;DOMAIN	;Protein kinase	homeostatic process	IKBKB -[Activation]-> endoplasmic reticulum -[Inhibition]-> homeostatic process	27814504	0																																		
+IKBKB	S177E	IKKB_HUMAN	CHAIN;DOMAIN	;Protein kinase	inflammatory response	IKBKB -[Activation]-> inflammatory response	27814504	0																																		
+IKBKB	S177E	IKKB_HUMAN	CHAIN;DOMAIN	;Protein kinase	inflammatory response	IKBKB -[Inhibition]-> TNFRSF12A -[Activation]-> inflammatory response	24970477	0																																		
+IKBKB	S181E	IKKB_HUMAN	CHAIN;DOMAIN	;Protein kinase	Neoplasm Metastasis	IKBKB -[Inhibition]-> TNFRSF12A -[Inhibition]-> Neoplasm Metastasis	24970477	0																																		
+IKBKB	S181E	IKKB_HUMAN	CHAIN;DOMAIN	;Protein kinase	Prostatic Neoplasms	IKBKB -[Inhibition]-> TNFRSF12A -[Activation]-> Prostatic Neoplasms	24970477	0																																		
+IKBKB	S181E	IKKB_HUMAN	CHAIN;DOMAIN	;Protein kinase	homeostatic process	IKBKB -[Activation]-> endoplasmic reticulum -[Inhibition]-> homeostatic process	27814504	0																																		
+IKBKB	S181E	IKKB_HUMAN	CHAIN;DOMAIN	;Protein kinase	inflammatory response	IKBKB -[Activation]-> inflammatory response	27814504	0																																		
+IKBKB	S181E	IKKB_HUMAN	CHAIN;DOMAIN	;Protein kinase	inflammatory response	IKBKB -[Inhibition]-> TNFRSF12A -[Activation]-> inflammatory response	24970477	0																																		

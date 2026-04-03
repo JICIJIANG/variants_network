@@ -1,0 +1,10 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+MMP14	Y573D	MMP14_HUMAN	CHAIN	Matrix metalloproteinase-14	apoptotic process	MMP14 -[Activation]-> apoptotic process	33294797	0																																		
+MMP14	Y573D	MMP14_HUMAN	CHAIN	Matrix metalloproteinase-14	cell differentiation	MMP14 -[Activation]-> cell differentiation	33294797	0																																		
+MMP14	Y573D	MMP14_HUMAN	CHAIN	Matrix metalloproteinase-14	cell population proliferation	MMP14 -[Inhibition]-> cell population proliferation	33294797	0																																		
+MMP14	Y573D	MMP14_HUMAN	CHAIN	Matrix metalloproteinase-14	homeostatic process	MMP14 -[Activation]-> homeostatic process	33294797	0																																		
+MMP14	Y573D	MMP14_HUMAN	CHAIN	Matrix metalloproteinase-14	protein kinase B signaling	MMP14 -[Activation]-> protein kinase B signaling	33294797	0																																		
+MMP14	Y573F	MMP14_HUMAN	CHAIN	Matrix metalloproteinase-14	angiogenesis	MMP14 -[Activation]-> angiogenesis	19409422	0																																		
+MMP14	Y573F	MMP14_HUMAN	CHAIN	Matrix metalloproteinase-14	cell adhesion	MMP14 -[Activation]-> ERK -[Activation]-> cell adhesion	19409422	0																																		
+MMP14	Y573F	MMP14_HUMAN	CHAIN	Matrix metalloproteinase-14	cell migration	MMP14 -[Inhibition]-> cell migration	19409422	0																																		
+MMP14	Y573F	MMP14_HUMAN	CHAIN	Matrix metalloproteinase-14	localization	MMP14 -[Activation]-> localization	19409422	0																																		

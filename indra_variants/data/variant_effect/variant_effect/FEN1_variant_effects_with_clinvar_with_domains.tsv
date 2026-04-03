@@ -1,0 +1,27 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+FEN1	E160D	FEN1_HUMAN	CHAIN;REGION	Flap endonuclease 1;I-domain	5'-flap endonuclease activity	FEN1 -[Inhibition]-> 5'-flap endonuclease activity	27270424	0																																		
+FEN1	E160D	FEN1_HUMAN	CHAIN;REGION	Flap endonuclease 1;I-domain	Cell Transformation, Neoplastic	FEN1 -[Activation]-> Cell Transformation, Neoplastic	27270424	0																																		
+FEN1	E160D	FEN1_HUMAN	CHAIN;REGION	Flap endonuclease 1;I-domain	DNA Damage	FEN1 -[Activation]-> DNA Damage	20929870	0																																		
+FEN1	E160D	FEN1_HUMAN	CHAIN;REGION	Flap endonuclease 1;I-domain	DNA repair	FEN1 -[Activation]-> DNA repair	22155171	0																																		
+FEN1	E160D	FEN1_HUMAN	CHAIN;REGION	Flap endonuclease 1;I-domain	DNA replication	FEN1 -[Activation]-> DNA replication	20929870	0																																		
+FEN1	E160D	FEN1_HUMAN	CHAIN;REGION	Flap endonuclease 1;I-domain	DNA replication	FEN1 -[Activation]-> DNA replication	27270424	0																																		
+FEN1	E160D	FEN1_HUMAN	CHAIN;REGION	Flap endonuclease 1;I-domain	Genomic Instability	FEN1 -[Activation]-> Genomic Instability	20929870	0																																		
+FEN1	E160D	FEN1_HUMAN	CHAIN;REGION	Flap endonuclease 1;I-domain	Genomic Instability	FEN1 -[Activation]-> Genomic Instability	20972458	0																																		
+FEN1	E160D	FEN1_HUMAN	CHAIN;REGION	Flap endonuclease 1;I-domain	Genomic Instability	FEN1 -[Activation]-> Genomic Instability	27270424	0																																		
+FEN1	E160D	FEN1_HUMAN	CHAIN;REGION	Flap endonuclease 1;I-domain	Neoplasms	FEN1 -[Activation]-> Neoplasms	27270424	0																																		
+FEN1	E160D	FEN1_HUMAN	CHAIN;REGION	Flap endonuclease 1;I-domain	acetyltransferase activity	FEN1 -[Complex]-> acetyltransferase activity	20929870	0																																		
+FEN1	E160D	FEN1_HUMAN	CHAIN;REGION	Flap endonuclease 1;I-domain	cell population proliferation	FEN1 -[Activation]-> cell population proliferation	20929870	0																																		
+FEN1	E160D	FEN1_HUMAN	CHAIN;REGION	Flap endonuclease 1;I-domain	exonuclease activity	FEN1 -[Inhibition]-> exonuclease activity	27270424	0																																		
+FEN1	E160D	FEN1_HUMAN	CHAIN;REGION	Flap endonuclease 1;I-domain	localization	FEN1 -[Inhibition]-> localization	20929870	0																																		
+FEN1	E359K	FEN1_HUMAN	CHAIN;REGION	Flap endonuclease 1;Disordered	DNA replication	FEN1 -[Activation]-> DNA replication	24608430	0																																		
+FEN1	E359K	FEN1_HUMAN	CHAIN;REGION	Flap endonuclease 1;Disordered	Genomic Instability	FEN1 -[Activation]-> Genomic Instability	24608430	0																																		
+FEN1	E359K	FEN1_HUMAN	CHAIN;REGION	Flap endonuclease 1;Disordered	Neoplasms	FEN1 -[Activation]-> Neoplasms	24608430	0																																		
+FEN1	E359K	FEN1_HUMAN	CHAIN;REGION	Flap endonuclease 1;Disordered	cell population proliferation	FEN1 -[Activation]-> cell population proliferation	24608430	0																																		
+FEN1	E359K	FEN1_HUMAN	CHAIN;REGION	Flap endonuclease 1;Disordered	endonuclease activity	FEN1 -[Inhibition]-> endonuclease activity	24608430	0																																		
+FEN1	K354R	FEN1_HUMAN	CHAIN;REGION	Flap endonuclease 1;Disordered	DNA Damage	FEN1 -[Activation]-> DNA Damage	22749529	0																																		
+FEN1	L209P	FEN1_HUMAN	CHAIN;REGION	Flap endonuclease 1;I-domain	5'-flap endonuclease activity	FEN1 -[Inhibition]-> 5'-flap endonuclease activity	27270424	0																																		
+FEN1	L209P	FEN1_HUMAN	CHAIN;REGION	Flap endonuclease 1;I-domain	Cell Transformation, Neoplastic	FEN1 -[Activation]-> Cell Transformation, Neoplastic	27270424	0																																		
+FEN1	L209P	FEN1_HUMAN	CHAIN;REGION	Flap endonuclease 1;I-domain	DNA replication	FEN1 -[Activation]-> DNA replication	27270424	0																																		
+FEN1	L209P	FEN1_HUMAN	CHAIN;REGION	Flap endonuclease 1;I-domain	Genomic Instability	FEN1 -[Activation]-> Genomic Instability	27270424	0																																		
+FEN1	L209P	FEN1_HUMAN	CHAIN;REGION	Flap endonuclease 1;I-domain	Neoplasms	FEN1 -[Activation]-> Neoplasms	27270424	0																																		
+FEN1	L209P	FEN1_HUMAN	CHAIN;REGION	Flap endonuclease 1;I-domain	exonuclease activity	FEN1 -[Inhibition]-> exonuclease activity	27270424	0																																		

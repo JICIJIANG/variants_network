@@ -1,0 +1,8 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+XRCC3	C18067T				Carcinoma, Basal Cell	XRCC3 -[Inhibition]-> Carcinoma, Basal Cell	24454720	0																																		
+XRCC3	C18067T				Carcinoma, Squamous Cell	XRCC3 -[Inhibition]-> Carcinoma, Squamous Cell	24454720	0																																		
+XRCC3	C241T	XRCC3_HUMAN	CHAIN	DNA repair protein XRCC3	Genomic Instability	XRCC3 -[Activation]-> Genomic Instability	23642098	0																																		
+XRCC3	C241T	XRCC3_HUMAN	CHAIN	DNA repair protein XRCC3	Precursor Cell Lymphoblastic Leukemia-Lymphoma	XRCC3 -[Activation]-> Precursor Cell Lymphoblastic Leukemia-Lymphoma	19549356	0																																		
+XRCC3	C241T	XRCC3_HUMAN	CHAIN	DNA repair protein XRCC3	cell cycle	XRCC3 -[Activation]-> cell cycle	23642098	0																																		
+XRCC3	T241M	XRCC3_HUMAN	CHAIN	DNA repair protein XRCC3	Leukemia, Myeloid, Acute	XRCC3 -[Inhibition]-> Leukemia, Myeloid, Acute	18033323	1	23983	single nucleotide variant	NM_005432.4(XRCC3):c.722C>T (p.Thr241Met)	861539	Melanoma, cutaneous malignant, susceptibility to, 6	Benign	1.0	XRCC3-related disorder			not provided																							
+XRCC3	W241M	XRCC3_HUMAN	CHAIN	DNA repair protein XRCC3	Multiple Myeloma	XRCC3 -[Inhibition]-> Multiple Myeloma	19656722	0																																		

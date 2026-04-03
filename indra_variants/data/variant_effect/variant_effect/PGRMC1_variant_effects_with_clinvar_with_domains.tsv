@@ -1,0 +1,9 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+PGRMC1	D120G	PGRC1_HUMAN	CHAIN;DOMAIN	;Cytochrome b5 heme-binding	cell growth	PGRMC1 -[Activation]-> cell growth	24466094	0																																		
+PGRMC1	D120G	PGRC1_HUMAN	CHAIN;DOMAIN	;Cytochrome b5 heme-binding	cell population proliferation	PGRMC1 -[Inhibition]-> cell population proliferation	24466094	0																																		
+PGRMC1	S2R	PGRC1_HUMAN	CHAIN		Neoplasm Invasiveness	PGRMC1 -[IncreaseAmount]-> EGFR -[Activation]-> Neoplasm Invasiveness	25594057	0																																		
+PGRMC1	S2R	PGRC1_HUMAN	CHAIN		apoptotic process	PGRMC1 -[IncreaseAmount]-> EGFR -[Complex]-> ERRFI1 -[Activation]-> apoptotic process	25594057	0																																		
+PGRMC1	S2R	PGRC1_HUMAN	CHAIN		cell growth	PGRMC1 -[IncreaseAmount]-> EGFR -[Activation]-> FRK -[Inhibition]-> cell growth	25594057	0																																		
+PGRMC1	S2R	PGRC1_HUMAN	CHAIN		cell population proliferation	PGRMC1 -[IncreaseAmount]-> EGFR -[Complex]-> ERRFI1 -[Inhibition]-> cell population proliferation	25594057	0																																		
+PGRMC1	S2R	PGRC1_HUMAN	CHAIN		endocytosis	PGRMC1 -[Inhibition]-> endocytosis	25594057	0																																		
+PGRMC1	S2R	PGRC1_HUMAN	CHAIN		transport	PGRMC1 -[IncreaseAmount]-> EGFR -[Inhibition]-> transport	25594057	0																																		

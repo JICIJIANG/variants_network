@@ -1,0 +1,24 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+RHEB	C181S	RHEB_HUMAN	CHAIN	GTP-binding protein Rheb	generation of precursor metabolites and energy	RHEB -[Inhibition]-> generation of precursor metabolites and energy	28242620	0																																		
+RHEB	C181S	RHEB_HUMAN	CHAIN	GTP-binding protein Rheb	transport	RHEB -[Activation]-> transport	28242620	0																																		
+RHEB	D60I	RHEB_HUMAN	CHAIN	GTP-binding protein Rheb	GAP	RHEB -[Complex]-> GAP	15854902	0																																		
+RHEB	D60K	RHEB_HUMAN	CHAIN	GTP-binding protein Rheb	cell population proliferation	RHEB -[Inhibition]-> cell population proliferation	25660019	0																																		
+RHEB	D60K	RHEB_HUMAN	CHAIN	GTP-binding protein Rheb	translation	RHEB -[Inhibition]-> translation	25660019	0																																		
+RHEB	Q64L	RHEB_HUMAN	CHAIN	GTP-binding protein Rheb	GAP	RHEB -[Complex]-> GAP	15854902	0																																		
+RHEB	Q64L	RHEB_HUMAN	CHAIN	GTP-binding protein Rheb	autophagy	RHEB -[Activation]-> mTORC1 -[Inhibition]-> autophagy	25295787	0																																		
+RHEB	Q64L	RHEB_HUMAN	CHAIN	GTP-binding protein Rheb	cell differentiation	RHEB -[Inhibition]-> cell differentiation	29184052	0																																		
+RHEB	Q64L	RHEB_HUMAN	CHAIN	GTP-binding protein Rheb	cell growth	RHEB -[Activation]-> cell growth	18413256	0																																		
+RHEB	Q64L	RHEB_HUMAN	CHAIN	GTP-binding protein Rheb	generation of precursor metabolites and energy	RHEB -[Activation]-> mTORC1 -[Activation]-> generation of precursor metabolites and energy	25295787	0																																		
+RHEB	S16H	RHEB_HUMAN	CHAIN	GTP-binding protein Rheb	Cell Survival	RHEB -[Activation]-> dopamine -[Activation]-> AKT -[Activation]-> Cell Survival	29670079	0																																		
+RHEB	S16H	RHEB_HUMAN	CHAIN	GTP-binding protein Rheb	Cell Survival	RHEB -[Activation]-> mTORC1 -[Activation]-> Cell Survival	31766645	0																																		
+RHEB	S16H	RHEB_HUMAN	CHAIN	GTP-binding protein Rheb	Death	RHEB -[Activation]-> GFRA1 -[Activation]-> Death	32408406	0																																		
+RHEB	S16H	RHEB_HUMAN	CHAIN	GTP-binding protein Rheb	Fluorescence	RHEB -[Activation]-> acetyl-CoA -[Activation]-> Fluorescence	33725483	0																																		
+RHEB	S16H	RHEB_HUMAN	CHAIN	GTP-binding protein Rheb	autophagy	RHEB -[Inhibition]-> autophagy	29670079	0																																		
+RHEB	S16H	RHEB_HUMAN	CHAIN	GTP-binding protein Rheb	gene expression	RHEB -[Phosphorylation]-> PPP1R1B -[Activation]-> gene expression	33353667	0																																		
+RHEB	S16H	RHEB_HUMAN	CHAIN	GTP-binding protein Rheb	generation of precursor metabolites and energy	RHEB -[Activation]-> PDH -[Activation]-> generation of precursor metabolites and energy	33725483	0																																		
+RHEB	S16H	RHEB_HUMAN	CHAIN	GTP-binding protein Rheb	localization	RHEB -[Activation]-> mTORC1 -[Activation]-> localization	33353667	0																																		
+RHEB	S16H	RHEB_HUMAN	CHAIN	GTP-binding protein Rheb	long-term synaptic potentiation	RHEB -[Inhibition]-> long-term synaptic potentiation	31766645	0																																		
+RHEB	S16H	RHEB_HUMAN	CHAIN	GTP-binding protein Rheb	neurogenesis	RHEB -[Activation]-> CNTF -[Activation]-> neurogenesis	31766645	0																																		
+RHEB	S16H	RHEB_HUMAN	CHAIN	GTP-binding protein Rheb	phosphorylation	RHEB -[Phosphorylation]-> PPP1R1B -[Complex]-> RPS6KB1 -[Activation]-> phosphorylation	33353667	0																																		
+RHEB	S16H	RHEB_HUMAN	CHAIN	GTP-binding protein Rheb	translation	RHEB -[Activation]-> mTORC1 -[Activation]-> translation	33353667	0																																		
+RHEB	S20N	RHEB_HUMAN	CHAIN	GTP-binding protein Rheb	GAP	RHEB -[Complex]-> GAP	15854902	0																																		

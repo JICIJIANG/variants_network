@@ -1,0 +1,5 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+ZDHHC5	Y533A	ZDHC5_HUMAN	CHAIN;REGION	Palmitoyltransferase ZDHHC5;Disordered	Cholera	ZDHHC5 -[Activation]-> FLOT -[Activation]-> Cholera	31780775	0																																		
+ZDHHC5	Y533A	ZDHC5_HUMAN	CHAIN;REGION	Palmitoyltransferase ZDHHC5;Disordered	endocytosis	ZDHHC5 -[Activation]-> endocytosis	31780775	0																																		
+ZDHHC5	Y533A	ZDHC5_HUMAN	CHAIN;REGION	Palmitoyltransferase ZDHHC5;Disordered	localization	ZDHHC5 -[Inhibition]-> localization	31780775	0																																		
+ZDHHC5	Y533A	ZDHC5_HUMAN	CHAIN;REGION	Palmitoyltransferase ZDHHC5;Disordered	pinocytosis	ZDHHC5 -[Activation]-> pinocytosis	31780775	0																																		

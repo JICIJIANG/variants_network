@@ -1,0 +1,8 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+PDK1	T338A	PDK1_HUMAN	CHAIN;DOMAIN	;Histidine kinase	Glioblastoma	PDK1 -[Complex]-> PGK1 -[Phosphorylation]-> PDK -[Inhibition]-> Glioblastoma	26942675	0																																		
+PDK1	T338A	PDK1_HUMAN	CHAIN;DOMAIN	;Histidine kinase	cell population proliferation	PDK1 -[Activation]-> cell population proliferation	26942675	0																																		
+PDK1	T338A	PDK1_HUMAN	CHAIN;DOMAIN	;Histidine kinase	glycolytic process	PDK1 -[Activation]-> glycolytic process	26942675	0																																		
+PDK1	T338A	PDK1_HUMAN	CHAIN;DOMAIN	;Histidine kinase	metabolic process	PDK1 -[Inhibition]-> metabolic process	26942675	0																																		
+PDK1	T338A	PDK1_HUMAN	CHAIN;DOMAIN	;Histidine kinase	regulation of mitochondrial membrane potential	PDK1 -[Complex]-> PGK1 -[Inhibition]-> regulation of mitochondrial membrane potential	26942675	0																																		
+PDK1	Y134F	PDK1_HUMAN	CHAIN		metabolic process	PDK1 -[Inhibition]-> PDK -[Activation]-> metabolic process	22195962	0																																		
+PDK1	Y134F	PDK1_HUMAN	CHAIN		oxidative phosphorylation	PDK1 -[Inhibition]-> oxidative phosphorylation	22195962	0																																		

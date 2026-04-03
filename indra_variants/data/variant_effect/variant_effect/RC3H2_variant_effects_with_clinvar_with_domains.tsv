@@ -1,0 +1,10 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+RC3H2	Y691F	RC3H2_HUMAN	CHAIN	Roquin-2	Lymphoma, B-Cell	RC3H2 -[Inhibition]-> KLHL7 -[Inhibition]-> Lymphoma, B-Cell	29695787	0																																		
+RC3H2	Y691F	RC3H2_HUMAN	CHAIN	Roquin-2	Neoplasms	RC3H2 -[Inhibition]-> Neoplasms	29695787	0																																		
+RC3H2	Y691F	RC3H2_HUMAN	CHAIN	Roquin-2	Ubiquitination	RC3H2 -[Complex]-> KLHL6 -[Activation]-> Ubiquitination	29695787	0																																		
+RC3H2	Y691F	RC3H2_HUMAN	CHAIN	Roquin-2	apoptotic process	RC3H2 -[Activation]-> TNFAIP3 -[Activation]-> apoptotic process	29695787	0																																		
+RC3H2	Y691F	RC3H2_HUMAN	CHAIN	Roquin-2	cell growth	RC3H2 -[Activation]-> cell growth	29695787	0																																		
+RC3H2	Y691F	RC3H2_HUMAN	CHAIN	Roquin-2	cell population proliferation	RC3H2 -[Activation]-> cell population proliferation	29695787	0																																		
+RC3H2	Y691F	RC3H2_HUMAN	CHAIN	Roquin-2	mRNA catabolic process	RC3H2 -[Activation]-> mRNA catabolic process	29695787	0																																		
+RC3H2	Y691F	RC3H2_HUMAN	CHAIN	Roquin-2	necrotic cell death	RC3H2 -[Inhibition]-> necrotic cell death	29695787	0																																		
+RC3H2	Y691F	RC3H2_HUMAN	CHAIN	Roquin-2	regulation of cell cycle	RC3H2 -[Inhibition]-> regulation of cell cycle	29695787	0																																		

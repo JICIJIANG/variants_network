@@ -1,0 +1,27 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+PFN1	H119E	PROF1_HUMAN	CHAIN	Profilin-1	cell adhesion	PFN1 -[Complex]-> Actin -[Activation]-> cell adhesion	28394935	0																																		
+PFN1	H119E	PROF1_HUMAN	CHAIN	Profilin-1	localization	PFN1 -[Activation]-> PRKCQ -[Inhibition]-> NOS3 -[Inhibition]-> localization	28394935	0																																		
+PFN1	H133S	PROF1_HUMAN	CHAIN	Profilin-1	Neoplasm Invasiveness	PFN1 -[Inhibition]-> Neoplasm Invasiveness	17940506	0																																		
+PFN1	H133S	PROF1_HUMAN	CHAIN	Profilin-1	Neoplasm Micrometastasis	PFN1 -[Inhibition]-> Neoplasm Micrometastasis	17940506	0																																		
+PFN1	H133S	PROF1_HUMAN	CHAIN	Profilin-1	cell migration	PFN1 -[Inhibition]-> cell migration	17940506	0																																		
+PFN1	H133S	PROF1_HUMAN	CHAIN	Profilin-1	cell motility	PFN1 -[Activation]-> cell motility	17940506	0																																		
+PFN1	H133S	PROF1_HUMAN	CHAIN	Profilin-1	cell-cell adhesion	PFN1 -[Inhibition]-> cell-cell adhesion	17940506	0																																		
+PFN1	H133S	PROF1_HUMAN	CHAIN	Profilin-1	chemotaxis	PFN1 -[Inhibition]-> chemotaxis	17940506	0																																		
+PFN1	M114T	PROF1_HUMAN	CHAIN	Profilin-1	autophagy	PFN1 -[Inhibition]-> autophagy	35628504	1	45721	single nucleotide variant	NM_005022.4(PFN1):c.341T>C (p.Met114Thr)	387907265	not provided	Pathogenic	1.0	PFN1-related disorder			Amyotrophic lateral sclerosis type 18																							
+PFN1	M114T	PROF1_HUMAN	CHAIN	Profilin-1	homeostatic process	PFN1 -[Inhibition]-> homeostatic process	35628504	1	45721	single nucleotide variant	NM_005022.4(PFN1):c.341T>C (p.Met114Thr)	387907265	not provided	Pathogenic	1.0	PFN1-related disorder			Amyotrophic lateral sclerosis type 18																							
+PFN1	R88E	PROF1_HUMAN	CHAIN	Profilin-1	localization	PFN1 -[Activation]-> localization	25543281	0																																		
+PFN1	S137A	PROF1_HUMAN	CHAIN	Profilin-1	Chromosome Aberrations	PFN1 -[Activation]-> Chromosome Aberrations	36319634	0																																		
+PFN1	S137A	PROF1_HUMAN	CHAIN	Profilin-1	DNA catabolic process	PFN1 -[Inhibition]-> DNA catabolic process	36319634	0																																		
+PFN1	S137A	PROF1_HUMAN	CHAIN	Profilin-1	DNA replication	PFN1 -[Activation]-> DNA replication	36319634	0																																		
+PFN1	S137A	PROF1_HUMAN	CHAIN	Profilin-1	Genome	PFN1 -[DecreaseAmount]-> BOD1L1 -[Activation]-> Genome	36319634	0																																		
+PFN1	S137A	PROF1_HUMAN	CHAIN	Profilin-1	Genomic Instability	PFN1 -[Activation]-> Genomic Instability	36319634	0																																		
+PFN1	S137A	PROF1_HUMAN	CHAIN	Profilin-1	Neoplasm Metastasis	PFN1 -[Inhibition]-> Neoplasm Metastasis	22479341	0																																		
+PFN1	S137A	PROF1_HUMAN	CHAIN	Profilin-1	S phase	PFN1 -[Activation]-> S phase	36319634	0																																		
+PFN1	S137A	PROF1_HUMAN	CHAIN	Profilin-1	cell growth	PFN1 -[Inhibition]-> cell growth	22479341	0																																		
+PFN1	S137A	PROF1_HUMAN	CHAIN	Profilin-1	chromatin remodeling	PFN1 -[Activation]-> chromatin remodeling	36319634	0																																		
+PFN1	S137A	PROF1_HUMAN	CHAIN	Profilin-1	innate immune response	PFN1 -[Activation]-> innate immune response	36319634	0																																		
+PFN1	S137A	PROF1_HUMAN	CHAIN	Profilin-1	positive regulation of DNA replication	PFN1 -[Activation]-> positive regulation of DNA replication	36319634	0																																		
+PFN1	S137D	PROF1_HUMAN	CHAIN	Profilin-1	Neoplasm Metastasis	PFN1 -[Inhibition]-> Neoplasm Metastasis	22479341	0																																		
+PFN1	S137D	PROF1_HUMAN	CHAIN	Profilin-1	cell growth	PFN1 -[Inhibition]-> cell growth	22479341	0																																		
+PFN1	Y129F	PROF1_HUMAN	CHAIN	Profilin-1	angiogenesis	PFN1 -[Inhibition]-> angiogenesis	23000962	0																																		
+PFN1	Y129F	PROF1_HUMAN	CHAIN	Profilin-1	cell motility	PFN1 -[Inhibition]-> Endothelial Cells -[Inhibition]-> cell motility	23000962	0																																		

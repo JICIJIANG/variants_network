@@ -1,0 +1,20 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+KEAP1	C151W	KEAP1_HUMAN	CHAIN	Kelch-like ECH-associated protein 1	transcription, DNA-templated	KEAP1 -[Inhibition]-> transcription, DNA-templated	26855455	0																																		
+KEAP1	C273S	KEAP1_HUMAN	CHAIN;DOMAIN	Kelch-like ECH-associated protein 1;BACK	transcription, DNA-templated	KEAP1 -[Inhibition]-> NFE2L2 -[Activation]-> transcription, DNA-templated	18729328	0																																		
+KEAP1	C288S	KEAP1_HUMAN	CHAIN	Kelch-like ECH-associated protein 1	transcription, DNA-templated	KEAP1 -[Inhibition]-> NFE2L2 -[Activation]-> transcription, DNA-templated	18729328	0																																		
+KEAP1	D236H	KEAP1_HUMAN	CHAIN;DOMAIN	Kelch-like ECH-associated protein 1;BACK	Carcinogenesis	KEAP1 -[DecreaseAmount]-> NFE2L2 -[Inhibition]-> Carcinogenesis	27601007	0																																		
+KEAP1	D236H	KEAP1_HUMAN	CHAIN;DOMAIN	Kelch-like ECH-associated protein 1;BACK	Cell Survival	KEAP1 -[Activation]-> Cell Survival	27601007	0																																		
+KEAP1	D236H	KEAP1_HUMAN	CHAIN;DOMAIN	Kelch-like ECH-associated protein 1;BACK	localization	KEAP1 -[Activation]-> localization	27601007	0																																		
+KEAP1	G333C	KEAP1_HUMAN	CHAIN;REPEAT	Kelch-like ECH-associated protein 1;Kelch 1	Carcinogenesis	KEAP1 -[DecreaseAmount]-> NFE2L2 -[Inhibition]-> Carcinogenesis	27601007	0																																		
+KEAP1	G333C	KEAP1_HUMAN	CHAIN;REPEAT	Kelch-like ECH-associated protein 1;Kelch 1	Cell Survival	KEAP1 -[Activation]-> Cell Survival	27601007	0																																		
+KEAP1	G333C	KEAP1_HUMAN	CHAIN;REPEAT	Kelch-like ECH-associated protein 1;Kelch 1	cellular defense response	KEAP1 -[Activation]-> cellular defense response	30288023	0																																		
+KEAP1	G333C	KEAP1_HUMAN	CHAIN;REPEAT	Kelch-like ECH-associated protein 1;Kelch 1	localization	KEAP1 -[Activation]-> localization	27601007	0																																		
+KEAP1	R320Q	KEAP1_HUMAN	CHAIN	Kelch-like ECH-associated protein 1	Cell Survival	KEAP1 -[Inhibition]-> Cell Survival	34466284	0																																		
+KEAP1	R320Q	KEAP1_HUMAN	CHAIN	Kelch-like ECH-associated protein 1	Neoplasm Invasiveness	KEAP1 -[Inhibition]-> Neoplasm Invasiveness	34466284	0																																		
+KEAP1	R320Q	KEAP1_HUMAN	CHAIN	Kelch-like ECH-associated protein 1	Neoplasm Metastasis	KEAP1 -[Inhibition]-> Neoplasm Metastasis	34466284	0																																		
+KEAP1	R320Q	KEAP1_HUMAN	CHAIN	Kelch-like ECH-associated protein 1	Neoplasms	KEAP1 -[Activation]-> Neoplasms	34466284	0																																		
+KEAP1	R320Q	KEAP1_HUMAN	CHAIN	Kelch-like ECH-associated protein 1	cell migration	KEAP1 -[Inhibition]-> cell migration	34466284	0																																		
+KEAP1	R320Q	KEAP1_HUMAN	CHAIN	Kelch-like ECH-associated protein 1	cell population proliferation	KEAP1 -[Inhibition]-> cell population proliferation	34466284	0																																		
+KEAP1	R554Q	KEAP1_HUMAN	CHAIN;REPEAT	Kelch-like ECH-associated protein 1;Kelch 5	apoptotic process	KEAP1 -[Complex]-> UBE2M -[Activation]-> apoptotic process	29932898	0																																		
+KEAP1	R554Q	KEAP1_HUMAN	CHAIN;REPEAT	Kelch-like ECH-associated protein 1;Kelch 5	cell growth	KEAP1 -[Complex]-> UBE2M -[Inhibition]-> cell growth	29932898	0																																		
+KEAP1	R554Q	KEAP1_HUMAN	CHAIN;REPEAT	Kelch-like ECH-associated protein 1;Kelch 5	cell population proliferation	KEAP1 -[Complex]-> UBE2M -[Inhibition]-> cell population proliferation	29932898	0																																		

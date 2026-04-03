@@ -1,0 +1,11 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+SP7	K230R	SP7_HUMAN	CHAIN;REGION	Transcription factor Sp7;Disordered	cell differentiation	SP7 -[Activation]-> cell differentiation	23457570	0																																		
+SP7	K386R	SP7_HUMAN	CHAIN;REGION	Transcription factor Sp7;Disordered	Cell Survival	SP7 -[Activation]-> TNF -[Activation]-> Cell Survival	25818514	0																																		
+SP7	K386R	SP7_HUMAN	CHAIN;REGION	Transcription factor Sp7;Disordered	apoptotic process	SP7 -[Activation]-> TNF -[Activation]-> apoptotic process	25818514	0																																		
+SP7	K386R	SP7_HUMAN	CHAIN;REGION	Transcription factor Sp7;Disordered	cell differentiation	SP7 -[Activation]-> cell differentiation	25818514	0																																		
+SP7	K386R	SP7_HUMAN	CHAIN;REGION	Transcription factor Sp7;Disordered	proteolysis	SP7 -[Activation]-> STUB1 -[Inhibition]-> proteolysis	25818514	0																																		
+SP7	K55R	SP7_HUMAN	CHAIN;REGION	Transcription factor Sp7;Disordered	Cell Survival	SP7 -[Activation]-> TNF -[Activation]-> Cell Survival	25818514	0																																		
+SP7	K55R	SP7_HUMAN	CHAIN;REGION	Transcription factor Sp7;Disordered	apoptotic process	SP7 -[Activation]-> TNF -[Activation]-> apoptotic process	25818514	0																																		
+SP7	K55R	SP7_HUMAN	CHAIN;REGION	Transcription factor Sp7;Disordered	cell differentiation	SP7 -[Activation]-> cell differentiation	25818514	0																																		
+SP7	K55R	SP7_HUMAN	CHAIN;REGION	Transcription factor Sp7;Disordered	proteolysis	SP7 -[Activation]-> STUB1 -[Inhibition]-> proteolysis	25818514	0																																		
+SP7	K58R	SP7_HUMAN	CHAIN	Transcription factor Sp7	cell differentiation	SP7 -[Activation]-> cell differentiation	23457570	0																																		

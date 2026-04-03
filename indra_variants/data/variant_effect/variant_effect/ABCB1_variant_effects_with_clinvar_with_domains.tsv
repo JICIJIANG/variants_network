@@ -1,0 +1,8 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+ABCB1	C3435T				Femur Head Necrosis	ABCB1 -[Activation]-> glucocorticoid -[Activation]-> Femur Head Necrosis	25791493	0																																		
+ABCB1	C3435T				Gastrointestinal Neoplasms	ABCB1 -[Complex]-> PTGS2 -[Activation]-> Gastrointestinal Neoplasms	19930591	0																																		
+ABCB1	C3435T				Nephrotic Syndrome	ABCB1 -[Complex]-> Nephrotic Syndrome	23994685	0																																		
+ABCB1	C3435T				Osteonecrosis	ABCB1 -[Activation]-> glucocorticoid -[Activation]-> Osteonecrosis	25791493	0																																		
+ABCB1	C3435T				apoptotic process	ABCB1 -[Inhibition]-> apoptotic process	25791493	0																																		
+ABCB1	C3435T				transport	ABCB1 -[Complex]-> PTGS2 -[Complex]-> ABCG2 -[Inhibition]-> transport	19930591	0																																		
+ABCB1	G1236A	MDR1_HUMAN	CHAIN;DOMAIN	ATP-dependent translocase ABCB1;ABC transporter 2	Peripheral Nervous System Diseases	ABCB1 -[Activation]-> Peripheral Nervous System Diseases	34280009	0																																		

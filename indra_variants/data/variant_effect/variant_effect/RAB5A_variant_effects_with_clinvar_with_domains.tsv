@@ -1,0 +1,51 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+RAB5A	Q79A	RAB5A_HUMAN	CHAIN	Ras-related protein Rab-5A	transport	RAB5A -[Complex]-> SGSM3 -[DecreaseAmount]-> RAB43 -[Activation]-> USP6NL -[Inhibition]-> transport	17562788	0																																		
+RAB5A	Q79L	RAB5A_HUMAN	CHAIN	Ras-related protein Rab-5A	Cell Survival	RAB5A -[Activation]-> Cell Survival	21639944	0																																		
+RAB5A	Q79L	RAB5A_HUMAN	CHAIN	Ras-related protein Rab-5A	GDP-dissociation inhibitor activity	RAB5A -[Complex]-> GDP-dissociation inhibitor activity	23382462	0																																		
+RAB5A	Q79L	RAB5A_HUMAN	CHAIN	Ras-related protein Rab-5A	cell death	RAB5A -[Activation]-> cell death	21104291	0																																		
+RAB5A	Q79L	RAB5A_HUMAN	CHAIN	Ras-related protein Rab-5A	cell death	RAB5A -[Inhibition]-> MINPP1 -[Activation]-> cell death	21639944	0																																		
+RAB5A	Q79L	RAB5A_HUMAN	CHAIN	Ras-related protein Rab-5A	cell growth	RAB5A -[Inhibition]-> mTORC1 -[Activation]-> cell growth	29119228	0																																		
+RAB5A	Q79L	RAB5A_HUMAN	CHAIN	Ras-related protein Rab-5A	cell population proliferation	RAB5A -[Inhibition]-> MINPP1 -[Inhibition]-> cell population proliferation	21639944	0																																		
+RAB5A	Q79L	RAB5A_HUMAN	CHAIN	Ras-related protein Rab-5A	cell population proliferation	RAB5A -[Inhibition]-> mTORC1 -[Activation]-> cell population proliferation	29119228	0																																		
+RAB5A	Q79L	RAB5A_HUMAN	CHAIN	Ras-related protein Rab-5A	cellular component biogenesis	RAB5A -[Inhibition]-> mTORC1 -[Activation]-> cellular component biogenesis	29119228	0																																		
+RAB5A	Q79L	RAB5A_HUMAN	CHAIN	Ras-related protein Rab-5A	endocytosis	RAB5A -[Activation]-> Clathrin -[Activation]-> endocytosis	18039352	0																																		
+RAB5A	Q79L	RAB5A_HUMAN	CHAIN	Ras-related protein Rab-5A	endocytosis	RAB5A -[Activation]-> EGFR -[Complex]-> GRB2 -[Activation]-> endocytosis	16859684	0																																		
+RAB5A	Q79L	RAB5A_HUMAN	CHAIN	Ras-related protein Rab-5A	endocytosis	RAB5A -[Activation]-> endocytosis	18498773	0																																		
+RAB5A	Q79L	RAB5A_HUMAN	CHAIN	Ras-related protein Rab-5A	endocytosis	RAB5A -[Activation]-> endocytosis	25606852	0																																		
+RAB5A	Q79L	RAB5A_HUMAN	CHAIN	Ras-related protein Rab-5A	endocytosis	RAB5A -[Activation]-> endocytosis	28035080	0																																		
+RAB5A	Q79L	RAB5A_HUMAN	CHAIN	Ras-related protein Rab-5A	endocytosis	RAB5A -[Inhibition]-> endocytosis	19419997	0																																		
+RAB5A	Q79L	RAB5A_HUMAN	CHAIN	Ras-related protein Rab-5A	endocytosis	RAB5A -[Inhibition]-> endocytosis	8137813	0																																		
+RAB5A	Q79L	RAB5A_HUMAN	CHAIN	Ras-related protein Rab-5A	localization	RAB5A -[Activation]-> localization	26100075	0																																		
+RAB5A	Q79L	RAB5A_HUMAN	CHAIN	Ras-related protein Rab-5A	localization	RAB5A -[Inhibition]-> localization	23382462	0																																		
+RAB5A	Q79L	RAB5A_HUMAN	CHAIN	Ras-related protein Rab-5A	metabolic process	RAB5A -[Activation]-> INS -[Activation]-> metabolic process	26100075	0																																		
+RAB5A	Q79L	RAB5A_HUMAN	CHAIN	Ras-related protein Rab-5A	signal transduction	RAB5A -[Activation]-> INS -[Activation]-> signal transduction	26100075	0																																		
+RAB5A	Q79L	RAB5A_HUMAN	CHAIN	Ras-related protein Rab-5A	transport	RAB5A -[Activation]-> transport	18498773	0																																		
+RAB5A	Q79L	RAB5A_HUMAN	CHAIN	Ras-related protein Rab-5A	transport	RAB5A -[Activation]-> transport	28035080	0																																		
+RAB5A	Q79L	RAB5A_HUMAN	CHAIN	Ras-related protein Rab-5A	transport	RAB5A -[Inhibition]-> transport	22833563	0																																		
+RAB5A	S34N	RAB5A_HUMAN	CHAIN	Ras-related protein Rab-5A	Neoplasm Invasiveness	RAB5A -[Activation]-> Neoplasm Invasiveness	25179218	0																																		
+RAB5A	S34N	RAB5A_HUMAN	CHAIN	Ras-related protein Rab-5A	apoptotic process	RAB5A -[Complex]-> TNF -[Activation]-> apoptotic process	25179218	0																																		
+RAB5A	S34N	RAB5A_HUMAN	CHAIN	Ras-related protein Rab-5A	autophagy	RAB5A -[Activation]-> autophagy	27541856	0																																		
+RAB5A	S34N	RAB5A_HUMAN	CHAIN	Ras-related protein Rab-5A	cell adhesion	RAB5A -[Activation]-> IFNA -[Activation]-> cell adhesion	18005734	0																																		
+RAB5A	S34N	RAB5A_HUMAN	CHAIN	Ras-related protein Rab-5A	cell death	RAB5A -[Activation]-> cell death	21104291	0																																		
+RAB5A	S34N	RAB5A_HUMAN	CHAIN	Ras-related protein Rab-5A	cell growth	RAB5A -[Inhibition]-> mTORC1 -[Activation]-> cell growth	29119228	0																																		
+RAB5A	S34N	RAB5A_HUMAN	CHAIN	Ras-related protein Rab-5A	cell population proliferation	RAB5A -[Activation]-> autophagy -[Activation]-> cell population proliferation	27541856	0																																		
+RAB5A	S34N	RAB5A_HUMAN	CHAIN	Ras-related protein Rab-5A	cell population proliferation	RAB5A -[Inhibition]-> mTORC1 -[Activation]-> cell population proliferation	29119228	0																																		
+RAB5A	S34N	RAB5A_HUMAN	CHAIN	Ras-related protein Rab-5A	cellular component biogenesis	RAB5A -[Inhibition]-> mTORC1 -[Activation]-> cellular component biogenesis	29119228	0																																		
+RAB5A	S34N	RAB5A_HUMAN	CHAIN	Ras-related protein Rab-5A	endocytosis	RAB5A -[Activation]-> endocytosis	18498773	0																																		
+RAB5A	S34N	RAB5A_HUMAN	CHAIN	Ras-related protein Rab-5A	endocytosis	RAB5A -[Activation]-> endocytosis	25179218	0																																		
+RAB5A	S34N	RAB5A_HUMAN	CHAIN	Ras-related protein Rab-5A	endocytosis	RAB5A -[Inhibition]-> endocytosis	14600265	0																																		
+RAB5A	S34N	RAB5A_HUMAN	CHAIN	Ras-related protein Rab-5A	endocytosis	RAB5A -[Inhibition]-> endocytosis	15023538	0																																		
+RAB5A	S34N	RAB5A_HUMAN	CHAIN	Ras-related protein Rab-5A	endocytosis	RAB5A -[Inhibition]-> endocytosis	16890161	0																																		
+RAB5A	S34N	RAB5A_HUMAN	CHAIN	Ras-related protein Rab-5A	endocytosis	RAB5A -[Inhibition]-> endocytosis	18005734	0																																		
+RAB5A	S34N	RAB5A_HUMAN	CHAIN	Ras-related protein Rab-5A	endocytosis	RAB5A -[Inhibition]-> endocytosis	19419997	0																																		
+RAB5A	S34N	RAB5A_HUMAN	CHAIN	Ras-related protein Rab-5A	endocytosis	RAB5A -[Inhibition]-> endocytosis	22952906	0																																		
+RAB5A	S34N	RAB5A_HUMAN	CHAIN	Ras-related protein Rab-5A	endocytosis	RAB5A -[Inhibition]-> endocytosis	8137813	0																																		
+RAB5A	S34N	RAB5A_HUMAN	CHAIN	Ras-related protein Rab-5A	innate immune response	RAB5A -[Activation]-> IFNA -[IncreaseAmount]-> Interferon -[Activation]-> innate immune response	18005734	0																																		
+RAB5A	S34N	RAB5A_HUMAN	CHAIN	Ras-related protein Rab-5A	localization	RAB5A -[Activation]-> localization	15023538	0																																		
+RAB5A	S34N	RAB5A_HUMAN	CHAIN	Ras-related protein Rab-5A	pH reduction	RAB5A -[Inhibition]-> CLCN5 -[Activation]-> pH reduction	11116157	0																																		
+RAB5A	S34N	RAB5A_HUMAN	CHAIN	Ras-related protein Rab-5A	transport	RAB5A -[Activation]-> transport	18498773	0																																		
+RAB5A	S43N	RAB5A_HUMAN	CHAIN	Ras-related protein Rab-5A	autophagy	RAB5A -[Activation]-> autophagy	23434372	0																																		
+RAB5A	S43N	RAB5A_HUMAN	CHAIN	Ras-related protein Rab-5A	endocytosis	RAB5A -[Activation]-> endocytosis	26700724	0																																		
+RAB5A	S43N	RAB5A_HUMAN	CHAIN	Ras-related protein Rab-5A	localization	RAB5A -[Activation]-> RAC1 -[Activation]-> localization	26700724	0																																		
+RAB5A	Y82A	RAB5A_HUMAN	CHAIN	Ras-related protein Rab-5A	GDP-dissociation inhibitor activity	RAB5A -[Complex]-> GDP-dissociation inhibitor activity	23382462	0																																		
+RAB5A	Y82A	RAB5A_HUMAN	CHAIN	Ras-related protein Rab-5A	localization	RAB5A -[Inhibition]-> localization	23382462	0																																		

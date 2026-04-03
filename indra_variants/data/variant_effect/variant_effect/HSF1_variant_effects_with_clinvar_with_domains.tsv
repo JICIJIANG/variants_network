@@ -1,0 +1,15 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+HSF1	K80Q	HSF1_HUMAN	CHAIN;REGION	Heat shock factor protein 1;DNA-binding domain	localization	HSF1 -[Inhibition]-> localization	23861773	0																																		
+HSF1	K80Q	HSF1_HUMAN	CHAIN;REGION	Heat shock factor protein 1;DNA-binding domain	transcription, DNA-templated	HSF1 -[Activation]-> transcription, DNA-templated	23861773	0																																		
+HSF1	K80R	HSF1_HUMAN	CHAIN;REGION	Heat shock factor protein 1;DNA-binding domain	proteolysis	HSF1 -[Complex]-> NEDD4 -[Inhibition]-> proteolysis	26503960	0																																		
+HSF1	K80R	HSF1_HUMAN	CHAIN;REGION	Heat shock factor protein 1;DNA-binding domain	response to stress	HSF1 -[Activation]-> response to stress	26503960	0																																		
+HSF1	R145A	HSF1_HUMAN	CHAIN;REGION	Heat shock factor protein 1;Hydrophobic repeat HR-A/B	Cell Survival	HSF1 -[Activation]-> Cell Survival	26952214	0																																		
+HSF1	R145A	HSF1_HUMAN	CHAIN;REGION	Heat shock factor protein 1;Hydrophobic repeat HR-A/B	Death	HSF1 -[Activation]-> Death	26952214	0																																		
+HSF1	R145A	HSF1_HUMAN	CHAIN;REGION	Heat shock factor protein 1;Hydrophobic repeat HR-A/B	cell death	HSF1 -[Activation]-> cell death	26952214	0																																		
+HSF1	R71G	HSF1_HUMAN	CHAIN;REGION	Heat shock factor protein 1;DNA-binding domain	transcription, DNA-templated	HSF1 -[Activation]-> transcription, DNA-templated	21232033	0																																		
+HSF1	S303A	HSF1_HUMAN	CHAIN;REGION;REGION	Heat shock factor protein 1;Regulatory domain;Disordered	Huntington Disease	HSF1 -[Phosphorylation]-> Huntington Disease	28194040	0																																		
+HSF1	S303A	HSF1_HUMAN	CHAIN;REGION;REGION	Heat shock factor protein 1;Regulatory domain;Disordered	cell growth	HSF1 -[Activation]-> cell growth	28194040	0																																		
+HSF1	S303A	HSF1_HUMAN	CHAIN;REGION;REGION	Heat shock factor protein 1;Regulatory domain;Disordered	protein folding	HSF1 -[Activation]-> protein folding	28194040	0																																		
+HSF1	S303A	HSF1_HUMAN	CHAIN;REGION;REGION	Heat shock factor protein 1;Regulatory domain;Disordered	proteolysis	HSF1 -[Complex]-> NEDD4 -[Inhibition]-> proteolysis	26503960	0																																		
+HSF1	S303A	HSF1_HUMAN	CHAIN;REGION;REGION	Heat shock factor protein 1;Regulatory domain;Disordered	response to stress	HSF1 -[Activation]-> response to stress	26503960	0																																		
+HSF1	S326D	HSF1_HUMAN	CHAIN	Heat shock factor protein 1	response to stress	HSF1 -[Inhibition]-> selumetinib -[Inhibition]-> response to stress	25679764	0																																		

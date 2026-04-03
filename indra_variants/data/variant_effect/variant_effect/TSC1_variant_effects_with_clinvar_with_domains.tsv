@@ -1,0 +1,10 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+TSC1	D6H	TSC1_HUMAN	CHAIN	Hamartin	ATPase activity	TSC1 -[Inhibition]-> ATPase activity	29127155	0																																		
+TSC1	F216A	TSC1_HUMAN	CHAIN	Hamartin	RNA splicing	TSC1 -[Activation]-> RNA splicing	18397877	0																																		
+TSC1	F216A	TSC1_HUMAN	CHAIN	Hamartin	localization	TSC1 -[Activation]-> localization	18397877	0																																		
+TSC1	G12D	TSC1_HUMAN	CHAIN	Hamartin	Lung Neoplasms	TSC1 -[Inhibition]-> Lung Neoplasms	19966866	0																																		
+TSC1	L117P	TSC1_HUMAN	CHAIN	Hamartin	ATPase activity	TSC1 -[Inhibition]-> ATPase activity	29127155	1	58189	single nucleotide variant	NM_000368.5(TSC1):c.350T>C (p.Leu117Pro)	118203368	Tuberous sclerosis syndrome	Conflicting classifications of pathogenicity	0.0	Tuberous sclerosis 1																										
+TSC1	S35C	TSC1_HUMAN	CHAIN	Hamartin	RNA splicing	TSC1 -[Activation]-> RNA splicing	18397877	0																																		
+TSC1	S35C	TSC1_HUMAN	CHAIN	Hamartin	localization	TSC1 -[Activation]-> localization	18397877	0																																		
+TSC1	T357A	TSC1_HUMAN	CHAIN	Hamartin	apoptotic process	TSC1 -[Inhibition]-> apoptotic process	20006582	0																																		
+TSC1	T390A	TSC1_HUMAN	CHAIN	Hamartin	apoptotic process	TSC1 -[Inhibition]-> apoptotic process	20006582	0																																		

@@ -1,0 +1,12 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+UHRF1	D334A	UHRF1_HUMAN	CHAIN;ZN_FING;REGION	E3 ubiquitin-protein ligase UHRF1;PHD-type;Histone H3R2me0 binding	DNA methylation	UHRF1 -[Ubiquitination]-> PCLAF -[Activation]-> DNA methylation	32144273	0																																		
+UHRF1	D334A	UHRF1_HUMAN	CHAIN;ZN_FING;REGION	E3 ubiquitin-protein ligase UHRF1;PHD-type;Histone H3R2me0 binding	localization	UHRF1 -[Inhibition]-> localization	27045799	0																																		
+UHRF1	D337A	UHRF1_HUMAN	CHAIN;ZN_FING;REGION	E3 ubiquitin-protein ligase UHRF1;PHD-type;Histone H3R2me0 binding	DNA methylation	UHRF1 -[Ubiquitination]-> PCLAF -[Activation]-> DNA methylation	32144273	0																																		
+UHRF1	S661A	UHRF1_HUMAN	CHAIN;REGION	E3 ubiquitin-protein ligase UHRF1;Disordered	Death	UHRF1 -[Inhibition]-> Death	26851214	0																																		
+UHRF1	S674A	UHRF1_HUMAN	CHAIN	E3 ubiquitin-protein ligase UHRF1	DNA Damage	UHRF1 -[Complex]-> BRCA1 -[Activation]-> DNA Damage	26727879	0																																		
+UHRF1	S674A	UHRF1_HUMAN	CHAIN	E3 ubiquitin-protein ligase UHRF1	DNA damage checkpoint	UHRF1 -[Complex]-> BRCA1 -[Activation]-> DNA damage checkpoint	26727879	0																																		
+UHRF1	S674A	UHRF1_HUMAN	CHAIN	E3 ubiquitin-protein ligase UHRF1	DNA repair	UHRF1 -[Activation]-> DNA repair	26727879	0																																		
+UHRF1	S674A	UHRF1_HUMAN	CHAIN	E3 ubiquitin-protein ligase UHRF1	Genomic Instability	UHRF1 -[Complex]-> BRCA1 -[Activation]-> Genomic Instability	26727879	0																																		
+UHRF1	S674A	UHRF1_HUMAN	CHAIN	E3 ubiquitin-protein ligase UHRF1	Neoplasms	UHRF1 -[Inhibition]-> Neoplasms	26727879	0																																		
+UHRF1	S674A	UHRF1_HUMAN	CHAIN	E3 ubiquitin-protein ligase UHRF1	cell cycle	UHRF1 -[Inhibition]-> cell cycle	26727879	0																																		
+UHRF1	S674A	UHRF1_HUMAN	CHAIN	E3 ubiquitin-protein ligase UHRF1	homologous recombination	UHRF1 -[Activation]-> homologous recombination	26727879	0																																		

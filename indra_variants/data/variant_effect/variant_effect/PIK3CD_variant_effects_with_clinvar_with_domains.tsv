@@ -1,0 +1,13 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+PIK3CD	D910A	PK3CD_HUMAN	CHAIN;DOMAIN;REGION	;PI3K/PI4K catalytic;Activation loop	apoptotic process	PIK3CD -[Activation]-> apoptotic process	29038423	0																																		
+PIK3CD	D910A	PK3CD_HUMAN	CHAIN;DOMAIN;REGION	;PI3K/PI4K catalytic;Activation loop	cell adhesion	PIK3CD -[Activation]-> cell adhesion	26740009	0																																		
+PIK3CD	D910A	PK3CD_HUMAN	CHAIN;DOMAIN;REGION	;PI3K/PI4K catalytic;Activation loop	cell differentiation	PIK3CD -[Activation]-> cell differentiation	26311905	0																																		
+PIK3CD	D910A	PK3CD_HUMAN	CHAIN;DOMAIN;REGION	;PI3K/PI4K catalytic;Activation loop	cell population proliferation	PIK3CD -[Activation]-> cell population proliferation	17015696	0																																		
+PIK3CD	D910A	PK3CD_HUMAN	CHAIN;DOMAIN;REGION	;PI3K/PI4K catalytic;Activation loop	cell population proliferation	PIK3CD -[Inhibition]-> cell population proliferation	23087689	0																																		
+PIK3CD	D910A	PK3CD_HUMAN	CHAIN;DOMAIN;REGION	;PI3K/PI4K catalytic;Activation loop	cell population proliferation	PIK3CD -[Inhibition]-> cell population proliferation	26311905	0																																		
+PIK3CD	D910A	PK3CD_HUMAN	CHAIN;DOMAIN;REGION	;PI3K/PI4K catalytic;Activation loop	immune response	PIK3CD -[Inhibition]-> immune response	24009720	0																																		
+PIK3CD	D910A	PK3CD_HUMAN	CHAIN;DOMAIN;REGION	;PI3K/PI4K catalytic;Activation loop	inflammatory response	PIK3CD -[Activation]-> inflammatory response	23028409	0																																		
+PIK3CD	D910A	PK3CD_HUMAN	CHAIN;DOMAIN;REGION	;PI3K/PI4K catalytic;Activation loop	inflammatory response	PIK3CD -[Inhibition]-> inflammatory response	21390257	0																																		
+PIK3CD	E1020K	PK3CD_HUMAN	CHAIN;DOMAIN	;PI3K/PI4K catalytic	Genomic Instability	PIK3CD -[IncreaseAmount]-> AICDA -[Inhibition]-> Genomic Instability	30018075	0																																		
+PIK3CD	E1020K	PK3CD_HUMAN	CHAIN;DOMAIN	;PI3K/PI4K catalytic	cell differentiation	PIK3CD -[Inhibition]-> cell differentiation	30018075	0																																		
+PIK3CD	E1020K	PK3CD_HUMAN	CHAIN;DOMAIN	;PI3K/PI4K catalytic	immune response	PIK3CD -[Inhibition]-> immune response	30093657	0																																		

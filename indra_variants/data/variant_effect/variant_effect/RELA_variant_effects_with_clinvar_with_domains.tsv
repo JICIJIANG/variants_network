@@ -1,0 +1,37 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+RELA	C38S	TF65_HUMAN	CHAIN;DOMAIN	Transcription factor p65;RHD	cell population proliferation	RELA -[Inhibition]-> FGF2 -[Activation]-> cell population proliferation	33706169	0																																		
+RELA	C38S	TF65_HUMAN	CHAIN;DOMAIN	Transcription factor p65;RHD	homeostatic process	RELA -[Inhibition]-> FGF2 -[Activation]-> TXN -[Activation]-> homeostatic process	33706169	0																																		
+RELA	C38S	TF65_HUMAN	CHAIN;DOMAIN	Transcription factor p65;RHD	inflammatory response	RELA -[Inhibition]-> FGF2 -[Activation]-> inflammatory response	33706169	0																																		
+RELA	D264G	TF65_HUMAN	CHAIN;DOMAIN	Transcription factor p65;RHD	DNA replication	RELA -[Activation]-> comGA -[Inhibition]-> DNA replication	25899641	0																																		
+RELA	D361E	TF65_HUMAN	CHAIN;REGION	Transcription factor p65;Transcriptional activation domain 3	Cell Survival	RELA -[DecreaseAmount]-> NFkappaB -[Activation]-> Cell Survival	25144719	0																																		
+RELA	D361E	TF65_HUMAN	CHAIN;REGION	Transcription factor p65;Transcriptional activation domain 3	Melanoma	RELA -[Activation]-> Melanoma	34927768	0																																		
+RELA	D361E	TF65_HUMAN	CHAIN;REGION	Transcription factor p65;Transcriptional activation domain 3	cell death	RELA -[Inhibition]-> cell death	25144719	0																																		
+RELA	D361E	TF65_HUMAN	CHAIN;REGION	Transcription factor p65;Transcriptional activation domain 3	metabolic process	RELA -[Inhibition]-> metabolic process	34927768	0																																		
+RELA	K122Q	TF65_HUMAN	CHAIN;DOMAIN	Transcription factor p65;RHD	Cell Survival	RELA -[Activation]-> CGAS -[Activation]-> Reperfusion Injury -[Activation]-> HDAC2 -[Inhibition]-> Cell Survival	32863951	0																																		
+RELA	K122Q	TF65_HUMAN	CHAIN;DOMAIN	Transcription factor p65;RHD	Reperfusion Injury	RELA -[Activation]-> CGAS -[Activation]-> Reperfusion Injury	32863951	0																																		
+RELA	K122Q	TF65_HUMAN	CHAIN;DOMAIN	Transcription factor p65;RHD	apoptotic process	RELA -[Activation]-> CGAS -[Activation]-> Reperfusion Injury -[Activation]-> apoptotic process	32863951	0																																		
+RELA	K122Q	TF65_HUMAN	CHAIN;DOMAIN	Transcription factor p65;RHD	inflammatory response	RELA -[Activation]-> CGAS -[Activation]-> inflammatory response	32863951	0																																		
+RELA	K122Q	TF65_HUMAN	CHAIN;DOMAIN	Transcription factor p65;RHD	localization	RELA -[Inhibition]-> localization	32863951	0																																		
+RELA	K122R	TF65_HUMAN	CHAIN;DOMAIN	Transcription factor p65;RHD	Cell Survival	RELA -[Activation]-> CGAS -[Activation]-> Reperfusion Injury -[Activation]-> HDAC2 -[Inhibition]-> Cell Survival	32863951	0																																		
+RELA	K122R	TF65_HUMAN	CHAIN;DOMAIN	Transcription factor p65;RHD	Reperfusion Injury	RELA -[Activation]-> CGAS -[Activation]-> Reperfusion Injury	32863951	0																																		
+RELA	K122R	TF65_HUMAN	CHAIN;DOMAIN	Transcription factor p65;RHD	apoptotic process	RELA -[Activation]-> CGAS -[Activation]-> Reperfusion Injury -[Activation]-> apoptotic process	32863951	0																																		
+RELA	K122R	TF65_HUMAN	CHAIN;DOMAIN	Transcription factor p65;RHD	inflammatory response	RELA -[Activation]-> CGAS -[Activation]-> inflammatory response	32863951	0																																		
+RELA	K122R	TF65_HUMAN	CHAIN;DOMAIN	Transcription factor p65;RHD	localization	RELA -[Inhibition]-> localization	32863951	0																																		
+RELA	K310Q	TF65_HUMAN	CHAIN;REGION	Transcription factor p65;Disordered	Brain Ischemia	RELA -[DecreaseAmount]-> SLC11A2 -[Activation]-> Brain Ischemia	22666436	0																																		
+RELA	K310Q	TF65_HUMAN	CHAIN;REGION	Transcription factor p65;Disordered	Death	RELA -[Activation]-> Death	22666436	0																																		
+RELA	K310Q	TF65_HUMAN	CHAIN;REGION	Transcription factor p65;Disordered	apoptotic process	RELA -[Activation]-> apoptotic process	22666436	0																																		
+RELA	K310Q	TF65_HUMAN	CHAIN;REGION	Transcription factor p65;Disordered	cell death	RELA -[Activation]-> cell death	22666436	0																																		
+RELA	K310Q	TF65_HUMAN	CHAIN;REGION	Transcription factor p65;Disordered	transcription, DNA-templated	RELA -[Activation]-> transcription, DNA-templated	22666436	0																																		
+RELA	K310R	TF65_HUMAN	CHAIN;REGION	Transcription factor p65;Disordered	Aging	RELA -[Inhibition]-> NFkappaB -[Activation]-> Aging	27613566	0																																		
+RELA	K4Q	TF65_HUMAN	CHAIN	Transcription factor p65	transcription, DNA-templated	RELA -[Activation]-> transcription, DNA-templated	23087373	0																																		
+RELA	K5Q	TF65_HUMAN	CHAIN	Transcription factor p65	transcription, DNA-templated	RELA -[Activation]-> transcription, DNA-templated	23087373	0																																		
+RELA	S276A	TF65_HUMAN	CHAIN;DOMAIN	Transcription factor p65;RHD	transcription, DNA-templated	RELA -[Inhibition]-> transcription, DNA-templated	12732648	0																																		
+RELA	S276A	TF65_HUMAN	CHAIN;DOMAIN	Transcription factor p65;RHD	transcription, DNA-templated	RELA -[Inhibition]-> transcription, DNA-templated	18241676	0																																		
+RELA	S468A	TF65_HUMAN	CHAIN;REGION	Transcription factor p65;Transcriptional activation domain 1	cellular senescence	RELA -[IncreaseAmount]-> NFKBIA -[Inhibition]-> cellular senescence	33459422	0																																		
+RELA	T505A	TF65_HUMAN	CHAIN	Transcription factor p65	Death	RELA -[Activation]-> Death	21737676	0																																		
+RELA	T505A	TF65_HUMAN	CHAIN	Transcription factor p65	apoptotic process	RELA -[Activation]-> apoptotic process	21737676	0																																		
+RELA	T505A	TF65_HUMAN	CHAIN	Transcription factor p65	cell death	RELA -[Activation]-> cell death	21737676	0																																		
+RELA	T505A	TF65_HUMAN	CHAIN	Transcription factor p65	cell migration	RELA -[Inhibition]-> cell migration	21737676	0																																		
+RELA	T505A	TF65_HUMAN	CHAIN	Transcription factor p65	cell population proliferation	RELA -[Activation]-> cell population proliferation	21737676	0																																		
+RELA	Y100F	TF65_HUMAN	CHAIN;DOMAIN	Transcription factor p65;RHD	inflammatory response	RELA -[Complex]-> UBL4A -[Activation]-> IL6 -[Inhibition]-> inflammatory response	30867837	0																																		
+RELA	Y100F	TF65_HUMAN	CHAIN;DOMAIN	Transcription factor p65;RHD	transcription, DNA-templated	RELA -[Activation]-> transcription, DNA-templated	30867837	0																																		

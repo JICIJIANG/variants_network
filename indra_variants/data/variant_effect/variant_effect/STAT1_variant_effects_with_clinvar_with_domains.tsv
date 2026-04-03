@@ -1,0 +1,22 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+STAT1	E320Q	STAT1_HUMAN	CHAIN		immune response	STAT1 -[Activation]-> immune response	16934001	1	24086	single nucleotide variant	NM_007315.4(STAT1):c.958G>C (p.Glu320Gln)	137852680	Mendelian susceptibility to mycobacterial diseases due to partial STAT1 deficiency	Pathogenic	0.0																											
+STAT1	E545K	STAT1_HUMAN	CHAIN		cell differentiation	STAT1 -[Activation]-> cell differentiation	28139313	0																																		
+STAT1	Q463H	STAT1_HUMAN	CHAIN		immune response	STAT1 -[Activation]-> immune response	16934001	1	24085	single nucleotide variant	NM_007315.4(STAT1):c.1389G>T (p.Gln463His)	137852679	Mendelian susceptibility to mycobacterial diseases due to partial STAT1 deficiency	Pathogenic	1.0	not provided																										
+STAT1	Q463H	STAT1_HUMAN	CHAIN		localization	STAT1 -[Inhibition]-> localization	28011069	1	24085	single nucleotide variant	NM_007315.4(STAT1):c.1389G>T (p.Gln463His)	137852679	Mendelian susceptibility to mycobacterial diseases due to partial STAT1 deficiency	Pathogenic	1.0	not provided																										
+STAT1	S727A	STAT1_HUMAN	CHAIN		Hypertrophy	STAT1 -[Activation]-> Hypertrophy	34569651	0																																		
+STAT1	S727A	STAT1_HUMAN	CHAIN		cell differentiation	STAT1 -[Activation]-> ERK -[Activation]-> cell differentiation	28471454	0																																		
+STAT1	S727A	STAT1_HUMAN	CHAIN		cell differentiation	STAT1 -[Activation]-> cell differentiation	29239838	0																																		
+STAT1	S727A	STAT1_HUMAN	CHAIN		cell population proliferation	STAT1 -[Activation]-> cell population proliferation	28471454	0																																		
+STAT1	S727A	STAT1_HUMAN	CHAIN		cell population proliferation	STAT1 -[Activation]-> cell population proliferation	29239838	0																																		
+STAT1	S727A	STAT1_HUMAN	CHAIN		transcription, DNA-templated	STAT1 -[Complex]-> IFNG -[Activation]-> transcription, DNA-templated	14670293	0																																		
+STAT1	S727E	STAT1_HUMAN	CHAIN		cell differentiation	STAT1 -[Activation]-> cell differentiation	29239838	0																																		
+STAT1	S727E	STAT1_HUMAN	CHAIN		cell population proliferation	STAT1 -[Activation]-> cell population proliferation	29239838	0																																		
+STAT1	Y287N	STAT1_HUMAN	CHAIN;COILED	;Required for recruitment of EP300/p300	Infections	STAT1 -[Activation]-> Infections	34421897	0																																		
+STAT1	Y701A	STAT1_HUMAN	CHAIN		apoptotic process	STAT1 -[Inhibition]-> apoptotic process	20937272	0																																		
+STAT1	Y701C	STAT1_HUMAN	CHAIN		localization	STAT1 -[Inhibition]-> localization	28011069	1	1382672	single nucleotide variant	NM_007315.4(STAT1):c.2102A>G (p.Tyr701Cys)	2124996723	Mendelian susceptibility to mycobacterial diseases due to partial STAT1 deficiency	Pathogenic	1.0	Immunodeficiency 31B			Autoimmune enteropathy and endocrinopathy - susceptibility to chronic infections syndrome																							
+STAT1	Y701F	STAT1_HUMAN	CHAIN		Alzheimer Disease	STAT1 -[Activation]-> Alzheimer Disease	30382187	0																																		
+STAT1	Y701F	STAT1_HUMAN	CHAIN		Death	STAT1 -[Inhibition]-> MAPT -[Activation]-> Death	30382187	0																																		
+STAT1	Y701F	STAT1_HUMAN	CHAIN		T cell proliferation	STAT1 -[Complex]-> STAT5 -[Activation]-> T cell proliferation	29662014	0																																		
+STAT1	Y701F	STAT1_HUMAN	CHAIN		immune response	STAT1 -[Activation]-> IFN-I -[Activation]-> immune response	26882544	0																																		
+STAT1	Y701F	STAT1_HUMAN	CHAIN		immune response	STAT1 -[Activation]-> immune response	29662014	0																																		
+STAT1	Y701F	STAT1_HUMAN	CHAIN		transcription, DNA-templated	STAT1 -[Activation]-> IRF1 -[Activation]-> transcription, DNA-templated	21056555	0																																		

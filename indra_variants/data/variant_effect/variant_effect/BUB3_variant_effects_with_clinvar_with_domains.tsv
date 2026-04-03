@@ -1,0 +1,10 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+BUB3	S19A	BUB3_HUMAN	CHAIN;REPEAT	Mitotic checkpoint protein BUB3;WD 1	Death	BUB3 -[Activation]-> Death	20057499	0																																		
+BUB3	S211A	BUB3_HUMAN	CHAIN	Mitotic checkpoint protein BUB3	DNA methylation	BUB3 -[Activation]-> DNA methylation	30553276	0																																		
+BUB3	S211A	BUB3_HUMAN	CHAIN	Mitotic checkpoint protein BUB3	apoptotic process	BUB3 -[Activation]-> DNA methylation -[Activation]-> apoptotic process	30553276	0																																		
+BUB3	S211A	BUB3_HUMAN	CHAIN	Mitotic checkpoint protein BUB3	mitotic cell cycle	BUB3 -[Activation]-> DNA methylation -[Inhibition]-> mitotic cell cycle	30553276	0																																		
+BUB3	S211A	BUB3_HUMAN	CHAIN	Mitotic checkpoint protein BUB3	transcription, DNA-templated	BUB3 -[Inhibition]-> transcription, DNA-templated	30553276	0																																		
+BUB3	Y207F	BUB3_HUMAN	CHAIN;REPEAT	Mitotic checkpoint protein BUB3;WD 5	apoptotic process	BUB3 -[Complex]-> PKM2 -[Inhibition]-> apoptotic process	24316223	0																																		
+BUB3	Y207F	BUB3_HUMAN	CHAIN;REPEAT	Mitotic checkpoint protein BUB3;WD 5	cell cycle	BUB3 -[Complex]-> PKM2 -[Activation]-> cell cycle	24316223	0																																		
+BUB3	Y207F	BUB3_HUMAN	CHAIN;REPEAT	Mitotic checkpoint protein BUB3;WD 5	cell population proliferation	BUB3 -[Activation]-> cell population proliferation	24316223	0																																		
+BUB3	Y207F	BUB3_HUMAN	CHAIN;REPEAT	Mitotic checkpoint protein BUB3;WD 5	mitotic cell cycle	BUB3 -[Complex]-> PKM2 -[Inhibition]-> mitotic cell cycle	24316223	0																																		

@@ -1,0 +1,19 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+FOXL2	C134W	FOXL2_HUMAN	CHAIN	Forkhead box protein L2	Carcinogenesis	FOXL2 -[Activation]-> Carcinogenesis	32641411	0																																		
+FOXL2	C134W	FOXL2_HUMAN	CHAIN	Forkhead box protein L2	Cell Survival	FOXL2 -[Inhibition]-> Cell Survival	24416423	0																																		
+FOXL2	C134W	FOXL2_HUMAN	CHAIN	Forkhead box protein L2	Death_receptor	FOXL2 -[Inhibition]-> Death_receptor	23523567	0																																		
+FOXL2	C134W	FOXL2_HUMAN	CHAIN	Forkhead box protein L2	Granulosa Cell Tumor	FOXL2 -[Activation]-> Granulosa Cell Tumor	32641411	0																																		
+FOXL2	C134W	FOXL2_HUMAN	CHAIN	Forkhead box protein L2	Neoplasm Invasiveness	FOXL2 -[Inhibition]-> Activin_A -[Activation]-> Neoplasm Invasiveness	24332943	0																																		
+FOXL2	C134W	FOXL2_HUMAN	CHAIN	Forkhead box protein L2	Neoplasm Invasiveness	FOXL2 -[Inhibition]-> Activin_A -[Activation]-> Neoplasm Invasiveness	31068369	0																																		
+FOXL2	C134W	FOXL2_HUMAN	CHAIN	Forkhead box protein L2	apoptotic process	FOXL2 -[Activation]-> apoptotic process	23372819	0																																		
+FOXL2	C134W	FOXL2_HUMAN	CHAIN	Forkhead box protein L2	apoptotic process	FOXL2 -[Activation]-> apoptotic process	23523567	0																																		
+FOXL2	C134W	FOXL2_HUMAN	CHAIN	Forkhead box protein L2	apoptotic process	FOXL2 -[Activation]-> apoptotic process	24416423	0																																		
+FOXL2	C134W	FOXL2_HUMAN	CHAIN	Forkhead box protein L2	cell cycle	FOXL2 -[Activation]-> cell cycle	23523567	0																																		
+FOXL2	C134W	FOXL2_HUMAN	CHAIN	Forkhead box protein L2	cell differentiation	FOXL2 -[Inhibition]-> cell differentiation	32641411	0																																		
+FOXL2	C134W	FOXL2_HUMAN	CHAIN	Forkhead box protein L2	cell population proliferation	FOXL2 -[Inhibition]-> Activin_A -[Activation]-> cell population proliferation	31068369	0																																		
+FOXL2	C134W	FOXL2_HUMAN	CHAIN	Forkhead box protein L2	cell population proliferation	FOXL2 -[Inhibition]-> SMAD3 -[Activation]-> cell population proliferation	24416423	0																																		
+FOXL2	C134W	FOXL2_HUMAN	CHAIN	Forkhead box protein L2	cell population proliferation	FOXL2 -[Inhibition]-> cell population proliferation	24332943	0																																		
+FOXL2	C134W	FOXL2_HUMAN	CHAIN	Forkhead box protein L2	epithelial to mesenchymal transition	FOXL2 -[Activation]-> epithelial to mesenchymal transition	32641411	0																																		
+FOXL2	C134W	FOXL2_HUMAN	CHAIN	Forkhead box protein L2	epithelial to mesenchymal transition	FOXL2 -[IncreaseAmount]-> epithelial to mesenchymal transition	33639972	0																																		
+FOXL2	C134W	FOXL2_HUMAN	CHAIN	Forkhead box protein L2	transcription, DNA-templated	FOXL2 -[Inhibition]-> Activin_A -[Activation]-> transcription, DNA-templated	31068369	0																																		
+FOXL2	C134W	FOXL2_HUMAN	CHAIN	Forkhead box protein L2	transdifferentiation	FOXL2 -[Inhibition]-> transdifferentiation	24416423	0																																		

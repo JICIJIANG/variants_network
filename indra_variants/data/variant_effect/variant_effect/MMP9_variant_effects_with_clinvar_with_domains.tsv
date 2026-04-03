@@ -1,0 +1,9 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+MMP9	C1562T				Chronic Periodontitis	MMP9 -[Inhibition]-> Chronic Periodontitis	23252412	0																																		
+MMP9	C1562T				Neoplasms	MMP9 -[Activation]-> Neoplasms	28961241	0																																		
+MMP9	E402Q	MMP9_HUMAN	CHAIN	82 kDa matrix metalloproteinase-9	Liver Cirrhosis	MMP9 -[Inhibition]-> Liver Cirrhosis	25380300	0																																		
+MMP9	E402Q	MMP9_HUMAN	CHAIN	82 kDa matrix metalloproteinase-9	apoptotic process	MMP9 -[Activation]-> TIMP1 -[Activation]-> apoptotic process	25380300	0																																		
+MMP9	E402Q	MMP9_HUMAN	CHAIN	82 kDa matrix metalloproteinase-9	epithelial to mesenchymal transition	MMP9 -[Activation]-> EZH2 -[Activation]-> epithelial to mesenchymal transition	25380300	0																																		
+MMP9	E402Q	MMP9_HUMAN	CHAIN	82 kDa matrix metalloproteinase-9	transdifferentiation	MMP9 -[Activation]-> TIMP1 -[Inhibition]-> transdifferentiation	25380300	0																																		
+MMP9	G100L	MMP9_HUMAN	MOTIF	Cysteine switch	cell adhesion	MMP9 -[Inhibition]-> cell adhesion	21719761	0																																		
+MMP9	R668Q	MMP9_HUMAN	CHAIN;REPEAT	82 kDa matrix metalloproteinase-9;Hemopexin 4	apoptotic process	MMP9 -[Activation]-> apoptotic process	19064570	1	351073	single nucleotide variant	NM_004994.3(MMP9):c.2003G>A (p.Arg668Gln)	17577	Metaphyseal anadysplasia 2	Benign	2.0	not specified			not provided																							

@@ -1,0 +1,21 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+TGM2	C277S	TGM2_HUMAN	CHAIN	Protein-glutamine gamma-glutamyltransferase 2	Cell Survival	TGM2 -[Activation]-> Cell Survival	22225906	0																																		
+TGM2	C277S	TGM2_HUMAN	CHAIN	Protein-glutamine gamma-glutamyltransferase 2	GAP	TGM2 -[Complex]-> ABR -[Complex]-> GAP	21310073	0																																		
+TGM2	C277S	TGM2_HUMAN	CHAIN	Protein-glutamine gamma-glutamyltransferase 2	Neoplasm Invasiveness	TGM2 -[Activation]-> Neoplasm Invasiveness	22225906	0																																		
+TGM2	C277S	TGM2_HUMAN	CHAIN	Protein-glutamine gamma-glutamyltransferase 2	Neoplasm Metastasis	TGM2 -[Activation]-> Neoplasm Metastasis	22225906	0																																		
+TGM2	C277S	TGM2_HUMAN	CHAIN	Protein-glutamine gamma-glutamyltransferase 2	cell death	TGM2 -[Complex]-> calcium(2+) -[Activation]-> cell death	21310073	0																																		
+TGM2	C277S	TGM2_HUMAN	CHAIN	Protein-glutamine gamma-glutamyltransferase 2	cell death	TGM2 -[Inhibition]-> cell death	21304968	0																																		
+TGM2	C277S	TGM2_HUMAN	CHAIN	Protein-glutamine gamma-glutamyltransferase 2	epithelial to mesenchymal transition	TGM2 -[Activation]-> epithelial to mesenchymal transition	22225906	0																																		
+TGM2	C277S	TGM2_HUMAN	CHAIN	Protein-glutamine gamma-glutamyltransferase 2	transcription, DNA-templated	TGM2 -[Activation]-> transcription, DNA-templated	22225906	0																																		
+TGM2	C277V	TGM2_HUMAN	CHAIN	Protein-glutamine gamma-glutamyltransferase 2	cell population proliferation	TGM2 -[Activation]-> cell population proliferation	25218191	0																																		
+TGM2	R579A	TGM2_HUMAN	CHAIN	Protein-glutamine gamma-glutamyltransferase 2	exocytosis	TGM2 -[Activation]-> exocytosis	23717413	0																																		
+TGM2	R580A	TGM2_HUMAN	CHAIN	Protein-glutamine gamma-glutamyltransferase 2	Cell Survival	TGM2 -[Activation]-> Cell Survival	22225906	0																																		
+TGM2	R580A	TGM2_HUMAN	CHAIN	Protein-glutamine gamma-glutamyltransferase 2	Neoplasm Invasiveness	TGM2 -[Activation]-> Neoplasm Invasiveness	22225906	0																																		
+TGM2	R580A	TGM2_HUMAN	CHAIN	Protein-glutamine gamma-glutamyltransferase 2	Neoplasm Metastasis	TGM2 -[Activation]-> Neoplasm Metastasis	22225906	0																																		
+TGM2	R580A	TGM2_HUMAN	CHAIN	Protein-glutamine gamma-glutamyltransferase 2	cell death	TGM2 -[Inhibition]-> cell death	21304968	0																																		
+TGM2	R580A	TGM2_HUMAN	CHAIN	Protein-glutamine gamma-glutamyltransferase 2	epithelial to mesenchymal transition	TGM2 -[Activation]-> epithelial to mesenchymal transition	22225906	0																																		
+TGM2	R580A	TGM2_HUMAN	CHAIN	Protein-glutamine gamma-glutamyltransferase 2	transcription, DNA-templated	TGM2 -[Activation]-> transcription, DNA-templated	22225906	0																																		
+TGM2	S171E	TGM2_HUMAN	CHAIN	Protein-glutamine gamma-glutamyltransferase 2	apoptotic process	TGM2 -[Inhibition]-> apoptotic process	23200849	0																																		
+TGM2	S171E	TGM2_HUMAN	CHAIN	Protein-glutamine gamma-glutamyltransferase 2	transcription, DNA-templated	TGM2 -[Activation]-> transcription, DNA-templated	23200849	0																																		
+TGM2	W241A	TGM2_HUMAN	CHAIN	Protein-glutamine gamma-glutamyltransferase 2	cell cycle	TGM2 -[Activation]-> cell cycle	29809138	0																																		
+TGM2	W241A	TGM2_HUMAN	CHAIN	Protein-glutamine gamma-glutamyltransferase 2	cell population proliferation	TGM2 -[Activation]-> cell population proliferation	29809138	0																																		

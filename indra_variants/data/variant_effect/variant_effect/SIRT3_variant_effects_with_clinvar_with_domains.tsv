@@ -1,0 +1,47 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+SIRT3	H158Y	SIR3_HUMAN	DOMAIN	Deacetylase sirtuin-type	autophagy	SIRT3 -[Acetylation]-> STAT3 -[Inhibition]-> autophagy	28004755	0																																		
+SIRT3	H158Y	SIR3_HUMAN	DOMAIN	Deacetylase sirtuin-type	cell population proliferation	SIRT3 -[Acetylation]-> STAT3 -[Activation]-> cell population proliferation	28004755	0																																		
+SIRT3	H158Y	SIR3_HUMAN	DOMAIN	Deacetylase sirtuin-type	metabolic process	SIRT3 -[Acetylation]-> STAT3 -[Activation]-> metabolic process	28004755	0																																		
+SIRT3	H158Y	SIR3_HUMAN	DOMAIN	Deacetylase sirtuin-type	regulation of mitochondrial membrane potential	SIRT3 -[Acetylation]-> STAT3 -[Activation]-> regulation of mitochondrial membrane potential	28004755	0																																		
+SIRT3	H158Y	SIR3_HUMAN	DOMAIN	Deacetylase sirtuin-type	transcription, DNA-templated	SIRT3 -[Acetylation]-> STAT3 -[IncreaseAmount]-> NDUFA13 -[Inhibition]-> transcription, DNA-templated	28004755	0																																		
+SIRT3	H158Y	SIR3_HUMAN	DOMAIN	Deacetylase sirtuin-type	transport	SIRT3 -[Acetylation]-> STAT3 -[Activation]-> transport	28004755	0																																		
+SIRT3	H243Y	SIR3_HUMAN	DOMAIN	Deacetylase sirtuin-type	Cell Survival	SIRT3 -[Inhibition]-> thallium monochloride -[Inhibition]-> Cell Survival	27501149	0																																		
+SIRT3	H243Y	SIR3_HUMAN	DOMAIN	Deacetylase sirtuin-type	Oxygen Consumption	SIRT3 -[Inhibition]-> thallium monochloride -[Inhibition]-> Oxygen Consumption	27501149	0																																		
+SIRT3	H243Y	SIR3_HUMAN	DOMAIN	Deacetylase sirtuin-type	apoptotic process	SIRT3 -[Inhibition]-> thallium monochloride -[Activation]-> apoptotic process	27501149	0																																		
+SIRT3	H243Y	SIR3_HUMAN	DOMAIN	Deacetylase sirtuin-type	cell death	SIRT3 -[Inhibition]-> thallium monochloride -[Activation]-> cell death	27501149	0																																		
+SIRT3	H243Y	SIR3_HUMAN	DOMAIN	Deacetylase sirtuin-type	cell population proliferation	SIRT3 -[Inhibition]-> thallium monochloride -[Activation]-> cell population proliferation	27501149	0																																		
+SIRT3	H248Y	SIR3_HUMAN	DOMAIN	Deacetylase sirtuin-type	Cell Survival	SIRT3 -[IncreaseAmount]-> FOXO3 -[Activation]-> Cell Survival	30674870	0																																		
+SIRT3	H248Y	SIR3_HUMAN	DOMAIN	Deacetylase sirtuin-type	Mitochondrial Diseases	SIRT3 -[Acetylation]-> HSD17B10 -[Activation]-> Mitochondrial Diseases	32703935	0																																		
+SIRT3	H248Y	SIR3_HUMAN	DOMAIN	Deacetylase sirtuin-type	Neoplasm Metastasis	SIRT3 -[Acetylation]-> FOXO3 -[Activation]-> Neoplasm Metastasis	23665396	0																																		
+SIRT3	H248Y	SIR3_HUMAN	DOMAIN	Deacetylase sirtuin-type	Neoplasms	SIRT3 -[IncreaseAmount]-> ECHS1 -[Inhibition]-> Neoplasms	28878358	0																																		
+SIRT3	H248Y	SIR3_HUMAN	DOMAIN	Deacetylase sirtuin-type	acetyltransferase activity	SIRT3 -[Acetylation]-> HSD17B10 -[Complex]-> acetyltransferase activity	32703935	0																																		
+SIRT3	H248Y	SIR3_HUMAN	DOMAIN	Deacetylase sirtuin-type	apoptotic process	SIRT3 -[Acetylation]-> HSD17B10 -[Inhibition]-> apoptotic process	32703935	0																																		
+SIRT3	H248Y	SIR3_HUMAN	DOMAIN	Deacetylase sirtuin-type	apoptotic process	SIRT3 -[IncreaseAmount]-> ECHS1 -[Inhibition]-> apoptotic process	28878358	0																																		
+SIRT3	H248Y	SIR3_HUMAN	DOMAIN	Deacetylase sirtuin-type	apoptotic process	SIRT3 -[Inhibition]-> apoptotic process	29263907	0																																		
+SIRT3	H248Y	SIR3_HUMAN	DOMAIN	Deacetylase sirtuin-type	apoptotic process	SIRT3 -[Inhibition]-> apoptotic process	30674870	0																																		
+SIRT3	H248Y	SIR3_HUMAN	DOMAIN	Deacetylase sirtuin-type	autophagic cell death	SIRT3 -[Inhibition]-> cadmium atom -[Activation]-> autophagic cell death	26120888	0																																		
+SIRT3	H248Y	SIR3_HUMAN	DOMAIN	Deacetylase sirtuin-type	autophagy	SIRT3 -[Activation]-> autophagy	30674870	0																																		
+SIRT3	H248Y	SIR3_HUMAN	DOMAIN	Deacetylase sirtuin-type	autophagy	SIRT3 -[Inhibition]-> autophagy	26120888	0																																		
+SIRT3	H248Y	SIR3_HUMAN	DOMAIN	Deacetylase sirtuin-type	cell death	SIRT3 -[Acetylation]-> HSD17B10 -[Inhibition]-> cell death	32703935	0																																		
+SIRT3	H248Y	SIR3_HUMAN	DOMAIN	Deacetylase sirtuin-type	cell death	SIRT3 -[Inhibition]-> autophagy -[Activation]-> cell death	26120888	0																																		
+SIRT3	H248Y	SIR3_HUMAN	DOMAIN	Deacetylase sirtuin-type	cell death	SIRT3 -[Inhibition]-> cell death	30674870	0																																		
+SIRT3	H248Y	SIR3_HUMAN	DOMAIN	Deacetylase sirtuin-type	cell growth	SIRT3 -[Acetylation]-> HSD17B10 -[Inhibition]-> cell growth	32703935	0																																		
+SIRT3	H248Y	SIR3_HUMAN	DOMAIN	Deacetylase sirtuin-type	cell growth	SIRT3 -[IncreaseAmount]-> ECHS1 -[Activation]-> cell growth	28878358	0																																		
+SIRT3	H248Y	SIR3_HUMAN	DOMAIN	Deacetylase sirtuin-type	cell population proliferation	SIRT3 -[Inhibition]-> cell population proliferation	30674870	0																																		
+SIRT3	H248Y	SIR3_HUMAN	DOMAIN	Deacetylase sirtuin-type	cellular component biogenesis	SIRT3 -[Acetylation]-> FOXO3 -[Activation]-> cellular component biogenesis	23665396	0																																		
+SIRT3	H248Y	SIR3_HUMAN	DOMAIN	Deacetylase sirtuin-type	deacetylase activity	SIRT3 -[Activation]-> deacetylase activity	26120888	0																																		
+SIRT3	H248Y	SIR3_HUMAN	DOMAIN	Deacetylase sirtuin-type	homeostatic process	SIRT3 -[Acetylation]-> FOXO3 -[Activation]-> homeostatic process	23665396	0																																		
+SIRT3	H248Y	SIR3_HUMAN	DOMAIN	Deacetylase sirtuin-type	necrotic cell death	SIRT3 -[Inhibition]-> necrotic cell death	30674870	0																																		
+SIRT3	H248Y	SIR3_HUMAN	DOMAIN	Deacetylase sirtuin-type	tricarboxylic acid cycle	SIRT3 -[Inhibition]-> butyrate -[Activation]-> tricarboxylic acid cycle	29263907	0																																		
+SIRT3	K223R	SIR3_HUMAN	DOMAIN	Deacetylase sirtuin-type	apoptotic process	SIRT3 -[Deacetylation]-> YME1L1 -[Activation]-> apoptotic process	34272364	0																																		
+SIRT3	K223R	SIR3_HUMAN	DOMAIN	Deacetylase sirtuin-type	cristae formation	SIRT3 -[Deacetylation]-> OPA1 -[Activation]-> cristae formation	34272364	0																																		
+SIRT3	K223R	SIR3_HUMAN	DOMAIN	Deacetylase sirtuin-type	glycolytic process	SIRT3 -[Deacetylation]-> OPA1 -[Activation]-> mitochondrial fusion -[Activation]-> glycolytic process	34272364	0																																		
+SIRT3	K223R	SIR3_HUMAN	DOMAIN	Deacetylase sirtuin-type	immune response	SIRT3 -[Activation]-> immune response	34272364	0																																		
+SIRT3	K223R	SIR3_HUMAN	DOMAIN	Deacetylase sirtuin-type	mitochondrial fusion	SIRT3 -[Deacetylation]-> OPA1 -[Activation]-> mitochondrial fusion	34272364	0																																		
+SIRT3	K223R	SIR3_HUMAN	DOMAIN	Deacetylase sirtuin-type	mitochondrial inner membrane fusion	SIRT3 -[Deacetylation]-> OPA1 -[Activation]-> mitochondrial inner membrane fusion	34272364	0																																		
+SIRT3	K223R	SIR3_HUMAN	DOMAIN	Deacetylase sirtuin-type	oxidative phosphorylation	SIRT3 -[Activation]-> oxidative phosphorylation	34272364	0																																		
+SIRT3	K223R	SIR3_HUMAN	DOMAIN	Deacetylase sirtuin-type	protein acetylation	SIRT3 -[Activation]-> protein acetylation	34272364	0																																		
+SIRT3	K57R	SIR3_HUMAN	REGION	Disordered	proteolysis	SIRT3 -[Inhibition]-> proteolysis	28808064	0																																		
+SIRT3	N87A				Cell Survival	SIRT3 -[Activation]-> CXCL8 -[Inhibition]-> Cell Survival	28386112	0																																		
+SIRT3	N87A				DNA Damage	SIRT3 -[Activation]-> CXCL8 -[Activation]-> DNA Damage	28386112	0																																		
+SIRT3	N87A				apoptotic process	SIRT3 -[Inhibition]-> apoptotic process	28386112	0																																		

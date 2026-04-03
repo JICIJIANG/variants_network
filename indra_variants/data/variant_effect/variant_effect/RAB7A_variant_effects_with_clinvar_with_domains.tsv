@@ -1,0 +1,12 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+RAB7A	K126R	RAB7A_HUMAN	CHAIN	Ras-related protein Rab-7a	homeostatic process	RAB7A -[Activation]-> homeostatic process	32326241	1	931756	single nucleotide variant	NM_004637.6(RAB7A):c.377A>G (p.Lys126Arg)	1933806941	Charcot-Marie-Tooth disease type 2B	Uncertain significance	1.0																											
+RAB7A	Q67L	RAB7A_HUMAN	CHAIN	Ras-related protein Rab-7a	transport	RAB7A -[Complex]-> PRICKLE1 -[Activation]-> transport	27283760	0																																		
+RAB7A	Q67L	RAB7A_HUMAN	CHAIN	Ras-related protein Rab-7a	transport	RAB7A -[Complex]-> RP1 -[Activation]-> transport	30721249	0																																		
+RAB7A	S72A	RAB7A_HUMAN	CHAIN	Ras-related protein Rab-7a	phagocytosis	RAB7A -[Activation]-> phagocytosis	31662325	0																																		
+RAB7A	S72E	RAB7A_HUMAN	CHAIN	Ras-related protein Rab-7a	phagocytosis	RAB7A -[Activation]-> phagocytosis	31662325	0																																		
+RAB7A	T22N	RAB7A_HUMAN	CHAIN	Ras-related protein Rab-7a	Neurodegenerative Diseases	RAB7A -[Inhibition]-> iron atom -[Inhibition]-> Neurodegenerative Diseases	27383256	0																																		
+RAB7A	T22N	RAB7A_HUMAN	CHAIN	Ras-related protein Rab-7a	apoptotic process	RAB7A -[Inhibition]-> iron atom -[Activation]-> apoptotic process	27383256	0																																		
+RAB7A	T22N	RAB7A_HUMAN	CHAIN	Ras-related protein Rab-7a	cell death	RAB7A -[Activation]-> GOLIM4 -[Complex]-> STX1B -[Activation]-> STX2 -[Activation]-> steC -[Activation]-> STX1A -[Activation]-> cell death	26420131	0																																		
+RAB7A	T22N	RAB7A_HUMAN	CHAIN	Ras-related protein Rab-7a	cell death	RAB7A -[Activation]-> cell death	27383256	0																																		
+RAB7A	T22N	RAB7A_HUMAN	CHAIN	Ras-related protein Rab-7a	transport	RAB7A -[Complex]-> Osbpl1a -[Inhibition]-> transport	16176980	0																																		
+RAB7A	T22N	RAB7A_HUMAN	CHAIN	Ras-related protein Rab-7a	transport	RAB7A -[Inhibition]-> transport	26005850	0																																		

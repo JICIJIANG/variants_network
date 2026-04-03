@@ -1,0 +1,37 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+ERN1	A414T	ERN1_HUMAN	CHAIN;REGION;COMPBIAS	;Disordered;Polar residues	Neoplasm Invasiveness	ERN1 -[Activation]-> Neoplasm Invasiveness	29311133	0																																		
+ERN1	A414T	ERN1_HUMAN	CHAIN;REGION;COMPBIAS	;Disordered;Polar residues	Tumor Microenvironment	ERN1 -[Activation]-> Tumor Microenvironment	29311133	0																																		
+ERN1	A414T	ERN1_HUMAN	CHAIN;REGION;COMPBIAS	;Disordered;Polar residues	cell migration	ERN1 -[Activation]-> cell migration	29311133	0																																		
+ERN1	C715S	ERN1_HUMAN	CHAIN;DOMAIN	;Protein kinase	cellular senescence	ERN1 -[Complex]-> NOX4 -[Activation]-> endothelial dysfunction -[Activation]-> cellular senescence	33010578	0																																		
+ERN1	C715S	ERN1_HUMAN	CHAIN;DOMAIN	;Protein kinase	protein folding	ERN1 -[Complex]-> Reactive Oxygen Species -[Inhibition]-> protein folding	33010578	0																																		
+ERN1	C715S	ERN1_HUMAN	CHAIN;DOMAIN	;Protein kinase	transcription, DNA-templated	ERN1 -[Activation]-> XBP1 -[Activation]-> transcription, DNA-templated	33010578	0																																		
+ERN1	C762S	ERN1_HUMAN	CHAIN;DOMAIN	;Protein kinase	cellular senescence	ERN1 -[Complex]-> NOX4 -[Activation]-> endothelial dysfunction -[Activation]-> cellular senescence	33010578	0																																		
+ERN1	C762S	ERN1_HUMAN	CHAIN;DOMAIN	;Protein kinase	protein folding	ERN1 -[Complex]-> Reactive Oxygen Species -[Inhibition]-> protein folding	33010578	0																																		
+ERN1	C762S	ERN1_HUMAN	CHAIN;DOMAIN	;Protein kinase	transcription, DNA-templated	ERN1 -[Activation]-> XBP1 -[Activation]-> transcription, DNA-templated	33010578	0																																		
+ERN1	C931S	ERN1_HUMAN	CHAIN;DOMAIN	;KEN	Cell Survival	ERN1 -[Activation]-> Cell Survival	26446798	0																																		
+ERN1	C931S	ERN1_HUMAN	CHAIN;DOMAIN	;KEN	cell death	ERN1 -[Activation]-> cell death	26446798	0																																		
+ERN1	D797N	ERN1_HUMAN	CHAIN;DOMAIN	;Protein kinase	Cell Survival	ERN1 -[Activation]-> Cell Survival	21444684	0																																		
+ERN1	D797N	ERN1_HUMAN	CHAIN;DOMAIN	;Protein kinase	homeostatic process	ERN1 -[Activation]-> endoplasmic reticulum -[Activation]-> homeostatic process	21444684	0																																		
+ERN1	H890A	ERN1_HUMAN	CHAIN;DOMAIN	;KEN	apoptotic process	ERN1 -[Activation]-> apoptotic process	24183663	0																																		
+ERN1	H890A	ERN1_HUMAN	CHAIN;DOMAIN	;KEN	homeostatic process	ERN1 -[Activation]-> homeostatic process	34265355	0																																		
+ERN1	H890A	ERN1_HUMAN	CHAIN;DOMAIN	;KEN	homeostatic process	ERN1 -[Inhibition]-> endoplasmic reticulum -[Activation]-> Unfolded Protein Response -[Activation]-> homeostatic process	24183663	0																																		
+ERN1	H890A	ERN1_HUMAN	CHAIN;DOMAIN	;KEN	localization	ERN1 -[Activation]-> localization	24183663	0																																		
+ERN1	I642G	ERN1_HUMAN	CHAIN;DOMAIN	;Protein kinase	Cell Survival	ERN1 -[Activation]-> Cell Survival	25018104	0																																		
+ERN1	I642G	ERN1_HUMAN	CHAIN;DOMAIN	;Protein kinase	apoptotic process	ERN1 -[Activation]-> TXNIP -[Activation]-> apoptotic process	22883233	0																																		
+ERN1	I642G	ERN1_HUMAN	CHAIN;DOMAIN	;Protein kinase	apoptotic process	ERN1 -[Activation]-> apoptotic process	19665977	0																																		
+ERN1	I642G	ERN1_HUMAN	CHAIN;DOMAIN	;Protein kinase	apoptotic process	ERN1 -[Activation]-> apoptotic process	23042294	0																																		
+ERN1	I642G	ERN1_HUMAN	CHAIN;DOMAIN	;Protein kinase	apoptotic process	ERN1 -[Inhibition]-> apoptotic process	25018104	0																																		
+ERN1	I642G	ERN1_HUMAN	CHAIN;DOMAIN	;Protein kinase	cell death	ERN1 -[Activation]-> TXNIP -[Activation]-> cell death	22883233	0																																		
+ERN1	I642G	ERN1_HUMAN	CHAIN;DOMAIN	;Protein kinase	cell death	ERN1 -[Activation]-> cell death	25018104	0																																		
+ERN1	I642G	ERN1_HUMAN	CHAIN;DOMAIN	;Protein kinase	embryo development	ERN1 -[Activation]-> embryo development	25018104	0																																		
+ERN1	I642G	ERN1_HUMAN	CHAIN;DOMAIN	;Protein kinase	translation	ERN1 -[Inhibition]-> translation	23042294	0																																		
+ERN1	K576A	ERN1_HUMAN	CHAIN;DOMAIN	;Protein kinase	apoptotic process	ERN1 -[Activation]-> apoptotic process	24183663	0																																		
+ERN1	K576A	ERN1_HUMAN	CHAIN;DOMAIN	;Protein kinase	homeostatic process	ERN1 -[Inhibition]-> endoplasmic reticulum -[Activation]-> Unfolded Protein Response -[Activation]-> homeostatic process	24183663	0																																		
+ERN1	K576A	ERN1_HUMAN	CHAIN;DOMAIN	;Protein kinase	localization	ERN1 -[Activation]-> localization	24183663	0																																		
+ERN1	K599A	ERN1_HUMAN	CHAIN;DOMAIN	;Protein kinase	angiogenesis	ERN1 -[Activation]-> VEGFA -[Activation]-> angiogenesis	20221394	0																																		
+ERN1	K599A	ERN1_HUMAN	CHAIN;DOMAIN	;Protein kinase	autophagy	ERN1 -[Activation]-> autophagy	28428258	0																																		
+ERN1	K599A	ERN1_HUMAN	CHAIN;DOMAIN	;Protein kinase	response to stress	ERN1 -[Activation]-> UPR -[Activation]-> response to stress	28428258	0																																		
+ERN1	K799N	ERN1_HUMAN	CHAIN;DOMAIN	;Protein kinase	Cell Survival	ERN1 -[Activation]-> Cell Survival	21444684	0																																		
+ERN1	K799N	ERN1_HUMAN	CHAIN;DOMAIN	;Protein kinase	homeostatic process	ERN1 -[Activation]-> endoplasmic reticulum -[Activation]-> homeostatic process	21444684	0																																		
+ERN1	S724A	ERN1_HUMAN	CHAIN;DOMAIN	;Protein kinase	autophagy	ERN1 -[Activation]-> autophagy	28428258	0																																		
+ERN1	S724A	ERN1_HUMAN	CHAIN;DOMAIN	;Protein kinase	response to stress	ERN1 -[Activation]-> UPR -[Activation]-> response to stress	28428258	0																																		

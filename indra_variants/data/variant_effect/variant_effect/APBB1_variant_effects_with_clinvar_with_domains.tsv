@@ -1,0 +1,10 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+APBB1	C655F	APBB1_HUMAN	CHAIN;DOMAIN	;PID 2	apoptotic process	APBB1 -[Complex]-> APP -[Activation]-> apoptotic process	23028730	0																																		
+APBB1	C655F	APBB1_HUMAN	CHAIN;DOMAIN	;PID 2	cell death	APBB1 -[Inhibition]-> cell death	23028730	0																																		
+APBB1	C655F	APBB1_HUMAN	CHAIN;DOMAIN	;PID 2	transcription, DNA-templated	APBB1 -[Complex]-> KAT5 -[Activation]-> transcription, DNA-templated	23028730	0																																		
+APBB1	S610A	APBB1_HUMAN	CHAIN;DOMAIN	;PID 2	Alzheimer Disease	APBB1 -[Phosphorylation]-> Alzheimer Disease	26188042	0																																		
+APBB1	S610A	APBB1_HUMAN	CHAIN;DOMAIN	;PID 2	autophagy	APBB1 -[Inhibition]-> autophagy	26188042	0																																		
+APBB1	S610A	APBB1_HUMAN	CHAIN;DOMAIN	;PID 2	localization	APBB1 -[IncreaseAmount]-> APP -[Inhibition]-> localization	26188042	0																																		
+APBB1	S610D	APBB1_HUMAN	CHAIN;DOMAIN	;PID 2	Alzheimer Disease	APBB1 -[Phosphorylation]-> Alzheimer Disease	26188042	0																																		
+APBB1	S610D	APBB1_HUMAN	CHAIN;DOMAIN	;PID 2	autophagy	APBB1 -[Inhibition]-> autophagy	26188042	0																																		
+APBB1	S610D	APBB1_HUMAN	CHAIN;DOMAIN	;PID 2	localization	APBB1 -[IncreaseAmount]-> APP -[Inhibition]-> localization	26188042	0																																		

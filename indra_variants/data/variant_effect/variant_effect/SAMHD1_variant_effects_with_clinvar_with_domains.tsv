@@ -1,0 +1,32 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+SAMHD1	D137N	SAMH1_HUMAN	CHAIN		Immunologic Deficiency Syndromes	SAMHD1 -[Inhibition]-> Immunologic Deficiency Syndromes	26032178	0																																		
+SAMHD1	D137N	SAMH1_HUMAN	CHAIN		Infections	SAMHD1 -[Inhibition]-> Infections	26032178	0																																		
+SAMHD1	D137N	SAMH1_HUMAN	CHAIN		Retroviridae Infections	SAMHD1 -[Inhibition]-> Retroviridae Infections	26032178	0																																		
+SAMHD1	D137N	SAMH1_HUMAN	CHAIN		transcription, DNA-templated	SAMHD1 -[Activation]-> transcription, DNA-templated	25038827	0																																		
+SAMHD1	D137N	SAMH1_HUMAN	CHAIN		transcription, DNA-templated	SAMHD1 -[Activation]-> transcription, DNA-templated	26032178	0																																		
+SAMHD1	D207N	SAMH1_HUMAN	CHAIN;DOMAIN	;HD	transcription, DNA-templated	SAMHD1 -[Complex]-> LINE-1 retrotransposable element ORF2 protein -[Inhibition]-> transcription, DNA-templated	29610582	0																																		
+SAMHD1	K11A	SAMH1_HUMAN	CHAIN;REGION;COMPBIAS	;Disordered;Basic and acidic residues	Immunologic Deficiency Syndromes	SAMHD1 -[Inhibition]-> Immunologic Deficiency Syndromes	23874389	0																																		
+SAMHD1	K11A	SAMH1_HUMAN	CHAIN;REGION;COMPBIAS	;Disordered;Basic and acidic residues	Infections	SAMHD1 -[Inhibition]-> Infections	23874389	0																																		
+SAMHD1	K11A	SAMH1_HUMAN	CHAIN;REGION;COMPBIAS	;Disordered;Basic and acidic residues	localization	SAMHD1 -[Activation]-> localization	23874389	0																																		
+SAMHD1	Q548A	SAMH1_HUMAN	CHAIN		transcription, DNA-templated	SAMHD1 -[Activation]-> transcription, DNA-templated	27711056	0																																		
+SAMHD1	T592A	SAMH1_HUMAN	CHAIN		S phase	SAMHD1 -[Inhibition]-> S phase	34513928	0																																		
+SAMHD1	T592A	SAMH1_HUMAN	CHAIN		cell cycle	SAMHD1 -[Inhibition]-> cell cycle	34513928	0																																		
+SAMHD1	T592A	SAMH1_HUMAN	CHAIN		cellular response to 1-oleoyl-sn-glycerol 3-phosphate	SAMHD1 -[Activation]-> cellular response to 1-oleoyl-sn-glycerol 3-phosphate	34513928	0																																		
+SAMHD1	T592A	SAMH1_HUMAN	CHAIN		localization	SAMHD1 -[Activation]-> localization	34513928	0																																		
+SAMHD1	T592A	SAMH1_HUMAN	CHAIN		protein localization	SAMHD1 -[Activation]-> protein localization	34513928	0																																		
+SAMHD1	T592A	SAMH1_HUMAN	CHAIN		transcription, DNA-templated	SAMHD1 -[Complex]-> LINE-1 retrotransposable element ORF2 protein -[Inhibition]-> transcription, DNA-templated	29610582	0																																		
+SAMHD1	T592A	SAMH1_HUMAN	CHAIN		transcription, DNA-templated	SAMHD1 -[Inhibition]-> transcription, DNA-templated	26923586	0																																		
+SAMHD1	T592A	SAMH1_HUMAN	CHAIN		transposition, RNA-mediated	SAMHD1 -[Inhibition]-> transposition, RNA-mediated	34513928	0																																		
+SAMHD1	T592D	SAMH1_HUMAN	CHAIN		cell growth	SAMHD1 -[Inhibition]-> cell growth	38014153	0																																		
+SAMHD1	T592D	SAMH1_HUMAN	CHAIN		keratinocyte differentiation	SAMHD1 -[Inhibition]-> keratinocyte differentiation	38014153	0																																		
+SAMHD1	T592D	SAMH1_HUMAN	CHAIN		transcription, DNA-templated	SAMHD1 -[Activation]-> transcription, DNA-templated	25038827	0																																		
+SAMHD1	T592D	SAMH1_HUMAN	CHAIN		viral RNA genome replication	SAMHD1 -[Inhibition]-> viral RNA genome replication	38014153	0																																		
+SAMHD1	T592E	SAMH1_HUMAN	CHAIN		DNA biosynthetic process	SAMHD1 -[Activation]-> DNA biosynthetic process	31296733	0																																		
+SAMHD1	T592E	SAMH1_HUMAN	CHAIN		S phase	SAMHD1 -[Inhibition]-> S phase	34513928	0																																		
+SAMHD1	T592E	SAMH1_HUMAN	CHAIN		cell cycle	SAMHD1 -[Inhibition]-> cell cycle	34513928	0																																		
+SAMHD1	T592E	SAMH1_HUMAN	CHAIN		cellular response to 1-oleoyl-sn-glycerol 3-phosphate	SAMHD1 -[Activation]-> cellular response to 1-oleoyl-sn-glycerol 3-phosphate	34513928	0																																		
+SAMHD1	T592E	SAMH1_HUMAN	CHAIN		localization	SAMHD1 -[Activation]-> localization	34513928	0																																		
+SAMHD1	T592E	SAMH1_HUMAN	CHAIN		protein folding	SAMHD1 -[Inhibition]-> protein folding	31296733	0																																		
+SAMHD1	T592E	SAMH1_HUMAN	CHAIN		protein localization	SAMHD1 -[Activation]-> protein localization	34513928	0																																		
+SAMHD1	T592E	SAMH1_HUMAN	CHAIN		transposition, RNA-mediated	SAMHD1 -[Inhibition]-> transposition, RNA-mediated	34513928	0																																		
+SAMHD1	T603D	SAMH1_HUMAN	CHAIN		transcription, DNA-templated	SAMHD1 -[Activation]-> transcription, DNA-templated	26667483	0																																		

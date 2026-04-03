@@ -1,0 +1,25 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+METTL3	A155P	MTA70_HUMAN	CHAIN		translation	METTL3 -[Inhibition]-> translation	30232453	0																																		
+METTL3	D395A	MTA70_HUMAN	CHAIN		Carcinogenesis	METTL3 -[Activation]-> Carcinogenesis	35659339	0																																		
+METTL3	D395A	MTA70_HUMAN	CHAIN		Glioblastoma	METTL3 -[Activation]-> PDGF -[Inhibition]-> Glioblastoma	35659339	0																																		
+METTL3	D395A	MTA70_HUMAN	CHAIN		Glioma	METTL3 -[Activation]-> Glioma	35659339	0																																		
+METTL3	D395A	MTA70_HUMAN	CHAIN		Neoplasms	METTL3 -[Activation]-> Neoplasms	35659339	0																																		
+METTL3	D395A	MTA70_HUMAN	CHAIN		PDGF	METTL3 -[Activation]-> PDGF	35659339	0																																		
+METTL3	D395A	MTA70_HUMAN	CHAIN		apoptotic process	METTL3 -[Activation]-> apoptotic process	35659339	0																																		
+METTL3	D395A	MTA70_HUMAN	CHAIN		autophagy of mitochondrion	METTL3 -[Activation]-> autophagy of mitochondrion	35659339	0																																		
+METTL3	D395A	MTA70_HUMAN	CHAIN		cell population proliferation	METTL3 -[Activation]-> OPTN -[Inhibition]-> cell population proliferation	35659339	0																																		
+METTL3	D395A	MTA70_HUMAN	CHAIN		evasion of host immune response	METTL3 -[Methylation]-> glioblastoma multiforme cancer stem cell -[Activation]-> evasion of host immune response	35659339	0																																		
+METTL3	D395A	MTA70_HUMAN	CHAIN		mRNA catabolic process	METTL3 -[Activation]-> mRNA catabolic process	35659339	0																																		
+METTL3	D395A	MTA70_HUMAN	CHAIN		mitochondrion localization	METTL3 -[Activation]-> mitochondrion localization	35659339	0																																		
+METTL3	D395A	MTA70_HUMAN	CHAIN		mitophagy	METTL3 -[Inhibition]-> mitophagy	35659339	0																																		
+METTL3	D395A	MTA70_HUMAN	CHAIN		regulation of mitochondrial membrane potential	METTL3 -[Inhibition]-> regulation of mitochondrial membrane potential	35659339	0																																		
+METTL3	D395A	MTA70_HUMAN	CHAIN		transcription, DNA-templated	METTL3 -[Complex]-> EGR1 -[Activation]-> transcription, DNA-templated	35659339	0																																		
+METTL3	M6A	MTA70_HUMAN	CHAIN;REGION	;Disordered	DNA Damage	METTL3 -[DecreaseAmount]-> YTHDC1 -[Activation]-> DNA Damage	36367225	0																																		
+METTL3	M6A	MTA70_HUMAN	CHAIN;REGION	;Disordered	DNA replication	METTL3 -[DecreaseAmount]-> YTHDC1 -[Activation]-> DNA replication	36367225	0																																		
+METTL3	M6A	MTA70_HUMAN	CHAIN;REGION	;Disordered	Neoplasm Invasiveness	METTL3 -[Complex]-> METTL14 -[Activation]-> Neoplasm Invasiveness	36367225	0																																		
+METTL3	M6A	MTA70_HUMAN	CHAIN;REGION	;Disordered	Neoplasm Metastasis	METTL3 -[Activation]-> Neoplasm Metastasis	36367225	0																																		
+METTL3	M6A	MTA70_HUMAN	CHAIN;REGION	;Disordered	apoptotic process	METTL3 -[Activation]-> apoptotic process	36367225	0																																		
+METTL3	M6A	MTA70_HUMAN	CHAIN;REGION	;Disordered	cell population proliferation	METTL3 -[Activation]-> cell population proliferation	36367225	0																																		
+METTL3	M6A	MTA70_HUMAN	CHAIN;REGION	;Disordered	cell population proliferation	METTL3 -[Activation]-> cell population proliferation	37368192	0																																		
+METTL3	M6A	MTA70_HUMAN	CHAIN;REGION	;Disordered	mitotic cell cycle	METTL3 -[Activation]-> mitotic cell cycle	37368192	0																																		
+METTL3	M6A	MTA70_HUMAN	CHAIN;REGION	;Disordered	translation	METTL3 -[Methylation]-> EGF -[Activation]-> translation	36367225	0																																		

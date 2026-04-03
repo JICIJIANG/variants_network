@@ -1,0 +1,9 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+CXCL12	K1R				apoptotic process	CXCL12 -[Activation]-> ACKR3 -[Activation]-> apoptotic process	18854833	0																																		
+CXCL12	K1R				cell population proliferation	CXCL12 -[Activation]-> cell population proliferation	18854833	0																																		
+CXCL12	P2G				Neoplasm Metastasis	CXCL12 -[Inhibition]-> Neoplasm Metastasis	20849618	0																																		
+CXCL12	P2G				cell differentiation	CXCL12 -[Activation]-> cell differentiation	20849618	0																																		
+CXCL12	P2G				immune response	CXCL12 -[Activation]-> immune response	20849618	0																																		
+CXCL12	S4V				angiogenesis	CXCL12 -[Activation]-> angiogenesis	24512349	0																																		
+CXCL12	S4V				apoptotic process	CXCL12 -[Inhibition]-> apoptotic process	24512349	0																																		
+CXCL12	S4V				cell population proliferation	CXCL12 -[Inhibition]-> cell population proliferation	24512349	0																																		

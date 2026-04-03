@@ -1,0 +1,10 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+ASPH	E127G	ASPH_HUMAN	CHAIN;REGION	Aspartyl/asparaginyl beta-hydroxylase;Disordered	DNA replication	ASPH -[Complex]-> MGS -[Inhibition]-> DNA replication	25689043	0																																		
+ASPH	F89S	ASPH_HUMAN	CHAIN	Aspartyl/asparaginyl beta-hydroxylase	DNA replication	ASPH -[Complex]-> MGS -[Inhibition]-> DNA replication	25689043	0																																		
+ASPH	H675Q	ASPH_HUMAN	CHAIN	Aspartyl/asparaginyl beta-hydroxylase	Cell Survival	ASPH -[Inhibition]-> Cell Survival	26954680	0																																		
+ASPH	H675Q	ASPH_HUMAN	CHAIN	Aspartyl/asparaginyl beta-hydroxylase	Neoplasm Invasiveness	ASPH -[Activation]-> Neoplasm Invasiveness	26954680	0																																		
+ASPH	H675Q	ASPH_HUMAN	CHAIN	Aspartyl/asparaginyl beta-hydroxylase	apoptotic process	ASPH -[Inhibition]-> apoptotic process	26954680	0																																		
+ASPH	H675Q	ASPH_HUMAN	CHAIN	Aspartyl/asparaginyl beta-hydroxylase	cell growth	ASPH -[Inhibition]-> cell growth	26954680	0																																		
+ASPH	H675Q	ASPH_HUMAN	CHAIN	Aspartyl/asparaginyl beta-hydroxylase	cell migration	ASPH -[Activation]-> cell migration	26954680	0																																		
+ASPH	H675Q	ASPH_HUMAN	CHAIN	Aspartyl/asparaginyl beta-hydroxylase	cell population proliferation	ASPH -[Activation]-> cell population proliferation	26954680	0																																		
+ASPH	R105Q	ASPH_HUMAN	CHAIN	Aspartyl/asparaginyl beta-hydroxylase	DNA replication	ASPH -[Complex]-> MGS -[Inhibition]-> DNA replication	25689043	0																																		

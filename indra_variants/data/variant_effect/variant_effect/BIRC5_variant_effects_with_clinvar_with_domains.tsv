@@ -1,0 +1,29 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+BIRC5	C84A	BIRC5_HUMAN	CHAIN;REPEAT	Baculoviral IAP repeat-containing protein 5;BIR	transcription, DNA-templated	BIRC5 -[Inhibition]-> transcription, DNA-templated	22503977	0																																		
+BIRC5	C86A	BIRC5_HUMAN	CHAIN;REPEAT	Baculoviral IAP repeat-containing protein 5;BIR	apoptotic process	BIRC5 -[Inhibition]-> apoptotic process	18936249	0																																		
+BIRC5	C86A	BIRC5_HUMAN	CHAIN;REPEAT	Baculoviral IAP repeat-containing protein 5;BIR	localization	BIRC5 -[Activation]-> localization	18936249	0																																		
+BIRC5	D71A	BIRC5_HUMAN	CHAIN;REPEAT	Baculoviral IAP repeat-containing protein 5;BIR	cytokinesis	BIRC5 -[Inhibition]-> cytokinesis	20705812	0																																		
+BIRC5	K62A	BIRC5_HUMAN	CHAIN;REPEAT	Baculoviral IAP repeat-containing protein 5;BIR	apoptotic process	BIRC5 -[Inhibition]-> apoptotic process	22244766	0																																		
+BIRC5	L64A	BIRC5_HUMAN	CHAIN;REPEAT	Baculoviral IAP repeat-containing protein 5;BIR	Cell Survival	BIRC5 -[Activation]-> apoptotic process -[Inhibition]-> Cell Survival	10949038	0																																		
+BIRC5	L64A	BIRC5_HUMAN	CHAIN;REPEAT	Baculoviral IAP repeat-containing protein 5;BIR	apoptotic process	BIRC5 -[Activation]-> apoptotic process	10949038	0																																		
+BIRC5	T34A	BIRC5_HUMAN	CHAIN;REPEAT	Baculoviral IAP repeat-containing protein 5;BIR	angiogenesis	BIRC5 -[Activation]-> VEGF -[Activation]-> angiogenesis	26918045	0																																		
+BIRC5	T34A	BIRC5_HUMAN	CHAIN;REPEAT	Baculoviral IAP repeat-containing protein 5;BIR	apoptotic process	BIRC5 -[Activation]-> apoptotic process	19158485	0																																		
+BIRC5	T34A	BIRC5_HUMAN	CHAIN;REPEAT	Baculoviral IAP repeat-containing protein 5;BIR	apoptotic process	BIRC5 -[Activation]-> apoptotic process	26893558	0																																		
+BIRC5	T34A	BIRC5_HUMAN	CHAIN;REPEAT	Baculoviral IAP repeat-containing protein 5;BIR	apoptotic process	BIRC5 -[Activation]-> gemcitabine -[Activation]-> apoptotic process	24624263	0																																		
+BIRC5	T34A	BIRC5_HUMAN	CHAIN;REPEAT	Baculoviral IAP repeat-containing protein 5;BIR	apoptotic process	BIRC5 -[Inhibition]-> apoptotic process	20462440	0																																		
+BIRC5	T34A	BIRC5_HUMAN	CHAIN;REPEAT	Baculoviral IAP repeat-containing protein 5;BIR	apoptotic process	BIRC5 -[Inhibition]-> apoptotic process	22246162	0																																		
+BIRC5	T34A	BIRC5_HUMAN	CHAIN;REPEAT	Baculoviral IAP repeat-containing protein 5;BIR	apoptotic process	BIRC5 -[Inhibition]-> apoptotic process	25661346	0																																		
+BIRC5	T34A	BIRC5_HUMAN	CHAIN;REPEAT	Baculoviral IAP repeat-containing protein 5;BIR	apoptotic process	BIRC5 -[Inhibition]-> apoptotic process	26918045	0																																		
+BIRC5	T34A	BIRC5_HUMAN	CHAIN;REPEAT	Baculoviral IAP repeat-containing protein 5;BIR	apoptotic process	BIRC5 -[Inhibition]-> apoptotic process	29371939	0																																		
+BIRC5	T34A	BIRC5_HUMAN	CHAIN;REPEAT	Baculoviral IAP repeat-containing protein 5;BIR	autophagy	BIRC5 -[Activation]-> autophagy	29371939	0																																		
+BIRC5	T34A	BIRC5_HUMAN	CHAIN;REPEAT	Baculoviral IAP repeat-containing protein 5;BIR	cell cycle	BIRC5 -[Activation]-> gemcitabine -[Inhibition]-> cell cycle	24624263	0																																		
+BIRC5	T34A	BIRC5_HUMAN	CHAIN;REPEAT	Baculoviral IAP repeat-containing protein 5;BIR	cell cycle	BIRC5 -[Inhibition]-> TP53 -[Inhibition]-> cell cycle	26918045	0																																		
+BIRC5	T34A	BIRC5_HUMAN	CHAIN;REPEAT	Baculoviral IAP repeat-containing protein 5;BIR	cell death	BIRC5 -[Activation]-> autophagy -[Activation]-> cell death	29371939	0																																		
+BIRC5	T34A	BIRC5_HUMAN	CHAIN;REPEAT	Baculoviral IAP repeat-containing protein 5;BIR	cell death	BIRC5 -[Inhibition]-> cell death	24624263	0																																		
+BIRC5	T34A	BIRC5_HUMAN	CHAIN;REPEAT	Baculoviral IAP repeat-containing protein 5;BIR	cell growth	BIRC5 -[Inhibition]-> cell growth	29371939	0																																		
+BIRC5	T34A	BIRC5_HUMAN	CHAIN;REPEAT	Baculoviral IAP repeat-containing protein 5;BIR	cell population proliferation	BIRC5 -[Activation]-> cell population proliferation	19158485	0																																		
+BIRC5	T34A	BIRC5_HUMAN	CHAIN;REPEAT	Baculoviral IAP repeat-containing protein 5;BIR	cell population proliferation	BIRC5 -[Activation]-> cell population proliferation	26918045	0																																		
+BIRC5	T34A	BIRC5_HUMAN	CHAIN;REPEAT	Baculoviral IAP repeat-containing protein 5;BIR	cell population proliferation	BIRC5 -[Inhibition]-> cell population proliferation	22246162	0																																		
+BIRC5	T34A	BIRC5_HUMAN	CHAIN;REPEAT	Baculoviral IAP repeat-containing protein 5;BIR	cell population proliferation	BIRC5 -[Inhibition]-> cell population proliferation	25661346	0																																		
+BIRC5	T34A	BIRC5_HUMAN	CHAIN;REPEAT	Baculoviral IAP repeat-containing protein 5;BIR	cell population proliferation	BIRC5 -[Inhibition]-> cell population proliferation	29371939	0																																		
+BIRC5	T34A	BIRC5_HUMAN	CHAIN;REPEAT	Baculoviral IAP repeat-containing protein 5;BIR	mitotic cell cycle	BIRC5 -[Activation]-> mitotic cell cycle	29371939	0																																		

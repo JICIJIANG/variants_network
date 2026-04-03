@@ -1,0 +1,21 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+SLC14A1	C25S	UT1_HUMAN	CHAIN	Urea transporter 1	Cell Survival	SLC14A1 -[Activation]-> Cell Survival	33052246	0																																		
+SLC14A1	C25S	UT1_HUMAN	CHAIN	Urea transporter 1	DNA Damage	SLC14A1 -[Inhibition]-> urea -[Activation]-> DNA Damage	33052246	0																																		
+SLC14A1	C25S	UT1_HUMAN	CHAIN	Urea transporter 1	Neoplasm Invasiveness	SLC14A1 -[Inhibition]-> Neoplasm Invasiveness	33052246	0																																		
+SLC14A1	C25S	UT1_HUMAN	CHAIN	Urea transporter 1	Neoplasm Metastasis	SLC14A1 -[Inhibition]-> Neoplasm Metastasis	33052246	0																																		
+SLC14A1	C25S	UT1_HUMAN	CHAIN	Urea transporter 1	aerobic respiration	SLC14A1 -[Activation]-> aerobic respiration	33052246	0																																		
+SLC14A1	C25S	UT1_HUMAN	CHAIN	Urea transporter 1	apoptotic process	SLC14A1 -[Inhibition]-> urea -[Activation]-> apoptotic process	33052246	0																																		
+SLC14A1	C25S	UT1_HUMAN	CHAIN	Urea transporter 1	biosynthetic process	SLC14A1 -[Inhibition]-> biosynthetic process	33052246	0																																		
+SLC14A1	C25S	UT1_HUMAN	CHAIN	Urea transporter 1	cell population proliferation	SLC14A1 -[Inhibition]-> cell population proliferation	33052246	0																																		
+SLC14A1	C25S	UT1_HUMAN	CHAIN	Urea transporter 1	glycolytic process	SLC14A1 -[Inhibition]-> glycolytic process	33052246	0																																		
+SLC14A1	C25S	UT1_HUMAN	CHAIN	Urea transporter 1	mitochondrial fusion	SLC14A1 -[Activation]-> mitochondrial fusion	33052246	0																																		
+SLC14A1	C30S	UT1_HUMAN	CHAIN	Urea transporter 1	Cell Survival	SLC14A1 -[Activation]-> Cell Survival	33052246	0																																		
+SLC14A1	C30S	UT1_HUMAN	CHAIN	Urea transporter 1	DNA Damage	SLC14A1 -[Inhibition]-> urea -[Activation]-> DNA Damage	33052246	0																																		
+SLC14A1	C30S	UT1_HUMAN	CHAIN	Urea transporter 1	Neoplasm Invasiveness	SLC14A1 -[Inhibition]-> Neoplasm Invasiveness	33052246	0																																		
+SLC14A1	C30S	UT1_HUMAN	CHAIN	Urea transporter 1	Neoplasm Metastasis	SLC14A1 -[Inhibition]-> Neoplasm Metastasis	33052246	0																																		
+SLC14A1	C30S	UT1_HUMAN	CHAIN	Urea transporter 1	aerobic respiration	SLC14A1 -[Activation]-> aerobic respiration	33052246	0																																		
+SLC14A1	C30S	UT1_HUMAN	CHAIN	Urea transporter 1	apoptotic process	SLC14A1 -[Inhibition]-> urea -[Activation]-> apoptotic process	33052246	0																																		
+SLC14A1	C30S	UT1_HUMAN	CHAIN	Urea transporter 1	biosynthetic process	SLC14A1 -[Inhibition]-> biosynthetic process	33052246	0																																		
+SLC14A1	C30S	UT1_HUMAN	CHAIN	Urea transporter 1	cell population proliferation	SLC14A1 -[Inhibition]-> cell population proliferation	33052246	0																																		
+SLC14A1	C30S	UT1_HUMAN	CHAIN	Urea transporter 1	glycolytic process	SLC14A1 -[Inhibition]-> glycolytic process	33052246	0																																		
+SLC14A1	C30S	UT1_HUMAN	CHAIN	Urea transporter 1	mitochondrial fusion	SLC14A1 -[Activation]-> mitochondrial fusion	33052246	0																																		

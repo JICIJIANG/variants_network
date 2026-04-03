@@ -1,0 +1,10 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+F2R	F43A	PAR1_HUMAN	CHAIN	Proteinase-activated receptor 1	Neoplasm Invasiveness	F2R -[Activation]-> Neoplasm Invasiveness	15707890	0																																		
+F2R	F43A	PAR1_HUMAN	CHAIN	Proteinase-activated receptor 1	angiogenesis	F2R -[Activation]-> MMP1 -[Activation]-> angiogenesis	15707890	0																																		
+F2R	F43A	PAR1_HUMAN	CHAIN	Proteinase-activated receptor 1	cell adhesion	F2R -[Activation]-> cell adhesion	15707890	0																																		
+F2R	F43A	PAR1_HUMAN	CHAIN	Proteinase-activated receptor 1	cell migration	F2R -[Activation]-> cell migration	15707890	0																																		
+F2R	F43A	PAR1_HUMAN	CHAIN	Proteinase-activated receptor 1	cell motility	F2R -[Inhibition]-> Thrombin -[Activation]-> cell motility	15707890	0																																		
+F2R	N1S				Death	F2R -[Inhibition]-> Death	10830165	0																																		
+F2R	N1S				localization	F2R -[Inhibition]-> localization	10830165	0																																		
+F2R	T793A				cell migration	F2R -[Inhibition]-> cell migration	18976916	0																																		
+F2R	T793A				localization	F2R -[Inhibition]-> localization	18976916	0																																		

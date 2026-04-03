@@ -1,0 +1,22 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+UBE2K	C92S	UBE2K_HUMAN	CHAIN;DOMAIN	Ubiquitin-conjugating enzyme E2 K;UBC core	Death	UBE2K -[Activation]-> Death	14527403	0																																		
+UBE2K	C92S	UBE2K_HUMAN	CHAIN;DOMAIN	Ubiquitin-conjugating enzyme E2 K;UBC core	cell death	UBE2K -[Activation]-> cell death	14527403	0																																		
+UBE2K	E3A	UBE2K_HUMAN	CHAIN	Ubiquitin-conjugating enzyme E2 K	Angelman Syndrome	UBE2K -[Inhibition]-> Angelman Syndrome	33996898	0																																		
+UBE2K	E3A	UBE2K_HUMAN	CHAIN	Ubiquitin-conjugating enzyme E2 K	Breast Neoplasms	UBE2K -[Inhibition]-> VIM -[Complex]-> FRMD3 -[Inhibition]-> Neoplasm Metastasis -[Activation]-> Breast Neoplasms	36631457	0																																		
+UBE2K	E3A	UBE2K_HUMAN	CHAIN	Ubiquitin-conjugating enzyme E2 K	Disease	UBE2K -[Activation]-> Disease	37541588	0																																		
+UBE2K	E3A	UBE2K_HUMAN	CHAIN	Ubiquitin-conjugating enzyme E2 K	Neoplasm Invasiveness	UBE2K -[Inhibition]-> Neoplasm Invasiveness	30974124	0																																		
+UBE2K	E3A	UBE2K_HUMAN	CHAIN	Ubiquitin-conjugating enzyme E2 K	Neoplasm Invasiveness	UBE2K -[Inhibition]-> VIM -[Complex]-> FRMD3 -[Inhibition]-> Neoplasm Invasiveness	36631457	0																																		
+UBE2K	E3A	UBE2K_HUMAN	CHAIN	Ubiquitin-conjugating enzyme E2 K	Neoplasm Metastasis	UBE2K -[Inhibition]-> VIM -[Complex]-> FRMD3 -[Inhibition]-> Neoplasm Metastasis	36631457	0																																		
+UBE2K	E3A	UBE2K_HUMAN	CHAIN	Ubiquitin-conjugating enzyme E2 K	Neoplasms	UBE2K -[Activation]-> Neoplasms	34421347	0																																		
+UBE2K	E3A	UBE2K_HUMAN	CHAIN	Ubiquitin-conjugating enzyme E2 K	apoptotic process	UBE2K -[Activation]-> apoptotic process	25816213	0																																		
+UBE2K	E3A	UBE2K_HUMAN	CHAIN	Ubiquitin-conjugating enzyme E2 K	apoptotic process	UBE2K -[Activation]-> apoptotic process	32289000	0																																		
+UBE2K	E3A	UBE2K_HUMAN	CHAIN	Ubiquitin-conjugating enzyme E2 K	apoptotic process	UBE2K -[Inhibition]-> TP53 -[Activation]-> apoptotic process	28801249	0																																		
+UBE2K	E3A	UBE2K_HUMAN	CHAIN	Ubiquitin-conjugating enzyme E2 K	cell population proliferation	UBE2K -[Inhibition]-> VIM -[Complex]-> FRMD3 -[Inhibition]-> cell population proliferation	36631457	0																																		
+UBE2K	E3A	UBE2K_HUMAN	CHAIN	Ubiquitin-conjugating enzyme E2 K	cell population proliferation	UBE2K -[Inhibition]-> cell population proliferation	30974124	0																																		
+UBE2K	E3A	UBE2K_HUMAN	CHAIN	Ubiquitin-conjugating enzyme E2 K	proteolysis	UBE2K -[Inhibition]-> proteolysis	24810662	0																																		
+UBE2K	E3A	UBE2K_HUMAN	CHAIN	Ubiquitin-conjugating enzyme E2 K	signal transduction	UBE2K -[Activation]-> signal transduction	37385985	0																																		
+UBE2K	E3A	UBE2K_HUMAN	CHAIN	Ubiquitin-conjugating enzyme E2 K	transcription, DNA-templated	UBE2K -[Inhibition]-> TP53 -[Inhibition]-> transcription, DNA-templated	28801249	0																																		
+UBE2K	E3A	UBE2K_HUMAN	CHAIN	Ubiquitin-conjugating enzyme E2 K	viral process	UBE2K -[Activation]-> viral process	37541588	0																																		
+UBE2K	K14R	UBE2K_HUMAN	CHAIN;DOMAIN	Ubiquitin-conjugating enzyme E2 K;UBC core	CAPN	UBE2K -[Activation]-> CAPN	28032866	0																																		
+UBE2K	K14R	UBE2K_HUMAN	CHAIN;DOMAIN	Ubiquitin-conjugating enzyme E2 K;UBC core	Death	UBE2K -[Activation]-> Death	28032866	0																																		
+UBE2K	K14R	UBE2K_HUMAN	CHAIN;DOMAIN	Ubiquitin-conjugating enzyme E2 K;UBC core	cell death	UBE2K -[Activation]-> cell death	28032866	0																																		

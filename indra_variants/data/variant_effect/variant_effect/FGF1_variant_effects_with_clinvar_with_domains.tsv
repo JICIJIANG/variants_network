@@ -1,0 +1,41 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+FGF1	K132E	FGF1_HUMAN	CHAIN;REGION	Fibroblast growth factor 1;Heparin-binding	Cell Survival	FGF1 -[Activation]-> Cell Survival	26844696	0																																		
+FGF1	K132E	FGF1_HUMAN	CHAIN;REGION	Fibroblast growth factor 1;Heparin-binding	FGFR	FGF1 -[Activation]-> FGFR	29048426	0																																		
+FGF1	K132E	FGF1_HUMAN	CHAIN;REGION	Fibroblast growth factor 1;Heparin-binding	FGFR	FGF1 -[Complex]-> FGFR	26844696	0																																		
+FGF1	K132E	FGF1_HUMAN	CHAIN;REGION	Fibroblast growth factor 1;Heparin-binding	apoptotic process	FGF1 -[Inhibition]-> apoptotic process	26844696	0																																		
+FGF1	K132E	FGF1_HUMAN	CHAIN;REGION	Fibroblast growth factor 1;Heparin-binding	apoptotic process	FGF1 -[Inhibition]-> apoptotic process	29048426	0																																		
+FGF1	K132E	FGF1_HUMAN	CHAIN;REGION	Fibroblast growth factor 1;Heparin-binding	cell death	FGF1 -[Inhibition]-> TP53 -[Activation]-> cell death	29048426	0																																		
+FGF1	K132E	FGF1_HUMAN	CHAIN;REGION	Fibroblast growth factor 1;Heparin-binding	cell differentiation	FGF1 -[Activation]-> cell differentiation	26844696	0																																		
+FGF1	K132E	FGF1_HUMAN	CHAIN;REGION	Fibroblast growth factor 1;Heparin-binding	cell population proliferation	FGF1 -[Activation]-> cell population proliferation	26844696	0																																		
+FGF1	R50E	FGF1_HUMAN	CHAIN	Fibroblast growth factor 1	Cell Survival	FGF1 -[Activation]-> Cell Survival	20422052	0																																		
+FGF1	R50E	FGF1_HUMAN	CHAIN	Fibroblast growth factor 1	FGFR	FGF1 -[Activation]-> FGFR	26334633	0																																		
+FGF1	R50E	FGF1_HUMAN	CHAIN	Fibroblast growth factor 1	FGFR	FGF1 -[Complex]-> FGFR	20422052	0																																		
+FGF1	R50E	FGF1_HUMAN	CHAIN	Fibroblast growth factor 1	FGFR	FGF1 -[Complex]-> FGFR	28302677	0																																		
+FGF1	R50E	FGF1_HUMAN	CHAIN	Fibroblast growth factor 1	Neoplasm Invasiveness	FGF1 -[Activation]-> Neoplasm Invasiveness	26334633	0																																		
+FGF1	R50E	FGF1_HUMAN	CHAIN	Fibroblast growth factor 1	angiogenesis	FGF1 -[Complex]-> FGF2 -[Inhibition]-> angiogenesis	28302677	0																																		
+FGF1	R50E	FGF1_HUMAN	CHAIN	Fibroblast growth factor 1	cell adhesion	FGF1 -[Complex]-> Integrins -[Activation]-> cell adhesion	28302677	0																																		
+FGF1	R50E	FGF1_HUMAN	CHAIN	Fibroblast growth factor 1	cell migration	FGF1 -[Complex]-> FGF2 -[Activation]-> cell migration	28302677	0																																		
+FGF1	R50E	FGF1_HUMAN	CHAIN	Fibroblast growth factor 1	cell motility	FGF1 -[Activation]-> cell motility	26334633	0																																		
+FGF1	R50E	FGF1_HUMAN	CHAIN	Fibroblast growth factor 1	cell population proliferation	FGF1 -[Activation]-> cell population proliferation	20422052	0																																		
+FGF1	R50E	FGF1_HUMAN	CHAIN	Fibroblast growth factor 1	cell population proliferation	FGF1 -[Inhibition]-> cell population proliferation	28302677	0																																		
+FGF1	R50E	FGF1_HUMAN	CHAIN	Fibroblast growth factor 1	epithelial to mesenchymal transition	FGF1 -[Activation]-> epithelial to mesenchymal transition	26334633	0																																		
+FGF1	R50E	FGF1_HUMAN	CHAIN	Fibroblast growth factor 1	signal transduction	FGF1 -[Complex]-> Integrins -[Activation]-> signal transduction	20422052	0																																		
+FGF1	R50E	FGF1_HUMAN	CHAIN	Fibroblast growth factor 1	signaling	FGF1 -[Complex]-> FGF2 -[Inhibition]-> signaling	28302677	0																																		
+FGF1	R50E	FGF1_HUMAN	CHAIN	Fibroblast growth factor 1	tube formation	FGF1 -[Complex]-> FGF2 -[Inhibition]-> tube formation	28302677	0																																		
+FGF1	S130A	FGF1_HUMAN	CHAIN;REGION	Fibroblast growth factor 1;Heparin-binding	Cell Survival	FGF1 -[Activation]-> Cell Survival	26844696	0																																		
+FGF1	S130A	FGF1_HUMAN	CHAIN;REGION	Fibroblast growth factor 1;Heparin-binding	FGFR	FGF1 -[Activation]-> FGFR	29048426	0																																		
+FGF1	S130A	FGF1_HUMAN	CHAIN;REGION	Fibroblast growth factor 1;Heparin-binding	FGFR	FGF1 -[Complex]-> FGFR	26844696	0																																		
+FGF1	S130A	FGF1_HUMAN	CHAIN;REGION	Fibroblast growth factor 1;Heparin-binding	apoptotic process	FGF1 -[Inhibition]-> apoptotic process	26844696	0																																		
+FGF1	S130A	FGF1_HUMAN	CHAIN;REGION	Fibroblast growth factor 1;Heparin-binding	apoptotic process	FGF1 -[Inhibition]-> apoptotic process	29048426	0																																		
+FGF1	S130A	FGF1_HUMAN	CHAIN;REGION	Fibroblast growth factor 1;Heparin-binding	cell death	FGF1 -[Inhibition]-> TP53 -[Activation]-> cell death	29048426	0																																		
+FGF1	S130A	FGF1_HUMAN	CHAIN;REGION	Fibroblast growth factor 1;Heparin-binding	cell differentiation	FGF1 -[Activation]-> cell differentiation	26844696	0																																		
+FGF1	S130A	FGF1_HUMAN	CHAIN;REGION	Fibroblast growth factor 1;Heparin-binding	cell population proliferation	FGF1 -[Activation]-> cell population proliferation	26844696	0																																		
+FGF1	S130D	FGF1_HUMAN	CHAIN;REGION	Fibroblast growth factor 1;Heparin-binding	Cell Survival	FGF1 -[Activation]-> Cell Survival	26844696	0																																		
+FGF1	S130D	FGF1_HUMAN	CHAIN;REGION	Fibroblast growth factor 1;Heparin-binding	FGFR	FGF1 -[Activation]-> FGFR	29048426	0																																		
+FGF1	S130D	FGF1_HUMAN	CHAIN;REGION	Fibroblast growth factor 1;Heparin-binding	FGFR	FGF1 -[Complex]-> FGFR	26844696	0																																		
+FGF1	S130D	FGF1_HUMAN	CHAIN;REGION	Fibroblast growth factor 1;Heparin-binding	apoptotic process	FGF1 -[Inhibition]-> apoptotic process	26844696	0																																		
+FGF1	S130D	FGF1_HUMAN	CHAIN;REGION	Fibroblast growth factor 1;Heparin-binding	apoptotic process	FGF1 -[Inhibition]-> apoptotic process	29048426	0																																		
+FGF1	S130D	FGF1_HUMAN	CHAIN;REGION	Fibroblast growth factor 1;Heparin-binding	cell death	FGF1 -[Inhibition]-> TP53 -[Activation]-> cell death	29048426	0																																		
+FGF1	S130D	FGF1_HUMAN	CHAIN;REGION	Fibroblast growth factor 1;Heparin-binding	cell differentiation	FGF1 -[Activation]-> cell differentiation	26844696	0																																		
+FGF1	S130D	FGF1_HUMAN	CHAIN;REGION	Fibroblast growth factor 1;Heparin-binding	cell population proliferation	FGF1 -[Activation]-> cell population proliferation	26844696	0																																		
+FGF1	S130K	FGF1_HUMAN	CHAIN;REGION	Fibroblast growth factor 1;Heparin-binding	cell population proliferation	FGF1 -[Activation]-> cell population proliferation	10664506	0																																		

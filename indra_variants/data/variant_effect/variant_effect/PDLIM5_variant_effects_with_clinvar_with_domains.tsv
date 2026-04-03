@@ -1,0 +1,6 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+PDLIM5	S177D	PDLI5_HUMAN	CHAIN	PDZ and LIM domain protein 5	Cell Polarity	PDLIM5 -[Activation]-> AMPK -[Activation]-> Cell Polarity	25635515	0																																		
+PDLIM5	S177D	PDLI5_HUMAN	CHAIN	PDZ and LIM domain protein 5	cell migration	PDLIM5 -[Inhibition]-> cell migration	25635515	0																																		
+PDLIM5	S177D	PDLI5_HUMAN	CHAIN	PDZ and LIM domain protein 5	localization	PDLIM5 -[Inhibition]-> localization	25635515	0																																		
+PDLIM5	S177D	PDLI5_HUMAN	CHAIN	PDZ and LIM domain protein 5	positive regulation of focal adhesion assembly	PDLIM5 -[Activation]-> positive regulation of focal adhesion assembly	25635515	0																																		
+PDLIM5	S177D	PDLI5_HUMAN	CHAIN	PDZ and LIM domain protein 5	signal transduction	PDLIM5 -[Inhibition]-> signal transduction	25635515	0																																		

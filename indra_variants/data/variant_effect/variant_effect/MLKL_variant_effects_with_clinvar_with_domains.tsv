@@ -1,0 +1,45 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+MLKL	D139V	MLKL_HUMAN	CHAIN;REGION;COILED	Mixed lineage kinase domain-like protein;;Target of necrosulfonamide inhibitor	Death	MLKL -[Activation]-> Death	32561755	0																																		
+MLKL	D139V	MLKL_HUMAN	CHAIN;REGION;COILED	Mixed lineage kinase domain-like protein;;Target of necrosulfonamide inhibitor	Syndrome	MLKL -[Activation]-> Syndrome	32561755	0																																		
+MLKL	D139V	MLKL_HUMAN	CHAIN;REGION;COILED	Mixed lineage kinase domain-like protein;;Target of necrosulfonamide inhibitor	inflammatory response	MLKL -[Activation]-> inflammatory response	32561755	0																																		
+MLKL	D139V	MLKL_HUMAN	CHAIN;REGION;COILED	Mixed lineage kinase domain-like protein;;Target of necrosulfonamide inhibitor	necroptotic process	MLKL -[Activation]-> necroptotic process	32561755	0																																		
+MLKL	E351K	MLKL_HUMAN	CHAIN;DOMAIN	Mixed lineage kinase domain-like protein;Protein kinase	cell death	MLKL -[Activation]-> cell death	29930286	0																																		
+MLKL	E351K	MLKL_HUMAN	CHAIN;DOMAIN	Mixed lineage kinase domain-like protein;Protein kinase	necroptotic process	MLKL -[Activation]-> necroptotic process	29930286	0																																		
+MLKL	K157A	MLKL_HUMAN	CHAIN;COILED	Mixed lineage kinase domain-like protein;Target of necrosulfonamide inhibitor	cell death	MLKL -[Activation]-> cell death	29930286	0																																		
+MLKL	K157A	MLKL_HUMAN	CHAIN;COILED	Mixed lineage kinase domain-like protein;Target of necrosulfonamide inhibitor	necroptotic process	MLKL -[Activation]-> necroptotic process	29930286	0																																		
+MLKL	Q343A	MLKL_HUMAN	CHAIN;DOMAIN	Mixed lineage kinase domain-like protein;Protein kinase	Cell Survival	MLKL -[Activation]-> DNM1L -[Inhibition]-> Cell Survival	24577084	0																																		
+MLKL	Q343A	MLKL_HUMAN	CHAIN;DOMAIN	Mixed lineage kinase domain-like protein;Protein kinase	Death	MLKL -[Activation]-> Death	24577084	0																																		
+MLKL	Q343A	MLKL_HUMAN	CHAIN;DOMAIN	Mixed lineage kinase domain-like protein;Protein kinase	Death	MLKL -[Activation]-> Death	26775703	0																																		
+MLKL	Q343A	MLKL_HUMAN	CHAIN;DOMAIN	Mixed lineage kinase domain-like protein;Protein kinase	cell death	MLKL -[Activation]-> cell death	24577084	0																																		
+MLKL	Q343A	MLKL_HUMAN	CHAIN;DOMAIN	Mixed lineage kinase domain-like protein;Protein kinase	cell death	MLKL -[Activation]-> cell death	26775703	0																																		
+MLKL	Q343A	MLKL_HUMAN	CHAIN;DOMAIN	Mixed lineage kinase domain-like protein;Protein kinase	necroptotic process	MLKL -[Activation]-> necroptotic process	26775703	0																																		
+MLKL	Q343A	MLKL_HUMAN	CHAIN;DOMAIN	Mixed lineage kinase domain-like protein;Protein kinase	necroptotic process	MLKL -[Activation]-> necroptotic process	30367066	0																																		
+MLKL	S158A	MLKL_HUMAN	CHAIN;COILED	Mixed lineage kinase domain-like protein;Target of necrosulfonamide inhibitor	cell death	MLKL -[Activation]-> cell death	26283547	0																																		
+MLKL	S158A	MLKL_HUMAN	CHAIN;COILED	Mixed lineage kinase domain-like protein;Target of necrosulfonamide inhibitor	necroptotic process	MLKL -[Activation]-> necroptotic process	26283547	0																																		
+MLKL	S228A	MLKL_HUMAN	CHAIN;DOMAIN	Mixed lineage kinase domain-like protein;Protein kinase	cell death	MLKL -[Activation]-> cell death	26283547	0																																		
+MLKL	S228A	MLKL_HUMAN	CHAIN;DOMAIN	Mixed lineage kinase domain-like protein;Protein kinase	necroptotic process	MLKL -[Activation]-> necroptotic process	26283547	0																																		
+MLKL	S228E	MLKL_HUMAN	CHAIN;DOMAIN	Mixed lineage kinase domain-like protein;Protein kinase	cell death	MLKL -[Activation]-> cell death	26283547	0																																		
+MLKL	S228E	MLKL_HUMAN	CHAIN;DOMAIN	Mixed lineage kinase domain-like protein;Protein kinase	necroptotic process	MLKL -[Activation]-> necroptotic process	26283547	0																																		
+MLKL	S345D	MLKL_HUMAN	CHAIN;DOMAIN	Mixed lineage kinase domain-like protein;Protein kinase	Death	MLKL -[Activation]-> Death	26775703	0																																		
+MLKL	S345D	MLKL_HUMAN	CHAIN;DOMAIN	Mixed lineage kinase domain-like protein;Protein kinase	cell death	MLKL -[Activation]-> cell death	26283547	0																																		
+MLKL	S345D	MLKL_HUMAN	CHAIN;DOMAIN	Mixed lineage kinase domain-like protein;Protein kinase	cell death	MLKL -[Activation]-> cell death	26775703	0																																		
+MLKL	S345D	MLKL_HUMAN	CHAIN;DOMAIN	Mixed lineage kinase domain-like protein;Protein kinase	necroptotic process	MLKL -[Activation]-> necroptotic process	26283547	0																																		
+MLKL	S345D	MLKL_HUMAN	CHAIN;DOMAIN	Mixed lineage kinase domain-like protein;Protein kinase	necroptotic process	MLKL -[Activation]-> necroptotic process	26775703	0																																		
+MLKL	S358A	MLKL_HUMAN	CHAIN;DOMAIN	Mixed lineage kinase domain-like protein;Protein kinase	cell death	MLKL -[Activation]-> cell death	29930286	0																																		
+MLKL	S358A	MLKL_HUMAN	CHAIN;DOMAIN	Mixed lineage kinase domain-like protein;Protein kinase	necroptotic process	MLKL -[Activation]-> necroptotic process	29930286	0																																		
+MLKL	S358D	MLKL_HUMAN	CHAIN;DOMAIN	Mixed lineage kinase domain-like protein;Protein kinase	Necrosis	MLKL -[Inhibition]-> Necrosis	25996294	0																																		
+MLKL	S358D	MLKL_HUMAN	CHAIN;DOMAIN	Mixed lineage kinase domain-like protein;Protein kinase	apoptotic process	MLKL -[Activation]-> RIPK3 -[Activation]-> apoptotic process	25996294	0																																		
+MLKL	S358D	MLKL_HUMAN	CHAIN;DOMAIN	Mixed lineage kinase domain-like protein;Protein kinase	cell death	MLKL -[Activation]-> cell death	25996294	0																																		
+MLKL	S358D	MLKL_HUMAN	CHAIN;DOMAIN	Mixed lineage kinase domain-like protein;Protein kinase	cell death	MLKL -[Activation]-> cell death	26933192	0																																		
+MLKL	S358D	MLKL_HUMAN	CHAIN;DOMAIN	Mixed lineage kinase domain-like protein;Protein kinase	necroptotic process	MLKL -[Activation]-> necroptotic process	25996294	0																																		
+MLKL	S358D	MLKL_HUMAN	CHAIN;DOMAIN	Mixed lineage kinase domain-like protein;Protein kinase	necroptotic process	MLKL -[Activation]-> necroptotic process	26933192	0																																		
+MLKL	S358E	MLKL_HUMAN	CHAIN;DOMAIN	Mixed lineage kinase domain-like protein;Protein kinase	cell death	MLKL -[Activation]-> cell death	29930286	0																																		
+MLKL	S358E	MLKL_HUMAN	CHAIN;DOMAIN	Mixed lineage kinase domain-like protein;Protein kinase	necroptotic process	MLKL -[Activation]-> necroptotic process	29930286	0																																		
+MLKL	T357A	MLKL_HUMAN	CHAIN;DOMAIN	Mixed lineage kinase domain-like protein;Protein kinase	Death	MLKL -[Activation]-> Death	26184911	0																																		
+MLKL	T357A	MLKL_HUMAN	CHAIN;DOMAIN	Mixed lineage kinase domain-like protein;Protein kinase	Necrosis	MLKL -[Activation]-> Necrosis	26184911	0																																		
+MLKL	T357A	MLKL_HUMAN	CHAIN;DOMAIN	Mixed lineage kinase domain-like protein;Protein kinase	cell death	MLKL -[Activation]-> cell death	26184911	0																																		
+MLKL	T357A	MLKL_HUMAN	CHAIN;DOMAIN	Mixed lineage kinase domain-like protein;Protein kinase	cell death	MLKL -[Activation]-> cell death	29930286	0																																		
+MLKL	T357A	MLKL_HUMAN	CHAIN;DOMAIN	Mixed lineage kinase domain-like protein;Protein kinase	necroptotic process	MLKL -[Activation]-> necroptotic process	26184911	0																																		
+MLKL	T357A	MLKL_HUMAN	CHAIN;DOMAIN	Mixed lineage kinase domain-like protein;Protein kinase	necroptotic process	MLKL -[Activation]-> necroptotic process	29930286	0																																		
+MLKL	T357E	MLKL_HUMAN	CHAIN;DOMAIN	Mixed lineage kinase domain-like protein;Protein kinase	cell death	MLKL -[Activation]-> cell death	29930286	0																																		
+MLKL	T357E	MLKL_HUMAN	CHAIN;DOMAIN	Mixed lineage kinase domain-like protein;Protein kinase	necroptotic process	MLKL -[Activation]-> necroptotic process	29930286	0																																		

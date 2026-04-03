@@ -1,0 +1,31 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+ELAVL1	D226A	ELAV1_HUMAN	CHAIN	ELAV-like protein 1	transcription, DNA-templated	ELAVL1 -[IncreaseAmount]-> PARP1 -[Activation]-> transcription, DNA-templated	28272405	0																																		
+ELAVL1	S202A	ELAV1_HUMAN	CHAIN	ELAV-like protein 1	Carcinoma, Pancreatic Ductal	ELAVL1 -[Activation]-> Carcinoma, Pancreatic Ductal	21935886	0																																		
+ELAVL1	S202A	ELAV1_HUMAN	CHAIN	ELAV-like protein 1	Cell Survival	ELAVL1 -[IncreaseAmount]-> SIRT1 -[Activation]-> Cell Survival	21935886	0																																		
+ELAVL1	S202A	ELAV1_HUMAN	CHAIN	ELAV-like protein 1	Neoplasm Invasiveness	ELAVL1 -[Activation]-> Neoplasm Invasiveness	21935886	0																																		
+ELAVL1	S202A	ELAV1_HUMAN	CHAIN	ELAV-like protein 1	Neoplasm Metastasis	ELAVL1 -[Activation]-> Neoplasm Metastasis	21935886	0																																		
+ELAVL1	S202A	ELAV1_HUMAN	CHAIN	ELAV-like protein 1	Neoplasms	ELAVL1 -[Inhibition]-> Neoplasms	21935886	0																																		
+ELAVL1	S202A	ELAV1_HUMAN	CHAIN	ELAV-like protein 1	Prostatic Neoplasms	ELAVL1 -[Activation]-> Prostatic Neoplasms	21935886	0																																		
+ELAVL1	S202A	ELAV1_HUMAN	CHAIN	ELAV-like protein 1	angiogenesis	ELAVL1 -[IncreaseAmount]-> VEGF -[Activation]-> angiogenesis	21935886	0																																		
+ELAVL1	S202A	ELAV1_HUMAN	CHAIN	ELAV-like protein 1	biosynthetic process	ELAVL1 -[Activation]-> biosynthetic process	21935886	0																																		
+ELAVL1	S202A	ELAV1_HUMAN	CHAIN	ELAV-like protein 1	cell cycle	ELAVL1 -[Activation]-> cell cycle	21935886	0																																		
+ELAVL1	S202A	ELAV1_HUMAN	CHAIN	ELAV-like protein 1	cell growth	ELAVL1 -[IncreaseAmount]-> VEGF -[Activation]-> cell growth	21935886	0																																		
+ELAVL1	S202A	ELAV1_HUMAN	CHAIN	ELAV-like protein 1	cell population proliferation	ELAVL1 -[Inhibition]-> CDKN1B -[Activation]-> cell population proliferation	21935886	0																																		
+ELAVL1	S202A	ELAV1_HUMAN	CHAIN	ELAV-like protein 1	cellular senescence	ELAVL1 -[Inhibition]-> cellular senescence	21935886	0																																		
+ELAVL1	S202A	ELAV1_HUMAN	CHAIN	ELAV-like protein 1	translation	ELAVL1 -[Inhibition]-> translation	21935886	0																																		
+ELAVL1	S242A	ELAV1_HUMAN	CHAIN	ELAV-like protein 1	Carcinoma, Pancreatic Ductal	ELAVL1 -[Activation]-> Carcinoma, Pancreatic Ductal	21935886	0																																		
+ELAVL1	S242A	ELAV1_HUMAN	CHAIN	ELAV-like protein 1	Cell Survival	ELAVL1 -[IncreaseAmount]-> SIRT1 -[Activation]-> Cell Survival	21935886	0																																		
+ELAVL1	S242A	ELAV1_HUMAN	CHAIN	ELAV-like protein 1	Neoplasm Invasiveness	ELAVL1 -[Activation]-> Neoplasm Invasiveness	21935886	0																																		
+ELAVL1	S242A	ELAV1_HUMAN	CHAIN	ELAV-like protein 1	Neoplasm Metastasis	ELAVL1 -[Activation]-> Neoplasm Metastasis	21935886	0																																		
+ELAVL1	S242A	ELAV1_HUMAN	CHAIN	ELAV-like protein 1	Neoplasms	ELAVL1 -[Inhibition]-> Neoplasms	21935886	0																																		
+ELAVL1	S242A	ELAV1_HUMAN	CHAIN	ELAV-like protein 1	Prostatic Neoplasms	ELAVL1 -[Activation]-> Prostatic Neoplasms	21935886	0																																		
+ELAVL1	S242A	ELAV1_HUMAN	CHAIN	ELAV-like protein 1	angiogenesis	ELAVL1 -[IncreaseAmount]-> VEGF -[Activation]-> angiogenesis	21935886	0																																		
+ELAVL1	S242A	ELAV1_HUMAN	CHAIN	ELAV-like protein 1	biosynthetic process	ELAVL1 -[Activation]-> biosynthetic process	21935886	0																																		
+ELAVL1	S242A	ELAV1_HUMAN	CHAIN	ELAV-like protein 1	cell cycle	ELAVL1 -[Activation]-> cell cycle	18948743	0																																		
+ELAVL1	S242A	ELAV1_HUMAN	CHAIN	ELAV-like protein 1	cell cycle	ELAVL1 -[Activation]-> cell cycle	21935886	0																																		
+ELAVL1	S242A	ELAV1_HUMAN	CHAIN	ELAV-like protein 1	cell growth	ELAVL1 -[IncreaseAmount]-> VEGF -[Activation]-> cell growth	21935886	0																																		
+ELAVL1	S242A	ELAV1_HUMAN	CHAIN	ELAV-like protein 1	cell population proliferation	ELAVL1 -[Inhibition]-> CDKN1B -[Activation]-> cell population proliferation	21935886	0																																		
+ELAVL1	S242A	ELAV1_HUMAN	CHAIN	ELAV-like protein 1	cellular senescence	ELAVL1 -[Inhibition]-> cellular senescence	21935886	0																																		
+ELAVL1	S242A	ELAV1_HUMAN	CHAIN	ELAV-like protein 1	response to stress	ELAVL1 -[Activation]-> response to stress	18948743	0																																		
+ELAVL1	S242A	ELAV1_HUMAN	CHAIN	ELAV-like protein 1	translation	ELAVL1 -[Activation]-> translation	18948743	0																																		
+ELAVL1	S242A	ELAV1_HUMAN	CHAIN	ELAV-like protein 1	translation	ELAVL1 -[Inhibition]-> translation	21935886	0																																		

@@ -1,0 +1,24 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+RBBP8	L27E	CTIP_HUMAN	CHAIN;REGION	DNA endonuclease RBBP8;	DNA Breaks, Double-Stranded	RBBP8 -[Activation]-> LINE-1 retrotransposable element ORF2 protein -[Activation]-> DNA Breaks, Double-Stranded	27889449	0																																		
+RBBP8	L27E	CTIP_HUMAN	CHAIN;REGION	DNA endonuclease RBBP8;	homologous recombination	RBBP8 -[Activation]-> homologous recombination	25558984	0																																		
+RBBP8	S327A	CTIP_HUMAN	CHAIN	DNA endonuclease RBBP8	DNA Breaks, Double-Stranded	RBBP8 -[Complex]-> BRCA1 -[Activation]-> DNA Breaks, Double-Stranded	25957490	0																																		
+RBBP8	S327A	CTIP_HUMAN	CHAIN	DNA endonuclease RBBP8	DNA Damage	RBBP8 -[Inhibition]-> DNA Damage	24842372	0																																		
+RBBP8	S327A	CTIP_HUMAN	CHAIN	DNA endonuclease RBBP8	DNA repair	RBBP8 -[Complex]-> RAD51 -[Inhibition]-> DNA repair	24842372	0																																		
+RBBP8	S327A	CTIP_HUMAN	CHAIN	DNA endonuclease RBBP8	Genomic Instability	RBBP8 -[Inhibition]-> Genomic Instability	24842372	0																																		
+RBBP8	S327A	CTIP_HUMAN	CHAIN	DNA endonuclease RBBP8	Radiation, Ionizing	RBBP8 -[Complex]-> Radiation, Ionizing	24842372	0																																		
+RBBP8	S327A	CTIP_HUMAN	CHAIN	DNA endonuclease RBBP8	cell population proliferation	RBBP8 -[Activation]-> cell population proliferation	25957490	0																																		
+RBBP8	S327A	CTIP_HUMAN	CHAIN	DNA endonuclease RBBP8	homologous recombination	RBBP8 -[Activation]-> TP53BP1 -[Complex]-> homologous recombination	24842372	0																																		
+RBBP8	S327A	CTIP_HUMAN	CHAIN	DNA endonuclease RBBP8	homologous recombination	RBBP8 -[Activation]-> homologous recombination	25957490	0																																		
+RBBP8	S332A	CTIP_HUMAN	CHAIN	DNA endonuclease RBBP8	DNA Damage	RBBP8 -[Inhibition]-> DNA Damage	20107609	0																																		
+RBBP8	S332A	CTIP_HUMAN	CHAIN	DNA endonuclease RBBP8	homologous recombination	RBBP8 -[Activation]-> homologous recombination	20107609	0																																		
+RBBP8	T847A	CTIP_HUMAN	CHAIN	DNA endonuclease RBBP8	DNA Breaks, Double-Stranded	RBBP8 -[Complex]-> BRCA1 -[Activation]-> DNA Breaks, Double-Stranded	25957490	1	3795943	single nucleotide variant	NM_002894.3(RBBP8):c.2539A>G (p.Thr847Ala)	-1	not provided	Uncertain significance	1.0																											
+RBBP8	T847A	CTIP_HUMAN	CHAIN	DNA endonuclease RBBP8	cell population proliferation	RBBP8 -[Activation]-> cell population proliferation	25957490	1	3795943	single nucleotide variant	NM_002894.3(RBBP8):c.2539A>G (p.Thr847Ala)	-1	not provided	Uncertain significance	1.0																											
+RBBP8	T847A	CTIP_HUMAN	CHAIN	DNA endonuclease RBBP8	homologous recombination	RBBP8 -[Activation]-> homologous recombination	25957490	1	3795943	single nucleotide variant	NM_002894.3(RBBP8):c.2539A>G (p.Thr847Ala)	-1	not provided	Uncertain significance	1.0																											
+RBBP8	T847E	CTIP_HUMAN	CHAIN	DNA endonuclease RBBP8	DNA Damage	RBBP8 -[Inhibition]-> DNA Damage	24842372	0																																		
+RBBP8	T847E	CTIP_HUMAN	CHAIN	DNA endonuclease RBBP8	DNA repair	RBBP8 -[Complex]-> RAD51 -[Inhibition]-> DNA repair	24842372	0																																		
+RBBP8	T847E	CTIP_HUMAN	CHAIN	DNA endonuclease RBBP8	Genomic Instability	RBBP8 -[Inhibition]-> Genomic Instability	24842372	0																																		
+RBBP8	T847E	CTIP_HUMAN	CHAIN	DNA endonuclease RBBP8	Radiation, Ionizing	RBBP8 -[Complex]-> Radiation, Ionizing	24842372	0																																		
+RBBP8	T847E	CTIP_HUMAN	CHAIN	DNA endonuclease RBBP8	homologous recombination	RBBP8 -[Activation]-> TP53BP1 -[Complex]-> homologous recombination	24842372	0																																		
+RBBP8	T859A	CTIP_HUMAN	CHAIN	DNA endonuclease RBBP8	DNA Breaks, Double-Stranded	RBBP8 -[Complex]-> BRCA1 -[Activation]-> DNA Breaks, Double-Stranded	25957490	0																																		
+RBBP8	T859A	CTIP_HUMAN	CHAIN	DNA endonuclease RBBP8	cell population proliferation	RBBP8 -[Activation]-> cell population proliferation	25957490	0																																		
+RBBP8	T859A	CTIP_HUMAN	CHAIN	DNA endonuclease RBBP8	homologous recombination	RBBP8 -[Activation]-> homologous recombination	25957490	0																																		

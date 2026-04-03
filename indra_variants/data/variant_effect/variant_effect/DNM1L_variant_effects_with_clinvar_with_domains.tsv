@@ -1,0 +1,157 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+DNM1L	C644A	DNM1L_HUMAN	CHAIN;DOMAIN;REGION	Dynamin-1-like protein;GED;Interaction with GSK3B	Death	DNM1L -[Activation]-> Death	20060165	0																																		
+DNM1L	C644A	DNM1L_HUMAN	CHAIN;DOMAIN;REGION	Dynamin-1-like protein;GED;Interaction with GSK3B	Death	DNM1L -[Activation]-> Death	20177970	0																																		
+DNM1L	C644A	DNM1L_HUMAN	CHAIN;DOMAIN;REGION	Dynamin-1-like protein;GED;Interaction with GSK3B	Death	DNM1L -[Activation]-> Death	20447471	0																																		
+DNM1L	C644A	DNM1L_HUMAN	CHAIN;DOMAIN;REGION	Dynamin-1-like protein;GED;Interaction with GSK3B	Death	DNM1L -[Activation]-> Death	22771760	0																																		
+DNM1L	C644A	DNM1L_HUMAN	CHAIN;DOMAIN;REGION	Dynamin-1-like protein;GED;Interaction with GSK3B	Neuronal Plasticity	DNM1L -[Activation]-> Neuronal Plasticity	30515821	0																																		
+DNM1L	C644A	DNM1L_HUMAN	CHAIN;DOMAIN;REGION	Dynamin-1-like protein;GED;Interaction with GSK3B	Neuroprotection	DNM1L -[Activation]-> Neuroprotection	30515821	0																																		
+DNM1L	C644A	DNM1L_HUMAN	CHAIN;DOMAIN;REGION	Dynamin-1-like protein;GED;Interaction with GSK3B	Wounds and Injuries	DNM1L -[Activation]-> Wounds and Injuries	30515821	0																																		
+DNM1L	C644A	DNM1L_HUMAN	CHAIN;DOMAIN;REGION	Dynamin-1-like protein;GED;Interaction with GSK3B	apoptotic process	DNM1L -[Activation]-> apoptotic process	20177970	0																																		
+DNM1L	C644A	DNM1L_HUMAN	CHAIN;DOMAIN;REGION	Dynamin-1-like protein;GED;Interaction with GSK3B	apoptotic process	DNM1L -[Inhibition]-> apoptotic process	29502108	0																																		
+DNM1L	C644A	DNM1L_HUMAN	CHAIN;DOMAIN;REGION	Dynamin-1-like protein;GED;Interaction with GSK3B	autophagy	DNM1L -[Activation]-> autophagy	20177970	0																																		
+DNM1L	C644A	DNM1L_HUMAN	CHAIN;DOMAIN;REGION	Dynamin-1-like protein;GED;Interaction with GSK3B	cell death	DNM1L -[Inhibition]-> cell death	20447471	0																																		
+DNM1L	C644A	DNM1L_HUMAN	CHAIN;DOMAIN;REGION	Dynamin-1-like protein;GED;Interaction with GSK3B	energy homeostasis	DNM1L -[Activation]-> energy homeostasis	30515821	0																																		
+DNM1L	C644A	DNM1L_HUMAN	CHAIN;DOMAIN;REGION	Dynamin-1-like protein;GED;Interaction with GSK3B	homeostatic process	DNM1L -[Inhibition]-> HTT -[Inhibition]-> homeostatic process	20447471	0																																		
+DNM1L	C644A	DNM1L_HUMAN	CHAIN;DOMAIN;REGION	Dynamin-1-like protein;GED;Interaction with GSK3B	inflammatory response	DNM1L -[Activation]-> mitochondrial fission -[Activation]-> inflammatory response	30515821	0																																		
+DNM1L	C644A	DNM1L_HUMAN	CHAIN;DOMAIN;REGION	Dynamin-1-like protein;GED;Interaction with GSK3B	mitochondrial fission	DNM1L -[Activation]-> mitochondrial fission	30515821	0																																		
+DNM1L	C644A	DNM1L_HUMAN	CHAIN;DOMAIN;REGION	Dynamin-1-like protein;GED;Interaction with GSK3B	necroptotic process	DNM1L -[Inhibition]-> necroptotic process	30515821	0																																		
+DNM1L	C644A	DNM1L_HUMAN	CHAIN;DOMAIN;REGION	Dynamin-1-like protein;GED;Interaction with GSK3B	neuron differentiation	DNM1L -[Activation]-> mitochondrial fission -[Activation]-> neuron differentiation	30515821	0																																		
+DNM1L	C644A	DNM1L_HUMAN	CHAIN;DOMAIN;REGION	Dynamin-1-like protein;GED;Interaction with GSK3B	positive regulation of wound healing	DNM1L -[Activation]-> positive regulation of wound healing	19342591	0																																		
+DNM1L	C644A	DNM1L_HUMAN	CHAIN;DOMAIN;REGION	Dynamin-1-like protein;GED;Interaction with GSK3B	positive regulation of wound healing	DNM1L -[Activation]-> positive regulation of wound healing	20333559	0																																		
+DNM1L	C644A	DNM1L_HUMAN	CHAIN;DOMAIN;REGION	Dynamin-1-like protein;GED;Interaction with GSK3B	regulation of mitochondrial membrane potential	DNM1L -[Inhibition]-> HTT -[Inhibition]-> regulation of mitochondrial membrane potential	20447471	0																																		
+DNM1L	D118A	DNM1L_HUMAN	CHAIN;DOMAIN	Dynamin-1-like protein;Dynamin-type G	CAPN	DNM1L -[Activation]-> calcium(2+) -[Activation]-> CAPN	29743663	0																																		
+DNM1L	D118A	DNM1L_HUMAN	CHAIN;DOMAIN	Dynamin-1-like protein;Dynamin-type G	Death	DNM1L -[Activation]-> Death	29743663	0																																		
+DNM1L	D118A	DNM1L_HUMAN	CHAIN;DOMAIN	Dynamin-1-like protein;Dynamin-type G	apoptotic process	DNM1L -[Activation]-> apoptotic process	18722182	0																																		
+DNM1L	D118A	DNM1L_HUMAN	CHAIN;DOMAIN	Dynamin-1-like protein;Dynamin-type G	apoptotic process	DNM1L -[Activation]-> apoptotic process	29743663	0																																		
+DNM1L	D118A	DNM1L_HUMAN	CHAIN;DOMAIN	Dynamin-1-like protein;Dynamin-type G	autophagy	DNM1L -[Activation]-> calcium(2+) -[Inhibition]-> autophagy	29743663	0																																		
+DNM1L	D118A	DNM1L_HUMAN	CHAIN;DOMAIN	Dynamin-1-like protein;Dynamin-type G	cell death	DNM1L -[Activation]-> calcium(2+) -[Activation]-> cell death	29743663	0																																		
+DNM1L	D118A	DNM1L_HUMAN	CHAIN;DOMAIN	Dynamin-1-like protein;Dynamin-type G	cell death	DNM1L -[Inhibition]-> cell death	18722182	0																																		
+DNM1L	D118A	DNM1L_HUMAN	CHAIN;DOMAIN	Dynamin-1-like protein;Dynamin-type G	locomotion	DNM1L -[Activation]-> locomotion	29743663	0																																		
+DNM1L	D118A	DNM1L_HUMAN	CHAIN;DOMAIN	Dynamin-1-like protein;Dynamin-type G	mitochondrial fission	DNM1L -[Activation]-> mitochondrial fission	29743663	0																																		
+DNM1L	D118A	DNM1L_HUMAN	CHAIN;DOMAIN	Dynamin-1-like protein;Dynamin-type G	mitochondrial outer membrane permeabilization	DNM1L -[Activation]-> mitochondrial outer membrane permeabilization	29743663	0																																		
+DNM1L	K38A	DNM1L_HUMAN	CHAIN;DOMAIN;REGION	Dynamin-1-like protein;Dynamin-type G;G1 motif	Alzheimer Disease	DNM1L -[Complex]-> Alzheimer Disease	24252614	0																																		
+DNM1L	K38A	DNM1L_HUMAN	CHAIN;DOMAIN;REGION	Dynamin-1-like protein;Dynamin-type G;G1 motif	Death	DNM1L -[Activation]-> Death	23285122	0																																		
+DNM1L	K38A	DNM1L_HUMAN	CHAIN;DOMAIN;REGION	Dynamin-1-like protein;Dynamin-type G;G1 motif	Death	DNM1L -[Activation]-> Death	34767958	0																																		
+DNM1L	K38A	DNM1L_HUMAN	CHAIN;DOMAIN;REGION	Dynamin-1-like protein;Dynamin-type G;G1 motif	Death	DNM1L -[Complex]-> CAMK2_complex -[Activation]-> Death	27739424	0																																		
+DNM1L	K38A	DNM1L_HUMAN	CHAIN;DOMAIN;REGION	Dynamin-1-like protein;Dynamin-type G;G1 motif	Death	DNM1L -[Inhibition]-> Death	29386996	0																																		
+DNM1L	K38A	DNM1L_HUMAN	CHAIN;DOMAIN;REGION	Dynamin-1-like protein;Dynamin-type G;G1 motif	Death	DNM1L -[Inhibition]-> MPZ -[Activation]-> Death	21615675	0																																		
+DNM1L	K38A	DNM1L_HUMAN	CHAIN;DOMAIN;REGION	Dynamin-1-like protein;Dynamin-type G;G1 motif	Glioblastoma	DNM1L -[Inhibition]-> Glioblastoma	24899388	0																																		
+DNM1L	K38A	DNM1L_HUMAN	CHAIN;DOMAIN;REGION	Dynamin-1-like protein;Dynamin-type G;G1 motif	Neuronal Plasticity	DNM1L -[Activation]-> Neuronal Plasticity	30515821	0																																		
+DNM1L	K38A	DNM1L_HUMAN	CHAIN;DOMAIN;REGION	Dynamin-1-like protein;Dynamin-type G;G1 motif	Neuroprotection	DNM1L -[Activation]-> Neuroprotection	30515821	0																																		
+DNM1L	K38A	DNM1L_HUMAN	CHAIN;DOMAIN;REGION	Dynamin-1-like protein;Dynamin-type G;G1 motif	Osteoarthritis	DNM1L -[Activation]-> Osteoarthritis	34767958	0																																		
+DNM1L	K38A	DNM1L_HUMAN	CHAIN;DOMAIN;REGION	Dynamin-1-like protein;Dynamin-type G;G1 motif	Wounds and Injuries	DNM1L -[Activation]-> Wounds and Injuries	30515821	0																																		
+DNM1L	K38A	DNM1L_HUMAN	CHAIN;DOMAIN;REGION	Dynamin-1-like protein;Dynamin-type G;G1 motif	apoptotic process	DNM1L -[Activation]-> apoptotic process	19281816	0																																		
+DNM1L	K38A	DNM1L_HUMAN	CHAIN;DOMAIN;REGION	Dynamin-1-like protein;Dynamin-type G;G1 motif	apoptotic process	DNM1L -[Activation]-> apoptotic process	21537829	0																																		
+DNM1L	K38A	DNM1L_HUMAN	CHAIN;DOMAIN;REGION	Dynamin-1-like protein;Dynamin-type G;G1 motif	apoptotic process	DNM1L -[Activation]-> apoptotic process	23028930	0																																		
+DNM1L	K38A	DNM1L_HUMAN	CHAIN;DOMAIN;REGION	Dynamin-1-like protein;Dynamin-type G;G1 motif	apoptotic process	DNM1L -[Activation]-> apoptotic process	23166623	0																																		
+DNM1L	K38A	DNM1L_HUMAN	CHAIN;DOMAIN;REGION	Dynamin-1-like protein;Dynamin-type G;G1 motif	apoptotic process	DNM1L -[Activation]-> apoptotic process	28849115	0																																		
+DNM1L	K38A	DNM1L_HUMAN	CHAIN;DOMAIN;REGION	Dynamin-1-like protein;Dynamin-type G;G1 motif	apoptotic process	DNM1L -[Activation]-> apoptotic process	29386996	0																																		
+DNM1L	K38A	DNM1L_HUMAN	CHAIN;DOMAIN;REGION	Dynamin-1-like protein;Dynamin-type G;G1 motif	apoptotic process	DNM1L -[Activation]-> apoptotic process	34767958	0																																		
+DNM1L	K38A	DNM1L_HUMAN	CHAIN;DOMAIN;REGION	Dynamin-1-like protein;Dynamin-type G;G1 motif	apoptotic process	DNM1L -[Inhibition]-> GDAP1 -[Activation]-> apoptotic process	16172208	0																																		
+DNM1L	K38A	DNM1L_HUMAN	CHAIN;DOMAIN;REGION	Dynamin-1-like protein;Dynamin-type G;G1 motif	autophagy	DNM1L -[Activation]-> autophagy	21615675	0																																		
+DNM1L	K38A	DNM1L_HUMAN	CHAIN;DOMAIN;REGION	Dynamin-1-like protein;Dynamin-type G;G1 motif	autophagy	DNM1L -[Inhibition]-> autophagy	23028930	0																																		
+DNM1L	K38A	DNM1L_HUMAN	CHAIN;DOMAIN;REGION	Dynamin-1-like protein;Dynamin-type G;G1 motif	cell death	DNM1L -[Activation]-> PGAM5 -[Activation]-> cell death	32439975	0																																		
+DNM1L	K38A	DNM1L_HUMAN	CHAIN;DOMAIN;REGION	Dynamin-1-like protein;Dynamin-type G;G1 motif	cell death	DNM1L -[Activation]-> cell death	30563106	0																																		
+DNM1L	K38A	DNM1L_HUMAN	CHAIN;DOMAIN;REGION	Dynamin-1-like protein;Dynamin-type G;G1 motif	cell death	DNM1L -[Activation]-> cell death	34867159	0																																		
+DNM1L	K38A	DNM1L_HUMAN	CHAIN;DOMAIN;REGION	Dynamin-1-like protein;Dynamin-type G;G1 motif	cell death	DNM1L -[Inhibition]-> cell death	19039036	0																																		
+DNM1L	K38A	DNM1L_HUMAN	CHAIN;DOMAIN;REGION	Dynamin-1-like protein;Dynamin-type G;G1 motif	cell death	DNM1L -[Inhibition]-> cell death	20850011	0																																		
+DNM1L	K38A	DNM1L_HUMAN	CHAIN;DOMAIN;REGION	Dynamin-1-like protein;Dynamin-type G;G1 motif	cell death	DNM1L -[Inhibition]-> cell death	23285122	0																																		
+DNM1L	K38A	DNM1L_HUMAN	CHAIN;DOMAIN;REGION	Dynamin-1-like protein;Dynamin-type G;G1 motif	cell death	DNM1L -[Inhibition]-> cell death	26538029	0																																		
+DNM1L	K38A	DNM1L_HUMAN	CHAIN;DOMAIN;REGION	Dynamin-1-like protein;Dynamin-type G;G1 motif	cell death	DNM1L -[Inhibition]-> cell death	27739424	0																																		
+DNM1L	K38A	DNM1L_HUMAN	CHAIN;DOMAIN;REGION	Dynamin-1-like protein;Dynamin-type G;G1 motif	cell differentiation	DNM1L -[Inhibition]-> cell differentiation	23904108	0																																		
+DNM1L	K38A	DNM1L_HUMAN	CHAIN;DOMAIN;REGION	Dynamin-1-like protein;Dynamin-type G;G1 motif	cellular component biogenesis	DNM1L -[Inhibition]-> cellular component biogenesis	34867159	0																																		
+DNM1L	K38A	DNM1L_HUMAN	CHAIN;DOMAIN;REGION	Dynamin-1-like protein;Dynamin-type G;G1 motif	cellular senescence	DNM1L -[Activation]-> cellular senescence	32439975	0																																		
+DNM1L	K38A	DNM1L_HUMAN	CHAIN;DOMAIN;REGION	Dynamin-1-like protein;Dynamin-type G;G1 motif	energy homeostasis	DNM1L -[Activation]-> energy homeostasis	30515821	0																																		
+DNM1L	K38A	DNM1L_HUMAN	CHAIN;DOMAIN;REGION	Dynamin-1-like protein;Dynamin-type G;G1 motif	inflammatory response	DNM1L -[Activation]-> mitochondrial fission -[Activation]-> inflammatory response	30515821	0																																		
+DNM1L	K38A	DNM1L_HUMAN	CHAIN;DOMAIN;REGION	Dynamin-1-like protein;Dynamin-type G;G1 motif	metabolic process	DNM1L -[Inhibition]-> DENV -[Activation]-> metabolic process	27816895	0																																		
+DNM1L	K38A	DNM1L_HUMAN	CHAIN;DOMAIN;REGION	Dynamin-1-like protein;Dynamin-type G;G1 motif	mitochondrial depolarization	DNM1L -[Activation]-> mitochondrial depolarization	34767958	0																																		
+DNM1L	K38A	DNM1L_HUMAN	CHAIN;DOMAIN;REGION	Dynamin-1-like protein;Dynamin-type G;G1 motif	mitochondrial fission	DNM1L -[Activation]-> mitochondrial fission	30515821	0																																		
+DNM1L	K38A	DNM1L_HUMAN	CHAIN;DOMAIN;REGION	Dynamin-1-like protein;Dynamin-type G;G1 motif	mitochondrial fission	DNM1L -[Activation]-> mitochondrial fission	34767958	0																																		
+DNM1L	K38A	DNM1L_HUMAN	CHAIN;DOMAIN;REGION	Dynamin-1-like protein;Dynamin-type G;G1 motif	mitochondrial fission	DNM1L -[Activation]-> mitochondrial fission	34867159	0																																		
+DNM1L	K38A	DNM1L_HUMAN	CHAIN;DOMAIN;REGION	Dynamin-1-like protein;Dynamin-type G;G1 motif	mitochondrial fission	DNM1L -[Inhibition]-> altMiD51 -[Activation]-> mitochondrial fission	29083303	0																																		
+DNM1L	K38A	DNM1L_HUMAN	CHAIN;DOMAIN;REGION	Dynamin-1-like protein;Dynamin-type G;G1 motif	mitochondrial transport	DNM1L -[Activation]-> mitochondrial transport	34867159	0																																		
+DNM1L	K38A	DNM1L_HUMAN	CHAIN;DOMAIN;REGION	Dynamin-1-like protein;Dynamin-type G;G1 motif	myelination	DNM1L -[Inhibition]-> myelination	34867159	0																																		
+DNM1L	K38A	DNM1L_HUMAN	CHAIN;DOMAIN;REGION	Dynamin-1-like protein;Dynamin-type G;G1 motif	necroptotic process	DNM1L -[Inhibition]-> necroptotic process	30515821	0																																		
+DNM1L	K38A	DNM1L_HUMAN	CHAIN;DOMAIN;REGION	Dynamin-1-like protein;Dynamin-type G;G1 motif	neuron differentiation	DNM1L -[Activation]-> mitochondrial fission -[Activation]-> neuron differentiation	30515821	0																																		
+DNM1L	K38A	DNM1L_HUMAN	CHAIN;DOMAIN;REGION	Dynamin-1-like protein;Dynamin-type G;G1 motif	regulation of mitochondrial membrane potential	DNM1L -[Activation]-> regulation of mitochondrial membrane potential	23028930	0																																		
+DNM1L	K38A	DNM1L_HUMAN	CHAIN;DOMAIN;REGION	Dynamin-1-like protein;Dynamin-type G;G1 motif	regulation of mitochondrial membrane potential	DNM1L -[Activation]-> regulation of mitochondrial membrane potential	34867159	0																																		
+DNM1L	K38A	DNM1L_HUMAN	CHAIN;DOMAIN;REGION	Dynamin-1-like protein;Dynamin-type G;G1 motif	regulation of mitochondrial membrane potential	DNM1L -[Inhibition]-> MPZ -[Inhibition]-> regulation of mitochondrial membrane potential	21615675	0																																		
+DNM1L	K38A	DNM1L_HUMAN	CHAIN;DOMAIN;REGION	Dynamin-1-like protein;Dynamin-type G;G1 motif	regulation of mitochondrial membrane potential	DNM1L -[Inhibition]-> regulation of mitochondrial membrane potential	23166623	0																																		
+DNM1L	K38A	DNM1L_HUMAN	CHAIN;DOMAIN;REGION	Dynamin-1-like protein;Dynamin-type G;G1 motif	regulation of mitochondrial membrane potential	DNM1L -[Inhibition]-> regulation of mitochondrial membrane potential	28849115	0																																		
+DNM1L	K38A	DNM1L_HUMAN	CHAIN;DOMAIN;REGION	Dynamin-1-like protein;Dynamin-type G;G1 motif	transcription, DNA-templated	DNM1L -[Activation]-> transcription, DNA-templated	28849115	0																																		
+DNM1L	K40A	DNM1L_HUMAN	CHAIN;DOMAIN	Dynamin-1-like protein;Dynamin-type G	CAPN	DNM1L -[Activation]-> calcium(2+) -[Activation]-> CAPN	29743663	0																																		
+DNM1L	K40A	DNM1L_HUMAN	CHAIN;DOMAIN	Dynamin-1-like protein;Dynamin-type G	Death	DNM1L -[Activation]-> Death	29743663	0																																		
+DNM1L	K40A	DNM1L_HUMAN	CHAIN;DOMAIN	Dynamin-1-like protein;Dynamin-type G	apoptotic process	DNM1L -[Activation]-> apoptotic process	18722182	0																																		
+DNM1L	K40A	DNM1L_HUMAN	CHAIN;DOMAIN	Dynamin-1-like protein;Dynamin-type G	apoptotic process	DNM1L -[Activation]-> apoptotic process	29743663	0																																		
+DNM1L	K40A	DNM1L_HUMAN	CHAIN;DOMAIN	Dynamin-1-like protein;Dynamin-type G	autophagy	DNM1L -[Activation]-> calcium(2+) -[Inhibition]-> autophagy	29743663	0																																		
+DNM1L	K40A	DNM1L_HUMAN	CHAIN;DOMAIN	Dynamin-1-like protein;Dynamin-type G	cell death	DNM1L -[Activation]-> calcium(2+) -[Activation]-> cell death	29743663	0																																		
+DNM1L	K40A	DNM1L_HUMAN	CHAIN;DOMAIN	Dynamin-1-like protein;Dynamin-type G	cell death	DNM1L -[Inhibition]-> cell death	18722182	0																																		
+DNM1L	K40A	DNM1L_HUMAN	CHAIN;DOMAIN	Dynamin-1-like protein;Dynamin-type G	homeostatic process	DNM1L -[Inhibition]-> homeostatic process	18827010	0																																		
+DNM1L	K40A	DNM1L_HUMAN	CHAIN;DOMAIN	Dynamin-1-like protein;Dynamin-type G	locomotion	DNM1L -[Activation]-> locomotion	29743663	0																																		
+DNM1L	K40A	DNM1L_HUMAN	CHAIN;DOMAIN	Dynamin-1-like protein;Dynamin-type G	mitochondrial fission	DNM1L -[Activation]-> mitochondrial fission	29743663	0																																		
+DNM1L	K40A	DNM1L_HUMAN	CHAIN;DOMAIN	Dynamin-1-like protein;Dynamin-type G	mitochondrial outer membrane permeabilization	DNM1L -[Activation]-> mitochondrial outer membrane permeabilization	29743663	0																																		
+DNM1L	K42A	DNM1L_HUMAN	CHAIN;DOMAIN	Dynamin-1-like protein;Dynamin-type G	Death	DNM1L -[Activation]-> Caspase -[Activation]-> Death	11980920	0																																		
+DNM1L	K42A	DNM1L_HUMAN	CHAIN;DOMAIN	Dynamin-1-like protein;Dynamin-type G	autophagy	DNM1L -[Activation]-> autophagy	11980920	0																																		
+DNM1L	K42A	DNM1L_HUMAN	CHAIN;DOMAIN	Dynamin-1-like protein;Dynamin-type G	cell death	DNM1L -[Activation]-> cell death	11980920	0																																		
+DNM1L	K42A	DNM1L_HUMAN	CHAIN;DOMAIN	Dynamin-1-like protein;Dynamin-type G	regulation of mitochondrial membrane potential	DNM1L -[Inhibition]-> regulation of mitochondrial membrane potential	11980920	0																																		
+DNM1L	M6A	DNM1L_HUMAN	CHAIN	Dynamin-1-like protein	mitochondrial fission	DNM1L -[Activation]-> mitochondrial fission	37752784	0																																		
+DNM1L	R247A	DNM1L_HUMAN	CHAIN;DOMAIN;REGION	Dynamin-1-like protein;Dynamin-type G;G5 motif	cell death	DNM1L -[Inhibition]-> cell death	20850011	0																																		
+DNM1L	S579A	DNM1L_HUMAN	CHAIN;REGION;REGION	Dynamin-1-like protein;Interaction with GSK3B;Disordered	Cell Survival	DNM1L -[Activation]-> Cell Survival	21119009	0																																		
+DNM1L	S579A	DNM1L_HUMAN	CHAIN;REGION;REGION	Dynamin-1-like protein;Interaction with GSK3B;Disordered	Death	DNM1L -[Complex]-> PRKCD -[Activation]-> Death	21119009	0																																		
+DNM1L	S579D	DNM1L_HUMAN	CHAIN;REGION;REGION	Dynamin-1-like protein;Interaction with GSK3B;Disordered	cell death	DNM1L -[Activation]-> cell death	30096906	0																																		
+DNM1L	S579D	DNM1L_HUMAN	CHAIN;REGION;REGION	Dynamin-1-like protein;Interaction with GSK3B;Disordered	necroptotic process	DNM1L -[Complex]-> RIPK1 -[Activation]-> necroptotic process	30096906	0																																		
+DNM1L	S616A	DNM1L_HUMAN	CHAIN;REGION	Dynamin-1-like protein;Interaction with GSK3B	Cell Survival	DNM1L -[Activation]-> MAP3K14 -[Activation]-> Cell Survival	33723235	0																																		
+DNM1L	S616A	DNM1L_HUMAN	CHAIN;REGION	Dynamin-1-like protein;Interaction with GSK3B	Neoplasm Invasiveness	DNM1L -[Activation]-> Neoplasm Invasiveness	33723235	0																																		
+DNM1L	S616A	DNM1L_HUMAN	CHAIN;REGION	Dynamin-1-like protein;Interaction with GSK3B	Neuronal Plasticity	DNM1L -[Activation]-> Neuronal Plasticity	30515821	0																																		
+DNM1L	S616A	DNM1L_HUMAN	CHAIN;REGION	Dynamin-1-like protein;Interaction with GSK3B	Neuroprotection	DNM1L -[Activation]-> Neuroprotection	30515821	0																																		
+DNM1L	S616A	DNM1L_HUMAN	CHAIN;REGION	Dynamin-1-like protein;Interaction with GSK3B	Oxygen Consumption	DNM1L -[Activation]-> MAP3K14 -[Activation]-> Oxygen Consumption	33723235	0																																		
+DNM1L	S616A	DNM1L_HUMAN	CHAIN;REGION	Dynamin-1-like protein;Interaction with GSK3B	Wounds and Injuries	DNM1L -[Activation]-> Wounds and Injuries	30515821	0																																		
+DNM1L	S616A	DNM1L_HUMAN	CHAIN;REGION	Dynamin-1-like protein;Interaction with GSK3B	apoptotic process	DNM1L -[Inhibition]-> apoptotic process	27831567	0																																		
+DNM1L	S616A	DNM1L_HUMAN	CHAIN;REGION	Dynamin-1-like protein;Interaction with GSK3B	cell death	DNM1L -[Activation]-> alpha-D-galactose -[Activation]-> cell death	33723235	0																																		
+DNM1L	S616A	DNM1L_HUMAN	CHAIN;REGION	Dynamin-1-like protein;Interaction with GSK3B	cell growth	DNM1L -[Activation]-> MAP3K14 -[Activation]-> cell growth	33723235	0																																		
+DNM1L	S616A	DNM1L_HUMAN	CHAIN;REGION	Dynamin-1-like protein;Interaction with GSK3B	energy homeostasis	DNM1L -[Activation]-> energy homeostasis	30515821	0																																		
+DNM1L	S616A	DNM1L_HUMAN	CHAIN;REGION	Dynamin-1-like protein;Interaction with GSK3B	glycolytic process	DNM1L -[Activation]-> glycolytic process	33723235	0																																		
+DNM1L	S616A	DNM1L_HUMAN	CHAIN;REGION	Dynamin-1-like protein;Interaction with GSK3B	inflammatory response	DNM1L -[Activation]-> mitochondrial fission -[Activation]-> inflammatory response	30515821	0																																		
+DNM1L	S616A	DNM1L_HUMAN	CHAIN;REGION	Dynamin-1-like protein;Interaction with GSK3B	localization	DNM1L -[Activation]-> MAP3K14 -[Activation]-> localization	33723235	0																																		
+DNM1L	S616A	DNM1L_HUMAN	CHAIN;REGION	Dynamin-1-like protein;Interaction with GSK3B	metabolic process	DNM1L -[Activation]-> metabolic process	27831567	0																																		
+DNM1L	S616A	DNM1L_HUMAN	CHAIN;REGION	Dynamin-1-like protein;Interaction with GSK3B	metabolic process	DNM1L -[Activation]-> metabolic process	33723235	0																																		
+DNM1L	S616A	DNM1L_HUMAN	CHAIN;REGION	Dynamin-1-like protein;Interaction with GSK3B	mitochondrial fission	DNM1L -[Activation]-> mitochondrial fission	30515821	0																																		
+DNM1L	S616A	DNM1L_HUMAN	CHAIN;REGION	Dynamin-1-like protein;Interaction with GSK3B	necroptotic process	DNM1L -[Inhibition]-> necroptotic process	30515821	0																																		
+DNM1L	S616A	DNM1L_HUMAN	CHAIN;REGION	Dynamin-1-like protein;Interaction with GSK3B	neuron differentiation	DNM1L -[Activation]-> mitochondrial fission -[Activation]-> neuron differentiation	30515821	0																																		
+DNM1L	S616A	DNM1L_HUMAN	CHAIN;REGION	Dynamin-1-like protein;Interaction with GSK3B	oxidative phosphorylation	DNM1L -[Activation]-> oxidative phosphorylation	33723235	0																																		
+DNM1L	S616D	DNM1L_HUMAN	CHAIN;REGION	Dynamin-1-like protein;Interaction with GSK3B	metabolic process	DNM1L -[Inhibition]-> DENV -[Activation]-> metabolic process	27816895	0																																		
+DNM1L	S616D	DNM1L_HUMAN	CHAIN;REGION	Dynamin-1-like protein;Interaction with GSK3B	mitochondrion localization	DNM1L -[Inhibition]-> mitochondrion localization	35422062	0																																		
+DNM1L	S616E	DNM1L_HUMAN	CHAIN;REGION	Dynamin-1-like protein;Interaction with GSK3B	Cell Survival	DNM1L -[Activation]-> IGF-IIR -[Activation]-> Cell Survival	30098987	0																																		
+DNM1L	S616E	DNM1L_HUMAN	CHAIN;REGION	Dynamin-1-like protein;Interaction with GSK3B	Cell Survival	DNM1L -[Activation]-> MAP3K14 -[Activation]-> Cell Survival	33723235	0																																		
+DNM1L	S616E	DNM1L_HUMAN	CHAIN;REGION	Dynamin-1-like protein;Interaction with GSK3B	Cell Survival	DNM1L -[Inhibition]-> Parkinson Disease -[Inhibition]-> autophagy -[Inhibition]-> Cell Survival	37580749	0																																		
+DNM1L	S616E	DNM1L_HUMAN	CHAIN;REGION	Dynamin-1-like protein;Interaction with GSK3B	Neoplasm Invasiveness	DNM1L -[Activation]-> Neoplasm Invasiveness	33723235	0																																		
+DNM1L	S616E	DNM1L_HUMAN	CHAIN;REGION	Dynamin-1-like protein;Interaction with GSK3B	Oxygen Consumption	DNM1L -[Activation]-> MAP3K14 -[Activation]-> Oxygen Consumption	33723235	0																																		
+DNM1L	S616E	DNM1L_HUMAN	CHAIN;REGION	Dynamin-1-like protein;Interaction with GSK3B	Parkinson Disease	DNM1L -[Inhibition]-> Parkinson Disease	37580749	0																																		
+DNM1L	S616E	DNM1L_HUMAN	CHAIN;REGION	Dynamin-1-like protein;Interaction with GSK3B	apoptotic process	DNM1L -[Activation]-> IGF-IIR -[Activation]-> apoptotic process	30098987	0																																		
+DNM1L	S616E	DNM1L_HUMAN	CHAIN;REGION	Dynamin-1-like protein;Interaction with GSK3B	apoptotic process	DNM1L -[Inhibition]-> apoptotic process	27831567	0																																		
+DNM1L	S616E	DNM1L_HUMAN	CHAIN;REGION	Dynamin-1-like protein;Interaction with GSK3B	autophagy	DNM1L -[Inhibition]-> Parkinson Disease -[Inhibition]-> autophagy	37580749	0																																		
+DNM1L	S616E	DNM1L_HUMAN	CHAIN;REGION	Dynamin-1-like protein;Interaction with GSK3B	cell death	DNM1L -[Activation]-> alpha-D-galactose -[Activation]-> cell death	33723235	0																																		
+DNM1L	S616E	DNM1L_HUMAN	CHAIN;REGION	Dynamin-1-like protein;Interaction with GSK3B	cell death	DNM1L -[Activation]-> cell death	30098987	0																																		
+DNM1L	S616E	DNM1L_HUMAN	CHAIN;REGION	Dynamin-1-like protein;Interaction with GSK3B	cell growth	DNM1L -[Activation]-> MAP3K14 -[Activation]-> cell growth	33723235	0																																		
+DNM1L	S616E	DNM1L_HUMAN	CHAIN;REGION	Dynamin-1-like protein;Interaction with GSK3B	glycolytic process	DNM1L -[Activation]-> glycolytic process	33723235	0																																		
+DNM1L	S616E	DNM1L_HUMAN	CHAIN;REGION	Dynamin-1-like protein;Interaction with GSK3B	localization	DNM1L -[Activation]-> MAP3K14 -[Activation]-> localization	33723235	0																																		
+DNM1L	S616E	DNM1L_HUMAN	CHAIN;REGION	Dynamin-1-like protein;Interaction with GSK3B	metabolic process	DNM1L -[Activation]-> metabolic process	27831567	0																																		
+DNM1L	S616E	DNM1L_HUMAN	CHAIN;REGION	Dynamin-1-like protein;Interaction with GSK3B	metabolic process	DNM1L -[Activation]-> metabolic process	33723235	0																																		
+DNM1L	S616E	DNM1L_HUMAN	CHAIN;REGION	Dynamin-1-like protein;Interaction with GSK3B	oxidative phosphorylation	DNM1L -[Activation]-> oxidative phosphorylation	33723235	0																																		
+DNM1L	S616E	DNM1L_HUMAN	CHAIN;REGION	Dynamin-1-like protein;Interaction with GSK3B	regulation of mitochondrial membrane potential	DNM1L -[Inhibition]-> regulation of mitochondrial membrane potential	30098987	0																																		
+DNM1L	S637A	DNM1L_HUMAN	CHAIN;REGION	Dynamin-1-like protein;Interaction with GSK3B	apoptotic process	DNM1L -[Activation]-> apoptotic process	25595902	0																																		
+DNM1L	S637A	DNM1L_HUMAN	CHAIN;REGION	Dynamin-1-like protein;Interaction with GSK3B	apoptotic process	DNM1L -[Activation]-> apoptotic process	32075676	0																																		
+DNM1L	S637A	DNM1L_HUMAN	CHAIN;REGION	Dynamin-1-like protein;Interaction with GSK3B	mitochondrial fission	DNM1L -[Activation]-> mitochondrial fission	32075676	0																																		
+DNM1L	S637A	DNM1L_HUMAN	CHAIN;REGION	Dynamin-1-like protein;Interaction with GSK3B	protein targeting to mitochondrion	DNM1L -[Inhibition]-> protein targeting to mitochondrion	32075676	0																																		
+DNM1L	S637D	DNM1L_HUMAN	CHAIN;REGION	Dynamin-1-like protein;Interaction with GSK3B	DNA damage checkpoint	DNM1L -[Inhibition]-> DNA damage checkpoint	28098754	0																																		
+DNM1L	S637D	DNM1L_HUMAN	CHAIN;REGION	Dynamin-1-like protein;Interaction with GSK3B	Death	DNM1L -[Activation]-> Death	25920809	0																																		
+DNM1L	S637D	DNM1L_HUMAN	CHAIN;REGION	Dynamin-1-like protein;Interaction with GSK3B	Genomic Instability	DNM1L -[Inhibition]-> Genomic Instability	28098754	0																																		
+DNM1L	S637D	DNM1L_HUMAN	CHAIN;REGION	Dynamin-1-like protein;Interaction with GSK3B	apoptotic process	DNM1L -[Activation]-> apoptotic process	25920809	0																																		
+DNM1L	S637D	DNM1L_HUMAN	CHAIN;REGION	Dynamin-1-like protein;Interaction with GSK3B	apoptotic process	DNM1L -[Activation]-> apoptotic process	26318285	0																																		
+DNM1L	S637D	DNM1L_HUMAN	CHAIN;REGION	Dynamin-1-like protein;Interaction with GSK3B	apoptotic process	DNM1L -[Activation]-> apoptotic process	28098754	0																																		
+DNM1L	S637D	DNM1L_HUMAN	CHAIN;REGION	Dynamin-1-like protein;Interaction with GSK3B	apoptotic process	DNM1L -[Activation]-> apoptotic process	32075676	0																																		
+DNM1L	S637D	DNM1L_HUMAN	CHAIN;REGION	Dynamin-1-like protein;Interaction with GSK3B	autophagy	DNM1L -[Inhibition]-> autophagy	28098754	0																																		
+DNM1L	S637D	DNM1L_HUMAN	CHAIN;REGION	Dynamin-1-like protein;Interaction with GSK3B	mitochondrial fission	DNM1L -[Activation]-> mitochondrial fission	32075676	0																																		
+DNM1L	S637D	DNM1L_HUMAN	CHAIN;REGION	Dynamin-1-like protein;Interaction with GSK3B	protein targeting to mitochondrion	DNM1L -[Inhibition]-> protein targeting to mitochondrion	32075676	0																																		
+DNM1L	T595A	DNM1L_HUMAN	CHAIN;REGION	Dynamin-1-like protein;Interaction with GSK3B	autophagy	DNM1L -[Inhibition]-> autophagy	23813973	0																																		
+DNM1L	T59A	DNM1L_HUMAN	CHAIN;DOMAIN;REGION	Dynamin-1-like protein;Dynamin-type G;G2 motif	cell death	DNM1L -[Inhibition]-> cell death	20850011	0																																		

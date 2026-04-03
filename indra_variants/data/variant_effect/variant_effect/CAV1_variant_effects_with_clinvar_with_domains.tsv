@@ -1,0 +1,70 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+CAV1	F92A	CAV1_HUMAN	CHAIN;REGION;REGION	Caveolin-1;Required for homooligomerization;Interaction with CAVIN3	cell differentiation	CAV1 -[Activation]-> cell differentiation	27927230	0																																		
+CAV1	F92A	CAV1_HUMAN	CHAIN;REGION;REGION	Caveolin-1;Required for homooligomerization;Interaction with CAVIN3	cell migration	CAV1 -[Activation]-> cell migration	33833286	0																																		
+CAV1	F92A	CAV1_HUMAN	CHAIN;REGION;REGION	Caveolin-1;Required for homooligomerization;Interaction with CAVIN3	cell migration	CAV1 -[DecreaseAmount]-> TNF -[Inhibition]-> cell migration	30262154	0																																		
+CAV1	F92A	CAV1_HUMAN	CHAIN;REGION;REGION	Caveolin-1;Required for homooligomerization;Interaction with CAVIN3	cellular component biogenesis	CAV1 -[Activation]-> CSAD -[Inhibition]-> cellular component biogenesis	33833286	0																																		
+CAV1	F92A	CAV1_HUMAN	CHAIN;REGION;REGION	Caveolin-1;Required for homooligomerization;Interaction with CAVIN3	localization	CAV1 -[Inhibition]-> nitric oxide -[Activation]-> localization	27927230	0																																		
+CAV1	K176R	CAV1_HUMAN	CHAIN;REGION	Caveolin-1;Interacts with SPRY1, SPRY2, SPRY3 and SPRY4	transport	CAV1 -[Activation]-> transport	26843476	0																																		
+CAV1	P132L	CAV1_HUMAN	CHAIN;REGION	Caveolin-1;Interacts with SPRY1, SPRY2, SPRY3 and SPRY4	Cell Survival	CAV1 -[Activation]-> Cell Survival	20153318	0																																		
+CAV1	P132L	CAV1_HUMAN	CHAIN;REGION	Caveolin-1;Interacts with SPRY1, SPRY2, SPRY3 and SPRY4	Death	CAV1 -[Activation]-> Death	26431273	0																																		
+CAV1	P132L	CAV1_HUMAN	CHAIN;REGION	Caveolin-1;Interacts with SPRY1, SPRY2, SPRY3 and SPRY4	Neoplasm Invasiveness	CAV1 -[Activation]-> Neoplasm Invasiveness	19395651	0																																		
+CAV1	P132L	CAV1_HUMAN	CHAIN;REGION	Caveolin-1;Interacts with SPRY1, SPRY2, SPRY3 and SPRY4	Neoplasm Invasiveness	CAV1 -[IncreaseAmount]-> estrogen receptor-alpha -[Activation]-> Neoplasm Invasiveness	26431273	0																																		
+CAV1	P132L	CAV1_HUMAN	CHAIN;REGION	Caveolin-1;Interacts with SPRY1, SPRY2, SPRY3 and SPRY4	Neoplasm Invasiveness	CAV1 -[Inhibition]-> Neoplasm Invasiveness	20153318	0																																		
+CAV1	P132L	CAV1_HUMAN	CHAIN;REGION	Caveolin-1;Interacts with SPRY1, SPRY2, SPRY3 and SPRY4	Neoplasm Metastasis	CAV1 -[Activation]-> Neoplasm Metastasis	20153318	0																																		
+CAV1	P132L	CAV1_HUMAN	CHAIN;REGION	Caveolin-1;Interacts with SPRY1, SPRY2, SPRY3 and SPRY4	Neoplasm Metastasis	CAV1 -[Activation]-> Neoplasm Metastasis	26431273	0																																		
+CAV1	P132L	CAV1_HUMAN	CHAIN;REGION	Caveolin-1;Interacts with SPRY1, SPRY2, SPRY3 and SPRY4	apoptotic process	CAV1 -[Activation]-> apoptotic process	20153318	0																																		
+CAV1	P132L	CAV1_HUMAN	CHAIN;REGION	Caveolin-1;Interacts with SPRY1, SPRY2, SPRY3 and SPRY4	autophagy	CAV1 -[Activation]-> autophagy	26431273	0																																		
+CAV1	P132L	CAV1_HUMAN	CHAIN;REGION	Caveolin-1;Interacts with SPRY1, SPRY2, SPRY3 and SPRY4	cell differentiation	CAV1 -[Activation]-> cell differentiation	26431273	0																																		
+CAV1	P132L	CAV1_HUMAN	CHAIN;REGION	Caveolin-1;Interacts with SPRY1, SPRY2, SPRY3 and SPRY4	cell growth	CAV1 -[Activation]-> cell growth	20153318	0																																		
+CAV1	P132L	CAV1_HUMAN	CHAIN;REGION	Caveolin-1;Interacts with SPRY1, SPRY2, SPRY3 and SPRY4	cell migration	CAV1 -[Activation]-> cell migration	20153318	0																																		
+CAV1	P132L	CAV1_HUMAN	CHAIN;REGION	Caveolin-1;Interacts with SPRY1, SPRY2, SPRY3 and SPRY4	cell migration	CAV1 -[IncreaseAmount]-> estrogen receptor-alpha -[Activation]-> cell migration	26431273	0																																		
+CAV1	P132L	CAV1_HUMAN	CHAIN;REGION	Caveolin-1;Interacts with SPRY1, SPRY2, SPRY3 and SPRY4	cell population proliferation	CAV1 -[Activation]-> cell population proliferation	20153318	0																																		
+CAV1	P132L	CAV1_HUMAN	CHAIN;REGION	Caveolin-1;Interacts with SPRY1, SPRY2, SPRY3 and SPRY4	signal transduction	CAV1 -[Activation]-> signal transduction	20153318	0																																		
+CAV1	S80A	CAV1_HUMAN	CHAIN;REGION	Caveolin-1;Required for homooligomerization	Neoplasms	CAV1 -[Inhibition]-> Neoplasms	32811828	0																																		
+CAV1	S80A	CAV1_HUMAN	CHAIN;REGION	Caveolin-1;Required for homooligomerization	Secretory Pathway	CAV1 -[Activation]-> Secretory Pathway	32811828	0																																		
+CAV1	S80A	CAV1_HUMAN	CHAIN;REGION	Caveolin-1;Required for homooligomerization	cell death	CAV1 -[Inhibition]-> endoplasmic reticulum -[Activation]-> cell death	32811828	0																																		
+CAV1	S80A	CAV1_HUMAN	CHAIN;REGION	Caveolin-1;Required for homooligomerization	endocytosis	CAV1 -[Inhibition]-> endocytosis	12496259	0																																		
+CAV1	S80A	CAV1_HUMAN	CHAIN;REGION	Caveolin-1;Required for homooligomerization	localization	CAV1 -[Inhibition]-> endoplasmic reticulum -[Activation]-> localization	32811828	0																																		
+CAV1	S80E	CAV1_HUMAN	CHAIN;REGION	Caveolin-1;Required for homooligomerization	endocytosis	CAV1 -[Inhibition]-> endocytosis	12496259	0																																		
+CAV1	S80E	CAV1_HUMAN	CHAIN;REGION	Caveolin-1;Required for homooligomerization	endocytosis	CAV1 -[Inhibition]-> endocytosis	17715130	0																																		
+CAV1	Y14D	CAV1_HUMAN	CHAIN;REGION	Caveolin-1;Required for homooligomerization	Cell Polarity	CAV1 -[Activation]-> RhoGTPase -[Inhibition]-> Cell Polarity	28592633	0																																		
+CAV1	Y14D	CAV1_HUMAN	CHAIN;REGION	Caveolin-1;Required for homooligomerization	Neoplasm Invasiveness	CAV1 -[Activation]-> Neoplasm Invasiveness	28592633	0																																		
+CAV1	Y14D	CAV1_HUMAN	CHAIN;REGION	Caveolin-1;Required for homooligomerization	cell migration	CAV1 -[Activation]-> cell migration	28592633	0																																		
+CAV1	Y14D	CAV1_HUMAN	CHAIN;REGION	Caveolin-1;Required for homooligomerization	cell motility	CAV1 -[Activation]-> cell motility	28592633	0																																		
+CAV1	Y14D	CAV1_HUMAN	CHAIN;REGION	Caveolin-1;Required for homooligomerization	cellular component biogenesis	CAV1 -[Activation]-> cellular component biogenesis	27170175	0																																		
+CAV1	Y14D	CAV1_HUMAN	CHAIN;REGION	Caveolin-1;Required for homooligomerization	endocytosis	CAV1 -[Activation]-> endocytosis	27170175	0																																		
+CAV1	Y14D	CAV1_HUMAN	CHAIN;REGION	Caveolin-1;Required for homooligomerization	endocytosis	CAV1 -[Activation]-> endocytosis	29237817	0																																		
+CAV1	Y14D	CAV1_HUMAN	CHAIN;REGION	Caveolin-1;Required for homooligomerization	positive regulation of focal adhesion assembly	CAV1 -[Activation]-> VCL -[Activation]-> positive regulation of focal adhesion assembly	28592633	0																																		
+CAV1	Y14E	CAV1_HUMAN	CHAIN;REGION	Caveolin-1;Required for homooligomerization	Neoplasm Invasiveness	CAV1 -[Activation]-> Neoplasm Invasiveness	27259249	0																																		
+CAV1	Y14E	CAV1_HUMAN	CHAIN;REGION	Caveolin-1;Required for homooligomerization	Neoplasm Metastasis	CAV1 -[Activation]-> Neoplasm Metastasis	27259249	0																																		
+CAV1	Y14E	CAV1_HUMAN	CHAIN;REGION	Caveolin-1;Required for homooligomerization	cell adhesion	CAV1 -[Activation]-> cell adhesion	27259249	0																																		
+CAV1	Y14E	CAV1_HUMAN	CHAIN;REGION	Caveolin-1;Required for homooligomerization	cell migration	CAV1 -[Activation]-> cell migration	27259249	0																																		
+CAV1	Y14E	CAV1_HUMAN	CHAIN;REGION	Caveolin-1;Required for homooligomerization	endocytosis	CAV1 -[Activation]-> endocytosis	27259249	0																																		
+CAV1	Y14F	CAV1_HUMAN	CHAIN;REGION	Caveolin-1;Required for homooligomerization	Cell Survival	CAV1 -[Activation]-> Cell Survival	20153318	0																																		
+CAV1	Y14F	CAV1_HUMAN	CHAIN;REGION	Caveolin-1;Required for homooligomerization	Fibrosis	CAV1 -[Complex]-> CAVIN1 -[Inhibition]-> Fibrosis	32163197	0																																		
+CAV1	Y14F	CAV1_HUMAN	CHAIN;REGION	Caveolin-1;Required for homooligomerization	Hypertrophy	CAV1 -[Complex]-> CAVIN1 -[Inhibition]-> Hypertrophy	32163197	0																																		
+CAV1	Y14F	CAV1_HUMAN	CHAIN;REGION	Caveolin-1;Required for homooligomerization	Neoplasm Invasiveness	CAV1 -[Activation]-> Neoplasm Invasiveness	27259249	0																																		
+CAV1	Y14F	CAV1_HUMAN	CHAIN;REGION	Caveolin-1;Required for homooligomerization	Neoplasm Invasiveness	CAV1 -[Activation]-> Neoplasm Invasiveness	32152405	0																																		
+CAV1	Y14F	CAV1_HUMAN	CHAIN;REGION	Caveolin-1;Required for homooligomerization	Neoplasm Invasiveness	CAV1 -[Inhibition]-> Neoplasm Invasiveness	20153318	0																																		
+CAV1	Y14F	CAV1_HUMAN	CHAIN;REGION	Caveolin-1;Required for homooligomerization	Neoplasm Metastasis	CAV1 -[Activation]-> Neoplasm Metastasis	20153318	0																																		
+CAV1	Y14F	CAV1_HUMAN	CHAIN;REGION	Caveolin-1;Required for homooligomerization	Neoplasm Metastasis	CAV1 -[Activation]-> Neoplasm Metastasis	27259249	0																																		
+CAV1	Y14F	CAV1_HUMAN	CHAIN;REGION	Caveolin-1;Required for homooligomerization	Neoplasm Metastasis	CAV1 -[Activation]-> Neoplasm Metastasis	32152405	0																																		
+CAV1	Y14F	CAV1_HUMAN	CHAIN;REGION	Caveolin-1;Required for homooligomerization	actin filament polymerization	CAV1 -[Activation]-> actin filament polymerization	32163197	0																																		
+CAV1	Y14F	CAV1_HUMAN	CHAIN;REGION	Caveolin-1;Required for homooligomerization	angiogenesis	CAV1 -[Inhibition]-> VEGF -[Activation]-> angiogenesis	15692085	0																																		
+CAV1	Y14F	CAV1_HUMAN	CHAIN;REGION	Caveolin-1;Required for homooligomerization	apoptotic process	CAV1 -[Activation]-> apoptotic process	20153318	0																																		
+CAV1	Y14F	CAV1_HUMAN	CHAIN;REGION	Caveolin-1;Required for homooligomerization	cell adhesion	CAV1 -[Activation]-> cell adhesion	27259249	0																																		
+CAV1	Y14F	CAV1_HUMAN	CHAIN;REGION	Caveolin-1;Required for homooligomerization	cell growth	CAV1 -[Activation]-> cell growth	20153318	0																																		
+CAV1	Y14F	CAV1_HUMAN	CHAIN;REGION	Caveolin-1;Required for homooligomerization	cell migration	CAV1 -[Activation]-> cell migration	20153318	0																																		
+CAV1	Y14F	CAV1_HUMAN	CHAIN;REGION	Caveolin-1;Required for homooligomerization	cell migration	CAV1 -[Activation]-> cell migration	27259249	0																																		
+CAV1	Y14F	CAV1_HUMAN	CHAIN;REGION	Caveolin-1;Required for homooligomerization	cell migration	CAV1 -[Activation]-> cell migration	32152405	0																																		
+CAV1	Y14F	CAV1_HUMAN	CHAIN;REGION	Caveolin-1;Required for homooligomerization	cell population proliferation	CAV1 -[Activation]-> cell population proliferation	20153318	0																																		
+CAV1	Y14F	CAV1_HUMAN	CHAIN;REGION	Caveolin-1;Required for homooligomerization	endocytosis	CAV1 -[Activation]-> endocytosis	20005108	0																																		
+CAV1	Y14F	CAV1_HUMAN	CHAIN;REGION	Caveolin-1;Required for homooligomerization	endocytosis	CAV1 -[Activation]-> endocytosis	27259249	0																																		
+CAV1	Y14F	CAV1_HUMAN	CHAIN;REGION	Caveolin-1;Required for homooligomerization	endocytosis	CAV1 -[Inhibition]-> ALB -[Activation]-> endocytosis	32163197	0																																		
+CAV1	Y14F	CAV1_HUMAN	CHAIN;REGION	Caveolin-1;Required for homooligomerization	endocytosis	CAV1 -[Inhibition]-> endocytosis	18205698	0																																		
+CAV1	Y14F	CAV1_HUMAN	CHAIN;REGION	Caveolin-1;Required for homooligomerization	homeostatic process	CAV1 -[Activation]-> transcytosis -[Activation]-> homeostatic process	32163197	0																																		
+CAV1	Y14F	CAV1_HUMAN	CHAIN;REGION	Caveolin-1;Required for homooligomerization	localization	CAV1 -[Activation]-> Actin -[Activation]-> localization	32163197	0																																		
+CAV1	Y14F	CAV1_HUMAN	CHAIN;REGION	Caveolin-1;Required for homooligomerization	signal transduction	CAV1 -[Activation]-> signal transduction	20153318	0																																		
+CAV1	Y14F	CAV1_HUMAN	CHAIN;REGION	Caveolin-1;Required for homooligomerization	signal transduction	CAV1 -[Inhibition]-> albumin -[Activation]-> signal transduction	18205698	0																																		
+CAV1	Y14F	CAV1_HUMAN	CHAIN;REGION	Caveolin-1;Required for homooligomerization	transcytosis	CAV1 -[Activation]-> transcytosis	32163197	0																																		
+CAV1	Y14F	CAV1_HUMAN	CHAIN;REGION	Caveolin-1;Required for homooligomerization	transport	CAV1 -[Inhibition]-> transport	32163197	0																																		

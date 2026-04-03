@@ -1,0 +1,9 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+HNMT	G9A	HNMT_HUMAN	CHAIN	Histamine N-methyltransferase	angiogenesis	HNMT -[Inhibition]-> angiogenesis	26013382	0																																		
+HNMT	G9A	HNMT_HUMAN	CHAIN	Histamine N-methyltransferase	cell cycle	HNMT -[Inhibition]-> cell cycle	29113759	0																																		
+HNMT	G9A	HNMT_HUMAN	CHAIN	Histamine N-methyltransferase	cell death	HNMT -[Activation]-> cell death	23807219	0																																		
+HNMT	G9A	HNMT_HUMAN	CHAIN	Histamine N-methyltransferase	cell growth	HNMT -[Activation]-> cell growth	26090846	0																																		
+HNMT	G9A	HNMT_HUMAN	CHAIN	Histamine N-methyltransferase	cell population proliferation	HNMT -[Activation]-> cell population proliferation	29113759	0																																		
+HNMT	G9A	HNMT_HUMAN	CHAIN	Histamine N-methyltransferase	localization	HNMT -[Methylation]-> H3K9 -[Complex]-> ATF7IP -[Activation]-> localization	35562425	0																																		
+HNMT	G9A	HNMT_HUMAN	CHAIN	Histamine N-methyltransferase	methyltransferase activity	HNMT -[Complex]-> CTNNB1 -[Complex]-> methyltransferase activity	20708585	0																																		
+HNMT	T105I	HNMT_HUMAN	CHAIN	Histamine N-methyltransferase	Parkinson Disease	HNMT -[Inhibition]-> Parkinson Disease	25768024	1	20199	single nucleotide variant	NM_006895.3(HNMT):c.314C>T (p.Thr105Ile)	11558538	Inherited susceptibility to asthma	Benign; risk factor	0.0	HNMT-related disorder																										

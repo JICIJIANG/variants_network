@@ -1,0 +1,11 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+RAB6A	Q72L	RAB6A_HUMAN	CHAIN	Ras-related protein Rab-6A	ADRA	RAB6A -[DecreaseAmount]-> RAB2A -[Inhibition]-> ADRA	17716866	0																																		
+RAB6A	Q72L	RAB6A_HUMAN	CHAIN	Ras-related protein Rab-6A	GDP-dissociation inhibitor activity	RAB6A -[Complex]-> GTP -[Complex]-> RAB -[Complex]-> GDP-dissociation inhibitor activity	17716866	0																																		
+RAB6A	Q72L	RAB6A_HUMAN	CHAIN	Ras-related protein Rab-6A	localization	RAB6A -[Inhibition]-> TMF1 -[Inhibition]-> localization	17698061	0																																		
+RAB6A	Q72L	RAB6A_HUMAN	CHAIN	Ras-related protein Rab-6A	transcription, DNA-templated	RAB6A -[Inhibition]-> transcription, DNA-templated	17698061	0																																		
+RAB6A	Q72L	RAB6A_HUMAN	CHAIN	Ras-related protein Rab-6A	transport	RAB6A -[Inhibition]-> transport	17716866	0																																		
+RAB6A	Q72L	RAB6A_HUMAN	CHAIN	Ras-related protein Rab-6A	transport	RAB6A -[Inhibition]-> transport	7798313	0																																		
+RAB6A	Q72L	RAB6A_HUMAN	CHAIN	Ras-related protein Rab-6A	transport	RAB6A -[Inhibition]-> transport	9714762	0																																		
+RAB6A	T27N	RAB6A_HUMAN	CHAIN	Ras-related protein Rab-6A	localization	RAB6A -[Inhibition]-> TMF1 -[Inhibition]-> localization	17698061	0																																		
+RAB6A	T27N	RAB6A_HUMAN	CHAIN	Ras-related protein Rab-6A	transcription, DNA-templated	RAB6A -[Inhibition]-> transcription, DNA-templated	17698061	0																																		
+RAB6A	T27N	RAB6A_HUMAN	CHAIN	Ras-related protein Rab-6A	transport	RAB6A -[Inhibition]-> transport	10562278	0																																		

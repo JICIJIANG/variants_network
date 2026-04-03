@@ -1,0 +1,29 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+NUP214	D109H	NU214_HUMAN	CHAIN;REPEAT;REGION	Nuclear pore complex protein Nup214;Blade 2;Seven-bladed beta propeller	apoptotic process	NUP214 -[Activation]-> apoptotic process	27904835	0																																		
+NUP214	E1A				Ataxia	NUP214 -[Inhibition]-> YY1 -[Activation]-> Ataxia	29604933	0																																		
+NUP214	E1A				Carcinoma, Renal Cell	NUP214 -[Inhibition]-> YY1 -[Inhibition]-> Carcinoma, Renal Cell	29604933	0																																		
+NUP214	E1A				Glioblastoma	NUP214 -[Inhibition]-> YY1 -[Inhibition]-> Glioblastoma	29604933	0																																		
+NUP214	E1A				Neoplasm Invasiveness	NUP214 -[Inhibition]-> YY1 -[Inhibition]-> Neoplasm Invasiveness	29604933	0																																		
+NUP214	E1A				Neoplasms	NUP214 -[Inhibition]-> YY1 -[Activation]-> Neoplasms	29604933	0																																		
+NUP214	E1A				Tremor	NUP214 -[Inhibition]-> YY1 -[Activation]-> Tremor	29604933	0																																		
+NUP214	E1A				apoptotic process	NUP214 -[Inhibition]-> YY1 -[Activation]-> apoptotic process	29604933	0																																		
+NUP214	E1A				cell growth	NUP214 -[Inhibition]-> YY1 -[Inhibition]-> cell growth	29604933	0																																		
+NUP214	E1A				cell population proliferation	NUP214 -[Inhibition]-> EP300 -[Complex]-> USF2 -[Inhibition]-> cell population proliferation	10434034	0																																		
+NUP214	E1A				cell population proliferation	NUP214 -[Inhibition]-> YY1 -[Activation]-> cell population proliferation	29604933	0																																		
+NUP214	E1A				myelination	NUP214 -[Inhibition]-> YY1 -[Activation]-> myelination	29604933	0																																		
+NUP214	E1A				regulation of cell cycle	NUP214 -[Inhibition]-> YY1 -[Inhibition]-> regulation of cell cycle	29604933	0																																		
+NUP214	E1A				transcription, DNA-templated	NUP214 -[Activation]-> POU5F1 -[Activation]-> transcription, DNA-templated	10082529	0																																		
+NUP214	E1A				transcription, DNA-templated	NUP214 -[Activation]-> transcription, DNA-templated	11231009	0																																		
+NUP214	E1A				transcription, DNA-templated	NUP214 -[Inhibition]-> EP300 -[Complex]-> USF2 -[Activation]-> transcription, DNA-templated	10434034	0																																		
+NUP214	E1A				transcription, DNA-templated	NUP214 -[Inhibition]-> YY1 -[Activation]-> transcription, DNA-templated	29604933	0																																		
+NUP214	E3L	NU214_HUMAN	CHAIN	Nuclear pore complex protein Nup214	innate immune response	NUP214 -[Complex]-> double-stranded RNA -[Activation]-> innate immune response	37790463	0																																		
+NUP214	G295S	NU214_HUMAN	CHAIN;REPEAT;REGION;REGION	Nuclear pore complex protein Nup214;Blade 5;Seven-bladed beta propeller;44 X 2 AA repeats of F-G	Autosomal dominant inheritance	NUP214 -[Inhibition]-> GATA4 -[Complex]-> Autosomal dominant inheritance	22589735	0																																		
+NUP214	I226R	NU214_HUMAN	CHAIN;REPEAT;REGION	Nuclear pore complex protein Nup214;Blade 4;Seven-bladed beta propeller	chemokine production	NUP214 -[Inhibition]-> innate immune response -[Activation]-> chemokine production	35336982	0																																		
+NUP214	I226R	NU214_HUMAN	CHAIN;REPEAT;REGION	Nuclear pore complex protein Nup214;Blade 4;Seven-bladed beta propeller	defense response to virus	NUP214 -[Inhibition]-> innate immune response -[Activation]-> defense response to virus	35336982	0																																		
+NUP214	I226R	NU214_HUMAN	CHAIN;REPEAT;REGION	Nuclear pore complex protein Nup214;Blade 4;Seven-bladed beta propeller	innate immune response	NUP214 -[Inhibition]-> innate immune response	35336982	0																																		
+NUP214	I226R	NU214_HUMAN	CHAIN;REPEAT;REGION	Nuclear pore complex protein Nup214;Blade 4;Seven-bladed beta propeller	signal transduction	NUP214 -[Inhibition]-> signal transduction	35336982	0																																		
+NUP214	I226R	NU214_HUMAN	CHAIN;REPEAT;REGION	Nuclear pore complex protein Nup214;Blade 4;Seven-bladed beta propeller	transcription, DNA-templated	NUP214 -[Inhibition]-> innate immune response -[Activation]-> transcription, DNA-templated	35336982	0																																		
+NUP214	P64K	NU214_HUMAN	CHAIN;REPEAT;REGION	Nuclear pore complex protein Nup214;Blade 1;Seven-bladed beta propeller	immune response	NUP214 -[Activation]-> immune response	12887334	0																																		
+NUP214	S465D	NU214_HUMAN	CHAIN;REGION;REGION	Nuclear pore complex protein Nup214;44 X 2 AA repeats of F-G;	apoptotic process	NUP214 -[Activation]-> PRKN -[Complex]-> PINK1 -[Inhibition]-> apoptotic process	29255601	0																																		
+NUP214	T40K	NU214_HUMAN	CHAIN	Nuclear pore complex protein Nup214	autophagy	NUP214 -[Inhibition]-> autophagy	23924895	0																																		
+NUP214	W274R	NU214_HUMAN	CHAIN;REPEAT;REGION;REGION	Nuclear pore complex protein Nup214;Blade 5;Seven-bladed beta propeller;44 X 2 AA repeats of F-G	transcription, DNA-templated	NUP214 -[Complex]-> MAFB -[Activation]-> transcription, DNA-templated	25917456	0																																		

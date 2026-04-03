@@ -1,0 +1,16 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+RS1	P2Y				Death	RS1 -[Inhibition]-> Seizures -[Activation]-> Death	34144123	0																																		
+RS1	P2Y				Epilepsy	RS1 -[Inhibition]-> Seizures -[Activation]-> Epilepsy	34144123	0																																		
+RS1	P2Y				Neoplasm Invasiveness	RS1 -[Activation]-> Neoplasm Invasiveness	33412103	0																																		
+RS1	P2Y				Neoplasm Metastasis	RS1 -[Activation]-> Neoplasm Metastasis	33412103	0																																		
+RS1	P2Y				Neoplasms	RS1 -[Activation]-> Neoplasms	33412103	0																																		
+RS1	P2Y				Neuralgia	RS1 -[Activation]-> Neuralgia	33412103	0																																		
+RS1	P2Y				Seizures	RS1 -[Inhibition]-> Seizures	34144123	0																																		
+RS1	P2Y				Sudden Unexpected Death in Epilepsy	RS1 -[Inhibition]-> Seizures -[Inhibition]-> adenosine -[Activation]-> Sudden Unexpected Death in Epilepsy	34144123	0																																		
+RS1	P2Y				cell migration	RS1 -[Activation]-> cell migration	33412103	0																																		
+RS1	P2Y				cell population proliferation	RS1 -[Activation]-> cell population proliferation	33412103	0																																		
+RS1	P2Y				inflammatory response	RS1 -[Inhibition]-> Seizures -[Inhibition]-> inflammatory response	34144123	0																																		
+RS1	S1P				Hyperalgesia	RS1 -[Activation]-> ceramide -[Activation]-> Hyperalgesia	23782998	0																																		
+RS1	S1P				Pain	RS1 -[Activation]-> Pain	23782998	0																																		
+RS1	S1P				biosynthetic process	RS1 -[Activation]-> sphingosine -[Inhibition]-> CBR1 -[Activation]-> biosynthetic process	23782998	0																																		
+RS1	S1P				sensitization	RS1 -[Activation]-> sensitization	23782998	0																																		

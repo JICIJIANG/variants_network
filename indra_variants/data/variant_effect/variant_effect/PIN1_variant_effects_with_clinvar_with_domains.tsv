@@ -1,0 +1,63 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+PIN1	C113A	PIN1_HUMAN	CHAIN;DOMAIN	;PpiC	Brain Neoplasms	PIN1 -[DecreaseAmount]-> PKM2 -[Inhibition]-> Brain Neoplasms	23178880	0																																		
+PIN1	C113A	PIN1_HUMAN	CHAIN;DOMAIN	;PpiC	Cell Survival	PIN1 -[Activation]-> Cell Survival	25576397	0																																		
+PIN1	C113A	PIN1_HUMAN	CHAIN;DOMAIN	;PpiC	G2 phase	PIN1 -[Inhibition]-> G2 phase	29603395	0																																		
+PIN1	C113A	PIN1_HUMAN	CHAIN;DOMAIN	;PpiC	apoptotic process	PIN1 -[Inhibition]-> apoptotic process	29603395	0																																		
+PIN1	C113A	PIN1_HUMAN	CHAIN;DOMAIN	;PpiC	glycolytic process	PIN1 -[DecreaseAmount]-> PKM2 -[Activation]-> glycolytic process	23178880	0																																		
+PIN1	C113A	PIN1_HUMAN	CHAIN;DOMAIN	;PpiC	localization	PIN1 -[Inhibition]-> localization	25576397	0																																		
+PIN1	C115A	PIN1_HUMAN	CHAIN;DOMAIN	;PpiC	Neoplasm Invasiveness	PIN1 -[Activation]-> RUNX3 -[Inhibition]-> Neoplasm Invasiveness	22580604	0																																		
+PIN1	C115A	PIN1_HUMAN	CHAIN;DOMAIN	;PpiC	cell population proliferation	PIN1 -[Inhibition]-> cell population proliferation	22580604	0																																		
+PIN1	C115A	PIN1_HUMAN	CHAIN;DOMAIN	;PpiC	transcription, DNA-templated	PIN1 -[Activation]-> transcription, DNA-templated	22580604	0																																		
+PIN1	K63A	PIN1_HUMAN	CHAIN;DOMAIN	;PpiC	Carcinogenesis	PIN1 -[Inhibition]-> Carcinogenesis	22608923	0																																		
+PIN1	K63A	PIN1_HUMAN	CHAIN;DOMAIN	;PpiC	Cell Transformation, Neoplastic	PIN1 -[DecreaseAmount]-> FBXW7 -[Inhibition]-> Cell Transformation, Neoplastic	22608923	0																																		
+PIN1	K63A	PIN1_HUMAN	CHAIN;DOMAIN	;PpiC	cell population proliferation	PIN1 -[Activation]-> cell population proliferation	22608923	0																																		
+PIN1	K63A	PIN1_HUMAN	CHAIN;DOMAIN	;PpiC	localization	PIN1 -[Activation]-> localization	22608923	0																																		
+PIN1	K63A	PIN1_HUMAN	CHAIN;DOMAIN	;PpiC	proteolysis	PIN1 -[DecreaseAmount]-> FBXW7 -[Inhibition]-> proteolysis	22608923	0																																		
+PIN1	S16A	PIN1_HUMAN	CHAIN;DOMAIN	;WW	Alzheimer Disease	PIN1 -[Inhibition]-> Alzheimer Disease	11978535	0																																		
+PIN1	S16A	PIN1_HUMAN	CHAIN;DOMAIN	;WW	Carcinogenesis	PIN1 -[Activation]-> Carcinogenesis	21497122	0																																		
+PIN1	S16A	PIN1_HUMAN	CHAIN;DOMAIN	;WW	Cell Transformation, Neoplastic	PIN1 -[Inhibition]-> Cell Transformation, Neoplastic	21497122	0																																		
+PIN1	S16A	PIN1_HUMAN	CHAIN;DOMAIN	;WW	Neoplasms	PIN1 -[Inhibition]-> DAPK1 -[Inhibition]-> Neoplasms	21497122	0																																		
+PIN1	S16A	PIN1_HUMAN	CHAIN;DOMAIN	;WW	apoptotic process	PIN1 -[Activation]-> apoptotic process	11978535	0																																		
+PIN1	S16A	PIN1_HUMAN	CHAIN;DOMAIN	;WW	cell differentiation	PIN1 -[Activation]-> cell differentiation	25463757	0																																		
+PIN1	S16A	PIN1_HUMAN	CHAIN;DOMAIN	;WW	cell migration	PIN1 -[Inhibition]-> cell migration	21497122	0																																		
+PIN1	S16A	PIN1_HUMAN	CHAIN;DOMAIN	;WW	cell population proliferation	PIN1 -[Activation]-> cell population proliferation	19458071	0																																		
+PIN1	S16A	PIN1_HUMAN	CHAIN;DOMAIN	;WW	localization	PIN1 -[Activation]-> localization	19458071	0																																		
+PIN1	S16A	PIN1_HUMAN	CHAIN;DOMAIN	;WW	localization	PIN1 -[Inhibition]-> localization	21497122	0																																		
+PIN1	S16A	PIN1_HUMAN	CHAIN;DOMAIN	;WW	transcription, DNA-templated	PIN1 -[Activation]-> BMP2 -[Activation]-> transcription, DNA-templated	25463757	0																																		
+PIN1	S16A	PIN1_HUMAN	CHAIN;DOMAIN	;WW	transcription, DNA-templated	PIN1 -[Activation]-> REL -[Activation]-> transcription, DNA-templated	19458071	0																																		
+PIN1	S16A	PIN1_HUMAN	CHAIN;DOMAIN	;WW	transcription, DNA-templated	PIN1 -[Activation]-> transcription, DNA-templated	21497122	0																																		
+PIN1	S16E	PIN1_HUMAN	CHAIN;DOMAIN	;WW	cell population proliferation	PIN1 -[Activation]-> cell population proliferation	19458071	0																																		
+PIN1	S16E	PIN1_HUMAN	CHAIN;DOMAIN	;WW	localization	PIN1 -[Activation]-> localization	19458071	0																																		
+PIN1	S16E	PIN1_HUMAN	CHAIN;DOMAIN	;WW	transcription, DNA-templated	PIN1 -[Activation]-> REL -[Activation]-> transcription, DNA-templated	19458071	0																																		
+PIN1	S337A				localization	PIN1 -[Activation]-> localization	27618482	0																																		
+PIN1	S71A	PIN1_HUMAN	CHAIN;DOMAIN	;PpiC	Carcinogenesis	PIN1 -[Activation]-> Carcinogenesis	21497122	0																																		
+PIN1	S71A	PIN1_HUMAN	CHAIN;DOMAIN	;PpiC	Cell Transformation, Neoplastic	PIN1 -[Inhibition]-> Cell Transformation, Neoplastic	21497122	0																																		
+PIN1	S71A	PIN1_HUMAN	CHAIN;DOMAIN	;PpiC	Neoplasms	PIN1 -[Inhibition]-> DAPK1 -[Inhibition]-> Neoplasms	21497122	0																																		
+PIN1	S71A	PIN1_HUMAN	CHAIN;DOMAIN	;PpiC	cell migration	PIN1 -[Inhibition]-> cell migration	21497122	0																																		
+PIN1	S71A	PIN1_HUMAN	CHAIN;DOMAIN	;PpiC	localization	PIN1 -[Inhibition]-> localization	21497122	0																																		
+PIN1	S71A	PIN1_HUMAN	CHAIN;DOMAIN	;PpiC	transcription, DNA-templated	PIN1 -[Activation]-> transcription, DNA-templated	21497122	0																																		
+PIN1	S71D	PIN1_HUMAN	CHAIN;DOMAIN	;PpiC	Carcinogenesis	PIN1 -[Activation]-> Carcinogenesis	21497122	0																																		
+PIN1	S71D	PIN1_HUMAN	CHAIN;DOMAIN	;PpiC	Cell Transformation, Neoplastic	PIN1 -[Inhibition]-> Cell Transformation, Neoplastic	21497122	0																																		
+PIN1	S71D	PIN1_HUMAN	CHAIN;DOMAIN	;PpiC	Neoplasms	PIN1 -[Inhibition]-> DAPK1 -[Inhibition]-> Neoplasms	21497122	0																																		
+PIN1	S71D	PIN1_HUMAN	CHAIN;DOMAIN	;PpiC	cell migration	PIN1 -[Inhibition]-> cell migration	21497122	0																																		
+PIN1	S71D	PIN1_HUMAN	CHAIN;DOMAIN	;PpiC	localization	PIN1 -[Inhibition]-> localization	21497122	0																																		
+PIN1	S71D	PIN1_HUMAN	CHAIN;DOMAIN	;PpiC	transcription, DNA-templated	PIN1 -[Activation]-> transcription, DNA-templated	21497122	0																																		
+PIN1	S71E	PIN1_HUMAN	CHAIN;DOMAIN	;PpiC	Carcinogenesis	PIN1 -[Activation]-> Carcinogenesis	21497122	0																																		
+PIN1	S71E	PIN1_HUMAN	CHAIN;DOMAIN	;PpiC	Cell Transformation, Neoplastic	PIN1 -[Inhibition]-> Cell Transformation, Neoplastic	21497122	0																																		
+PIN1	S71E	PIN1_HUMAN	CHAIN;DOMAIN	;PpiC	Neoplasms	PIN1 -[Inhibition]-> DAPK1 -[Inhibition]-> Neoplasms	21497122	0																																		
+PIN1	S71E	PIN1_HUMAN	CHAIN;DOMAIN	;PpiC	cell migration	PIN1 -[Inhibition]-> cell migration	21497122	0																																		
+PIN1	S71E	PIN1_HUMAN	CHAIN;DOMAIN	;PpiC	localization	PIN1 -[Inhibition]-> localization	21497122	0																																		
+PIN1	S71E	PIN1_HUMAN	CHAIN;DOMAIN	;PpiC	transcription, DNA-templated	PIN1 -[Activation]-> transcription, DNA-templated	21497122	0																																		
+PIN1	W34A	PIN1_HUMAN	CHAIN;DOMAIN;REGION	;WW;Disordered	Carcinogenesis	PIN1 -[Inhibition]-> Carcinogenesis	22608923	0																																		
+PIN1	W34A	PIN1_HUMAN	CHAIN;DOMAIN;REGION	;WW;Disordered	Carcinoma, Renal Cell	PIN1 -[Inhibition]-> Carcinoma, Renal Cell	21764651	0																																		
+PIN1	W34A	PIN1_HUMAN	CHAIN;DOMAIN;REGION	;WW;Disordered	Cell Transformation, Neoplastic	PIN1 -[DecreaseAmount]-> FBXW7 -[Inhibition]-> Cell Transformation, Neoplastic	22608923	0																																		
+PIN1	W34A	PIN1_HUMAN	CHAIN;DOMAIN;REGION	;WW;Disordered	Genomic Instability	PIN1 -[Activation]-> Genomic Instability	21764651	0																																		
+PIN1	W34A	PIN1_HUMAN	CHAIN;DOMAIN;REGION	;WW;Disordered	Neoplasms	PIN1 -[Inhibition]-> Neoplasms	21764651	0																																		
+PIN1	W34A	PIN1_HUMAN	CHAIN;DOMAIN;REGION	;WW;Disordered	apoptotic process	PIN1 -[Inhibition]-> TAp63alpha -[Activation]-> apoptotic process	24309930	0																																		
+PIN1	W34A	PIN1_HUMAN	CHAIN;DOMAIN;REGION	;WW;Disordered	cell growth	PIN1 -[Inhibition]-> cell growth	21764651	0																																		
+PIN1	W34A	PIN1_HUMAN	CHAIN;DOMAIN;REGION	;WW;Disordered	cell population proliferation	PIN1 -[Activation]-> cell population proliferation	22608923	0																																		
+PIN1	W34A	PIN1_HUMAN	CHAIN;DOMAIN;REGION	;WW;Disordered	cell population proliferation	PIN1 -[Activation]-> cell population proliferation	24309930	0																																		
+PIN1	W34A	PIN1_HUMAN	CHAIN;DOMAIN;REGION	;WW;Disordered	cell population proliferation	PIN1 -[Inhibition]-> cell population proliferation	21764651	0																																		
+PIN1	W34A	PIN1_HUMAN	CHAIN;DOMAIN;REGION	;WW;Disordered	localization	PIN1 -[Activation]-> localization	22608923	0																																		
+PIN1	W34A	PIN1_HUMAN	CHAIN;DOMAIN;REGION	;WW;Disordered	proteolysis	PIN1 -[DecreaseAmount]-> FBXW7 -[Inhibition]-> proteolysis	22608923	0																																		
+PIN1	W34A	PIN1_HUMAN	CHAIN;DOMAIN;REGION	;WW;Disordered	transcription, DNA-templated	PIN1 -[Activation]-> transcription, DNA-templated	16139797	0																																		

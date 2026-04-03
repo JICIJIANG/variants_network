@@ -1,0 +1,24 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+SYK	K396R	KSYK_HUMAN	CHAIN;DOMAIN	Tyrosine-protein kinase SYK;Protein kinase	Cell Survival	SYK -[Activation]-> Cell Survival	19151749	0																																		
+SYK	K396R	KSYK_HUMAN	CHAIN;DOMAIN	Tyrosine-protein kinase SYK;Protein kinase	apoptotic process	SYK -[Inhibition]-> TNF -[Activation]-> apoptotic process	19151749	0																																		
+SYK	K396R	KSYK_HUMAN	CHAIN;DOMAIN	Tyrosine-protein kinase SYK;Protein kinase	cell death	SYK -[Inhibition]-> TNF -[Activation]-> cell death	19151749	0																																		
+SYK	K396R	KSYK_HUMAN	CHAIN;DOMAIN	Tyrosine-protein kinase SYK;Protein kinase	cell growth	SYK -[Activation]-> cell growth	19151749	0																																		
+SYK	K396R	KSYK_HUMAN	CHAIN;DOMAIN	Tyrosine-protein kinase SYK;Protein kinase	localization	SYK -[Inhibition]-> LRRFIP1 -[Activation]-> localization	19151749	0																																		
+SYK	K396R	KSYK_HUMAN	CHAIN;DOMAIN	Tyrosine-protein kinase SYK;Protein kinase	mitotic cell cycle	SYK -[Activation]-> mitotic cell cycle	19151749	0																																		
+SYK	K396R	KSYK_HUMAN	CHAIN;DOMAIN	Tyrosine-protein kinase SYK;Protein kinase	signal transduction	SYK -[Activation]-> cell growth -[Activation]-> signal transduction	19151749	0																																		
+SYK	S178A	KSYK_HUMAN	CHAIN;DOMAIN	Tyrosine-protein kinase SYK;SH2 2	cell adhesion	SYK -[Activation]-> cell adhesion	22848421	0																																		
+SYK	S178A	KSYK_HUMAN	CHAIN;DOMAIN	Tyrosine-protein kinase SYK;SH2 2	cell differentiation	SYK -[Activation]-> cell adhesion -[Activation]-> cell differentiation	22848421	0																																		
+SYK	Y130E	KSYK_HUMAN	CHAIN;REGION	Tyrosine-protein kinase SYK;Interdomain A	Cell Survival	SYK -[Activation]-> Cell Survival	30744170	0																																		
+SYK	Y130E	KSYK_HUMAN	CHAIN;REGION	Tyrosine-protein kinase SYK;Interdomain A	Neoplasm Invasiveness	SYK -[Inhibition]-> Neoplasm Invasiveness	30744170	0																																		
+SYK	Y130E	KSYK_HUMAN	CHAIN;REGION	Tyrosine-protein kinase SYK;Interdomain A	cell growth	SYK -[Inhibition]-> cell growth	30744170	0																																		
+SYK	Y317F	KSYK_HUMAN	CHAIN;REGION	Tyrosine-protein kinase SYK;Interdomain B	B cell activation	SYK -[Activation]-> B cell activation	31873727	0																																		
+SYK	Y317F	KSYK_HUMAN	CHAIN;REGION	Tyrosine-protein kinase SYK;Interdomain B	Cell Survival	SYK -[Activation]-> Cell Survival	19151749	0																																		
+SYK	Y317F	KSYK_HUMAN	CHAIN;REGION	Tyrosine-protein kinase SYK;Interdomain B	apoptotic process	SYK -[Inhibition]-> TNF -[Activation]-> apoptotic process	19151749	0																																		
+SYK	Y317F	KSYK_HUMAN	CHAIN;REGION	Tyrosine-protein kinase SYK;Interdomain B	cell death	SYK -[Inhibition]-> TNF -[Activation]-> cell death	19151749	0																																		
+SYK	Y317F	KSYK_HUMAN	CHAIN;REGION	Tyrosine-protein kinase SYK;Interdomain B	cell growth	SYK -[Activation]-> cell growth	19151749	0																																		
+SYK	Y317F	KSYK_HUMAN	CHAIN;REGION	Tyrosine-protein kinase SYK;Interdomain B	immune response	SYK -[Activation]-> immune response	31873727	0																																		
+SYK	Y317F	KSYK_HUMAN	CHAIN;REGION	Tyrosine-protein kinase SYK;Interdomain B	localization	SYK -[Inhibition]-> LRRFIP1 -[Activation]-> localization	19151749	0																																		
+SYK	Y317F	KSYK_HUMAN	CHAIN;REGION	Tyrosine-protein kinase SYK;Interdomain B	mitotic cell cycle	SYK -[Activation]-> mitotic cell cycle	19151749	0																																		
+SYK	Y317F	KSYK_HUMAN	CHAIN;REGION	Tyrosine-protein kinase SYK;Interdomain B	signal transduction	SYK -[Activation]-> FcepsilonRI -[Activation]-> signal transduction	12217388	0																																		
+SYK	Y317F	KSYK_HUMAN	CHAIN;REGION	Tyrosine-protein kinase SYK;Interdomain B	signal transduction	SYK -[Activation]-> cell growth -[Activation]-> signal transduction	19151749	0																																		
+SYK	Y317F	KSYK_HUMAN	CHAIN;REGION	Tyrosine-protein kinase SYK;Interdomain B	signal transduction	SYK -[Activation]-> signal transduction	31873727	0																																		

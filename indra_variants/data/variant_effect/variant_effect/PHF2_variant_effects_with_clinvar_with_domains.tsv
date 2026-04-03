@@ -1,0 +1,10 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+PHF2	H248A	PHF2_HUMAN	CHAIN;DOMAIN	Lysine-specific demethylase PHF2;JmjC	apoptotic process	PHF2 -[Activation]-> apoptotic process	29844386	0																																		
+PHF2	H248A	PHF2_HUMAN	CHAIN;DOMAIN	Lysine-specific demethylase PHF2;JmjC	inflammatory response	PHF2 -[Inhibition]-> inflammatory response	29844386	0																																		
+PHF2	H248A	PHF2_HUMAN	CHAIN;DOMAIN	Lysine-specific demethylase PHF2;JmjC	response to stress	PHF2 -[Activation]-> response to stress	29844386	0																																		
+PHF2	H248A	PHF2_HUMAN	CHAIN;DOMAIN	Lysine-specific demethylase PHF2;JmjC	transcription, DNA-templated	PHF2 -[Activation]-> transcription, DNA-templated	29844386	0																																		
+PHF2	S655E	PHF2_HUMAN	CHAIN;REGION	Lysine-specific demethylase PHF2;Disordered	Neoplasm Metastasis	PHF2 -[Activation]-> Neoplasm Metastasis	36872368	0																																		
+PHF2	W29A	PHF2_HUMAN	CHAIN;ZN_FING	Lysine-specific demethylase PHF2;PHD-type	apoptotic process	PHF2 -[Activation]-> apoptotic process	29844386	0																																		
+PHF2	W29A	PHF2_HUMAN	CHAIN;ZN_FING	Lysine-specific demethylase PHF2;PHD-type	inflammatory response	PHF2 -[Inhibition]-> inflammatory response	29844386	0																																		
+PHF2	W29A	PHF2_HUMAN	CHAIN;ZN_FING	Lysine-specific demethylase PHF2;PHD-type	response to stress	PHF2 -[Activation]-> response to stress	29844386	0																																		
+PHF2	W29A	PHF2_HUMAN	CHAIN;ZN_FING	Lysine-specific demethylase PHF2;PHD-type	transcription, DNA-templated	PHF2 -[Activation]-> transcription, DNA-templated	29844386	0																																		

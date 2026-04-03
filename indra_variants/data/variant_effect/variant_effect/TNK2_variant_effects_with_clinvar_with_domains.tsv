@@ -1,0 +1,13 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+TNK2	D163E	ACK1_HUMAN	CHAIN;DOMAIN	Activated CDC42 kinase 1;Protein kinase	Neoplasm Metastasis	TNK2 -[Activation]-> Neoplasm Metastasis	26677978	0																																		
+TNK2	E346K	ACK1_HUMAN	CHAIN;DOMAIN	Activated CDC42 kinase 1;Protein kinase	cell population proliferation	TNK2 -[Phosphorylation]-> AKT -[Inhibition]-> cell population proliferation	22307544	0																																		
+TNK2	S985N	ACK1_HUMAN	CHAIN;DOMAIN	Activated CDC42 kinase 1;UBA	Cell Survival	TNK2 -[Activation]-> Cell Survival	23597703	0																																		
+TNK2	S985N	ACK1_HUMAN	CHAIN;DOMAIN	Activated CDC42 kinase 1;UBA	cell population proliferation	TNK2 -[Activation]-> cell population proliferation	23597703	0																																		
+TNK2	V909G	ACK1_HUMAN	CHAIN	Activated CDC42 kinase 1	Neoplasm Invasiveness	TNK2 -[Activation]-> Neoplasm Invasiveness	23208506	0																																		
+TNK2	V909G	ACK1_HUMAN	CHAIN	Activated CDC42 kinase 1	Neoplasm Metastasis	TNK2 -[Activation]-> Neoplasm Metastasis	23208506	0																																		
+TNK2	V909G	ACK1_HUMAN	CHAIN	Activated CDC42 kinase 1	Neoplasms	TNK2 -[Activation]-> Neoplasms	23208506	0																																		
+TNK2	V909G	ACK1_HUMAN	CHAIN	Activated CDC42 kinase 1	cell growth	TNK2 -[Inhibition]-> SIAH1 -[Inhibition]-> cell growth	23208506	0																																		
+TNK2	V909G	ACK1_HUMAN	CHAIN	Activated CDC42 kinase 1	cell population proliferation	TNK2 -[Activation]-> cell population proliferation	23208506	0																																		
+TNK2	Y635F	ACK1_HUMAN	CHAIN;REGION;REGION	Activated CDC42 kinase 1;Required for interaction with SRC;Required for interaction with NEDD4	Carcinogenesis	TNK2 -[Inhibition]-> Carcinogenesis	25257795	0																																		
+TNK2	Y635F	ACK1_HUMAN	CHAIN;REGION;REGION	Activated CDC42 kinase 1;Required for interaction with SRC;Required for interaction with NEDD4	Glioma	TNK2 -[Complex]-> AKT1 -[Activation]-> Glioma	25257795	0																																		
+TNK2	Y635F	ACK1_HUMAN	CHAIN;REGION;REGION	Activated CDC42 kinase 1;Required for interaction with SRC;Required for interaction with NEDD4	PDGF	TNK2 -[Complex]-> PDGF	25257795	0																																		

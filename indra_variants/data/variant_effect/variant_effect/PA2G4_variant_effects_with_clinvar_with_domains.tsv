@@ -1,0 +1,23 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+PA2G4	K93R	PA2G4_HUMAN	CHAIN	Proliferation-associated protein 2G4	apoptotic process	PA2G4 -[Inhibition]-> apoptotic process	19946338	0																																		
+PA2G4	K93R	PA2G4_HUMAN	CHAIN	Proliferation-associated protein 2G4	cell cycle	PA2G4 -[Inhibition]-> cell cycle	19946338	0																																		
+PA2G4	K93R	PA2G4_HUMAN	CHAIN	Proliferation-associated protein 2G4	cell differentiation	PA2G4 -[Activation]-> cell differentiation	19946338	0																																		
+PA2G4	K93R	PA2G4_HUMAN	CHAIN	Proliferation-associated protein 2G4	cell growth	PA2G4 -[Inhibition]-> cell growth	19946338	0																																		
+PA2G4	K93R	PA2G4_HUMAN	CHAIN	Proliferation-associated protein 2G4	cell population proliferation	PA2G4 -[Inhibition]-> cell population proliferation	19946338	0																																		
+PA2G4	K93R	PA2G4_HUMAN	CHAIN	Proliferation-associated protein 2G4	localization	PA2G4 -[Inhibition]-> localization	19946338	0																																		
+PA2G4	K93R	PA2G4_HUMAN	CHAIN	Proliferation-associated protein 2G4	transcription, DNA-templated	PA2G4 -[Inhibition]-> transcription, DNA-templated	19946338	0																																		
+PA2G4	S360A	PA2G4_HUMAN	CHAIN;REGION;REGION	Proliferation-associated protein 2G4;Necessary for nucleolar localization;Disordered	Cell Survival	PA2G4 -[Complex]-> AKT -[Phosphorylation]-> Cell Survival	16642037	0																																		
+PA2G4	S360A	PA2G4_HUMAN	CHAIN;REGION;REGION	Proliferation-associated protein 2G4;Necessary for nucleolar localization;Disordered	apoptotic process	PA2G4 -[Inhibition]-> apoptotic process	16642037	0																																		
+PA2G4	S360D	PA2G4_HUMAN	CHAIN;REGION;REGION	Proliferation-associated protein 2G4;Necessary for nucleolar localization;Disordered	Cell Survival	PA2G4 -[Complex]-> AKT -[Phosphorylation]-> Cell Survival	16642037	0																																		
+PA2G4	S360D	PA2G4_HUMAN	CHAIN;REGION;REGION	Proliferation-associated protein 2G4;Necessary for nucleolar localization;Disordered	apoptotic process	PA2G4 -[Inhibition]-> apoptotic process	16642037	0																																		
+PA2G4	T261A	PA2G4_HUMAN	CHAIN	Proliferation-associated protein 2G4	cell cycle	PA2G4 -[Activation]-> cell cycle	23361053	0																																		
+PA2G4	T261A	PA2G4_HUMAN	CHAIN	Proliferation-associated protein 2G4	cell differentiation	PA2G4 -[Activation]-> cell differentiation	23361053	0																																		
+PA2G4	T261A	PA2G4_HUMAN	CHAIN	Proliferation-associated protein 2G4	cell growth	PA2G4 -[Complex]-> PAK1 -[Activation]-> cell growth	23361053	0																																		
+PA2G4	T261A	PA2G4_HUMAN	CHAIN	Proliferation-associated protein 2G4	cell population proliferation	PA2G4 -[Inhibition]-> cell population proliferation	23361053	0																																		
+PA2G4	T261E	PA2G4_HUMAN	CHAIN	Proliferation-associated protein 2G4	cell cycle	PA2G4 -[Activation]-> cell cycle	23361053	0																																		
+PA2G4	T261E	PA2G4_HUMAN	CHAIN	Proliferation-associated protein 2G4	cell differentiation	PA2G4 -[Activation]-> cell differentiation	23361053	0																																		
+PA2G4	T261E	PA2G4_HUMAN	CHAIN	Proliferation-associated protein 2G4	cell growth	PA2G4 -[Complex]-> PAK1 -[Activation]-> cell growth	23361053	0																																		
+PA2G4	T261E	PA2G4_HUMAN	CHAIN	Proliferation-associated protein 2G4	cell population proliferation	PA2G4 -[Inhibition]-> cell population proliferation	23361053	0																																		
+PA2G4	T47D	PA2G4_HUMAN	CHAIN;REGION;REGION	Proliferation-associated protein 2G4;Necessary for nucleolar localization;RNA-binding	cell cycle	PA2G4 -[Activation]-> cell cycle	20379846	0																																		
+PA2G4	T47D	PA2G4_HUMAN	CHAIN;REGION;REGION	Proliferation-associated protein 2G4;Necessary for nucleolar localization;RNA-binding	cell differentiation	PA2G4 -[Activation]-> cell differentiation	20379846	0																																		
+PA2G4	T47D	PA2G4_HUMAN	CHAIN;REGION;REGION	Proliferation-associated protein 2G4;Necessary for nucleolar localization;RNA-binding	transcription, DNA-templated	PA2G4 -[Inhibition]-> transcription, DNA-templated	20379846	0																																		

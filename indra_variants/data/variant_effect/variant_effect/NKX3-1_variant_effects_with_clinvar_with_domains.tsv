@@ -1,0 +1,11 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+NKX3-1	R52C	NKX31_HUMAN	CHAIN;REGION	Homeobox protein Nkx-3.1;Disordered	gene expression	NKX3-1 -[Activation]-> gene expression	33893149	0																																		
+NKX3-1	R52C	NKX31_HUMAN	CHAIN;REGION	Homeobox protein Nkx-3.1;Disordered	homeostatic process	NKX3-1 -[Activation]-> homeostatic process	33893149	0																																		
+NKX3-1	R52C	NKX31_HUMAN	CHAIN;REGION	Homeobox protein Nkx-3.1;Disordered	localization	NKX3-1 -[Complex]-> HSPA9 -[Activation]-> localization	33893149	0																																		
+NKX3-1	R52C	NKX31_HUMAN	CHAIN;REGION	Homeobox protein Nkx-3.1;Disordered	oxidative phosphorylation	NKX3-1 -[Activation]-> gene expression -[Activation]-> oxidative phosphorylation	33893149	0																																		
+NKX3-1	T164A	NKX31_HUMAN	CHAIN	Homeobox protein Nkx-3.1	cell differentiation	NKX3-1 -[Activation]-> cell differentiation	27339988	0																																		
+NKX3-1	T164A	NKX31_HUMAN	CHAIN	Homeobox protein Nkx-3.1	gene expression	NKX3-1 -[Activation]-> gene expression	33893149	0																																		
+NKX3-1	T164A	NKX31_HUMAN	CHAIN	Homeobox protein Nkx-3.1	homeostatic process	NKX3-1 -[Activation]-> homeostatic process	33893149	0																																		
+NKX3-1	T164A	NKX31_HUMAN	CHAIN	Homeobox protein Nkx-3.1	localization	NKX3-1 -[Complex]-> HSPA9 -[Activation]-> localization	33893149	0																																		
+NKX3-1	T164A	NKX31_HUMAN	CHAIN	Homeobox protein Nkx-3.1	oxidative phosphorylation	NKX3-1 -[Activation]-> gene expression -[Activation]-> oxidative phosphorylation	33893149	0																																		
+NKX3-1	T164A	NKX31_HUMAN	CHAIN	Homeobox protein Nkx-3.1	transcription, DNA-templated	NKX3-1 -[Complex]-> EHMT2 -[Activation]-> transcription, DNA-templated	27339988	0																																		

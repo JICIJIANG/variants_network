@@ -1,0 +1,10 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+BCL2L11	E158S	B2L11_HUMAN	CHAIN;MOTIF	Bcl-2-like protein 11;BH3	cell death	BCL2L11 -[Activation]-> cell death	26136077	0																																		
+BCL2L11	I155R	B2L11_HUMAN	CHAIN;MOTIF	Bcl-2-like protein 11;BH3	cell death	BCL2L11 -[Activation]-> cell death	26136077	0																																		
+BCL2L11	L152E	B2L11_HUMAN	CHAIN;MOTIF	Bcl-2-like protein 11;BH3	autophagy	BCL2L11 -[Inhibition]-> autophagy	22742832	0																																		
+BCL2L11	L152E	B2L11_HUMAN	CHAIN;MOTIF	Bcl-2-like protein 11;BH3	cell death	BCL2L11 -[Activation]-> cell death	22742832	0																																		
+BCL2L11	S65A	B2L11_HUMAN	CHAIN;REGION	Bcl-2-like protein 11;Disordered	apoptotic process	BCL2L11 -[Activation]-> apoptotic process	27770661	0																																		
+BCL2L11	S69A	B2L11_HUMAN	CHAIN;REGION	Bcl-2-like protein 11;Disordered	Cell Survival	BCL2L11 -[Complex]-> fbxw1 -[Activation]-> Cell Survival	19150432	0																																		
+BCL2L11	S69A	B2L11_HUMAN	CHAIN;REGION	Bcl-2-like protein 11;Disordered	Leukemia, B-Cell	BCL2L11 -[Activation]-> Leukemia, B-Cell	19150432	0																																		
+BCL2L11	S69A	B2L11_HUMAN	CHAIN;REGION	Bcl-2-like protein 11;Disordered	apoptotic process	BCL2L11 -[Inhibition]-> apoptotic process	19150432	0																																		
+BCL2L11	S69A	B2L11_HUMAN	CHAIN;REGION	Bcl-2-like protein 11;Disordered	cell death	BCL2L11 -[Activation]-> cell death	19150432	0																																		

@@ -1,0 +1,15 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+CSAD	F92A	CSAD_HUMAN	CHAIN	Cysteine sulfinic acid decarboxylase	Neoplasms	CSAD -[Complex]-> NOS3 -[Inhibition]-> Neoplasms	28592633	0																																		
+CSAD	F92A	CSAD_HUMAN	CHAIN	Cysteine sulfinic acid decarboxylase	cell migration	CSAD -[Activation]-> pY14Cav1 -[Activation]-> cell migration	28592633	0																																		
+CSAD	F92A	CSAD_HUMAN	CHAIN	Cysteine sulfinic acid decarboxylase	cell migration	CSAD -[Inhibition]-> cell migration	33833286	0																																		
+CSAD	F92A	CSAD_HUMAN	CHAIN	Cysteine sulfinic acid decarboxylase	cell motility	CSAD -[Activation]-> cell motility	28592633	0																																		
+CSAD	F92A	CSAD_HUMAN	CHAIN	Cysteine sulfinic acid decarboxylase	cellular component biogenesis	CSAD -[Inhibition]-> cellular component biogenesis	33833286	0																																		
+CSAD	F92A	CSAD_HUMAN	CHAIN	Cysteine sulfinic acid decarboxylase	inflammatory response	CSAD -[Complex]-> NOS3 -[Activation]-> inflammatory response	28592633	0																																		
+CSAD	F92A	CSAD_HUMAN	CHAIN	Cysteine sulfinic acid decarboxylase	positive regulation of focal adhesion assembly	CSAD -[Inhibition]-> positive regulation of focal adhesion assembly	28592633	0																																		
+CSAD	V94A	CSAD_HUMAN	CHAIN	Cysteine sulfinic acid decarboxylase	Neoplasms	CSAD -[Complex]-> NOS3 -[Inhibition]-> Neoplasms	28592633	0																																		
+CSAD	V94A	CSAD_HUMAN	CHAIN	Cysteine sulfinic acid decarboxylase	cell migration	CSAD -[Activation]-> pY14Cav1 -[Activation]-> cell migration	28592633	0																																		
+CSAD	V94A	CSAD_HUMAN	CHAIN	Cysteine sulfinic acid decarboxylase	cell migration	CSAD -[Inhibition]-> cell migration	33833286	0																																		
+CSAD	V94A	CSAD_HUMAN	CHAIN	Cysteine sulfinic acid decarboxylase	cell motility	CSAD -[Activation]-> cell motility	28592633	0																																		
+CSAD	V94A	CSAD_HUMAN	CHAIN	Cysteine sulfinic acid decarboxylase	cellular component biogenesis	CSAD -[Inhibition]-> cellular component biogenesis	33833286	0																																		
+CSAD	V94A	CSAD_HUMAN	CHAIN	Cysteine sulfinic acid decarboxylase	inflammatory response	CSAD -[Complex]-> NOS3 -[Activation]-> inflammatory response	28592633	0																																		
+CSAD	V94A	CSAD_HUMAN	CHAIN	Cysteine sulfinic acid decarboxylase	positive regulation of focal adhesion assembly	CSAD -[Inhibition]-> positive regulation of focal adhesion assembly	28592633	0																																		

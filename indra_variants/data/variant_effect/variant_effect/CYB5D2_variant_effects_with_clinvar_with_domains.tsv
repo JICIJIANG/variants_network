@@ -1,0 +1,8 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+CYB5D2	D86G	NEUFC_HUMAN	CHAIN;DOMAIN	Neuferricin;Cytochrome b5 heme-binding	Cell Survival	CYB5D2 -[Inhibition]-> Cell Survival	24466094	0																																		
+CYB5D2	D86G	NEUFC_HUMAN	CHAIN;DOMAIN	Neuferricin;Cytochrome b5 heme-binding	cell differentiation	CYB5D2 -[Activation]-> cell differentiation	24466094	0																																		
+CYB5D2	D86G	NEUFC_HUMAN	CHAIN;DOMAIN	Neuferricin;Cytochrome b5 heme-binding	cell growth	CYB5D2 -[Activation]-> heme -[Inhibition]-> cell growth	24466094	0																																		
+CYB5D2	D86G	NEUFC_HUMAN	CHAIN;DOMAIN	Neuferricin;Cytochrome b5 heme-binding	cell population proliferation	CYB5D2 -[Inhibition]-> cell population proliferation	24466094	0																																		
+CYB5D2	D86G	NEUFC_HUMAN	CHAIN;DOMAIN	Neuferricin;Cytochrome b5 heme-binding	localization	CYB5D2 -[Activation]-> localization	24466094	0																																		
+CYB5D2	R7G				Neoplasm Invasiveness	CYB5D2 -[Activation]-> Neoplasm Invasiveness	26692170	0																																		
+CYB5D2	R7P				Neoplasm Invasiveness	CYB5D2 -[Activation]-> Neoplasm Invasiveness	26692170	0																																		

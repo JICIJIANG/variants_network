@@ -1,0 +1,9 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+NCOA3	T960T	NCOA3_HUMAN	CHAIN	Nuclear receptor coactivator 3	DNA Damage	NCOA3 -[Activation]-> DNA Damage	33766890	0																																		
+NCOA3	T960T	NCOA3_HUMAN	CHAIN	Nuclear receptor coactivator 3	DNA repair	NCOA3 -[DecreaseAmount]-> CHEK2 -[Activation]-> protein -[Activation]-> DNA repair	33766890	0																																		
+NCOA3	T960T	NCOA3_HUMAN	CHAIN	Nuclear receptor coactivator 3	Melanoma	NCOA3 -[Activation]-> Melanoma	33766890	0																																		
+NCOA3	T960T	NCOA3_HUMAN	CHAIN	Nuclear receptor coactivator 3	Xeroderma Pigmentosum	NCOA3 -[Activation]-> Xeroderma Pigmentosum	33766890	0																																		
+NCOA3	T960T	NCOA3_HUMAN	CHAIN	Nuclear receptor coactivator 3	apoptotic process	NCOA3 -[DecreaseAmount]-> CHEK2 -[Activation]-> protein -[Activation]-> apoptotic process	33766890	0																																		
+NCOA3	T960T	NCOA3_HUMAN	CHAIN	Nuclear receptor coactivator 3	cell cycle	NCOA3 -[DecreaseAmount]-> CHEK2 -[Activation]-> protein -[Inhibition]-> cell cycle	33766890	0																																		
+NCOA3	T960T	NCOA3_HUMAN	CHAIN	Nuclear receptor coactivator 3	cell population proliferation	NCOA3 -[Activation]-> cell population proliferation	33766890	0																																		
+NCOA3	T960T	NCOA3_HUMAN	CHAIN	Nuclear receptor coactivator 3	gene expression	NCOA3 -[Activation]-> gene expression	33766890	0																																		

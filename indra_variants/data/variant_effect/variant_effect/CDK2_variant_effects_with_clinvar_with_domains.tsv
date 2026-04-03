@@ -1,0 +1,8 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+CDK2	C177S	CDK2_HUMAN	CHAIN;DOMAIN	Cyclin-dependent kinase 2;Protein kinase	DNA replication	CDK2 -[Activation]-> DNA replication	35809563	0																																		
+CDK2	C177S	CDK2_HUMAN	CHAIN;DOMAIN	Cyclin-dependent kinase 2;Protein kinase	cell population proliferation	CDK2 -[Activation]-> cell population proliferation	35809563	0																																		
+CDK2	D145N	CDK2_HUMAN	CHAIN;DOMAIN	Cyclin-dependent kinase 2;Protein kinase	cell cycle	CDK2 -[Activation]-> cell cycle	27371320	0																																		
+CDK2	D145N	CDK2_HUMAN	CHAIN;DOMAIN	Cyclin-dependent kinase 2;Protein kinase	meiotic cell cycle	CDK2 -[Activation]-> meiotic cell cycle	27371320	0																																		
+CDK2	P45L	CDK2_HUMAN	CHAIN;DOMAIN	Cyclin-dependent kinase 2;Protein kinase	cell population proliferation	CDK2 -[Activation]-> cell population proliferation	20399812	0																																		
+CDK2	T39A	CDK2_HUMAN	CHAIN;DOMAIN	Cyclin-dependent kinase 2;Protein kinase	cell death	CDK2 -[Activation]-> cell death	29665367	0																																		
+CDK2	T39E	CDK2_HUMAN	CHAIN;DOMAIN	Cyclin-dependent kinase 2;Protein kinase	cell death	CDK2 -[Activation]-> cell death	29665367	0																																		

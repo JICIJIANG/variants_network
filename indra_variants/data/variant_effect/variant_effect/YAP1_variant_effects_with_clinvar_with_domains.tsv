@@ -1,0 +1,107 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+YAP1	M6A	YAP1_HUMAN	CHAIN;REGION;COMPBIAS	Transcriptional coactivator YAP1;Disordered;Pro residues	Carcinogenesis	YAP1 -[Complex]-> METTL3 -[Activation]-> Carcinogenesis	31818312	0																																		
+YAP1	M6A	YAP1_HUMAN	CHAIN;REGION;COMPBIAS	Transcriptional coactivator YAP1;Disordered;Pro residues	Neoplasm Invasiveness	YAP1 -[Complex]-> YTHDF3 -[Activation]-> Neoplasm Invasiveness	31818312	0																																		
+YAP1	M6A	YAP1_HUMAN	CHAIN;REGION;COMPBIAS	Transcriptional coactivator YAP1;Disordered;Pro residues	Neoplasm Metastasis	YAP1 -[Activation]-> Neoplasm Metastasis	31818312	0																																		
+YAP1	M6A	YAP1_HUMAN	CHAIN;REGION;COMPBIAS	Transcriptional coactivator YAP1;Disordered;Pro residues	Neoplasms	YAP1 -[Activation]-> Neoplasms	31818312	0																																		
+YAP1	M6A	YAP1_HUMAN	CHAIN;REGION;COMPBIAS	Transcriptional coactivator YAP1;Disordered;Pro residues	cell differentiation	YAP1 -[Complex]-> METTL3 -[Activation]-> mRNA methylation -[Activation]-> cell differentiation	31818312	0																																		
+YAP1	M6A	YAP1_HUMAN	CHAIN;REGION;COMPBIAS	Transcriptional coactivator YAP1;Disordered;Pro residues	cell growth	YAP1 -[Complex]-> YTHDF3 -[Activation]-> cell growth	31818312	0																																		
+YAP1	M6A	YAP1_HUMAN	CHAIN;REGION;COMPBIAS	Transcriptional coactivator YAP1;Disordered;Pro residues	mRNA catabolic process	YAP1 -[Complex]-> YTHDF1 -[Activation]-> mRNA catabolic process	31818312	0																																		
+YAP1	M6A	YAP1_HUMAN	CHAIN;REGION;COMPBIAS	Transcriptional coactivator YAP1;Disordered;Pro residues	mRNA methylation	YAP1 -[Complex]-> METTL3 -[Activation]-> mRNA methylation	31818312	0																																		
+YAP1	M6A	YAP1_HUMAN	CHAIN;REGION;COMPBIAS	Transcriptional coactivator YAP1;Disordered;Pro residues	tissue development	YAP1 -[Complex]-> METTL3 -[Activation]-> mRNA methylation -[Activation]-> tissue development	31818312	0																																		
+YAP1	M6A	YAP1_HUMAN	CHAIN;REGION;COMPBIAS	Transcriptional coactivator YAP1;Disordered;Pro residues	translation	YAP1 -[Activation]-> translation	31818312	0																																		
+YAP1	S112A	YAP1_HUMAN	CHAIN;REGION	Transcriptional coactivator YAP1;Disordered	cell population proliferation	YAP1 -[Activation]-> cell population proliferation	28879493	0																																		
+YAP1	S112A	YAP1_HUMAN	CHAIN;REGION	Transcriptional coactivator YAP1;Disordered	localization	YAP1 -[Activation]-> localization	25667983	0																																		
+YAP1	S112A	YAP1_HUMAN	CHAIN;REGION	Transcriptional coactivator YAP1;Disordered	transcription, DNA-templated	YAP1 -[Activation]-> transcription, DNA-templated	25667983	0																																		
+YAP1	S127A	YAP1_HUMAN	CHAIN	Transcriptional coactivator YAP1	Adenocarcinoma	YAP1 -[Activation]-> KRAS -[Activation]-> Adenocarcinoma	30353028	0																																		
+YAP1	S127A	YAP1_HUMAN	CHAIN	Transcriptional coactivator YAP1	Carcinogenesis	YAP1 -[Activation]-> Carcinogenesis	24581491	0																																		
+YAP1	S127A	YAP1_HUMAN	CHAIN	Transcriptional coactivator YAP1	Carcinogenesis	YAP1 -[Activation]-> Carcinogenesis	35961703	0																																		
+YAP1	S127A	YAP1_HUMAN	CHAIN	Transcriptional coactivator YAP1	Carcinogenesis	YAP1 -[IncreaseAmount]-> KRAS -[Activation]-> Carcinogenesis	34663879	0																																		
+YAP1	S127A	YAP1_HUMAN	CHAIN	Transcriptional coactivator YAP1	Cell Survival	YAP1 -[Activation]-> Cell Survival	28827520	0																																		
+YAP1	S127A	YAP1_HUMAN	CHAIN	Transcriptional coactivator YAP1	Cholangiocarcinoma	YAP1 -[Activation]-> Cholangiocarcinoma	35961703	0																																		
+YAP1	S127A	YAP1_HUMAN	CHAIN	Transcriptional coactivator YAP1	DNA replication	YAP1 -[Complex]-> TEAD2 -[Activation]-> DNA replication	24954535	0																																		
+YAP1	S127A	YAP1_HUMAN	CHAIN	Transcriptional coactivator YAP1	Hepatoblastoma	YAP1 -[Activation]-> Hepatoblastoma	32452550	0																																		
+YAP1	S127A	YAP1_HUMAN	CHAIN	Transcriptional coactivator YAP1	Leukemia, T-Cell	YAP1 -[IncreaseAmount]-> KRAS -[Inhibition]-> Leukemia, T-Cell	34663879	0																																		
+YAP1	S127A	YAP1_HUMAN	CHAIN	Transcriptional coactivator YAP1	MAPK cascade	YAP1 -[IncreaseAmount]-> KRAS -[Activation]-> MAPK cascade	34663879	0																																		
+YAP1	S127A	YAP1_HUMAN	CHAIN	Transcriptional coactivator YAP1	Neoplasm Invasiveness	YAP1 -[IncreaseAmount]-> KRAS -[Inhibition]-> Neoplasm Invasiveness	34663879	0																																		
+YAP1	S127A	YAP1_HUMAN	CHAIN	Transcriptional coactivator YAP1	Neoplasm Metastasis	YAP1 -[Activation]-> Neoplasm Metastasis	28827520	0																																		
+YAP1	S127A	YAP1_HUMAN	CHAIN	Transcriptional coactivator YAP1	Neoplasm Metastasis	YAP1 -[IncreaseAmount]-> KRAS -[Inhibition]-> Neoplasm Metastasis	34663879	0																																		
+YAP1	S127A	YAP1_HUMAN	CHAIN	Transcriptional coactivator YAP1	Neoplasms	YAP1 -[Activation]-> HYCC1 -[Activation]-> Neoplasms	35961703	0																																		
+YAP1	S127A	YAP1_HUMAN	CHAIN	Transcriptional coactivator YAP1	Neoplasms	YAP1 -[Activation]-> Neoplasms	24581491	0																																		
+YAP1	S127A	YAP1_HUMAN	CHAIN	Transcriptional coactivator YAP1	Neoplasms	YAP1 -[Inhibition]-> Neoplasms	32452550	0																																		
+YAP1	S127A	YAP1_HUMAN	CHAIN	Transcriptional coactivator YAP1	Neoplasms	YAP1 -[Inhibition]-> Neoplasms	34663879	0																																		
+YAP1	S127A	YAP1_HUMAN	CHAIN	Transcriptional coactivator YAP1	Neoplasms	YAP1 -[Inhibition]-> WWTR1 -[Activation]-> Neoplasms	27184927	0																																		
+YAP1	S127A	YAP1_HUMAN	CHAIN	Transcriptional coactivator YAP1	Rhabdomyosarcoma	YAP1 -[Activation]-> KRAS -[Activation]-> Rhabdomyosarcoma	30353028	0																																		
+YAP1	S127A	YAP1_HUMAN	CHAIN	Transcriptional coactivator YAP1	Rhabdomyosarcoma, Embryonal	YAP1 -[Activation]-> Rhabdomyosarcoma, Embryonal	25087979	0																																		
+YAP1	S127A	YAP1_HUMAN	CHAIN	Transcriptional coactivator YAP1	Rhabdomyosarcoma, Embryonal	YAP1 -[Activation]-> Rhabdomyosarcoma, Embryonal	27184927	0																																		
+YAP1	S127A	YAP1_HUMAN	CHAIN	Transcriptional coactivator YAP1	Rhabdomyosarcoma, Embryonal	YAP1 -[Activation]-> Rhabdomyosarcoma, Embryonal	30353028	0																																		
+YAP1	S127A	YAP1_HUMAN	CHAIN	Transcriptional coactivator YAP1	SLC2A	YAP1 -[Activation]-> PRRT2 -[IncreaseAmount]-> SLC2A	35961703	0																																		
+YAP1	S127A	YAP1_HUMAN	CHAIN	Transcriptional coactivator YAP1	Sarcoma	YAP1 -[Inhibition]-> Sarcoma	30353028	0																																		
+YAP1	S127A	YAP1_HUMAN	CHAIN	Transcriptional coactivator YAP1	apoptotic process	YAP1 -[Activation]-> apoptotic process	32452550	0																																		
+YAP1	S127A	YAP1_HUMAN	CHAIN	Transcriptional coactivator YAP1	apoptotic process	YAP1 -[Complex]-> LATS1 -[Activation]-> apoptotic process	25492965	0																																		
+YAP1	S127A	YAP1_HUMAN	CHAIN	Transcriptional coactivator YAP1	apoptotic process	YAP1 -[Complex]-> RHOA -[Inhibition]-> apoptotic process	28827520	0																																		
+YAP1	S127A	YAP1_HUMAN	CHAIN	Transcriptional coactivator YAP1	apoptotic process	YAP1 -[Inhibition]-> apoptotic process	25087979	0																																		
+YAP1	S127A	YAP1_HUMAN	CHAIN	Transcriptional coactivator YAP1	apoptotic process	YAP1 -[Inhibition]-> apoptotic process	30353028	0																																		
+YAP1	S127A	YAP1_HUMAN	CHAIN	Transcriptional coactivator YAP1	apoptotic process	YAP1 -[Inhibition]-> apoptotic process	34663879	0																																		
+YAP1	S127A	YAP1_HUMAN	CHAIN	Transcriptional coactivator YAP1	apoptotic process	YAP1 -[Inhibition]-> apoptotic process	35597479	0																																		
+YAP1	S127A	YAP1_HUMAN	CHAIN	Transcriptional coactivator YAP1	cell adhesion	YAP1 -[Activation]-> cell adhesion	34663879	0																																		
+YAP1	S127A	YAP1_HUMAN	CHAIN	Transcriptional coactivator YAP1	cell cycle	YAP1 -[Activation]-> cell cycle	30353028	0																																		
+YAP1	S127A	YAP1_HUMAN	CHAIN	Transcriptional coactivator YAP1	cell cycle	YAP1 -[Complex]-> TEAD2 -[Activation]-> cell cycle	24954535	0																																		
+YAP1	S127A	YAP1_HUMAN	CHAIN	Transcriptional coactivator YAP1	cell death	YAP1 -[Activation]-> cell death	32452550	0																																		
+YAP1	S127A	YAP1_HUMAN	CHAIN	Transcriptional coactivator YAP1	cell death	YAP1 -[Complex]-> TEAD4 -[Complex]-> ALOXE3 -[Activation]-> cell death	34977009	0																																		
+YAP1	S127A	YAP1_HUMAN	CHAIN	Transcriptional coactivator YAP1	cell differentiation	YAP1 -[Activation]-> cell differentiation	32452550	0																																		
+YAP1	S127A	YAP1_HUMAN	CHAIN	Transcriptional coactivator YAP1	cell differentiation	YAP1 -[Activation]-> cell differentiation	35961703	0																																		
+YAP1	S127A	YAP1_HUMAN	CHAIN	Transcriptional coactivator YAP1	cell differentiation	YAP1 -[Inhibition]-> cell differentiation	25087979	0																																		
+YAP1	S127A	YAP1_HUMAN	CHAIN	Transcriptional coactivator YAP1	cell differentiation	YAP1 -[Inhibition]-> cell differentiation	27184927	0																																		
+YAP1	S127A	YAP1_HUMAN	CHAIN	Transcriptional coactivator YAP1	cell differentiation	YAP1 -[Inhibition]-> cell differentiation	30353028	0																																		
+YAP1	S127A	YAP1_HUMAN	CHAIN	Transcriptional coactivator YAP1	cell growth	YAP1 -[Activation]-> cell growth	24954535	0																																		
+YAP1	S127A	YAP1_HUMAN	CHAIN	Transcriptional coactivator YAP1	cell growth	YAP1 -[Complex]-> LATS1 -[Inhibition]-> cell growth	25492965	0																																		
+YAP1	S127A	YAP1_HUMAN	CHAIN	Transcriptional coactivator YAP1	cell growth	YAP1 -[Inhibition]-> cell growth	35597479	0																																		
+YAP1	S127A	YAP1_HUMAN	CHAIN	Transcriptional coactivator YAP1	cell migration	YAP1 -[Inhibition]-> NRG1 -[Activation]-> cell migration	25492965	0																																		
+YAP1	S127A	YAP1_HUMAN	CHAIN	Transcriptional coactivator YAP1	cell population proliferation	YAP1 -[Activation]-> cell population proliferation	25087979	0																																		
+YAP1	S127A	YAP1_HUMAN	CHAIN	Transcriptional coactivator YAP1	cell population proliferation	YAP1 -[Activation]-> cell population proliferation	28827520	0																																		
+YAP1	S127A	YAP1_HUMAN	CHAIN	Transcriptional coactivator YAP1	cell population proliferation	YAP1 -[Activation]-> cell population proliferation	30353028	0																																		
+YAP1	S127A	YAP1_HUMAN	CHAIN	Transcriptional coactivator YAP1	cell population proliferation	YAP1 -[Activation]-> cell population proliferation	34663879	0																																		
+YAP1	S127A	YAP1_HUMAN	CHAIN	Transcriptional coactivator YAP1	cell population proliferation	YAP1 -[Inhibition]-> ERBB4 -[Activation]-> cell population proliferation	25492965	0																																		
+YAP1	S127A	YAP1_HUMAN	CHAIN	Transcriptional coactivator YAP1	cell population proliferation	YAP1 -[Inhibition]-> WWTR1 -[Inhibition]-> cell population proliferation	27184927	0																																		
+YAP1	S127A	YAP1_HUMAN	CHAIN	Transcriptional coactivator YAP1	cell population proliferation	YAP1 -[Inhibition]-> cell population proliferation	24954535	0																																		
+YAP1	S127A	YAP1_HUMAN	CHAIN	Transcriptional coactivator YAP1	cellular component biogenesis	YAP1 -[Complex]-> DDX17 -[Complex]-> DROSHA -[Complex]-> War-091 -[Activation]-> cellular component biogenesis	24581491	0																																		
+YAP1	S127A	YAP1_HUMAN	CHAIN	Transcriptional coactivator YAP1	cellular senescence	YAP1 -[Activation]-> KRAS -[Activation]-> cellular senescence	30353028	0																																		
+YAP1	S127A	YAP1_HUMAN	CHAIN	Transcriptional coactivator YAP1	cellular senescence	YAP1 -[Activation]-> PTEN -[Inhibition]-> cellular senescence	26701088	0																																		
+YAP1	S127A	YAP1_HUMAN	CHAIN	Transcriptional coactivator YAP1	epithelial to mesenchymal transition	YAP1 -[Activation]-> epithelial to mesenchymal transition	34663879	0																																		
+YAP1	S127A	YAP1_HUMAN	CHAIN	Transcriptional coactivator YAP1	fatty acid oxidation	YAP1 -[Activation]-> fatty acid oxidation	35961703	0																																		
+YAP1	S127A	YAP1_HUMAN	CHAIN	Transcriptional coactivator YAP1	ferroptosis	YAP1 -[Activation]-> ferroptosis	34977009	0																																		
+YAP1	S127A	YAP1_HUMAN	CHAIN	Transcriptional coactivator YAP1	gene expression	YAP1 -[Activation]-> gene expression	32452550	0																																		
+YAP1	S127A	YAP1_HUMAN	CHAIN	Transcriptional coactivator YAP1	growth	YAP1 -[Activation]-> roflumilast -[Inhibition]-> growth	35597479	0																																		
+YAP1	S127A	YAP1_HUMAN	CHAIN	Transcriptional coactivator YAP1	hepatocyte differentiation	YAP1 -[Activation]-> transcription, DNA-templated -[Activation]-> hepatocyte differentiation	32452550	0																																		
+YAP1	S127A	YAP1_HUMAN	CHAIN	Transcriptional coactivator YAP1	localization	YAP1 -[Activation]-> localization	34663879	0																																		
+YAP1	S127A	YAP1_HUMAN	CHAIN	Transcriptional coactivator YAP1	regulatory T cell differentiation	YAP1 -[Activation]-> regulatory T cell differentiation	35961703	0																																		
+YAP1	S127A	YAP1_HUMAN	CHAIN	Transcriptional coactivator YAP1	signal transduction	YAP1 -[Activation]-> signal transduction	34663879	0																																		
+YAP1	S127A	YAP1_HUMAN	CHAIN	Transcriptional coactivator YAP1	transcription, DNA-templated	YAP1 -[Activation]-> transcription, DNA-templated	32452550	0																																		
+YAP1	S127A	YAP1_HUMAN	CHAIN	Transcriptional coactivator YAP1	transcription, DNA-templated	YAP1 -[Inhibition]-> transcription, DNA-templated	25087979	0																																		
+YAP1	S127A	YAP1_HUMAN	CHAIN	Transcriptional coactivator YAP1	vasculogenesis	YAP1 -[Activation]-> vasculogenesis	35961703	0																																		
+YAP1	S127D	YAP1_HUMAN	CHAIN	Transcriptional coactivator YAP1	Carcinogenesis	YAP1 -[Activation]-> Wnt -[Activation]-> Carcinogenesis	34552611	0																																		
+YAP1	S127D	YAP1_HUMAN	CHAIN	Transcriptional coactivator YAP1	DNA methylation	YAP1 -[Activation]-> Wnt -[Activation]-> DNMT1 -[Activation]-> DNA methylation	34552611	0																																		
+YAP1	S127D	YAP1_HUMAN	CHAIN	Transcriptional coactivator YAP1	Leukemia	YAP1 -[Activation]-> Wnt -[Activation]-> Leukemia	34552611	0																																		
+YAP1	S127D	YAP1_HUMAN	CHAIN	Transcriptional coactivator YAP1	Neoplasm Metastasis	YAP1 -[Inhibition]-> CTNNB1 -[Complex]-> TMPRSS11D -[Complex]-> catenin -[Complex]-> KMT2A -[Activation]-> Neoplasm Metastasis	34552611	0																																		
+YAP1	S127D	YAP1_HUMAN	CHAIN	Transcriptional coactivator YAP1	Neoplasms	YAP1 -[Inhibition]-> CTNNB1 -[Complex]-> TMPRSS11D -[Complex]-> catenin -[Complex]-> KMT2A -[Activation]-> Neoplasms	34552611	0																																		
+YAP1	S127D	YAP1_HUMAN	CHAIN	Transcriptional coactivator YAP1	Squamous Cell Carcinoma of Head and Neck	YAP1 -[Inhibition]-> CTNNB1 -[Complex]-> TMPRSS11D -[Complex]-> catenin -[Complex]-> KMT2A -[Activation]-> Squamous Cell Carcinoma of Head and Neck	34552611	0																																		
+YAP1	S127D	YAP1_HUMAN	CHAIN	Transcriptional coactivator YAP1	Stem Cell Niche	YAP1 -[Activation]-> Stem Cell Niche	34552611	0																																		
+YAP1	S127D	YAP1_HUMAN	CHAIN	Transcriptional coactivator YAP1	Wnt signaling pathway	YAP1 -[Activation]-> Wnt -[Activation]-> Wnt signaling pathway	34552611	0																																		
+YAP1	S127D	YAP1_HUMAN	CHAIN	Transcriptional coactivator YAP1	cell differentiation	YAP1 -[Activation]-> Wnt -[Inhibition]-> HOXA5 -[Activation]-> cell differentiation	34552611	0																																		
+YAP1	S127D	YAP1_HUMAN	CHAIN	Transcriptional coactivator YAP1	cell population proliferation	YAP1 -[Activation]-> cell population proliferation	34552611	0																																		
+YAP1	S127D	YAP1_HUMAN	CHAIN	Transcriptional coactivator YAP1	gene expression	YAP1 -[Inhibition]-> CTNNB1 -[Activation]-> gene expression	34552611	0																																		
+YAP1	S127D	YAP1_HUMAN	CHAIN	Transcriptional coactivator YAP1	localization	YAP1 -[Activation]-> localization	34552611	0																																		
+YAP1	S127D	YAP1_HUMAN	CHAIN	Transcriptional coactivator YAP1	nuclear transport	YAP1 -[Inhibition]-> CTNNB1 -[Inhibition]-> nuclear transport	34552611	0																																		
+YAP1	S369A	YAP1_HUMAN	CHAIN;REGION;REGION;COMPBIAS	Transcriptional coactivator YAP1;Transactivation domain;Disordered;Polar residues	cell differentiation	YAP1 -[Inhibition]-> cell differentiation	29383141	0																																		
+YAP1	S369A	YAP1_HUMAN	CHAIN;REGION;REGION;COMPBIAS	Transcriptional coactivator YAP1;Transactivation domain;Disordered;Polar residues	cell growth	YAP1 -[Activation]-> cell growth	29383141	0																																		
+YAP1	S369A	YAP1_HUMAN	CHAIN;REGION;REGION;COMPBIAS	Transcriptional coactivator YAP1;Transactivation domain;Disordered;Polar residues	cell population proliferation	YAP1 -[Activation]-> cell population proliferation	29383141	0																																		
+YAP1	S369A	YAP1_HUMAN	CHAIN;REGION;REGION;COMPBIAS	Transcriptional coactivator YAP1;Transactivation domain;Disordered;Polar residues	transcription, DNA-templated	YAP1 -[IncreaseAmount]-> AR -[Inhibition]-> transcription, DNA-templated	29383141	0																																		
+YAP1	S94A	YAP1_HUMAN	CHAIN;REGION;COILED	Transcriptional coactivator YAP1;Disordered;	Cell Survival	YAP1 -[Activation]-> Cell Survival	28827520	0																																		
+YAP1	S94A	YAP1_HUMAN	CHAIN;REGION;COILED	Transcriptional coactivator YAP1;Disordered;	Neoplasm Metastasis	YAP1 -[Activation]-> Neoplasm Metastasis	28827520	0																																		
+YAP1	S94A	YAP1_HUMAN	CHAIN;REGION;COILED	Transcriptional coactivator YAP1;Disordered;	apoptotic process	YAP1 -[Complex]-> RHOA -[Inhibition]-> apoptotic process	28827520	0																																		
+YAP1	S94A	YAP1_HUMAN	CHAIN;REGION;COILED	Transcriptional coactivator YAP1;Disordered;	cell population proliferation	YAP1 -[Activation]-> cell population proliferation	28827520	0																																		
+YAP1	Y357F	YAP1_HUMAN	CHAIN;REGION;REGION;COILED;COMPBIAS	Transcriptional coactivator YAP1;Transactivation domain;Disordered;;Polar residues	Cell Survival	YAP1 -[Inhibition]-> Cell Survival	24954536	0																																		
+YAP1	Y357F	YAP1_HUMAN	CHAIN;REGION;REGION;COILED;COMPBIAS	Transcriptional coactivator YAP1;Transactivation domain;Disordered;;Polar residues	cell death	YAP1 -[Activation]-> KRAS -[Inhibition]-> cell death	24954536	0																																		
+YAP1	Y357F	YAP1_HUMAN	CHAIN;REGION;REGION;COILED;COMPBIAS	Transcriptional coactivator YAP1;Transactivation domain;Disordered;;Polar residues	cell differentiation	YAP1 -[Activation]-> epithelial to mesenchymal transition -[Inhibition]-> cell differentiation	24954536	0																																		
+YAP1	Y357F	YAP1_HUMAN	CHAIN;REGION;REGION;COILED;COMPBIAS	Transcriptional coactivator YAP1;Transactivation domain;Disordered;;Polar residues	cell population proliferation	YAP1 -[Activation]-> cell population proliferation	24954536	0																																		
+YAP1	Y357F	YAP1_HUMAN	CHAIN;REGION;REGION;COILED;COMPBIAS	Transcriptional coactivator YAP1;Transactivation domain;Disordered;;Polar residues	epithelial to mesenchymal transition	YAP1 -[Activation]-> epithelial to mesenchymal transition	24954536	0																																		

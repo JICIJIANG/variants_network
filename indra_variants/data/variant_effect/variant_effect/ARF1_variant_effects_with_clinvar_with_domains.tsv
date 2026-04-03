@@ -1,0 +1,21 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+ARF1	N126I	ARF1_HUMAN	CHAIN	ADP-ribosylation factor 1	transport	ARF1 -[Inhibition]-> transport	9929005	0																																		
+ARF1	N95Y	ARF1_HUMAN	CHAIN	ADP-ribosylation factor 1	localization	ARF1 -[Inhibition]-> localization	25203211	0																																		
+ARF1	Q71L	ARF1_HUMAN	CHAIN	ADP-ribosylation factor 1	Cell Polarity	ARF1 -[Inhibition]-> Cell Polarity	25849195	0																																		
+ARF1	Q71L	ARF1_HUMAN	CHAIN	ADP-ribosylation factor 1	Neoplasm Invasiveness	ARF1 -[Activation]-> Neoplasm Invasiveness	24196838	0																																		
+ARF1	Q71L	ARF1_HUMAN	CHAIN	ADP-ribosylation factor 1	cell adhesion	ARF1 -[Inhibition]-> cell adhesion	28007915	0																																		
+ARF1	Q71L	ARF1_HUMAN	CHAIN	ADP-ribosylation factor 1	cell population proliferation	ARF1 -[Inhibition]-> cell population proliferation	24196838	0																																		
+ARF1	Q71L	ARF1_HUMAN	CHAIN	ADP-ribosylation factor 1	exocytosis	ARF1 -[Inhibition]-> GH1 -[Complex]-> ARF6 -[Inhibition]-> exocytosis	12379803	0																																		
+ARF1	Q71L	ARF1_HUMAN	CHAIN	ADP-ribosylation factor 1	localization	ARF1 -[Activation]-> SRC -[Inhibition]-> localization	20498016	0																																		
+ARF1	Q71L	ARF1_HUMAN	CHAIN	ADP-ribosylation factor 1	localization	ARF1 -[Inhibition]-> GOLGA3 -[Inhibition]-> localization	29467256	0																																		
+ARF1	Q71L	ARF1_HUMAN	CHAIN	ADP-ribosylation factor 1	proteolysis	ARF1 -[Activation]-> proteolysis	24196838	0																																		
+ARF1	Q71L	ARF1_HUMAN	CHAIN	ADP-ribosylation factor 1	transport	ARF1 -[Complex]-> SAR1A -[Inhibition]-> transport	23251667	0																																		
+ARF1	Q71L	ARF1_HUMAN	CHAIN	ADP-ribosylation factor 1	transport	ARF1 -[Inhibition]-> transport	27335351	0																																		
+ARF1	Q71L	ARF1_HUMAN	CHAIN	ADP-ribosylation factor 1	transport	ARF1 -[Inhibition]-> transport	8288610	0																																		
+ARF1	T31N	ARF1_HUMAN	CHAIN	ADP-ribosylation factor 1	cell adhesion	ARF1 -[Inhibition]-> CYTH2 -[Complex]-> RALBP1 -[Activation]-> cell adhesion	16966426	0																																		
+ARF1	T31N	ARF1_HUMAN	CHAIN	ADP-ribosylation factor 1	cell migration	ARF1 -[Inhibition]-> CYTH2 -[Activation]-> RAC -[Activation]-> cell migration	16966426	0																																		
+ARF1	T31N	ARF1_HUMAN	CHAIN	ADP-ribosylation factor 1	cell population proliferation	ARF1 -[Inhibition]-> CYTH2 -[Complex]-> RALBP1 -[Activation]-> RRAS -[Inhibition]-> cell population proliferation	16966426	0																																		
+ARF1	T31N	ARF1_HUMAN	CHAIN	ADP-ribosylation factor 1	endocytosis	ARF1 -[Inhibition]-> CYTH2 -[Activation]-> ARF6 -[Activation]-> endocytosis	16966426	0																																		
+ARF1	T31N	ARF1_HUMAN	CHAIN	ADP-ribosylation factor 1	localization	ARF1 -[Inhibition]-> CYTH2 -[Activation]-> ARF6 -[Inhibition]-> localization	16966426	0																																		
+ARF1	T31N	ARF1_HUMAN	CHAIN	ADP-ribosylation factor 1	transport	ARF1 -[Complex]-> SAR1A -[Inhibition]-> transport	23251667	0																																		
+ARF1	T31N	ARF1_HUMAN	CHAIN	ADP-ribosylation factor 1	transport	ARF1 -[Inhibition]-> transport	9929005	0																																		

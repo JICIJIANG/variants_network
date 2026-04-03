@@ -1,0 +1,29 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+PKD1	K618N	PKD1_HUMAN	CHAIN;REGION	Polycystin-1;Disordered	Cell Survival	PKD1 -[Inhibition]-> JNK -[Activation]-> Cell Survival	20082306	0																																		
+PKD1	K618N	PKD1_HUMAN	CHAIN;REGION	Polycystin-1;Disordered	Cell Survival	PKD1 -[Inhibition]-> JNK -[Activation]-> Cell Survival	20621068	0																																		
+PKD1	K618N	PKD1_HUMAN	CHAIN;REGION	Polycystin-1;Disordered	apoptotic process	PKD1 -[Inhibition]-> JNK -[Activation]-> apoptotic process	20082306	0																																		
+PKD1	K618N	PKD1_HUMAN	CHAIN;REGION	Polycystin-1;Disordered	cell population proliferation	PKD1 -[Activation]-> cell population proliferation	20082306	0																																		
+PKD1	K618N	PKD1_HUMAN	CHAIN;REGION	Polycystin-1;Disordered	cell population proliferation	PKD1 -[Activation]-> cell population proliferation	20621068	0																																		
+PKD1	K618N	PKD1_HUMAN	CHAIN;REGION	Polycystin-1;Disordered	inflammatory response	PKD1 -[Activation]-> inflammatory response	20621068	0																																		
+PKD1	K618N	PKD1_HUMAN	CHAIN;REGION	Polycystin-1;Disordered	transport	PKD1 -[Inhibition]-> transport	20621068	0																																		
+PKD1	K628W	PKD1_HUMAN	CHAIN;REGION	Polycystin-1;Disordered	cell growth	PKD1 -[DecreaseAmount]-> AR -[Activation]-> cell growth	18602367	0																																		
+PKD1	K628W	PKD1_HUMAN	CHAIN;REGION	Polycystin-1;Disordered	cell population proliferation	PKD1 -[Activation]-> cell population proliferation	18602367	0																																		
+PKD1	S744A	PKD1_HUMAN	CHAIN;DOMAIN	Polycystin-1;PKD 2	cell population proliferation	PKD1 -[Inhibition]-> cell population proliferation	22511927	0																																		
+PKD1	S744A	PKD1_HUMAN	CHAIN;DOMAIN	Polycystin-1;PKD 2	epithelial to mesenchymal transition	PKD1 -[Inhibition]-> epithelial to mesenchymal transition	22511927	0																																		
+PKD1	S744A	PKD1_HUMAN	CHAIN;DOMAIN	Polycystin-1;PKD 2	transcription, DNA-templated	PKD1 -[Inhibition]-> transcription, DNA-templated	22511927	0																																		
+PKD1	S744E	PKD1_HUMAN	CHAIN;DOMAIN	Polycystin-1;PKD 2	Death	PKD1 -[Activation]-> Death	24806360	0																																		
+PKD1	S744E	PKD1_HUMAN	CHAIN;DOMAIN	Polycystin-1;PKD 2	apoptotic process	PKD1 -[Inhibition]-> apoptotic process	24806360	0																																		
+PKD1	S744E	PKD1_HUMAN	CHAIN;DOMAIN	Polycystin-1;PKD 2	cell death	PKD1 -[Inhibition]-> cell death	24806360	0																																		
+PKD1	S744E	PKD1_HUMAN	CHAIN;DOMAIN	Polycystin-1;PKD 2	signal transduction	PKD1 -[Activation]-> signal transduction	24806360	0																																		
+PKD1	S748A	PKD1_HUMAN	CHAIN;DOMAIN	Polycystin-1;PKD 2	cell population proliferation	PKD1 -[Inhibition]-> cell population proliferation	22511927	0																																		
+PKD1	S748A	PKD1_HUMAN	CHAIN;DOMAIN	Polycystin-1;PKD 2	epithelial to mesenchymal transition	PKD1 -[Inhibition]-> epithelial to mesenchymal transition	22511927	0																																		
+PKD1	S748A	PKD1_HUMAN	CHAIN;DOMAIN	Polycystin-1;PKD 2	transcription, DNA-templated	PKD1 -[Inhibition]-> transcription, DNA-templated	22511927	0																																		
+PKD1	S748E	PKD1_HUMAN	CHAIN;DOMAIN	Polycystin-1;PKD 2	Death	PKD1 -[Activation]-> Death	24806360	0																																		
+PKD1	S748E	PKD1_HUMAN	CHAIN;DOMAIN	Polycystin-1;PKD 2	apoptotic process	PKD1 -[Inhibition]-> apoptotic process	24806360	0																																		
+PKD1	S748E	PKD1_HUMAN	CHAIN;DOMAIN	Polycystin-1;PKD 2	cell death	PKD1 -[Inhibition]-> cell death	24806360	0																																		
+PKD1	S748E	PKD1_HUMAN	CHAIN;DOMAIN	Polycystin-1;PKD 2	signal transduction	PKD1 -[Activation]-> signal transduction	24806360	0																																		
+PKD1	S916A	PKD1_HUMAN	CHAIN;DOMAIN	Polycystin-1;PKD 3	Cell Survival	PKD1 -[Complex]-> PRKCD -[Activation]-> Cell Survival	21696630	0																																		
+PKD1	S916A	PKD1_HUMAN	CHAIN;DOMAIN	Polycystin-1;PKD 3	Parkinson Disease	PKD1 -[Complex]-> PRKCD -[Activation]-> Parkinson Disease	21696630	0																																		
+PKD1	S916A	PKD1_HUMAN	CHAIN;DOMAIN	Polycystin-1;PKD 3	apoptotic process	PKD1 -[Inhibition]-> apoptotic process	21696630	0																																		
+PKD1	S916A	PKD1_HUMAN	CHAIN;DOMAIN	Polycystin-1;PKD 3	cell death	PKD1 -[Inhibition]-> cell death	21696630	0																																		
+PKD1	S916A	PKD1_HUMAN	CHAIN;DOMAIN	Polycystin-1;PKD 3	signal transduction	PKD1 -[Activation]-> signal transduction	21696630	0																																		

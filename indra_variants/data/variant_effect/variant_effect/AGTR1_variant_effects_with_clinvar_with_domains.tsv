@@ -1,0 +1,9 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+AGTR1	A1166C				Hypertension	AGTR1 -[Activation]-> Hypertension	26524813	0																																		
+AGTR1	A1166C				Psoriasis	AGTR1 -[Inhibition]-> Psoriasis	26395033	0																																		
+AGTR1	A1166C				angiogenesis	AGTR1 -[Activation]-> angiogenesis	29413755	0																																		
+AGTR1	A1166C				cell population proliferation	AGTR1 -[Activation]-> cell population proliferation	29413755	0																																		
+AGTR1	A1166C				inflammatory response	AGTR1 -[Activation]-> inflammatory response	29413755	0																																		
+AGTR1	A153G	AGTR1_HUMAN	CHAIN	Type-1 angiotensin II receptor	Vascular Stiffness	AGTR1 -[Activation]-> Vascular Stiffness	11288810	0																																		
+AGTR1	Q315A	AGTR1_HUMAN	CHAIN	Type-1 angiotensin II receptor	Atherosclerosis	AGTR1 -[Activation]-> Angiotensin-2 -[Inhibition]-> Atherosclerosis	15507206	0																																		
+AGTR1	Q315A	AGTR1_HUMAN	CHAIN	Type-1 angiotensin II receptor	cell adhesion	AGTR1 -[Activation]-> Angiotensin-2 -[Activation]-> cell adhesion	15507206	0																																		

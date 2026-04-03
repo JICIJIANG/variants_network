@@ -1,0 +1,6 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+TSC2	S540D	TSC2_HUMAN	CHAIN	Tuberin	cell growth	TSC2 -[Inhibition]-> cell growth	15851026	0																																		
+TSC2	S540D	TSC2_HUMAN	CHAIN	Tuberin	cell population proliferation	TSC2 -[Inhibition]-> cell population proliferation	15851026	0																																		
+TSC2	S664D	TSC2_HUMAN	CHAIN;REGION;COMPBIAS	Tuberin;Disordered;Pro residues	cell growth	TSC2 -[Inhibition]-> cell growth	15851026	0																																		
+TSC2	S664D	TSC2_HUMAN	CHAIN;REGION;COMPBIAS	Tuberin;Disordered;Pro residues	cell population proliferation	TSC2 -[Inhibition]-> cell population proliferation	15851026	0																																		
+TSC2	S939A	TSC2_HUMAN	CHAIN;REGION	Tuberin;Disordered	transcription, DNA-templated	TSC2 -[Activation]-> mTORC1 -[Activation]-> transcription, DNA-templated	19593385	0																																		

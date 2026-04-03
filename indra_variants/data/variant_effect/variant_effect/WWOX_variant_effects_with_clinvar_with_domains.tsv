@@ -1,0 +1,5 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+WWOX	L404A	WWOX_HUMAN	CHAIN;REGION	WW domain-containing oxidoreductase;Interaction with MAPT	cell differentiation	WWOX -[Activation]-> cell differentiation	22193544	0																																		
+WWOX	Y33R	WWOX_HUMAN	CHAIN;DOMAIN	WW domain-containing oxidoreductase;WW 1	Death	WWOX -[Activation]-> Death	19484134	0																																		
+WWOX	Y33R	WWOX_HUMAN	CHAIN;DOMAIN	WW domain-containing oxidoreductase;WW 1	apoptotic process	WWOX -[Activation]-> apoptotic process	19484134	0																																		
+WWOX	Y33R	WWOX_HUMAN	CHAIN;DOMAIN	WW domain-containing oxidoreductase;WW 1	cell death	WWOX -[Activation]-> cell death	19484134	0																																		

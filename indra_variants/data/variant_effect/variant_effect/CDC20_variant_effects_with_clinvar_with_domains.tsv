@@ -1,0 +1,12 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+CDC20	D177A	CDC20_HUMAN	CHAIN	Cell division cycle protein 20 homolog	Mitosis	CDC20 -[Activation]-> apcin -[Inhibition]-> Mitosis	32152539	0																																		
+CDC20	D177A	CDC20_HUMAN	CHAIN	Cell division cycle protein 20 homolog	exit from mitosis	CDC20 -[Activation]-> apcin -[Inhibition]-> exit from mitosis	32152539	0																																		
+CDC20	D177A	CDC20_HUMAN	CHAIN	Cell division cycle protein 20 homolog	meiotic spindle assembly checkpoint	CDC20 -[Activation]-> meiotic spindle assembly checkpoint	32152539	0																																		
+CDC20	D177A	CDC20_HUMAN	CHAIN	Cell division cycle protein 20 homolog	mitotic cell cycle	CDC20 -[Activation]-> apcin -[Inhibition]-> mitotic cell cycle	32152539	0																																		
+CDC20	R132A	CDC20_HUMAN	CHAIN	Cell division cycle protein 20 homolog	meiotic spindle assembly checkpoint	CDC20 -[Complex]-> meiotic spindle assembly checkpoint	23007648	0																																		
+CDC20	R383C	CDC20_HUMAN	CHAIN;REPEAT	Cell division cycle protein 20 homolog;WD 5	apoptotic process	CDC20 -[Activation]-> apoptotic process	29245942	0																																		
+CDC20	S51A	CDC20_HUMAN	CHAIN;REGION	Cell division cycle protein 20 homolog;Disordered	localization	CDC20 -[Inhibition]-> CaMKIIbeta -[Inhibition]-> localization	21725312	0																																		
+CDC20	S92A	CDC20_HUMAN	CHAIN	Cell division cycle protein 20 homolog	localization	CDC20 -[Complex]-> BUB1B -[Inhibition]-> localization	26912231	0																																		
+CDC20	S92A	CDC20_HUMAN	CHAIN	Cell division cycle protein 20 homolog	mitotic cell cycle	CDC20 -[Inhibition]-> mitotic cell cycle	26912231	0																																		
+CDC20	S92E	CDC20_HUMAN	CHAIN	Cell division cycle protein 20 homolog	localization	CDC20 -[Complex]-> BUB1B -[Inhibition]-> localization	26912231	0																																		
+CDC20	S92E	CDC20_HUMAN	CHAIN	Cell division cycle protein 20 homolog	mitotic cell cycle	CDC20 -[Inhibition]-> mitotic cell cycle	26912231	0																																		

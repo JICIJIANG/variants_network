@@ -1,0 +1,10 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+RAB1A	C2S	RAB1A_HUMAN	CHAIN	Ras-related protein Rab-1A	cell death	RAB1A -[Inhibition]-> cell death	25446900	0																																		
+RAB1A	C2S	RAB1A_HUMAN	CHAIN	Ras-related protein Rab-1A	cell growth	RAB1A -[Activation]-> cell growth	25446900	0																																		
+RAB1A	N124I	RAB1A_HUMAN	CHAIN	Ras-related protein Rab-1A	transport	RAB1A -[Inhibition]-> transport	15694364	0																																		
+RAB1A	Q67L	RAB1A_HUMAN	CHAIN	Ras-related protein Rab-1A	Cell Polarity	RAB1A -[Inhibition]-> Cell Polarity	21551065	0																																		
+RAB1A	Q70L	RAB1A_HUMAN	CHAIN	Ras-related protein Rab-1A	autophagy	RAB1A -[Activation]-> autophagy	33585445	0																																		
+RAB1A	Q70L	RAB1A_HUMAN	CHAIN	Ras-related protein Rab-1A	localization	RAB1A -[Activation]-> localization	33585445	0																																		
+RAB1A	Q70L	RAB1A_HUMAN	CHAIN	Ras-related protein Rab-1A	transport	RAB1A -[Inhibition]-> transport	33585445	0																																		
+RAB1A	S22N	RAB1A_HUMAN	CHAIN	Ras-related protein Rab-1A	Cell Polarity	RAB1A -[Inhibition]-> Cell Polarity	21551065	0																																		
+RAB1A	T75A	RAB1A_HUMAN	CHAIN	Ras-related protein Rab-1A	apoptotic process	RAB1A -[Activation]-> apoptotic process	32714591	0																																		

@@ -1,0 +1,24 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+HSPB8	K141E	HSPB8_HUMAN	CHAIN;DOMAIN	Heat shock protein beta-8;sHSP	response to stress	HSPB8 -[Activation]-> response to stress	21971574	1	17657	single nucleotide variant	NM_014365.3(HSPB8):c.421A>G (p.Lys141Glu)	104894351	Neuronopathy, distal hereditary motor, type 2A	Pathogenic	2.0	Charcot-Marie-Tooth disease axonal type 2L			not provided																							
+HSPB8	K141N	HSPB8_HUMAN	CHAIN;DOMAIN	Heat shock protein beta-8;sHSP	apoptotic process	HSPB8 -[Activation]-> apoptotic process	28747872	1	17656	single nucleotide variant	NM_014365.3(HSPB8):c.423G>C (p.Lys141Asn)	104894345	Neuronopathy, distal hereditary motor, type 2A	Pathogenic	0.0	Charcot-Marie-Tooth disease axonal type 2L		1.0	Charcot-Marie-Tooth disease			not provided																				
+HSPB8	K141N	HSPB8_HUMAN	CHAIN;DOMAIN	Heat shock protein beta-8;sHSP	cell death	HSPB8 -[Activation]-> cell death	28747872	1	17656	single nucleotide variant	NM_014365.3(HSPB8):c.423G>C (p.Lys141Asn)	104894345	Neuronopathy, distal hereditary motor, type 2A	Pathogenic	0.0	Charcot-Marie-Tooth disease axonal type 2L		1.0	Charcot-Marie-Tooth disease			not provided																				
+HSPB8	K141N	HSPB8_HUMAN	CHAIN;DOMAIN	Heat shock protein beta-8;sHSP	response to stress	HSPB8 -[Activation]-> response to stress	21971574	1	17656	single nucleotide variant	NM_014365.3(HSPB8):c.423G>C (p.Lys141Asn)	104894345	Neuronopathy, distal hereditary motor, type 2A	Pathogenic	0.0	Charcot-Marie-Tooth disease axonal type 2L		1.0	Charcot-Marie-Tooth disease			not provided																				
+HSPB8	K41N	HSPB8_HUMAN	CHAIN	Heat shock protein beta-8	apoptotic process	HSPB8 -[Activation]-> apoptotic process	28747872	0																																		
+HSPB8	K41N	HSPB8_HUMAN	CHAIN	Heat shock protein beta-8	cell death	HSPB8 -[Activation]-> cell death	28747872	0																																		
+HSPB8	P173H	HSPB8_HUMAN	CHAIN;DOMAIN	Heat shock protein beta-8;sHSP	Death	HSPB8 -[Activation]-> Death	22898869	0																																		
+HSPB8	P173H	HSPB8_HUMAN	CHAIN;DOMAIN	Heat shock protein beta-8;sHSP	Death	HSPB8 -[Activation]-> Death	23056924	0																																		
+HSPB8	P173H	HSPB8_HUMAN	CHAIN;DOMAIN	Heat shock protein beta-8;sHSP	apoptotic process	HSPB8 -[Inhibition]-> apoptotic process	22898869	0																																		
+HSPB8	P173H	HSPB8_HUMAN	CHAIN;DOMAIN	Heat shock protein beta-8;sHSP	apoptotic process	HSPB8 -[Inhibition]-> apoptotic process	23056924	0																																		
+HSPB8	P173H	HSPB8_HUMAN	CHAIN;DOMAIN	Heat shock protein beta-8;sHSP	cell cycle	HSPB8 -[Activation]-> cell cycle	22898869	0																																		
+HSPB8	P173H	HSPB8_HUMAN	CHAIN;DOMAIN	Heat shock protein beta-8;sHSP	cell death	HSPB8 -[Activation]-> cell death	22898869	0																																		
+HSPB8	P173H	HSPB8_HUMAN	CHAIN;DOMAIN	Heat shock protein beta-8;sHSP	cell death	HSPB8 -[Activation]-> cell death	23056924	0																																		
+HSPB8	P173H	HSPB8_HUMAN	CHAIN;DOMAIN	Heat shock protein beta-8;sHSP	cytokine production	HSPB8 -[Activation]-> cytokine production	23056924	0																																		
+HSPB8	W51C	HSPB8_HUMAN	CHAIN	Heat shock protein beta-8	Death	HSPB8 -[Activation]-> Death	22898869	0																																		
+HSPB8	W51C	HSPB8_HUMAN	CHAIN	Heat shock protein beta-8	Death	HSPB8 -[Activation]-> Death	23056924	0																																		
+HSPB8	W51C	HSPB8_HUMAN	CHAIN	Heat shock protein beta-8	apoptotic process	HSPB8 -[Activation]-> apoptotic process	17173073	0																																		
+HSPB8	W51C	HSPB8_HUMAN	CHAIN	Heat shock protein beta-8	apoptotic process	HSPB8 -[Inhibition]-> apoptotic process	22898869	0																																		
+HSPB8	W51C	HSPB8_HUMAN	CHAIN	Heat shock protein beta-8	apoptotic process	HSPB8 -[Inhibition]-> apoptotic process	23056924	0																																		
+HSPB8	W51C	HSPB8_HUMAN	CHAIN	Heat shock protein beta-8	cell cycle	HSPB8 -[Activation]-> cell cycle	22898869	0																																		
+HSPB8	W51C	HSPB8_HUMAN	CHAIN	Heat shock protein beta-8	cell death	HSPB8 -[Activation]-> cell death	22898869	0																																		
+HSPB8	W51C	HSPB8_HUMAN	CHAIN	Heat shock protein beta-8	cell death	HSPB8 -[Activation]-> cell death	23056924	0																																		
+HSPB8	W51C	HSPB8_HUMAN	CHAIN	Heat shock protein beta-8	cytokine production	HSPB8 -[Activation]-> cytokine production	23056924	0																																		

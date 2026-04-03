@@ -1,0 +1,25 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+NOS3	E298D	NOS3_HUMAN	CHAIN;REGION	Nitric oxide synthase 3;Interaction with NOSIP	Pre-Eclampsia	NOS3 -[Activation]-> Pre-Eclampsia	20047583	0																																		
+NOS3	E298D	NOS3_HUMAN	CHAIN;REGION	Nitric oxide synthase 3;Interaction with NOSIP	cell adhesion	NOS3 -[Inhibition]-> nitric oxide -[Inhibition]-> cell adhesion	18396156	0																																		
+NOS3	E298D	NOS3_HUMAN	CHAIN;REGION	Nitric oxide synthase 3;Interaction with NOSIP	cell population proliferation	NOS3 -[Inhibition]-> nitric oxide -[Inhibition]-> cell population proliferation	18396156	0																																		
+NOS3	E298D	NOS3_HUMAN	CHAIN;REGION	Nitric oxide synthase 3;Interaction with NOSIP	inflammatory response	NOS3 -[Activation]-> inflammatory response	31442681	0																																		
+NOS3	G894T	NOS3_HUMAN	CHAIN;DOMAIN	Nitric oxide synthase 3;FAD-binding FR-type	DNA Damage	NOS3 -[Inhibition]-> nitric oxide -[Inhibition]-> DNA Damage	24498040	0																																		
+NOS3	G894T	NOS3_HUMAN	CHAIN;DOMAIN	Nitric oxide synthase 3;FAD-binding FR-type	Thrombosis	NOS3 -[Activation]-> Thrombosis	15099281	0																																		
+NOS3	K609R	NOS3_HUMAN	CHAIN;DOMAIN	Nitric oxide synthase 3;Flavodoxin-like	Acute Coronary Syndrome	NOS3 -[Inhibition]-> acetylsalicylic acid -[Inhibition]-> Acute Coronary Syndrome	20705923	0																																		
+NOS3	K609R	NOS3_HUMAN	CHAIN;DOMAIN	Nitric oxide synthase 3;Flavodoxin-like	Atherosclerosis	NOS3 -[Inhibition]-> acetylsalicylic acid -[Activation]-> Atherosclerosis	20705923	0																																		
+NOS3	K609R	NOS3_HUMAN	CHAIN;DOMAIN	Nitric oxide synthase 3;Flavodoxin-like	Hypertension	NOS3 -[Inhibition]-> acetylsalicylic acid -[Inhibition]-> Hypertension	20705923	0																																		
+NOS3	K609R	NOS3_HUMAN	CHAIN;DOMAIN	Nitric oxide synthase 3;Flavodoxin-like	Myocardial Infarction	NOS3 -[Inhibition]-> acetylsalicylic acid -[Inhibition]-> Myocardial Infarction	20705923	0																																		
+NOS3	K609R	NOS3_HUMAN	CHAIN;DOMAIN	Nitric oxide synthase 3;Flavodoxin-like	Stroke	NOS3 -[Inhibition]-> acetylsalicylic acid -[Inhibition]-> Stroke	20705923	0																																		
+NOS3	S1176D	NOS3_HUMAN	CHAIN	Nitric oxide synthase 3	angiogenesis	NOS3 -[Inhibition]-> angiogenesis	19654415	0																																		
+NOS3	S1176D	NOS3_HUMAN	CHAIN	Nitric oxide synthase 3	apoptotic process	NOS3 -[Activation]-> apoptotic process	19654415	0																																		
+NOS3	S1177D	NOS3_HUMAN	CHAIN	Nitric oxide synthase 3	angiogenesis	NOS3 -[Inhibition]-> VEGF -[Activation]-> angiogenesis	10908731	0																																		
+NOS3	S1177D	NOS3_HUMAN	CHAIN	Nitric oxide synthase 3	apoptotic process	NOS3 -[Inhibition]-> ANGPT2 -[Phosphorylation]-> TEK -[Inhibition]-> apoptotic process	19461044	0																																		
+NOS3	S1177D	NOS3_HUMAN	CHAIN	Nitric oxide synthase 3	apoptotic process	NOS3 -[Inhibition]-> apoptotic process	11597994	0																																		
+NOS3	S1177D	NOS3_HUMAN	CHAIN	Nitric oxide synthase 3	cell migration	NOS3 -[Inhibition]-> VEGF -[Activation]-> cell migration	10908731	0																																		
+NOS3	S1177D	NOS3_HUMAN	CHAIN	Nitric oxide synthase 3	cell population proliferation	NOS3 -[Inhibition]-> VEGF -[Activation]-> cell population proliferation	10908731	0																																		
+NOS3	S635D	NOS3_HUMAN	CHAIN;DOMAIN	Nitric oxide synthase 3;Flavodoxin-like	Oxygen Consumption	NOS3 -[Inhibition]-> Oxygen Consumption	33221570	0																																		
+NOS3	S635D	NOS3_HUMAN	CHAIN;DOMAIN	Nitric oxide synthase 3;Flavodoxin-like	reactive oxygen species biosynthetic process	NOS3 -[Activation]-> reactive oxygen species biosynthetic process	33221570	0																																		
+NOS3	S644A	NOS3_HUMAN	CHAIN;DOMAIN	Nitric oxide synthase 3;Flavodoxin-like	translation	NOS3 -[Inhibition]-> translation	21571224	0																																		
+NOS3	T495D	NOS3_HUMAN	CHAIN;REGION	Nitric oxide synthase 3;Calmodulin-binding	Cell Survival	NOS3 -[Inhibition]-> Cell Survival	19913548	0																																		
+NOS3	T495D	NOS3_HUMAN	CHAIN;REGION	Nitric oxide synthase 3;Calmodulin-binding	cell growth	NOS3 -[Dephosphorylation]-> AKT -[Activation]-> cell growth	19913548	0																																		
+NOS3	T684A	NOS3_HUMAN	CHAIN;DOMAIN	Nitric oxide synthase 3;Flavodoxin-like	translation	NOS3 -[Inhibition]-> translation	21571224	0																																		

@@ -1,0 +1,128 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+RHOA	E40I	RHOA_HUMAN	CHAIN;MOTIF	Transforming protein RhoA;Effector region	GAP	RHOA -[Inhibition]-> GAP	19889092	0																																		
+RHOA	E40I	RHOA_HUMAN	CHAIN;MOTIF	Transforming protein RhoA;Effector region	programmed cell death	RHOA -[Inhibition]-> tpa-1 -[Activation]-> 2-O-acetyl-1-O-octadecyl-sn-glycero-3-phosphocholine -[Activation]-> programmed cell death	19889092	0																																		
+RHOA	E40I	RHOA_HUMAN	CHAIN;MOTIF	Transforming protein RhoA;Effector region	signal transduction	RHOA -[Inhibition]-> tpa-1 -[Activation]-> 2-O-acetyl-1-O-octadecyl-sn-glycero-3-phosphocholine -[Activation]-> signal transduction	19889092	0																																		
+RHOA	E40L	RHOA_HUMAN	CHAIN;MOTIF	Transforming protein RhoA;Effector region	cell death	RHOA -[Activation]-> cytokinesis -[Activation]-> cell death	24101377	0																																		
+RHOA	E40L	RHOA_HUMAN	CHAIN;MOTIF	Transforming protein RhoA;Effector region	cell population proliferation	RHOA -[Inhibition]-> cell population proliferation	24101377	0																																		
+RHOA	E40L	RHOA_HUMAN	CHAIN;MOTIF	Transforming protein RhoA;Effector region	cytokinesis	RHOA -[Activation]-> cytokinesis	24101377	0																																		
+RHOA	E40L	RHOA_HUMAN	CHAIN;MOTIF	Transforming protein RhoA;Effector region	hemopoiesis	RHOA -[Inhibition]-> hemopoiesis	24101377	0																																		
+RHOA	E40L	RHOA_HUMAN	CHAIN;MOTIF	Transforming protein RhoA;Effector region	necrotic cell death	RHOA -[Inhibition]-> poly I:C -[Activation]-> necrotic cell death	24101377	0																																		
+RHOA	F30L	RHOA_HUMAN	CHAIN	Transforming protein RhoA	transcription, DNA-templated	RHOA -[Activation]-> transcription, DNA-templated	29934311	0																																		
+RHOA	G14V	RHOA_HUMAN	CHAIN	Transforming protein RhoA	GAP	RHOA -[Activation]-> RACGAP1 -[Activation]-> GAP	12689593	0																																		
+RHOA	G14V	RHOA_HUMAN	CHAIN	Transforming protein RhoA	GAP	RHOA -[Complex]-> PKH3 -[Complex]-> RHOQ -[Complex]-> GST -[Complex]-> GAP	9799731	0																																		
+RHOA	G14V	RHOA_HUMAN	CHAIN	Transforming protein RhoA	Neoplasm Invasiveness	RHOA -[Activation]-> Neoplasm Invasiveness	19533666	0																																		
+RHOA	G14V	RHOA_HUMAN	CHAIN	Transforming protein RhoA	Neoplasm Metastasis	RHOA -[Activation]-> Neoplasm Metastasis	19533666	0																																		
+RHOA	G14V	RHOA_HUMAN	CHAIN	Transforming protein RhoA	Neoplasms	RHOA -[Inhibition]-> TNF -[Activation]-> Neoplasms	19533666	0																																		
+RHOA	G14V	RHOA_HUMAN	CHAIN	Transforming protein RhoA	RhoGDI	RHOA -[Complex]-> RhoGDI	10716190	0																																		
+RHOA	G14V	RHOA_HUMAN	CHAIN	Transforming protein RhoA	cell cycle	RHOA -[Activation]-> cell cycle	16776827	0																																		
+RHOA	G14V	RHOA_HUMAN	CHAIN	Transforming protein RhoA	cell growth	RHOA -[Activation]-> 2-O-acetyl-1-O-octadecyl-sn-glycero-3-phosphocholine -[Activation]-> cell growth	24033386	0																																		
+RHOA	G14V	RHOA_HUMAN	CHAIN	Transforming protein RhoA	cell migration	RHOA -[Complex]-> KANK1 -[Inhibition]-> cell migration	18458160	0																																		
+RHOA	G14V	RHOA_HUMAN	CHAIN	Transforming protein RhoA	cell migration	RHOA -[Inhibition]-> cell migration	19533666	0																																		
+RHOA	G14V	RHOA_HUMAN	CHAIN	Transforming protein RhoA	cell motility	RHOA -[Activation]-> cell motility	19533666	0																																		
+RHOA	G14V	RHOA_HUMAN	CHAIN	Transforming protein RhoA	cell motility	RHOA -[Inhibition]-> cell motility	18458160	0																																		
+RHOA	G14V	RHOA_HUMAN	CHAIN	Transforming protein RhoA	cell population proliferation	RHOA -[Activation]-> KISS1 -[Inhibition]-> cell population proliferation	19533666	0																																		
+RHOA	G14V	RHOA_HUMAN	CHAIN	Transforming protein RhoA	cell population proliferation	RHOA -[Activation]-> cell population proliferation	24033386	0																																		
+RHOA	G14V	RHOA_HUMAN	CHAIN	Transforming protein RhoA	cell population proliferation	RHOA -[Activation]-> cell population proliferation	28222172	0																																		
+RHOA	G14V	RHOA_HUMAN	CHAIN	Transforming protein RhoA	cytokinesis	RHOA -[Inhibition]-> cytokinesis	12689593	0																																		
+RHOA	G14V	RHOA_HUMAN	CHAIN	Transforming protein RhoA	positive regulation of focal adhesion assembly	RHOA -[Activation]-> positive regulation of focal adhesion assembly	12446743	0																																		
+RHOA	G14V	RHOA_HUMAN	CHAIN	Transforming protein RhoA	positive regulation of focal adhesion assembly	RHOA -[Inhibition]-> positive regulation of focal adhesion assembly	10716190	0																																		
+RHOA	G14V	RHOA_HUMAN	CHAIN	Transforming protein RhoA	response to hypoxia	RHOA -[Activation]-> response to hypoxia	16996686	0																																		
+RHOA	G14V	RHOA_HUMAN	CHAIN	Transforming protein RhoA	transcription, DNA-templated	RHOA -[Activation]-> transcription, DNA-templated	9799731	0																																		
+RHOA	G17A	RHOA_HUMAN	CHAIN	Transforming protein RhoA	cell adhesion	RHOA -[Inhibition]-> cell adhesion	24413734	0																																		
+RHOA	G17E	RHOA_HUMAN	CHAIN	Transforming protein RhoA	Neoplasm Invasiveness	RHOA -[Activation]-> Neoplasm Invasiveness	36617975	0																																		
+RHOA	G17V	RHOA_HUMAN	CHAIN	Transforming protein RhoA	Cell Polarity	RHOA -[Activation]-> Cell Polarity	29398449	1	2842560	single nucleotide variant	NM_001664.4(RHOA):c.50G>T (p.Gly17Val)	-1	EBV-positive nodal T- and NK-cell lymphoma	Pathogenic	0.0	Neoplasm																										
+RHOA	G17V	RHOA_HUMAN	CHAIN	Transforming protein RhoA	cell adhesion	RHOA -[Inhibition]-> cell adhesion	24413734	1	2842560	single nucleotide variant	NM_001664.4(RHOA):c.50G>T (p.Gly17Val)	-1	EBV-positive nodal T- and NK-cell lymphoma	Pathogenic	0.0	Neoplasm																										
+RHOA	G17V	RHOA_HUMAN	CHAIN	Transforming protein RhoA	cell differentiation	RHOA -[Activation]-> cell differentiation	29398449	1	2842560	single nucleotide variant	NM_001664.4(RHOA):c.50G>T (p.Gly17Val)	-1	EBV-positive nodal T- and NK-cell lymphoma	Pathogenic	0.0	Neoplasm																										
+RHOA	G17V	RHOA_HUMAN	CHAIN	Transforming protein RhoA	cell differentiation	RHOA -[Activation]-> cell differentiation	30158933	1	2842560	single nucleotide variant	NM_001664.4(RHOA):c.50G>T (p.Gly17Val)	-1	EBV-positive nodal T- and NK-cell lymphoma	Pathogenic	0.0	Neoplasm																										
+RHOA	G17V	RHOA_HUMAN	CHAIN	Transforming protein RhoA	cell population proliferation	RHOA -[Activation]-> cell population proliferation	30158933	1	2842560	single nucleotide variant	NM_001664.4(RHOA):c.50G>T (p.Gly17Val)	-1	EBV-positive nodal T- and NK-cell lymphoma	Pathogenic	0.0	Neoplasm																										
+RHOA	G17V	RHOA_HUMAN	CHAIN	Transforming protein RhoA	cell population proliferation	RHOA -[Activation]-> cell population proliferation	32513675	1	2842560	single nucleotide variant	NM_001664.4(RHOA):c.50G>T (p.Gly17Val)	-1	EBV-positive nodal T- and NK-cell lymphoma	Pathogenic	0.0	Neoplasm																										
+RHOA	G17V	RHOA_HUMAN	CHAIN	Transforming protein RhoA	transcription, DNA-templated	RHOA -[Inhibition]-> transcription, DNA-templated	26103434	1	2842560	single nucleotide variant	NM_001664.4(RHOA):c.50G>T (p.Gly17Val)	-1	EBV-positive nodal T- and NK-cell lymphoma	Pathogenic	0.0	Neoplasm																										
+RHOA	I307N				Retinal Degeneration	RHOA -[Activation]-> Retinal Degeneration	34997336	0																																		
+RHOA	I307N				signal transduction	RHOA -[Activation]-> signal transduction	34997336	0																																		
+RHOA	P23H	RHOA_HUMAN	CHAIN	Transforming protein RhoA	Death	RHOA -[Activation]-> MT-ATP6 -[Activation]-> Death	35165923	0																																		
+RHOA	P23H	RHOA_HUMAN	CHAIN	Transforming protein RhoA	Endoplasmic Reticulum Stress	RHOA -[Complex]-> flavonoids -[Activation]-> Endoplasmic Reticulum Stress	35165923	0																																		
+RHOA	P23H	RHOA_HUMAN	CHAIN	Transforming protein RhoA	apoptotic process	RHOA -[Activation]-> UPR -[Activation]-> apoptotic process	27117871	0																																		
+RHOA	P23H	RHOA_HUMAN	CHAIN	Transforming protein RhoA	apoptotic process	RHOA -[Activation]-> apoptotic process	24792589	0																																		
+RHOA	P23H	RHOA_HUMAN	CHAIN	Transforming protein RhoA	apoptotic process	RHOA -[Activation]-> apoptotic process	35165923	0																																		
+RHOA	P23H	RHOA_HUMAN	CHAIN	Transforming protein RhoA	cell death	RHOA -[Activation]-> UPR -[Activation]-> cell death	27117871	0																																		
+RHOA	P23H	RHOA_HUMAN	CHAIN	Transforming protein RhoA	phototransduction	RHOA -[Complex]-> flavonoids -[Activation]-> phototransduction	35165923	0																																		
+RHOA	P23H	RHOA_HUMAN	CHAIN	Transforming protein RhoA	protein folding	RHOA -[Activation]-> protein folding	24792589	0																																		
+RHOA	P23H	RHOA_HUMAN	CHAIN	Transforming protein RhoA	signal transduction	RHOA -[Activation]-> endoplasmic reticulum -[Activation]-> ERN1 -[Activation]-> signal transduction	27117871	0																																		
+RHOA	Q63E	RHOA_HUMAN	CHAIN;REGION	Transforming protein RhoA;	Neoplasm Invasiveness	RHOA -[Inhibition]-> Neoplasm Invasiveness	16402387	0																																		
+RHOA	Q63L	RHOA_HUMAN	CHAIN;REGION	Transforming protein RhoA;	Carcinogenesis	RHOA -[IncreaseAmount]-> IQGAP1 -[Activation]-> Carcinogenesis	18541705	0																																		
+RHOA	Q63L	RHOA_HUMAN	CHAIN;REGION	Transforming protein RhoA;	Cell Survival	RHOA -[DecreaseAmount]-> BCL2 -[Activation]-> Cell Survival	11882313	0																																		
+RHOA	Q63L	RHOA_HUMAN	CHAIN;REGION	Transforming protein RhoA;	DNA Damage	RHOA -[Inhibition]-> BAD -[Inhibition]-> DNA Damage	29795446	0																																		
+RHOA	Q63L	RHOA_HUMAN	CHAIN;REGION	Transforming protein RhoA;	GDP-dissociation inhibitor activity	RHOA -[Complex]-> GDP-dissociation inhibitor activity	21439370	0																																		
+RHOA	Q63L	RHOA_HUMAN	CHAIN;REGION	Transforming protein RhoA;	Neoplasm Invasiveness	RHOA -[Activation]-> CDH4 -[Inhibition]-> Neoplasm Invasiveness	22820501	0																																		
+RHOA	Q63L	RHOA_HUMAN	CHAIN;REGION	Transforming protein RhoA;	Neoplasm Invasiveness	RHOA -[IncreaseAmount]-> IQGAP1 -[Complex]-> EXOC -[Inhibition]-> Neoplasm Invasiveness	18541705	0																																		
+RHOA	Q63L	RHOA_HUMAN	CHAIN;REGION	Transforming protein RhoA;	Neoplasm Invasiveness	RHOA -[Inhibition]-> WNT5A -[Activation]-> Neoplasm Invasiveness	23844260	0																																		
+RHOA	Q63L	RHOA_HUMAN	CHAIN;REGION	Transforming protein RhoA;	apoptotic process	RHOA -[Inhibition]-> apoptotic process	11882313	0																																		
+RHOA	Q63L	RHOA_HUMAN	CHAIN;REGION	Transforming protein RhoA;	cell adhesion	RHOA -[Activation]-> cell adhesion	23844260	0																																		
+RHOA	Q63L	RHOA_HUMAN	CHAIN;REGION	Transforming protein RhoA;	cell cycle	RHOA -[Activation]-> TP53 -[IncreaseAmount]-> RND3 -[Complex]-> CDKN1A -[Inhibition]-> cell cycle	20453885	0																																		
+RHOA	Q63L	RHOA_HUMAN	CHAIN;REGION	Transforming protein RhoA;	cell death	RHOA -[DecreaseAmount]-> BCL2 -[Inhibition]-> cell death	11882313	0																																		
+RHOA	Q63L	RHOA_HUMAN	CHAIN;REGION	Transforming protein RhoA;	cell differentiation	RHOA -[Inhibition]-> WNT5A -[Activation]-> cell differentiation	23844260	0																																		
+RHOA	Q63L	RHOA_HUMAN	CHAIN;REGION	Transforming protein RhoA;	cell migration	RHOA -[Inhibition]-> cell migration	23844260	0																																		
+RHOA	Q63L	RHOA_HUMAN	CHAIN;REGION	Transforming protein RhoA;	cell population proliferation	RHOA -[Activation]-> cell population proliferation	21439370	0																																		
+RHOA	Q63L	RHOA_HUMAN	CHAIN;REGION	Transforming protein RhoA;	endocytosis	RHOA -[Inhibition]-> Clathrin -[Activation]-> endocytosis	18039352	0																																		
+RHOA	Q63L	RHOA_HUMAN	CHAIN;REGION	Transforming protein RhoA;	establishment or maintenance of cell polarity	RHOA -[Inhibition]-> anthra[1,9-cd]pyrazol-6(2H)-one -[Inhibition]-> establishment or maintenance of cell polarity	33770099	0																																		
+RHOA	Q63L	RHOA_HUMAN	CHAIN;REGION	Transforming protein RhoA;	inflammatory response	RHOA -[IncreaseAmount]-> RND3 -[Inhibition]-> inflammatory response	30586715	0																																		
+RHOA	Q63L	RHOA_HUMAN	CHAIN;REGION	Transforming protein RhoA;	localization	RHOA -[Inhibition]-> localization	20159593	0																																		
+RHOA	Q63L	RHOA_HUMAN	CHAIN;REGION	Transforming protein RhoA;	positive regulation of focal adhesion assembly	RHOA -[Activation]-> positive regulation of focal adhesion assembly	20453885	0																																		
+RHOA	Q63L	RHOA_HUMAN	CHAIN;REGION	Transforming protein RhoA;	positive regulation of focal adhesion assembly	RHOA -[Activation]-> positive regulation of focal adhesion assembly	24386239	0																																		
+RHOA	Q63L	RHOA_HUMAN	CHAIN;REGION	Transforming protein RhoA;	proteolysis	RHOA -[IncreaseAmount]-> IQGAP1 -[Activation]-> proteolysis	18541705	0																																		
+RHOA	Q63L	RHOA_HUMAN	CHAIN;REGION	Transforming protein RhoA;	transcription, DNA-templated	RHOA -[Activation]-> TP53 -[Activation]-> transcription, DNA-templated	20453885	0																																		
+RHOA	R68A	RHOA_HUMAN	CHAIN;REGION	Transforming protein RhoA;	cell death	RHOA -[Activation]-> cytokinesis -[Activation]-> cell death	24101377	0																																		
+RHOA	R68A	RHOA_HUMAN	CHAIN;REGION	Transforming protein RhoA;	cell population proliferation	RHOA -[Inhibition]-> cell population proliferation	24101377	0																																		
+RHOA	R68A	RHOA_HUMAN	CHAIN;REGION	Transforming protein RhoA;	cytokinesis	RHOA -[Activation]-> cytokinesis	24101377	0																																		
+RHOA	R68A	RHOA_HUMAN	CHAIN;REGION	Transforming protein RhoA;	hemopoiesis	RHOA -[Inhibition]-> hemopoiesis	24101377	0																																		
+RHOA	R68A	RHOA_HUMAN	CHAIN;REGION	Transforming protein RhoA;	necrotic cell death	RHOA -[Inhibition]-> poly I:C -[Activation]-> necrotic cell death	24101377	0																																		
+RHOA	S188A	RHOA_HUMAN	CHAIN	Transforming protein RhoA	GDP-dissociation inhibitor activity	RHOA -[Complex]-> PKN1 -[Complex]-> GDP-dissociation inhibitor activity	16109481	0																																		
+RHOA	S188A	RHOA_HUMAN	CHAIN	Transforming protein RhoA	cell differentiation	RHOA -[Activation]-> cell differentiation	16109481	0																																		
+RHOA	T19N	RHOA_HUMAN	CHAIN	Transforming protein RhoA	Carcinogenesis	RHOA -[IncreaseAmount]-> IQGAP1 -[Activation]-> Carcinogenesis	18541705	0																																		
+RHOA	T19N	RHOA_HUMAN	CHAIN	Transforming protein RhoA	Cell Survival	RHOA -[Activation]-> LPA -[Activation]-> Cell Survival	15240009	0																																		
+RHOA	T19N	RHOA_HUMAN	CHAIN	Transforming protein RhoA	GDP-dissociation inhibitor activity	RHOA -[Complex]-> GDP-dissociation inhibitor activity	21439370	0																																		
+RHOA	T19N	RHOA_HUMAN	CHAIN	Transforming protein RhoA	Neoplasm Invasiveness	RHOA -[Activation]-> LPA -[Activation]-> Neoplasm Invasiveness	15240009	0																																		
+RHOA	T19N	RHOA_HUMAN	CHAIN	Transforming protein RhoA	Neoplasm Invasiveness	RHOA -[Activation]-> Neoplasm Invasiveness	15857504	0																																		
+RHOA	T19N	RHOA_HUMAN	CHAIN	Transforming protein RhoA	Neoplasm Invasiveness	RHOA -[Activation]-> Neoplasm Invasiveness	19533666	0																																		
+RHOA	T19N	RHOA_HUMAN	CHAIN	Transforming protein RhoA	Neoplasm Invasiveness	RHOA -[IncreaseAmount]-> IQGAP1 -[Complex]-> EXOC -[Inhibition]-> Neoplasm Invasiveness	18541705	0																																		
+RHOA	T19N	RHOA_HUMAN	CHAIN	Transforming protein RhoA	Neoplasm Invasiveness	RHOA -[Inhibition]-> Neoplasm Invasiveness	19043560	0																																		
+RHOA	T19N	RHOA_HUMAN	CHAIN	Transforming protein RhoA	Neoplasm Invasiveness	RHOA -[Inhibition]-> WNT5A -[Activation]-> Neoplasm Invasiveness	23844260	0																																		
+RHOA	T19N	RHOA_HUMAN	CHAIN	Transforming protein RhoA	Neoplasm Metastasis	RHOA -[Activation]-> Neoplasm Metastasis	19533666	0																																		
+RHOA	T19N	RHOA_HUMAN	CHAIN	Transforming protein RhoA	Neoplasms	RHOA -[Inhibition]-> TNF -[Activation]-> Neoplasms	19533666	0																																		
+RHOA	T19N	RHOA_HUMAN	CHAIN	Transforming protein RhoA	biosynthetic process	RHOA -[Activation]-> AMPK -[Activation]-> biosynthetic process	30902980	0																																		
+RHOA	T19N	RHOA_HUMAN	CHAIN	Transforming protein RhoA	cell adhesion	RHOA -[Activation]-> cell adhesion	23844260	0																																		
+RHOA	T19N	RHOA_HUMAN	CHAIN	Transforming protein RhoA	cell differentiation	RHOA -[Inhibition]-> SREBF1 -[Activation]-> cell differentiation	30902980	0																																		
+RHOA	T19N	RHOA_HUMAN	CHAIN	Transforming protein RhoA	cell differentiation	RHOA -[Inhibition]-> WNT5A -[Activation]-> cell differentiation	23844260	0																																		
+RHOA	T19N	RHOA_HUMAN	CHAIN	Transforming protein RhoA	cell growth	RHOA -[Activation]-> 2-O-acetyl-1-O-octadecyl-sn-glycero-3-phosphocholine -[Activation]-> cell growth	24033386	0																																		
+RHOA	T19N	RHOA_HUMAN	CHAIN	Transforming protein RhoA	cell growth	RHOA -[Activation]-> SRF -[Inhibition]-> cell growth	15240009	0																																		
+RHOA	T19N	RHOA_HUMAN	CHAIN	Transforming protein RhoA	cell migration	RHOA -[Inhibition]-> cell migration	19533666	0																																		
+RHOA	T19N	RHOA_HUMAN	CHAIN	Transforming protein RhoA	cell migration	RHOA -[Inhibition]-> cell migration	23844260	0																																		
+RHOA	T19N	RHOA_HUMAN	CHAIN	Transforming protein RhoA	cell motility	RHOA -[Activation]-> Actin -[Activation]-> cell motility	15857504	0																																		
+RHOA	T19N	RHOA_HUMAN	CHAIN	Transforming protein RhoA	cell motility	RHOA -[Activation]-> cell motility	19533666	0																																		
+RHOA	T19N	RHOA_HUMAN	CHAIN	Transforming protein RhoA	cell population proliferation	RHOA -[Activation]-> KISS1 -[Inhibition]-> cell population proliferation	19533666	0																																		
+RHOA	T19N	RHOA_HUMAN	CHAIN	Transforming protein RhoA	cell population proliferation	RHOA -[Activation]-> LPA -[Activation]-> cell population proliferation	15240009	0																																		
+RHOA	T19N	RHOA_HUMAN	CHAIN	Transforming protein RhoA	cell population proliferation	RHOA -[Activation]-> cell population proliferation	21439370	0																																		
+RHOA	T19N	RHOA_HUMAN	CHAIN	Transforming protein RhoA	cell population proliferation	RHOA -[Activation]-> cell population proliferation	24033386	0																																		
+RHOA	T19N	RHOA_HUMAN	CHAIN	Transforming protein RhoA	cell population proliferation	RHOA -[Activation]-> cell population proliferation	28222172	0																																		
+RHOA	T19N	RHOA_HUMAN	CHAIN	Transforming protein RhoA	endocytosis	RHOA -[Inhibition]-> Clathrin -[Activation]-> endocytosis	18039352	0																																		
+RHOA	T19N	RHOA_HUMAN	CHAIN	Transforming protein RhoA	proteolysis	RHOA -[IncreaseAmount]-> IQGAP1 -[Activation]-> proteolysis	18541705	0																																		
+RHOA	T19N	RHOA_HUMAN	CHAIN	Transforming protein RhoA	signal transduction	RHOA -[Inhibition]-> ARHGEF2 -[Activation]-> gammaTriDAP -[Activation]-> signal transduction	19043560	0																																		
+RHOA	T19N	RHOA_HUMAN	CHAIN	Transforming protein RhoA	transcription, DNA-templated	RHOA -[Activation]-> SRF -[Activation]-> transcription, DNA-templated	15240009	0																																		
+RHOA	T19N	RHOA_HUMAN	CHAIN	Transforming protein RhoA	transcription, DNA-templated	RHOA -[Inhibition]-> ARHGEF2 -[Activation]-> transcription, DNA-templated	19043560	0																																		
+RHOA	Y102H	RHOA_HUMAN	CHAIN	Transforming protein RhoA	Retinal Degeneration	RHOA -[Activation]-> Retinal Degeneration	34997336	0																																		
+RHOA	Y102H	RHOA_HUMAN	CHAIN	Transforming protein RhoA	signal transduction	RHOA -[Activation]-> signal transduction	34997336	0																																		
+RHOA	Y42E	RHOA_HUMAN	CHAIN;MOTIF	Transforming protein RhoA;Effector region	RhoGDI	RHOA -[Complex]-> RhoGDI	33388549	0																																		
+RHOA	Y42E	RHOA_HUMAN	CHAIN;MOTIF	Transforming protein RhoA;Effector region	cell differentiation	RHOA -[Inhibition]-> cell differentiation	32046944	0																																		
+RHOA	Y42E	RHOA_HUMAN	CHAIN;MOTIF	Transforming protein RhoA;Effector region	cell migration	RHOA -[Inhibition]-> cell migration	33388549	0																																		
+RHOA	Y42E	RHOA_HUMAN	CHAIN;MOTIF	Transforming protein RhoA;Effector region	cell population proliferation	RHOA -[Inhibition]-> cell population proliferation	33388549	0																																		
+RHOA	Y42E	RHOA_HUMAN	CHAIN;MOTIF	Transforming protein RhoA;Effector region	kinase activity	RHOA -[Inhibition]-> CTNNB1 -[Complex]-> kinase activity	33388549	0																																		
+RHOA	Y42E	RHOA_HUMAN	CHAIN;MOTIF	Transforming protein RhoA;Effector region	transcription, DNA-templated	RHOA -[Inhibition]-> CTNNB1 -[Activation]-> transcription, DNA-templated	33388549	0																																		
+RHOA	Y42F	RHOA_HUMAN	CHAIN;MOTIF	Transforming protein RhoA;Effector region	RhoGDI	RHOA -[Complex]-> RhoGDI	33388549	0																																		
+RHOA	Y42F	RHOA_HUMAN	CHAIN;MOTIF	Transforming protein RhoA;Effector region	cell differentiation	RHOA -[Inhibition]-> cell differentiation	32046944	0																																		
+RHOA	Y42F	RHOA_HUMAN	CHAIN;MOTIF	Transforming protein RhoA;Effector region	cell migration	RHOA -[Inhibition]-> cell migration	33388549	0																																		
+RHOA	Y42F	RHOA_HUMAN	CHAIN;MOTIF	Transforming protein RhoA;Effector region	cell population proliferation	RHOA -[Inhibition]-> cell population proliferation	33388549	0																																		
+RHOA	Y42F	RHOA_HUMAN	CHAIN;MOTIF	Transforming protein RhoA;Effector region	kinase activity	RHOA -[Inhibition]-> CTNNB1 -[Complex]-> kinase activity	33388549	0																																		
+RHOA	Y42F	RHOA_HUMAN	CHAIN;MOTIF	Transforming protein RhoA;Effector region	transcription, DNA-templated	RHOA -[Inhibition]-> CTNNB1 -[Activation]-> transcription, DNA-templated	33388549	0																																		
+RHOA	Y80C	RHOA_HUMAN	CHAIN	Transforming protein RhoA	Neoplasm Invasiveness	RHOA -[Complex]-> NusG -[Inhibition]-> Neoplasm Invasiveness	31589608	0																																		
+RHOA	Y80C	RHOA_HUMAN	CHAIN	Transforming protein RhoA	gene silencing	RHOA -[Inhibition]-> gene silencing	31589608	0																																		
+RHOA	Y80C	RHOA_HUMAN	CHAIN	Transforming protein RhoA	transcription, DNA-templated	RHOA -[Inhibition]-> transcription, DNA-templated	31589608	0																																		

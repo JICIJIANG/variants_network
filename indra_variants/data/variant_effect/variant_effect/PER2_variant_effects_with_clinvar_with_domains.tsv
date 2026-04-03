@@ -1,0 +1,7 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+PER2	K736R	PER2_HUMAN	CHAIN	Period circadian protein homolog 2	Syndrome	PER2 -[Inhibition]-> Syndrome	34257372	0																																		
+PER2	K736R	PER2_HUMAN	CHAIN	Period circadian protein homolog 2	sleep	PER2 -[Inhibition]-> sleep	34257372	0																																		
+PER2	S752G	PER2_HUMAN	CHAIN	Period circadian protein homolog 2	cell cycle	PER2 -[Activation]-> cell cycle	34539343	0																																		
+PER2	S752G	PER2_HUMAN	CHAIN	Period circadian protein homolog 2	fat cell differentiation	PER2 -[Inhibition]-> fat cell differentiation	34539343	0																																		
+PER2	S752G	PER2_HUMAN	CHAIN	Period circadian protein homolog 2	gene expression	PER2 -[Activation]-> gene expression	34539343	0																																		
+PER2	S752G	PER2_HUMAN	CHAIN	Period circadian protein homolog 2	metabolic process	PER2 -[Inhibition]-> CLOCK -[Activation]-> metabolic process	34539343	0																																		

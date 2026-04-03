@@ -1,0 +1,75 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+EIF2S1	G12D	IF2A_HUMAN	CHAIN		Carcinogenesis	EIF2S1 -[Inhibition]-> DUSP6 -[Inhibition]-> KRAS -[Activation]-> Carcinogenesis	34330898	0																																		
+EIF2S1	G12D	IF2A_HUMAN	CHAIN		translation	EIF2S1 -[Activation]-> translation	34330898	0																																		
+EIF2S1	S49A	IF2A_HUMAN	CHAIN;DOMAIN	;S1 motif	Paralysis	EIF2S1 -[Inhibition]-> Paralysis	34407398	0																																		
+EIF2S1	S49A	IF2A_HUMAN	CHAIN;DOMAIN	;S1 motif	translation	EIF2S1 -[Inhibition]-> translation	34407398	0																																		
+EIF2S1	S49D	IF2A_HUMAN	CHAIN;DOMAIN	;S1 motif	Paralysis	EIF2S1 -[Inhibition]-> Paralysis	34407398	0																																		
+EIF2S1	S49D	IF2A_HUMAN	CHAIN;DOMAIN	;S1 motif	translation	EIF2S1 -[Inhibition]-> translation	34407398	0																																		
+EIF2S1	S51A	IF2A_HUMAN	CHAIN;DOMAIN	;S1 motif	Alzheimer Disease	EIF2S1 -[IncreaseAmount]-> BACE1 -[Activation]-> Alzheimer Disease	24992504	0																																		
+EIF2S1	S51A	IF2A_HUMAN	CHAIN;DOMAIN	;S1 motif	Cell Survival	EIF2S1 -[Activation]-> CDKN1A -[Inhibition]-> Cell Survival	26102367	0																																		
+EIF2S1	S51A	IF2A_HUMAN	CHAIN;DOMAIN	;S1 motif	Cell Survival	EIF2S1 -[Inhibition]-> CFLAR -[Inhibition]-> Cell Survival	18787411	0																																		
+EIF2S1	S51A	IF2A_HUMAN	CHAIN;DOMAIN	;S1 motif	Death	EIF2S1 -[Activation]-> EIF2AK2 -[Activation]-> Death	12737801	0																																		
+EIF2S1	S51A	IF2A_HUMAN	CHAIN;DOMAIN	;S1 motif	Death	EIF2S1 -[Activation]-> FK866 -[Activation]-> Death	26542945	0																																		
+EIF2S1	S51A	IF2A_HUMAN	CHAIN;DOMAIN	;S1 motif	Death	EIF2S1 -[Inhibition]-> vorinostat -[DecreaseAmount]-> c-FLIP-s -[Inhibition]-> Death	18787411	0																																		
+EIF2S1	S51A	IF2A_HUMAN	CHAIN;DOMAIN	;S1 motif	Death_receptor	EIF2S1 -[Inhibition]-> vorinostat -[Phosphorylation]-> FAS -[Complex]-> Death Domain -[Complex]-> Death_receptor	18787411	0																																		
+EIF2S1	S51A	IF2A_HUMAN	CHAIN;DOMAIN	;S1 motif	Genomic Instability	EIF2S1 -[Inhibition]-> BRCA1 -[Activation]-> Genomic Instability	25762631	0																																		
+EIF2S1	S51A	IF2A_HUMAN	CHAIN;DOMAIN	;S1 motif	Leukemia	EIF2S1 -[Activation]-> FK866 -[Inhibition]-> Leukemia	26542945	0																																		
+EIF2S1	S51A	IF2A_HUMAN	CHAIN;DOMAIN	;S1 motif	Neoplasm Metastasis	EIF2S1 -[Activation]-> lapatinib -[Activation]-> NCK1 -[Activation]-> Neoplasm Metastasis	23706161	0																																		
+EIF2S1	S51A	IF2A_HUMAN	CHAIN;DOMAIN	;S1 motif	Neoplasms	EIF2S1 -[Inhibition]-> vorinostat -[Inhibition]-> Neoplasms	18787411	0																																		
+EIF2S1	S51A	IF2A_HUMAN	CHAIN;DOMAIN	;S1 motif	apoptotic process	EIF2S1 -[Activation]-> AMPK -[Activation]-> apoptotic process	26542945	0																																		
+EIF2S1	S51A	IF2A_HUMAN	CHAIN;DOMAIN	;S1 motif	apoptotic process	EIF2S1 -[Activation]-> apoptotic process	12687390	0																																		
+EIF2S1	S51A	IF2A_HUMAN	CHAIN;DOMAIN	;S1 motif	apoptotic process	EIF2S1 -[Activation]-> apoptotic process	24525736	0																																		
+EIF2S1	S51A	IF2A_HUMAN	CHAIN;DOMAIN	;S1 motif	apoptotic process	EIF2S1 -[Activation]-> autophagy -[Activation]-> apoptotic process	20145727	0																																		
+EIF2S1	S51A	IF2A_HUMAN	CHAIN;DOMAIN	;S1 motif	apoptotic process	EIF2S1 -[Inhibition]-> CFLAR -[Inhibition]-> apoptotic process	18787411	0																																		
+EIF2S1	S51A	IF2A_HUMAN	CHAIN;DOMAIN	;S1 motif	apoptotic process	EIF2S1 -[Inhibition]-> apoptotic process	19583950	0																																		
+EIF2S1	S51A	IF2A_HUMAN	CHAIN;DOMAIN	;S1 motif	apoptotic process	EIF2S1 -[Inhibition]-> apoptotic process	26637930	0																																		
+EIF2S1	S51A	IF2A_HUMAN	CHAIN;DOMAIN	;S1 motif	autophagic cell death	EIF2S1 -[Activation]-> AMPK -[Inhibition]-> MTOR -[Activation]-> autophagic cell death	26542945	0																																		
+EIF2S1	S51A	IF2A_HUMAN	CHAIN;DOMAIN	;S1 motif	autophagy	EIF2S1 -[Activation]-> FK866 -[Activation]-> autophagy	26542945	0																																		
+EIF2S1	S51A	IF2A_HUMAN	CHAIN;DOMAIN	;S1 motif	autophagy	EIF2S1 -[Activation]-> autophagy	20145727	0																																		
+EIF2S1	S51A	IF2A_HUMAN	CHAIN;DOMAIN	;S1 motif	autophagy	EIF2S1 -[Inhibition]-> CFLAR -[Activation]-> autophagy	18787411	0																																		
+EIF2S1	S51A	IF2A_HUMAN	CHAIN;DOMAIN	;S1 motif	cell cycle	EIF2S1 -[Activation]-> CDKN1A -[Inhibition]-> cell cycle	26102367	0																																		
+EIF2S1	S51A	IF2A_HUMAN	CHAIN;DOMAIN	;S1 motif	cell death	EIF2S1 -[Activation]-> FK866 -[Inhibition]-> cell death	26542945	0																																		
+EIF2S1	S51A	IF2A_HUMAN	CHAIN;DOMAIN	;S1 motif	cell death	EIF2S1 -[Activation]-> cell death	19583950	0																																		
+EIF2S1	S51A	IF2A_HUMAN	CHAIN;DOMAIN	;S1 motif	cell death	EIF2S1 -[Activation]-> cell death	23706161	0																																		
+EIF2S1	S51A	IF2A_HUMAN	CHAIN;DOMAIN	;S1 motif	cell death	EIF2S1 -[Activation]-> cell death	24525736	0																																		
+EIF2S1	S51A	IF2A_HUMAN	CHAIN;DOMAIN	;S1 motif	cell death	EIF2S1 -[Inhibition]-> CFLAR -[Inhibition]-> CASP8 -[Activation]-> cell death	18787411	0																																		
+EIF2S1	S51A	IF2A_HUMAN	CHAIN;DOMAIN	;S1 motif	cell death	EIF2S1 -[Inhibition]-> cell death	12737801	0																																		
+EIF2S1	S51A	IF2A_HUMAN	CHAIN;DOMAIN	;S1 motif	cell death	EIF2S1 -[Phosphorylation]-> DDIT3 -[Activation]-> cell death	20145727	0																																		
+EIF2S1	S51A	IF2A_HUMAN	CHAIN;DOMAIN	;S1 motif	cell differentiation	EIF2S1 -[Inhibition]-> BRCA1 -[Inhibition]-> cell differentiation	25762631	0																																		
+EIF2S1	S51A	IF2A_HUMAN	CHAIN;DOMAIN	;S1 motif	cell killing	EIF2S1 -[Activation]-> lapatinib -[Activation]-> cell killing	23706161	0																																		
+EIF2S1	S51A	IF2A_HUMAN	CHAIN;DOMAIN	;S1 motif	cell killing	EIF2S1 -[Inhibition]-> vorinostat -[Activation]-> cell killing	18787411	0																																		
+EIF2S1	S51A	IF2A_HUMAN	CHAIN;DOMAIN	;S1 motif	cell population proliferation	EIF2S1 -[Activation]-> ATF4 -[Activation]-> cell population proliferation	33646118	0																																		
+EIF2S1	S51A	IF2A_HUMAN	CHAIN;DOMAIN	;S1 motif	cell population proliferation	EIF2S1 -[Activation]-> cell population proliferation	23095523	0																																		
+EIF2S1	S51A	IF2A_HUMAN	CHAIN;DOMAIN	;S1 motif	cell population proliferation	EIF2S1 -[Inhibition]-> BRCA1 -[Inhibition]-> cell population proliferation	25762631	0																																		
+EIF2S1	S51A	IF2A_HUMAN	CHAIN;DOMAIN	;S1 motif	homeostatic process	EIF2S1 -[Activation]-> homeostatic process	19583950	0																																		
+EIF2S1	S51A	IF2A_HUMAN	CHAIN;DOMAIN	;S1 motif	localization	EIF2S1 -[Inhibition]-> vorinostat -[IncreaseAmount]-> SMPD1 -[Activation]-> localization	18787411	0																																		
+EIF2S1	S51A	IF2A_HUMAN	CHAIN;DOMAIN	;S1 motif	response to stress	EIF2S1 -[Activation]-> response to stress	24992504	0																																		
+EIF2S1	S51A	IF2A_HUMAN	CHAIN;DOMAIN	;S1 motif	transcription, DNA-templated	EIF2S1 -[Activation]-> FK866 -[Inhibition]-> transcription, DNA-templated	26542945	0																																		
+EIF2S1	S51A	IF2A_HUMAN	CHAIN;DOMAIN	;S1 motif	transcription, DNA-templated	EIF2S1 -[Activation]-> transcription, DNA-templated	20145727	0																																		
+EIF2S1	S51A	IF2A_HUMAN	CHAIN;DOMAIN	;S1 motif	transcription, DNA-templated	EIF2S1 -[IncreaseAmount]-> BACE1 -[Activation]-> transcription, DNA-templated	24992504	0																																		
+EIF2S1	S51A	IF2A_HUMAN	CHAIN;DOMAIN	;S1 motif	translation	EIF2S1 -[Activation]-> translation	21552349	0																																		
+EIF2S1	S51A	IF2A_HUMAN	CHAIN;DOMAIN	;S1 motif	translation	EIF2S1 -[Activation]-> translation	26102367	0																																		
+EIF2S1	S51A	IF2A_HUMAN	CHAIN;DOMAIN	;S1 motif	translation	EIF2S1 -[Activation]-> translation	26542945	0																																		
+EIF2S1	S51A	IF2A_HUMAN	CHAIN;DOMAIN	;S1 motif	translation	EIF2S1 -[Inhibition]-> EV71-2A -[Inhibition]-> translation	29415027	0																																		
+EIF2S1	S51A	IF2A_HUMAN	CHAIN;DOMAIN	;S1 motif	translation	EIF2S1 -[Inhibition]-> translation	19583950	0																																		
+EIF2S1	S51A	IF2A_HUMAN	CHAIN;DOMAIN	;S1 motif	translation	EIF2S1 -[Inhibition]-> translation	23095523	0																																		
+EIF2S1	S51A	IF2A_HUMAN	CHAIN;DOMAIN	;S1 motif	translation	EIF2S1 -[Inhibition]-> translation	24992504	0																																		
+EIF2S1	S51A	IF2A_HUMAN	CHAIN;DOMAIN	;S1 motif	translation	EIF2S1 -[Inhibition]-> translation	25120434	0																																		
+EIF2S1	S51A	IF2A_HUMAN	CHAIN;DOMAIN	;S1 motif	translation	EIF2S1 -[Inhibition]-> translation	25762631	0																																		
+EIF2S1	S51A	IF2A_HUMAN	CHAIN;DOMAIN	;S1 motif	translation	EIF2S1 -[Inhibition]-> translation	33646118	0																																		
+EIF2S1	S51D	IF2A_HUMAN	CHAIN;DOMAIN	;S1 motif	Death	EIF2S1 -[Complex]-> EIF2AK2 -[Activation]-> Death	10216948	0																																		
+EIF2S1	S51D	IF2A_HUMAN	CHAIN;DOMAIN	;S1 motif	apoptotic process	EIF2S1 -[Activation]-> apoptotic process	10216948	0																																		
+EIF2S1	S51D	IF2A_HUMAN	CHAIN;DOMAIN	;S1 motif	apoptotic process	EIF2S1 -[Activation]-> apoptotic process	10613902	0																																		
+EIF2S1	S51D	IF2A_HUMAN	CHAIN;DOMAIN	;S1 motif	apoptotic process	EIF2S1 -[Activation]-> apoptotic process	12687390	0																																		
+EIF2S1	S51D	IF2A_HUMAN	CHAIN;DOMAIN	;S1 motif	apoptotic process	EIF2S1 -[Activation]-> apoptotic process	24525736	0																																		
+EIF2S1	S51D	IF2A_HUMAN	CHAIN;DOMAIN	;S1 motif	apoptotic process	EIF2S1 -[Complex]-> EIF2B -[Activation]-> response to stress -[Activation]-> apoptotic process	29036434	0																																		
+EIF2S1	S51D	IF2A_HUMAN	CHAIN;DOMAIN	;S1 motif	cell death	EIF2S1 -[Activation]-> cell death	24525736	0																																		
+EIF2S1	S51D	IF2A_HUMAN	CHAIN;DOMAIN	;S1 motif	cell growth	EIF2S1 -[Inhibition]-> cell growth	10216948	0																																		
+EIF2S1	S51D	IF2A_HUMAN	CHAIN;DOMAIN	;S1 motif	cell population proliferation	EIF2S1 -[Complex]-> EIF2AK2 -[Inhibition]-> cell population proliferation	10216948	0																																		
+EIF2S1	S51D	IF2A_HUMAN	CHAIN;DOMAIN	;S1 motif	response to stress	EIF2S1 -[Complex]-> EIF2B -[Activation]-> response to stress	29036434	0																																		
+EIF2S1	S51D	IF2A_HUMAN	CHAIN;DOMAIN	;S1 motif	translation	EIF2S1 -[Activation]-> cytoplasmic stress granule -[Inhibition]-> translation	10613902	0																																		
+EIF2S1	S51D	IF2A_HUMAN	CHAIN;DOMAIN	;S1 motif	translation	EIF2S1 -[Activation]-> translation	29302060	0																																		
+EIF2S1	S51D	IF2A_HUMAN	CHAIN;DOMAIN	;S1 motif	translation	EIF2S1 -[Inhibition]-> translation	10216948	0																																		
+EIF2S1	S51D	IF2A_HUMAN	CHAIN;DOMAIN	;S1 motif	translation	EIF2S1 -[Inhibition]-> translation	16855285	0																																		
+EIF2S1	S51D	IF2A_HUMAN	CHAIN;DOMAIN	;S1 motif	translation	EIF2S1 -[Inhibition]-> translation	22522146	0																																		
+EIF2S1	S51D	IF2A_HUMAN	CHAIN;DOMAIN	;S1 motif	transport	EIF2S1 -[Activation]-> CALR -[Activation]-> transport	22522146	0																																		

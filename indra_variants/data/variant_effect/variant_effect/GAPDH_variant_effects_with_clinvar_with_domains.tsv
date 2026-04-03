@@ -1,0 +1,32 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+GAPDH	C149G	G3P_HUMAN	CHAIN	Glyceraldehyde-3-phosphate dehydrogenase	transport	GAPDH -[Activation]-> transport	23374344	0																																		
+GAPDH	C150S	G3P_HUMAN	CHAIN	Glyceraldehyde-3-phosphate dehydrogenase	Cell Survival	GAPDH -[Activation]-> CIB1 -[Inhibition]-> Cell Survival	22964641	0																																		
+GAPDH	C150S	G3P_HUMAN	CHAIN	Glyceraldehyde-3-phosphate dehydrogenase	DNA Damage	GAPDH -[Activation]-> DNA Damage	22964641	0																																		
+GAPDH	C150S	G3P_HUMAN	CHAIN	Glyceraldehyde-3-phosphate dehydrogenase	DNA damage checkpoint	GAPDH -[Activation]-> DNA damage checkpoint	22964641	0																																		
+GAPDH	C150S	G3P_HUMAN	CHAIN	Glyceraldehyde-3-phosphate dehydrogenase	acetyltransferase activity	GAPDH -[Complex]-> acetyltransferase activity	22964641	0																																		
+GAPDH	C150S	G3P_HUMAN	CHAIN	Glyceraldehyde-3-phosphate dehydrogenase	apoptotic process	GAPDH -[Activation]-> CIB1 -[Activation]-> apoptotic process	22964641	0																																		
+GAPDH	C150S	G3P_HUMAN	CHAIN	Glyceraldehyde-3-phosphate dehydrogenase	apoptotic process	GAPDH -[Activation]-> apoptotic process	23332158	0																																		
+GAPDH	C150S	G3P_HUMAN	CHAIN	Glyceraldehyde-3-phosphate dehydrogenase	cell cycle	GAPDH -[Activation]-> CIB1 -[Inhibition]-> cell cycle	22964641	0																																		
+GAPDH	C150S	G3P_HUMAN	CHAIN	Glyceraldehyde-3-phosphate dehydrogenase	cell death	GAPDH -[Activation]-> cell death	22964641	0																																		
+GAPDH	C150S	G3P_HUMAN	CHAIN	Glyceraldehyde-3-phosphate dehydrogenase	cell population proliferation	GAPDH -[Activation]-> cell population proliferation	22964641	0																																		
+GAPDH	C150S	G3P_HUMAN	CHAIN	Glyceraldehyde-3-phosphate dehydrogenase	mitotic G2/M transition checkpoint	GAPDH -[Inhibition]-> mitotic G2/M transition checkpoint	22964641	0																																		
+GAPDH	C152A	G3P_HUMAN	CHAIN	Glyceraldehyde-3-phosphate dehydrogenase	Alzheimer Disease	GAPDH -[Activation]-> nitric oxide -[Inhibition]-> Alzheimer Disease	28167533	0																																		
+GAPDH	C152A	G3P_HUMAN	CHAIN	Glyceraldehyde-3-phosphate dehydrogenase	Death	GAPDH -[Activation]-> Death	28167533	0																																		
+GAPDH	C152A	G3P_HUMAN	CHAIN	Glyceraldehyde-3-phosphate dehydrogenase	Necrosis	GAPDH -[Activation]-> Necrosis	28167533	0																																		
+GAPDH	C152A	G3P_HUMAN	CHAIN	Glyceraldehyde-3-phosphate dehydrogenase	Parkinson Disease	GAPDH -[Activation]-> nitric oxide -[Inhibition]-> Parkinson Disease	28167533	0																																		
+GAPDH	C152A	G3P_HUMAN	CHAIN	Glyceraldehyde-3-phosphate dehydrogenase	Stroke	GAPDH -[Activation]-> nitric oxide -[Inhibition]-> Stroke	28167533	0																																		
+GAPDH	C152A	G3P_HUMAN	CHAIN	Glyceraldehyde-3-phosphate dehydrogenase	cell death	GAPDH -[Activation]-> cell death	28167533	0																																		
+GAPDH	K160R	G3P_HUMAN	CHAIN	Glyceraldehyde-3-phosphate dehydrogenase	Cell Survival	GAPDH -[Activation]-> CIB1 -[Inhibition]-> Cell Survival	22964641	0																																		
+GAPDH	K160R	G3P_HUMAN	CHAIN	Glyceraldehyde-3-phosphate dehydrogenase	DNA Damage	GAPDH -[Activation]-> DNA Damage	22964641	0																																		
+GAPDH	K160R	G3P_HUMAN	CHAIN	Glyceraldehyde-3-phosphate dehydrogenase	DNA damage checkpoint	GAPDH -[Activation]-> DNA damage checkpoint	22964641	0																																		
+GAPDH	K160R	G3P_HUMAN	CHAIN	Glyceraldehyde-3-phosphate dehydrogenase	acetyltransferase activity	GAPDH -[Complex]-> acetyltransferase activity	22964641	0																																		
+GAPDH	K160R	G3P_HUMAN	CHAIN	Glyceraldehyde-3-phosphate dehydrogenase	apoptotic process	GAPDH -[Activation]-> CIB1 -[Activation]-> apoptotic process	22964641	0																																		
+GAPDH	K160R	G3P_HUMAN	CHAIN	Glyceraldehyde-3-phosphate dehydrogenase	apoptotic process	GAPDH -[Activation]-> apoptotic process	18552833	0																																		
+GAPDH	K160R	G3P_HUMAN	CHAIN	Glyceraldehyde-3-phosphate dehydrogenase	autophagy	GAPDH -[Inhibition]-> autophagy	18552833	0																																		
+GAPDH	K160R	G3P_HUMAN	CHAIN	Glyceraldehyde-3-phosphate dehydrogenase	cell cycle	GAPDH -[Activation]-> CIB1 -[Inhibition]-> cell cycle	22964641	0																																		
+GAPDH	K160R	G3P_HUMAN	CHAIN	Glyceraldehyde-3-phosphate dehydrogenase	cell death	GAPDH -[Activation]-> cell death	18552833	0																																		
+GAPDH	K160R	G3P_HUMAN	CHAIN	Glyceraldehyde-3-phosphate dehydrogenase	cell death	GAPDH -[Activation]-> cell death	22964641	0																																		
+GAPDH	K160R	G3P_HUMAN	CHAIN	Glyceraldehyde-3-phosphate dehydrogenase	cell population proliferation	GAPDH -[Activation]-> cell population proliferation	22964641	0																																		
+GAPDH	K160R	G3P_HUMAN	CHAIN	Glyceraldehyde-3-phosphate dehydrogenase	mitotic G2/M transition checkpoint	GAPDH -[Inhibition]-> mitotic G2/M transition checkpoint	22964641	0																																		
+GAPDH	T246A	G3P_HUMAN	CHAIN;MOTIF	Glyceraldehyde-3-phosphate dehydrogenase;[IL]-x-C-x-x-[DE] motif	apoptotic process	GAPDH -[Inhibition]-> apoptotic process	25399565	0																																		
+GAPDH	Y41F	G3P_HUMAN	CHAIN;REGION	Glyceraldehyde-3-phosphate dehydrogenase;Interaction with WARS1	transport	GAPDH -[Inhibition]-> transport	17488287	0																																		

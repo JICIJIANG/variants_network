@@ -1,0 +1,19 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+NAT2	A106D	ARY2_HUMAN	CHAIN	Arylamine N-acetyltransferase 2	Cell Survival	NAT2 -[Inhibition]-> Cell Survival	31195097	0																																		
+NAT2	A106D	ARY2_HUMAN	CHAIN	Arylamine N-acetyltransferase 2	cell growth	NAT2 -[Inhibition]-> cell growth	25833713	0																																		
+NAT2	A106D	ARY2_HUMAN	CHAIN	Arylamine N-acetyltransferase 2	cell growth	NAT2 -[Inhibition]-> cell growth	31195097	0																																		
+NAT2	A106D	ARY2_HUMAN	CHAIN	Arylamine N-acetyltransferase 2	cell killing	NAT2 -[Inhibition]-> cell killing	31195097	0																																		
+NAT2	A128P	ARY2_HUMAN	CHAIN	Arylamine N-acetyltransferase 2	Cell Survival	NAT2 -[Inhibition]-> Cell Survival	31195097	0																																		
+NAT2	A128P	ARY2_HUMAN	CHAIN	Arylamine N-acetyltransferase 2	cell death	NAT2 -[Activation]-> cell death	19160490	0																																		
+NAT2	A128P	ARY2_HUMAN	CHAIN	Arylamine N-acetyltransferase 2	cell growth	NAT2 -[Inhibition]-> cell growth	19160490	0																																		
+NAT2	A128P	ARY2_HUMAN	CHAIN	Arylamine N-acetyltransferase 2	cell growth	NAT2 -[Inhibition]-> cell growth	25833713	0																																		
+NAT2	A128P	ARY2_HUMAN	CHAIN	Arylamine N-acetyltransferase 2	cell growth	NAT2 -[Inhibition]-> cell growth	31195097	0																																		
+NAT2	A128P	ARY2_HUMAN	CHAIN	Arylamine N-acetyltransferase 2	cell killing	NAT2 -[Inhibition]-> cell killing	31195097	0																																		
+NAT2	A128P	ARY2_HUMAN	CHAIN	Arylamine N-acetyltransferase 2	cellular component biogenesis	NAT2 -[Activation]-> cellular component biogenesis	19160490	0																																		
+NAT2	A128P	ARY2_HUMAN	CHAIN	Arylamine N-acetyltransferase 2	regulation of mitochondrial membrane potential	NAT2 -[Inhibition]-> regulation of mitochondrial membrane potential	19160490	0																																		
+NAT2	A137D	ARY2_HUMAN	CHAIN	Arylamine N-acetyltransferase 2	cell growth	NAT2 -[Inhibition]-> cell growth	25833713	0																																		
+NAT2	M114P	ARY2_HUMAN	CHAIN	Arylamine N-acetyltransferase 2	Cell Survival	NAT2 -[Inhibition]-> Cell Survival	31195097	0																																		
+NAT2	M114P	ARY2_HUMAN	CHAIN	Arylamine N-acetyltransferase 2	cell growth	NAT2 -[Inhibition]-> cell growth	25833713	0																																		
+NAT2	M114P	ARY2_HUMAN	CHAIN	Arylamine N-acetyltransferase 2	cell growth	NAT2 -[Inhibition]-> cell growth	31195097	0																																		
+NAT2	M114P	ARY2_HUMAN	CHAIN	Arylamine N-acetyltransferase 2	cell killing	NAT2 -[Inhibition]-> cell killing	31195097	0																																		
+NAT2	S303M				oxidative phosphorylation	NAT2 -[Activation]-> oxidative phosphorylation	18504126	0																																		

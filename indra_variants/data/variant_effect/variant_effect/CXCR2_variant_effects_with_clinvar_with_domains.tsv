@@ -1,0 +1,6 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+CXCR2	G354W	CXCR2_HUMAN	CHAIN	C-X-C chemokine receptor type 2	DNA Damage	CXCR2 -[Activation]-> DNA Damage	18555777	0																																		
+CXCR2	G354W	CXCR2_HUMAN	CHAIN	C-X-C chemokine receptor type 2	DNA damage checkpoint	CXCR2 -[Activation]-> DNA damage checkpoint	18555777	0																																		
+CXCR2	G354W	CXCR2_HUMAN	CHAIN	C-X-C chemokine receptor type 2	cell population proliferation	CXCR2 -[Inhibition]-> cell population proliferation	18555777	0																																		
+CXCR2	G354W	CXCR2_HUMAN	CHAIN	C-X-C chemokine receptor type 2	cellular senescence	CXCR2 -[Activation]-> cellular senescence	18555777	0																																		
+CXCR2	K327R	CXCR2_HUMAN	CHAIN	C-X-C chemokine receptor type 2	angiogenesis	CXCR2 -[Activation]-> CXCL8 -[Activation]-> angiogenesis	25339290	0																																		

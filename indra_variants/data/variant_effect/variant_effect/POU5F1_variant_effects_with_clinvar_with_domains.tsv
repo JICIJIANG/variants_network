@@ -1,0 +1,12 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+POU5F1	K118R	PO5F1_HUMAN	CHAIN	POU domain, class 5, transcription factor 1	cell differentiation	POU5F1 -[IncreaseAmount]-> NANOG -[Activation]-> cell differentiation	22745796	0																																		
+POU5F1	S236D	PO5F1_HUMAN	CHAIN	POU domain, class 5, transcription factor 1	Neoplasms	POU5F1 -[Inhibition]-> Neoplasms	32932964	0																																		
+POU5F1	S236D	PO5F1_HUMAN	CHAIN	POU domain, class 5, transcription factor 1	angiogenesis	POU5F1 -[Activation]-> angiogenesis	32932964	0																																		
+POU5F1	S236D	PO5F1_HUMAN	CHAIN	POU domain, class 5, transcription factor 1	cell differentiation	POU5F1 -[Inhibition]-> cell differentiation	32932964	0																																		
+POU5F1	S347A	PO5F1_HUMAN	CHAIN	POU domain, class 5, transcription factor 1	cell differentiation	POU5F1 -[Activation]-> cell differentiation	29153991	0																																		
+POU5F1	S347A	PO5F1_HUMAN	CHAIN	POU domain, class 5, transcription factor 1	proteolysis	POU5F1 -[Inhibition]-> proteolysis	29153991	0																																		
+POU5F1	S347A	PO5F1_HUMAN	CHAIN	POU domain, class 5, transcription factor 1	transcription, DNA-templated	POU5F1 -[Phosphorylation]-> JNK -[Inhibition]-> transcription, DNA-templated	29153991	0																																		
+POU5F1	T235D	PO5F1_HUMAN	CHAIN	POU domain, class 5, transcription factor 1	Cell Survival	POU5F1 -[Activation]-> Cell Survival	23041284	0																																		
+POU5F1	T235D	PO5F1_HUMAN	CHAIN	POU domain, class 5, transcription factor 1	cell differentiation	POU5F1 -[Inhibition]-> cell differentiation	23041284	0																																		
+POU5F1	T235D	PO5F1_HUMAN	CHAIN	POU domain, class 5, transcription factor 1	cell population proliferation	POU5F1 -[Activation]-> cell population proliferation	23041284	0																																		
+POU5F1	T235D	PO5F1_HUMAN	CHAIN	POU domain, class 5, transcription factor 1	transcription, DNA-templated	POU5F1 -[Inhibition]-> transcription, DNA-templated	23041284	0																																		

@@ -1,0 +1,8 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+USP8	C748A	UBP8_HUMAN	CHAIN	Ubiquitin carboxyl-terminal hydrolase 8	autophagy	USP8 -[Activation]-> autophagy	30931944	0																																		
+USP8	C748A	UBP8_HUMAN	CHAIN	Ubiquitin carboxyl-terminal hydrolase 8	cell differentiation	USP8 -[Inhibition]-> cell differentiation	25662281	0																																		
+USP8	C748A	UBP8_HUMAN	CHAIN	Ubiquitin carboxyl-terminal hydrolase 8	gene expression	USP8 -[Activation]-> gene expression	30931944	0																																		
+USP8	C748A	UBP8_HUMAN	CHAIN	Ubiquitin carboxyl-terminal hydrolase 8	homeostatic process	USP8 -[Activation]-> autophagy -[Inhibition]-> homeostatic process	30931944	0																																		
+USP8	D442G	UBP8_HUMAN	CHAIN;REGION	Ubiquitin carboxyl-terminal hydrolase 8;Disordered	Parkinson Disease	USP8 -[Activation]-> Parkinson Disease	37981592	0																																		
+USP8	D442G	UBP8_HUMAN	CHAIN;REGION	Ubiquitin carboxyl-terminal hydrolase 8;Disordered	localization	USP8 -[Activation]-> localization	37981592	0																																		
+USP8	S680A	UBP8_HUMAN	CHAIN;REGION	Ubiquitin carboxyl-terminal hydrolase 8;Disordered	endocytosis	USP8 -[Inhibition]-> CHMP1B -[Complex]-> Ubiquitin -[Activation]-> endocytosis	29933386	0																																		

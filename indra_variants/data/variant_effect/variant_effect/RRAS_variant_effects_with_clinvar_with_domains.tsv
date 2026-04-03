@@ -1,0 +1,9 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+RRAS	D64A	RRAS_HUMAN	CHAIN;MOTIF	Ras-related protein R-Ras;Effector region	cell migration	RRAS -[Inhibition]-> cell migration	16702230	0																																		
+RRAS	G38V	RRAS_HUMAN	CHAIN	Ras-related protein R-Ras	Neoplasm Invasiveness	RRAS -[Activation]-> Neoplasm Invasiveness	20585650	0																																		
+RRAS	G38V	RRAS_HUMAN	CHAIN	Ras-related protein R-Ras	Neoplasm Metastasis	RRAS -[Activation]-> FLNA -[Activation]-> Neoplasm Metastasis	20585650	0																																		
+RRAS	G38V	RRAS_HUMAN	CHAIN	Ras-related protein R-Ras	cell adhesion	RRAS -[Activation]-> cell adhesion	20585650	0																																		
+RRAS	G38V	RRAS_HUMAN	CHAIN	Ras-related protein R-Ras	cell migration	RRAS -[Activation]-> cell migration	20585650	0																																		
+RRAS	G38V	RRAS_HUMAN	CHAIN	Ras-related protein R-Ras	cell motility	RRAS -[Activation]-> cell motility	22751447	0																																		
+RRAS	G38V	RRAS_HUMAN	CHAIN	Ras-related protein R-Ras	localization	RRAS -[Inhibition]-> localization	22751447	0																																		
+RRAS	Q87L	RRAS_HUMAN	CHAIN	Ras-related protein R-Ras	cell death	RRAS -[Inhibition]-> cell death	9349502	0																																		

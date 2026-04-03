@@ -1,0 +1,9 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+RAB23	Q68L	RAB23_HUMAN	CHAIN	Ras-related protein Rab-23	Neoplasm Invasiveness	RAB23 -[Activation]-> Neoplasm Invasiveness	26716504	0																																		
+RAB23	Q68L	RAB23_HUMAN	CHAIN	Ras-related protein Rab-23	cell migration	RAB23 -[Activation]-> cell migration	26716504	0																																		
+RAB23	S23N	RAB23_HUMAN	CHAIN	Ras-related protein Rab-23	Neoplasm Invasiveness	RAB23 -[Activation]-> Neoplasm Invasiveness	22365972	0																																		
+RAB23	S23N	RAB23_HUMAN	CHAIN	Ras-related protein Rab-23	Neoplasm Invasiveness	RAB23 -[Activation]-> Neoplasm Invasiveness	26716504	0																																		
+RAB23	S23N	RAB23_HUMAN	CHAIN	Ras-related protein Rab-23	cell migration	RAB23 -[Activation]-> cell migration	26716504	0																																		
+RAB23	S23N	RAB23_HUMAN	CHAIN	Ras-related protein Rab-23	cell population proliferation	RAB23 -[Inhibition]-> cell population proliferation	22365972	0																																		
+RAB23	S23N	RAB23_HUMAN	CHAIN	Ras-related protein Rab-23	localization	RAB23 -[Activation]-> localization	22365972	0																																		
+RAB23	S23N	RAB23_HUMAN	CHAIN	Ras-related protein Rab-23	transcription, DNA-templated	RAB23 -[Inhibition]-> transcription, DNA-templated	22365972	0																																		

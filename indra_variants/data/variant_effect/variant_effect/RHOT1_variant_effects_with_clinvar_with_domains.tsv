@@ -1,0 +1,8 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+RHOT1	E208K	MIRO1_HUMAN	CHAIN;DOMAIN	Mitochondrial Rho GTPase 1;EF-hand 1	transport	RHOT1 -[Activation]-> transport	22258555	0																																		
+RHOT1	E208K	MIRO1_HUMAN	CHAIN;DOMAIN	Mitochondrial Rho GTPase 1;EF-hand 1	transport	RHOT1 -[Inhibition]-> transport	28973175	0																																		
+RHOT1	E328K	MIRO1_HUMAN	CHAIN;DOMAIN	Mitochondrial Rho GTPase 1;EF-hand 2	transport	RHOT1 -[Activation]-> transport	22258555	0																																		
+RHOT1	E328K	MIRO1_HUMAN	CHAIN;DOMAIN	Mitochondrial Rho GTPase 1;EF-hand 2	transport	RHOT1 -[Inhibition]-> transport	28973175	0																																		
+RHOT1	K105Q	MIRO1_HUMAN	CHAIN;DOMAIN	Mitochondrial Rho GTPase 1;Miro 1	transport	RHOT1 -[Inhibition]-> transport	31068376	0																																		
+RHOT1	R272Q	MIRO1_HUMAN	CHAIN	Mitochondrial Rho GTPase 1	neurotransmitter uptake	RHOT1 -[Inhibition]-> neurotransmitter uptake	36533136	0																																		
+RHOT1	S156A	MIRO1_HUMAN	CHAIN;DOMAIN	Mitochondrial Rho GTPase 1;Miro 1	autophagy of mitochondrion	RHOT1 -[Inhibition]-> autophagy of mitochondrion	35455950	0																																		

@@ -1,0 +1,7 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+RHEBL1	D60K	REBL1_HUMAN	CHAIN	GTPase RhebL1	GAP	RHEBL1 -[Activation]-> AKT -[Inhibition]-> GAP	28209923	0																																		
+RHEBL1	D60K	REBL1_HUMAN	CHAIN	GTPase RhebL1	Neoplasm Invasiveness	RHEBL1 -[Activation]-> Neoplasm Invasiveness	28209923	0																																		
+RHEBL1	D60K	REBL1_HUMAN	CHAIN	GTPase RhebL1	endocytosis	RHEBL1 -[Inhibition]-> sphingosine-1-phosphocholine -[Activation]-> endocytosis	28209923	0																																		
+RHEBL1	Q64L	REBL1_HUMAN	CHAIN	GTPase RhebL1	GAP	RHEBL1 -[Activation]-> AKT -[Inhibition]-> GAP	28209923	0																																		
+RHEBL1	Q64L	REBL1_HUMAN	CHAIN	GTPase RhebL1	Neoplasm Invasiveness	RHEBL1 -[Activation]-> Neoplasm Invasiveness	28209923	0																																		
+RHEBL1	Q64L	REBL1_HUMAN	CHAIN	GTPase RhebL1	endocytosis	RHEBL1 -[Inhibition]-> sphingosine-1-phosphocholine -[Activation]-> endocytosis	28209923	0																																		

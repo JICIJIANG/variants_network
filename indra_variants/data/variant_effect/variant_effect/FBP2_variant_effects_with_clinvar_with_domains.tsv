@@ -1,0 +1,12 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+FBP2	G260R	F16P2_HUMAN	CHAIN	Fructose-1,6-bisphosphatase isozyme 2	cell growth	FBP2 -[Inhibition]-> cell growth	31761563	0																																		
+FBP2	G260R	F16P2_HUMAN	CHAIN	Fructose-1,6-bisphosphatase isozyme 2	cell population proliferation	FBP2 -[Inhibition]-> cell population proliferation	31761563	0																																		
+FBP2	G260R	F16P2_HUMAN	CHAIN	Fructose-1,6-bisphosphatase isozyme 2	cellular component biogenesis	FBP2 -[Inhibition]-> cellular component biogenesis	31761563	0																																		
+FBP2	G260R	F16P2_HUMAN	CHAIN	Fructose-1,6-bisphosphatase isozyme 2	gluconeogenesis	FBP2 -[Inhibition]-> c-Myc transcriptional -[Inhibition]-> gluconeogenesis	31761563	0																																		
+FBP2	G260R	F16P2_HUMAN	CHAIN	Fructose-1,6-bisphosphatase isozyme 2	glucose import	FBP2 -[Inhibition]-> glucose import	31761563	0																																		
+FBP2	G260R	F16P2_HUMAN	CHAIN	Fructose-1,6-bisphosphatase isozyme 2	glycolytic process	FBP2 -[Inhibition]-> glycolytic process	31761563	0																																		
+FBP2	G260R	F16P2_HUMAN	CHAIN	Fructose-1,6-bisphosphatase isozyme 2	lactic acid secretion	FBP2 -[Inhibition]-> lactic acid secretion	31761563	0																																		
+FBP2	G260R	F16P2_HUMAN	CHAIN	Fructose-1,6-bisphosphatase isozyme 2	oxidative phosphorylation	FBP2 -[Inhibition]-> oxidative phosphorylation	31761563	0																																		
+FBP2	G260R	F16P2_HUMAN	CHAIN	Fructose-1,6-bisphosphatase isozyme 2	pentose-phosphate shunt	FBP2 -[Inhibition]-> pentose-phosphate shunt	31761563	0																																		
+FBP2	G260R	F16P2_HUMAN	CHAIN	Fructose-1,6-bisphosphatase isozyme 2	regulation of oxidative phosphorylation	FBP2 -[Activation]-> regulation of oxidative phosphorylation	31761563	0																																		
+FBP2	G260R	F16P2_HUMAN	CHAIN	Fructose-1,6-bisphosphatase isozyme 2	tricarboxylic acid cycle	FBP2 -[Activation]-> tricarboxylic acid cycle	31761563	0																																		

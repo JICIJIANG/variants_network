@@ -1,0 +1,9 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+HGF	R494E	HGF_HUMAN	CHAIN	Hepatocyte growth factor alpha chain	Death	HGF -[Activation]-> Death	28045643	0																																		
+HGF	R494E	HGF_HUMAN	CHAIN	Hepatocyte growth factor alpha chain	Neoplasm Invasiveness	HGF -[Activation]-> Neoplasm Invasiveness	28045643	0																																		
+HGF	R494E	HGF_HUMAN	CHAIN	Hepatocyte growth factor alpha chain	apoptotic process	HGF -[Inhibition]-> apoptotic process	28045643	0																																		
+HGF	R494E	HGF_HUMAN	CHAIN	Hepatocyte growth factor alpha chain	cell cycle	HGF -[Activation]-> cell cycle	28045643	0																																		
+HGF	R494E	HGF_HUMAN	CHAIN	Hepatocyte growth factor alpha chain	cell population proliferation	HGF -[Activation]-> cell population proliferation	28045643	0																																		
+HGF	R494E	HGF_HUMAN	CHAIN	Hepatocyte growth factor alpha chain	transcription, DNA-templated	HGF -[Activation]-> transcription, DNA-templated	28045643	0																																		
+HGF	S1P				cell migration	HGF -[Activation]-> cell migration	30543684	0																																		
+HGF	S1P				cell population proliferation	HGF -[Activation]-> cell population proliferation	30543684	0																																		

@@ -1,0 +1,52 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+MYC	K427R	MYC_HUMAN	CHAIN	Myc proto-oncogene protein	Lymphoma	MYC -[Complex]-> TRIB3 -[Activation]-> Lymphoma	33298911	0																																		
+MYC	K427R	MYC_HUMAN	CHAIN	Myc proto-oncogene protein	Ubiquitination	MYC -[Complex]-> UBE3B -[Activation]-> Ubiquitination	33298911	0																																		
+MYC	K427R	MYC_HUMAN	CHAIN	Myc proto-oncogene protein	apoptotic process	MYC -[Complex]-> UBE3B -[Activation]-> apoptotic process	33298911	0																																		
+MYC	K427R	MYC_HUMAN	CHAIN	Myc proto-oncogene protein	autophagy	MYC -[Complex]-> TRIB3 -[Activation]-> autophagy	33298911	0																																		
+MYC	K427R	MYC_HUMAN	CHAIN	Myc proto-oncogene protein	cell death	MYC -[Complex]-> TRIB3 -[Inhibition]-> cell death	33298911	0																																		
+MYC	K427R	MYC_HUMAN	CHAIN	Myc proto-oncogene protein	cell differentiation	MYC -[Complex]-> TRIB3 -[Inhibition]-> cell differentiation	33298911	0																																		
+MYC	K427R	MYC_HUMAN	CHAIN	Myc proto-oncogene protein	cell growth	MYC -[Complex]-> UBE3B -[Inhibition]-> cell growth	33298911	0																																		
+MYC	K427R	MYC_HUMAN	CHAIN	Myc proto-oncogene protein	cell population proliferation	MYC -[Inhibition]-> cell population proliferation	33298911	0																																		
+MYC	M6A	MYC_HUMAN	CHAIN	Myc proto-oncogene protein	Neoplasm Invasiveness	MYC -[Activation]-> Neoplasm Invasiveness	33048840	0																																		
+MYC	M6A	MYC_HUMAN	CHAIN	Myc proto-oncogene protein	apoptotic process	MYC -[Activation]-> NIBAN2 -[Activation]-> apoptotic process	35761379	0																																		
+MYC	M6A	MYC_HUMAN	CHAIN	Myc proto-oncogene protein	cell population proliferation	MYC -[Activation]-> NIBAN2 -[Activation]-> cell population proliferation	35761379	0																																		
+MYC	M6A	MYC_HUMAN	CHAIN	Myc proto-oncogene protein	cell population proliferation	MYC -[Activation]-> cell population proliferation	33048840	0																																		
+MYC	M6A	MYC_HUMAN	CHAIN	Myc proto-oncogene protein	translation	MYC -[Activation]-> translation	33048840	0																																		
+MYC	S62A	MYC_HUMAN	CHAIN	Myc proto-oncogene protein	Cell Survival	MYC -[IncreaseAmount]-> miR-571 -[Inhibition]-> Cell Survival	31431461	0																																		
+MYC	S62A	MYC_HUMAN	CHAIN	Myc proto-oncogene protein	DNA Damage	MYC -[IncreaseAmount]-> miR-571 -[Activation]-> DNA Damage	31431461	0																																		
+MYC	S62A	MYC_HUMAN	CHAIN	Myc proto-oncogene protein	DNA replication	MYC -[Activation]-> DNA replication	31431461	0																																		
+MYC	S62A	MYC_HUMAN	CHAIN	Myc proto-oncogene protein	Genomic Instability	MYC -[Activation]-> Genomic Instability	31431461	0																																		
+MYC	S62A	MYC_HUMAN	CHAIN	Myc proto-oncogene protein	Replication Origin	MYC -[Activation]-> Replication Origin	31431461	0																																		
+MYC	S62A	MYC_HUMAN	CHAIN	Myc proto-oncogene protein	apoptotic process	MYC -[Activation]-> apoptotic process	18642118	0																																		
+MYC	S62A	MYC_HUMAN	CHAIN	Myc proto-oncogene protein	cell population proliferation	MYC -[Inhibition]-> cell population proliferation	28697340	0																																		
+MYC	S62D	MYC_HUMAN	CHAIN	Myc proto-oncogene protein	Carcinogenesis	MYC -[Activation]-> Carcinogenesis	30021885	0																																		
+MYC	S62D	MYC_HUMAN	CHAIN	Myc proto-oncogene protein	Cell Survival	MYC -[IncreaseAmount]-> miR-571 -[Inhibition]-> Cell Survival	31431461	0																																		
+MYC	S62D	MYC_HUMAN	CHAIN	Myc proto-oncogene protein	DNA Damage	MYC -[IncreaseAmount]-> miR-571 -[Activation]-> DNA Damage	31431461	0																																		
+MYC	S62D	MYC_HUMAN	CHAIN	Myc proto-oncogene protein	DNA replication	MYC -[Activation]-> DNA replication	31431461	0																																		
+MYC	S62D	MYC_HUMAN	CHAIN	Myc proto-oncogene protein	Genomic Instability	MYC -[Activation]-> Genomic Instability	31431461	0																																		
+MYC	S62D	MYC_HUMAN	CHAIN	Myc proto-oncogene protein	Neoplasms	MYC -[Activation]-> Neoplasms	30021885	0																																		
+MYC	S62D	MYC_HUMAN	CHAIN	Myc proto-oncogene protein	Replication Origin	MYC -[Activation]-> Replication Origin	31431461	0																																		
+MYC	S62D	MYC_HUMAN	CHAIN	Myc proto-oncogene protein	apoptotic process	MYC -[Activation]-> C11orf58 -[Activation]-> apoptotic process	30021885	0																																		
+MYC	T58A	MYC_HUMAN	CHAIN	Myc proto-oncogene protein	Glioblastoma	MYC -[Activation]-> Glioblastoma	27923907	0																																		
+MYC	T58A	MYC_HUMAN	CHAIN	Myc proto-oncogene protein	Neoplasm Metastasis	MYC -[Activation]-> Neoplasm Metastasis	33375066	0																																		
+MYC	T58A	MYC_HUMAN	CHAIN	Myc proto-oncogene protein	Neoplasms	MYC -[Activation]-> USP13 -[Activation]-> Neoplasms	27923907	0																																		
+MYC	T58A	MYC_HUMAN	CHAIN	Myc proto-oncogene protein	apoptotic process	MYC -[Activation]-> apoptotic process	18642118	0																																		
+MYC	T58A	MYC_HUMAN	CHAIN	Myc proto-oncogene protein	apoptotic process	MYC -[Activation]-> apoptotic process	21059853	0																																		
+MYC	T58A	MYC_HUMAN	CHAIN	Myc proto-oncogene protein	apoptotic process	MYC -[Activation]-> apoptotic process	22540008	0																																		
+MYC	T58A	MYC_HUMAN	CHAIN	Myc proto-oncogene protein	apoptotic process	MYC -[Inhibition]-> apoptotic process	21266350	0																																		
+MYC	T58A	MYC_HUMAN	CHAIN	Myc proto-oncogene protein	apoptotic process	MYC -[Inhibition]-> apoptotic process	27923907	0																																		
+MYC	T58A	MYC_HUMAN	CHAIN	Myc proto-oncogene protein	cell adhesion	MYC -[Complex]-> CTNNB1 -[Activation]-> cell adhesion	22540008	0																																		
+MYC	T58A	MYC_HUMAN	CHAIN	Myc proto-oncogene protein	cell differentiation	MYC -[Activation]-> CH -[Inhibition]-> cell differentiation	22540008	0																																		
+MYC	T58A	MYC_HUMAN	CHAIN	Myc proto-oncogene protein	cell differentiation	MYC -[Activation]-> cell differentiation	27923907	0																																		
+MYC	T58A	MYC_HUMAN	CHAIN	Myc proto-oncogene protein	cell growth	MYC -[Activation]-> cell growth	27923907	0																																		
+MYC	T58A	MYC_HUMAN	CHAIN	Myc proto-oncogene protein	cell population proliferation	MYC -[Activation]-> cell population proliferation	21266350	0																																		
+MYC	T58A	MYC_HUMAN	CHAIN	Myc proto-oncogene protein	cell population proliferation	MYC -[Activation]-> cell population proliferation	25029552	0																																		
+MYC	T58A	MYC_HUMAN	CHAIN	Myc proto-oncogene protein	cell population proliferation	MYC -[Activation]-> cell population proliferation	26001956	0																																		
+MYC	T58A	MYC_HUMAN	CHAIN	Myc proto-oncogene protein	cell population proliferation	MYC -[Inhibition]-> cell population proliferation	27923907	0																																		
+MYC	T58A	MYC_HUMAN	CHAIN	Myc proto-oncogene protein	cellular senescence	MYC -[Activation]-> cellular senescence	26001956	0																																		
+MYC	T58A	MYC_HUMAN	CHAIN	Myc proto-oncogene protein	glucose import	MYC -[Inhibition]-> TXNIP -[Inhibition]-> glucose import	33292639	0																																		
+MYC	T58A	MYC_HUMAN	CHAIN	Myc proto-oncogene protein	glycolytic process	MYC -[Activation]-> glycolytic process	25029552	0																																		
+MYC	T58A	MYC_HUMAN	CHAIN	Myc proto-oncogene protein	proteolysis	MYC -[Inhibition]-> proteolysis	27923907	0																																		
+MYC	T58A	MYC_HUMAN	CHAIN	Myc proto-oncogene protein	transcription, DNA-templated	MYC -[Activation]-> transcription, DNA-templated	25029552	0																																		
+MYC	T58A	MYC_HUMAN	CHAIN	Myc proto-oncogene protein	transcription, DNA-templated	MYC -[Inhibition]-> TXNIP -[Inhibition]-> glucose -[Activation]-> transcription, DNA-templated	33292639	0																																		
+MYC	T58A	MYC_HUMAN	CHAIN	Myc proto-oncogene protein	translation	MYC -[Inhibition]-> TXNIP -[Inhibition]-> translation	33292639	0																																		

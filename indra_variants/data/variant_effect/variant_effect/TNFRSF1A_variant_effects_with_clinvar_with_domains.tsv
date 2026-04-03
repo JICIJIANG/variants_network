@@ -1,0 +1,16 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+TNFRSF1A	C33Y	TNR1A_HUMAN	CHAIN		cell adhesion	TNFRSF1A -[Activation]-> Reactive Oxygen Species -[Activation]-> cell adhesion	21282379	0																																		
+TNFRSF1A	C33Y	TNR1A_HUMAN	CHAIN		cell death	TNFRSF1A -[Complex]-> TNF -[Activation]-> cell death	21282379	0																																		
+TNFRSF1A	C33Y	TNR1A_HUMAN	CHAIN		cytokine production	TNFRSF1A -[Activation]-> Reactive Oxygen Species -[Activation]-> cytokine production	21282379	0																																		
+TNFRSF1A	C33Y	TNR1A_HUMAN	CHAIN		inflammatory response	TNFRSF1A -[Activation]-> lipopolysaccharide -[Activation]-> inflammatory response	21282379	0																																		
+TNFRSF1A	C33Y	TNR1A_HUMAN	CHAIN		signaling receptor activity	TNFRSF1A -[Activation]-> Reactive Oxygen Species -[Activation]-> signaling receptor activity	21282379	0																																		
+TNFRSF1A	S381A	TNR1A_HUMAN	CHAIN;DOMAIN	;Death	apoptotic process	TNFRSF1A -[Inhibition]-> apoptotic process	21724995	0																																		
+TNFRSF1A	S381A	TNR1A_HUMAN	CHAIN;DOMAIN	;Death	cell migration	TNFRSF1A -[Activation]-> cell migration	21724995	0																																		
+TNFRSF1A	S381A	TNR1A_HUMAN	CHAIN;DOMAIN	;Death	cell population proliferation	TNFRSF1A -[Activation]-> cell population proliferation	21724995	0																																		
+TNFRSF1A	S381A	TNR1A_HUMAN	CHAIN;DOMAIN	;Death	inflammatory response	TNFRSF1A -[Activation]-> inflammatory response	21724995	0																																		
+TNFRSF1A	S381A	TNR1A_HUMAN	CHAIN;DOMAIN	;Death	signal transduction	TNFRSF1A -[Complex]-> TNFAIP3 -[Inhibition]-> signal transduction	21724995	0																																		
+TNFRSF1A	T50M	TNR1A_HUMAN	CHAIN;CHAIN;REPEAT	;Tumor necrosis factor-binding protein 1;TNFR-Cys 1	cell adhesion	TNFRSF1A -[Activation]-> Reactive Oxygen Species -[Activation]-> cell adhesion	21282379	0																																		
+TNFRSF1A	T50M	TNR1A_HUMAN	CHAIN;CHAIN;REPEAT	;Tumor necrosis factor-binding protein 1;TNFR-Cys 1	cell death	TNFRSF1A -[Complex]-> TNF -[Activation]-> cell death	21282379	0																																		
+TNFRSF1A	T50M	TNR1A_HUMAN	CHAIN;CHAIN;REPEAT	;Tumor necrosis factor-binding protein 1;TNFR-Cys 1	cytokine production	TNFRSF1A -[Activation]-> Reactive Oxygen Species -[Activation]-> cytokine production	21282379	0																																		
+TNFRSF1A	T50M	TNR1A_HUMAN	CHAIN;CHAIN;REPEAT	;Tumor necrosis factor-binding protein 1;TNFR-Cys 1	inflammatory response	TNFRSF1A -[Activation]-> lipopolysaccharide -[Activation]-> inflammatory response	21282379	0																																		
+TNFRSF1A	T50M	TNR1A_HUMAN	CHAIN;CHAIN;REPEAT	;Tumor necrosis factor-binding protein 1;TNFR-Cys 1	signaling receptor activity	TNFRSF1A -[Activation]-> Reactive Oxygen Species -[Activation]-> signaling receptor activity	21282379	0																																		

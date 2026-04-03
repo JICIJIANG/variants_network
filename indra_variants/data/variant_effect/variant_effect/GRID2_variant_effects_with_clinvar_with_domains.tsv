@@ -1,0 +1,12 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+GRID2	D24A	GRID2_HUMAN	CHAIN;REGION	Glutamate receptor ionotropic, delta-2;Interaction with CBLN1 homotrimer	endocytosis	GRID2 -[Activation]-> LTD -[Activation]-> endocytosis	27418511	0																																		
+GRID2	E61A	GRID2_HUMAN	CHAIN;REGION	Glutamate receptor ionotropic, delta-2;Interaction with CBLN1 homotrimer	endocytosis	GRID2 -[Activation]-> LTD -[Activation]-> endocytosis	27418511	0																																		
+GRID2	I26A	GRID2_HUMAN	CHAIN;REGION	Glutamate receptor ionotropic, delta-2;Interaction with CBLN1 homotrimer	endocytosis	GRID2 -[Activation]-> LTD -[Activation]-> endocytosis	27418511	0																																		
+GRID2	R345A	GRID2_HUMAN	CHAIN;REGION	Glutamate receptor ionotropic, delta-2;Interaction with CBLN1 homotrimer	endocytosis	GRID2 -[Activation]-> LTD -[Activation]-> endocytosis	27418511	0																																		
+GRID2	T1492G				Death	GRID2 -[Activation]-> Death	33093440	0																																		
+GRID2	T1492G				Energy Metabolism	GRID2 -[Inhibition]-> ETC_complex_II -[Activation]-> Energy Metabolism	33093440	0																																		
+GRID2	T1492G				Movement	GRID2 -[IncreaseAmount]-> GLUD2 -[Inhibition]-> Movement	33093440	0																																		
+GRID2	T1492G				Neuroprotection	GRID2 -[Inhibition]-> ETC_complex_II -[Activation]-> Neuroprotection	33093440	0																																		
+GRID2	T1492G				apoptotic process	GRID2 -[Activation]-> apoptotic process	33093440	0																																		
+GRID2	T1492G				cell death	GRID2 -[Activation]-> cell death	33093440	0																																		
+GRID2	T1492G				generation of precursor metabolites and energy	GRID2 -[Inhibition]-> generation of precursor metabolites and energy	33093440	0																																		

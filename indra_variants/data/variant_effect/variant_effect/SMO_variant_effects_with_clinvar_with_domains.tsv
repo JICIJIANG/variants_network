@@ -1,0 +1,14 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+SMO	D473H	SMO_HUMAN	CHAIN	Protein smoothened	cell population proliferation	SMO -[Complex]-> RPL8A -[Inhibition]-> cell population proliferation	30846937	0																																		
+SMO	D473H	SMO_HUMAN	CHAIN	Protein smoothened	transcription, DNA-templated	SMO -[Activation]-> His-His -[Activation]-> transcription, DNA-templated	24985127	0																																		
+SMO	D477G	SMO_HUMAN	CHAIN	Protein smoothened	transcription, DNA-templated	SMO -[Activation]-> His-His -[Activation]-> transcription, DNA-templated	24985127	0																																		
+SMO	D95N	SMO_HUMAN	CHAIN;DOMAIN	Protein smoothened;FZ	apoptotic process	SMO -[Complex]-> PTCH1 -[Activation]-> apoptotic process	35486193	0																																		
+SMO	D95N	SMO_HUMAN	CHAIN;DOMAIN	Protein smoothened;FZ	cell death	SMO -[Complex]-> PTCH1 -[Activation]-> cell death	35486193	0																																		
+SMO	D95N	SMO_HUMAN	CHAIN;DOMAIN	Protein smoothened;FZ	cell population proliferation	SMO -[Complex]-> PTCH1 -[Activation]-> cell population proliferation	35486193	0																																		
+SMO	D95N	SMO_HUMAN	CHAIN;DOMAIN	Protein smoothened;FZ	cholesterol efflux	SMO -[Complex]-> PTCH1 -[Activation]-> cholesterol efflux	35486193	0																																		
+SMO	D95N	SMO_HUMAN	CHAIN;DOMAIN	Protein smoothened;FZ	cholesterol transport	SMO -[Complex]-> PTCH1 -[Activation]-> cholesterol transport	35486193	0																																		
+SMO	D95N	SMO_HUMAN	CHAIN;DOMAIN	Protein smoothened;FZ	lipid homeostasis	SMO -[Complex]-> PTCH1 -[Activation]-> lipid homeostasis	35486193	0																																		
+SMO	D95N	SMO_HUMAN	CHAIN;DOMAIN	Protein smoothened;FZ	localization	SMO -[Inhibition]-> Hedgehog -[Activation]-> localization	35486193	0																																		
+SMO	D95N	SMO_HUMAN	CHAIN;DOMAIN	Protein smoothened;FZ	signal transduction	SMO -[Inhibition]-> Hedgehog -[Activation]-> signal transduction	35486193	0																																		
+SMO	K851R				transcription, DNA-templated	SMO -[Ubiquitination]-> smo-1 -[Activation]-> transcription, DNA-templated	27746045	0																																		
+SMO	W535L	SMO_HUMAN	CHAIN	Protein smoothened	cell differentiation	SMO -[Activation]-> cell differentiation	19285468	1	23156	single nucleotide variant	NM_005631.5(SMO):c.1604G>T (p.Trp535Leu)	121918347	Basal cell carcinoma, somatic	Pathogenic	0.0																											

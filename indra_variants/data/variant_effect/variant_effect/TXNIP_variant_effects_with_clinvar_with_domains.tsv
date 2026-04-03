@@ -1,0 +1,19 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+TXNIP	C247S	TXNIP_HUMAN	CHAIN	Thioredoxin-interacting protein	Fibrosis	TXNIP -[IncreaseAmount]-> MITF -[Activation]-> Fibrosis	33652022	0																																		
+TXNIP	C247S	TXNIP_HUMAN	CHAIN	Thioredoxin-interacting protein	Ischemia	TXNIP -[Complex]-> Ischemia	24198286	0																																		
+TXNIP	C247S	TXNIP_HUMAN	CHAIN	Thioredoxin-interacting protein	SLC2A	TXNIP -[Complex]-> SLC2A	33652022	0																																		
+TXNIP	C247S	TXNIP_HUMAN	CHAIN	Thioredoxin-interacting protein	Ventricular Function, Left	TXNIP -[IncreaseAmount]-> MITF -[Inhibition]-> Ventricular Function, Left	33652022	0																																		
+TXNIP	C247S	TXNIP_HUMAN	CHAIN	Thioredoxin-interacting protein	angiogenesis	TXNIP -[Inhibition]-> angiogenesis	24198286	0																																		
+TXNIP	C247S	TXNIP_HUMAN	CHAIN	Thioredoxin-interacting protein	apoptotic process	TXNIP -[Activation]-> Reactive Oxygen Species -[Activation]-> apoptotic process	33652022	0																																		
+TXNIP	C247S	TXNIP_HUMAN	CHAIN	Thioredoxin-interacting protein	apoptotic process	TXNIP -[Inhibition]-> apoptotic process	21636804	0																																		
+TXNIP	C247S	TXNIP_HUMAN	CHAIN	Thioredoxin-interacting protein	cell death	TXNIP -[Inhibition]-> TXN -[Activation]-> cell death	33652022	0																																		
+TXNIP	C247S	TXNIP_HUMAN	CHAIN	Thioredoxin-interacting protein	cell death	TXNIP -[Inhibition]-> cell death	21636804	0																																		
+TXNIP	C247S	TXNIP_HUMAN	CHAIN	Thioredoxin-interacting protein	cell population proliferation	TXNIP -[Activation]-> cell population proliferation	24198286	0																																		
+TXNIP	C247S	TXNIP_HUMAN	CHAIN	Thioredoxin-interacting protein	glucose import	TXNIP -[Inhibition]-> glucose import	33652022	0																																		
+TXNIP	C247S	TXNIP_HUMAN	CHAIN	Thioredoxin-interacting protein	glycolytic process	TXNIP -[Inhibition]-> glycolytic process	33652022	0																																		
+TXNIP	C247S	TXNIP_HUMAN	CHAIN	Thioredoxin-interacting protein	inflammatory response	TXNIP -[Activation]-> inflammatory response	21636804	0																																		
+TXNIP	C247S	TXNIP_HUMAN	CHAIN	Thioredoxin-interacting protein	inflammatory response	TXNIP -[Activation]-> inflammatory response	24198286	0																																		
+TXNIP	C247S	TXNIP_HUMAN	CHAIN	Thioredoxin-interacting protein	necrotic cell death	TXNIP -[Activation]-> Reactive Oxygen Species -[Activation]-> necrotic cell death	33652022	0																																		
+TXNIP	C247S	TXNIP_HUMAN	CHAIN	Thioredoxin-interacting protein	reactive oxygen species biosynthetic process	TXNIP -[IncreaseAmount]-> MITF -[Activation]-> reactive oxygen species biosynthetic process	33652022	0																																		
+TXNIP	C247S	TXNIP_HUMAN	CHAIN	Thioredoxin-interacting protein	response to hypoxia	TXNIP -[Inhibition]-> response to hypoxia	20692333	0																																		
+TXNIP	C247S	TXNIP_HUMAN	CHAIN	Thioredoxin-interacting protein	transcription, DNA-templated	TXNIP -[Activation]-> transcription, DNA-templated	20692333	0																																		

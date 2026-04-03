@@ -1,0 +1,5 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+TGFB1	C33S	TGFB1_HUMAN	CHAIN;REGION	Latency-associated peptide;Straightjacket domain	inflammatory response	TGFB1 -[Complex]-> TGFB -[Activation]-> inflammatory response	24590056	0																																		
+TGFB1	C509T				Colorectal Neoplasms	TGFB1 -[Activation]-> Colorectal Neoplasms	22396040	0																																		
+TGFB1	L10P				Prostatic Neoplasms	TGFB1 -[Activation]-> Prostatic Neoplasms	23975370	0																																		
+TGFB1	T869C				immune response	TGFB1 -[Inhibition]-> immune response	28331344	0																																		

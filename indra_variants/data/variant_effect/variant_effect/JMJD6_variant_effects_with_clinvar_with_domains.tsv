@@ -1,0 +1,27 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+JMJD6	D189A	JMJD6_HUMAN	CHAIN;DOMAIN	;JmjC	Carcinogenesis	JMJD6 -[Inhibition]-> Carcinogenesis	24667498	0																																		
+JMJD6	D189A	JMJD6_HUMAN	CHAIN;DOMAIN	;JmjC	G1 phase	JMJD6 -[Complex]-> G1 phase	24667498	0																																		
+JMJD6	D189A	JMJD6_HUMAN	CHAIN;DOMAIN	;JmjC	apoptotic process	JMJD6 -[Inhibition]-> apoptotic process	24667498	0																																		
+JMJD6	D189A	JMJD6_HUMAN	CHAIN;DOMAIN	;JmjC	cell cycle	JMJD6 -[Activation]-> cell cycle	24667498	0																																		
+JMJD6	D189A	JMJD6_HUMAN	CHAIN;DOMAIN	;JmjC	cell death	JMJD6 -[Activation]-> cell death	24667498	0																																		
+JMJD6	D189A	JMJD6_HUMAN	CHAIN;DOMAIN	;JmjC	cell population proliferation	JMJD6 -[Inhibition]-> cell population proliferation	24667498	0																																		
+JMJD6	D189A	JMJD6_HUMAN	CHAIN;DOMAIN	;JmjC	transcription, DNA-templated	JMJD6 -[Hydroxylation]-> TP53 -[Activation]-> transcription, DNA-templated	24667498	0																																		
+JMJD6	H187A	JMJD6_HUMAN	CHAIN;DOMAIN	;JmjC	Carcinogenesis	JMJD6 -[Inhibition]-> Carcinogenesis	24667498	0																																		
+JMJD6	H187A	JMJD6_HUMAN	CHAIN;DOMAIN	;JmjC	Cell Transformation, Neoplastic	JMJD6 -[Activation]-> Cell Transformation, Neoplastic	27081402	0																																		
+JMJD6	H187A	JMJD6_HUMAN	CHAIN;DOMAIN	;JmjC	G1 phase	JMJD6 -[Complex]-> G1 phase	24667498	0																																		
+JMJD6	H187A	JMJD6_HUMAN	CHAIN;DOMAIN	;JmjC	Neoplasm Invasiveness	JMJD6 -[Activation]-> Neoplasm Invasiveness	27081402	0																																		
+JMJD6	H187A	JMJD6_HUMAN	CHAIN;DOMAIN	;JmjC	Neoplasm Invasiveness	JMJD6 -[Activation]-> Neoplasm Invasiveness	33634984	0																																		
+JMJD6	H187A	JMJD6_HUMAN	CHAIN;DOMAIN	;JmjC	Neoplasm Metastasis	JMJD6 -[Activation]-> Neoplasm Metastasis	27081402	0																																		
+JMJD6	H187A	JMJD6_HUMAN	CHAIN;DOMAIN	;JmjC	Neoplasm Metastasis	JMJD6 -[Activation]-> Neoplasm Metastasis	33634984	0																																		
+JMJD6	H187A	JMJD6_HUMAN	CHAIN;DOMAIN	;JmjC	apoptotic process	JMJD6 -[Activation]-> apoptotic process	33634984	0																																		
+JMJD6	H187A	JMJD6_HUMAN	CHAIN;DOMAIN	;JmjC	apoptotic process	JMJD6 -[Inhibition]-> apoptotic process	24667498	0																																		
+JMJD6	H187A	JMJD6_HUMAN	CHAIN;DOMAIN	;JmjC	cell cycle	JMJD6 -[Activation]-> cell cycle	24667498	0																																		
+JMJD6	H187A	JMJD6_HUMAN	CHAIN;DOMAIN	;JmjC	cell death	JMJD6 -[Activation]-> cell death	24667498	0																																		
+JMJD6	H187A	JMJD6_HUMAN	CHAIN;DOMAIN	;JmjC	cell death	JMJD6 -[Activation]-> cell death	27081402	0																																		
+JMJD6	H187A	JMJD6_HUMAN	CHAIN;DOMAIN	;JmjC	cell migration	JMJD6 -[Activation]-> cell migration	27081402	0																																		
+JMJD6	H187A	JMJD6_HUMAN	CHAIN;DOMAIN	;JmjC	cell population proliferation	JMJD6 -[Activation]-> cell population proliferation	33634984	0																																		
+JMJD6	H187A	JMJD6_HUMAN	CHAIN;DOMAIN	;JmjC	cell population proliferation	JMJD6 -[Inhibition]-> MYC -[Activation]-> cell population proliferation	27081402	0																																		
+JMJD6	H187A	JMJD6_HUMAN	CHAIN;DOMAIN	;JmjC	cell population proliferation	JMJD6 -[Inhibition]-> cell population proliferation	24667498	0																																		
+JMJD6	H187A	JMJD6_HUMAN	CHAIN;DOMAIN	;JmjC	epithelial to mesenchymal transition	JMJD6 -[Activation]-> epithelial to mesenchymal transition	27081402	0																																		
+JMJD6	H187A	JMJD6_HUMAN	CHAIN;DOMAIN	;JmjC	transcription, DNA-templated	JMJD6 -[Hydroxylation]-> TP53 -[Activation]-> transcription, DNA-templated	24667498	0																																		
+JMJD6	H187A	JMJD6_HUMAN	CHAIN;DOMAIN	;JmjC	transcription, DNA-templated	JMJD6 -[IncreaseAmount]-> EP300 -[Activation]-> transcription, DNA-templated	33634984	0																																		

@@ -1,0 +1,5 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+RC3H1	M199R	RC3H1_HUMAN	CHAIN;REGION	Roquin-1;ROQ	Syndrome	RC3H1 -[Inhibition]-> Syndrome	31636267	0																																		
+RC3H1	M199R	RC3H1_HUMAN	CHAIN;REGION	Roquin-1;ROQ	cell growth	RC3H1 -[Inhibition]-> AMPK -[Inhibition]-> cell growth	26496200	0																																		
+RC3H1	M199R	RC3H1_HUMAN	CHAIN;REGION	Roquin-1;ROQ	developmental process	RC3H1 -[Activation]-> developmental process	26496200	0																																		
+RC3H1	M199R	RC3H1_HUMAN	CHAIN;REGION	Roquin-1;ROQ	tumor necrosis factor production	RC3H1 -[Inhibition]-> tumor necrosis factor production	31636267	0																																		

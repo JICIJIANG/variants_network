@@ -1,0 +1,15 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+EPOR	R129C	EPOR_HUMAN	CHAIN	Erythropoietin receptor	Neoplasm Invasiveness	EPOR -[Activation]-> Neoplasm Invasiveness	19133231	0																																		
+EPOR	R129C	EPOR_HUMAN	CHAIN	Erythropoietin receptor	cell differentiation	EPOR -[Activation]-> cell differentiation	7679218	0																																		
+EPOR	R129C	EPOR_HUMAN	CHAIN	Erythropoietin receptor	cell differentiation	EPOR -[Inhibition]-> cell differentiation	27473563	0																																		
+EPOR	R129C	EPOR_HUMAN	CHAIN	Erythropoietin receptor	cell population proliferation	EPOR -[Activation]-> cell population proliferation	19133231	0																																		
+EPOR	R129C	EPOR_HUMAN	CHAIN	Erythropoietin receptor	cell population proliferation	EPOR -[Activation]-> cell population proliferation	27473563	0																																		
+EPOR	R129C	EPOR_HUMAN	CHAIN	Erythropoietin receptor	cell population proliferation	EPOR -[Activation]-> cell population proliferation	7679218	0																																		
+EPOR	R129C	EPOR_HUMAN	CHAIN	Erythropoietin receptor	cell population proliferation	EPOR -[Activation]-> cell population proliferation	8139532	0																																		
+EPOR	R129C	EPOR_HUMAN	CHAIN	Erythropoietin receptor	signal transduction	EPOR -[Activation]-> signal transduction	19133231	0																																		
+EPOR	R129C	EPOR_HUMAN	CHAIN	Erythropoietin receptor	signal transduction	EPOR -[Activation]-> signal transduction	21307776	0																																		
+EPOR	Y479F	EPOR_HUMAN	CHAIN;REGION	Erythropoietin receptor;Disordered	Cell Survival	EPOR -[DecreaseAmount]-> MYC -[Activation]-> Cell Survival	23300995	0																																		
+EPOR	Y479F	EPOR_HUMAN	CHAIN;REGION	Erythropoietin receptor;Disordered	apoptotic process	EPOR -[Complex]-> JAK2 -[Inhibition]-> apoptotic process	23300995	0																																		
+EPOR	Y479F	EPOR_HUMAN	CHAIN;REGION	Erythropoietin receptor;Disordered	cell death	EPOR -[DecreaseAmount]-> MYC -[Inhibition]-> cell death	23300995	0																																		
+EPOR	Y479F	EPOR_HUMAN	CHAIN;REGION	Erythropoietin receptor;Disordered	cell growth	EPOR -[Complex]-> JAK2 -[Activation]-> cell growth	23300995	0																																		
+EPOR	Y479F	EPOR_HUMAN	CHAIN;REGION	Erythropoietin receptor;Disordered	transcription, DNA-templated	EPOR -[Complex]-> JAK2 -[Activation]-> transcription, DNA-templated	23300995	0																																		

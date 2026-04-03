@@ -1,0 +1,9 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+RNASEL	R667A	RN5A_HUMAN	CHAIN;DOMAIN	2-5A-dependent ribonuclease;KEN	Neoplasm Invasiveness	RNASEL -[Inhibition]-> Neoplasm Invasiveness	26517238	0																																		
+RNASEL	R667A	RN5A_HUMAN	CHAIN;DOMAIN	2-5A-dependent ribonuclease;KEN	Neoplasm Metastasis	RNASEL -[Inhibition]-> Neoplasm Metastasis	26517238	0																																		
+RNASEL	R667A	RN5A_HUMAN	CHAIN;DOMAIN	2-5A-dependent ribonuclease;KEN	apoptotic process	RNASEL -[Inhibition]-> apoptotic process	24371271	0																																		
+RNASEL	R667A	RN5A_HUMAN	CHAIN;DOMAIN	2-5A-dependent ribonuclease;KEN	cell migration	RNASEL -[Inhibition]-> cell migration	26517238	0																																		
+RNASEL	Y312A	RN5A_HUMAN	CHAIN;REPEAT	2-5A-dependent ribonuclease;ANK 9	Prostatic Neoplasms	RNASEL -[IncreaseAmount]-> AR -[Complex]-> RNase L -[Inhibition]-> Prostatic Neoplasms	28257035	0																																		
+RNASEL	Y312A	RN5A_HUMAN	CHAIN;REPEAT	2-5A-dependent ribonuclease;ANK 9	apoptotic process	RNASEL -[Activation]-> apoptotic process	28257035	0																																		
+RNASEL	Y312A	RN5A_HUMAN	CHAIN;REPEAT	2-5A-dependent ribonuclease;ANK 9	cell migration	RNASEL -[Inhibition]-> cell migration	28257035	0																																		
+RNASEL	Y312A	RN5A_HUMAN	CHAIN;REPEAT	2-5A-dependent ribonuclease;ANK 9	localization	RNASEL -[Inhibition]-> localization	28257035	0																																		

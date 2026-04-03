@@ -1,0 +1,10 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+PTGS2	G519A	PGH2_HUMAN	CHAIN	Prostaglandin G/H synthase 2	cell population proliferation	PTGS2 -[Inhibition]-> cell population proliferation	32366045	0																																		
+PTGS2	G765C				Cerebral Infarction	PTGS2 -[Inhibition]-> Cerebral Infarction	23765972	0																																		
+PTGS2	G765C				Coronary Disease	PTGS2 -[Activation]-> Coronary Disease	17350020	0																																		
+PTGS2	H374Y	PGH2_HUMAN	CHAIN	Prostaglandin G/H synthase 2	Endoplasmic Reticulum Stress	PTGS2 -[Activation]-> cyclosporin A -[Activation]-> Endoplasmic Reticulum Stress	30420769	0																																		
+PTGS2	H374Y	PGH2_HUMAN	CHAIN	Prostaglandin G/H synthase 2	Group I intron splicing	PTGS2 -[Activation]-> Group I intron splicing	30420769	0																																		
+PTGS2	K598R	PGH2_HUMAN	CHAIN	Prostaglandin G/H synthase 2	cell population proliferation	PTGS2 -[Inhibition]-> cell population proliferation	32366045	0																																		
+PTGS2	N382A	PGH2_HUMAN	CHAIN	Prostaglandin G/H synthase 2	metabolic process	PTGS2 -[Activation]-> metabolic process	32612190	0																																		
+PTGS2	S516Q	PGH2_HUMAN	CHAIN	Prostaglandin G/H synthase 2	Carcinogenesis	PTGS2 -[Activation]-> Carcinogenesis	19465063	0																																		
+PTGS2	S516Q	PGH2_HUMAN	CHAIN	Prostaglandin G/H synthase 2	apoptotic process	PTGS2 -[Inhibition]-> apoptotic process	19465063	0																																		

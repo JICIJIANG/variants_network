@@ -1,0 +1,8 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+MSI1	S337A	MSI1H_HUMAN	CHAIN	RNA-binding protein Musashi homolog 1	Cell Survival	MSI1 -[Activation]-> Cell Survival	25888190	0																																		
+MSI1	S337A	MSI1H_HUMAN	CHAIN	RNA-binding protein Musashi homolog 1	cell death	MSI1 -[Inhibition]-> cell death	25888190	0																																		
+MSI1	S337A	MSI1H_HUMAN	CHAIN	RNA-binding protein Musashi homolog 1	cell differentiation	MSI1 -[Inhibition]-> cell differentiation	25888190	0																																		
+MSI1	S337A	MSI1H_HUMAN	CHAIN	RNA-binding protein Musashi homolog 1	translation	MSI1 -[Activation]-> translation	25888190	0																																		
+MSI1	T47D	MSI1H_HUMAN	CHAIN;DOMAIN	RNA-binding protein Musashi homolog 1;RRM 1	Cell Survival	MSI1 -[Inhibition]-> Cell Survival	20727204	0																																		
+MSI1	T47D	MSI1H_HUMAN	CHAIN;DOMAIN	RNA-binding protein Musashi homolog 1;RRM 1	Neoplasms	MSI1 -[Inhibition]-> Neoplasms	20727204	0																																		
+MSI1	T47D	MSI1H_HUMAN	CHAIN;DOMAIN	RNA-binding protein Musashi homolog 1;RRM 1	cell population proliferation	MSI1 -[Activation]-> cell population proliferation	20727204	0																																		

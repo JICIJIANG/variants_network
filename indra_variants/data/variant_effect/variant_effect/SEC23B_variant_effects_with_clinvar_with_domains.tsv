@@ -1,0 +1,21 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+SEC23B	E109K	SC23B_HUMAN	CHAIN	Protein transport protein Sec23B	Endoplasmic Reticulum Stress	SEC23B -[Inhibition]-> Endoplasmic Reticulum Stress	34954140	1	16261	single nucleotide variant	NM_006363.6(SEC23B):c.325G>A (p.Glu109Lys)	121918221	Congenital dyserythropoietic anemia, type II	Pathogenic	2.0	not provided			Cowden syndrome 7			See cases			SEC23B-related disorder																	
+SEC23B	E109K	SC23B_HUMAN	CHAIN	Protein transport protein Sec23B	apoptotic process	SEC23B -[Activation]-> apoptotic process	34954140	1	16261	single nucleotide variant	NM_006363.6(SEC23B):c.325G>A (p.Glu109Lys)	121918221	Congenital dyserythropoietic anemia, type II	Pathogenic	2.0	not provided			Cowden syndrome 7			See cases			SEC23B-related disorder																	
+SEC23B	G2153A				Death	SEC23B -[Inhibition]-> Neoplasm Metastasis -[Activation]-> Death	32123160	0																																		
+SEC23B	G2153A				Neoplasm Invasiveness	SEC23B -[Inhibition]-> Neoplasm Invasiveness	32123160	0																																		
+SEC23B	G2153A				Neoplasm Metastasis	SEC23B -[Inhibition]-> Neoplasm Metastasis	32123160	0																																		
+SEC23B	G2153A				Neoplasms	SEC23B -[Activation]-> Neoplasms	32123160	0																																		
+SEC23B	G2153A				cell adhesion	SEC23B -[Inhibition]-> cell adhesion	32123160	0																																		
+SEC23B	G2153A				cell migration	SEC23B -[Inhibition]-> cell migration	32123160	0																																		
+SEC23B	G2153A				localization	SEC23B -[Inhibition]-> localization	32123160	0																																		
+SEC23B	G2153A				protein transport	SEC23B -[Inhibition]-> protein transport	32123160	0																																		
+SEC23B	G2153A				transport	SEC23B -[Inhibition]-> transport	32123160	0																																		
+SEC23B	G791A				Death	SEC23B -[Inhibition]-> Neoplasm Metastasis -[Activation]-> Death	32123160	0																																		
+SEC23B	G791A				Neoplasm Invasiveness	SEC23B -[Inhibition]-> Neoplasm Invasiveness	32123160	0																																		
+SEC23B	G791A				Neoplasm Metastasis	SEC23B -[Inhibition]-> Neoplasm Metastasis	32123160	0																																		
+SEC23B	G791A				Neoplasms	SEC23B -[Activation]-> Neoplasms	32123160	0																																		
+SEC23B	G791A				cell adhesion	SEC23B -[Inhibition]-> cell adhesion	32123160	0																																		
+SEC23B	G791A				cell migration	SEC23B -[Inhibition]-> cell migration	32123160	0																																		
+SEC23B	G791A				localization	SEC23B -[Inhibition]-> localization	32123160	0																																		
+SEC23B	G791A				protein transport	SEC23B -[Inhibition]-> protein transport	32123160	0																																		
+SEC23B	G791A				transport	SEC23B -[Inhibition]-> transport	32123160	0																																		

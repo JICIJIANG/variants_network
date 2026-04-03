@@ -1,0 +1,4 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+DRD5	Q366R	DRD5_HUMAN	CHAIN	D(1B) dopamine receptor	apoptotic process	DRD5 -[Activation]-> apoptotic process	30559168	0																																		
+DRD5	Q366R	DRD5_HUMAN	CHAIN	D(1B) dopamine receptor	cell death	DRD5 -[Activation]-> cell death	30559168	0																																		
+DRD5	Q366R	DRD5_HUMAN	CHAIN	D(1B) dopamine receptor	response to stress	DRD5 -[Activation]-> DRD2 -[Activation]-> response to stress	30559168	0																																		

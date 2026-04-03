@@ -1,0 +1,19 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+IL5	E12K				cell adhesion	IL5 -[Inhibition]-> cell adhesion	10751541	0																																		
+IL5	E12K				cell adhesion	IL5 -[Inhibition]-> cell adhesion	9207003	0																																		
+IL5	E12K				cell differentiation	IL5 -[Activation]-> cell differentiation	9207003	0																																		
+IL5	E12K				cell population proliferation	IL5 -[Complex]-> IL4 -[Inhibition]-> cell population proliferation	10751541	0																																		
+IL5	E12K				cell population proliferation	IL5 -[Inhibition]-> cell population proliferation	9207003	0																																		
+IL5	E12K				inflammatory response	IL5 -[Complex]-> IL4 -[Inhibition]-> inflammatory response	10751541	0																																		
+IL5	E12K				transcription, DNA-templated	IL5 -[Complex]-> IL4 -[Activation]-> JAK -[Activation]-> transcription, DNA-templated	10751541	0																																		
+IL5	T2L				Death	IL5 -[Inhibition]-> Interferon -[Activation]-> Death	35139352	0																																		
+IL5	T2L				Listeriosis	IL5 -[Activation]-> Listeriosis	35139352	0																																		
+IL5	T2L				Neoplasm Metastasis	IL5 -[Inhibition]-> Neoplasm Metastasis	35139352	0																																		
+IL5	T2L				Neoplasms	IL5 -[Inhibition]-> Neoplasms	35139352	0																																		
+IL5	T2L				Weight Loss	IL5 -[Inhibition]-> Weight Loss	35139352	0																																		
+IL5	T2L				cell population proliferation	IL5 -[Inhibition]-> Interferon -[Inhibition]-> cell population proliferation	35139352	0																																		
+IL5	T2L				cytokine production	IL5 -[Inhibition]-> Interferon -[Inhibition]-> cytokine production	35139352	0																																		
+IL5	T2L				granuloma formation	IL5 -[Activation]-> granuloma formation	35139352	0																																		
+IL5	T2L				immune response	IL5 -[Inhibition]-> Interferon -[Activation]-> immune response	35139352	0																																		
+IL5	T2L				inflammatory response	IL5 -[Inhibition]-> Interferon -[Inhibition]-> IL33 -[Activation]-> inflammatory response	35139352	0																																		
+IL5	T2L				interleukin-13 production	IL5 -[Inhibition]-> Interferon -[Inhibition]-> interleukin-13 production	35139352	0																																		

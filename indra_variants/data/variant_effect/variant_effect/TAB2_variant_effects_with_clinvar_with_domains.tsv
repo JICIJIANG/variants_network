@@ -1,0 +1,13 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+TAB2	K329R	TAB2_HUMAN	CHAIN		Infections	TAB2 -[Complex]-> TRIM60 -[Activation]-> Infections	33184450	0																																		
+TAB2	K329R	TAB2_HUMAN	CHAIN		Infectious Mononucleosis	TAB2 -[Complex]-> TRIM60 -[Activation]-> Infectious Mononucleosis	33184450	0																																		
+TAB2	K329R	TAB2_HUMAN	CHAIN		Shock, Septic	TAB2 -[Complex]-> TRIM60 -[Activation]-> Shock, Septic	33184450	0																																		
+TAB2	K329R	TAB2_HUMAN	CHAIN		cytokine production	TAB2 -[Complex]-> TRIM60 -[Inhibition]-> cytokine production	33184450	0																																		
+TAB2	K329R	TAB2_HUMAN	CHAIN		innate immune response	TAB2 -[Inhibition]-> innate immune response	33184450	0																																		
+TAB2	K329R	TAB2_HUMAN	CHAIN		positive regulation of NF-kappaB transcription factor activity	TAB2 -[Inhibition]-> positive regulation of NF-kappaB transcription factor activity	33184450	0																																		
+TAB2	K562R	TAB2_HUMAN	CHAIN;COILED	;	Infections	TAB2 -[Complex]-> TRIM60 -[Activation]-> Infections	33184450	0																																		
+TAB2	K562R	TAB2_HUMAN	CHAIN;COILED	;	Infectious Mononucleosis	TAB2 -[Complex]-> TRIM60 -[Activation]-> Infectious Mononucleosis	33184450	0																																		
+TAB2	K562R	TAB2_HUMAN	CHAIN;COILED	;	Shock, Septic	TAB2 -[Complex]-> TRIM60 -[Activation]-> Shock, Septic	33184450	0																																		
+TAB2	K562R	TAB2_HUMAN	CHAIN;COILED	;	cytokine production	TAB2 -[Complex]-> TRIM60 -[Inhibition]-> cytokine production	33184450	0																																		
+TAB2	K562R	TAB2_HUMAN	CHAIN;COILED	;	innate immune response	TAB2 -[Inhibition]-> innate immune response	33184450	0																																		
+TAB2	K562R	TAB2_HUMAN	CHAIN;COILED	;	positive regulation of NF-kappaB transcription factor activity	TAB2 -[Inhibition]-> positive regulation of NF-kappaB transcription factor activity	33184450	0																																		

@@ -1,0 +1,8 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+UBE4B	P1140A	UBE4B_HUMAN	CHAIN	Ubiquitin conjugation factor E4 B	Neoplasms	UBE4B -[Inhibition]-> Tax -[Inhibition]-> Neoplasms	33362245	0																																		
+UBE4B	P1140A	UBE4B_HUMAN	CHAIN	Ubiquitin conjugation factor E4 B	Ubiquitination	UBE4B -[Inhibition]-> Tax -[Activation]-> Ubiquitination	33362245	0																																		
+UBE4B	P1140A	UBE4B_HUMAN	CHAIN	Ubiquitin conjugation factor E4 B	apoptotic process	UBE4B -[Activation]-> apoptotic process	33362245	0																																		
+UBE4B	P1140A	UBE4B_HUMAN	CHAIN	Ubiquitin conjugation factor E4 B	cell cycle	UBE4B -[Inhibition]-> Tax -[Inhibition]-> cell cycle	33362245	0																																		
+UBE4B	P1140A	UBE4B_HUMAN	CHAIN	Ubiquitin conjugation factor E4 B	cell death	UBE4B -[Activation]-> cell death	33362245	0																																		
+UBE4B	P1140A	UBE4B_HUMAN	CHAIN	Ubiquitin conjugation factor E4 B	cell population proliferation	UBE4B -[Inhibition]-> cell population proliferation	33362245	0																																		
+UBE4B	P1140A	UBE4B_HUMAN	CHAIN	Ubiquitin conjugation factor E4 B	signal transduction	UBE4B -[Inhibition]-> Tax -[Activation]-> signal transduction	33362245	0																																		

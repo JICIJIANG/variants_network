@@ -1,0 +1,10 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+USP10	C424A	UBP10_HUMAN	CHAIN;DOMAIN	Ubiquitin carboxyl-terminal hydrolase 10;USP	Cell Survival	USP10 -[Activation]-> Cell Survival	30469013	0																																		
+USP10	C424A	UBP10_HUMAN	CHAIN;DOMAIN	Ubiquitin carboxyl-terminal hydrolase 10;USP	apoptotic process	USP10 -[Inhibition]-> apoptotic process	30469013	0																																		
+USP10	C424A	UBP10_HUMAN	CHAIN;DOMAIN	Ubiquitin carboxyl-terminal hydrolase 10;USP	autophagy	USP10 -[Inhibition]-> autophagy	30469013	0																																		
+USP10	C424A	UBP10_HUMAN	CHAIN;DOMAIN	Ubiquitin carboxyl-terminal hydrolase 10;USP	cell death	USP10 -[Inhibition]-> cell death	30469013	0																																		
+USP10	C424A	UBP10_HUMAN	CHAIN;DOMAIN	Ubiquitin carboxyl-terminal hydrolase 10;USP	proteolysis	USP10 -[Inhibition]-> Proteasome -[Inhibition]-> proteolysis	30469013	0																																		
+USP10	C424A	UBP10_HUMAN	CHAIN;DOMAIN	Ubiquitin carboxyl-terminal hydrolase 10;USP	transport	USP10 -[Activation]-> transport	30469013	0																																		
+USP10	S236A	UBP10_HUMAN	CHAIN;REGION	Ubiquitin carboxyl-terminal hydrolase 10;Disordered	Neoplasm Metastasis	USP10 -[Inhibition]-> Neoplasm Metastasis	36940483	0																																		
+USP10	S236A	UBP10_HUMAN	CHAIN;REGION	Ubiquitin carboxyl-terminal hydrolase 10;Disordered	cell migration	USP10 -[Activation]-> cell migration	36940483	0																																		
+USP10	S236A	UBP10_HUMAN	CHAIN;REGION	Ubiquitin carboxyl-terminal hydrolase 10;Disordered	protein stabilization	USP10 -[Activation]-> protein stabilization	36940483	0																																		

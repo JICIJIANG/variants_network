@@ -1,0 +1,17 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+PLXNB1	L1815P	PLXB1_HUMAN	CHAIN	Plexin-B1	Neoplasm Invasiveness	PLXNB1 -[Activation]-> Neoplasm Invasiveness	22404908	0																																		
+PLXNB1	L1815P	PLXB1_HUMAN	CHAIN	Plexin-B1	cell adhesion	PLXNB1 -[Activation]-> cell adhesion	22404908	0																																		
+PLXNB1	L1815P	PLXB1_HUMAN	CHAIN	Plexin-B1	cell migration	PLXNB1 -[Activation]-> cell migration	22404908	0																																		
+PLXNB1	L1815P	PLXB1_HUMAN	CHAIN	Plexin-B1	cell motility	PLXNB1 -[Activation]-> cell motility	22404908	0																																		
+PLXNB1	P1597L	PLXB1_HUMAN	CHAIN	Plexin-B1	Neoplasm Invasiveness	PLXNB1 -[Inhibition]-> Neoplasm Invasiveness	36936664	0																																		
+PLXNB1	P1597L	PLXB1_HUMAN	CHAIN	Plexin-B1	Neoplasm Metastasis	PLXNB1 -[Activation]-> Neoplasm Metastasis	36936664	0																																		
+PLXNB1	T1697A	PLXB1_HUMAN	CHAIN	Plexin-B1	Breast Neoplasms	PLXNB1 -[Inhibition]-> Breast Neoplasms	23775445	0																																		
+PLXNB1	T1697A	PLXB1_HUMAN	CHAIN	Plexin-B1	Neoplasm Invasiveness	PLXNB1 -[Activation]-> Neoplasm Invasiveness	23775445	0																																		
+PLXNB1	T1697A	PLXB1_HUMAN	CHAIN	Plexin-B1	Neoplasm Metastasis	PLXNB1 -[Inhibition]-> Neoplasm Metastasis	23775445	0																																		
+PLXNB1	T1697A	PLXB1_HUMAN	CHAIN	Plexin-B1	cell adhesion	PLXNB1 -[Activation]-> cell adhesion	23775445	0																																		
+PLXNB1	T1697A	PLXB1_HUMAN	CHAIN	Plexin-B1	cell motility	PLXNB1 -[Complex]-> SEMA4D -[Inhibition]-> cell motility	23775445	0																																		
+PLXNB1	T1697A	PLXB1_HUMAN	CHAIN	Plexin-B1	cell population proliferation	PLXNB1 -[Inhibition]-> cell population proliferation	23775445	0																																		
+PLXNB1	T1795A	PLXB1_HUMAN	CHAIN	Plexin-B1	Neoplasm Invasiveness	PLXNB1 -[Activation]-> Neoplasm Invasiveness	22404908	0																																		
+PLXNB1	T1795A	PLXB1_HUMAN	CHAIN	Plexin-B1	cell adhesion	PLXNB1 -[Activation]-> cell adhesion	22404908	0																																		
+PLXNB1	T1795A	PLXB1_HUMAN	CHAIN	Plexin-B1	cell migration	PLXNB1 -[Activation]-> cell migration	22404908	0																																		
+PLXNB1	T1795A	PLXB1_HUMAN	CHAIN	Plexin-B1	cell motility	PLXNB1 -[Activation]-> cell motility	22404908	0																																		

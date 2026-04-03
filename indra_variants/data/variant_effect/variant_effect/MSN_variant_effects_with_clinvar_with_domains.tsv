@@ -1,0 +1,21 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+MSN	R570A	MOES_HUMAN	CHAIN	Moesin	PDGF	MSN -[Complex]-> F_actin -[Complex]-> EZR -[Inhibition]-> PDGF	22132106	0																																		
+MSN	T558A	MOES_HUMAN	CHAIN	Moesin	Cell Polarity	MSN -[Activation]-> Cell Polarity	25601651	0																																		
+MSN	T558A	MOES_HUMAN	CHAIN	Moesin	RhoGDI	MSN -[Complex]-> RhoGDI	25601651	0																																		
+MSN	T558A	MOES_HUMAN	CHAIN	Moesin	apoptotic process	MSN -[Complex]-> EZR -[Activation]-> apoptotic process	10893267	0																																		
+MSN	T558A	MOES_HUMAN	CHAIN	Moesin	cell migration	MSN -[Inhibition]-> cell migration	25601651	0																																		
+MSN	T558A	MOES_HUMAN	CHAIN	Moesin	inflammatory response	MSN -[Activation]-> inflammatory response	25601651	0																																		
+MSN	T558D	MOES_HUMAN	CHAIN	Moesin	Cell Polarity	MSN -[Activation]-> Cell Polarity	25601651	0																																		
+MSN	T558D	MOES_HUMAN	CHAIN	Moesin	Glioma	MSN -[Activation]-> ANO1 -[Activation]-> Glioma	34603794	0																																		
+MSN	T558D	MOES_HUMAN	CHAIN	Moesin	MAPK cascade	MSN -[Activation]-> ANO1 -[Activation]-> MAPK cascade	34603794	0																																		
+MSN	T558D	MOES_HUMAN	CHAIN	Moesin	Neoplasm Invasiveness	MSN -[Activation]-> Neoplasm Invasiveness	34603794	0																																		
+MSN	T558D	MOES_HUMAN	CHAIN	Moesin	Neoplasm Metastasis	MSN -[Activation]-> Neoplasm Metastasis	34603794	0																																		
+MSN	T558D	MOES_HUMAN	CHAIN	Moesin	Neoplasms	MSN -[Activation]-> ANO1 -[Activation]-> Neoplasms	34603794	0																																		
+MSN	T558D	MOES_HUMAN	CHAIN	Moesin	RhoGDI	MSN -[Complex]-> RhoGDI	25601651	0																																		
+MSN	T558D	MOES_HUMAN	CHAIN	Moesin	Squamous Cell Carcinoma of Head and Neck	MSN -[Activation]-> ANO1 -[Activation]-> Squamous Cell Carcinoma of Head and Neck	34603794	0																																		
+MSN	T558D	MOES_HUMAN	CHAIN	Moesin	cell migration	MSN -[Inhibition]-> cell migration	25601651	0																																		
+MSN	T558D	MOES_HUMAN	CHAIN	Moesin	cell population proliferation	MSN -[Activation]-> ANO1 -[Activation]-> cell population proliferation	34603794	0																																		
+MSN	T558D	MOES_HUMAN	CHAIN	Moesin	epidermal growth factor receptor signaling pathway	MSN -[Activation]-> ANO1 -[Activation]-> epidermal growth factor receptor signaling pathway	34603794	0																																		
+MSN	T558D	MOES_HUMAN	CHAIN	Moesin	inflammatory response	MSN -[Activation]-> inflammatory response	25601651	0																																		
+MSN	T558D	MOES_HUMAN	CHAIN	Moesin	protein kinase B signaling	MSN -[Activation]-> ANO1 -[Activation]-> protein kinase B signaling	34603794	0																																		
+MSN	T558D	MOES_HUMAN	CHAIN	Moesin	signal transduction	MSN -[Activation]-> ANO1 -[Activation]-> signal transduction	34603794	0																																		

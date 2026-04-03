@@ -1,0 +1,16 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+PTK6	K219M	PTK6_HUMAN	CHAIN;DOMAIN	Protein-tyrosine kinase 6;Protein kinase	cell growth	PTK6 -[Activation]-> cell growth	17997837	0																																		
+PTK6	K219M	PTK6_HUMAN	CHAIN;DOMAIN	Protein-tyrosine kinase 6;Protein kinase	cell population proliferation	PTK6 -[Inhibition]-> cell population proliferation	17997837	0																																		
+PTK6	L16F	PTK6_HUMAN	CHAIN;DOMAIN	Protein-tyrosine kinase 6;SH3	Neoplasm Metastasis	PTK6 -[Inhibition]-> Neoplasm Metastasis	25940761	0																																		
+PTK6	L16F	PTK6_HUMAN	CHAIN;DOMAIN	Protein-tyrosine kinase 6;SH3	cell growth	PTK6 -[Activation]-> cell growth	25940761	0																																		
+PTK6	L16F	PTK6_HUMAN	CHAIN;DOMAIN	Protein-tyrosine kinase 6;SH3	cell migration	PTK6 -[Activation]-> cell migration	25940761	0																																		
+PTK6	L16F	PTK6_HUMAN	CHAIN;DOMAIN	Protein-tyrosine kinase 6;SH3	cell population proliferation	PTK6 -[Activation]-> cell population proliferation	25940761	0																																		
+PTK6	L16F	PTK6_HUMAN	CHAIN;DOMAIN	Protein-tyrosine kinase 6;SH3	epithelial to mesenchymal transition	PTK6 -[Inhibition]-> epithelial to mesenchymal transition	25940761	0																																		
+PTK6	Y447F	PTK6_HUMAN	CHAIN	Protein-tyrosine kinase 6	Cell Survival	PTK6 -[Activation]-> Cell Survival	24523872	0																																		
+PTK6	Y447F	PTK6_HUMAN	CHAIN	Protein-tyrosine kinase 6	Neoplasm Metastasis	PTK6 -[Activation]-> Neoplasm Metastasis	24523872	0																																		
+PTK6	Y447F	PTK6_HUMAN	CHAIN	Protein-tyrosine kinase 6	Neoplasms	PTK6 -[Activation]-> Neoplasms	24523872	0																																		
+PTK6	Y447F	PTK6_HUMAN	CHAIN	Protein-tyrosine kinase 6	cell growth	PTK6 -[Activation]-> cell growth	17997837	0																																		
+PTK6	Y447F	PTK6_HUMAN	CHAIN	Protein-tyrosine kinase 6	cell growth	PTK6 -[Activation]-> cell growth	24523872	0																																		
+PTK6	Y447F	PTK6_HUMAN	CHAIN	Protein-tyrosine kinase 6	cell migration	PTK6 -[Activation]-> cell migration	24523872	0																																		
+PTK6	Y447F	PTK6_HUMAN	CHAIN	Protein-tyrosine kinase 6	cell population proliferation	PTK6 -[Inhibition]-> cell population proliferation	17997837	0																																		
+PTK6	Y447F	PTK6_HUMAN	CHAIN	Protein-tyrosine kinase 6	cell population proliferation	PTK6 -[Inhibition]-> cell population proliferation	24523872	0																																		

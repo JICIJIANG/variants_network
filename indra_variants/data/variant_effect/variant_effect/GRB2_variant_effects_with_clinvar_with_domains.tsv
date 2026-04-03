@@ -1,0 +1,17 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+GRB2	P206L	GRB2_HUMAN	CHAIN;DOMAIN	Growth factor receptor-bound protein 2;SH3 2	Neoplasm Invasiveness	GRB2 -[Activation]-> Neoplasm Invasiveness	30087284	0																																		
+GRB2	P206L	GRB2_HUMAN	CHAIN;DOMAIN	Growth factor receptor-bound protein 2;SH3 2	Neoplasm Metastasis	GRB2 -[Activation]-> Neoplasm Metastasis	30087284	0																																		
+GRB2	P206L	GRB2_HUMAN	CHAIN;DOMAIN	Growth factor receptor-bound protein 2;SH3 2	cell differentiation	GRB2 -[Inhibition]-> cell differentiation	27965114	0																																		
+GRB2	P206L	GRB2_HUMAN	CHAIN;DOMAIN	Growth factor receptor-bound protein 2;SH3 2	cell migration	GRB2 -[Activation]-> cell migration	30087284	0																																		
+GRB2	P206L	GRB2_HUMAN	CHAIN;DOMAIN	Growth factor receptor-bound protein 2;SH3 2	epithelial to mesenchymal transition	GRB2 -[Inhibition]-> epithelial to mesenchymal transition	30087284	0																																		
+GRB2	P49L	GRB2_HUMAN	CHAIN;DOMAIN	Growth factor receptor-bound protein 2;SH3 1	Neoplasm Invasiveness	GRB2 -[Activation]-> Neoplasm Invasiveness	30087284	0																																		
+GRB2	P49L	GRB2_HUMAN	CHAIN;DOMAIN	Growth factor receptor-bound protein 2;SH3 1	Neoplasm Metastasis	GRB2 -[Activation]-> Neoplasm Metastasis	30087284	0																																		
+GRB2	P49L	GRB2_HUMAN	CHAIN;DOMAIN	Growth factor receptor-bound protein 2;SH3 1	cell migration	GRB2 -[Activation]-> cell migration	30087284	0																																		
+GRB2	P49L	GRB2_HUMAN	CHAIN;DOMAIN	Growth factor receptor-bound protein 2;SH3 1	epithelial to mesenchymal transition	GRB2 -[Inhibition]-> epithelial to mesenchymal transition	30087284	0																																		
+GRB2	R86K	GRB2_HUMAN	CHAIN;DOMAIN	Growth factor receptor-bound protein 2;SH2	Neoplasm Invasiveness	GRB2 -[Activation]-> Neoplasm Invasiveness	30087284	0																																		
+GRB2	R86K	GRB2_HUMAN	CHAIN;DOMAIN	Growth factor receptor-bound protein 2;SH2	Neoplasm Metastasis	GRB2 -[Activation]-> Neoplasm Metastasis	30087284	0																																		
+GRB2	R86K	GRB2_HUMAN	CHAIN;DOMAIN	Growth factor receptor-bound protein 2;SH2	cell differentiation	GRB2 -[Inhibition]-> cell differentiation	27965114	0																																		
+GRB2	R86K	GRB2_HUMAN	CHAIN;DOMAIN	Growth factor receptor-bound protein 2;SH2	cell migration	GRB2 -[Activation]-> cell migration	30087284	0																																		
+GRB2	R86K	GRB2_HUMAN	CHAIN;DOMAIN	Growth factor receptor-bound protein 2;SH2	epithelial to mesenchymal transition	GRB2 -[Inhibition]-> epithelial to mesenchymal transition	30087284	0																																		
+GRB2	Y160E	GRB2_HUMAN	CHAIN;DOMAIN	Growth factor receptor-bound protein 2;SH3 2	cell population proliferation	GRB2 -[Activation]-> cell population proliferation	33795832	0																																		
+GRB2	Y160E	GRB2_HUMAN	CHAIN;DOMAIN	Growth factor receptor-bound protein 2;SH3 2	signal transduction	GRB2 -[Activation]-> signal transduction	33795832	0																																		

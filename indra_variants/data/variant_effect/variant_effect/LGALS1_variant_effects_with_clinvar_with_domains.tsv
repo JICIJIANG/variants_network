@@ -1,0 +1,6 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+LGALS1	C3S	LEG1_HUMAN	CHAIN	Galectin-1	Neoplasms	LGALS1 -[Complex]-> N-glycans -[Activation]-> Neoplasms	22028908	0																																		
+LGALS1	L11A	LEG1_HUMAN	CHAIN;DOMAIN	Galectin-1;Galectin	apoptotic process	LGALS1 -[Inhibition]-> apoptotic process	26950805	0																																		
+LGALS1	L11A	LEG1_HUMAN	CHAIN;DOMAIN	Galectin-1;Galectin	cell population proliferation	LGALS1 -[Activation]-> cell population proliferation	26950805	0																																		
+LGALS1	L11A	LEG1_HUMAN	CHAIN;DOMAIN	Galectin-1;Galectin	immune response	LGALS1 -[Complex]-> lactose -[Complex]-> l-1 -[Inhibition]-> immune response	26950805	0																																		
+LGALS1	L11A	LEG1_HUMAN	CHAIN;DOMAIN	Galectin-1;Galectin	signal transduction	LGALS1 -[Activation]-> RAS -[Activation]-> signal transduction	26950805	0																																		

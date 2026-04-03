@@ -1,0 +1,14 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+P2RX7	G150R	P2RX7_HUMAN	CHAIN	P2X purinoceptor 7	ATP biosynthetic process	P2RX7 -[Activation]-> ATP biosynthetic process	31551714	0																																		
+P2RX7	G150R	P2RX7_HUMAN	CHAIN	P2X purinoceptor 7	Death	P2RX7 -[Inhibition]-> Death	31551714	0																																		
+P2RX7	G150R	P2RX7_HUMAN	CHAIN	P2X purinoceptor 7	autophagy	P2RX7 -[Inhibition]-> autophagy	31551714	0																																		
+P2RX7	G150R	P2RX7_HUMAN	CHAIN	P2X purinoceptor 7	cell death	P2RX7 -[Activation]-> cell death	31551714	0																																		
+P2RX7	G150R	P2RX7_HUMAN	CHAIN	P2X purinoceptor 7	cell differentiation	P2RX7 -[Activation]-> cell differentiation	31551714	0																																		
+P2RX7	G150R	P2RX7_HUMAN	CHAIN	P2X purinoceptor 7	cell growth	P2RX7 -[Inhibition]-> cell growth	31551714	0																																		
+P2RX7	G150R	P2RX7_HUMAN	CHAIN	P2X purinoceptor 7	cell population proliferation	P2RX7 -[Activation]-> cell population proliferation	31551714	0																																		
+P2RX7	G150R	P2RX7_HUMAN	CHAIN	P2X purinoceptor 7	necrotic cell death	P2RX7 -[Activation]-> necrotic cell death	31551714	0																																		
+P2RX7	G150R	P2RX7_HUMAN	CHAIN	P2X purinoceptor 7	phagocytosis	P2RX7 -[Inhibition]-> phagocytosis	31551714	0																																		
+P2RX7	G150R	P2RX7_HUMAN	CHAIN	P2X purinoceptor 7	pore complex assembly	P2RX7 -[Activation]-> pore complex assembly	31551714	0																																		
+P2RX7	G150R	P2RX7_HUMAN	CHAIN	P2X purinoceptor 7	transcription, DNA-templated	P2RX7 -[Activation]-> transcription, DNA-templated	31551714	0																																		
+P2RX7	G586A	P2RX7_HUMAN	CHAIN;REGION	P2X purinoceptor 7;Cytoplasmic ballast	P2RX	P2RX7 -[Inhibition]-> NFkappaB -[Activation]-> P2RX	21621419	0																																		
+P2RX7	W575A	P2RX7_HUMAN	CHAIN;REGION	P2X purinoceptor 7;Cytoplasmic ballast	P2RX	P2RX7 -[Inhibition]-> NFkappaB -[Activation]-> P2RX	21621419	0																																		

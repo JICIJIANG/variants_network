@@ -1,0 +1,40 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+NF2	E545K	MERL_HUMAN	CHAIN	Merlin	cell population proliferation	NF2 -[Inhibition]-> cell population proliferation	22325036	1	2183531	single nucleotide variant	NM_000268.4(NF2):c.1633G>A (p.Glu545Lys)	-1	Neurofibromatosis, type 2	Uncertain significance	1.0																											
+NF2	E547K	MERL_HUMAN	CHAIN	Merlin	cell population proliferation	NF2 -[Inhibition]-> cell population proliferation	22325036	1	471053	single nucleotide variant	NM_000268.4(NF2):c.1639G>A (p.Glu547Lys)	199669486	Neurofibromatosis, type 2	Conflicting classifications of pathogenicity	0.0	Hereditary cancer-predisposing syndrome			not provided																							
+NF2	G197C	MERL_HUMAN	CHAIN;DOMAIN	Merlin;FERM	Carcinogenesis	NF2 -[Activation]-> Carcinogenesis	20178741	0																																		
+NF2	G197C	MERL_HUMAN	CHAIN;DOMAIN	Merlin;FERM	DNA repair	NF2 -[Activation]-> IL17RB -[Activation]-> DNA repair	20178741	0																																		
+NF2	G197C	MERL_HUMAN	CHAIN;DOMAIN	Merlin;FERM	Neoplasms	NF2 -[Activation]-> Neoplasms	20178741	0																																		
+NF2	G197C	MERL_HUMAN	CHAIN;DOMAIN	Merlin;FERM	PDGF	NF2 -[Inhibition]-> PDGF	20178741	0																																		
+NF2	G197C	MERL_HUMAN	CHAIN;DOMAIN	Merlin;FERM	cell cycle	NF2 -[Activation]-> cell cycle	20178741	0																																		
+NF2	G197C	MERL_HUMAN	CHAIN;DOMAIN	Merlin;FERM	cell population proliferation	NF2 -[Inhibition]-> cell population proliferation	20178741	0																																		
+NF2	G197C	MERL_HUMAN	CHAIN;DOMAIN	Merlin;FERM	contact inhibition	NF2 -[Inhibition]-> contact inhibition	20178741	0																																		
+NF2	L64P	MERL_HUMAN	CHAIN;DOMAIN	Merlin;FERM	cell population proliferation	NF2 -[Inhibition]-> cell population proliferation	17548515	1	999388	single nucleotide variant	NM_000268.4(NF2):c.191T>C (p.Leu64Pro)	2065661430	Neurofibromatosis, type 2	Likely pathogenic	1.0																											
+NF2	S10A	MERL_HUMAN	CHAIN	Merlin	cell population proliferation	NF2 -[Inhibition]-> cell population proliferation	21750658	0																																		
+NF2	S10A	MERL_HUMAN	CHAIN	Merlin	contact inhibition	NF2 -[Inhibition]-> contact inhibition	21750658	0																																		
+NF2	S518A	MERL_HUMAN	CHAIN	Merlin	Neoplasm Invasiveness	NF2 -[Activation]-> Neoplasm Invasiveness	22247700	0																																		
+NF2	S518A	MERL_HUMAN	CHAIN	Merlin	Neoplasm Invasiveness	NF2 -[Inhibition]-> Neoplasm Invasiveness	20890305	0																																		
+NF2	S518A	MERL_HUMAN	CHAIN	Merlin	Neoplasm Metastasis	NF2 -[Activation]-> Neoplasm Metastasis	22247700	0																																		
+NF2	S518A	MERL_HUMAN	CHAIN	Merlin	Neoplasms	NF2 -[Inhibition]-> Neoplasms	25043298	0																																		
+NF2	S518A	MERL_HUMAN	CHAIN	Merlin	Reperfusion Injury	NF2 -[Activation]-> Reperfusion Injury	27402866	0																																		
+NF2	S518A	MERL_HUMAN	CHAIN	Merlin	angiogenesis	NF2 -[Phosphorylation]-> EGFR -[Activation]-> angiogenesis	25043298	0																																		
+NF2	S518A	MERL_HUMAN	CHAIN	Merlin	apoptotic process	NF2 -[Activation]-> apoptotic process	27402866	0																																		
+NF2	S518A	MERL_HUMAN	CHAIN	Merlin	apoptotic process	NF2 -[Dephosphorylation]-> PTK2 -[Inhibition]-> apoptotic process	27736841	0																																		
+NF2	S518A	MERL_HUMAN	CHAIN	Merlin	autophagy	NF2 -[Activation]-> MST1 -[Inhibition]-> autophagy	27402866	0																																		
+NF2	S518A	MERL_HUMAN	CHAIN	Merlin	cell cycle	NF2 -[Inhibition]-> cell cycle	22247700	0																																		
+NF2	S518A	MERL_HUMAN	CHAIN	Merlin	cell cycle	NF2 -[Inhibition]-> cell cycle	25043298	0																																		
+NF2	S518A	MERL_HUMAN	CHAIN	Merlin	cell death	NF2 -[Activation]-> MST1 -[Activation]-> cell death	27402866	0																																		
+NF2	S518A	MERL_HUMAN	CHAIN	Merlin	cell growth	NF2 -[Activation]-> cell growth	25043298	0																																		
+NF2	S518A	MERL_HUMAN	CHAIN	Merlin	cell growth	NF2 -[Dephosphorylation]-> PTK2 -[Activation]-> cell growth	27736841	0																																		
+NF2	S518A	MERL_HUMAN	CHAIN	Merlin	cell growth	NF2 -[Inhibition]-> cell growth	20890305	0																																		
+NF2	S518A	MERL_HUMAN	CHAIN	Merlin	cell population proliferation	NF2 -[Inhibition]-> cell population proliferation	20890305	0																																		
+NF2	S518A	MERL_HUMAN	CHAIN	Merlin	cell population proliferation	NF2 -[Inhibition]-> cell population proliferation	22247700	0																																		
+NF2	S518A	MERL_HUMAN	CHAIN	Merlin	cell population proliferation	NF2 -[Inhibition]-> cell population proliferation	25043298	0																																		
+NF2	S518A	MERL_HUMAN	CHAIN	Merlin	contact inhibition	NF2 -[Inhibition]-> contact inhibition	22247700	0																																		
+NF2	S518A	MERL_HUMAN	CHAIN	Merlin	localization	NF2 -[Activation]-> CDC42 -[Activation]-> localization	20890305	0																																		
+NF2	S518A	MERL_HUMAN	CHAIN	Merlin	localization	NF2 -[Activation]-> localization	22247700	0																																		
+NF2	S518A	MERL_HUMAN	CHAIN	Merlin	positive regulation of wound healing	NF2 -[Activation]-> positive regulation of wound healing	27402866	0																																		
+NF2	S518A	MERL_HUMAN	CHAIN	Merlin	transcription, DNA-templated	NF2 -[Inhibition]-> CTNNB1 -[Activation]-> transcription, DNA-templated	22247700	0																																		
+NF2	S518D	MERL_HUMAN	CHAIN	Merlin	Carcinogenesis	NF2 -[Inhibition]-> Carcinogenesis	35082167	0																																		
+NF2	S518D	MERL_HUMAN	CHAIN	Merlin	cell population proliferation	NF2 -[Activation]-> cell population proliferation	35082167	0																																		
+NF2	S518D	MERL_HUMAN	CHAIN	Merlin	cell population proliferation	NF2 -[Inhibition]-> cell population proliferation	21750658	0																																		
+NF2	S518D	MERL_HUMAN	CHAIN	Merlin	contact inhibition	NF2 -[Inhibition]-> contact inhibition	21750658	0																																		

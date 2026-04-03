@@ -1,0 +1,9 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+Histone_H4	K12R				cell cycle	Histone_H4 -[Inhibition]-> cell cycle	21656278	0																																		
+Histone_H4	K16Q				transcription, DNA-templated	Histone_H4 -[Activation]-> transcription, DNA-templated	21985125	0																																		
+Histone_H4	K16R				transcription, DNA-templated	Histone_H4 -[Activation]-> transcription, DNA-templated	21985125	0																																		
+Histone_H4	K20A				transcription, DNA-templated	Histone_H4 -[Activation]-> transcription, DNA-templated	21985125	0																																		
+Histone_H4	K5R				cell cycle	Histone_H4 -[Inhibition]-> cell cycle	21656278	0																																		
+Histone_H4	K91A				DNA Damage	Histone_H4 -[Activation]-> DNA Damage	15808514	0																																		
+Histone_H4	R45C				DNA Damage	Histone_H4 -[Activation]-> DNA Damage	18508805	0																																		
+Histone_H4	R45C				DNA repair	Histone_H4 -[Activation]-> DNA repair	18508805	0																																		

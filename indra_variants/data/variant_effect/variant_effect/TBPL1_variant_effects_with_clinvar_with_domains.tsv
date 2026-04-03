@@ -1,0 +1,14 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+TBPL1	F120A	TBPL1_HUMAN	CHAIN	TATA box-binding protein-like 1	DNA damage checkpoint	TBPL1 -[Activation]-> clofentezine -[Inhibition]-> ATM -[Activation]-> DNA damage checkpoint	20619712	0																																		
+TBPL1	F120A	TBPL1_HUMAN	CHAIN	TATA box-binding protein-like 1	DNA damage checkpoint	TBPL1 -[Inhibition]-> DNA damage checkpoint	26941064	0																																		
+TBPL1	F120A	TBPL1_HUMAN	CHAIN	TATA box-binding protein-like 1	Neoplasm Invasiveness	TBPL1 -[Activation]-> Neoplasm Invasiveness	26941064	0																																		
+TBPL1	F120A	TBPL1_HUMAN	CHAIN	TATA box-binding protein-like 1	cell population proliferation	TBPL1 -[Activation]-> clofentezine -[Activation]-> cell population proliferation	20619712	0																																		
+TBPL1	F120A	TBPL1_HUMAN	CHAIN	TATA box-binding protein-like 1	localization	TBPL1 -[Inhibition]-> localization	26941064	0																																		
+TBPL1	I124D	TBPL1_HUMAN	CHAIN	TATA box-binding protein-like 1	nuclease activity	TBPL1 -[Activation]-> RTEL1 -[Inhibition]-> nuclease activity	25620558	0																																		
+TBPL1	T188A				Aging	TBPL1 -[IncreaseAmount]-> SIRT6 -[Activation]-> Aging	33353368	0																																		
+TBPL1	T188A				Atherosclerosis	TBPL1 -[IncreaseAmount]-> SIRT6 -[Inhibition]-> Atherosclerosis	33353368	0																																		
+TBPL1	T188A				DNA Damage	TBPL1 -[Activation]-> DNA Damage	33353368	0																																		
+TBPL1	T188A				cell population proliferation	TBPL1 -[IncreaseAmount]-> SIRT6 -[Inhibition]-> CDKN2A -[Activation]-> cell population proliferation	33353368	0																																		
+TBPL1	T188A				cellular senescence	TBPL1 -[Activation]-> DNA Damage -[Activation]-> cellular senescence	33353368	0																																		
+TBPL1	T188A				glycolytic process	TBPL1 -[IncreaseAmount]-> SIRT6 -[Activation]-> glycolytic process	33353368	0																																		
+TBPL1	T188A				inflammatory response	TBPL1 -[IncreaseAmount]-> SIRT6 -[Inhibition]-> inflammatory response	33353368	0																																		

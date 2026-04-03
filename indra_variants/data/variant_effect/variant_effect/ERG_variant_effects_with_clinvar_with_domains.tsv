@@ -1,0 +1,10 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+ERG	P436A	ERG_HUMAN	CHAIN	Transcriptional regulator ERG	cell migration	ERG -[Activation]-> cell migration	27783944	0																																		
+ERG	P436A	ERG_HUMAN	CHAIN	Transcriptional regulator ERG	transcription, DNA-templated	ERG -[Complex]-> FLI1 -[Activation]-> transcription, DNA-templated	27783944	0																																		
+ERG	S96E	ERG_HUMAN	CHAIN	Transcriptional regulator ERG	Neoplasm Invasiveness	ERG -[IncreaseAmount]-> TLR4 -[Activation]-> Neoplasm Invasiveness	33554122	0																																		
+ERG	S96E	ERG_HUMAN	CHAIN	Transcriptional regulator ERG	Neoplasms	ERG -[Activation]-> Neoplasms	33554122	0																																		
+ERG	S96E	ERG_HUMAN	CHAIN	Transcriptional regulator ERG	cell migration	ERG -[Activation]-> cell migration	33554122	0																																		
+ERG	S96E	ERG_HUMAN	CHAIN	Transcriptional regulator ERG	cell population proliferation	ERG -[Activation]-> cell population proliferation	33554122	0																																		
+ERG	S96E	ERG_HUMAN	CHAIN	Transcriptional regulator ERG	cytokine production	ERG -[IncreaseAmount]-> TLR4 -[Activation]-> cytokine production	33554122	0																																		
+ERG	S96E	ERG_HUMAN	CHAIN	Transcriptional regulator ERG	epithelial to mesenchymal transition	ERG -[IncreaseAmount]-> TLR4 -[Activation]-> epithelial to mesenchymal transition	33554122	0																																		
+ERG	S96E	ERG_HUMAN	CHAIN	Transcriptional regulator ERG	transcription, DNA-templated	ERG -[Activation]-> transcription, DNA-templated	33554122	0																																		

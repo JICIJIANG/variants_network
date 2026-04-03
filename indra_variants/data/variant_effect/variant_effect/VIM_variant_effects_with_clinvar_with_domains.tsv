@@ -1,0 +1,11 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+VIM	K120Q	VIME_HUMAN	CHAIN;DOMAIN;REGION;COILED	Vimentin;IF rod;Coil 1A;	cell migration	VIM -[Inhibition]-> cell migration	30662803	0																																		
+VIM	K120R	VIME_HUMAN	CHAIN;DOMAIN;REGION;COILED	Vimentin;IF rod;Coil 1A;	cell migration	VIM -[Inhibition]-> cell migration	30662803	0																																		
+VIM	S38E	VIME_HUMAN	CHAIN;REGION	Vimentin;Head	cell death	VIM -[IncreaseAmount]-> polyQ -[Activation]-> cell death	22929228	0																																		
+VIM	S55A	VIME_HUMAN	CHAIN;REGION	Vimentin;Head	cell adhesion	VIM -[Inhibition]-> RAC1 -[Inhibition]-> RHOA -[Activation]-> cell adhesion	26369929	0																																		
+VIM	S56A	VIME_HUMAN	CHAIN;REGION	Vimentin;Head	ADRA	VIM -[Inhibition]-> BCAR1 -[Complex]-> ABL1 -[Activation]-> ADRA	19329671	0																																		
+VIM	S56A	VIME_HUMAN	CHAIN;REGION	Vimentin;Head	actin filament polymerization	VIM -[Inhibition]-> BCAR1 -[Activation]-> actin filament polymerization	32328567	0																																		
+VIM	S56A	VIME_HUMAN	CHAIN;REGION	Vimentin;Head	cell migration	VIM -[Inhibition]-> BCAR1 -[Inhibition]-> cell migration	19329671	0																																		
+VIM	S56A	VIME_HUMAN	CHAIN;REGION	Vimentin;Head	cell motility	VIM -[Inhibition]-> BCAR1 -[Inhibition]-> cell motility	19329671	0																																		
+VIM	S56A	VIME_HUMAN	CHAIN;REGION	Vimentin;Head	smooth muscle contraction	VIM -[Activation]-> smooth muscle contraction	32328567	0																																		
+VIM	S71E	VIME_HUMAN	CHAIN;REGION	Vimentin;Head	cell death	VIM -[IncreaseAmount]-> polyQ -[Activation]-> cell death	22929228	0																																		

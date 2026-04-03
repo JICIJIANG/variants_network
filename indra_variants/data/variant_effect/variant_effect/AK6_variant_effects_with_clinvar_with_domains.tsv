@@ -1,0 +1,9 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+AK6	H79G	KAD6_HUMAN	CHAIN	Adenylate kinase isoenzyme 6	Cell Survival	AK6 -[Inhibition]-> Cell Survival	28516914	0																																		
+AK6	H79G	KAD6_HUMAN	CHAIN	Adenylate kinase isoenzyme 6	Neoplasm Invasiveness	AK6 -[Inhibition]-> Neoplasm Invasiveness	28516914	0																																		
+AK6	H79G	KAD6_HUMAN	CHAIN	Adenylate kinase isoenzyme 6	Neoplasm Metastasis	AK6 -[Dephosphorylation]-> LDHA -[Activation]-> Neoplasm Metastasis	28516914	0																																		
+AK6	H79G	KAD6_HUMAN	CHAIN	Adenylate kinase isoenzyme 6	apoptotic process	AK6 -[Inhibition]-> apoptotic process	28516914	0																																		
+AK6	H79G	KAD6_HUMAN	CHAIN	Adenylate kinase isoenzyme 6	biosynthetic process	AK6 -[Dephosphorylation]-> LDHA -[Activation]-> biosynthetic process	28516914	0																																		
+AK6	H79G	KAD6_HUMAN	CHAIN	Adenylate kinase isoenzyme 6	epithelial to mesenchymal transition	AK6 -[Activation]-> epithelial to mesenchymal transition	28516914	0																																		
+AK6	H79G	KAD6_HUMAN	CHAIN	Adenylate kinase isoenzyme 6	glycolytic process	AK6 -[Inhibition]-> glycolytic process	28516914	0																																		
+AK6	H79G	KAD6_HUMAN	CHAIN	Adenylate kinase isoenzyme 6	oxidative phosphorylation	AK6 -[Activation]-> oxidative phosphorylation	28516914	0																																		

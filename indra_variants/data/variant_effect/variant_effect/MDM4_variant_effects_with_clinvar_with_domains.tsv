@@ -1,0 +1,13 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+MDM4	C462A	MDM4_HUMAN	CHAIN;ZN_FING;REGION	Protein Mdm4;RING-type;Necessary for interaction with USP2	DNA Damage	MDM4 -[Complex]-> MDM2 -[Activation]-> DNA Damage	28096294	0																																		
+MDM4	C462A	MDM4_HUMAN	CHAIN;ZN_FING;REGION	Protein Mdm4;RING-type;Necessary for interaction with USP2	Radiation, Ionizing	MDM4 -[Complex]-> Radiation, Ionizing	28096294	0																																		
+MDM4	C462A	MDM4_HUMAN	CHAIN;ZN_FING;REGION	Protein Mdm4;RING-type;Necessary for interaction with USP2	cell population proliferation	MDM4 -[Inhibition]-> cell population proliferation	21730163	0																																		
+MDM4	F488A	MDM4_HUMAN	CHAIN;REGION	Protein Mdm4;Necessary for interaction with USP2	UBE2	MDM4 -[Activation]-> MDM2 -[Complex]-> UBE2	22266850	0																																		
+MDM4	G57A	MDM4_HUMAN	CHAIN;DOMAIN	Protein Mdm4;SWIB/MDM2	UBE2	MDM4 -[Activation]-> MDM2 -[Complex]-> UBE2	22266850	0																																		
+MDM4	S314A	MDM4_HUMAN	CHAIN;ZN_FING;REGION	Protein Mdm4;RanBP2-type;Region II	Death	MDM4 -[Inhibition]-> TP53 -[Activation]-> Death	32706867	0																																		
+MDM4	S314A	MDM4_HUMAN	CHAIN;ZN_FING;REGION	Protein Mdm4;RanBP2-type;Region II	Neoplasms	MDM4 -[Activation]-> p38 -[Activation]-> Neoplasms	32706867	0																																		
+MDM4	S314A	MDM4_HUMAN	CHAIN;ZN_FING;REGION	Protein Mdm4;RanBP2-type;Region II	Tumor Microenvironment	MDM4 -[Inhibition]-> Tumor Microenvironment	32706867	0																																		
+MDM4	S314A	MDM4_HUMAN	CHAIN;ZN_FING;REGION	Protein Mdm4;RanBP2-type;Region II	cell growth	MDM4 -[Inhibition]-> TP53 -[Inhibition]-> cell growth	32706867	0																																		
+MDM4	S314A	MDM4_HUMAN	CHAIN;ZN_FING;REGION	Protein Mdm4;RanBP2-type;Region II	homeostatic process	MDM4 -[Activation]-> homeostatic process	32706867	0																																		
+MDM4	V172F	MDM4_HUMAN	CHAIN	Protein Mdm4	cell death	MDM4 -[Complex]-> MDM2 -[Activation]-> cell death	28031409	0																																		
+MDM4	V172F	MDM4_HUMAN	CHAIN	Protein Mdm4	cell killing	MDM4 -[Inhibition]-> TP53 -[Activation]-> cell killing	28031409	0																																		

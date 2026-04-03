@@ -1,0 +1,7 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+ANO1	S970A	ANO1_HUMAN	CHAIN;REGION	Anoctamin-1;Disordered	Neoplasm Invasiveness	ANO1 -[Inhibition]-> Neoplasm Invasiveness	24919570	0																																		
+ANO1	S970A	ANO1_HUMAN	CHAIN;REGION	Anoctamin-1;Disordered	Neoplasm Metastasis	ANO1 -[Activation]-> Neoplasm Metastasis	24919570	0																																		
+ANO1	S970A	ANO1_HUMAN	CHAIN;REGION	Anoctamin-1;Disordered	cell growth	ANO1 -[Activation]-> cell growth	24919570	0																																		
+ANO1	S970A	ANO1_HUMAN	CHAIN;REGION	Anoctamin-1;Disordered	cell migration	ANO1 -[Inhibition]-> cell migration	24919570	0																																		
+ANO1	S970A	ANO1_HUMAN	CHAIN;REGION	Anoctamin-1;Disordered	cell motility	ANO1 -[Inhibition]-> cell motility	24919570	0																																		
+ANO1	S970A	ANO1_HUMAN	CHAIN;REGION	Anoctamin-1;Disordered	cell population proliferation	ANO1 -[Activation]-> cell population proliferation	24919570	0																																		

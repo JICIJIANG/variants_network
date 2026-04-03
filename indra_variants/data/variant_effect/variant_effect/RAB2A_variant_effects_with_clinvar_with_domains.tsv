@@ -1,0 +1,13 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+RAB2A	Q58H	RAB2A_HUMAN	CHAIN	Ras-related protein Rab-2A	Breast Neoplasms	RAB2A -[Activation]-> Breast Neoplasms	25818297	0																																		
+RAB2A	Q58H	RAB2A_HUMAN	CHAIN	Ras-related protein Rab-2A	Carcinogenesis	RAB2A -[Activation]-> PIN1 -[Activation]-> Carcinogenesis	25818297	0																																		
+RAB2A	Q58H	RAB2A_HUMAN	CHAIN	Ras-related protein Rab-2A	cell migration	RAB2A -[Activation]-> cell migration	25818297	0																																		
+RAB2A	Q58H	RAB2A_HUMAN	CHAIN	Ras-related protein Rab-2A	epithelial to mesenchymal transition	RAB2A -[Activation]-> epithelial to mesenchymal transition	25818297	0																																		
+RAB2A	Q58H	RAB2A_HUMAN	CHAIN	Ras-related protein Rab-2A	localization	RAB2A -[Activation]-> localization	25818297	0																																		
+RAB2A	Q58H	RAB2A_HUMAN	CHAIN	Ras-related protein Rab-2A	transcription, DNA-templated	RAB2A -[Activation]-> PIN1 -[Activation]-> transcription, DNA-templated	25818297	0																																		
+RAB2A	Q65L	RAB2A_HUMAN	CHAIN	Ras-related protein Rab-2A	ADRA	RAB2A -[Inhibition]-> ADRA	17716866	0																																		
+RAB2A	Q65L	RAB2A_HUMAN	CHAIN	Ras-related protein Rab-2A	GAP	RAB2A -[Complex]-> GAP	22654674	0																																		
+RAB2A	Q65L	RAB2A_HUMAN	CHAIN	Ras-related protein Rab-2A	GDP-dissociation inhibitor activity	RAB2A -[Complex]-> GTP -[Complex]-> RAB -[Complex]-> GDP-dissociation inhibitor activity	17716866	0																																		
+RAB2A	Q65L	RAB2A_HUMAN	CHAIN	Ras-related protein Rab-2A	localization	RAB2A -[Complex]-> TBC-8 -[Activation]-> localization	22654674	0																																		
+RAB2A	Q65L	RAB2A_HUMAN	CHAIN	Ras-related protein Rab-2A	transport	RAB2A -[Inhibition]-> transport	10359600	0																																		
+RAB2A	Q65L	RAB2A_HUMAN	CHAIN	Ras-related protein Rab-2A	transport	RAB2A -[Inhibition]-> transport	17716866	0																																		

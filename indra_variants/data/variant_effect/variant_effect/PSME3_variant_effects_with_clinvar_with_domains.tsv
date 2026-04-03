@@ -1,0 +1,17 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+PSME3	C195W	PSME3_HUMAN	CHAIN	Proteasome activator complex subunit 3	viral gene expression	PSME3 -[Inhibition]-> viral gene expression	36399538	0																																		
+PSME3	C219R	PSME3_HUMAN	CHAIN	Proteasome activator complex subunit 3	viral gene expression	PSME3 -[Inhibition]-> viral gene expression	36399538	0																																		
+PSME3	G2019S				transcription, DNA-templated	PSME3 -[Dephosphorylation]-> NFKB1 -[Inhibition]-> transcription, DNA-templated	30368241	0																																		
+PSME3	G592R				endocytosis	PSME3 -[Inhibition]-> endocytosis	33508244	0																																		
+PSME3	S209A	PSME3_HUMAN	CHAIN	Proteasome activator complex subunit 3	Carcinogenesis	PSME3 -[Inhibition]-> MYC -[Activation]-> Carcinogenesis	37138032	0																																		
+PSME3	S209A	PSME3_HUMAN	CHAIN	Proteasome activator complex subunit 3	Cell Survival	PSME3 -[Inhibition]-> MYC -[Activation]-> Endoplasmic Reticulum Stress -[Activation]-> Cell Survival	37138032	0																																		
+PSME3	S209A	PSME3_HUMAN	CHAIN	Proteasome activator complex subunit 3	Endoplasmic Reticulum Stress	PSME3 -[Inhibition]-> MYC -[Activation]-> Endoplasmic Reticulum Stress	37138032	0																																		
+PSME3	S209A	PSME3_HUMAN	CHAIN	Proteasome activator complex subunit 3	Intestinal Polyposis	PSME3 -[Inhibition]-> MYC -[Activation]-> Intestinal Polyposis	37138032	0																																		
+PSME3	S209A	PSME3_HUMAN	CHAIN	Proteasome activator complex subunit 3	Intestinal Polyps	PSME3 -[Inhibition]-> MYC -[Inhibition]-> MTOR -[Activation]-> Intestinal Polyps	37138032	0																																		
+PSME3	S209A	PSME3_HUMAN	CHAIN	Proteasome activator complex subunit 3	Neoplasms	PSME3 -[Inhibition]-> MYC -[Activation]-> APC -[Inhibition]-> Neoplasms	37138032	0																																		
+PSME3	S209A	PSME3_HUMAN	CHAIN	Proteasome activator complex subunit 3	Polyps	PSME3 -[Inhibition]-> MYC -[Activation]-> Polyps	37138032	0																																		
+PSME3	S209A	PSME3_HUMAN	CHAIN	Proteasome activator complex subunit 3	apoptotic process	PSME3 -[Inhibition]-> MYC -[Activation]-> apoptotic process	37138032	0																																		
+PSME3	S209A	PSME3_HUMAN	CHAIN	Proteasome activator complex subunit 3	cell death	PSME3 -[Inhibition]-> MYC -[Activation]-> cell death	37138032	0																																		
+PSME3	S209A	PSME3_HUMAN	CHAIN	Proteasome activator complex subunit 3	cell population proliferation	PSME3 -[Inhibition]-> MYC -[Activation]-> cell population proliferation	37138032	0																																		
+PSME3	S209A	PSME3_HUMAN	CHAIN	Proteasome activator complex subunit 3	hypersensitivity reaction disease	PSME3 -[Inhibition]-> MYC -[Activation]-> hypersensitivity reaction disease	37138032	0																																		
+PSME3	S209A	PSME3_HUMAN	CHAIN	Proteasome activator complex subunit 3	immune response	PSME3 -[Inhibition]-> MYC -[Activation]-> APC -[Inhibition]-> immune response	37138032	0																																		

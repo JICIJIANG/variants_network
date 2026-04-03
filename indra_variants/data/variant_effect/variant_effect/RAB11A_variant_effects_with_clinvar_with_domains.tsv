@@ -1,0 +1,36 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+RAB11A	Q70L	RB11A_HUMAN	CHAIN	Ras-related protein Rab-11A	Neoplasm Metastasis	RAB11A -[Activation]-> PARD3 -[Inhibition]-> Neoplasm Metastasis	25942483	0																																		
+RAB11A	Q70L	RB11A_HUMAN	CHAIN	Ras-related protein Rab-11A	angiogenesis	RAB11A -[Inhibition]-> PTAFR -[Activation]-> angiogenesis	27462464	0																																		
+RAB11A	Q70L	RB11A_HUMAN	CHAIN	Ras-related protein Rab-11A	apoptotic process	RAB11A -[Complex]-> SLC6A4 -[Activation]-> apoptotic process	25942483	0																																		
+RAB11A	Q70L	RB11A_HUMAN	CHAIN	Ras-related protein Rab-11A	cytokinesis	RAB11A -[Inhibition]-> cytokinesis	19995935	0																																		
+RAB11A	Q70L	RB11A_HUMAN	CHAIN	Ras-related protein Rab-11A	endocytosis	RAB11A -[Inhibition]-> PROCR -[Activation]-> endocytosis	23555015	0																																		
+RAB11A	Q70L	RB11A_HUMAN	CHAIN	Ras-related protein Rab-11A	exocytosis	RAB11A -[Activation]-> exocytosis	20890297	0																																		
+RAB11A	Q70L	RB11A_HUMAN	CHAIN	Ras-related protein Rab-11A	localization	RAB11A -[Activation]-> CDC42 -[Activation]-> localization	20890297	0																																		
+RAB11A	Q70L	RB11A_HUMAN	CHAIN	Ras-related protein Rab-11A	localization	RAB11A -[Activation]-> localization	19995935	0																																		
+RAB11A	Q70L	RB11A_HUMAN	CHAIN	Ras-related protein Rab-11A	localization	RAB11A -[Activation]-> localization	24561039	0																																		
+RAB11A	Q70L	RB11A_HUMAN	CHAIN	Ras-related protein Rab-11A	localization	RAB11A -[Complex]-> SLC6A4 -[Inhibition]-> localization	25942483	0																																		
+RAB11A	Q70L	RB11A_HUMAN	CHAIN	Ras-related protein Rab-11A	localization	RAB11A -[Inhibition]-> localization	27462464	0																																		
+RAB11A	Q70L	RB11A_HUMAN	CHAIN	Ras-related protein Rab-11A	transcription, DNA-templated	RAB11A -[Complex]-> DEFA6 -[Inhibition]-> transcription, DNA-templated	31308374	0																																		
+RAB11A	Q70L	RB11A_HUMAN	CHAIN	Ras-related protein Rab-11A	transport	RAB11A -[Activation]-> transport	23555015	0																																		
+RAB11A	Q70L	RB11A_HUMAN	CHAIN	Ras-related protein Rab-11A	transport	RAB11A -[Complex]-> SLC6A4 -[Complex]-> Dynein -[Activation]-> transport	25942483	0																																		
+RAB11A	S22N	RB11A_HUMAN	CHAIN	Ras-related protein Rab-11A	Neoplasm Metastasis	RAB11A -[Activation]-> PARD3 -[Inhibition]-> Neoplasm Metastasis	25942483	0																																		
+RAB11A	S22N	RB11A_HUMAN	CHAIN	Ras-related protein Rab-11A	apoptotic process	RAB11A -[Complex]-> SLC6A4 -[Activation]-> apoptotic process	25942483	0																																		
+RAB11A	S22N	RB11A_HUMAN	CHAIN	Ras-related protein Rab-11A	localization	RAB11A -[Complex]-> SLC6A4 -[Inhibition]-> localization	25942483	0																																		
+RAB11A	S22N	RB11A_HUMAN	CHAIN	Ras-related protein Rab-11A	transport	RAB11A -[Complex]-> SLC6A4 -[Complex]-> Dynein -[Activation]-> transport	25942483	0																																		
+RAB11A	S25N	RB11A_HUMAN	CHAIN	Ras-related protein Rab-11A	Alzheimer Disease	RAB11A -[Complex]-> PICALM -[Complex]-> Alzheimer Disease	26005850	0																																		
+RAB11A	S25N	RB11A_HUMAN	CHAIN	Ras-related protein Rab-11A	Cell Survival	RAB11A -[Inhibition]-> EGFR -[Activation]-> Cell Survival	25446083	0																																		
+RAB11A	S25N	RB11A_HUMAN	CHAIN	Ras-related protein Rab-11A	Death	RAB11A -[Inhibition]-> EGFR -[Activation]-> Death	25446083	0																																		
+RAB11A	S25N	RB11A_HUMAN	CHAIN	Ras-related protein Rab-11A	Neoplasm Metastasis	RAB11A -[Complex]-> UNC13D -[Inhibition]-> MMP14 -[Activation]-> Neoplasm Metastasis	29930202	0																																		
+RAB11A	S25N	RB11A_HUMAN	CHAIN	Ras-related protein Rab-11A	SNAP receptor activity	RAB11A -[Complex]-> UNC13D -[Complex]-> SNAP receptor activity	29930202	0																																		
+RAB11A	S25N	RB11A_HUMAN	CHAIN	Ras-related protein Rab-11A	adrenergic receptor activity	RAB11A -[Activation]-> ADRB1 -[Complex]-> rab11 GTPase -[Complex]-> adrenergic receptor activity	20727405	0																																		
+RAB11A	S25N	RB11A_HUMAN	CHAIN	Ras-related protein Rab-11A	angiogenesis	RAB11A -[Inhibition]-> PTAFR -[Activation]-> angiogenesis	27462464	0																																		
+RAB11A	S25N	RB11A_HUMAN	CHAIN	Ras-related protein Rab-11A	cell differentiation	RAB11A -[Activation]-> MUSK -[Activation]-> cell differentiation	23621612	0																																		
+RAB11A	S25N	RB11A_HUMAN	CHAIN	Ras-related protein Rab-11A	endocytosis	RAB11A -[Activation]-> APP -[Activation]-> endocytosis	26005850	0																																		
+RAB11A	S25N	RB11A_HUMAN	CHAIN	Ras-related protein Rab-11A	exocytosis	RAB11A -[Activation]-> exocytosis	21410464	0																																		
+RAB11A	S25N	RB11A_HUMAN	CHAIN	Ras-related protein Rab-11A	exocytosis	RAB11A -[Activation]-> exocytosis	27288050	0																																		
+RAB11A	S25N	RB11A_HUMAN	CHAIN	Ras-related protein Rab-11A	localization	RAB11A -[Activation]-> localization	24561039	0																																		
+RAB11A	S25N	RB11A_HUMAN	CHAIN	Ras-related protein Rab-11A	localization	RAB11A -[Activation]-> localization	26663395	0																																		
+RAB11A	S25N	RB11A_HUMAN	CHAIN	Ras-related protein Rab-11A	localization	RAB11A -[Inhibition]-> calcium(2+) -[Activation]-> localization	36540890	0																																		
+RAB11A	S25N	RB11A_HUMAN	CHAIN	Ras-related protein Rab-11A	localization	RAB11A -[Inhibition]-> localization	27462464	0																																		
+RAB11A	S25N	RB11A_HUMAN	CHAIN	Ras-related protein Rab-11A	transcription, DNA-templated	RAB11A -[Complex]-> DEFA6 -[Inhibition]-> transcription, DNA-templated	31308374	0																																		
+RAB11A	S25N	RB11A_HUMAN	CHAIN	Ras-related protein Rab-11A	transport	RAB11A -[Activation]-> transport	26005850	0																																		

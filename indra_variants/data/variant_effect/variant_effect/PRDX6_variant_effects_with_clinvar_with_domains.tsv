@@ -1,0 +1,11 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+PRDX6	C47S	PRDX6_HUMAN	CHAIN;DOMAIN	Peroxiredoxin-6;Thioredoxin	Neoplasm Invasiveness	PRDX6 -[Activation]-> Neoplasm Invasiveness	24512906	0																																		
+PRDX6	C47S	PRDX6_HUMAN	CHAIN;DOMAIN	Peroxiredoxin-6;Thioredoxin	Neoplasm Metastasis	PRDX6 -[Activation]-> iPLA2 -[Activation]-> Neoplasm Metastasis	25582888	0																																		
+PRDX6	C47S	PRDX6_HUMAN	CHAIN;DOMAIN	Peroxiredoxin-6;Thioredoxin	apoptotic process	PRDX6 -[Activation]-> apoptotic process	25582888	0																																		
+PRDX6	C47S	PRDX6_HUMAN	CHAIN;DOMAIN	Peroxiredoxin-6;Thioredoxin	cell death	PRDX6 -[Inhibition]-> cell death	25582888	0																																		
+PRDX6	C47S	PRDX6_HUMAN	CHAIN;DOMAIN	Peroxiredoxin-6;Thioredoxin	cell growth	PRDX6 -[Activation]-> cell growth	24512906	0																																		
+PRDX6	C47S	PRDX6_HUMAN	CHAIN;DOMAIN	Peroxiredoxin-6;Thioredoxin	cell growth	PRDX6 -[Inhibition]-> cell growth	25582888	0																																		
+PRDX6	S32A	PRDX6_HUMAN	CHAIN;DOMAIN;REGION	Peroxiredoxin-6;Thioredoxin;	Neoplasm Metastasis	PRDX6 -[Activation]-> iPLA2 -[Activation]-> Neoplasm Metastasis	25582888	0																																		
+PRDX6	S32A	PRDX6_HUMAN	CHAIN;DOMAIN;REGION	Peroxiredoxin-6;Thioredoxin;	apoptotic process	PRDX6 -[Activation]-> apoptotic process	25582888	0																																		
+PRDX6	S32A	PRDX6_HUMAN	CHAIN;DOMAIN;REGION	Peroxiredoxin-6;Thioredoxin;	cell death	PRDX6 -[Inhibition]-> cell death	25582888	0																																		
+PRDX6	S32A	PRDX6_HUMAN	CHAIN;DOMAIN;REGION	Peroxiredoxin-6;Thioredoxin;	cell growth	PRDX6 -[Inhibition]-> cell growth	25582888	0																																		

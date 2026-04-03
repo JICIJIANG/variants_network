@@ -1,0 +1,6 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+KDM5B	H499Y	KDM5B_HUMAN	CHAIN;DOMAIN	Lysine-specific demethylase 5B;JmjC	G1 phase	KDM5B -[Activation]-> G1 phase	29507668	0																																		
+KDM5B	H499Y	KDM5B_HUMAN	CHAIN;DOMAIN	Lysine-specific demethylase 5B;JmjC	Neoplasm Invasiveness	KDM5B -[Activation]-> Neoplasm Invasiveness	29507668	0																																		
+KDM5B	H499Y	KDM5B_HUMAN	CHAIN;DOMAIN	Lysine-specific demethylase 5B;JmjC	cell cycle	KDM5B -[Activation]-> cell cycle	29507668	0																																		
+KDM5B	K242R	KDM5B_HUMAN	CHAIN	Lysine-specific demethylase 5B	cell migration	KDM5B -[DecreaseAmount]-> H3K4me3 -[Activation]-> cell migration	25596733	0																																		
+KDM5B	K242R	KDM5B_HUMAN	CHAIN	Lysine-specific demethylase 5B	cellular senescence	KDM5B -[Complex]-> SKP2 -[Activation]-> cellular senescence	25596733	0																																		

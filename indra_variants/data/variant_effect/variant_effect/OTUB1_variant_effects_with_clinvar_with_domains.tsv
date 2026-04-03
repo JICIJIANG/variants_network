@@ -1,0 +1,32 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+OTUB1	C91A	OTUB1_HUMAN	CHAIN;DOMAIN	Ubiquitin thioesterase OTUB1;OTU	Mutation Rate	OTUB1 -[Inhibition]-> Mutation Rate	33640455	0																																		
+OTUB1	C91A	OTUB1_HUMAN	CHAIN;DOMAIN	Ubiquitin thioesterase OTUB1;OTU	cell growth	OTUB1 -[Complex]-> CD44 -[Activation]-> cell growth	30709928	0																																		
+OTUB1	C91S	OTUB1_HUMAN	CHAIN;DOMAIN	Ubiquitin thioesterase OTUB1;OTU	Breast Neoplasms	OTUB1 -[Inhibition]-> Breast Neoplasms	26148240	0																																		
+OTUB1	C91S	OTUB1_HUMAN	CHAIN;DOMAIN	Ubiquitin thioesterase OTUB1;OTU	Carcinogenesis	OTUB1 -[Activation]-> Carcinogenesis	26148240	0																																		
+OTUB1	C91S	OTUB1_HUMAN	CHAIN;DOMAIN	Ubiquitin thioesterase OTUB1;OTU	DNA Breaks, Double-Stranded	OTUB1 -[Inhibition]-> DNA Breaks, Double-Stranded	24560272	0																																		
+OTUB1	C91S	OTUB1_HUMAN	CHAIN;DOMAIN	Ubiquitin thioesterase OTUB1;OTU	DNA Damage	OTUB1 -[Activation]-> FOXM1 -[Activation]-> DNA Damage	26148240	0																																		
+OTUB1	C91S	OTUB1_HUMAN	CHAIN;DOMAIN	Ubiquitin thioesterase OTUB1;OTU	DNA damage checkpoint	OTUB1 -[Inhibition]-> DNA damage checkpoint	22325355	0																																		
+OTUB1	C91S	OTUB1_HUMAN	CHAIN;DOMAIN	Ubiquitin thioesterase OTUB1;OTU	Neoplasm Invasiveness	OTUB1 -[Activation]-> Neoplasm Invasiveness	25623341	0																																		
+OTUB1	C91S	OTUB1_HUMAN	CHAIN;DOMAIN	Ubiquitin thioesterase OTUB1;OTU	Neoplasm Invasiveness	OTUB1 -[Activation]-> Neoplasm Invasiveness	26148240	0																																		
+OTUB1	C91S	OTUB1_HUMAN	CHAIN;DOMAIN	Ubiquitin thioesterase OTUB1;OTU	UBE2	OTUB1 -[Complex]-> UBE2	24071738	0																																		
+OTUB1	C91S	OTUB1_HUMAN	CHAIN;DOMAIN	Ubiquitin thioesterase OTUB1;OTU	UBE2	OTUB1 -[Inhibition]-> UBE2	22325355	0																																		
+OTUB1	C91S	OTUB1_HUMAN	CHAIN;DOMAIN	Ubiquitin thioesterase OTUB1;OTU	apoptotic process	OTUB1 -[Inhibition]-> 4'-epidoxorubicin -[Activation]-> apoptotic process	26148240	0																																		
+OTUB1	C91S	OTUB1_HUMAN	CHAIN;DOMAIN	Ubiquitin thioesterase OTUB1;OTU	cell differentiation	OTUB1 -[Activation]-> TGFB -[Activation]-> cell differentiation	24071738	0																																		
+OTUB1	C91S	OTUB1_HUMAN	CHAIN;DOMAIN	Ubiquitin thioesterase OTUB1;OTU	cell population proliferation	OTUB1 -[Activation]-> TGFB -[Activation]-> cell population proliferation	24071738	0																																		
+OTUB1	C91S	OTUB1_HUMAN	CHAIN;DOMAIN	Ubiquitin thioesterase OTUB1;OTU	cell population proliferation	OTUB1 -[Activation]-> cell population proliferation	26148240	0																																		
+OTUB1	C91S	OTUB1_HUMAN	CHAIN;DOMAIN	Ubiquitin thioesterase OTUB1;OTU	cell population proliferation	OTUB1 -[Inhibition]-> cell population proliferation	22124327	0																																		
+OTUB1	C91S	OTUB1_HUMAN	CHAIN;DOMAIN	Ubiquitin thioesterase OTUB1;OTU	homologous recombination	OTUB1 -[Ubiquitination]-> TP53BP1 -[Inhibition]-> homologous recombination	26983989	0																																		
+OTUB1	C91S	OTUB1_HUMAN	CHAIN;DOMAIN	Ubiquitin thioesterase OTUB1;OTU	thiol-dependent ubiquitin-specific protease activity	OTUB1 -[Complex]-> thiol-dependent ubiquitin-specific protease activity	19211026	0																																		
+OTUB1	C91S	OTUB1_HUMAN	CHAIN;DOMAIN	Ubiquitin thioesterase OTUB1;OTU	transcription, DNA-templated	OTUB1 -[Activation]-> TGFB -[Activation]-> transcription, DNA-templated	24071738	0																																		
+OTUB1	C91S	OTUB1_HUMAN	CHAIN;DOMAIN	Ubiquitin thioesterase OTUB1;OTU	translation	OTUB1 -[Inhibition]-> 4'-epidoxorubicin -[Inhibition]-> cycloheximide -[Inhibition]-> translation	26148240	0																																		
+OTUB1	D137G	OTUB1_HUMAN	CHAIN;DOMAIN;REGION	Ubiquitin thioesterase OTUB1;OTU;Ubiquitin-conjugating enzyme E2 binding	DNA damage checkpoint	OTUB1 -[Inhibition]-> DNA damage checkpoint	22325355	0																																		
+OTUB1	D137G	OTUB1_HUMAN	CHAIN;DOMAIN;REGION	Ubiquitin thioesterase OTUB1;OTU;Ubiquitin-conjugating enzyme E2 binding	UBE2	OTUB1 -[Inhibition]-> UBE2	22325355	0																																		
+OTUB1	D88A	OTUB1_HUMAN	CHAIN;DOMAIN	Ubiquitin thioesterase OTUB1;OTU	Mutation Rate	OTUB1 -[Inhibition]-> Mutation Rate	33640455	0																																		
+OTUB1	D88A	OTUB1_HUMAN	CHAIN;DOMAIN	Ubiquitin thioesterase OTUB1;OTU	cell growth	OTUB1 -[Complex]-> CD44 -[Activation]-> cell growth	30709928	0																																		
+OTUB1	D88A	OTUB1_HUMAN	CHAIN;DOMAIN	Ubiquitin thioesterase OTUB1;OTU	cell population proliferation	OTUB1 -[Inhibition]-> cell population proliferation	22124327	0																																		
+OTUB1	K71R	OTUB1_HUMAN	CHAIN	Ubiquitin thioesterase OTUB1	UBE2	OTUB1 -[Complex]-> UBE2	24071738	0																																		
+OTUB1	K71R	OTUB1_HUMAN	CHAIN	Ubiquitin thioesterase OTUB1	cell differentiation	OTUB1 -[Activation]-> TGFB -[Activation]-> cell differentiation	24071738	0																																		
+OTUB1	K71R	OTUB1_HUMAN	CHAIN	Ubiquitin thioesterase OTUB1	cell population proliferation	OTUB1 -[Activation]-> TGFB -[Activation]-> cell population proliferation	24071738	0																																		
+OTUB1	K71R	OTUB1_HUMAN	CHAIN	Ubiquitin thioesterase OTUB1	transcription, DNA-templated	OTUB1 -[Activation]-> TGFB -[Activation]-> transcription, DNA-templated	24071738	0																																		
+OTUB1	N22A	OTUB1_HUMAN	CHAIN	Ubiquitin thioesterase OTUB1	metabolic process	OTUB1 -[Activation]-> metabolic process	26752685	0																																		
+OTUB1	T134R	OTUB1_HUMAN	CHAIN;DOMAIN;REGION	Ubiquitin thioesterase OTUB1;OTU;Ubiquitin-conjugating enzyme E2 binding	UBE2	OTUB1 -[Inhibition]-> UBE2	23955022	0																																		

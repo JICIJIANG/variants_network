@@ -1,0 +1,35 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+HDAC3	D309A	HDAC3_HUMAN	CHAIN;REGION	Histone deacetylase 3;Histone deacetylase	Cell Survival	HDAC3 -[Inhibition]-> Cell Survival	27462923	0																																		
+HDAC3	D309A	HDAC3_HUMAN	CHAIN;REGION	Histone deacetylase 3;Histone deacetylase	apoptotic process	HDAC3 -[Activation]-> apoptotic process	27462923	0																																		
+HDAC3	D309A	HDAC3_HUMAN	CHAIN;REGION	Histone deacetylase 3;Histone deacetylase	cell death	HDAC3 -[Activation]-> delphinidin chloride -[Activation]-> cell death	27462923	0																																		
+HDAC3	D309A	HDAC3_HUMAN	CHAIN;REGION	Histone deacetylase 3;Histone deacetylase	cell growth	HDAC3 -[Inhibition]-> cell growth	27462923	0																																		
+HDAC3	D391A	HDAC3_HUMAN	CHAIN;REGION;COMPBIAS	Histone deacetylase 3;Disordered;Basic and acidic residues	Cell Survival	HDAC3 -[Inhibition]-> Cell Survival	27462923	0																																		
+HDAC3	D391A	HDAC3_HUMAN	CHAIN;REGION;COMPBIAS	Histone deacetylase 3;Disordered;Basic and acidic residues	apoptotic process	HDAC3 -[Activation]-> apoptotic process	27462923	0																																		
+HDAC3	D391A	HDAC3_HUMAN	CHAIN;REGION;COMPBIAS	Histone deacetylase 3;Disordered;Basic and acidic residues	apoptotic process	HDAC3 -[Inhibition]-> apoptotic process	26077467	0																																		
+HDAC3	D391A	HDAC3_HUMAN	CHAIN;REGION;COMPBIAS	Histone deacetylase 3;Disordered;Basic and acidic residues	cell death	HDAC3 -[Activation]-> cell death	26077467	0																																		
+HDAC3	D391A	HDAC3_HUMAN	CHAIN;REGION;COMPBIAS	Histone deacetylase 3;Disordered;Basic and acidic residues	cell death	HDAC3 -[Activation]-> delphinidin chloride -[Activation]-> cell death	27462923	0																																		
+HDAC3	D391A	HDAC3_HUMAN	CHAIN;REGION;COMPBIAS	Histone deacetylase 3;Disordered;Basic and acidic residues	cell growth	HDAC3 -[Inhibition]-> cell growth	27462923	0																																		
+HDAC3	K26A	HDAC3_HUMAN	CHAIN;REGION	Histone deacetylase 3;Histone deacetylase	Fibrosis	HDAC3 -[Inhibition]-> Fibrosis	36745702	0																																		
+HDAC3	K26A	HDAC3_HUMAN	CHAIN;REGION	Histone deacetylase 3;Histone deacetylase	heart development	HDAC3 -[Inhibition]-> TGFB -[Activation]-> heart development	36745702	0																																		
+HDAC3	S4242A				Death	HDAC3 -[Activation]-> Death	24286308	0																																		
+HDAC3	S4242A				Neoplasm Invasiveness	HDAC3 -[Inhibition]-> Neoplasm Invasiveness	24286308	0																																		
+HDAC3	S4242A				angiogenesis	HDAC3 -[Inhibition]-> angiogenesis	24286308	0																																		
+HDAC3	S424A	HDAC3_HUMAN	CHAIN;REGION;COMPBIAS	Histone deacetylase 3;Disordered;Basic and acidic residues	DNA Damage	HDAC3 -[DecreaseAmount]-> HDAC6 -[Inhibition]-> DNA Damage	26126538	0																																		
+HDAC3	S424A	HDAC3_HUMAN	CHAIN;REGION;COMPBIAS	Histone deacetylase 3;Disordered;Basic and acidic residues	Death	HDAC3 -[Activation]-> Death	24286308	0																																		
+HDAC3	S424A	HDAC3_HUMAN	CHAIN;REGION;COMPBIAS	Histone deacetylase 3;Disordered;Basic and acidic residues	Neoplasm Invasiveness	HDAC3 -[Inhibition]-> Neoplasm Invasiveness	24286308	0																																		
+HDAC3	S424A	HDAC3_HUMAN	CHAIN;REGION;COMPBIAS	Histone deacetylase 3;Disordered;Basic and acidic residues	Neoplasm Invasiveness	HDAC3 -[Inhibition]-> Neoplasm Invasiveness	26883907	0																																		
+HDAC3	S424A	HDAC3_HUMAN	CHAIN;REGION;COMPBIAS	Histone deacetylase 3;Disordered;Basic and acidic residues	angiogenesis	HDAC3 -[Inhibition]-> angiogenesis	24286308	0																																		
+HDAC3	S424A	HDAC3_HUMAN	CHAIN;REGION;COMPBIAS	Histone deacetylase 3;Disordered;Basic and acidic residues	apoptotic process	HDAC3 -[Activation]-> apoptotic process	26883907	0																																		
+HDAC3	S424A	HDAC3_HUMAN	CHAIN;REGION;COMPBIAS	Histone deacetylase 3;Disordered;Basic and acidic residues	cell population proliferation	HDAC3 -[Inhibition]-> EGFR -[Inhibition]-> cell population proliferation	26883907	0																																		
+HDAC3	Y298F	HDAC3_HUMAN	CHAIN;REGION	Histone deacetylase 3;Histone deacetylase	Neoplasm Invasiveness	HDAC3 -[Complex]-> WDR5 -[Inhibition]-> Neoplasm Invasiveness	21884981	0																																		
+HDAC3	Y298F	HDAC3_HUMAN	CHAIN;REGION	Histone deacetylase 3;Histone deacetylase	Neoplasm Metastasis	HDAC3 -[Activation]-> Neoplasm Metastasis	21884981	0																																		
+HDAC3	Y298F	HDAC3_HUMAN	CHAIN;REGION	Histone deacetylase 3;Histone deacetylase	apoptotic process	HDAC3 -[Activation]-> apoptotic process	21884981	0																																		
+HDAC3	Y298F	HDAC3_HUMAN	CHAIN;REGION	Histone deacetylase 3;Histone deacetylase	cell population proliferation	HDAC3 -[Inhibition]-> cell population proliferation	21884981	0																																		
+HDAC3	Y298F	HDAC3_HUMAN	CHAIN;REGION	Histone deacetylase 3;Histone deacetylase	epithelial to mesenchymal transition	HDAC3 -[DecreaseAmount]-> epithelial to mesenchymal transition	21884981	0																																		
+HDAC3	Y298H	HDAC3_HUMAN	CHAIN;REGION	Histone deacetylase 3;Histone deacetylase	FGFR	HDAC3 -[Activation]-> FGF9 -[Complex]-> FGFR	35722872	0																																		
+HDAC3	Y298H	HDAC3_HUMAN	CHAIN;REGION	Histone deacetylase 3;Histone deacetylase	cell growth	HDAC3 -[DecreaseAmount]-> FASN -[Inhibition]-> cell growth	27758890	0																																		
+HDAC3	Y298H	HDAC3_HUMAN	CHAIN;REGION	Histone deacetylase 3;Histone deacetylase	cell population proliferation	HDAC3 -[Activation]-> miR-322 -[Inhibition]-> cell population proliferation	35722872	0																																		
+HDAC3	Y298H	HDAC3_HUMAN	CHAIN;REGION	Histone deacetylase 3;Histone deacetylase	cell population proliferation	HDAC3 -[DecreaseAmount]-> FASN -[Activation]-> cell population proliferation	27758890	0																																		
+HDAC3	Y298H	HDAC3_HUMAN	CHAIN;REGION	Histone deacetylase 3;Histone deacetylase	proteolysis	HDAC3 -[Activation]-> proteolysis	27758890	0																																		
+HDAC3	Y298H	HDAC3_HUMAN	CHAIN;REGION	Histone deacetylase 3;Histone deacetylase	signal transduction	HDAC3 -[Activation]-> signal transduction	35722872	0																																		
+HDAC3	Y298H	HDAC3_HUMAN	CHAIN;REGION	Histone deacetylase 3;Histone deacetylase	transcription, DNA-templated	HDAC3 -[Inhibition]-> transcription, DNA-templated	35722872	0																																		

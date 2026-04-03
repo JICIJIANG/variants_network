@@ -1,0 +1,26 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+POR	A115V	NCPR_HUMAN	CHAIN;DOMAIN	NADPH--cytochrome P450 reductase;Flavodoxin-like	metabolic process	POR -[Inhibition]-> CYP3A4 -[Activation]-> metabolic process	22719896	0																																		
+POR	A287P	NCPR_HUMAN	CHAIN;DOMAIN	NADPH--cytochrome P450 reductase;FAD-binding FR-type	apoptotic process	POR -[Inhibition]-> apoptotic process	23353702	0																																		
+POR	A287P	NCPR_HUMAN	CHAIN;DOMAIN	NADPH--cytochrome P450 reductase;FAD-binding FR-type	metabolic process	POR -[Activation]-> metabolic process	20619364	0																																		
+POR	A287P	NCPR_HUMAN	CHAIN;DOMAIN	NADPH--cytochrome P450 reductase;FAD-binding FR-type	metabolic process	POR -[Activation]-> metabolic process	20940534	0																																		
+POR	A287P	NCPR_HUMAN	CHAIN;DOMAIN	NADPH--cytochrome P450 reductase;FAD-binding FR-type	metabolic process	POR -[Inhibition]-> metabolic process	23353702	0																																		
+POR	A287P	NCPR_HUMAN	CHAIN;DOMAIN	NADPH--cytochrome P450 reductase;FAD-binding FR-type	oxidoreductase activity	POR -[Activation]-> CYP -[Complex]-> oxidoreductase activity	20940534	0																																		
+POR	A287P	NCPR_HUMAN	CHAIN;DOMAIN	NADPH--cytochrome P450 reductase;FAD-binding FR-type	oxidoreductase activity	POR -[Activation]-> CYP -[Complex]-> oxidoreductase activity	23353702	0																																		
+POR	A503V	NCPR_HUMAN	CHAIN;DOMAIN	NADPH--cytochrome P450 reductase;FAD-binding FR-type	metabolic process	POR -[Activation]-> metabolic process	20940534	0																																		
+POR	A503V	NCPR_HUMAN	CHAIN;DOMAIN	NADPH--cytochrome P450 reductase;FAD-binding FR-type	metabolic process	POR -[Activation]-> metabolic process	26123203	0																																		
+POR	A503V	NCPR_HUMAN	CHAIN;DOMAIN	NADPH--cytochrome P450 reductase;FAD-binding FR-type	metabolic process	POR -[DecreaseAmount]-> CYP3A5 -[Activation]-> metabolic process	35946839	0																																		
+POR	A503V	NCPR_HUMAN	CHAIN;DOMAIN	NADPH--cytochrome P450 reductase;FAD-binding FR-type	oxidoreductase activity	POR -[Activation]-> CYP -[Complex]-> oxidoreductase activity	20940534	0																																		
+POR	C569Y	NCPR_HUMAN	CHAIN	NADPH--cytochrome P450 reductase	apoptotic process	POR -[Inhibition]-> apoptotic process	23353702	0																																		
+POR	C569Y	NCPR_HUMAN	CHAIN	NADPH--cytochrome P450 reductase	metabolic process	POR -[Inhibition]-> metabolic process	23353702	0																																		
+POR	C569Y	NCPR_HUMAN	CHAIN	NADPH--cytochrome P450 reductase	oxidoreductase activity	POR -[Activation]-> CYP -[Complex]-> oxidoreductase activity	23353702	0																																		
+POR	G413S	NCPR_HUMAN	CHAIN;DOMAIN	NADPH--cytochrome P450 reductase;FAD-binding FR-type	metabolic process	POR -[Inhibition]-> CYP3A4 -[Activation]-> metabolic process	22719896	0																																		
+POR	G539R	NCPR_HUMAN	CHAIN	NADPH--cytochrome P450 reductase	lyase activity	POR -[Complex]-> CYP17A1 -[Complex]-> lyase activity	26862015	0																																		
+POR	K49N	NCPR_HUMAN	CHAIN	NADPH--cytochrome P450 reductase	metabolic process	POR -[Inhibition]-> CYP3A4 -[Activation]-> metabolic process	22719896	0																																		
+POR	Q153R	NCPR_HUMAN	CHAIN;DOMAIN	NADPH--cytochrome P450 reductase;Flavodoxin-like	metabolic process	POR -[Activation]-> CYP -[Activation]-> metabolic process	25133307	0																																		
+POR	R457H	NCPR_HUMAN	CHAIN;DOMAIN	NADPH--cytochrome P450 reductase;FAD-binding FR-type	apoptotic process	POR -[Inhibition]-> apoptotic process	23353702	0																																		
+POR	R457H	NCPR_HUMAN	CHAIN;DOMAIN	NADPH--cytochrome P450 reductase;FAD-binding FR-type	metabolic process	POR -[Inhibition]-> metabolic process	23353702	0																																		
+POR	R457H	NCPR_HUMAN	CHAIN;DOMAIN	NADPH--cytochrome P450 reductase;FAD-binding FR-type	oxidoreductase activity	POR -[Activation]-> CYP -[Complex]-> oxidoreductase activity	23353702	0																																		
+POR	S244C	NCPR_HUMAN	CHAIN	NADPH--cytochrome P450 reductase	metabolic process	POR -[Inhibition]-> CYP3A4 -[Activation]-> metabolic process	22719896	0																																		
+POR	V608F	NCPR_HUMAN	CHAIN	NADPH--cytochrome P450 reductase	apoptotic process	POR -[Inhibition]-> apoptotic process	23353702	0																																		
+POR	V608F	NCPR_HUMAN	CHAIN	NADPH--cytochrome P450 reductase	metabolic process	POR -[Inhibition]-> metabolic process	23353702	0																																		
+POR	V608F	NCPR_HUMAN	CHAIN	NADPH--cytochrome P450 reductase	oxidoreductase activity	POR -[Activation]-> CYP -[Complex]-> oxidoreductase activity	23353702	0																																		

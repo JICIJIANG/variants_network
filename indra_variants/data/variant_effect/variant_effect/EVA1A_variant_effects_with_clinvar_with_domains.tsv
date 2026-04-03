@@ -1,0 +1,7 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+EVA1A	T113A	EVA1A_HUMAN	CHAIN	Protein eva-1 homolog A	apoptotic process	EVA1A -[Activation]-> flubendazole -[Activation]-> apoptotic process	32724459	0																																		
+EVA1A	T113A	EVA1A_HUMAN	CHAIN	Protein eva-1 homolog A	autophagic cell death	EVA1A -[Activation]-> flubendazole -[Activation]-> autophagic cell death	32724459	0																																		
+EVA1A	T113A	EVA1A_HUMAN	CHAIN	Protein eva-1 homolog A	autophagy	EVA1A -[Inhibition]-> autophagy	32724459	0																																		
+EVA1A	T113A	EVA1A_HUMAN	CHAIN	Protein eva-1 homolog A	cell death	EVA1A -[Activation]-> cell death	32724459	0																																		
+EVA1A	T113A	EVA1A_HUMAN	CHAIN	Protein eva-1 homolog A	cell growth	EVA1A -[Inhibition]-> cell growth	32724459	0																																		
+EVA1A	T113A	EVA1A_HUMAN	CHAIN	Protein eva-1 homolog A	cell population proliferation	EVA1A -[Inhibition]-> cell population proliferation	32724459	0																																		

@@ -1,0 +1,15 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+DAPK1	K42A	DAPK1_HUMAN	CHAIN;DOMAIN	Death-associated protein kinase 1;Protein kinase	Alzheimer Disease	DAPK1 -[Activation]-> Alzheimer Disease	24853415	0																																		
+DAPK1	K42A	DAPK1_HUMAN	CHAIN;DOMAIN	Death-associated protein kinase 1;Protein kinase	Carcinogenesis	DAPK1 -[DecreaseAmount]-> PIN1 -[Activation]-> Carcinogenesis	21497122	0																																		
+DAPK1	K42A	DAPK1_HUMAN	CHAIN;DOMAIN	Death-associated protein kinase 1;Protein kinase	Cell Survival	DAPK1 -[DecreaseAmount]-> MAPT -[Inhibition]-> Cell Survival	24853415	0																																		
+DAPK1	K42A	DAPK1_HUMAN	CHAIN;DOMAIN	Death-associated protein kinase 1;Protein kinase	Cell Transformation, Neoplastic	DAPK1 -[Inhibition]-> Cell Transformation, Neoplastic	21497122	0																																		
+DAPK1	K42A	DAPK1_HUMAN	CHAIN;DOMAIN	Death-associated protein kinase 1;Protein kinase	Death	DAPK1 -[Activation]-> Death	24853415	0																																		
+DAPK1	K42A	DAPK1_HUMAN	CHAIN;DOMAIN	Death-associated protein kinase 1;Protein kinase	Neoplasms	DAPK1 -[Inhibition]-> Neoplasms	21497122	0																																		
+DAPK1	K42A	DAPK1_HUMAN	CHAIN;DOMAIN	Death-associated protein kinase 1;Protein kinase	Nerve Degeneration	DAPK1 -[DecreaseAmount]-> MAPT -[Activation]-> Nerve Degeneration	24853415	0																																		
+DAPK1	K42A	DAPK1_HUMAN	CHAIN;DOMAIN	Death-associated protein kinase 1;Protein kinase	cell death	DAPK1 -[Activation]-> cell death	24853415	0																																		
+DAPK1	K42A	DAPK1_HUMAN	CHAIN;DOMAIN	Death-associated protein kinase 1;Protein kinase	cell differentiation	DAPK1 -[Inhibition]-> cell differentiation	24853415	0																																		
+DAPK1	K42A	DAPK1_HUMAN	CHAIN;DOMAIN	Death-associated protein kinase 1;Protein kinase	cell migration	DAPK1 -[Inhibition]-> cell migration	21497122	0																																		
+DAPK1	K42A	DAPK1_HUMAN	CHAIN;DOMAIN	Death-associated protein kinase 1;Protein kinase	localization	DAPK1 -[Inhibition]-> localization	21497122	0																																		
+DAPK1	K42A	DAPK1_HUMAN	CHAIN;DOMAIN	Death-associated protein kinase 1;Protein kinase	transcription, DNA-templated	DAPK1 -[DecreaseAmount]-> PIN1 -[Activation]-> transcription, DNA-templated	21497122	0																																		
+DAPK1	S308A	DAPK1_HUMAN	CHAIN;REGION	Death-associated protein kinase 1;Calmodulin-binding	Death	DAPK1 -[Activation]-> Death	28614711	0																																		
+DAPK1	S308A	DAPK1_HUMAN	CHAIN;REGION	Death-associated protein kinase 1;Calmodulin-binding	cell death	DAPK1 -[Activation]-> cell death	28614711	0																																		

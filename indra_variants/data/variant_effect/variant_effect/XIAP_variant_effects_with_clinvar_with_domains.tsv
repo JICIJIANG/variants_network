@@ -1,0 +1,58 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+XIAP	A224L	XIAP_HUMAN	CHAIN;REPEAT	E3 ubiquitin-protein ligase XIAP;BIR 2	Dimerization	XIAP -[Activation]-> IKK_complex -[Inhibition]-> Interferon -[Activation]-> double-stranded RNA -[Activation]-> Dimerization	17072332	0																																		
+XIAP	A224L	XIAP_HUMAN	CHAIN;REPEAT	E3 ubiquitin-protein ligase XIAP;BIR 2	Virus Replication	XIAP -[Activation]-> IKK_complex -[Inhibition]-> IRF7 -[Activation]-> defense response to virus -[Inhibition]-> Virus Replication	17072332	0																																		
+XIAP	A224L	XIAP_HUMAN	CHAIN;REPEAT	E3 ubiquitin-protein ligase XIAP;BIR 2	apoptotic process	XIAP -[Inhibition]-> apoptotic process	28841179	0																																		
+XIAP	A224L	XIAP_HUMAN	CHAIN;REPEAT	E3 ubiquitin-protein ligase XIAP;BIR 2	cell death	XIAP -[Inhibition]-> cell death	28841179	0																																		
+XIAP	A224L	XIAP_HUMAN	CHAIN;REPEAT	E3 ubiquitin-protein ligase XIAP;BIR 2	defense response to virus	XIAP -[Activation]-> IKK_complex -[Inhibition]-> IRF7 -[Activation]-> defense response to virus	17072332	0																																		
+XIAP	A224L	XIAP_HUMAN	CHAIN;REPEAT	E3 ubiquitin-protein ligase XIAP;BIR 2	interferon-beta production	XIAP -[Activation]-> IKK_complex -[Phosphorylation]-> TANK -[Activation]-> transcription, DNA-templated -[Activation]-> competent -[Activation]-> interferon-beta production	17072332	0																																		
+XIAP	A224L	XIAP_HUMAN	CHAIN;REPEAT	E3 ubiquitin-protein ligase XIAP;BIR 2	localization	XIAP -[Activation]-> IKK_complex -[Phosphorylation]-> REL -[Activation]-> localization	17072332	0																																		
+XIAP	A224L	XIAP_HUMAN	CHAIN;REPEAT	E3 ubiquitin-protein ligase XIAP;BIR 2	response to lipopolysaccharide	XIAP -[Activation]-> IKK_complex -[Inhibition]-> Interferon -[Activation]-> response to lipopolysaccharide	17072332	0																																		
+XIAP	A224L	XIAP_HUMAN	CHAIN;REPEAT	E3 ubiquitin-protein ligase XIAP;BIR 2	response to virus	XIAP -[Activation]-> IKK_complex -[Inhibition]-> Interferon -[Inhibition]-> response to virus	17072332	0																																		
+XIAP	A224L	XIAP_HUMAN	CHAIN;REPEAT	E3 ubiquitin-protein ligase XIAP;BIR 2	signal transduction	XIAP -[Activation]-> IKK_complex -[Activation]-> signal transduction	17072332	0																																		
+XIAP	A224L	XIAP_HUMAN	CHAIN;REPEAT	E3 ubiquitin-protein ligase XIAP;BIR 2	transcription, DNA-templated	XIAP -[Activation]-> IKK_complex -[Phosphorylation]-> TANK -[Activation]-> transcription, DNA-templated	17072332	0																																		
+XIAP	C450H	XIAP_HUMAN	CHAIN;ZN_FING;REGION	E3 ubiquitin-protein ligase XIAP;RING-type;	Death	XIAP -[Activation]-> Death	20670888	0																																		
+XIAP	C450H	XIAP_HUMAN	CHAIN;ZN_FING;REGION	E3 ubiquitin-protein ligase XIAP;RING-type;	apoptotic process	XIAP -[Inhibition]-> apoptotic process	20670888	0																																		
+XIAP	C450H	XIAP_HUMAN	CHAIN;ZN_FING;REGION	E3 ubiquitin-protein ligase XIAP;RING-type;	cell death	XIAP -[Inhibition]-> cell death	20670888	0																																		
+XIAP	C450H	XIAP_HUMAN	CHAIN;ZN_FING;REGION	E3 ubiquitin-protein ligase XIAP;RING-type;	proteolysis	XIAP -[Inhibition]-> Caspase -[Activation]-> proteolysis	20670888	0																																		
+XIAP	D143A	XIAP_HUMAN	CHAIN;REGION	E3 ubiquitin-protein ligase XIAP;Interaction with caspase-7	Neoplasm Invasiveness	XIAP -[Activation]-> Neoplasm Invasiveness	20129247	0																																		
+XIAP	D143A	XIAP_HUMAN	CHAIN;REGION	E3 ubiquitin-protein ligase XIAP;Interaction with caspase-7	Neoplasm Metastasis	XIAP -[Activation]-> Neoplasm Metastasis	20129247	0																																		
+XIAP	D143A	XIAP_HUMAN	CHAIN;REGION	E3 ubiquitin-protein ligase XIAP;Interaction with caspase-7	apoptotic process	XIAP -[Activation]-> apoptotic process	20129247	0																																		
+XIAP	D143A	XIAP_HUMAN	CHAIN;REGION	E3 ubiquitin-protein ligase XIAP;Interaction with caspase-7	cell adhesion	XIAP -[Activation]-> NFkappaB -[Activation]-> cell adhesion	20129247	0																																		
+XIAP	D143A	XIAP_HUMAN	CHAIN;REGION	E3 ubiquitin-protein ligase XIAP;Interaction with caspase-7	cell migration	XIAP -[IncreaseAmount]-> FN1 -[Activation]-> cell migration	20129247	0																																		
+XIAP	D143A	XIAP_HUMAN	CHAIN;REGION	E3 ubiquitin-protein ligase XIAP;Interaction with caspase-7	cell motility	XIAP -[Activation]-> cell motility	20129247	0																																		
+XIAP	D148A	XIAP_HUMAN	CHAIN;REGION	E3 ubiquitin-protein ligase XIAP;Interaction with caspase-7	Death	XIAP -[Inhibition]-> DIABLO -[Activation]-> Death	11927604	0																																		
+XIAP	D148A	XIAP_HUMAN	CHAIN;REGION	E3 ubiquitin-protein ligase XIAP;Interaction with caspase-7	apoptotic process	XIAP -[Activation]-> apoptotic process	26232549	0																																		
+XIAP	D148A	XIAP_HUMAN	CHAIN;REGION	E3 ubiquitin-protein ligase XIAP;Interaction with caspase-7	apoptotic process	XIAP -[Inhibition]-> apoptotic process	11927604	0																																		
+XIAP	D148A	XIAP_HUMAN	CHAIN;REGION	E3 ubiquitin-protein ligase XIAP;Interaction with caspase-7	cell death	XIAP -[Activation]-> cell death	11927604	0																																		
+XIAP	D148A	XIAP_HUMAN	CHAIN;REGION	E3 ubiquitin-protein ligase XIAP;Interaction with caspase-7	cell death	XIAP -[Activation]-> cell death	26232549	0																																		
+XIAP	D148A	XIAP_HUMAN	CHAIN;REGION	E3 ubiquitin-protein ligase XIAP;Interaction with caspase-7	cell differentiation	XIAP -[Inhibition]-> cell differentiation	26232549	0																																		
+XIAP	E314S	XIAP_HUMAN	CHAIN;REPEAT	E3 ubiquitin-protein ligase XIAP;BIR 3	Death	XIAP -[Inhibition]-> DIABLO -[Activation]-> Death	11927604	0																																		
+XIAP	E314S	XIAP_HUMAN	CHAIN;REPEAT	E3 ubiquitin-protein ligase XIAP;BIR 3	apoptotic process	XIAP -[Inhibition]-> apoptotic process	11927604	0																																		
+XIAP	E314S	XIAP_HUMAN	CHAIN;REPEAT	E3 ubiquitin-protein ligase XIAP;BIR 3	cell death	XIAP -[Activation]-> cell death	11927604	0																																		
+XIAP	G306S	XIAP_HUMAN	CHAIN;REPEAT	E3 ubiquitin-protein ligase XIAP;BIR 3	Death	XIAP -[Inhibition]-> DIABLO -[Activation]-> Death	11927604	0																																		
+XIAP	G306S	XIAP_HUMAN	CHAIN;REPEAT	E3 ubiquitin-protein ligase XIAP;BIR 3	apoptotic process	XIAP -[Inhibition]-> apoptotic process	11927604	0																																		
+XIAP	G306S	XIAP_HUMAN	CHAIN;REPEAT	E3 ubiquitin-protein ligase XIAP;BIR 3	cell death	XIAP -[Activation]-> cell death	11927604	0																																		
+XIAP	H467A	XIAP_HUMAN	CHAIN;ZN_FING;REGION	E3 ubiquitin-protein ligase XIAP;RING-type;	Cell Survival	XIAP -[Activation]-> autophagy -[Activation]-> Cell Survival	25669656	0																																		
+XIAP	H467A	XIAP_HUMAN	CHAIN;ZN_FING;REGION	E3 ubiquitin-protein ligase XIAP;RING-type;	apoptotic process	XIAP -[Inhibition]-> apoptotic process	25669656	0																																		
+XIAP	H467A	XIAP_HUMAN	CHAIN;ZN_FING;REGION	E3 ubiquitin-protein ligase XIAP;RING-type;	autophagy	XIAP -[Activation]-> autophagy	25669656	0																																		
+XIAP	H467A	XIAP_HUMAN	CHAIN;ZN_FING;REGION	E3 ubiquitin-protein ligase XIAP;RING-type;	cellular component biogenesis	XIAP -[Activation]-> cellular component biogenesis	25669656	0																																		
+XIAP	S406A	XIAP_HUMAN	CHAIN	E3 ubiquitin-protein ligase XIAP	Neoplasm Invasiveness	XIAP -[Inhibition]-> Neoplasm Invasiveness	32994395	0																																		
+XIAP	S406A	XIAP_HUMAN	CHAIN	E3 ubiquitin-protein ligase XIAP	cell adhesion	XIAP -[Inhibition]-> cell adhesion	32994395	0																																		
+XIAP	S406A	XIAP_HUMAN	CHAIN	E3 ubiquitin-protein ligase XIAP	cell growth	XIAP -[Inhibition]-> cell growth	32994395	0																																		
+XIAP	S406A	XIAP_HUMAN	CHAIN	E3 ubiquitin-protein ligase XIAP	cell motility	XIAP -[Activation]-> cell motility	32994395	0																																		
+XIAP	S406A	XIAP_HUMAN	CHAIN	E3 ubiquitin-protein ligase XIAP	cell population proliferation	XIAP -[Inhibition]-> cell population proliferation	32994395	0																																		
+XIAP	S87D	XIAP_HUMAN	CHAIN;REPEAT	E3 ubiquitin-protein ligase XIAP;BIR 1	apoptotic process	XIAP -[Activation]-> apoptotic process	30867140	0																																		
+XIAP	T180A	XIAP_HUMAN	CHAIN;REPEAT	E3 ubiquitin-protein ligase XIAP;BIR 2	apoptotic process	XIAP -[Inhibition]-> apoptotic process	29678905	0																																		
+XIAP	V80D	XIAP_HUMAN	CHAIN;REPEAT	E3 ubiquitin-protein ligase XIAP;BIR 1	Neoplasm Invasiveness	XIAP -[Activation]-> Neoplasm Invasiveness	20129247	0																																		
+XIAP	V80D	XIAP_HUMAN	CHAIN;REPEAT	E3 ubiquitin-protein ligase XIAP;BIR 1	Neoplasm Metastasis	XIAP -[Activation]-> Neoplasm Metastasis	20129247	0																																		
+XIAP	V80D	XIAP_HUMAN	CHAIN;REPEAT	E3 ubiquitin-protein ligase XIAP;BIR 1	apoptotic process	XIAP -[Activation]-> apoptotic process	20129247	0																																		
+XIAP	V80D	XIAP_HUMAN	CHAIN;REPEAT	E3 ubiquitin-protein ligase XIAP;BIR 1	cell adhesion	XIAP -[Activation]-> NFkappaB -[Activation]-> cell adhesion	20129247	0																																		
+XIAP	V80D	XIAP_HUMAN	CHAIN;REPEAT	E3 ubiquitin-protein ligase XIAP;BIR 1	cell migration	XIAP -[IncreaseAmount]-> FN1 -[Activation]-> cell migration	20129247	0																																		
+XIAP	V80D	XIAP_HUMAN	CHAIN;REPEAT	E3 ubiquitin-protein ligase XIAP;BIR 1	cell motility	XIAP -[Activation]-> cell motility	20129247	0																																		
+XIAP	W310A	XIAP_HUMAN	CHAIN;REPEAT	E3 ubiquitin-protein ligase XIAP;BIR 3	Neoplasm Invasiveness	XIAP -[Activation]-> Neoplasm Invasiveness	20129247	0																																		
+XIAP	W310A	XIAP_HUMAN	CHAIN;REPEAT	E3 ubiquitin-protein ligase XIAP;BIR 3	Neoplasm Metastasis	XIAP -[Activation]-> Neoplasm Metastasis	20129247	0																																		
+XIAP	W310A	XIAP_HUMAN	CHAIN;REPEAT	E3 ubiquitin-protein ligase XIAP;BIR 3	apoptotic process	XIAP -[Activation]-> apoptotic process	20129247	0																																		
+XIAP	W310A	XIAP_HUMAN	CHAIN;REPEAT	E3 ubiquitin-protein ligase XIAP;BIR 3	apoptotic process	XIAP -[Inhibition]-> apoptotic process	19875445	0																																		
+XIAP	W310A	XIAP_HUMAN	CHAIN;REPEAT	E3 ubiquitin-protein ligase XIAP;BIR 3	cell adhesion	XIAP -[Activation]-> NFkappaB -[Activation]-> cell adhesion	20129247	0																																		
+XIAP	W310A	XIAP_HUMAN	CHAIN;REPEAT	E3 ubiquitin-protein ligase XIAP;BIR 3	cell migration	XIAP -[IncreaseAmount]-> FN1 -[Activation]-> cell migration	20129247	0																																		
+XIAP	W310A	XIAP_HUMAN	CHAIN;REPEAT	E3 ubiquitin-protein ligase XIAP;BIR 3	cell motility	XIAP -[Activation]-> cell motility	20129247	0																																		

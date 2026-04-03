@@ -1,0 +1,306 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+SOD1	A4V	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Death	SOD1 -[Activation]-> Death	15996807	0																																		
+SOD1	A4V	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Death	SOD1 -[Activation]-> Death	27400686	0																																		
+SOD1	A4V	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Death	SOD1 -[Activation]-> Death	28085149	0																																		
+SOD1	A4V	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Nerve Degeneration	SOD1 -[Activation]-> Nerve Degeneration	25524953	0																																		
+SOD1	A4V	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	apoptotic process	SOD1 -[Activation]-> apoptotic process	32446203	0																																		
+SOD1	A4V	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	cell death	SOD1 -[Activation]-> cell death	15358145	0																																		
+SOD1	A4V	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	cell death	SOD1 -[Activation]-> cell death	15996807	0																																		
+SOD1	A4V	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	cell death	SOD1 -[Activation]-> cell death	22523592	0																																		
+SOD1	A4V	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	cell death	SOD1 -[Activation]-> cell death	32446203	0																																		
+SOD1	A4V	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	cell death	SOD1 -[Inhibition]-> cell death	28085149	0																																		
+SOD1	A4V	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	clathrin-dependent endocytosis	SOD1 -[Inhibition]-> clathrin-dependent endocytosis	24706768	0																																		
+SOD1	A4V	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	homeostatic process	SOD1 -[Inhibition]-> homeostatic process	33196025	0																																		
+SOD1	A4V	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	signal transduction	SOD1 -[Activation]-> signal transduction	28085149	0																																		
+SOD1	A4V	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	transport	SOD1 -[Inhibition]-> transport	27965593	0																																		
+SOD1	A4V	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	transport	SOD1 -[Inhibition]-> transport	28973175	0																																		
+SOD1	A4V	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	transport	SOD1 -[Inhibition]-> transport	32446203	0																																		
+SOD1	D90A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Death	SOD1 -[Activation]-> IGFALS -[Activation]-> Death	30881332	0																																		
+SOD1	E100G	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	cell death	SOD1 -[Inhibition]-> cell death	32471232	0																																		
+SOD1	G17S	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	apoptotic process	SOD1 -[Inhibition]-> miR-18b-5p -[Activation]-> apoptotic process	32605607	1	29815	single nucleotide variant	NM_000454.5(SOD1):c.49G>A (p.Gly17Ser)	121912453	Amyotrophic lateral sclerosis type 1	Pathogenic	0.0																											
+SOD1	G37R	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Death	SOD1 -[Activation]-> Death	20797535	0																																		
+SOD1	G37R	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	autophagy	SOD1 -[Inhibition]-> IGFALS -[Complex]-> C9orf72 -[Inhibition]-> autophagy	33679322	0																																		
+SOD1	G37R	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	cellular senescence	SOD1 -[Inhibition]-> IGFALS -[Complex]-> C9orf72 -[Activation]-> cellular senescence	33679322	0																																		
+SOD1	G37R	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	homeostatic process	SOD1 -[Activation]-> homeostatic process	33679322	0																																		
+SOD1	G37R	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	transport	SOD1 -[Inhibition]-> transport	28973175	0																																		
+SOD1	G37R	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	voltage-gated anion channel activity	SOD1 -[Complex]-> voltage-gated anion channel activity	20797535	0																																		
+SOD1	G576R				autophagy	SOD1 -[Activation]-> autophagy	25784053	0																																		
+SOD1	G85R	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Alzheimer Disease	SOD1 -[Activation]-> CASP1 -[Inhibition]-> Alzheimer Disease	33776778	0																																		
+SOD1	G85R	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	CAPN	SOD1 -[Activation]-> CAPN	27821430	0																																		
+SOD1	G85R	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Death	SOD1 -[Activation]-> Death	19672969	0																																		
+SOD1	G85R	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Death	SOD1 -[Activation]-> Death	20472325	0																																		
+SOD1	G85R	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Death	SOD1 -[Activation]-> Death	20797535	0																																		
+SOD1	G85R	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Death	SOD1 -[Activation]-> Death	28588226	0																																		
+SOD1	G85R	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Death	SOD1 -[Activation]-> MAP3K5 -[Activation]-> Death	24311730	0																																		
+SOD1	G85R	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Death	SOD1 -[IncreaseAmount]-> NLRP3 -[Activation]-> Death	33776778	0																																		
+SOD1	G85R	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Disease Progression	SOD1 -[Activation]-> Disease Progression	35524757	0																																		
+SOD1	G85R	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	NLRP3 inflammasome complex assembly	SOD1 -[Activation]-> CASP1 -[Inhibition]-> Alzheimer Disease -[Activation]-> NLRP3 inflammasome complex assembly	33776778	0																																		
+SOD1	G85R	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	apoptotic process	SOD1 -[Activation]-> apoptotic process	35524757	0																																		
+SOD1	G85R	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	autophagy	SOD1 -[Activation]-> autophagy	28588226	0																																		
+SOD1	G85R	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	autophagy	SOD1 -[IncreaseAmount]-> NLRP3 -[Inhibition]-> autophagy	33776778	0																																		
+SOD1	G85R	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	autophagy	SOD1 -[Inhibition]-> IGFALS -[Complex]-> C9orf72 -[Inhibition]-> autophagy	33679322	0																																		
+SOD1	G85R	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	cell death	SOD1 -[Activation]-> cell death	28588226	0																																		
+SOD1	G85R	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	cell death	SOD1 -[Activation]-> cell death	33335227	0																																		
+SOD1	G85R	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	cell death	SOD1 -[Inhibition]-> calcium(2+) -[Inhibition]-> cell death	23486940	0																																		
+SOD1	G85R	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	cellular senescence	SOD1 -[Inhibition]-> IGFALS -[Complex]-> C9orf72 -[Activation]-> cellular senescence	33679322	0																																		
+SOD1	G85R	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	homeostatic process	SOD1 -[Activation]-> homeostatic process	33679322	0																																		
+SOD1	G85R	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	homeostatic process	SOD1 -[Inhibition]-> SIGMAR1 -[Activation]-> homeostatic process	27821430	0																																		
+SOD1	G85R	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	immune response	SOD1 -[IncreaseAmount]-> NLRP3 -[Activation]-> immune response	33776778	0																																		
+SOD1	G85R	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	inflammatory response	SOD1 -[Activation]-> CASP1 -[Activation]-> inflammatory response	33776778	0																																		
+SOD1	G85R	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	inflammatory response	SOD1 -[Activation]-> apoptotic process -[Inhibition]-> inflammatory response	35524757	0																																		
+SOD1	G85R	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	inflammatory response	SOD1 -[Complex]-> CD14 -[Activation]-> inflammatory response	19672969	0																																		
+SOD1	G85R	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	inflammatory response	SOD1 -[Inhibition]-> MAM -[Inhibition]-> inflammatory response	27821430	0																																		
+SOD1	G85R	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	positive regulation of wound healing	SOD1 -[Activation]-> positive regulation of wound healing	19672969	0																																		
+SOD1	G85R	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	response to stress	SOD1 -[Activation]-> response to stress	24311730	0																																		
+SOD1	G85R	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	response to stress	SOD1 -[Activation]-> response to stress	27821430	0																																		
+SOD1	G85R	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	signal transduction	SOD1 -[Complex]-> CD14 -[Activation]-> signal transduction	19672969	0																																		
+SOD1	G85R	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	signal transduction	SOD1 -[Complex]-> kaempferol oxoanion -[Activation]-> signal transduction	28588226	0																																		
+SOD1	G85R	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	transport	SOD1 -[Inhibition]-> transport	32297211	0																																		
+SOD1	G85R	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	voltage-gated anion channel activity	SOD1 -[Complex]-> voltage-gated anion channel activity	20797535	0																																		
+SOD1	G86R	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Death	SOD1 -[Activation]-> Death	16079151	1	29797	single nucleotide variant	NM_000454.5(SOD1):c.256G>C (p.Gly86Arg)	121912436	Amyotrophic lateral sclerosis type 1	Pathogenic	2.0	SOD1-related disorder																										
+SOD1	G86R	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Death	SOD1 -[Phosphorylation]-> ABL1 -[Activation]-> Death	26106294	1	29797	single nucleotide variant	NM_000454.5(SOD1):c.256G>C (p.Gly86Arg)	121912436	Amyotrophic lateral sclerosis type 1	Pathogenic	2.0	SOD1-related disorder																										
+SOD1	G86R	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	apoptotic process	SOD1 -[Phosphorylation]-> ABL1 -[Activation]-> apoptotic process	26106294	1	29797	single nucleotide variant	NM_000454.5(SOD1):c.256G>C (p.Gly86Arg)	121912436	Amyotrophic lateral sclerosis type 1	Pathogenic	2.0	SOD1-related disorder																										
+SOD1	G86R	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	catabolic process	SOD1 -[Activation]-> TP53 -[Activation]-> catabolic process	26919175	1	29797	single nucleotide variant	NM_000454.5(SOD1):c.256G>C (p.Gly86Arg)	121912436	Amyotrophic lateral sclerosis type 1	Pathogenic	2.0	SOD1-related disorder																										
+SOD1	G86R	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	cell death	SOD1 -[Activation]-> cell death	16079151	1	29797	single nucleotide variant	NM_000454.5(SOD1):c.256G>C (p.Gly86Arg)	121912436	Amyotrophic lateral sclerosis type 1	Pathogenic	2.0	SOD1-related disorder																										
+SOD1	G86R	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	cell death	SOD1 -[Activation]-> cell death	26106294	1	29797	single nucleotide variant	NM_000454.5(SOD1):c.256G>C (p.Gly86Arg)	121912436	Amyotrophic lateral sclerosis type 1	Pathogenic	2.0	SOD1-related disorder																										
+SOD1	G86R	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	homeostatic process	SOD1 -[Activation]-> homeostatic process	26539112	1	29797	single nucleotide variant	NM_000454.5(SOD1):c.256G>C (p.Gly86Arg)	121912436	Amyotrophic lateral sclerosis type 1	Pathogenic	2.0	SOD1-related disorder																										
+SOD1	G86R	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	inflammatory response	SOD1 -[Inhibition]-> inflammatory response	26539112	1	29797	single nucleotide variant	NM_000454.5(SOD1):c.256G>C (p.Gly86Arg)	121912436	Amyotrophic lateral sclerosis type 1	Pathogenic	2.0	SOD1-related disorder																										
+SOD1	G86R	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	metabolic process	SOD1 -[Activation]-> metabolic process	26539112	1	29797	single nucleotide variant	NM_000454.5(SOD1):c.256G>C (p.Gly86Arg)	121912436	Amyotrophic lateral sclerosis type 1	Pathogenic	2.0	SOD1-related disorder																										
+SOD1	G86S	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	apoptotic process	SOD1 -[Inhibition]-> miR-18b-5p -[Activation]-> apoptotic process	32605607	1	919931	single nucleotide variant	NM_000454.5(SOD1):c.256G>A (p.Gly86Ser)	121912436	Spastic tetraplegia and axial hypotonia, progressive	Pathogenic/Likely pathogenic	2.0	Amyotrophic lateral sclerosis type 1			SOD1-related disorder																							
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	ATPase activity	SOD1 -[Inhibition]-> ADD1 -[Complex]-> ATPase activity	25344630	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Alzheimer Disease	SOD1 -[Activation]-> CASP1 -[Inhibition]-> Alzheimer Disease	33776778	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Amyotrophic Lateral Sclerosis	SOD1 -[Activation]-> Amyotrophic Lateral Sclerosis	35280283	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Amyotrophic Lateral Sclerosis	SOD1 -[Activation]-> VAPB -[Inhibition]-> Amyotrophic Lateral Sclerosis	23281774	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Brain Ischemia	SOD1 -[Activation]-> Brain Ischemia	15350647	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	CAPN	SOD1 -[Activation]-> CAPN	27821430	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Cell Survival	SOD1 -[Activation]-> Cell Survival	12531528	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Cell Survival	SOD1 -[Activation]-> Ptpn2 -[Activation]-> Cell Survival	28132831	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Cell Survival	SOD1 -[DecreaseAmount]-> HDAC6 -[Inhibition]-> Cell Survival	30935091	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Cell Survival	SOD1 -[IncreaseAmount]-> GPNMB -[Inhibition]-> Cell Survival	22891158	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Cell Survival	SOD1 -[Inhibition]-> Cell Survival	27721436	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Cell Survival	SOD1 -[Inhibition]-> Cell Survival	27999308	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	DNA Damage	SOD1 -[Activation]-> DNA Damage	30630676	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	DNA damage checkpoint	SOD1 -[DecreaseAmount]-> SPDYA -[Inhibition]-> DNA damage checkpoint	30630676	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	DNA replication	SOD1 -[Activation]-> lipopolysaccharide -[Activation]-> DNA replication	23850290	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Death	SOD1 -[Activation]-> Death	12221165	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Death	SOD1 -[Activation]-> Death	15996807	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Death	SOD1 -[Activation]-> Death	16079151	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Death	SOD1 -[Activation]-> Death	18086918	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Death	SOD1 -[Activation]-> Death	18282652	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Death	SOD1 -[Activation]-> Death	18417691	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Death	SOD1 -[Activation]-> Death	19672969	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Death	SOD1 -[Activation]-> Death	20382740	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Death	SOD1 -[Activation]-> Death	20797535	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Death	SOD1 -[Activation]-> Death	21969586	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Death	SOD1 -[Activation]-> Death	22819776	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Death	SOD1 -[Activation]-> Death	23689277	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Death	SOD1 -[Activation]-> Death	24628482	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Death	SOD1 -[Activation]-> Death	25018698	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Death	SOD1 -[Activation]-> Death	26287750	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Death	SOD1 -[Activation]-> Death	27257617	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Death	SOD1 -[Activation]-> Death	27721436	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Death	SOD1 -[Activation]-> Death	28085149	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Death	SOD1 -[Activation]-> Death	28132831	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Death	SOD1 -[Activation]-> Death	29030576	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Death	SOD1 -[Activation]-> Death	30674678	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Death	SOD1 -[Activation]-> Death	32457286	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Death	SOD1 -[Activation]-> Death	32612503	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Death	SOD1 -[Activation]-> Death	33373320	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Death	SOD1 -[Activation]-> Death	35082783	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Death	SOD1 -[Activation]-> Death	37626649	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Death	SOD1 -[Activation]-> Death	37644868	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Death	SOD1 -[Activation]-> GREM1 -[Complex]-> EFHD2 -[Complex]-> MAPT -[Activation]-> Death	21244694	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Death	SOD1 -[Activation]-> IGFALS -[Activation]-> Death	25523812	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Death	SOD1 -[Activation]-> IGFALS -[Activation]-> Death	28090150	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Death	SOD1 -[Activation]-> STK4 -[Activation]-> Death	27805903	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Death	SOD1 -[Activation]-> TNF -[Activation]-> IGFALS -[Activation]-> Death	29218049	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Death	SOD1 -[Activation]-> p38 -[Inhibition]-> Death	29789529	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Death	SOD1 -[DecreaseAmount]-> calcium(2+) -[Activation]-> Death	23578819	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Death	SOD1 -[IncreaseAmount]-> GPNMB -[Inhibition]-> Death	22891158	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Death	SOD1 -[IncreaseAmount]-> NLRP3 -[Activation]-> Death	33776778	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Death	SOD1 -[Inhibition]-> Death	18683239	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Death	SOD1 -[Inhibition]-> Death	20534165	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Death	SOD1 -[Inhibition]-> Death	22369784	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Death	SOD1 -[Inhibition]-> Death	25753484	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Death	SOD1 -[Inhibition]-> Death	26756888	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Death	SOD1 -[Inhibition]-> Death	27012417	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Death	SOD1 -[Inhibition]-> Death	28641533	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Death	SOD1 -[Inhibition]-> Death	29981425	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Death	SOD1 -[Inhibition]-> EPHA4 -[Activation]-> Death	30061574	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Death	SOD1 -[Inhibition]-> RAC1 -[Activation]-> Death	31931138	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Death	SOD1 -[Phosphorylation]-> ABL1 -[Activation]-> Death	26106294	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Death	SOD1 -[Ubiquitination]-> Death	29871694	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Disease Progression	SOD1 -[Activation]-> Disease Progression	30949015	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Disease Progression	SOD1 -[Activation]-> Disease Progression	35524757	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Hydrogen-Ion Concentration	SOD1 -[Activation]-> TNF -[Activation]-> IGFALS -[Activation]-> Hydrogen-Ion Concentration	29218049	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	NLRP3 inflammasome complex assembly	SOD1 -[Activation]-> CASP1 -[Inhibition]-> Alzheimer Disease -[Activation]-> NLRP3 inflammasome complex assembly	33776778	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Nerve Degeneration	SOD1 -[DecreaseAmount]-> HDAC6 -[Activation]-> Nerve Degeneration	30935091	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Optic Nerve Injuries	SOD1 -[Activation]-> Optic Nerve Injuries	15350647	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Oxidative Stress	SOD1 -[DecreaseAmount]-> HDAC6 -[DecreaseAmount]-> HSPB1 -[Inhibition]-> Oxidative Stress	30935091	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	P2RX	SOD1 -[Activation]-> ATP -[Activation]-> P2RX	20534165	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	RhoGDI	SOD1 -[Activation]-> RAC -[Complex]-> RhoGDI	24555469	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	angiogenesis	SOD1 -[IncreaseAmount]-> GPNMB -[Activation]-> angiogenesis	22891158	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	apoptotic process	SOD1 -[Activation]-> DNA Damage -[Activation]-> apoptotic process	30630676	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	apoptotic process	SOD1 -[Activation]-> GREM1 -[Complex]-> EFHD2 -[Activation]-> apoptotic process	21244694	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	apoptotic process	SOD1 -[Activation]-> STK4 -[Activation]-> apoptotic process	27805903	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	apoptotic process	SOD1 -[Activation]-> Vps28 -[Activation]-> apoptotic process	25018698	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	apoptotic process	SOD1 -[Activation]-> apoptotic process	18417691	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	apoptotic process	SOD1 -[Activation]-> apoptotic process	18683239	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	apoptotic process	SOD1 -[Activation]-> apoptotic process	22819776	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	apoptotic process	SOD1 -[Activation]-> apoptotic process	26412972	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	apoptotic process	SOD1 -[Activation]-> apoptotic process	27999308	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	apoptotic process	SOD1 -[Activation]-> apoptotic process	29896440	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	apoptotic process	SOD1 -[Activation]-> apoptotic process	33416892	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	apoptotic process	SOD1 -[Activation]-> apoptotic process	35178161	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	apoptotic process	SOD1 -[Activation]-> apoptotic process	35524757	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	apoptotic process	SOD1 -[Activation]-> calcium(2+) -[Activation]-> apoptotic process	29881358	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	apoptotic process	SOD1 -[Activation]-> cell death -[Inhibition]-> apoptotic process	24739485	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	apoptotic process	SOD1 -[Deglycosylation]-> GPNMB -[Activation]-> apoptotic process	26581806	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	apoptotic process	SOD1 -[Inhibition]-> DAO -[Activation]-> apoptotic process	29194436	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	apoptotic process	SOD1 -[Inhibition]-> apoptotic process	12531528	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	apoptotic process	SOD1 -[Inhibition]-> apoptotic process	18282652	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	apoptotic process	SOD1 -[Inhibition]-> apoptotic process	31931138	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	apoptotic process	SOD1 -[Inhibition]-> miR-18b-5p -[Activation]-> apoptotic process	32605607	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	apoptotic process	SOD1 -[Phosphorylation]-> ABL1 -[Activation]-> apoptotic process	26106294	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	autophagy	SOD1 -[Activation]-> IGFALS -[Activation]-> autophagy	28213588	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	autophagy	SOD1 -[Activation]-> autophagy	23268536	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	autophagy	SOD1 -[Activation]-> autophagy	25206739	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	autophagy	SOD1 -[Activation]-> autophagy	26756888	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	autophagy	SOD1 -[IncreaseAmount]-> NLRP3 -[Inhibition]-> autophagy	33776778	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	autophagy	SOD1 -[Inhibition]-> DAO -[Activation]-> autophagy	29194436	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	autophagy	SOD1 -[Inhibition]-> IGFALS -[Complex]-> C9orf72 -[Inhibition]-> autophagy	33679322	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	autophagy	SOD1 -[Inhibition]-> Proteasome -[Inhibition]-> autophagy	26244336	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	autophagy	SOD1 -[Inhibition]-> autophagy	23818595	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	autophagy	SOD1 -[Inhibition]-> autophagy	33087694	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	autophagy	SOD1 -[Inhibition]-> lithium(1+) -[Activation]-> autophagy	21936930	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	cell adhesion	SOD1 -[Activation]-> cell adhesion	28962574	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	cell cycle	SOD1 -[Activation]-> lipopolysaccharide -[Activation]-> cell cycle	23850290	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	cell death	SOD1 -[Activation]-> GREM1 -[Complex]-> Receptors, Antigen, B-Cell -[Activation]-> cell death	21244694	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	cell death	SOD1 -[Activation]-> IGFALS -[Activation]-> autophagy -[Activation]-> cell death	28213588	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	cell death	SOD1 -[Activation]-> TLR4 -[Activation]-> NFkappaB -[Activation]-> cell death	27257617	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	cell death	SOD1 -[Activation]-> VDAC1 -[Complex]-> NHK1 peptide -[Inhibition]-> IGFALS -[Activation]-> cell death	27721436	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	cell death	SOD1 -[Activation]-> Vps28 -[Inhibition]-> cell death	25018698	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	cell death	SOD1 -[Activation]-> autophagy -[Activation]-> cell death	25206739	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	cell death	SOD1 -[Activation]-> cell death	15358145	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	cell death	SOD1 -[Activation]-> cell death	15996807	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	cell death	SOD1 -[Activation]-> cell death	16079151	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	cell death	SOD1 -[Activation]-> cell death	18282652	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	cell death	SOD1 -[Activation]-> cell death	22283698	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	cell death	SOD1 -[Activation]-> cell death	22819776	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	cell death	SOD1 -[Activation]-> cell death	22891158	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	cell death	SOD1 -[Activation]-> cell death	23763343	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	cell death	SOD1 -[Activation]-> cell death	24023695	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	cell death	SOD1 -[Activation]-> cell death	24739485	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	cell death	SOD1 -[Activation]-> cell death	24911596	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	cell death	SOD1 -[Activation]-> cell death	25344630	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	cell death	SOD1 -[Activation]-> cell death	25779930	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	cell death	SOD1 -[Activation]-> cell death	26106294	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	cell death	SOD1 -[Activation]-> cell death	26412972	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	cell death	SOD1 -[Activation]-> cell death	26988030	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	cell death	SOD1 -[Activation]-> cell death	27718545	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	cell death	SOD1 -[Activation]-> cell death	31931138	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	cell death	SOD1 -[Activation]-> cell death	33087694	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	cell death	SOD1 -[Activation]-> cell death	33335227	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	cell death	SOD1 -[Activation]-> endoplasmic reticulum -[Activation]-> cell death	27321923	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	cell death	SOD1 -[Complex]-> CD8 -[Activation]-> cell death	30674678	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	cell death	SOD1 -[Inhibition]-> NOS1 -[Activation]-> cell death	18586551	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	cell death	SOD1 -[Inhibition]-> cell death	12531528	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	cell death	SOD1 -[Inhibition]-> cell death	28085149	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	cell differentiation	SOD1 -[Activation]-> cell differentiation	22819776	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	cell differentiation	SOD1 -[Activation]-> cell differentiation	27194826	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	cell differentiation	SOD1 -[IncreaseAmount]-> DCN -[Inhibition]-> cell differentiation	18683239	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	cell differentiation	SOD1 -[Inhibition]-> cell differentiation	23144905	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	cell differentiation	SOD1 -[Inhibition]-> cell differentiation	26491230	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	cell differentiation	SOD1 -[Inhibition]-> cell differentiation	26508817	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	cell population proliferation	SOD1 -[Activation]-> cell population proliferation	20534165	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	cell population proliferation	SOD1 -[Activation]-> cell population proliferation	27717377	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	cell population proliferation	SOD1 -[Activation]-> cell population proliferation	30873018	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	cell population proliferation	SOD1 -[Activation]-> cell population proliferation	32612503	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	cell population proliferation	SOD1 -[DecreaseAmount]-> SPDYA -[Activation]-> cell population proliferation	30630676	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	cell population proliferation	SOD1 -[Inhibition]-> NOS1 -[Activation]-> cell population proliferation	18586551	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	cell population proliferation	SOD1 -[Inhibition]-> cell population proliferation	22509356	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	cell population proliferation	SOD1 -[Inhibition]-> cell population proliferation	23144905	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	cell population proliferation	SOD1 -[Inhibition]-> cell population proliferation	35328829	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	cellular senescence	SOD1 -[Inhibition]-> IGFALS -[Complex]-> C9orf72 -[Activation]-> cellular senescence	33679322	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	dendritic spine morphogenesis	SOD1 -[DecreaseAmount]-> HDAC6 -[Acetylation]-> AKT1 -[Activation]-> dendritic spine morphogenesis	30935091	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	ferroptosis	SOD1 -[Activation]-> ferroptosis	35178161	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	generation of precursor metabolites and energy	SOD1 -[Inhibition]-> endoplasmic reticulum -[Activation]-> generation of precursor metabolites and energy	31658977	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	homeostatic process	SOD1 -[Activation]-> autophagy -[Inhibition]-> homeostatic process	23268536	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	homeostatic process	SOD1 -[Activation]-> homeostatic process	26539112	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	homeostatic process	SOD1 -[Activation]-> homeostatic process	26648847	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	homeostatic process	SOD1 -[Activation]-> homeostatic process	32344665	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	homeostatic process	SOD1 -[Activation]-> homeostatic process	33679322	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	homeostatic process	SOD1 -[Inhibition]-> SIGMAR1 -[Activation]-> homeostatic process	27821430	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	homeostatic process	SOD1 -[Inhibition]-> homeostatic process	20638473	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	homeostatic process	SOD1 -[Inhibition]-> homeostatic process	24324755	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	homeostatic process	SOD1 -[Inhibition]-> homeostatic process	25018698	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	homeostatic process	SOD1 -[Inhibition]-> homeostatic process	28205575	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	immune response	SOD1 -[IncreaseAmount]-> NLRP3 -[Activation]-> immune response	33776778	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	inflammatory response	SOD1 -[Activation]-> APP -[Activation]-> inflammatory response	26600047	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	inflammatory response	SOD1 -[Activation]-> ATP -[Activation]-> inflammatory response	20534165	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	inflammatory response	SOD1 -[Activation]-> CASP1 -[Activation]-> inflammatory response	33776778	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	inflammatory response	SOD1 -[Activation]-> apoptotic process -[Inhibition]-> inflammatory response	35524757	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	inflammatory response	SOD1 -[Activation]-> inflammatory response	18086918	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	inflammatory response	SOD1 -[Activation]-> inflammatory response	26756888	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	inflammatory response	SOD1 -[Activation]-> inflammatory response	26942099	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	inflammatory response	SOD1 -[Activation]-> inflammatory response	33416892	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	inflammatory response	SOD1 -[Complex]-> CD14 -[Activation]-> inflammatory response	19672969	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	inflammatory response	SOD1 -[Inhibition]-> MAM -[Inhibition]-> inflammatory response	27821430	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	inflammatory response	SOD1 -[Inhibition]-> inflammatory response	23766784	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	inflammatory response	SOD1 -[Inhibition]-> inflammatory response	24737943	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	inflammatory response	SOD1 -[Inhibition]-> inflammatory response	26539112	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	learning or memory	SOD1 -[DecreaseAmount]-> HDAC6 -[Inhibition]-> learning or memory	30935091	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	localization	SOD1 -[Activation]-> localization	26412972	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	localization	SOD1 -[DecreaseAmount]-> cholesterol -[Activation]-> localization	26528138	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	localization	SOD1 -[Inhibition]-> localization	24210254	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	metabolic process	SOD1 -[Activation]-> metabolic process	20534165	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	metabolic process	SOD1 -[Activation]-> metabolic process	26539112	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	metabolic process	SOD1 -[Inhibition]-> metabolic process	28246392	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	metabolic process	SOD1 -[Inhibition]-> metabolic process	29030576	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	pH reduction	SOD1 -[Inhibition]-> pH reduction	35501124	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	positive regulation of wound healing	SOD1 -[Activation]-> positive regulation of wound healing	19672969	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	protein folding	SOD1 -[Activation]-> protein folding	18947433	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	protein folding	SOD1 -[Inhibition]-> endoplasmic reticulum -[Activation]-> protein folding	31658977	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	protein folding in endoplasmic reticulum	SOD1 -[Inhibition]-> protein folding in endoplasmic reticulum	31658977	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	regulation of mitochondrial membrane potential	SOD1 -[Inhibition]-> regulation of mitochondrial membrane potential	28034353	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	regulation of mitochondrial membrane potential	SOD1 -[Inhibition]-> regulation of mitochondrial membrane potential	33087694	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	response to endoplasmic reticulum stress	SOD1 -[Activation]-> response to endoplasmic reticulum stress	35082783	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	response to stress	SOD1 -[Activation]-> response to stress	27821430	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	response to stress	SOD1 -[Inhibition]-> response to stress	33416892	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	signal transduction	SOD1 -[Activation]-> signal transduction	28085149	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	signal transduction	SOD1 -[Activation]-> signal transduction	29789529	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	signal transduction	SOD1 -[Complex]-> CD14 -[Activation]-> signal transduction	19672969	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	store-operated calcium channel activity	SOD1 -[Activation]-> GREM1 -[Complex]-> EFHD2 -[Complex]-> calcium(2+) -[Activation]-> store-operated calcium channel activity	21244694	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	tissue homeostasis	SOD1 -[Inhibition]-> tissue homeostasis	35284425	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	transcription, DNA-templated	SOD1 -[Activation]-> Reactive Oxygen Species -[Activation]-> transcription, DNA-templated	24555469	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	transcription, DNA-templated	SOD1 -[Inhibition]-> NOS1 -[Activation]-> transcription, DNA-templated	18586551	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	transport	SOD1 -[Activation]-> p38 -[Inhibition]-> transport	29789529	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	transport	SOD1 -[Activation]-> transport	20382740	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	transport	SOD1 -[Activation]-> transport	28409282	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	transport	SOD1 -[Inhibition]-> CDK5 -[Inhibition]-> transport	26166569	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	transport	SOD1 -[Inhibition]-> transport	20953194	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	transport	SOD1 -[Inhibition]-> transport	21936930	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	transport	SOD1 -[Inhibition]-> transport	22819776	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	transport	SOD1 -[Inhibition]-> transport	24379756	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	transport	SOD1 -[Inhibition]-> transport	26182418	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	transport	SOD1 -[Inhibition]-> transport	27965593	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	transport	SOD1 -[Inhibition]-> transport	28472658	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	transport	SOD1 -[Inhibition]-> transport	28973175	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	transport	SOD1 -[Inhibition]-> transport	32297211	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	ubiquitin-dependent protein catabolic process	SOD1 -[Inhibition]-> ubiquitin-dependent protein catabolic process	33087694	0																																		
+SOD1	G93A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	voltage-gated anion channel activity	SOD1 -[Complex]-> voltage-gated anion channel activity	20797535	0																																		
+SOD1	G93R	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Cell Survival	SOD1 -[Activation]-> Cell Survival	12531528	0																																		
+SOD1	G93R	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	apoptotic process	SOD1 -[Inhibition]-> apoptotic process	12531528	0																																		
+SOD1	G93R	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	cell death	SOD1 -[Inhibition]-> cell death	12531528	0																																		
+SOD1	L84V	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Death	SOD1 -[Activation]-> Death	20816908	0																																		
+SOD1	L84V	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	cell death	SOD1 -[Inhibition]-> cell death	20816908	0																																		
+SOD1	L8Q	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	autophagy	SOD1 -[Inhibition]-> IGFALS -[Complex]-> C9orf72 -[Inhibition]-> autophagy	33679322	0																																		
+SOD1	L8Q	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	cellular senescence	SOD1 -[Inhibition]-> IGFALS -[Complex]-> C9orf72 -[Activation]-> cellular senescence	33679322	0																																		
+SOD1	L8Q	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	homeostatic process	SOD1 -[Activation]-> homeostatic process	33679322	0																																		
+SOD1	T2D	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Death	SOD1 -[Activation]-> Death	28085149	0																																		
+SOD1	T2D	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	cell death	SOD1 -[Inhibition]-> cell death	28085149	0																																		
+SOD1	T2D	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	signal transduction	SOD1 -[Activation]-> signal transduction	28085149	0																																		
+SOD1	T40A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Cell Survival	SOD1 -[Activation]-> Cell Survival	29727620	0																																		
+SOD1	T40A	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	glycolytic process	SOD1 -[Activation]-> glycolytic process	29727620	0																																		
+SOD1	T40E	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	Cell Survival	SOD1 -[Activation]-> Cell Survival	29727620	0																																		
+SOD1	T40E	SODC_HUMAN	CHAIN	Superoxide dismutase [Cu-Zn]	glycolytic process	SOD1 -[Activation]-> glycolytic process	29727620	0																																		

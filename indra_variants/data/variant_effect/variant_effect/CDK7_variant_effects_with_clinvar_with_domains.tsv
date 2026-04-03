@@ -1,0 +1,11 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+CDK7	C312S	CDK7_HUMAN	CHAIN	Cyclin-dependent kinase 7	Cell Survival	CDK7 -[Activation]-> MYC -[Inhibition]-> Cell Survival	30422115	0																																		
+CDK7	C312S	CDK7_HUMAN	CHAIN	Cyclin-dependent kinase 7	Precursor Cell Lymphoblastic Leukemia-Lymphoma	CDK7 -[Inhibition]-> Precursor Cell Lymphoblastic Leukemia-Lymphoma	30422115	0																																		
+CDK7	C312S	CDK7_HUMAN	CHAIN	Cyclin-dependent kinase 7	apoptotic process	CDK7 -[Inhibition]-> apoptotic process	37134154	0																																		
+CDK7	C312S	CDK7_HUMAN	CHAIN	Cyclin-dependent kinase 7	cell cycle	CDK7 -[Activation]-> cell cycle	25416950	0																																		
+CDK7	C312S	CDK7_HUMAN	CHAIN	Cyclin-dependent kinase 7	cell growth	CDK7 -[Inhibition]-> cell growth	30422115	0																																		
+CDK7	C312S	CDK7_HUMAN	CHAIN	Cyclin-dependent kinase 7	transcription, DNA-templated	CDK7 -[Activation]-> transcription, DNA-templated	25416950	0																																		
+CDK7	C312S	CDK7_HUMAN	CHAIN	Cyclin-dependent kinase 7	transcription, DNA-templated	CDK7 -[Inhibition]-> transcription, DNA-templated	30422115	0																																		
+CDK7	C312S	CDK7_HUMAN	CHAIN	Cyclin-dependent kinase 7	translation	CDK7 -[Inhibition]-> THZ1 -[Inhibition]-> translation	37134154	0																																		
+CDK7	S170A	CDK7_HUMAN	CHAIN;DOMAIN	Cyclin-dependent kinase 7;Protein kinase	cell cycle	CDK7 -[Inhibition]-> cell cycle	12379213	0																																		
+CDK7	S170A	CDK7_HUMAN	CHAIN;DOMAIN	Cyclin-dependent kinase 7;Protein kinase	transcription, DNA-templated	CDK7 -[Activation]-> NR3C1 -[Activation]-> transcription, DNA-templated	12379213	0																																		

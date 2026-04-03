@@ -1,0 +1,8 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+MCL1	S140D	MCL1_HUMAN	CHAIN;REGION	;PEST-like	Transgenes	MCL1 -[Complex]-> Transgenes	28053206	0																																		
+MCL1	S140D	MCL1_HUMAN	CHAIN;REGION	;PEST-like	autophagy	MCL1 -[Inhibition]-> autophagy	28053206	0																																		
+MCL1	T92A	MCL1_HUMAN	CHAIN		Death	MCL1 -[Inhibition]-> Death	26769847	0																																		
+MCL1	T92A	MCL1_HUMAN	CHAIN		apoptotic process	MCL1 -[Inhibition]-> apoptotic process	26769847	0																																		
+MCL1	T92A	MCL1_HUMAN	CHAIN		apoptotic process	MCL1 -[Inhibition]-> apoptotic process	29520102	0																																		
+MCL1	T92A	MCL1_HUMAN	CHAIN		cell cycle	MCL1 -[Activation]-> cell cycle	26769847	0																																		
+MCL1	T92A	MCL1_HUMAN	CHAIN		proteolysis	MCL1 -[DecreaseAmount]-> Proteasome -[Inhibition]-> proteolysis	26769847	0																																		

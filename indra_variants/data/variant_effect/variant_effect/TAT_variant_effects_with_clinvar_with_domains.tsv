@@ -1,0 +1,11 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+TAT	A2V	ATTY_HUMAN	CHAIN	Tyrosine aminotransferase	Alzheimer Disease	TAT -[Activation]-> Alzheimer Disease	26864599	0																																		
+TAT	A2V	ATTY_HUMAN	CHAIN	Tyrosine aminotransferase	immune response	TAT -[Activation]-> immune response	26864599	0																																		
+TAT	T34A	ATTY_HUMAN	CHAIN	Tyrosine aminotransferase	DNA replication	TAT -[Activation]-> DNA replication	29371939	0																																		
+TAT	T34A	ATTY_HUMAN	CHAIN	Tyrosine aminotransferase	apoptotic process	TAT -[Activation]-> apoptotic process	29371939	0																																		
+TAT	T34A	ATTY_HUMAN	CHAIN	Tyrosine aminotransferase	autophagy	TAT -[Activation]-> autophagy	29371939	0																																		
+TAT	T34A	ATTY_HUMAN	CHAIN	Tyrosine aminotransferase	cell cycle	TAT -[Activation]-> cell cycle	29371939	0																																		
+TAT	T34A	ATTY_HUMAN	CHAIN	Tyrosine aminotransferase	cell death	TAT -[Activation]-> autophagy -[Activation]-> cell death	29371939	0																																		
+TAT	T34A	ATTY_HUMAN	CHAIN	Tyrosine aminotransferase	cell growth	TAT -[Inhibition]-> cell growth	29371939	0																																		
+TAT	T34A	ATTY_HUMAN	CHAIN	Tyrosine aminotransferase	cell population proliferation	TAT -[Inhibition]-> cell population proliferation	29371939	0																																		
+TAT	T34A	ATTY_HUMAN	CHAIN	Tyrosine aminotransferase	mitotic cell cycle	TAT -[Inhibition]-> mitotic cell cycle	29371939	0																																		

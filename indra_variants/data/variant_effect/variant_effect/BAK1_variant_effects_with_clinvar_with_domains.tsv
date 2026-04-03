@@ -1,0 +1,9 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+BAK1	L78A	BAK_HUMAN	CHAIN;MOTIF	Bcl-2 homologous antagonist/killer;BH3	apoptotic process	BAK1 -[Activation]-> apoptotic process	24120870	0																																		
+BAK1	L78A	BAK_HUMAN	CHAIN;MOTIF	Bcl-2 homologous antagonist/killer;BH3	cell death	BAK1 -[Complex]-> BCL2L11 -[Activation]-> cell death	24120870	0																																		
+BAK1	Y108A	BAK_HUMAN	CHAIN	Bcl-2 homologous antagonist/killer	Cell Survival	BAK1 -[Activation]-> Cell Survival	28986568	0																																		
+BAK1	Y108A	BAK_HUMAN	CHAIN	Bcl-2 homologous antagonist/killer	Death	BAK1 -[Complex]-> BIK -[Activation]-> Death	28986568	0																																		
+BAK1	Y108A	BAK_HUMAN	CHAIN	Bcl-2 homologous antagonist/killer	apoptotic process	BAK1 -[Complex]-> BIK -[Activation]-> apoptotic process	28986568	0																																		
+BAK1	Y108A	BAK_HUMAN	CHAIN	Bcl-2 homologous antagonist/killer	cell death	BAK1 -[Activation]-> cell death	28986568	0																																		
+BAK1	Y108A	BAK_HUMAN	CHAIN	Bcl-2 homologous antagonist/killer	localization	BAK1 -[Complex]-> BIK -[Inhibition]-> localization	28986568	0																																		
+BAK1	Y108A	BAK_HUMAN	CHAIN	Bcl-2 homologous antagonist/killer	metabolic process	BAK1 -[Inhibition]-> calcium(2+) -[Activation]-> metabolic process	28986568	0																																		

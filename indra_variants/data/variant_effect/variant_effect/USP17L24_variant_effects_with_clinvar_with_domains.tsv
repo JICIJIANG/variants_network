@@ -1,0 +1,9 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+USP17L24	C89S				Carcinogenesis	USP17L24 -[Inhibition]-> Carcinogenesis	30906206	0																																		
+USP17L24	C89S				Cell Survival	USP17L24 -[Inhibition]-> Cell Survival	30906206	0																																		
+USP17L24	C89S				Neoplasm Invasiveness	USP17L24 -[Deubiquitination]-> XPR2 -[Activation]-> Neoplasm Invasiveness	30906206	0																																		
+USP17L24	C89S				Neoplasm Metastasis	USP17L24 -[Deubiquitination]-> XPR2 -[Activation]-> Neoplasm Metastasis	30906206	0																																		
+USP17L24	C89S				apoptotic process	USP17L24 -[Activation]-> apoptotic process	30906206	0																																		
+USP17L24	C89S				cell cycle	USP17L24 -[Deubiquitination]-> XPR2 -[Activation]-> cell cycle	30906206	0																																		
+USP17L24	C89S				cell growth	USP17L24 -[Activation]-> cell growth	30906206	0																																		
+USP17L24	C89S				cell population proliferation	USP17L24 -[Inhibition]-> cell population proliferation	30906206	0																																		

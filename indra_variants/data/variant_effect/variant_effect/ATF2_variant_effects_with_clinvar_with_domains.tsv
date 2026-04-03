@@ -1,0 +1,26 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+ATF2	T52A	ATF2_HUMAN	CHAIN	Cyclic AMP-dependent transcription factor ATF-2	Carcinoma, Squamous Cell	ATF2 -[Complex]-> PRKCE -[Activation]-> Carcinoma, Squamous Cell	22304920	0																																		
+ATF2	T52A	ATF2_HUMAN	CHAIN	Cyclic AMP-dependent transcription factor ATF-2	Cell Survival	ATF2 -[Inhibition]-> HK1 -[Activation]-> Cell Survival	22304920	0																																		
+ATF2	T52A	ATF2_HUMAN	CHAIN	Cyclic AMP-dependent transcription factor ATF-2	Melanoma	ATF2 -[Inhibition]-> Melanoma	22304920	0																																		
+ATF2	T52A	ATF2_HUMAN	CHAIN	Cyclic AMP-dependent transcription factor ATF-2	apoptotic process	ATF2 -[Activation]-> apoptotic process	26462148	0																																		
+ATF2	T52A	ATF2_HUMAN	CHAIN	Cyclic AMP-dependent transcription factor ATF-2	apoptotic process	ATF2 -[Inhibition]-> apoptotic process	22304920	0																																		
+ATF2	T52A	ATF2_HUMAN	CHAIN	Cyclic AMP-dependent transcription factor ATF-2	cell death	ATF2 -[Activation]-> cell death	22304920	0																																		
+ATF2	T52A	ATF2_HUMAN	CHAIN	Cyclic AMP-dependent transcription factor ATF-2	localization	ATF2 -[Activation]-> apoptotic process -[Activation]-> localization	26462148	0																																		
+ATF2	T52A	ATF2_HUMAN	CHAIN	Cyclic AMP-dependent transcription factor ATF-2	localization	ATF2 -[Inhibition]-> localization	22304920	0																																		
+ATF2	T52A	ATF2_HUMAN	CHAIN	Cyclic AMP-dependent transcription factor ATF-2	voltage-gated anion channel activity	ATF2 -[Inhibition]-> HK1 -[Complex]-> voltage-gated anion channel activity	22304920	0																																		
+ATF2	T52E	ATF2_HUMAN	CHAIN	Cyclic AMP-dependent transcription factor ATF-2	Cell Survival	ATF2 -[Inhibition]-> Cell Survival	23589174	0																																		
+ATF2	T52E	ATF2_HUMAN	CHAIN	Cyclic AMP-dependent transcription factor ATF-2	Melanoma	ATF2 -[Inhibition]-> Melanoma	26645581	0																																		
+ATF2	T52E	ATF2_HUMAN	CHAIN	Cyclic AMP-dependent transcription factor ATF-2	Neoplasm Invasiveness	ATF2 -[Inhibition]-> Neoplasm Invasiveness	26645581	0																																		
+ATF2	T52E	ATF2_HUMAN	CHAIN	Cyclic AMP-dependent transcription factor ATF-2	Neoplasm Metastasis	ATF2 -[Inhibition]-> Neoplasm Metastasis	26645581	0																																		
+ATF2	T52E	ATF2_HUMAN	CHAIN	Cyclic AMP-dependent transcription factor ATF-2	Neoplasms	ATF2 -[Activation]-> Neoplasms	25728676	0																																		
+ATF2	T52E	ATF2_HUMAN	CHAIN	Cyclic AMP-dependent transcription factor ATF-2	biosynthetic process	ATF2 -[Inhibition]-> biosynthetic process	26645581	0																																		
+ATF2	T52E	ATF2_HUMAN	CHAIN	Cyclic AMP-dependent transcription factor ATF-2	cell adhesion	ATF2 -[Activation]-> cell adhesion	26645581	0																																		
+ATF2	T52E	ATF2_HUMAN	CHAIN	Cyclic AMP-dependent transcription factor ATF-2	cell cycle	ATF2 -[Inhibition]-> IFNbeta1 -[Inhibition]-> cell cycle	25728676	0																																		
+ATF2	T52E	ATF2_HUMAN	CHAIN	Cyclic AMP-dependent transcription factor ATF-2	cell death	ATF2 -[Activation]-> cell death	23589174	0																																		
+ATF2	T52E	ATF2_HUMAN	CHAIN	Cyclic AMP-dependent transcription factor ATF-2	cell death	ATF2 -[Inhibition]-> cell death	25728676	0																																		
+ATF2	T52E	ATF2_HUMAN	CHAIN	Cyclic AMP-dependent transcription factor ATF-2	cell motility	ATF2 -[Activation]-> cell motility	26645581	0																																		
+ATF2	T52E	ATF2_HUMAN	CHAIN	Cyclic AMP-dependent transcription factor ATF-2	cell population proliferation	ATF2 -[DecreaseAmount]-> IFNB1 -[Inhibition]-> cell population proliferation	25728676	0																																		
+ATF2	T52E	ATF2_HUMAN	CHAIN	Cyclic AMP-dependent transcription factor ATF-2	localization	ATF2 -[Activation]-> localization	23589174	0																																		
+ATF2	T52E	ATF2_HUMAN	CHAIN	Cyclic AMP-dependent transcription factor ATF-2	localization	ATF2 -[Activation]-> localization	25728676	0																																		
+ATF2	T52E	ATF2_HUMAN	CHAIN	Cyclic AMP-dependent transcription factor ATF-2	regulation of mitochondrial membrane potential	ATF2 -[Activation]-> regulation of mitochondrial membrane potential	23589174	0																																		
+ATF2	T52E	ATF2_HUMAN	CHAIN	Cyclic AMP-dependent transcription factor ATF-2	transcription, DNA-templated	ATF2 -[Inhibition]-> transcription, DNA-templated	25728676	0																																		

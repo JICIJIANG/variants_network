@@ -1,0 +1,68 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+MTHFR	A1298C				Arthritis, Rheumatoid	MTHFR -[Complex]-> Arthritis, Rheumatoid	26147289	0																																		
+MTHFR	A1298C				Breast Neoplasms	MTHFR -[Activation]-> Breast Neoplasms	28487897	0																																		
+MTHFR	A1298C				Chromosomal Instability	MTHFR -[Activation]-> Chromosomal Instability	29740106	0																																		
+MTHFR	A1298C				Death	MTHFR -[Activation]-> Death	26111049	0																																		
+MTHFR	A1298C				Hypertension	MTHFR -[Activation]-> Hypertension	37154151	0																																		
+MTHFR	A1298C				Infertility	MTHFR -[Activation]-> Infertility	24737513	0																																		
+MTHFR	A1298C				Parkinson Disease	MTHFR -[Activation]-> Parkinson Disease	29097250	0																																		
+MTHFR	A1298C				Stroke	MTHFR -[Activation]-> Stroke	32722170	0																																		
+MTHFR	A1298C				apoptotic process	MTHFR -[IncreaseAmount]-> homocysteine -[Activation]-> apoptotic process	24556013	0																																		
+MTHFR	A1298C				metabolic process	MTHFR -[Activation]-> metabolic process	27173682	0																																		
+MTHFR	A1298C				regulation of cell cycle	MTHFR -[Activation]-> regulation of cell cycle	29740106	0																																		
+MTHFR	C2572A				Colorectal Neoplasms	MTHFR -[Activation]-> Colorectal Neoplasms	26046315	0																																		
+MTHFR	C667T				Cleft Lip	MTHFR -[Activation]-> Cleft Lip	27167580	0																																		
+MTHFR	C677T				Alzheimer Disease	MTHFR -[Activation]-> Alzheimer Disease	20600372	0																																		
+MTHFR	C677T				Alzheimer Disease	MTHFR -[Activation]-> Alzheimer Disease	25486592	0																																		
+MTHFR	C677T				Arthritis, Rheumatoid	MTHFR -[Complex]-> Arthritis, Rheumatoid	23547211	0																																		
+MTHFR	C677T				Arthritis, Rheumatoid	MTHFR -[Complex]-> Arthritis, Rheumatoid	26147289	0																																		
+MTHFR	C677T				Arthritis, Rheumatoid	MTHFR -[Complex]-> methotrexate -[Inhibition]-> Arthritis, Rheumatoid	28277784	0																																		
+MTHFR	C677T				Atrial Remodeling	MTHFR -[Activation]-> Atrial Remodeling	35619268	0																																		
+MTHFR	C677T				Brain Ischemia	MTHFR -[Activation]-> Brain Ischemia	17461517	0																																		
+MTHFR	C677T				Carcinoma, Hepatocellular	MTHFR -[Activation]-> Carcinoma, Hepatocellular	32010931	0																																		
+MTHFR	C677T				Chromosomal Instability	MTHFR -[Activation]-> Chromosomal Instability	25302494	0																																		
+MTHFR	C677T				Coronary Artery Disease	MTHFR -[Inhibition]-> Coronary Artery Disease	23631288	0																																		
+MTHFR	C677T				DNA Damage	MTHFR -[Activation]-> homocysteine -[Inhibition]-> folate -[Activation]-> DNA Damage	22093367	0																																		
+MTHFR	C677T				Dementia, Vascular	MTHFR -[Activation]-> Dementia, Vascular	20441995	0																																		
+MTHFR	C677T				Fatty Liver	MTHFR -[Activation]-> Fatty Liver	15834927	0																																		
+MTHFR	C677T				Fatty Liver	MTHFR -[Activation]-> Fatty Liver	28271684	0																																		
+MTHFR	C677T				Genetic Diseases, Inborn	MTHFR -[Complex]-> BRCA1 -[Inhibition]-> Genetic Diseases, Inborn	20825051	0																																		
+MTHFR	C677T				Genetic Predisposition to Disease	MTHFR -[Activation]-> Genetic Predisposition to Disease	28775706	0																																		
+MTHFR	C677T				Hepatitis C, Chronic	MTHFR -[Activation]-> Hepatitis C, Chronic	15834927	0																																		
+MTHFR	C677T				Homocystinuria	MTHFR -[Activation]-> Homocystinuria	37485311	0																																		
+MTHFR	C677T				Hyperhomocysteinemia	MTHFR -[Activation]-> Hyperhomocysteinemia	15834927	0																																		
+MTHFR	C677T				Hyperhomocysteinemia	MTHFR -[Activation]-> Hyperhomocysteinemia	28775706	0																																		
+MTHFR	C677T				Hypertension	MTHFR -[Activation]-> Hypertension	37154151	0																																		
+MTHFR	C677T				Mental Disorders	MTHFR -[Inhibition]-> dopamine -[Activation]-> Mental Disorders	25744938	0																																		
+MTHFR	C677T				Migraine Disorders	MTHFR -[Activation]-> Migraine Disorders	28775706	0																																		
+MTHFR	C677T				Migraine Disorders	MTHFR -[Activation]-> Migraine Disorders	28918499	0																																		
+MTHFR	C677T				Migraine Disorders	MTHFR -[Inhibition]-> Migraine Disorders	22926161	0																																		
+MTHFR	C677T				Neural Tube Defects	MTHFR -[Activation]-> Neural Tube Defects	24326202	0																																		
+MTHFR	C677T				Optic Neuropathy, Ischemic	MTHFR -[Activation]-> Optic Neuropathy, Ischemic	11423453	0																																		
+MTHFR	C677T				Parkinson Disease	MTHFR -[Activation]-> Parkinson Disease	28775706	0																																		
+MTHFR	C677T				Parkinson Disease	MTHFR -[Methylation]-> Parkinson Disease	15223011	0																																		
+MTHFR	C677T				Stroke	MTHFR -[Activation]-> Stroke	31586136	0																																		
+MTHFR	C677T				Thrombosis	MTHFR -[Activation]-> Thrombosis	12115343	0																																		
+MTHFR	C677T				Weight Gain	MTHFR -[Activation]-> Weight Gain	34093281	0																																		
+MTHFR	C677T				apoptotic process	MTHFR -[Activation]-> homocysteine -[Inhibition]-> folate -[Activation]-> apoptotic process	22093367	0																																		
+MTHFR	C677T				cell cycle	MTHFR -[Activation]-> homocysteine -[Inhibition]-> folate -[Activation]-> cell cycle	22093367	0																																		
+MTHFR	C677T				cell population proliferation	MTHFR -[Activation]-> homocysteine -[Inhibition]-> folate -[Inhibition]-> cell population proliferation	22093367	0																																		
+MTHFR	C677T				cell population proliferation	MTHFR -[IncreaseAmount]-> homocysteine -[Activation]-> cell population proliferation	20600372	0																																		
+MTHFR	C677T				coagulation	MTHFR -[Activation]-> homocysteine -[Activation]-> coagulation	32702845	0																																		
+MTHFR	C677T				homeostatic process	MTHFR -[Inhibition]-> homeostatic process	23057736	0																																		
+MTHFR	C677T				immune response	MTHFR -[Inhibition]-> CRC -[Complex]-> riboflavin -[Activation]-> immune response	27081929	0																																		
+MTHFR	C677T				inflammatory response	MTHFR -[Complex]-> IL4 -[Activation]-> inflammatory response	23685257	0																																		
+MTHFR	C677T				inflammatory response	MTHFR -[Complex]-> MTX1 -[Inhibition]-> inflammatory response	23547211	0																																		
+MTHFR	C677T				inflammatory response	MTHFR -[DecreaseAmount]-> homocysteine -[Activation]-> inflammatory response	29735414	0																																		
+MTHFR	C677T				metabolic process	MTHFR -[Activation]-> metabolic process	27173682	0																																		
+MTHFR	C677T				metabolic process	MTHFR -[Activation]-> metabolic process	34093281	0																																		
+MTHFR	C677T				metabolic process	MTHFR -[DecreaseAmount]-> folate -[Activation]-> metabolic process	28400561	0																																		
+MTHFR	C677T				metabolic process	MTHFR -[DecreaseAmount]-> homocysteine -[Activation]-> metabolic process	29735414	0																																		
+MTHFR	C677T				metabolic process	MTHFR -[Inhibition]-> CRC -[Complex]-> riboflavin -[Activation]-> metabolic process	27081929	0																																		
+MTHFR	C677T				metabolic process	MTHFR -[Inhibition]-> metabolic process	15671130	0																																		
+MTHFR	C677T				metabolic process	MTHFR -[Inhibition]-> metabolic process	25286230	0																																		
+MTHFR	C677T				metabolic process	MTHFR -[Inhibition]-> metabolic process	26333700	0																																		
+MTHFR	C677T				platelet aggregation	MTHFR -[Activation]-> platelet aggregation	35821533	0																																		
+MTHFR	C677T				response to vitamin	MTHFR -[Inhibition]-> response to vitamin	22926161	0																																		
+MTHFR	C677T				transcription, DNA-templated	MTHFR -[Activation]-> homocysteine -[Inhibition]-> folate -[Activation]-> transcription, DNA-templated	22093367	0																																		
+MTHFR	T677T				Endometriosis	MTHFR -[Inhibition]-> Endometriosis	35788150	0																																		

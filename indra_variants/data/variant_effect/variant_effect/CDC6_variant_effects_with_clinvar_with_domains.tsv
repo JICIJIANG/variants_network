@@ -1,0 +1,11 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+CDC6	K224A	CDC6_HUMAN	CHAIN	Cell division control protein 6 homolog	apoptotic process	CDC6 -[Activation]-> apoptotic process	28985365	0																																		
+CDC6	K224A	CDC6_HUMAN	CHAIN	Cell division control protein 6 homolog	cell death	CDC6 -[Inhibition]-> cell death	28985365	0																																		
+CDC6	R404A	CDC6_HUMAN	CHAIN	Cell division control protein 6 homolog	apoptotic process	CDC6 -[Activation]-> apoptotic process	28985365	0																																		
+CDC6	R404A	CDC6_HUMAN	CHAIN	Cell division control protein 6 homolog	cell death	CDC6 -[Inhibition]-> cell death	28985365	0																																		
+CDC6	R405A	CDC6_HUMAN	CHAIN	Cell division control protein 6 homolog	apoptotic process	CDC6 -[Activation]-> apoptotic process	28985365	0																																		
+CDC6	R405A	CDC6_HUMAN	CHAIN	Cell division control protein 6 homolog	cell death	CDC6 -[Inhibition]-> cell death	28985365	0																																		
+CDC6	S30A	CDC6_HUMAN	CHAIN;REGION	Cell division control protein 6 homolog;Disordered	DNA replication	CDC6 -[Activation]-> DNA replication	28447620	0																																		
+CDC6	S30A	CDC6_HUMAN	CHAIN;REGION	Cell division control protein 6 homolog;Disordered	cellular component biogenesis	CDC6 -[Inhibition]-> PLK4 -[Activation]-> cellular component biogenesis	28447620	0																																		
+CDC6	S30A	CDC6_HUMAN	CHAIN;REGION	Cell division control protein 6 homolog;Disordered	localization	CDC6 -[Complex]-> Cyclin -[Activation]-> localization	28447620	0																																		
+CDC6	S30A	CDC6_HUMAN	CHAIN;REGION	Cell division control protein 6 homolog;Disordered	mitotic cell cycle	CDC6 -[Activation]-> mitotic cell cycle	28447620	0																																		

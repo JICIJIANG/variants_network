@@ -1,0 +1,6 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+PRSS57	C483Y				immune response	PRSS57 -[Activation]-> Mice -[Activation]-> immune response	31546962	0																																		
+PRSS57	F121L	PRS57_HUMAN	CHAIN;DOMAIN	Serine protease 57;Peptidase S1	RNA replication	PRSS57 -[Activation]-> RNA replication	28738245	0																																		
+PRSS57	F121L	PRS57_HUMAN	CHAIN;DOMAIN	Serine protease 57;Peptidase S1	viral RNA genome replication	PRSS57 -[Inhibition]-> viral RNA genome replication	28738245	0																																		
+PRSS57	H120N	PRS57_HUMAN	CHAIN;DOMAIN	Serine protease 57;Peptidase S1	RNA replication	PRSS57 -[Activation]-> RNA replication	28738245	0																																		
+PRSS57	H120N	PRS57_HUMAN	CHAIN;DOMAIN	Serine protease 57;Peptidase S1	viral RNA genome replication	PRSS57 -[Inhibition]-> viral RNA genome replication	28738245	0																																		

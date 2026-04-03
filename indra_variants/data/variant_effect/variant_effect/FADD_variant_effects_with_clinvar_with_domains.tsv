@@ -1,0 +1,23 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+FADD	G109A	FADD_HUMAN	CHAIN;DOMAIN	FAS-associated death domain protein;Death	transcription, DNA-templated	FADD -[Activation]-> RIPK1 -[Activation]-> transcription, DNA-templated	22922561	0																																		
+FADD	R114A	FADD_HUMAN	CHAIN;DOMAIN	FAS-associated death domain protein;Death	transcription, DNA-templated	FADD -[Activation]-> RIPK1 -[Activation]-> transcription, DNA-templated	22922561	0																																		
+FADD	S191A	FADD_HUMAN	CHAIN;REGION	FAS-associated death domain protein;Disordered	apoptotic process	FADD -[Activation]-> apoptotic process	12705854	0																																		
+FADD	S191A	FADD_HUMAN	CHAIN;REGION	FAS-associated death domain protein;Disordered	cell cycle	FADD -[Activation]-> cell cycle	12705854	0																																		
+FADD	S191A	FADD_HUMAN	CHAIN;REGION	FAS-associated death domain protein;Disordered	cell death	FADD -[Activation]-> FAS -[Activation]-> cell death	12705854	0																																		
+FADD	S191A	FADD_HUMAN	CHAIN;REGION	FAS-associated death domain protein;Disordered	cell growth	FADD -[Activation]-> cell growth	35753028	0																																		
+FADD	S191A	FADD_HUMAN	CHAIN;REGION	FAS-associated death domain protein;Disordered	cell growth	FADD -[Inhibition]-> cell growth	12705854	0																																		
+FADD	S191D	FADD_HUMAN	CHAIN;REGION	FAS-associated death domain protein;Disordered	apoptotic process	FADD -[Activation]-> apoptotic process	12705854	0																																		
+FADD	S191D	FADD_HUMAN	CHAIN;REGION	FAS-associated death domain protein;Disordered	cell cycle	FADD -[Activation]-> cell cycle	12705854	0																																		
+FADD	S191D	FADD_HUMAN	CHAIN;REGION	FAS-associated death domain protein;Disordered	cell death	FADD -[Activation]-> FAS -[Activation]-> cell death	12705854	0																																		
+FADD	S191D	FADD_HUMAN	CHAIN;REGION	FAS-associated death domain protein;Disordered	cell growth	FADD -[Inhibition]-> cell growth	12705854	0																																		
+FADD	S194A	FADD_HUMAN	CHAIN;REGION	FAS-associated death domain protein;Disordered	Death	FADD -[Activation]-> Death	16450001	0																																		
+FADD	S194A	FADD_HUMAN	CHAIN;REGION	FAS-associated death domain protein;Disordered	Neoplasm Invasiveness	FADD -[Activation]-> Neoplasm Invasiveness	16450001	0																																		
+FADD	S194A	FADD_HUMAN	CHAIN;REGION	FAS-associated death domain protein;Disordered	cell cycle	FADD -[Activation]-> cell cycle	16450001	0																																		
+FADD	S194A	FADD_HUMAN	CHAIN;REGION	FAS-associated death domain protein;Disordered	cell population proliferation	FADD -[Activation]-> cell population proliferation	16450001	0																																		
+FADD	S194E	FADD_HUMAN	CHAIN;REGION	FAS-associated death domain protein;Disordered	Death_receptor	FADD -[Complex]-> Death_receptor	12954630	0																																		
+FADD	S194E	FADD_HUMAN	CHAIN;REGION	FAS-associated death domain protein;Disordered	apoptotic process	FADD -[Activation]-> apoptotic process	23606538	0																																		
+FADD	S194E	FADD_HUMAN	CHAIN;REGION	FAS-associated death domain protein;Disordered	cell death	FADD -[Activation]-> cell death	23606538	0																																		
+FADD	S194E	FADD_HUMAN	CHAIN;REGION	FAS-associated death domain protein;Disordered	cell population proliferation	FADD -[Inhibition]-> cell population proliferation	12954630	0																																		
+FADD	S194E	FADD_HUMAN	CHAIN;REGION	FAS-associated death domain protein;Disordered	mitotic G2/M transition checkpoint	FADD -[Inhibition]-> mitotic G2/M transition checkpoint	12954630	0																																		
+FADD	T225K				apoptotic process	FADD -[Complex]-> FAS -[Activation]-> apoptotic process	15557123	0																																		
+FADD	T225K				cell death	FADD -[Complex]-> FAS -[Activation]-> cell death	15557123	0																																		

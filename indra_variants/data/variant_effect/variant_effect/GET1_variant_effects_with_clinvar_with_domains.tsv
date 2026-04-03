@@ -1,0 +1,12 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+GET1	D346A				Death	GET1 -[DecreaseAmount]-> TP53 -[Activation]-> Death	23318260	0																																		
+GET1	D346A				apoptotic process	GET1 -[Activation]-> apoptotic process	23318260	0																																		
+GET1	D346A				cell differentiation	GET1 -[Activation]-> cell differentiation	23318260	0																																		
+GET1	D346A				cell population proliferation	GET1 -[Inhibition]-> cell population proliferation	23318260	0																																		
+GET1	D346A				cellular senescence	GET1 -[DecreaseAmount]-> TP53 -[Activation]-> cellular senescence	23318260	0																																		
+GET1	E43Q	GET1_HUMAN	CHAIN;REGION;COILED	Guided entry of tail-anchored proteins factor 1;Interaction with GET3/TRC40;Missing (in isoform 2)	Cell Survival	GET1 -[Inhibition]-> Cell Survival	35768791	0																																		
+GET1	W384A				Death	GET1 -[DecreaseAmount]-> TP53 -[Activation]-> Death	23318260	0																																		
+GET1	W384A				apoptotic process	GET1 -[Activation]-> apoptotic process	23318260	0																																		
+GET1	W384A				cell differentiation	GET1 -[Activation]-> cell differentiation	23318260	0																																		
+GET1	W384A				cell population proliferation	GET1 -[Inhibition]-> cell population proliferation	23318260	0																																		
+GET1	W384A				cellular senescence	GET1 -[DecreaseAmount]-> TP53 -[Activation]-> cellular senescence	23318260	0																																		

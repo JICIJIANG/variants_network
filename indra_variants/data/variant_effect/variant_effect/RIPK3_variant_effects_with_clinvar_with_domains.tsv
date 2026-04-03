@@ -1,0 +1,73 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+RIPK3	D143N	RIPK3_HUMAN	CHAIN;DOMAIN	;Protein kinase	apoptotic process	RIPK3 -[Activation]-> apoptotic process	26049749	0																																		
+RIPK3	D143N	RIPK3_HUMAN	CHAIN;DOMAIN	;Protein kinase	cell death	RIPK3 -[Activation]-> MLKL -[Activation]-> cell death	26049749	0																																		
+RIPK3	D143N	RIPK3_HUMAN	CHAIN;DOMAIN	;Protein kinase	hemopoiesis	RIPK3 -[Activation]-> MLKL -[Activation]-> cell death -[Inhibition]-> hemopoiesis	26049749	0																																		
+RIPK3	D143N	RIPK3_HUMAN	CHAIN;DOMAIN	;Protein kinase	necroptotic process	RIPK3 -[Activation]-> necroptotic process	26049749	0																																		
+RIPK3	D161G	RIPK3_HUMAN	CHAIN;DOMAIN	;Protein kinase	apoptotic process	RIPK3 -[Activation]-> apoptotic process	26049749	0																																		
+RIPK3	D161G	RIPK3_HUMAN	CHAIN;DOMAIN	;Protein kinase	cell death	RIPK3 -[Activation]-> MLKL -[Activation]-> cell death	26049749	0																																		
+RIPK3	D161G	RIPK3_HUMAN	CHAIN;DOMAIN	;Protein kinase	hemopoiesis	RIPK3 -[Activation]-> MLKL -[Activation]-> cell death -[Inhibition]-> hemopoiesis	26049749	0																																		
+RIPK3	D161G	RIPK3_HUMAN	CHAIN;DOMAIN	;Protein kinase	necroptotic process	RIPK3 -[Activation]-> necroptotic process	26049749	0																																		
+RIPK3	D161N	RIPK3_HUMAN	CHAIN;DOMAIN	;Protein kinase	Cell Survival	RIPK3 -[Complex]-> ponatinib -[Activation]-> Cell Survival	25996294	0																																		
+RIPK3	D161N	RIPK3_HUMAN	CHAIN;DOMAIN	;Protein kinase	Death	RIPK3 -[Activation]-> Death	28126382	0																																		
+RIPK3	D161N	RIPK3_HUMAN	CHAIN;DOMAIN	;Protein kinase	Necrosis	RIPK3 -[Inhibition]-> Necrosis	25567679	0																																		
+RIPK3	D161N	RIPK3_HUMAN	CHAIN;DOMAIN	;Protein kinase	Necrosis	RIPK3 -[Inhibition]-> Necrosis	25996294	0																																		
+RIPK3	D161N	RIPK3_HUMAN	CHAIN;DOMAIN	;Protein kinase	apoptotic process	RIPK3 -[Activation]-> apoptotic process	24557836	0																																		
+RIPK3	D161N	RIPK3_HUMAN	CHAIN;DOMAIN	;Protein kinase	apoptotic process	RIPK3 -[Activation]-> apoptotic process	25996294	0																																		
+RIPK3	D161N	RIPK3_HUMAN	CHAIN;DOMAIN	;Protein kinase	apoptotic process	RIPK3 -[Activation]-> apoptotic process	26745528	0																																		
+RIPK3	D161N	RIPK3_HUMAN	CHAIN;DOMAIN	;Protein kinase	apoptotic process	RIPK3 -[Activation]-> apoptotic process	27308513	0																																		
+RIPK3	D161N	RIPK3_HUMAN	CHAIN;DOMAIN	;Protein kinase	apoptotic process	RIPK3 -[Activation]-> apoptotic process	27523270	0																																		
+RIPK3	D161N	RIPK3_HUMAN	CHAIN;DOMAIN	;Protein kinase	apoptotic process	RIPK3 -[Activation]-> apoptotic process	30131368	0																																		
+RIPK3	D161N	RIPK3_HUMAN	CHAIN;DOMAIN	;Protein kinase	apoptotic process	RIPK3 -[Inhibition]-> apoptotic process	25567679	0																																		
+RIPK3	D161N	RIPK3_HUMAN	CHAIN;DOMAIN	;Protein kinase	apoptotic process	RIPK3 -[Inhibition]-> apoptotic process	28126382	0																																		
+RIPK3	D161N	RIPK3_HUMAN	CHAIN;DOMAIN	;Protein kinase	cell death	RIPK3 -[Activation]-> cell death	27052312	0																																		
+RIPK3	D161N	RIPK3_HUMAN	CHAIN;DOMAIN	;Protein kinase	cell death	RIPK3 -[Activation]-> cell death	27308513	0																																		
+RIPK3	D161N	RIPK3_HUMAN	CHAIN;DOMAIN	;Protein kinase	cell death	RIPK3 -[Activation]-> cell death	28126382	0																																		
+RIPK3	D161N	RIPK3_HUMAN	CHAIN;DOMAIN	;Protein kinase	cell death	RIPK3 -[Complex]-> ponatinib -[Inhibition]-> cell death	25996294	0																																		
+RIPK3	D161N	RIPK3_HUMAN	CHAIN;DOMAIN	;Protein kinase	execution phase of necroptosis	RIPK3 -[Activation]-> execution phase of necroptosis	30131368	0																																		
+RIPK3	D161N	RIPK3_HUMAN	CHAIN;DOMAIN	;Protein kinase	execution phase of necroptosis	RIPK3 -[Complex]-> ponatinib -[Activation]-> TNF -[Activation]-> execution phase of necroptosis	25996294	0																																		
+RIPK3	D161N	RIPK3_HUMAN	CHAIN;DOMAIN	;Protein kinase	immune response	RIPK3 -[Activation]-> necroptotic process -[Activation]-> immune response	28126382	0																																		
+RIPK3	D161N	RIPK3_HUMAN	CHAIN;DOMAIN	;Protein kinase	inflammatory response	RIPK3 -[Activation]-> inflammatory response	25567679	0																																		
+RIPK3	D161N	RIPK3_HUMAN	CHAIN;DOMAIN	;Protein kinase	inflammatory response	RIPK3 -[Activation]-> inflammatory response	27523270	0																																		
+RIPK3	D161N	RIPK3_HUMAN	CHAIN;DOMAIN	;Protein kinase	inflammatory response	RIPK3 -[Inhibition]-> inflammatory response	28126382	0																																		
+RIPK3	D161N	RIPK3_HUMAN	CHAIN;DOMAIN	;Protein kinase	necroptotic process	RIPK3 -[Activation]-> necroptotic process	25567679	0																																		
+RIPK3	D161N	RIPK3_HUMAN	CHAIN;DOMAIN	;Protein kinase	necroptotic process	RIPK3 -[Activation]-> necroptotic process	26745528	0																																		
+RIPK3	D161N	RIPK3_HUMAN	CHAIN;DOMAIN	;Protein kinase	necroptotic process	RIPK3 -[Activation]-> necroptotic process	27052312	0																																		
+RIPK3	D161N	RIPK3_HUMAN	CHAIN;DOMAIN	;Protein kinase	necroptotic process	RIPK3 -[Activation]-> necroptotic process	27308513	0																																		
+RIPK3	D161N	RIPK3_HUMAN	CHAIN;DOMAIN	;Protein kinase	necroptotic process	RIPK3 -[Activation]-> necroptotic process	27523270	0																																		
+RIPK3	D161N	RIPK3_HUMAN	CHAIN;DOMAIN	;Protein kinase	necroptotic process	RIPK3 -[Activation]-> necroptotic process	28126382	0																																		
+RIPK3	D161N	RIPK3_HUMAN	CHAIN;DOMAIN	;Protein kinase	necroptotic process	RIPK3 -[Complex]-> ponatinib -[Activation]-> necroptotic process	25996294	0																																		
+RIPK3	D161N	RIPK3_HUMAN	CHAIN;DOMAIN	;Protein kinase	necrotic cell death	RIPK3 -[Activation]-> Death -[Activation]-> necrotic cell death	28126382	0																																		
+RIPK3	E25A	RIPK3_HUMAN	CHAIN;DOMAIN	;Protein kinase	necroptotic process	RIPK3 -[Activation]-> necroptotic process	34811356	0																																		
+RIPK3	F36W	RIPK3_HUMAN	CHAIN;DOMAIN	;Protein kinase	necroptotic process	RIPK3 -[Activation]-> necroptotic process	34811356	0																																		
+RIPK3	I452A	RIPK3_HUMAN	CHAIN;MOTIF	;RIP homotypic interaction motif (RHIM)	apoptotic process	RIPK3 -[Activation]-> apoptotic process	18533105	0																																		
+RIPK3	I452D	RIPK3_HUMAN	CHAIN;MOTIF	;RIP homotypic interaction motif (RHIM)	necroptotic process	RIPK3 -[Activation]-> necroptotic process	33712586	0																																		
+RIPK3	I452D	RIPK3_HUMAN	CHAIN;MOTIF	;RIP homotypic interaction motif (RHIM)	necrotic cell death	RIPK3 -[Inhibition]-> necrotic cell death	33712586	0																																		
+RIPK3	K469R	RIPK3_HUMAN	CHAIN		apoptotic process	RIPK3 -[Activation]-> apoptotic process	35800780	0																																		
+RIPK3	K469R	RIPK3_HUMAN	CHAIN		cell death	RIPK3 -[Inhibition]-> cell death	35800780	0																																		
+RIPK3	K469R	RIPK3_HUMAN	CHAIN		necroptotic process	RIPK3 -[Inhibition]-> necroptotic process	35800780	0																																		
+RIPK3	K51A	RIPK3_HUMAN	CHAIN;DOMAIN	;Protein kinase	Necrosis	RIPK3 -[Complex]-> RHIM -[Activation]-> Necrosis	28462521	0																																		
+RIPK3	K51A	RIPK3_HUMAN	CHAIN;DOMAIN	;Protein kinase	apoptotic process	RIPK3 -[Activation]-> apoptotic process	26049749	0																																		
+RIPK3	K51A	RIPK3_HUMAN	CHAIN;DOMAIN	;Protein kinase	apoptotic process	RIPK3 -[Activation]-> apoptotic process	28462521	0																																		
+RIPK3	K51A	RIPK3_HUMAN	CHAIN;DOMAIN	;Protein kinase	apoptotic process	RIPK3 -[Inhibition]-> apoptotic process	27177019	0																																		
+RIPK3	K51A	RIPK3_HUMAN	CHAIN;DOMAIN	;Protein kinase	cell death	RIPK3 -[Activation]-> MLKL -[Activation]-> cell death	26049749	0																																		
+RIPK3	K51A	RIPK3_HUMAN	CHAIN;DOMAIN	;Protein kinase	cell death	RIPK3 -[Activation]-> cell death	28461567	0																																		
+RIPK3	K51A	RIPK3_HUMAN	CHAIN;DOMAIN	;Protein kinase	cell death	RIPK3 -[Activation]-> cell death	28462521	0																																		
+RIPK3	K51A	RIPK3_HUMAN	CHAIN;DOMAIN	;Protein kinase	execution phase of necroptosis	RIPK3 -[Activation]-> execution phase of necroptosis	28462521	0																																		
+RIPK3	K51A	RIPK3_HUMAN	CHAIN;DOMAIN	;Protein kinase	hemopoiesis	RIPK3 -[Activation]-> MLKL -[Activation]-> cell death -[Inhibition]-> hemopoiesis	26049749	0																																		
+RIPK3	K51A	RIPK3_HUMAN	CHAIN;DOMAIN	;Protein kinase	homeostatic process	RIPK3 -[Phosphorylation]-> MLKL -[Activation]-> homeostatic process	28462521	0																																		
+RIPK3	K51A	RIPK3_HUMAN	CHAIN;DOMAIN	;Protein kinase	immune response	RIPK3 -[Activation]-> cell death -[Activation]-> immune response	28462521	0																																		
+RIPK3	K51A	RIPK3_HUMAN	CHAIN;DOMAIN	;Protein kinase	inflammatory response	RIPK3 -[Activation]-> inflammatory response	27177019	0																																		
+RIPK3	K51A	RIPK3_HUMAN	CHAIN;DOMAIN	;Protein kinase	inflammatory response	RIPK3 -[Inhibition]-> inflammatory response	28462521	0																																		
+RIPK3	K51A	RIPK3_HUMAN	CHAIN;DOMAIN	;Protein kinase	localization	RIPK3 -[Complex]-> RIPK1 -[Activation]-> localization	28461567	0																																		
+RIPK3	K51A	RIPK3_HUMAN	CHAIN;DOMAIN	;Protein kinase	necroptotic process	RIPK3 -[Activation]-> necroptotic process	26049749	0																																		
+RIPK3	K51A	RIPK3_HUMAN	CHAIN;DOMAIN	;Protein kinase	necroptotic process	RIPK3 -[Activation]-> necroptotic process	27177019	0																																		
+RIPK3	K51A	RIPK3_HUMAN	CHAIN;DOMAIN	;Protein kinase	necroptotic process	RIPK3 -[Activation]-> necroptotic process	28462521	0																																		
+RIPK3	L26R	RIPK3_HUMAN	CHAIN;DOMAIN	;Protein kinase	necroptotic process	RIPK3 -[Activation]-> necroptotic process	34811356	0																																		
+RIPK3	L466D	RIPK3_HUMAN	CHAIN;MOTIF	;RIP homotypic interaction motif (RHIM)	necroptotic process	RIPK3 -[Activation]-> necroptotic process	33712586	0																																		
+RIPK3	L466D	RIPK3_HUMAN	CHAIN;MOTIF	;RIP homotypic interaction motif (RHIM)	necrotic cell death	RIPK3 -[Inhibition]-> necrotic cell death	33712586	0																																		
+RIPK3	T467A	RIPK3_HUMAN	CHAIN		cell death	RIPK3 -[Activation]-> cell death	30770249	0																																		
+RIPK3	T467A	RIPK3_HUMAN	CHAIN		cytokine production	RIPK3 -[Activation]-> cytokine production	30770249	0																																		
+RIPK3	T467A	RIPK3_HUMAN	CHAIN		inflammatory response	RIPK3 -[Inhibition]-> inflammatory response	30770249	0																																		
+RIPK3	T467A	RIPK3_HUMAN	CHAIN		innate immune response	RIPK3 -[Activation]-> OGT -[Inhibition]-> innate immune response	30770249	0																																		
+RIPK3	T467A	RIPK3_HUMAN	CHAIN		necroptotic process	RIPK3 -[Activation]-> necroptotic process	30770249	0																																		
+RIPK3	T467A	RIPK3_HUMAN	CHAIN		transcription, DNA-templated	RIPK3 -[Activation]-> OGT -[Inhibition]-> transcription, DNA-templated	30770249	0																																		

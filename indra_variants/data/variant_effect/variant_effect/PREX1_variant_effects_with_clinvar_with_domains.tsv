@@ -1,0 +1,9 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+PREX1	S313A	PREX1_HUMAN	CHAIN;DOMAIN	;PH	Neoplasm Invasiveness	PREX1 -[Activation]-> Neoplasm Invasiveness	25961466	0																																		
+PREX1	S313A	PREX1_HUMAN	CHAIN;DOMAIN	;PH	Neoplasm Metastasis	PREX1 -[Activation]-> Neoplasm Metastasis	25961466	0																																		
+PREX1	S313A	PREX1_HUMAN	CHAIN;DOMAIN	;PH	angiogenesis	PREX1 -[Activation]-> angiogenesis	25961466	0																																		
+PREX1	S313A	PREX1_HUMAN	CHAIN;DOMAIN	;PH	cell adhesion	PREX1 -[Activation]-> cell adhesion	25961466	0																																		
+PREX1	S313A	PREX1_HUMAN	CHAIN;DOMAIN	;PH	cell migration	PREX1 -[Inhibition]-> cell migration	25961466	0																																		
+PREX1	S313A	PREX1_HUMAN	CHAIN;DOMAIN	;PH	cell population proliferation	PREX1 -[Inhibition]-> cell population proliferation	25961466	0																																		
+PREX1	S313A	PREX1_HUMAN	CHAIN;DOMAIN	;PH	localization	PREX1 -[Activation]-> RAC1 -[Activation]-> localization	25961466	0																																		
+PREX1	S436A	PREX1_HUMAN	CHAIN;DOMAIN	;DEP 1	localization	PREX1 -[Activation]-> localization	26797121	0																																		

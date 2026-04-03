@@ -1,0 +1,9 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+CDK5	F78G	CDK5_HUMAN	CHAIN;DOMAIN	Cyclin-dependent kinase 5;Protein kinase	cell growth	CDK5 -[Activation]-> cell growth	33670568	0																																		
+CDK5	S159T	CDK5_HUMAN	CHAIN;DOMAIN	Cyclin-dependent kinase 5;Protein kinase	cell cycle	CDK5 -[Activation]-> cell cycle	20392944	0																																		
+CDK5	S159T	CDK5_HUMAN	CHAIN;DOMAIN	Cyclin-dependent kinase 5;Protein kinase	localization	CDK5 -[Inhibition]-> localization	20392944	0																																		
+CDK5	S159T	CDK5_HUMAN	CHAIN;DOMAIN	Cyclin-dependent kinase 5;Protein kinase	transcription, DNA-templated	CDK5 -[Complex]-> Cyclin -[Inhibition]-> transcription, DNA-templated	20392944	0																																		
+CDK5	S47D	CDK5_HUMAN	CHAIN;DOMAIN	Cyclin-dependent kinase 5;Protein kinase	cell migration	CDK5 -[Inhibition]-> cell migration	30217452	0																																		
+CDK5	S47D	CDK5_HUMAN	CHAIN;DOMAIN	Cyclin-dependent kinase 5;Protein kinase	cell population proliferation	CDK5 -[Activation]-> cell population proliferation	30217452	0																																		
+CDK5	Y15F	CDK5_HUMAN	CHAIN;DOMAIN	Cyclin-dependent kinase 5;Protein kinase	Death	CDK5 -[Activation]-> Death	30158515	0																																		
+CDK5	Y15F	CDK5_HUMAN	CHAIN;DOMAIN	Cyclin-dependent kinase 5;Protein kinase	cell death	CDK5 -[Activation]-> cell death	30158515	0																																		

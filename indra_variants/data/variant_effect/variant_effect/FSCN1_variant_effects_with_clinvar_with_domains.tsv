@@ -1,0 +1,23 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+FSCN1	H474A	FSCN1_HUMAN	CHAIN	Fascin	Neoplasm Invasiveness	FSCN1 -[Activation]-> Neoplasm Invasiveness	20393565	0																																		
+FSCN1	H474A	FSCN1_HUMAN	CHAIN	Fascin	Neoplasm Metastasis	FSCN1 -[Inhibition]-> Neoplasm Metastasis	20393565	0																																		
+FSCN1	H474A	FSCN1_HUMAN	CHAIN	Fascin	cell migration	FSCN1 -[Activation]-> cell migration	20393565	0																																		
+FSCN1	S274A	FSCN1_HUMAN	CHAIN	Fascin	Neoplasm Invasiveness	FSCN1 -[Activation]-> Neoplasm Invasiveness	26542021	0																																		
+FSCN1	S274A	FSCN1_HUMAN	CHAIN	Fascin	cell adhesion	FSCN1 -[Activation]-> cell adhesion	26542021	0																																		
+FSCN1	S274A	FSCN1_HUMAN	CHAIN	Fascin	cell migration	FSCN1 -[Activation]-> cell migration	26542021	0																																		
+FSCN1	S274A	FSCN1_HUMAN	CHAIN	Fascin	cell motility	FSCN1 -[Activation]-> cell motility	26542021	0																																		
+FSCN1	S274D	FSCN1_HUMAN	CHAIN	Fascin	Neoplasm Invasiveness	FSCN1 -[Activation]-> Neoplasm Invasiveness	26542021	0																																		
+FSCN1	S274D	FSCN1_HUMAN	CHAIN	Fascin	cell adhesion	FSCN1 -[Activation]-> cell adhesion	26542021	0																																		
+FSCN1	S274D	FSCN1_HUMAN	CHAIN	Fascin	cell migration	FSCN1 -[Activation]-> cell migration	26542021	0																																		
+FSCN1	S274D	FSCN1_HUMAN	CHAIN	Fascin	cell motility	FSCN1 -[Activation]-> cell motility	26542021	0																																		
+FSCN1	S289A	FSCN1_HUMAN	CHAIN	Fascin	cell migration	FSCN1 -[Activation]-> cell migration	22564415	0																																		
+FSCN1	S39A	FSCN1_HUMAN	CHAIN	Fascin	Neoplasm Invasiveness	FSCN1 -[Activation]-> Neoplasm Invasiveness	26542021	0																																		
+FSCN1	S39A	FSCN1_HUMAN	CHAIN	Fascin	cell adhesion	FSCN1 -[Activation]-> cell adhesion	26542021	0																																		
+FSCN1	S39A	FSCN1_HUMAN	CHAIN	Fascin	cell migration	FSCN1 -[Activation]-> cell migration	26542021	0																																		
+FSCN1	S39A	FSCN1_HUMAN	CHAIN	Fascin	cell motility	FSCN1 -[Activation]-> cell motility	26542021	0																																		
+FSCN1	S39D	FSCN1_HUMAN	CHAIN	Fascin	Neoplasm Invasiveness	FSCN1 -[Activation]-> Neoplasm Invasiveness	26542021	0																																		
+FSCN1	S39D	FSCN1_HUMAN	CHAIN	Fascin	Neoplasm Metastasis	FSCN1 -[Activation]-> Neoplasm Metastasis	29299131	0																																		
+FSCN1	S39D	FSCN1_HUMAN	CHAIN	Fascin	cell adhesion	FSCN1 -[Activation]-> cell adhesion	26542021	0																																		
+FSCN1	S39D	FSCN1_HUMAN	CHAIN	Fascin	cell adhesion	FSCN1 -[Activation]-> cell adhesion	29299131	0																																		
+FSCN1	S39D	FSCN1_HUMAN	CHAIN	Fascin	cell migration	FSCN1 -[Activation]-> cell migration	26542021	0																																		
+FSCN1	S39D	FSCN1_HUMAN	CHAIN	Fascin	cell motility	FSCN1 -[Activation]-> cell motility	26542021	0																																		

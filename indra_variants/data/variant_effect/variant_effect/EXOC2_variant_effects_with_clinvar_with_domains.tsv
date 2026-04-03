@@ -1,0 +1,6 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+EXOC2	T11A	EXOC2_HUMAN	CHAIN;DOMAIN	Exocyst complex component 2;IPT/TIG	Neoplasm Invasiveness	EXOC2 -[Activation]-> Neoplasm Invasiveness	18697830	0																																		
+EXOC2	T11A	EXOC2_HUMAN	CHAIN;DOMAIN	Exocyst complex component 2;IPT/TIG	Neoplasm Invasiveness	EXOC2 -[Activation]-> Neoplasm Invasiveness	20579884	0																																		
+EXOC2	T11A	EXOC2_HUMAN	CHAIN;DOMAIN	Exocyst complex component 2;IPT/TIG	cell adhesion	EXOC2 -[Complex]-> RALA -[Activation]-> cell adhesion	20005108	0																																		
+EXOC2	T11A	EXOC2_HUMAN	CHAIN;DOMAIN	Exocyst complex component 2;IPT/TIG	exocytosis	EXOC2 -[Activation]-> exocytosis	20005108	0																																		
+EXOC2	T11A	EXOC2_HUMAN	CHAIN;DOMAIN	Exocyst complex component 2;IPT/TIG	localization	EXOC2 -[Complex]-> RALA -[Activation]-> localization	20005108	0																																		

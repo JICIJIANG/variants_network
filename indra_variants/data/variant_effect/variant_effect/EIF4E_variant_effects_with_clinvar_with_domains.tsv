@@ -1,0 +1,31 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+EIF4E	S209A	IF4E_HUMAN	CHAIN	Eukaryotic translation initiation factor 4E	ATPase activity	EIF4E -[Complex]-> EIF4G -[Complex]-> EIF4A -[Complex]-> ATPase activity	33148274	0																																		
+EIF4E	S209A	IF4E_HUMAN	CHAIN	Eukaryotic translation initiation factor 4E	Carcinogenesis	EIF4E -[Activation]-> Carcinogenesis	33148274	0																																		
+EIF4E	S209A	IF4E_HUMAN	CHAIN	Eukaryotic translation initiation factor 4E	EIF4EBP	EIF4E -[Complex]-> EIF4EBP1 -[Complex]-> eIF -[Complex]-> EIF4EBP	27527252	0																																		
+EIF4E	S209A	IF4E_HUMAN	CHAIN	Eukaryotic translation initiation factor 4E	Intestinal Polyposis	EIF4E -[Inhibition]-> MYC -[Activation]-> Intestinal Polyposis	37138032	0																																		
+EIF4E	S209A	IF4E_HUMAN	CHAIN	Eukaryotic translation initiation factor 4E	Neoplasm Invasiveness	EIF4E -[Activation]-> Neoplasm Invasiveness	24909168	0																																		
+EIF4E	S209A	IF4E_HUMAN	CHAIN	Eukaryotic translation initiation factor 4E	Neoplasm Metastasis	EIF4E -[Activation]-> Neoplasm Metastasis	24909168	0																																		
+EIF4E	S209A	IF4E_HUMAN	CHAIN	Eukaryotic translation initiation factor 4E	apoptotic process	EIF4E -[Inhibition]-> MYC -[Activation]-> apoptotic process	37138032	0																																		
+EIF4E	S209A	IF4E_HUMAN	CHAIN	Eukaryotic translation initiation factor 4E	apoptotic process	EIF4E -[Inhibition]-> RAD001 -[Activation]-> apoptotic process	28745319	0																																		
+EIF4E	S209A	IF4E_HUMAN	CHAIN	Eukaryotic translation initiation factor 4E	apoptotic process	EIF4E -[Inhibition]-> ribavirin -[Activation]-> apoptotic process	27932243	0																																		
+EIF4E	S209A	IF4E_HUMAN	CHAIN	Eukaryotic translation initiation factor 4E	cell cycle	EIF4E -[Inhibition]-> ribavirin -[Inhibition]-> cell cycle	29959920	0																																		
+EIF4E	S209A	IF4E_HUMAN	CHAIN	Eukaryotic translation initiation factor 4E	cell growth	EIF4E -[Inhibition]-> PTEN -[Inhibition]-> cell growth	28745319	0																																		
+EIF4E	S209A	IF4E_HUMAN	CHAIN	Eukaryotic translation initiation factor 4E	cell population proliferation	EIF4E -[Activation]-> cell population proliferation	28745319	0																																		
+EIF4E	S209A	IF4E_HUMAN	CHAIN	Eukaryotic translation initiation factor 4E	cell population proliferation	EIF4E -[Activation]-> cell population proliferation	29959920	0																																		
+EIF4E	S209A	IF4E_HUMAN	CHAIN	Eukaryotic translation initiation factor 4E	cell population proliferation	EIF4E -[Complex]-> EIF4G -[Complex]-> EIF4A -[Complex]-> EIF4B -[Activation]-> cell population proliferation	33148274	0																																		
+EIF4E	S209A	IF4E_HUMAN	CHAIN	Eukaryotic translation initiation factor 4E	cell population proliferation	EIF4E -[Inhibition]-> MYC -[Activation]-> cell population proliferation	37138032	0																																		
+EIF4E	S209A	IF4E_HUMAN	CHAIN	Eukaryotic translation initiation factor 4E	cell population proliferation	EIF4E -[Inhibition]-> ribavirin -[Inhibition]-> cell population proliferation	27932243	0																																		
+EIF4E	S209A	IF4E_HUMAN	CHAIN	Eukaryotic translation initiation factor 4E	epithelial to mesenchymal transition	EIF4E -[Activation]-> epithelial to mesenchymal transition	24909168	0																																		
+EIF4E	S209A	IF4E_HUMAN	CHAIN	Eukaryotic translation initiation factor 4E	hypersensitivity reaction disease	EIF4E -[Inhibition]-> MYC -[Activation]-> hypersensitivity reaction disease	37138032	0																																		
+EIF4E	S209A	IF4E_HUMAN	CHAIN	Eukaryotic translation initiation factor 4E	transcription, DNA-templated	EIF4E -[Activation]-> Interferon -[Activation]-> transcription, DNA-templated	22544393	0																																		
+EIF4E	S209A	IF4E_HUMAN	CHAIN	Eukaryotic translation initiation factor 4E	translation	EIF4E -[Activation]-> translation	24909168	0																																		
+EIF4E	S209A	IF4E_HUMAN	CHAIN	Eukaryotic translation initiation factor 4E	translation	EIF4E -[Activation]-> translation	29959920	0																																		
+EIF4E	S209A	IF4E_HUMAN	CHAIN	Eukaryotic translation initiation factor 4E	translation	EIF4E -[Inhibition]-> translation	22544393	0																																		
+EIF4E	S209A	IF4E_HUMAN	CHAIN	Eukaryotic translation initiation factor 4E	translation	EIF4E -[Inhibition]-> translation	27527252	0																																		
+EIF4E	S209A	IF4E_HUMAN	CHAIN	Eukaryotic translation initiation factor 4E	translation	EIF4E -[Inhibition]-> translation	28074025	0																																		
+EIF4E	S209A	IF4E_HUMAN	CHAIN	Eukaryotic translation initiation factor 4E	translation	EIF4E -[Inhibition]-> translation	28745319	0																																		
+EIF4E	S209D	IF4E_HUMAN	CHAIN	Eukaryotic translation initiation factor 4E	cell population proliferation	EIF4E -[Activation]-> cell population proliferation	27926520	0																																		
+EIF4E	S209D	IF4E_HUMAN	CHAIN	Eukaryotic translation initiation factor 4E	translation	EIF4E -[Activation]-> translation	28192408	0																																		
+EIF4E	W73A	IF4E_HUMAN	CHAIN;REGION	Eukaryotic translation initiation factor 4E;EIF4EBP1/2/3 binding	apoptotic process	EIF4E -[IncreaseAmount]-> PML -[Activation]-> apoptotic process	18391071	0																																		
+EIF4E	W73A	IF4E_HUMAN	CHAIN;REGION	Eukaryotic translation initiation factor 4E;EIF4EBP1/2/3 binding	cell population proliferation	EIF4E -[Activation]-> cell population proliferation	18391071	0																																		
+EIF4E	W73A	IF4E_HUMAN	CHAIN;REGION	Eukaryotic translation initiation factor 4E;EIF4EBP1/2/3 binding	translation	EIF4E -[Activation]-> translation	18391071	0																																		

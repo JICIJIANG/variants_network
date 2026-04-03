@@ -1,0 +1,18 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+SHMT2	K280A	GLYM_HUMAN	CHAIN	Serine hydroxymethyltransferase, mitochondrial	Neoplasm Invasiveness	SHMT2 -[Activation]-> Neoplasm Invasiveness	33456583	0																																		
+SHMT2	K280A	GLYM_HUMAN	CHAIN	Serine hydroxymethyltransferase, mitochondrial	Neoplasm Metastasis	SHMT2 -[Activation]-> Neoplasm Metastasis	33456583	0																																		
+SHMT2	K280A	GLYM_HUMAN	CHAIN	Serine hydroxymethyltransferase, mitochondrial	cell growth	SHMT2 -[Activation]-> cell growth	33456583	0																																		
+SHMT2	K280A	GLYM_HUMAN	CHAIN	Serine hydroxymethyltransferase, mitochondrial	cell migration	SHMT2 -[Activation]-> cell migration	33456583	0																																		
+SHMT2	K280A	GLYM_HUMAN	CHAIN	Serine hydroxymethyltransferase, mitochondrial	cell population proliferation	SHMT2 -[Activation]-> cell population proliferation	33456583	0																																		
+SHMT2	K280A	GLYM_HUMAN	CHAIN	Serine hydroxymethyltransferase, mitochondrial	epithelial to mesenchymal transition	SHMT2 -[Inhibition]-> epithelial to mesenchymal transition	33456583	0																																		
+SHMT2	K280A	GLYM_HUMAN	CHAIN	Serine hydroxymethyltransferase, mitochondrial	phosphorylation	SHMT2 -[Inhibition]-> phosphorylation	33456583	0																																		
+SHMT2	K280A	GLYM_HUMAN	CHAIN	Serine hydroxymethyltransferase, mitochondrial	signal transduction	SHMT2 -[Inhibition]-> signal transduction	33456583	0																																		
+SHMT2	K64R	GLYM_HUMAN	CHAIN	Serine hydroxymethyltransferase, mitochondrial	Neoplasm Invasiveness	SHMT2 -[Activation]-> Neoplasm Invasiveness	33456583	0																																		
+SHMT2	K64R	GLYM_HUMAN	CHAIN	Serine hydroxymethyltransferase, mitochondrial	Neoplasm Metastasis	SHMT2 -[Activation]-> Neoplasm Metastasis	33456583	0																																		
+SHMT2	K64R	GLYM_HUMAN	CHAIN	Serine hydroxymethyltransferase, mitochondrial	cell growth	SHMT2 -[Activation]-> cell growth	33456583	0																																		
+SHMT2	K64R	GLYM_HUMAN	CHAIN	Serine hydroxymethyltransferase, mitochondrial	cell migration	SHMT2 -[Activation]-> cell migration	33456583	0																																		
+SHMT2	K64R	GLYM_HUMAN	CHAIN	Serine hydroxymethyltransferase, mitochondrial	cell population proliferation	SHMT2 -[Activation]-> cell population proliferation	33456583	0																																		
+SHMT2	K64R	GLYM_HUMAN	CHAIN	Serine hydroxymethyltransferase, mitochondrial	epithelial to mesenchymal transition	SHMT2 -[Inhibition]-> epithelial to mesenchymal transition	33456583	0																																		
+SHMT2	K64R	GLYM_HUMAN	CHAIN	Serine hydroxymethyltransferase, mitochondrial	phosphorylation	SHMT2 -[Inhibition]-> phosphorylation	33456583	0																																		
+SHMT2	K64R	GLYM_HUMAN	CHAIN	Serine hydroxymethyltransferase, mitochondrial	signal transduction	SHMT2 -[Inhibition]-> signal transduction	33456583	0																																		
+SHMT2	K95Q	GLYM_HUMAN	CHAIN	Serine hydroxymethyltransferase, mitochondrial	cell population proliferation	SHMT2 -[Activation]-> cell population proliferation	30367038	0																																		

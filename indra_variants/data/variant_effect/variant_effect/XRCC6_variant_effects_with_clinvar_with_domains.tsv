@@ -1,0 +1,17 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+XRCC6	K542Q	XRCC6_HUMAN	CHAIN;REGION	X-ray repair cross-complementing protein 6;Disordered	apoptotic process	XRCC6 -[Inhibition]-> apoptotic process	28238784	0																																		
+XRCC6	S155A	XRCC6_HUMAN	CHAIN	X-ray repair cross-complementing protein 6	DNA Damage	XRCC6 -[Activation]-> DNA Damage	27849008	0																																		
+XRCC6	S155A	XRCC6_HUMAN	CHAIN	X-ray repair cross-complementing protein 6	DNA damage checkpoint	XRCC6 -[Inhibition]-> DNA damage checkpoint	27849008	0																																		
+XRCC6	S155A	XRCC6_HUMAN	CHAIN	X-ray repair cross-complementing protein 6	apoptotic process	XRCC6 -[Inhibition]-> apoptotic process	27849008	0																																		
+XRCC6	S155A	XRCC6_HUMAN	CHAIN	X-ray repair cross-complementing protein 6	cell cycle	XRCC6 -[Activation]-> cell cycle	27849008	0																																		
+XRCC6	S155A	XRCC6_HUMAN	CHAIN	X-ray repair cross-complementing protein 6	cell population proliferation	XRCC6 -[Inhibition]-> cell population proliferation	27849008	0																																		
+XRCC6	S155D	XRCC6_HUMAN	CHAIN	X-ray repair cross-complementing protein 6	DNA Damage	XRCC6 -[Activation]-> DNA Damage	27849008	0																																		
+XRCC6	S155D	XRCC6_HUMAN	CHAIN	X-ray repair cross-complementing protein 6	DNA damage checkpoint	XRCC6 -[Inhibition]-> DNA damage checkpoint	27849008	0																																		
+XRCC6	S155D	XRCC6_HUMAN	CHAIN	X-ray repair cross-complementing protein 6	apoptotic process	XRCC6 -[Inhibition]-> apoptotic process	27849008	0																																		
+XRCC6	S155D	XRCC6_HUMAN	CHAIN	X-ray repair cross-complementing protein 6	cell cycle	XRCC6 -[Activation]-> cell cycle	27849008	0																																		
+XRCC6	S155D	XRCC6_HUMAN	CHAIN	X-ray repair cross-complementing protein 6	cell population proliferation	XRCC6 -[Inhibition]-> cell population proliferation	27849008	0																																		
+XRCC6	S51A	XRCC6_HUMAN	CHAIN	X-ray repair cross-complementing protein 6	apoptotic process	XRCC6 -[Activation]-> BAX -[Activation]-> apoptotic process	19664609	0																																		
+XRCC6	S51A	XRCC6_HUMAN	CHAIN	X-ray repair cross-complementing protein 6	cell death	XRCC6 -[Activation]-> cell death	19664609	0																																		
+XRCC6	S6A	XRCC6_HUMAN	CHAIN;REGION	X-ray repair cross-complementing protein 6;Disordered	apoptotic process	XRCC6 -[Activation]-> BAX -[Activation]-> apoptotic process	19664609	0																																		
+XRCC6	S6A	XRCC6_HUMAN	CHAIN;REGION	X-ray repair cross-complementing protein 6;Disordered	cell death	XRCC6 -[Activation]-> cell death	19664609	0																																		
+XRCC6	Y530F	XRCC6_HUMAN	CHAIN	X-ray repair cross-complementing protein 6	apoptotic process	XRCC6 -[Inhibition]-> apoptotic process	27998981	0																																		

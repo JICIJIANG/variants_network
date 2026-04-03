@@ -1,0 +1,9 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+TOM1L1	S320A	TM1L1_HUMAN	CHAIN;REGION	TOM1-like protein 1;Disordered	Breast Neoplasms	TOM1L1 -[Activation]-> Breast Neoplasms	26899482	0																																		
+TOM1L1	S320A	TM1L1_HUMAN	CHAIN;REGION	TOM1-like protein 1;Disordered	Neoplasm Invasiveness	TOM1L1 -[Activation]-> Neoplasm Invasiveness	26899482	0																																		
+TOM1L1	S320A	TM1L1_HUMAN	CHAIN;REGION	TOM1-like protein 1;Disordered	Neoplasm Metastasis	TOM1L1 -[Activation]-> Neoplasm Metastasis	26899482	0																																		
+TOM1L1	S320A	TM1L1_HUMAN	CHAIN;REGION	TOM1-like protein 1;Disordered	Neoplasms	TOM1L1 -[Inhibition]-> Neoplasms	26899482	0																																		
+TOM1L1	S320A	TM1L1_HUMAN	CHAIN;REGION	TOM1-like protein 1;Disordered	cell population proliferation	TOM1L1 -[Activation]-> ERBB2 -[Activation]-> cell population proliferation	26899482	0																																		
+TOM1L1	S320A	TM1L1_HUMAN	CHAIN;REGION	TOM1-like protein 1;Disordered	exocytosis	TOM1L1 -[Activation]-> exocytosis	26899482	0																																		
+TOM1L1	S320A	TM1L1_HUMAN	CHAIN;REGION	TOM1-like protein 1;Disordered	localization	TOM1L1 -[Activation]-> localization	26899482	0																																		
+TOM1L1	S320A	TM1L1_HUMAN	CHAIN;REGION	TOM1-like protein 1;Disordered	proteolysis	TOM1L1 -[Activation]-> Neoplasm Invasiveness -[Activation]-> proteolysis	26899482	0																																		

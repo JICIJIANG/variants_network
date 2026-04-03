@@ -1,0 +1,9 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+TP53BP1	S1342A	TP53B_HUMAN	CHAIN;REGION	TP53-binding protein 1;Disordered	DNA Damage	TP53BP1 -[Activation]-> DNA Damage	28415769	0																																		
+TP53BP1	S1342A	TP53B_HUMAN	CHAIN;REGION	TP53-binding protein 1;Disordered	DNA repair	TP53BP1 -[Inhibition]-> DNA repair	28415769	0																																		
+TP53BP1	S1618A	TP53B_HUMAN	CHAIN;MOTIF	TP53-binding protein 1;UDR	DNA damage checkpoint	TP53BP1 -[Complex]-> PLK1 -[Inhibition]-> DNA damage checkpoint	25607646	0																																		
+TP53BP1	S1618A	TP53B_HUMAN	CHAIN;MOTIF	TP53-binding protein 1;UDR	DNA repair	TP53BP1 -[Complex]-> PLK1 -[Inhibition]-> DNA repair	25607646	0																																		
+TP53BP1	S1618A	TP53B_HUMAN	CHAIN;MOTIF	TP53-binding protein 1;UDR	localization	TP53BP1 -[Complex]-> PLK1 -[Inhibition]-> localization	25607646	0																																		
+TP53BP1	S1618A	TP53B_HUMAN	CHAIN;MOTIF	TP53-binding protein 1;UDR	mitotic cell cycle	TP53BP1 -[Complex]-> PLK1 -[Activation]-> mitotic cell cycle	25607646	0																																		
+TP53BP1	S25A	TP53B_HUMAN	CHAIN;REGION	TP53-binding protein 1;Disordered	homologous recombination	TP53BP1 -[Inhibition]-> homologous recombination	31653568	0																																		
+TP53BP1	T885G	TP53B_HUMAN	CHAIN;REGION	TP53-binding protein 1;Disordered	Adenocarcinoma	TP53BP1 -[Activation]-> Adenocarcinoma	17927872	0																																		

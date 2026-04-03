@@ -1,0 +1,10 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+TBX3	S190A	TBX3_HUMAN	CHAIN	T-box transcription factor TBX3	cell cycle	TBX3 -[Activation]-> cell cycle	27110270	0																																		
+TBX3	S190A	TBX3_HUMAN	CHAIN	T-box transcription factor TBX3	cell population proliferation	TBX3 -[Activation]-> cell population proliferation	27110270	0																																		
+TBX3	S190E	TBX3_HUMAN	CHAIN	T-box transcription factor TBX3	cell cycle	TBX3 -[Activation]-> cell cycle	27110270	0																																		
+TBX3	S190E	TBX3_HUMAN	CHAIN	T-box transcription factor TBX3	cell population proliferation	TBX3 -[Activation]-> cell population proliferation	27110270	0																																		
+TBX3	S720E	TBX3_HUMAN	CHAIN	T-box transcription factor TBX3	cell migration	TBX3 -[Activation]-> cell migration	25595898	0																																		
+TBX3	S720E	TBX3_HUMAN	CHAIN	T-box transcription factor TBX3	localization	TBX3 -[Activation]-> localization	25595898	0																																		
+TBX3	Y149S	TBX3_HUMAN	CHAIN	T-box transcription factor TBX3	Cell Survival	TBX3 -[Activation]-> Cell Survival	17283120	0																																		
+TBX3	Y149S	TBX3_HUMAN	CHAIN	T-box transcription factor TBX3	apoptotic process	TBX3 -[Inhibition]-> apoptotic process	17283120	0																																		
+TBX3	Y149S	TBX3_HUMAN	CHAIN	T-box transcription factor TBX3	cell growth	TBX3 -[Inhibition]-> cell growth	17283120	0																																		

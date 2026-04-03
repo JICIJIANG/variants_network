@@ -1,0 +1,4 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+CRABP1	Y133F	RABP1_HUMAN	CHAIN	Cellular retinoic acid-binding protein 1	apoptotic process	CRABP1 -[Activation]-> apoptotic process	26935534	0																																		
+CRABP1	Y133F	RABP1_HUMAN	CHAIN	Cellular retinoic acid-binding protein 1	cell cycle	CRABP1 -[Activation]-> cell cycle	26935534	0																																		
+CRABP1	Y133F	RABP1_HUMAN	CHAIN	Cellular retinoic acid-binding protein 1	cell growth	CRABP1 -[Activation]-> cell growth	26935534	0																																		

@@ -1,0 +1,23 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+SAR1A	H4L	SAR1A_HUMAN	CHAIN;MOTIF	Small COPII coat GTPase SAR1A;	Parkinson Disease	SAR1A -[Inhibition]-> Parkinson Disease	20585568	0																																		
+SAR1A	H4L	SAR1A_HUMAN	CHAIN;MOTIF	Small COPII coat GTPase SAR1A;	localization	SAR1A -[Inhibition]-> localization	20585568	0																																		
+SAR1A	H4L	SAR1A_HUMAN	CHAIN;MOTIF	Small COPII coat GTPase SAR1A;	transport	SAR1A -[Inhibition]-> transport	20585568	0																																		
+SAR1A	H74L	SAR1A_HUMAN	CHAIN	Small COPII coat GTPase SAR1A	Parkinson Disease	SAR1A -[Activation]-> endoplasmic reticulum -[Complex]-> MP -[Activation]-> Parkinson Disease	28640879	0																																		
+SAR1A	H74L	SAR1A_HUMAN	CHAIN	Small COPII coat GTPase SAR1A	Parkinson Disease	SAR1A -[Inhibition]-> Parkinson Disease	20585568	0																																		
+SAR1A	H74L	SAR1A_HUMAN	CHAIN	Small COPII coat GTPase SAR1A	localization	SAR1A -[Inhibition]-> localization	20585568	0																																		
+SAR1A	H74L	SAR1A_HUMAN	CHAIN	Small COPII coat GTPase SAR1A	transport	SAR1A -[Inhibition]-> transport	20585568	0																																		
+SAR1A	H74L	SAR1A_HUMAN	CHAIN	Small COPII coat GTPase SAR1A	transport	SAR1A -[Inhibition]-> transport	23251667	0																																		
+SAR1A	H79G	SAR1A_HUMAN	CHAIN	Small COPII coat GTPase SAR1A	Death	SAR1A -[Activation]-> sodium(1+) -[Activation]-> Death	30251687	0																																		
+SAR1A	H79G	SAR1A_HUMAN	CHAIN	Small COPII coat GTPase SAR1A	localization	SAR1A -[Activation]-> localization	23930225	0																																		
+SAR1A	H79G	SAR1A_HUMAN	CHAIN	Small COPII coat GTPase SAR1A	membrane fusion	SAR1A -[IncreaseAmount]-> MIA3 -[Activation]-> COPII coat components -[Activation]-> membrane fusion	37300835	0																																		
+SAR1A	H79G	SAR1A_HUMAN	CHAIN	Small COPII coat GTPase SAR1A	transport	SAR1A -[Inhibition]-> transport	29718541	0																																		
+SAR1A	T34N	SAR1A_HUMAN	CHAIN	Small COPII coat GTPase SAR1A	cell growth	SAR1A -[Inhibition]-> cell growth	24006484	0																																		
+SAR1A	T34N	SAR1A_HUMAN	CHAIN	Small COPII coat GTPase SAR1A	localization	SAR1A -[Activation]-> localization	23930225	0																																		
+SAR1A	T34N	SAR1A_HUMAN	CHAIN	Small COPII coat GTPase SAR1A	localization	SAR1A -[Activation]-> localization	24006484	0																																		
+SAR1A	T39N	SAR1A_HUMAN	CHAIN	Small COPII coat GTPase SAR1A	Cystic Fibrosis	SAR1A -[Glycosylation]-> CFTR -[Complex]-> GORASP2 -[Activation]-> Cystic Fibrosis	21884936	0																																		
+SAR1A	T39N	SAR1A_HUMAN	CHAIN	Small COPII coat GTPase SAR1A	Death	SAR1A -[Activation]-> sodium(1+) -[Activation]-> Death	30251687	0																																		
+SAR1A	T39N	SAR1A_HUMAN	CHAIN	Small COPII coat GTPase SAR1A	cellular component biogenesis	SAR1A -[Inhibition]-> PEX3 -[Activation]-> cellular component biogenesis	10871277	0																																		
+SAR1A	T39N	SAR1A_HUMAN	CHAIN	Small COPII coat GTPase SAR1A	exocytosis	SAR1A -[Glycosylation]-> CFTR -[Complex]-> TAMALIN -[Activation]-> ERN1 -[Inhibition]-> exocytosis	21884936	0																																		
+SAR1A	T39N	SAR1A_HUMAN	CHAIN	Small COPII coat GTPase SAR1A	membrane fusion	SAR1A -[IncreaseAmount]-> MIA3 -[Activation]-> COPII coat components -[Activation]-> membrane fusion	37300835	0																																		
+SAR1A	T39N	SAR1A_HUMAN	CHAIN	Small COPII coat GTPase SAR1A	transport	SAR1A -[Glycosylation]-> CFTR -[Complex]-> TAMALIN -[Activation]-> transport	21884936	0																																		
+SAR1A	T39N	SAR1A_HUMAN	CHAIN	Small COPII coat GTPase SAR1A	transport	SAR1A -[Inhibition]-> transport	10871277	0																																		

@@ -1,0 +1,22 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+RAB35	Q67A	RAB35_HUMAN	CHAIN	Ras-related protein Rab-35	exocytosis	RAB35 -[Activation]-> exocytosis	28566286	0																																		
+RAB35	Q67A	RAB35_HUMAN	CHAIN	Ras-related protein Rab-35	transport	RAB35 -[Activation]-> transport	24520163	0																																		
+RAB35	Q67E	RAB35_HUMAN	CHAIN	Ras-related protein Rab-35	transport	RAB35 -[Activation]-> transport	24520163	0																																		
+RAB35	Q67L	RAB35_HUMAN	CHAIN	Ras-related protein Rab-35	GAP	RAB35 -[Complex]-> GAP	22226746	0																																		
+RAB35	Q67L	RAB35_HUMAN	CHAIN	Ras-related protein Rab-35	Neoplasm Invasiveness	RAB35 -[Complex]-> PI3K -[Activation]-> Neoplasm Invasiveness	31048499	0																																		
+RAB35	Q67L	RAB35_HUMAN	CHAIN	Ras-related protein Rab-35	Neoplasm Metastasis	RAB35 -[Complex]-> PI3K -[Inhibition]-> Neoplasm Metastasis	31048499	0																																		
+RAB35	Q67L	RAB35_HUMAN	CHAIN	Ras-related protein Rab-35	apoptotic process	RAB35 -[Phosphorylation]-> AKT -[Inhibition]-> apoptotic process	26338797	0																																		
+RAB35	Q67L	RAB35_HUMAN	CHAIN	Ras-related protein Rab-35	cytokinesis	RAB35 -[Inhibition]-> cytokinesis	22226746	0																																		
+RAB35	Q67L	RAB35_HUMAN	CHAIN	Ras-related protein Rab-35	localization	RAB35 -[Activation]-> localization	16950109	0																																		
+RAB35	Q67L	RAB35_HUMAN	CHAIN	Ras-related protein Rab-35	localization	RAB35 -[Activation]-> localization	26229970	0																																		
+RAB35	Q67L	RAB35_HUMAN	CHAIN	Ras-related protein Rab-35	localization	RAB35 -[Inhibition]-> localization	21951725	0																																		
+RAB35	Q67L	RAB35_HUMAN	CHAIN	Ras-related protein Rab-35	localization	RAB35 -[Inhibition]-> localization	22226746	0																																		
+RAB35	Q67N	RAB35_HUMAN	CHAIN	Ras-related protein Rab-35	Neoplasm Invasiveness	RAB35 -[Complex]-> TBC1D24 -[Inhibition]-> Neoplasm Invasiveness	30154457	0																																		
+RAB35	Q67N	RAB35_HUMAN	CHAIN	Ras-related protein Rab-35	cell migration	RAB35 -[Complex]-> TBC1D24 -[Inhibition]-> cell migration	30154457	0																																		
+RAB35	Q67N	RAB35_HUMAN	CHAIN	Ras-related protein Rab-35	contact inhibition	RAB35 -[Complex]-> TBC1D24 -[Inhibition]-> contact inhibition	30154457	0																																		
+RAB35	S22N	RAB35_HUMAN	CHAIN	Ras-related protein Rab-35	GAP	RAB35 -[Complex]-> GAP	22226746	0																																		
+RAB35	S22N	RAB35_HUMAN	CHAIN	Ras-related protein Rab-35	cell death	RAB35 -[Inhibition]-> FTH1 -[Activation]-> iron atom -[Activation]-> cell death	32531201	0																																		
+RAB35	S22N	RAB35_HUMAN	CHAIN	Ras-related protein Rab-35	cytokinesis	RAB35 -[Inhibition]-> cytokinesis	22226746	0																																		
+RAB35	S22N	RAB35_HUMAN	CHAIN	Ras-related protein Rab-35	localization	RAB35 -[Activation]-> localization	26229970	0																																		
+RAB35	S22N	RAB35_HUMAN	CHAIN	Ras-related protein Rab-35	localization	RAB35 -[Inhibition]-> localization	22226746	0																																		
+RAB35	T72A	RAB35_HUMAN	CHAIN	Ras-related protein Rab-35	apoptotic process	RAB35 -[Activation]-> apoptotic process	32714591	0																																		

@@ -1,0 +1,14 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+PRL	G129R	PRL_HUMAN	CHAIN	Prolactin	apoptotic process	PRL -[Activation]-> apoptotic process	14647416	0																																		
+PRL	S179D	PRL_HUMAN	CHAIN	Prolactin	apoptotic process	PRL -[Activation]-> apoptotic process	16840547	0																																		
+PRL	S179D	PRL_HUMAN	CHAIN	Prolactin	apoptotic process	PRL -[Activation]-> apoptotic process	23162652	0																																		
+PRL	S179D	PRL_HUMAN	CHAIN	Prolactin	apoptotic process	PRL -[Inhibition]-> apoptotic process	16169603	0																																		
+PRL	S179D	PRL_HUMAN	CHAIN	Prolactin	apoptotic process	PRL -[Inhibition]-> apoptotic process	17911340	0																																		
+PRL	S179D	PRL_HUMAN	CHAIN	Prolactin	cell cycle	PRL -[Activation]-> PRLR -[Activation]-> cell cycle	19739126	0																																		
+PRL	S179D	PRL_HUMAN	CHAIN	Prolactin	cell differentiation	PRL -[Activation]-> PRLR -[Activation]-> cell cycle -[Inhibition]-> cell differentiation	19739126	0																																		
+PRL	S179D	PRL_HUMAN	CHAIN	Prolactin	cell differentiation	PRL -[Activation]-> cell differentiation	16898268	0																																		
+PRL	S179D	PRL_HUMAN	CHAIN	Prolactin	cell growth	PRL -[Activation]-> PRLR -[Inhibition]-> cell growth	19739126	0																																		
+PRL	S179D	PRL_HUMAN	CHAIN	Prolactin	cell migration	PRL -[Activation]-> PRLR -[Inhibition]-> cell growth -[Activation]-> cell migration	19739126	0																																		
+PRL	S179D	PRL_HUMAN	CHAIN	Prolactin	cell population proliferation	PRL -[Inhibition]-> cell population proliferation	19739126	0																																		
+PRL	S179D	PRL_HUMAN	CHAIN	Prolactin	cell population proliferation	PRL -[Inhibition]-> cell population proliferation	20013077	0																																		
+PRL	S17D				apoptotic process	PRL -[Activation]-> apoptotic process	23162652	0																																		

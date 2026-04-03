@@ -1,0 +1,9 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+CHUK	K44A	IKKA_HUMAN	CHAIN;DOMAIN	;Protein kinase	apoptotic process	CHUK -[Inhibition]-> TNF -[Activation]-> apoptotic process	9244310	0																																		
+CHUK	K44M	IKKA_HUMAN	CHAIN;DOMAIN	;Protein kinase	cell differentiation	CHUK -[Inhibition]-> cell differentiation	24023802	0																																		
+CHUK	K44M	IKKA_HUMAN	CHAIN;DOMAIN	;Protein kinase	signal transduction	CHUK -[Activation]-> extracellular matrix -[Activation]-> signal transduction	24023802	0																																		
+CHUK	S176E	IKKA_HUMAN	CHAIN;DOMAIN	;Protein kinase	Superinfection	CHUK -[Phosphorylation]-> IRF7 -[Activation]-> Superinfection	21490621	0																																		
+CHUK	S176E	IKKA_HUMAN	CHAIN;DOMAIN	;Protein kinase	apoptotic process	CHUK -[Activation]-> IRF3 -[Activation]-> apoptotic process	21490621	0																																		
+CHUK	S176E	IKKA_HUMAN	CHAIN;DOMAIN	;Protein kinase	cell cycle	CHUK -[Phosphorylation]-> IRF7 -[IncreaseAmount]-> IRF1 -[Activation]-> cell cycle	21490621	0																																		
+CHUK	S176E	IKKA_HUMAN	CHAIN;DOMAIN	;Protein kinase	transcription, DNA-templated	CHUK -[Phosphorylation]-> IRF7 -[Complex]-> MAFB -[Inhibition]-> transcription, DNA-templated	21490621	0																																		
+CHUK	S176E	IKKA_HUMAN	CHAIN;DOMAIN	;Protein kinase	type I interferon receptor binding	CHUK -[Activation]-> IRF3 -[Activation]-> type I interferon receptor binding	21490621	0																																		

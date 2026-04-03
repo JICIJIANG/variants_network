@@ -1,0 +1,15 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+GATA1	K137R	GATA1_HUMAN	CHAIN	Erythroid transcription factor	cell differentiation	GATA1 -[Complex]-> ZFPM1 -[Inhibition]-> cell differentiation	20064464	0																																		
+GATA1	S161A	GATA1_HUMAN	CHAIN	Erythroid transcription factor	Breast Neoplasms	GATA1 -[Activation]-> Breast Neoplasms	25726523	0																																		
+GATA1	S161A	GATA1_HUMAN	CHAIN	Erythroid transcription factor	Neoplasm Invasiveness	GATA1 -[Activation]-> Neoplasm Invasiveness	25726523	0																																		
+GATA1	S161A	GATA1_HUMAN	CHAIN	Erythroid transcription factor	Neoplasm Metastasis	GATA1 -[Activation]-> Neoplasm Metastasis	25726523	0																																		
+GATA1	S161A	GATA1_HUMAN	CHAIN	Erythroid transcription factor	cell migration	GATA1 -[Activation]-> cell migration	25726523	0																																		
+GATA1	S161A	GATA1_HUMAN	CHAIN	Erythroid transcription factor	epithelial to mesenchymal transition	GATA1 -[Activation]-> epithelial to mesenchymal transition	25726523	0																																		
+GATA1	S187A	GATA1_HUMAN	CHAIN	Erythroid transcription factor	Breast Neoplasms	GATA1 -[Activation]-> Breast Neoplasms	25726523	0																																		
+GATA1	S187A	GATA1_HUMAN	CHAIN	Erythroid transcription factor	Neoplasm Invasiveness	GATA1 -[Activation]-> Neoplasm Invasiveness	25726523	0																																		
+GATA1	S187A	GATA1_HUMAN	CHAIN	Erythroid transcription factor	Neoplasm Metastasis	GATA1 -[Activation]-> Neoplasm Metastasis	25726523	0																																		
+GATA1	S187A	GATA1_HUMAN	CHAIN	Erythroid transcription factor	cell migration	GATA1 -[Activation]-> cell migration	25726523	0																																		
+GATA1	S187A	GATA1_HUMAN	CHAIN	Erythroid transcription factor	epithelial to mesenchymal transition	GATA1 -[Activation]-> epithelial to mesenchymal transition	25726523	0																																		
+GATA1	S26E	GATA1_HUMAN	CHAIN	Erythroid transcription factor	Cell Survival	GATA1 -[Activation]-> Cell Survival	23717580	0																																		
+GATA1	S26E	GATA1_HUMAN	CHAIN	Erythroid transcription factor	apoptotic process	GATA1 -[Inhibition]-> apoptotic process	23717580	0																																		
+GATA1	V205G	GATA1_HUMAN	CHAIN;ZN_FING;REGION;REGION	Erythroid transcription factor;GATA-type 1;Interaction with MED1 and CCAR1;Required for interaction with ZFPM1	cell differentiation	GATA1 -[Activation]-> cell differentiation	10078204	0																																		

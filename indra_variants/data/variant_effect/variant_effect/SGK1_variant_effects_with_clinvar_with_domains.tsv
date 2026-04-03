@@ -1,0 +1,28 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+SGK1	K127N	SGK1_HUMAN	CHAIN;DOMAIN	Serine/threonine-protein kinase Sgk1;Protein kinase	transport	SGK1 -[Activation]-> transport	15737648	0																																		
+SGK1	K127N	SGK1_HUMAN	CHAIN;DOMAIN	Serine/threonine-protein kinase Sgk1;Protein kinase	transport	SGK1 -[Activation]-> transport	16036218	0																																		
+SGK1	K127N	SGK1_HUMAN	CHAIN;DOMAIN	Serine/threonine-protein kinase Sgk1;Protein kinase	transport	SGK1 -[Activation]-> transport	17570343	0																																		
+SGK1	S422D	SGK1_HUMAN	CHAIN;DOMAIN	Serine/threonine-protein kinase Sgk1;AGC-kinase C-terminal	Hydrogen-Ion Concentration	SGK1 -[Phosphorylation]-> SLC9A1 -[Activation]-> Hydrogen-Ion Concentration	27517916	0																																		
+SGK1	S422D	SGK1_HUMAN	CHAIN;DOMAIN	Serine/threonine-protein kinase Sgk1;AGC-kinase C-terminal	autophagy	SGK1 -[Inhibition]-> autophagy	30929899	0																																		
+SGK1	S422D	SGK1_HUMAN	CHAIN;DOMAIN	Serine/threonine-protein kinase Sgk1;AGC-kinase C-terminal	cell death	SGK1 -[Activation]-> cell death	12488318	0																																		
+SGK1	S422D	SGK1_HUMAN	CHAIN;DOMAIN	Serine/threonine-protein kinase Sgk1;AGC-kinase C-terminal	gene expression	SGK1 -[Activation]-> morphine -[Activation]-> gene expression	31964652	0																																		
+SGK1	S422D	SGK1_HUMAN	CHAIN;DOMAIN	Serine/threonine-protein kinase Sgk1;AGC-kinase C-terminal	homeostatic process	SGK1 -[Activation]-> homeostatic process	27517916	0																																		
+SGK1	S422D	SGK1_HUMAN	CHAIN;DOMAIN	Serine/threonine-protein kinase Sgk1;AGC-kinase C-terminal	ligand-gated sodium channel activity	SGK1 -[Activation]-> ligand-gated sodium channel activity	20730100	0																																		
+SGK1	S422D	SGK1_HUMAN	CHAIN;DOMAIN	Serine/threonine-protein kinase Sgk1;AGC-kinase C-terminal	long-term synaptic depression	SGK1 -[Activation]-> morphine -[Inhibition]-> long-term synaptic depression	31964652	0																																		
+SGK1	S422D	SGK1_HUMAN	CHAIN;DOMAIN	Serine/threonine-protein kinase Sgk1;AGC-kinase C-terminal	long-term synaptic potentiation	SGK1 -[Activation]-> morphine -[Activation]-> long-term synaptic potentiation	31964652	0																																		
+SGK1	S422D	SGK1_HUMAN	CHAIN;DOMAIN	Serine/threonine-protein kinase Sgk1;AGC-kinase C-terminal	proteolysis	SGK1 -[Inhibition]-> proteolysis	30929899	0																																		
+SGK1	S422D	SGK1_HUMAN	CHAIN;DOMAIN	Serine/threonine-protein kinase Sgk1;AGC-kinase C-terminal	sensitization	SGK1 -[Activation]-> sensitization	31964652	0																																		
+SGK1	S422D	SGK1_HUMAN	CHAIN;DOMAIN	Serine/threonine-protein kinase Sgk1;AGC-kinase C-terminal	transcription, DNA-templated	SGK1 -[Inhibition]-> transcription, DNA-templated	12488318	0																																		
+SGK1	S422D	SGK1_HUMAN	CHAIN;DOMAIN	Serine/threonine-protein kinase Sgk1;AGC-kinase C-terminal	transport	SGK1 -[Activation]-> hASCT2 -[Activation]-> transport	15845389	0																																		
+SGK1	S422D	SGK1_HUMAN	CHAIN;DOMAIN	Serine/threonine-protein kinase Sgk1;AGC-kinase C-terminal	transport	SGK1 -[Activation]-> transport	16036218	0																																		
+SGK1	S422D	SGK1_HUMAN	CHAIN;DOMAIN	Serine/threonine-protein kinase Sgk1;AGC-kinase C-terminal	transport	SGK1 -[Activation]-> transport	17382906	0																																		
+SGK1	S422D	SGK1_HUMAN	CHAIN;DOMAIN	Serine/threonine-protein kinase Sgk1;AGC-kinase C-terminal	transport	SGK1 -[Activation]-> transport	17570343	0																																		
+SGK1	S422D	SGK1_HUMAN	CHAIN;DOMAIN	Serine/threonine-protein kinase Sgk1;AGC-kinase C-terminal	transport	SGK1 -[Activation]-> transport	27517916	0																																		
+SGK1	S425D	SGK1_HUMAN	CHAIN;DOMAIN	Serine/threonine-protein kinase Sgk1;AGC-kinase C-terminal	Hydrogen-Ion Concentration	SGK1 -[Phosphorylation]-> SLC9A1 -[Activation]-> Hydrogen-Ion Concentration	27517916	0																																		
+SGK1	S425D	SGK1_HUMAN	CHAIN;DOMAIN	Serine/threonine-protein kinase Sgk1;AGC-kinase C-terminal	homeostatic process	SGK1 -[Activation]-> homeostatic process	27517916	0																																		
+SGK1	S425D	SGK1_HUMAN	CHAIN;DOMAIN	Serine/threonine-protein kinase Sgk1;AGC-kinase C-terminal	transport	SGK1 -[Activation]-> transport	27517916	0																																		
+SGK1	S442D				Cystic Fibrosis	SGK1 -[Activation]-> dexamethasone -[Inhibition]-> Cystic Fibrosis	24586903	0																																		
+SGK1	S442D				endocytosis	SGK1 -[Activation]-> endocytosis	24586903	0																																		
+SGK1	S442D				inflammatory response	SGK1 -[Activation]-> dexamethasone -[Activation]-> inflammatory response	24586903	0																																		
+SGK1	T256D	SGK1_HUMAN	CHAIN;DOMAIN	Serine/threonine-protein kinase Sgk1;Protein kinase	cell death	SGK1 -[Activation]-> cell death	12488318	0																																		
+SGK1	T256D	SGK1_HUMAN	CHAIN;DOMAIN	Serine/threonine-protein kinase Sgk1;Protein kinase	transcription, DNA-templated	SGK1 -[Inhibition]-> transcription, DNA-templated	12488318	0																																		

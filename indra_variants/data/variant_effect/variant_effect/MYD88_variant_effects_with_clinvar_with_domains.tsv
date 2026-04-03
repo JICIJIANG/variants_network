@@ -1,0 +1,71 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+MYD88	L252P	MYD88_HUMAN	CHAIN;DOMAIN	;TIR	cell differentiation	MYD88 -[Activation]-> cell differentiation	34017329	1	45735	single nucleotide variant	NM_002468.5(MYD88):c.755T>C (p.Leu252Pro)	387907272	Macroglobulinemia, Waldenstrom, somatic	Uncertain significance	1.0	Pyogenic bacterial infections due to MyD88 deficiency			Malignant lymphoma, large B-cell, diffuse			Neoplasm																				
+MYD88	L252P	MYD88_HUMAN	CHAIN;DOMAIN	;TIR	cell population proliferation	MYD88 -[Activation]-> cell population proliferation	33343574	1	45735	single nucleotide variant	NM_002468.5(MYD88):c.755T>C (p.Leu252Pro)	387907272	Macroglobulinemia, Waldenstrom, somatic	Uncertain significance	1.0	Pyogenic bacterial infections due to MyD88 deficiency			Malignant lymphoma, large B-cell, diffuse			Neoplasm																				
+MYD88	L256P	MYD88_HUMAN	CHAIN;DOMAIN	;TIR	cell differentiation	MYD88 -[Activation]-> cell differentiation	22421786	0																																		
+MYD88	L256P	MYD88_HUMAN	CHAIN;DOMAIN	;TIR	immune response	MYD88 -[Activation]-> immune response	22421786	0																																		
+MYD88	L265P	MYD88_HUMAN	CHAIN;DOMAIN	;TIR	Anemia	MYD88 -[Activation]-> Anemia	30234111	0																																		
+MYD88	L265P	MYD88_HUMAN	CHAIN;DOMAIN	;TIR	Carcinoma, Hepatocellular	MYD88 -[Activation]-> Carcinoma, Hepatocellular	30234111	0																																		
+MYD88	L265P	MYD88_HUMAN	CHAIN;DOMAIN	;TIR	Cell Survival	MYD88 -[Activation]-> Cell Survival	23378931	0																																		
+MYD88	L265P	MYD88_HUMAN	CHAIN;DOMAIN	;TIR	Cell Survival	MYD88 -[Activation]-> Cell Survival	24531446	0																																		
+MYD88	L265P	MYD88_HUMAN	CHAIN;DOMAIN	;TIR	Cell Survival	MYD88 -[Activation]-> Cell Survival	25290089	0																																		
+MYD88	L265P	MYD88_HUMAN	CHAIN;DOMAIN	;TIR	Cell Survival	MYD88 -[Activation]-> Cell Survival	26352266	0																																		
+MYD88	L265P	MYD88_HUMAN	CHAIN;DOMAIN	;TIR	Cell Survival	MYD88 -[Activation]-> Cell Survival	27733853	0																																		
+MYD88	L265P	MYD88_HUMAN	CHAIN;DOMAIN	;TIR	Cell Survival	MYD88 -[Activation]-> Cell Survival	28617062	0																																		
+MYD88	L265P	MYD88_HUMAN	CHAIN;DOMAIN	;TIR	Cell Survival	MYD88 -[Activation]-> Cell Survival	30989098	0																																		
+MYD88	L265P	MYD88_HUMAN	CHAIN;DOMAIN	;TIR	Cell Survival	MYD88 -[Activation]-> Cell Survival	33735664	0																																		
+MYD88	L265P	MYD88_HUMAN	CHAIN;DOMAIN	;TIR	Death	MYD88 -[Activation]-> IFNB1 -[Inhibition]-> Death	22698399	0																																		
+MYD88	L265P	MYD88_HUMAN	CHAIN;DOMAIN	;TIR	Death	MYD88 -[Activation]-> NFkappaB -[Complex]-> ibrutinib -[Activation]-> Death	33154951	0																																		
+MYD88	L265P	MYD88_HUMAN	CHAIN;DOMAIN	;TIR	Disease	MYD88 -[Activation]-> Disease	37451134	0																																		
+MYD88	L265P	MYD88_HUMAN	CHAIN;DOMAIN	;TIR	Genomic Instability	MYD88 -[Activation]-> BTK -[Activation]-> Genomic Instability	28617062	0																																		
+MYD88	L265P	MYD88_HUMAN	CHAIN;DOMAIN	;TIR	Lymphoma	MYD88 -[Activation]-> Lymphoma	30301877	0																																		
+MYD88	L265P	MYD88_HUMAN	CHAIN;DOMAIN	;TIR	Lymphoma, Non-Hodgkin	MYD88 -[Activation]-> Lymphoma, Non-Hodgkin	30301877	0																																		
+MYD88	L265P	MYD88_HUMAN	CHAIN;DOMAIN	;TIR	Neoplasms	MYD88 -[Activation]-> NFkappaB -[Phosphorylation]-> BTK -[Activation]-> Neoplasms	33122850	0																																		
+MYD88	L265P	MYD88_HUMAN	CHAIN;DOMAIN	;TIR	Transcriptional Activation	MYD88 -[Activation]-> HIF1A -[Activation]-> Transcriptional Activation	33597599	0																																		
+MYD88	L265P	MYD88_HUMAN	CHAIN;DOMAIN	;TIR	apoptotic process	MYD88 -[Activation]-> Interferon -[Activation]-> apoptotic process	22698399	0																																		
+MYD88	L265P	MYD88_HUMAN	CHAIN;DOMAIN	;TIR	apoptotic process	MYD88 -[Activation]-> NFkappaB -[Activation]-> BCL2 -[Inhibition]-> apoptotic process	24534189	0																																		
+MYD88	L265P	MYD88_HUMAN	CHAIN;DOMAIN	;TIR	apoptotic process	MYD88 -[Activation]-> NFkappaB -[Complex]-> ibrutinib -[Inhibition]-> apoptotic process	33154951	0																																		
+MYD88	L265P	MYD88_HUMAN	CHAIN;DOMAIN	;TIR	apoptotic process	MYD88 -[Activation]-> PI3K -[Activation]-> apoptotic process	28617062	0																																		
+MYD88	L265P	MYD88_HUMAN	CHAIN;DOMAIN	;TIR	apoptotic process	MYD88 -[Activation]-> apoptotic process	28701369	0																																		
+MYD88	L265P	MYD88_HUMAN	CHAIN;DOMAIN	;TIR	apoptotic process	MYD88 -[Complex]-> BTK -[Inhibition]-> apoptotic process	23836557	0																																		
+MYD88	L265P	MYD88_HUMAN	CHAIN;DOMAIN	;TIR	apoptotic process	MYD88 -[Inhibition]-> CXCR4 -[Activation]-> ibrutinib -[Activation]-> apoptotic process	25371371	0																																		
+MYD88	L265P	MYD88_HUMAN	CHAIN;DOMAIN	;TIR	apoptotic process	MYD88 -[Inhibition]-> NFkappaB -[Inhibition]-> apoptotic process	22224767	0																																		
+MYD88	L265P	MYD88_HUMAN	CHAIN;DOMAIN	;TIR	apoptotic process	MYD88 -[Inhibition]-> apoptotic process	25290089	0																																		
+MYD88	L265P	MYD88_HUMAN	CHAIN;DOMAIN	;TIR	cell cycle	MYD88 -[Activation]-> Interferon -[Activation]-> cell cycle	22698399	0																																		
+MYD88	L265P	MYD88_HUMAN	CHAIN;DOMAIN	;TIR	cell death	MYD88 -[Activation]-> IFNB1 -[Activation]-> cell death	22698399	0																																		
+MYD88	L265P	MYD88_HUMAN	CHAIN;DOMAIN	;TIR	cell death	MYD88 -[Inhibition]-> cell death	27733853	0																																		
+MYD88	L265P	MYD88_HUMAN	CHAIN;DOMAIN	;TIR	cell development	MYD88 -[Inhibition]-> NFkappaB -[Activation]-> IRF4 -[Activation]-> PRDM1 -[Activation]-> cell development	22224767	0																																		
+MYD88	L265P	MYD88_HUMAN	CHAIN;DOMAIN	;TIR	cell differentiation	MYD88 -[Activation]-> abacavir -[Activation]-> NFkappaB -[IncreaseAmount]-> IRF4 -[Activation]-> cell differentiation	31402495	0																																		
+MYD88	L265P	MYD88_HUMAN	CHAIN;DOMAIN	;TIR	cell differentiation	MYD88 -[Activation]-> abacavir -[Activation]-> cell differentiation	22435566	0																																		
+MYD88	L265P	MYD88_HUMAN	CHAIN;DOMAIN	;TIR	cell differentiation	MYD88 -[Activation]-> cell differentiation	28701369	0																																		
+MYD88	L265P	MYD88_HUMAN	CHAIN;DOMAIN	;TIR	cell growth	MYD88 -[Activation]-> NFkappaB -[Inhibition]-> cell growth	27733853	0																																		
+MYD88	L265P	MYD88_HUMAN	CHAIN;DOMAIN	;TIR	cell growth	MYD88 -[Activation]-> TLR -[Inhibition]-> cell growth	25132836	0																																		
+MYD88	L265P	MYD88_HUMAN	CHAIN;DOMAIN	;TIR	cell population proliferation	MYD88 -[Activation]-> MAP3K7 -[Activation]-> cell population proliferation	24531446	0																																		
+MYD88	L265P	MYD88_HUMAN	CHAIN;DOMAIN	;TIR	cell population proliferation	MYD88 -[Activation]-> NFkappaB -[Activation]-> cell population proliferation	22435566	0																																		
+MYD88	L265P	MYD88_HUMAN	CHAIN;DOMAIN	;TIR	cell population proliferation	MYD88 -[Activation]-> NFkappaB -[Complex]-> ibrutinib -[Inhibition]-> cell population proliferation	33154951	0																																		
+MYD88	L265P	MYD88_HUMAN	CHAIN;DOMAIN	;TIR	cell population proliferation	MYD88 -[Activation]-> cell population proliferation	24534189	0																																		
+MYD88	L265P	MYD88_HUMAN	CHAIN;DOMAIN	;TIR	cell population proliferation	MYD88 -[Activation]-> cell population proliferation	25132836	0																																		
+MYD88	L265P	MYD88_HUMAN	CHAIN;DOMAIN	;TIR	cell population proliferation	MYD88 -[Activation]-> cell population proliferation	28096240	0																																		
+MYD88	L265P	MYD88_HUMAN	CHAIN;DOMAIN	;TIR	cell population proliferation	MYD88 -[Activation]-> cell population proliferation	28241765	0																																		
+MYD88	L265P	MYD88_HUMAN	CHAIN;DOMAIN	;TIR	cell population proliferation	MYD88 -[Activation]-> cell population proliferation	28701369	0																																		
+MYD88	L265P	MYD88_HUMAN	CHAIN;DOMAIN	;TIR	cell population proliferation	MYD88 -[Activation]-> cell population proliferation	30301877	0																																		
+MYD88	L265P	MYD88_HUMAN	CHAIN;DOMAIN	;TIR	cell population proliferation	MYD88 -[Activation]-> cell population proliferation	31402495	0																																		
+MYD88	L265P	MYD88_HUMAN	CHAIN;DOMAIN	;TIR	cell population proliferation	MYD88 -[Activation]-> cell population proliferation	33343574	0																																		
+MYD88	L265P	MYD88_HUMAN	CHAIN;DOMAIN	;TIR	cellular senescence	MYD88 -[Activation]-> TP53 -[Activation]-> cellular senescence	33597599	0																																		
+MYD88	L265P	MYD88_HUMAN	CHAIN;DOMAIN	;TIR	glucose metabolic process	MYD88 -[Activation]-> HIF1A -[Activation]-> glucose metabolic process	33597599	0																																		
+MYD88	L265P	MYD88_HUMAN	CHAIN;DOMAIN	;TIR	glycolytic process	MYD88 -[Activation]-> glycolytic process	33597599	0																																		
+MYD88	L265P	MYD88_HUMAN	CHAIN;DOMAIN	;TIR	inflammatory response	MYD88 -[Activation]-> PSD4 -[Activation]-> inflammatory response	33597599	0																																		
+MYD88	L265P	MYD88_HUMAN	CHAIN;DOMAIN	;TIR	localization	MYD88 -[Complex]-> BTK -[Activation]-> localization	29455639	0																																		
+MYD88	L265P	MYD88_HUMAN	CHAIN;DOMAIN	;TIR	paracrine signaling	MYD88 -[Activation]-> paracrine signaling	24531446	0																																		
+MYD88	L265P	MYD88_HUMAN	CHAIN;DOMAIN	;TIR	plasma cell differentiation	MYD88 -[Activation]-> abacavir -[Activation]-> NFkappaB -[IncreaseAmount]-> IRF4 -[Activation]-> plasma cell differentiation	31402495	0																																		
+MYD88	L265P	MYD88_HUMAN	CHAIN;DOMAIN	;TIR	response to iron ion	MYD88 -[Activation]-> HAMP -[Activation]-> response to iron ion	30234111	0																																		
+MYD88	L265P	MYD88_HUMAN	CHAIN;DOMAIN	;TIR	transcription, DNA-templated	MYD88 -[Activation]-> NFkappaB -[Inhibition]-> transcription, DNA-templated	22435566	0																																		
+MYD88	L265P	MYD88_HUMAN	CHAIN;DOMAIN	;TIR	transcription, DNA-templated	MYD88 -[Activation]-> transcription, DNA-templated	28423722	0																																		
+MYD88	L265P	MYD88_HUMAN	CHAIN;DOMAIN	;TIR	transcription, DNA-templated	MYD88 -[Activation]-> transcription, DNA-templated	33597599	0																																		
+MYD88	L265P	MYD88_HUMAN	CHAIN;DOMAIN	;TIR	transcription, DNA-templated	MYD88 -[Complex]-> BTK -[Activation]-> transcription, DNA-templated	29455639	0																																		
+MYD88	L265P	MYD88_HUMAN	CHAIN;DOMAIN	;TIR	transcription, DNA-templated	MYD88 -[IncreaseAmount]-> SMAD4 -[Activation]-> transcription, DNA-templated	30234111	0																																		
+MYD88	L265P	MYD88_HUMAN	CHAIN;DOMAIN	;TIR	transcription, DNA-templated	MYD88 -[Inhibition]-> NFkappaB -[Activation]-> transcription, DNA-templated	22224767	0																																		
+MYD88	S222R	MYD88_HUMAN	CHAIN;DOMAIN	;TIR	Cell Survival	MYD88 -[Activation]-> Cell Survival	28617062	0																																		
+MYD88	S222R	MYD88_HUMAN	CHAIN;DOMAIN	;TIR	Genomic Instability	MYD88 -[Activation]-> BTK -[Activation]-> Genomic Instability	28617062	0																																		
+MYD88	S222R	MYD88_HUMAN	CHAIN;DOMAIN	;TIR	apoptotic process	MYD88 -[Activation]-> PI3K -[Activation]-> apoptotic process	28617062	0																																		
+MYD88	S34Y	MYD88_HUMAN	CHAIN		adaptive immune response	MYD88 -[Inhibition]-> Leu-Met -[Activation]-> Interferon -[Inhibition]-> adaptive immune response	28002492	0																																		
+MYD88	S34Y	MYD88_HUMAN	CHAIN		transcription, DNA-templated	MYD88 -[Inhibition]-> transcription, DNA-templated	28002492	0																																		

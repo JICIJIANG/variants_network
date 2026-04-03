@@ -1,0 +1,7 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+ENPP1	A104E	ENPP1_HUMAN	CHAIN;CHAIN;DOMAIN	;;SMB 1	beta-lactamase activity	ENPP1 -[Complex]-> Beta-lactamase inhibitory protein -[Inhibition]-> beta-lactamase activity	21238457	0																																		
+ENPP1	K121Q	ENPP1_HUMAN	CHAIN;CHAIN;DOMAIN	;;SMB 1	Diabetic Nephropathies	ENPP1 -[Inhibition]-> Diabetic Nephropathies	25794151	0																																		
+ENPP1	K121Q	ENPP1_HUMAN	CHAIN;CHAIN;DOMAIN	;;SMB 1	Insulin Resistance	ENPP1 -[Inhibition]-> Insulin Resistance	25794151	0																																		
+ENPP1	K296R	ENPP1_HUMAN	CHAIN;CHAIN;REGION	;;Phosphodiesterase	Cell Survival	ENPP1 -[Activation]-> EIF2AK2 -[Activation]-> Cell Survival	28904368	0																																		
+ENPP1	K296R	ENPP1_HUMAN	CHAIN;CHAIN;REGION	;;Phosphodiesterase	apoptotic process	ENPP1 -[Inhibition]-> apoptotic process	28904368	0																																		
+ENPP1	K296R	ENPP1_HUMAN	CHAIN;CHAIN;REGION	;;Phosphodiesterase	cell population proliferation	ENPP1 -[Inhibition]-> cell population proliferation	28904368	0																																		

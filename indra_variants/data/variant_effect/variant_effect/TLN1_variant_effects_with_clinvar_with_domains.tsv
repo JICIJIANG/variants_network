@@ -1,0 +1,22 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+TLN1	L325R	TLN1_HUMAN	CHAIN;DOMAIN;REGION	Talin-1;FERM;Interaction with LAYN	MAPK cascade	TLN1 -[Activation]-> integrin activation -[Inhibition]-> MAPK cascade	33113074	0																																		
+TLN1	L325R	TLN1_HUMAN	CHAIN;DOMAIN;REGION	Talin-1;FERM;Interaction with LAYN	Neoplasms	TLN1 -[Inhibition]-> Neoplasms	33113074	0																																		
+TLN1	L325R	TLN1_HUMAN	CHAIN;DOMAIN;REGION	Talin-1;FERM;Interaction with LAYN	angiogenesis	TLN1 -[Inhibition]-> angiogenesis	33113074	0																																		
+TLN1	L325R	TLN1_HUMAN	CHAIN;DOMAIN;REGION	Talin-1;FERM;Interaction with LAYN	cell adhesion	TLN1 -[Activation]-> Integrins -[Activation]-> cell adhesion	33113074	0																																		
+TLN1	L325R	TLN1_HUMAN	CHAIN;DOMAIN;REGION	Talin-1;FERM;Interaction with LAYN	cell adhesion	TLN1 -[Activation]-> cell adhesion	33157226	0																																		
+TLN1	L325R	TLN1_HUMAN	CHAIN;DOMAIN;REGION	Talin-1;FERM;Interaction with LAYN	focal adhesion assembly	TLN1 -[Activation]-> focal adhesion assembly	33157226	0																																		
+TLN1	L325R	TLN1_HUMAN	CHAIN;DOMAIN;REGION	Talin-1;FERM;Interaction with LAYN	gene expression	TLN1 -[Inhibition]-> Integrins -[Activation]-> gene expression	33157226	0																																		
+TLN1	L325R	TLN1_HUMAN	CHAIN;DOMAIN;REGION	Talin-1;FERM;Interaction with LAYN	inflammatory response	TLN1 -[Inhibition]-> inflammatory response	33157226	0																																		
+TLN1	L325R	TLN1_HUMAN	CHAIN;DOMAIN;REGION	Talin-1;FERM;Interaction with LAYN	integrin activation	TLN1 -[Activation]-> integrin activation	33113074	0																																		
+TLN1	L325R	TLN1_HUMAN	CHAIN;DOMAIN;REGION	Talin-1;FERM;Interaction with LAYN	integrin activation	TLN1 -[Inhibition]-> integrin activation	37598341	0																																		
+TLN1	S425A	TLN1_HUMAN	CHAIN;REGION	Talin-1;Interaction with LAYN	Neoplasm Metastasis	TLN1 -[Activation]-> Neoplasm Metastasis	24793790	0																																		
+TLN1	S425A	TLN1_HUMAN	CHAIN;REGION	Talin-1;Interaction with LAYN	Prostatic Neoplasms	TLN1 -[Activation]-> Prostatic Neoplasms	24793790	0																																		
+TLN1	S425A	TLN1_HUMAN	CHAIN;REGION	Talin-1;Interaction with LAYN	cell adhesion	TLN1 -[Activation]-> Integrins -[Activation]-> cell adhesion	24793790	0																																		
+TLN1	S425A	TLN1_HUMAN	CHAIN;REGION	Talin-1;Interaction with LAYN	cell adhesion	TLN1 -[Activation]-> cell adhesion	27915969	0																																		
+TLN1	S425A	TLN1_HUMAN	CHAIN;REGION	Talin-1;Interaction with LAYN	cell communication	TLN1 -[Inhibition]-> beta1 integrin -[Activation]-> cell communication	24793790	0																																		
+TLN1	S425A	TLN1_HUMAN	CHAIN;REGION	Talin-1;Interaction with LAYN	signal transduction	TLN1 -[Activation]-> Integrins -[Activation]-> signal transduction	24793790	0																																		
+TLN1	S425D	TLN1_HUMAN	CHAIN;REGION	Talin-1;Interaction with LAYN	Neoplasm Metastasis	TLN1 -[Activation]-> Neoplasm Metastasis	24793790	0																																		
+TLN1	S425D	TLN1_HUMAN	CHAIN;REGION	Talin-1;Interaction with LAYN	Prostatic Neoplasms	TLN1 -[Activation]-> Prostatic Neoplasms	24793790	0																																		
+TLN1	S425D	TLN1_HUMAN	CHAIN;REGION	Talin-1;Interaction with LAYN	cell adhesion	TLN1 -[Activation]-> Integrins -[Activation]-> cell adhesion	24793790	0																																		
+TLN1	S425D	TLN1_HUMAN	CHAIN;REGION	Talin-1;Interaction with LAYN	cell communication	TLN1 -[Inhibition]-> beta1 integrin -[Activation]-> cell communication	24793790	0																																		
+TLN1	S425D	TLN1_HUMAN	CHAIN;REGION	Talin-1;Interaction with LAYN	signal transduction	TLN1 -[Activation]-> Integrins -[Activation]-> signal transduction	24793790	0																																		

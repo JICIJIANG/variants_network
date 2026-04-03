@@ -1,0 +1,9 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+CASP9	C287A				apoptotic process	CASP9 -[Inhibition]-> apoptotic process	9390557	0																																		
+CASP9	C287A				cell death	CASP9 -[Complex]-> APAF1 -[Complex]-> BCL2 -[Activation]-> cell death	9390557	0																																		
+CASP9	C287A				chromosome segregation	CASP9 -[Activation]-> ACOD1 -[Activation]-> chromosome segregation	27230693	0																																		
+CASP9	C9I	CASP9_HUMAN	DOMAIN	CARD	Death_receptor	CASP9 -[Inhibition]-> Reactive Oxygen Species -[Activation]-> Death_receptor	26648189	0																																		
+CASP9	C9I	CASP9_HUMAN	DOMAIN	CARD	apoptotic process	CASP9 -[Activation]-> apoptotic process	26648189	0																																		
+CASP9	C9I	CASP9_HUMAN	DOMAIN	CARD	autophagy	CASP9 -[Activation]-> autophagy	26648189	0																																		
+CASP9	C9I	CASP9_HUMAN	DOMAIN	CARD	cell death	CASP9 -[Activation]-> cell death	26648189	0																																		
+CASP9	F390D	CASP9_HUMAN	CHAIN	Caspase-9 subunit p10	apoptotic process	CASP9 -[Activation]-> apoptotic process	12620239	0																																		

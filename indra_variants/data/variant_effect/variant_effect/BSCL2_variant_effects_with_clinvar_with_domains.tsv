@@ -1,0 +1,11 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+BSCL2	N88S	BSCL2_HUMAN	CHAIN	Seipin	Endoplasmic Reticulum Stress	BSCL2 -[Activation]-> Endoplasmic Reticulum Stress	35561676	0																																		
+BSCL2	N88S	BSCL2_HUMAN	CHAIN	Seipin	Lipodystrophy	BSCL2 -[Activation]-> Lipodystrophy	35561676	0																																		
+BSCL2	N88S	BSCL2_HUMAN	CHAIN	Seipin	Nervous System Diseases	BSCL2 -[Activation]-> endoplasmic reticulum -[Complex]-> RAB18 -[Inhibition]-> Nervous System Diseases	35561676	0																																		
+BSCL2	N88S	BSCL2_HUMAN	CHAIN	Seipin	Syndrome	BSCL2 -[Activation]-> endoplasmic reticulum -[Complex]-> RAB18 -[Inhibition]-> Syndrome	35561676	0																																		
+BSCL2	N88S	BSCL2_HUMAN	CHAIN	Seipin	translation	BSCL2 -[Activation]-> endoplasmic reticulum -[Activation]-> ZFYVE27 -[Complex]-> RAB7A -[Inhibition]-> translation	35561676	0																																		
+BSCL2	S90L	BSCL2_HUMAN	CHAIN	Seipin	Endoplasmic Reticulum Stress	BSCL2 -[Activation]-> Endoplasmic Reticulum Stress	35561676	0																																		
+BSCL2	S90L	BSCL2_HUMAN	CHAIN	Seipin	Lipodystrophy	BSCL2 -[Activation]-> Lipodystrophy	35561676	0																																		
+BSCL2	S90L	BSCL2_HUMAN	CHAIN	Seipin	Nervous System Diseases	BSCL2 -[Activation]-> endoplasmic reticulum -[Complex]-> RAB18 -[Inhibition]-> Nervous System Diseases	35561676	0																																		
+BSCL2	S90L	BSCL2_HUMAN	CHAIN	Seipin	Syndrome	BSCL2 -[Activation]-> endoplasmic reticulum -[Complex]-> RAB18 -[Inhibition]-> Syndrome	35561676	0																																		
+BSCL2	S90L	BSCL2_HUMAN	CHAIN	Seipin	translation	BSCL2 -[Activation]-> endoplasmic reticulum -[Activation]-> ZFYVE27 -[Complex]-> RAB7A -[Inhibition]-> translation	35561676	0																																		

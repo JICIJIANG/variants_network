@@ -1,0 +1,32 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+ANXA2	C9A	ANXA2_HUMAN	CHAIN;REGION	Annexin A2;S100A10-binding site	inflammatory response	ANXA2 -[Activation]-> Reactive Oxygen Species -[Activation]-> inflammatory response	27389701	0																																		
+ANXA2	K301A	ANXA2_HUMAN	CHAIN;REPEAT	Annexin A2;Annexin 4	Cell Survival	ANXA2 -[Activation]-> Cell Survival	32244350	0																																		
+ANXA2	K301A	ANXA2_HUMAN	CHAIN;REPEAT	Annexin A2;Annexin 4	Neoplasm Invasiveness	ANXA2 -[Activation]-> Neoplasm Invasiveness	32244350	0																																		
+ANXA2	K301A	ANXA2_HUMAN	CHAIN;REPEAT	Annexin A2;Annexin 4	Neoplasm Metastasis	ANXA2 -[IncreaseAmount]-> epithelial to mesenchymal transition -[Activation]-> Neoplasm Metastasis	32244350	0																																		
+ANXA2	K301A	ANXA2_HUMAN	CHAIN;REPEAT	Annexin A2;Annexin 4	cell motility	ANXA2 -[Activation]-> cell motility	32244350	0																																		
+ANXA2	K301A	ANXA2_HUMAN	CHAIN;REPEAT	Annexin A2;Annexin 4	epithelial to mesenchymal transition	ANXA2 -[IncreaseAmount]-> epithelial to mesenchymal transition	32244350	0																																		
+ANXA2	K301A	ANXA2_HUMAN	CHAIN;REPEAT	Annexin A2;Annexin 4	transcription, DNA-templated	ANXA2 -[IncreaseAmount]-> epithelial to mesenchymal transition -[Activation]-> transcription, DNA-templated	32244350	0																																		
+ANXA2	Y23A	ANXA2_HUMAN	CHAIN;REGION	Annexin A2;S100A10-binding site	Breast Neoplasms	ANXA2 -[Activation]-> Breast Neoplasms	26307676	0																																		
+ANXA2	Y23A	ANXA2_HUMAN	CHAIN;REGION	Annexin A2;S100A10-binding site	Carcinoma, Pancreatic Ductal	ANXA2 -[Inhibition]-> Carcinoma, Pancreatic Ductal	21572519	0																																		
+ANXA2	Y23A	ANXA2_HUMAN	CHAIN;REGION	Annexin A2;S100A10-binding site	Neoplasm Invasiveness	ANXA2 -[Activation]-> Neoplasm Invasiveness	21572519	0																																		
+ANXA2	Y23A	ANXA2_HUMAN	CHAIN;REGION	Annexin A2;S100A10-binding site	Neoplasm Invasiveness	ANXA2 -[Activation]-> Neoplasm Invasiveness	26243191	0																																		
+ANXA2	Y23A	ANXA2_HUMAN	CHAIN;REGION	Annexin A2;S100A10-binding site	Neoplasm Invasiveness	ANXA2 -[Activation]-> Neoplasm Invasiveness	26307676	0																																		
+ANXA2	Y23A	ANXA2_HUMAN	CHAIN;REGION	Annexin A2;S100A10-binding site	Neoplasm Metastasis	ANXA2 -[Activation]-> Neoplasm Metastasis	21572519	0																																		
+ANXA2	Y23A	ANXA2_HUMAN	CHAIN;REGION	Annexin A2;S100A10-binding site	Neoplasm Metastasis	ANXA2 -[Activation]-> Neoplasm Metastasis	26307676	0																																		
+ANXA2	Y23A	ANXA2_HUMAN	CHAIN;REGION	Annexin A2;S100A10-binding site	Neoplasm Metastasis	ANXA2 -[Activation]-> plasmin -[Activation]-> Neoplasm Metastasis	25611381	0																																		
+ANXA2	Y23A	ANXA2_HUMAN	CHAIN;REGION	Annexin A2;S100A10-binding site	Neoplasm Metastasis	ANXA2 -[Inhibition]-> SEMA3D -[Activation]-> Neoplasm Metastasis	26243191	0																																		
+ANXA2	Y23A	ANXA2_HUMAN	CHAIN;REGION	Annexin A2;S100A10-binding site	Tumor Microenvironment	ANXA2 -[Activation]-> Tumor Microenvironment	25611381	0																																		
+ANXA2	Y23A	ANXA2_HUMAN	CHAIN;REGION	Annexin A2;S100A10-binding site	angiogenesis	ANXA2 -[Activation]-> plasmin -[Activation]-> angiogenesis	25611381	0																																		
+ANXA2	Y23A	ANXA2_HUMAN	CHAIN;REGION	Annexin A2;S100A10-binding site	cell migration	ANXA2 -[Inhibition]-> cell migration	21572519	0																																		
+ANXA2	Y23A	ANXA2_HUMAN	CHAIN;REGION	Annexin A2;S100A10-binding site	cell migration	ANXA2 -[Inhibition]-> cell migration	26307676	0																																		
+ANXA2	Y23A	ANXA2_HUMAN	CHAIN;REGION	Annexin A2;S100A10-binding site	cell population proliferation	ANXA2 -[Activation]-> cell population proliferation	25611381	0																																		
+ANXA2	Y23A	ANXA2_HUMAN	CHAIN;REGION	Annexin A2;S100A10-binding site	epithelial to mesenchymal transition	ANXA2 -[Activation]-> epithelial to mesenchymal transition	21572519	0																																		
+ANXA2	Y23A	ANXA2_HUMAN	CHAIN;REGION	Annexin A2;S100A10-binding site	epithelial to mesenchymal transition	ANXA2 -[Activation]-> epithelial to mesenchymal transition	26307676	0																																		
+ANXA2	Y23A	ANXA2_HUMAN	CHAIN;REGION	Annexin A2;S100A10-binding site	immune response	ANXA2 -[Inhibition]-> 2'-deoxyadenosine 5'-monophosphate -[Activation]-> immune response	21572519	0																																		
+ANXA2	Y23A	ANXA2_HUMAN	CHAIN;REGION	Annexin A2;S100A10-binding site	localization	ANXA2 -[Activation]-> localization	21572519	0																																		
+ANXA2	Y23A	ANXA2_HUMAN	CHAIN;REGION	Annexin A2;S100A10-binding site	localization	ANXA2 -[Inhibition]-> localization	25611381	0																																		
+ANXA2	Y23D	ANXA2_HUMAN	CHAIN;REGION	Annexin A2;S100A10-binding site	Breast Neoplasms	ANXA2 -[Activation]-> Breast Neoplasms	26307676	0																																		
+ANXA2	Y23D	ANXA2_HUMAN	CHAIN;REGION	Annexin A2;S100A10-binding site	Neoplasm Invasiveness	ANXA2 -[Activation]-> Neoplasm Invasiveness	26307676	0																																		
+ANXA2	Y23D	ANXA2_HUMAN	CHAIN;REGION	Annexin A2;S100A10-binding site	Neoplasm Metastasis	ANXA2 -[Activation]-> Neoplasm Metastasis	26307676	0																																		
+ANXA2	Y23D	ANXA2_HUMAN	CHAIN;REGION	Annexin A2;S100A10-binding site	cell migration	ANXA2 -[Inhibition]-> cell migration	26307676	0																																		
+ANXA2	Y23D	ANXA2_HUMAN	CHAIN;REGION	Annexin A2;S100A10-binding site	epithelial to mesenchymal transition	ANXA2 -[Activation]-> epithelial to mesenchymal transition	26307676	0																																		

@@ -1,0 +1,13 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+ATG5	E122D	ATG5_HUMAN	CHAIN	Autophagy protein 5	autophagy	ATG5 -[Activation]-> autophagy	26812546	1	424475	single nucleotide variant	NM_004849.4(ATG5):c.366A>T (p.Glu122Asp)	1131692265	Spinocerebellar ataxia, autosomal recessive 25	Pathogenic	0.0																											
+ATG5	K130R	ATG5_HUMAN	CHAIN	Autophagy protein 5	Cell Survival	ATG5 -[Inhibition]-> autophagy -[Activation]-> Cell Survival	27655644	0																																		
+ATG5	K130R	ATG5_HUMAN	CHAIN	Autophagy protein 5	DNA Damage	ATG5 -[Activation]-> DNA Damage	27655644	0																																		
+ATG5	K130R	ATG5_HUMAN	CHAIN	Autophagy protein 5	Genomic Instability	ATG5 -[Inhibition]-> autophagy -[Inhibition]-> Genomic Instability	27655644	0																																		
+ATG5	K130R	ATG5_HUMAN	CHAIN	Autophagy protein 5	apoptotic process	ATG5 -[Inhibition]-> autophagy -[Inhibition]-> apoptotic process	19242639	0																																		
+ATG5	K130R	ATG5_HUMAN	CHAIN	Autophagy protein 5	autophagy	ATG5 -[Activation]-> autophagy	30874544	0																																		
+ATG5	K130R	ATG5_HUMAN	CHAIN	Autophagy protein 5	autophagy	ATG5 -[Inhibition]-> autophagy	19242639	0																																		
+ATG5	K130R	ATG5_HUMAN	CHAIN	Autophagy protein 5	autophagy	ATG5 -[Inhibition]-> autophagy	20559777	0																																		
+ATG5	K130R	ATG5_HUMAN	CHAIN	Autophagy protein 5	autophagy	ATG5 -[Inhibition]-> autophagy	27655644	0																																		
+ATG5	K130R	ATG5_HUMAN	CHAIN	Autophagy protein 5	cell cycle	ATG5 -[Activation]-> autophagy -[Inhibition]-> cell cycle	30874544	0																																		
+ATG5	K130R	ATG5_HUMAN	CHAIN	Autophagy protein 5	cell death	ATG5 -[Inhibition]-> autophagy -[Inhibition]-> cell death	19242639	0																																		
+ATG5	K130R	ATG5_HUMAN	CHAIN	Autophagy protein 5	inflammatory response	ATG5 -[Inhibition]-> inflammatory response	30874544	0																																		

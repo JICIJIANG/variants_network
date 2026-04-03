@@ -1,0 +1,8 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+KDM1B	E71A	KDM1B_HUMAN	CHAIN	Lysine-specific histone demethylase 2	Carcinogenesis	KDM1B -[Inhibition]-> Carcinogenesis	25773598	0																																		
+KDM1B	E71A	KDM1B_HUMAN	CHAIN	Lysine-specific histone demethylase 2	cell growth	KDM1B -[Inhibition]-> cell growth	25773598	0																																		
+KDM1B	E71A	KDM1B_HUMAN	CHAIN	Lysine-specific histone demethylase 2	transcription, DNA-templated	KDM1B -[Inhibition]-> transcription, DNA-templated	25773598	0																																		
+KDM1B	H667A	KDM1B_HUMAN	CHAIN	Lysine-specific histone demethylase 2	transcription, DNA-templated	KDM1B -[Inhibition]-> transcription, DNA-templated	20101264	0																																		
+KDM1B	R72A	KDM1B_HUMAN	CHAIN	Lysine-specific histone demethylase 2	Carcinogenesis	KDM1B -[Inhibition]-> Carcinogenesis	25773598	0																																		
+KDM1B	R72A	KDM1B_HUMAN	CHAIN	Lysine-specific histone demethylase 2	cell growth	KDM1B -[Inhibition]-> cell growth	25773598	0																																		
+KDM1B	R72A	KDM1B_HUMAN	CHAIN	Lysine-specific histone demethylase 2	transcription, DNA-templated	KDM1B -[Inhibition]-> transcription, DNA-templated	25773598	0																																		

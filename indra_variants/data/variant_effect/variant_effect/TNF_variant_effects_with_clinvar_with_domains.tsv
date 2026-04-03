@@ -1,0 +1,36 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+TNF	C1Q	TNFA_HUMAN	CHAIN;CHAIN;CHAIN	Tumor necrosis factor, membrane form;Intracellular domain 1;Intracellular domain 2	Neoplasm Invasiveness	TNF -[Activation]-> RXFP1 -[Activation]-> Neoplasm Invasiveness	26322020	0																																		
+TNF	C1Q	TNFA_HUMAN	CHAIN;CHAIN;CHAIN	Tumor necrosis factor, membrane form;Intracellular domain 1;Intracellular domain 2	apoptotic process	TNF -[Activation]-> apoptotic process	24212403	0																																		
+TNF	C1Q	TNFA_HUMAN	CHAIN;CHAIN;CHAIN	Tumor necrosis factor, membrane form;Intracellular domain 1;Intracellular domain 2	apoptotic process	TNF -[Activation]-> apoptotic process	31250712	0																																		
+TNF	C1Q	TNFA_HUMAN	CHAIN;CHAIN;CHAIN	Tumor necrosis factor, membrane form;Intracellular domain 1;Intracellular domain 2	apoptotic process	TNF -[Inhibition]-> hexadecanoic acid -[Activation]-> apoptotic process	26693510	0																																		
+TNF	C1Q	TNFA_HUMAN	CHAIN;CHAIN;CHAIN	Tumor necrosis factor, membrane form;Intracellular domain 1;Intracellular domain 2	cell differentiation	TNF -[Activation]-> cell differentiation	31250712	0																																		
+TNF	C1Q	TNFA_HUMAN	CHAIN;CHAIN;CHAIN	Tumor necrosis factor, membrane form;Intracellular domain 1;Intracellular domain 2	cell migration	TNF -[Activation]-> RXFP1 -[Activation]-> cell migration	26322020	0																																		
+TNF	C1Q	TNFA_HUMAN	CHAIN;CHAIN;CHAIN	Tumor necrosis factor, membrane form;Intracellular domain 1;Intracellular domain 2	cell population proliferation	TNF -[Activation]-> RXFP1 -[Inhibition]-> cell population proliferation	26322020	0																																		
+TNF	C1Q	TNFA_HUMAN	CHAIN;CHAIN;CHAIN	Tumor necrosis factor, membrane form;Intracellular domain 1;Intracellular domain 2	cell population proliferation	TNF -[Inhibition]-> cell population proliferation	26648301	0																																		
+TNF	E135A	TNFA_HUMAN	CHAIN;CHAIN;DOMAIN	Tumor necrosis factor, membrane form;Tumor necrosis factor, soluble form;THD	inflammatory response	TNF -[Activation]-> inflammatory response	28124979	0																																		
+TNF	G238A				Abortion, Spontaneous	TNF -[Activation]-> Abortion, Spontaneous	23202728	0																																		
+TNF	G308A				Arthritis, Rheumatoid	TNF -[Inhibition]-> Arthritis, Rheumatoid	19365401	0																																		
+TNF	G308A				Carcinoma, Hepatocellular	TNF -[Inhibition]-> Carcinoma, Hepatocellular	26408704	0																																		
+TNF	G308A				Colorectal Neoplasms	TNF -[Activation]-> Colorectal Neoplasms	28575042	0																																		
+TNF	G308A				Death	TNF -[Activation]-> Death	23608119	0																																		
+TNF	G308A				Dermatitis, Allergic Contact	TNF -[Complex]-> 1,4-phenylenediamine -[Activation]-> Dermatitis, Allergic Contact	18384449	0																																		
+TNF	G308A				Diabetes, Gestational	TNF -[Activation]-> Diabetes, Gestational	23254337	0																																		
+TNF	G308A				Premature Birth	TNF -[Activation]-> Premature Birth	25917437	0																																		
+TNF	G308A				cell population proliferation	TNF -[Activation]-> cell population proliferation	23608119	0																																		
+TNF	G308A				inflammatory response	TNF -[Complex]-> CRC -[Activation]-> inflammatory response	28575042	0																																		
+TNF	G308A				transcription, DNA-templated	TNF -[Activation]-> transcription, DNA-templated	22536381	0																																		
+TNF	L157K	TNFA_HUMAN	CHAIN;CHAIN;DOMAIN	Tumor necrosis factor, membrane form;Tumor necrosis factor, soluble form;THD	Death	TNF -[Activation]-> Death	25246614	0																																		
+TNF	L157K	TNFA_HUMAN	CHAIN;CHAIN;DOMAIN	Tumor necrosis factor, membrane form;Tumor necrosis factor, soluble form;THD	apoptotic process	TNF -[Activation]-> apoptotic process	25246614	0																																		
+TNF	L157K	TNFA_HUMAN	CHAIN;CHAIN;DOMAIN	Tumor necrosis factor, membrane form;Tumor necrosis factor, soluble form;THD	cell death	TNF -[Activation]-> cell death	25246614	0																																		
+TNF	R32W	TNFA_HUMAN	CHAIN;CHAIN;CHAIN	Tumor necrosis factor, membrane form;Intracellular domain 1;Intracellular domain 2	Death	TNF -[Inhibition]-> TNFRSF1A -[Activation]-> Death	22152226	0																																		
+TNF	R32W	TNFA_HUMAN	CHAIN;CHAIN;CHAIN	Tumor necrosis factor, membrane form;Intracellular domain 1;Intracellular domain 2	cell death	TNF -[Inhibition]-> TNFRSF1A -[Activation]-> cell death	22152226	0																																		
+TNF	R32W	TNFA_HUMAN	CHAIN;CHAIN;CHAIN	Tumor necrosis factor, membrane form;Intracellular domain 1;Intracellular domain 2	endocytosis	TNF -[Activation]-> endocytosis	22152226	0																																		
+TNF	R32W	TNFA_HUMAN	CHAIN;CHAIN;CHAIN	Tumor necrosis factor, membrane form;Intracellular domain 1;Intracellular domain 2	transcription, DNA-templated	TNF -[Inhibition]-> TNFRSF1A -[Activation]-> LTA -[Inhibition]-> LTalpha 3 -[Activation]-> transcription, DNA-templated	22152226	0																																		
+TNF	S86T	TNFA_HUMAN	CHAIN;CHAIN	Tumor necrosis factor, membrane form;Tumor necrosis factor, soluble form	Death	TNF -[Inhibition]-> TNFRSF1A -[Activation]-> Death	22152226	0																																		
+TNF	S86T	TNFA_HUMAN	CHAIN;CHAIN	Tumor necrosis factor, membrane form;Tumor necrosis factor, soluble form	cell death	TNF -[Inhibition]-> TNFRSF1A -[Activation]-> cell death	22152226	0																																		
+TNF	S86T	TNFA_HUMAN	CHAIN;CHAIN	Tumor necrosis factor, membrane form;Tumor necrosis factor, soluble form	endocytosis	TNF -[Activation]-> endocytosis	22152226	0																																		
+TNF	S86T	TNFA_HUMAN	CHAIN;CHAIN	Tumor necrosis factor, membrane form;Tumor necrosis factor, soluble form	transcription, DNA-templated	TNF -[Inhibition]-> TNFRSF1A -[Activation]-> LTA -[Inhibition]-> LTalpha 3 -[Activation]-> transcription, DNA-templated	22152226	0																																		
+TNF	T1031C				Abortion, Spontaneous	TNF -[Activation]-> Abortion, Spontaneous	23202728	0																																		
+TNF	V150E	TNFA_HUMAN	CHAIN;CHAIN;DOMAIN	Tumor necrosis factor, membrane form;Tumor necrosis factor, soluble form;THD	Death	TNF -[Activation]-> Death	25246614	0																																		
+TNF	V150E	TNFA_HUMAN	CHAIN;CHAIN;DOMAIN	Tumor necrosis factor, membrane form;Tumor necrosis factor, soluble form;THD	apoptotic process	TNF -[Activation]-> apoptotic process	25246614	0																																		
+TNF	V150E	TNFA_HUMAN	CHAIN;CHAIN;DOMAIN	Tumor necrosis factor, membrane form;Tumor necrosis factor, soluble form;THD	cell death	TNF -[Activation]-> cell death	25246614	0																																		

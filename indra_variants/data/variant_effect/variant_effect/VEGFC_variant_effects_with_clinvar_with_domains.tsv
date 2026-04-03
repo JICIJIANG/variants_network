@@ -1,0 +1,17 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+VEGFC	C152S	VEGFC_HUMAN	CHAIN	Vascular endothelial growth factor C	cell differentiation	VEGFC -[Activation]-> cell differentiation	15561887	0																																		
+VEGFC	C156S	VEGFC_HUMAN	CHAIN	Vascular endothelial growth factor C	Cicatrix	VEGFC -[Inhibition]-> Cicatrix	30371303	0																																		
+VEGFC	C156S	VEGFC_HUMAN	CHAIN	Vascular endothelial growth factor C	Neoplasm Metastasis	VEGFC -[Activation]-> FLT4 -[Activation]-> Neoplasm Metastasis	12086857	0																																		
+VEGFC	C156S	VEGFC_HUMAN	CHAIN	Vascular endothelial growth factor C	Neoplasm Metastasis	VEGFC -[Inhibition]-> Neoplasm Metastasis	18829538	0																																		
+VEGFC	C156S	VEGFC_HUMAN	CHAIN	Vascular endothelial growth factor C	angiogenesis	VEGFC -[Activation]-> EPN1 -[Activation]-> angiogenesis	25314967	0																																		
+VEGFC	C156S	VEGFC_HUMAN	CHAIN	Vascular endothelial growth factor C	angiogenesis	VEGFC -[Activation]-> angiogenesis	12086857	0																																		
+VEGFC	C156S	VEGFC_HUMAN	CHAIN	Vascular endothelial growth factor C	angiogenesis	VEGFC -[Phosphorylation]-> KDR -[Activation]-> angiogenesis	22223733	0																																		
+VEGFC	C156S	VEGFC_HUMAN	CHAIN	Vascular endothelial growth factor C	cell differentiation	VEGFC -[Activation]-> NFATC1 -[Activation]-> cell differentiation	19233265	0																																		
+VEGFC	C156S	VEGFC_HUMAN	CHAIN	Vascular endothelial growth factor C	cell population proliferation	VEGFC -[Activation]-> cell population proliferation	18829538	0																																		
+VEGFC	C156S	VEGFC_HUMAN	CHAIN	Vascular endothelial growth factor C	cell population proliferation	VEGFC -[Activation]-> cell population proliferation	19717640	0																																		
+VEGFC	C156S	VEGFC_HUMAN	CHAIN	Vascular endothelial growth factor C	cell population proliferation	VEGFC -[Activation]-> cell population proliferation	30371303	0																																		
+VEGFC	C156S	VEGFC_HUMAN	CHAIN	Vascular endothelial growth factor C	cell population proliferation	VEGFC -[Complex]-> VEGFD -[Activation]-> cell population proliferation	19233265	0																																		
+VEGFC	C156S	VEGFC_HUMAN	CHAIN	Vascular endothelial growth factor C	cell population proliferation	VEGFC -[Inhibition]-> cell population proliferation	19005491	0																																		
+VEGFC	C156S	VEGFC_HUMAN	CHAIN	Vascular endothelial growth factor C	inflammatory response	VEGFC -[Inhibition]-> inflammatory response	30371303	0																																		
+VEGFC	C156S	VEGFC_HUMAN	CHAIN	Vascular endothelial growth factor C	localization	VEGFC -[Activation]-> localization	19233265	0																																		
+VEGFC	R223E	VEGFC_HUMAN	CHAIN	Vascular endothelial growth factor C	cell population proliferation	VEGFC -[Activation]-> cell population proliferation	25752543	0																																		

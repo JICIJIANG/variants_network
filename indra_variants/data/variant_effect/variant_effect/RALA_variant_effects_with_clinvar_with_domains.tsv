@@ -1,0 +1,15 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+RALA	E38R	RALA_HUMAN	CHAIN	Ras-related protein Ral-A	localization	RALA -[Activation]-> ARHGEF2 -[Activation]-> localization	22898781	0																																		
+RALA	G23V	RALA_HUMAN	CHAIN	Ras-related protein Ral-A	endocytosis	RALA -[Activation]-> endocytosis	19823667	0																																		
+RALA	G23V	RALA_HUMAN	CHAIN	Ras-related protein Ral-A	exocytosis	RALA -[Activation]-> exocytosis	19823667	0																																		
+RALA	Q72L	RALA_HUMAN	CHAIN	Ras-related protein Ral-A	localization	RALA -[Activation]-> RCC2 -[Activation]-> localization	26158537	0																																		
+RALA	S28N	RALA_HUMAN	CHAIN	Ras-related protein Ral-A	Cell Survival	RALA -[Activation]-> Cell Survival	25220458	0																																		
+RALA	S28N	RALA_HUMAN	CHAIN	Ras-related protein Ral-A	GAP	RALA -[Complex]-> GAP	25220458	0																																		
+RALA	S28N	RALA_HUMAN	CHAIN	Ras-related protein Ral-A	Neoplasm Invasiveness	RALA -[Inhibition]-> EGF -[Inhibition]-> Neoplasm Invasiveness	12490304	0																																		
+RALA	S28N	RALA_HUMAN	CHAIN	Ras-related protein Ral-A	autophagy	RALA -[Activation]-> RALB -[Activation]-> autophagy	25220458	0																																		
+RALA	S28N	RALA_HUMAN	CHAIN	Ras-related protein Ral-A	cell population proliferation	RALA -[Activation]-> cell population proliferation	19414599	0																																		
+RALA	S28N	RALA_HUMAN	CHAIN	Ras-related protein Ral-A	cell population proliferation	RALA -[Activation]-> cell population proliferation	25220458	0																																		
+RALA	S28N	RALA_HUMAN	CHAIN	Ras-related protein Ral-A	endocytosis	RALA -[Activation]-> endocytosis	19823667	0																																		
+RALA	S28N	RALA_HUMAN	CHAIN	Ras-related protein Ral-A	exocytosis	RALA -[Activation]-> exocytosis	19823667	0																																		
+RALA	S28N	RALA_HUMAN	CHAIN	Ras-related protein Ral-A	immune response	RALA -[Activation]-> immune response	25220458	0																																		
+RALA	S28N	RALA_HUMAN	CHAIN	Ras-related protein Ral-A	signal transduction	RALA -[IncreaseAmount]-> CD44 -[Activation]-> signal transduction	11350063	0																																		

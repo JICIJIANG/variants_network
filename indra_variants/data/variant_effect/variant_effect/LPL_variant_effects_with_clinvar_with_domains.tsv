@@ -1,0 +1,12 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+LPL	C101A	LIPL_HUMAN	CHAIN	Lipoprotein lipase	Neoplasm Invasiveness	LPL -[Inhibition]-> Neoplasm Invasiveness	31501427	0																																		
+LPL	C101A	LIPL_HUMAN	CHAIN	Lipoprotein lipase	Neoplasm Metastasis	LPL -[Inhibition]-> Actin -[Activation]-> Neoplasm Metastasis	31501427	0																																		
+LPL	C101A	LIPL_HUMAN	CHAIN	Lipoprotein lipase	actin crosslink formation	LPL -[Activation]-> actin crosslink formation	31501427	0																																		
+LPL	C101A	LIPL_HUMAN	CHAIN	Lipoprotein lipase	cell migration	LPL -[Inhibition]-> cell migration	31501427	0																																		
+LPL	C101A	LIPL_HUMAN	CHAIN	Lipoprotein lipase	transduction	LPL -[Activation]-> transduction	31501427	0																																		
+LPL	D9N				Diabetes Mellitus	LPL -[Activation]-> Diabetes Mellitus	17006673	0																																		
+LPL	D9N				Hypertension	LPL -[Activation]-> Hypertension	17006673	0																																		
+LPL	D9N				Myocardial Ischemia	LPL -[Activation]-> Myocardial Ischemia	17006673	0																																		
+LPL	L452H	LIPL_HUMAN	CHAIN;DOMAIN;REGION	Lipoprotein lipase;PLAT;Interaction with GPIHBP1	generation of precursor metabolites and energy	LPL -[Inhibition]-> generation of precursor metabolites and energy	24086538	0																																		
+LPL	N291S	LIPL_HUMAN	CHAIN	Lipoprotein lipase	Hypertriglyceridemia	LPL -[Activation]-> Hypertriglyceridemia	11140837	0																																		
+LPL	S5E				cell population proliferation	LPL -[Activation]-> cell population proliferation	24117812	0																																		

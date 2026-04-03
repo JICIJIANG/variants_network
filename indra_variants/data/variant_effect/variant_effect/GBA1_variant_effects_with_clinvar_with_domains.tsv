@@ -1,0 +1,14 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+GBA1	D409H	GBA1_HUMAN	CHAIN	Lysosomal acid glucosylceramidase	Endoplasmic Reticulum Stress	GBA1 -[Activation]-> Endoplasmic Reticulum Stress	29703245	0																																		
+GBA1	D409H	GBA1_HUMAN	CHAIN	Lysosomal acid glucosylceramidase	Gaucher Disease	GBA1 -[Activation]-> Gaucher Disease	29703245	0																																		
+GBA1	D409H	GBA1_HUMAN	CHAIN	Lysosomal acid glucosylceramidase	Movement Disorders	GBA1 -[Inhibition]-> α-synuclein -[Inhibition]-> dopamine -[Inhibition]-> Movement Disorders	29703245	0																																		
+GBA1	D409H	GBA1_HUMAN	CHAIN	Lysosomal acid glucosylceramidase	Parkinson Disease	GBA1 -[Activation]-> Parkinson Disease	29703245	0																																		
+GBA1	D409V	GBA1_HUMAN	CHAIN	Lysosomal acid glucosylceramidase	Parkinson Disease	GBA1 -[Activation]-> Parkinson Disease	28223512	0																																		
+GBA1	L444P	GBA1_HUMAN	CHAIN	Lysosomal acid glucosylceramidase	Gaucher Disease	GBA1 -[Inhibition]-> Gaucher Disease	36745788	0																																		
+GBA1	L444P	GBA1_HUMAN	CHAIN	Lysosomal acid glucosylceramidase	Parkinson Disease	GBA1 -[Inhibition]-> Parkinson Disease	29310663	0																																		
+GBA1	L444P	GBA1_HUMAN	CHAIN	Lysosomal acid glucosylceramidase	Tuberculosis	GBA1 -[Activation]-> Tuberculosis	36745788	0																																		
+GBA1	L444P	GBA1_HUMAN	CHAIN	Lysosomal acid glucosylceramidase	apoptotic process	GBA1 -[Inhibition]-> apoptotic process	23339312	0																																		
+GBA1	L444P	GBA1_HUMAN	CHAIN	Lysosomal acid glucosylceramidase	autophagy	GBA1 -[Inhibition]-> autophagy	30160596	0																																		
+GBA1	L444P	GBA1_HUMAN	CHAIN	Lysosomal acid glucosylceramidase	transport	GBA1 -[DecreaseAmount]-> SNCA -[Inhibition]-> transport	29310663	0																																		
+GBA1	N370S	GBA1_HUMAN	CHAIN	Lysosomal acid glucosylceramidase	Gaucher Disease	GBA1 -[Inhibition]-> Gaucher Disease	36745788	0																																		
+GBA1	N370S	GBA1_HUMAN	CHAIN	Lysosomal acid glucosylceramidase	Tuberculosis	GBA1 -[Activation]-> Tuberculosis	36745788	0																																		

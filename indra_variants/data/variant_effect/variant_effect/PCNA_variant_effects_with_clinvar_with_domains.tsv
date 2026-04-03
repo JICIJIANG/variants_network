@@ -1,0 +1,27 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+PCNA	C22Y	PCNA_HUMAN	CHAIN;REGION	Proliferating cell nuclear antigen;Interaction with NUDT15	cell growth	PCNA -[Activation]-> cell growth	23869605	0																																		
+PCNA	C81R	PCNA_HUMAN	CHAIN;REGION	Proliferating cell nuclear antigen;Interaction with NUDT15	cell growth	PCNA -[Activation]-> cell growth	23869605	0																																		
+PCNA	C81R	PCNA_HUMAN	CHAIN;REGION	Proliferating cell nuclear antigen;Interaction with NUDT15	endonuclease activity	PCNA -[Activation]-> endonuclease activity	24981171	0																																		
+PCNA	D122A	PCNA_HUMAN	CHAIN	Proliferating cell nuclear antigen	Genomic Instability	PCNA -[Inhibition]-> spd1 -[Activation]-> Genomic Instability	22464192	0																																		
+PCNA	D122A	PCNA_HUMAN	CHAIN	Proliferating cell nuclear antigen	proteolysis	PCNA -[Inhibition]-> proteolysis	22464192	0																																		
+PCNA	E113G	PCNA_HUMAN	CHAIN	Proliferating cell nuclear antigen	DNA polymerase processivity factor activity	PCNA -[Complex]-> DNA polymerase -[Complex]-> DNA polymerase processivity factor activity	22918591	0																																		
+PCNA	E113G	PCNA_HUMAN	CHAIN	Proliferating cell nuclear antigen	DNA replication	PCNA -[Complex]-> CDKN1A -[Inhibition]-> DNA replication	22918591	0																																		
+PCNA	E113G	PCNA_HUMAN	CHAIN	Proliferating cell nuclear antigen	cell growth	PCNA -[Activation]-> cell growth	23506842	0																																		
+PCNA	F254L	PCNA_HUMAN	CHAIN	Proliferating cell nuclear antigen	endonuclease activity	PCNA -[Activation]-> endonuclease activity	24981171	0																																		
+PCNA	G178S	PCNA_HUMAN	CHAIN	Proliferating cell nuclear antigen	cell growth	PCNA -[Activation]-> cell growth	23506842	0																																		
+PCNA	K110A	PCNA_HUMAN	CHAIN	Proliferating cell nuclear antigen	apoptotic process	PCNA -[Activation]-> apoptotic process	18498247	0																																		
+PCNA	K110A	PCNA_HUMAN	CHAIN	Proliferating cell nuclear antigen	localization	PCNA -[Complex]-> importin-beta -[Activation]-> localization	18498247	0																																		
+PCNA	K164R	PCNA_HUMAN	CHAIN	Proliferating cell nuclear antigen	DNA Damage	PCNA -[Activation]-> DNA Damage	22658724	0																																		
+PCNA	K164R	PCNA_HUMAN	CHAIN	Proliferating cell nuclear antigen	DNA damage checkpoint	PCNA -[Inhibition]-> ICL -[Activation]-> DNA damage checkpoint	22658724	0																																		
+PCNA	K164R	PCNA_HUMAN	CHAIN	Proliferating cell nuclear antigen	DNA repair	PCNA -[Activation]-> DNA repair	20937699	0																																		
+PCNA	K164R	PCNA_HUMAN	CHAIN	Proliferating cell nuclear antigen	DNA replication	PCNA -[Activation]-> Histone_H4 -[Activation]-> DNA replication	36961817	0																																		
+PCNA	K164R	PCNA_HUMAN	CHAIN	Proliferating cell nuclear antigen	DNA strand elongation involved in DNA replication	PCNA -[Activation]-> Histone_H4 -[Activation]-> DNA strand elongation involved in DNA replication	36961817	0																																		
+PCNA	K164R	PCNA_HUMAN	CHAIN	Proliferating cell nuclear antigen	Genomic Instability	PCNA -[Activation]-> Genomic Instability	28082021	0																																		
+PCNA	K164R	PCNA_HUMAN	CHAIN	Proliferating cell nuclear antigen	biosynthetic process	PCNA -[Activation]-> Histone_H4 -[Activation]-> DNA replication -[Activation]-> biosynthetic process	36961817	0																																		
+PCNA	K164R	PCNA_HUMAN	CHAIN	Proliferating cell nuclear antigen	translation	PCNA -[Activation]-> translation	36961817	0																																		
+PCNA	K164R	PCNA_HUMAN	CHAIN	Proliferating cell nuclear antigen	translesion synthesis	PCNA -[Activation]-> translesion synthesis	36961817	0																																		
+PCNA	K20Q	PCNA_HUMAN	CHAIN;REGION	Proliferating cell nuclear antigen;Interaction with NUDT15	Genomic Instability	PCNA -[Activation]-> Genomic Instability	27916662	0																																		
+PCNA	K20Q	PCNA_HUMAN	CHAIN;REGION	Proliferating cell nuclear antigen;Interaction with NUDT15	homologous recombination	PCNA -[Activation]-> homologous recombination	27916662	0																																		
+PCNA	K217A	PCNA_HUMAN	CHAIN	Proliferating cell nuclear antigen	endonuclease activity	PCNA -[Activation]-> endonuclease activity	24981171	0																																		
+PCNA	L68S	PCNA_HUMAN	CHAIN;REGION	Proliferating cell nuclear antigen;Interaction with NUDT15	endonuclease activity	PCNA -[Activation]-> endonuclease activity	24981171	0																																		
+PCNA	Y249A	PCNA_HUMAN	CHAIN	Proliferating cell nuclear antigen	Neoplasm Invasiveness	PCNA -[Inhibition]-> RAD51 -[Activation]-> Neoplasm Invasiveness	22139015	0																																		

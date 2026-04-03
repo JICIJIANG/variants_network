@@ -1,0 +1,152 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+RAC1	C178S	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	cell cycle	RAC1 -[Activation]-> mTORC1 -[Phosphorylation]-> MAPT -[Activation]-> cell cycle	27693185	0																																		
+RAC1	F28L	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	cell adhesion	RAC1 -[Activation]-> cell adhesion	23071154	0																																		
+RAC1	F28L	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	cell migration	RAC1 -[Activation]-> cell migration	23071154	0																																		
+RAC1	F37L	RAC1_HUMAN	CHAIN;MOTIF	Ras-related C3 botulinum toxin substrate 1;Effector region	cell adhesion	RAC1 -[Inhibition]-> RHOA -[Activation]-> cell adhesion	26369929	0																																		
+RAC1	F37L	RAC1_HUMAN	CHAIN;MOTIF	Ras-related C3 botulinum toxin substrate 1;Effector region	regulation of mitochondrial membrane potential	RAC1 -[Inhibition]-> regulation of mitochondrial membrane potential	26369929	0																																		
+RAC1	G12V	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	Cell Survival	RAC1 -[Activation]-> Cell Survival	20713492	0																																		
+RAC1	G12V	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	Cell Survival	RAC1 -[DecreaseAmount]-> MYC -[Inhibition]-> Cell Survival	28152508	0																																		
+RAC1	G12V	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	Death	RAC1 -[Activation]-> Death	20713492	0																																		
+RAC1	G12V	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	GAP	RAC1 -[Complex]-> GAP	20713492	0																																		
+RAC1	G12V	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	Hypertrophy	RAC1 -[Activation]-> Hypertrophy	37524688	0																																		
+RAC1	G12V	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	Neoplasm Invasiveness	RAC1 -[Activation]-> Neoplasm Invasiveness	20713492	0																																		
+RAC1	G12V	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	Neoplasm Invasiveness	RAC1 -[Activation]-> Neoplasm Invasiveness	24139804	0																																		
+RAC1	G12V	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	Neoplasm Invasiveness	RAC1 -[Inhibition]-> Neoplasm Invasiveness	18795123	0																																		
+RAC1	G12V	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	Neoplasm Metastasis	RAC1 -[Activation]-> SKF96365 -[Inhibition]-> Neoplasm Metastasis	19185847	0																																		
+RAC1	G12V	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	apoptotic process	RAC1 -[DecreaseAmount]-> MYC -[Activation]-> apoptotic process	28152508	0																																		
+RAC1	G12V	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	cell adhesion	RAC1 -[Inhibition]-> RHOA -[Activation]-> cell adhesion	26369929	0																																		
+RAC1	G12V	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	cell cycle	RAC1 -[DecreaseAmount]-> MYC -[Activation]-> cell cycle	28152508	0																																		
+RAC1	G12V	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	cell death	RAC1 -[DecreaseAmount]-> MYC -[Activation]-> cell death	28152508	0																																		
+RAC1	G12V	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	cell growth	RAC1 -[DecreaseAmount]-> MYC -[Activation]-> cell growth	28152508	0																																		
+RAC1	G12V	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	cell migration	RAC1 -[Activation]-> SRGAP1 -[Activation]-> cell migration	24006490	0																																		
+RAC1	G12V	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	cell migration	RAC1 -[Activation]-> cell migration	19937092	0																																		
+RAC1	G12V	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	cell migration	RAC1 -[Inhibition]-> P4HB -[Activation]-> cell migration	30760703	0																																		
+RAC1	G12V	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	cell motility	RAC1 -[Activation]-> cell motility	20713492	0																																		
+RAC1	G12V	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	cell population proliferation	RAC1 -[Activation]-> cell population proliferation	10873802	0																																		
+RAC1	G12V	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	cell population proliferation	RAC1 -[Complex]-> KANK1 -[Inhibition]-> cell population proliferation	19171758	0																																		
+RAC1	G12V	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	cellular component biogenesis	RAC1 -[Inhibition]-> cellular component biogenesis	21573123	0																																		
+RAC1	G12V	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	epithelial to mesenchymal transition	RAC1 -[Inhibition]-> P4HB -[Activation]-> epithelial to mesenchymal transition	30760703	0																																		
+RAC1	G12V	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	localization	RAC1 -[Activation]-> localization	24006490	0																																		
+RAC1	G12V	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	localization	RAC1 -[Inhibition]-> localization	28761175	0																																		
+RAC1	G12V	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	positive regulation of focal adhesion assembly	RAC1 -[Activation]-> positive regulation of focal adhesion assembly	19185847	0																																		
+RAC1	G12V	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	proteolysis	RAC1 -[DecreaseAmount]-> MYC -[Inhibition]-> proteolysis	28152508	0																																		
+RAC1	G12V	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	regulation of mitochondrial membrane potential	RAC1 -[Inhibition]-> regulation of mitochondrial membrane potential	26369929	0																																		
+RAC1	G15A	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	Neoplasm Invasiveness	RAC1 -[Complex]-> TIAM1 -[Complex]-> F2RL2 -[Inhibition]-> Neoplasm Invasiveness	23263278	0																																		
+RAC1	G15A	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	Neoplasm Metastasis	RAC1 -[Complex]-> TIAM1 -[Complex]-> F2RL2 -[Inhibition]-> Neoplasm Metastasis	23263278	0																																		
+RAC1	G15A	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	epithelial to mesenchymal transition	RAC1 -[Complex]-> TIAM1 -[Complex]-> F2RL2 -[Inhibition]-> epithelial to mesenchymal transition	23263278	0																																		
+RAC1	G15A	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	localization	RAC1 -[Complex]-> TIAM1 -[Complex]-> F2RL2 -[Inhibition]-> localization	23263278	0																																		
+RAC1	K147R	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	DNA Damage	RAC1 -[Activation]-> HACE1 -[Activation]-> DNA Damage	23864022	0																																		
+RAC1	K147R	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	DNA damage checkpoint	RAC1 -[IncreaseAmount]-> Reactive Oxygen Species -[Activation]-> DNA damage checkpoint	23864022	0																																		
+RAC1	K147R	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	cell cycle	RAC1 -[Activation]-> HACE1 -[Inhibition]-> cell cycle	23864022	0																																		
+RAC1	K147R	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	cell motility	RAC1 -[Activation]-> HACE1 -[Inhibition]-> cell motility	23864022	0																																		
+RAC1	K147R	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	cell population proliferation	RAC1 -[Activation]-> HACE1 -[Inhibition]-> cell population proliferation	23864022	0																																		
+RAC1	K153A	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	cell population proliferation	RAC1 -[Activation]-> cell population proliferation	22905193	0																																		
+RAC1	K153A	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	localization	RAC1 -[Activation]-> localization	22905193	0																																		
+RAC1	K186A	RAC1_HUMAN	CHAIN;MOTIF	Ras-related C3 botulinum toxin substrate 1;Polybasic region; required for nuclear import	cell adhesion	RAC1 -[Inhibition]-> cell adhesion	20660631	0																																		
+RAC1	K186A	RAC1_HUMAN	CHAIN;MOTIF	Ras-related C3 botulinum toxin substrate 1;Polybasic region; required for nuclear import	cell migration	RAC1 -[Activation]-> cell migration	20660631	0																																		
+RAC1	K186A	RAC1_HUMAN	CHAIN;MOTIF	Ras-related C3 botulinum toxin substrate 1;Polybasic region; required for nuclear import	localization	RAC1 -[Activation]-> localization	20660631	0																																		
+RAC1	L17N	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	endocytosis	RAC1 -[Inhibition]-> MAPT -[Activation]-> endocytosis	29282296	0																																		
+RAC1	N92I	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	Cell Survival	RAC1 -[Activation]-> Cell Survival	29329780	0																																		
+RAC1	N92I	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	apoptotic process	RAC1 -[Inhibition]-> apoptotic process	29329780	0																																		
+RAC1	N92I	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	signal transduction	RAC1 -[Activation]-> signal transduction	29329780	0																																		
+RAC1	P29S	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	Carcinoma, Non-Small-Cell Lung	RAC1 -[Complex]-> VAV2 -[Inhibition]-> Carcinoma, Non-Small-Cell Lung	34079763	0																																		
+RAC1	P29S	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	Carcinoma, Renal Cell	RAC1 -[Activation]-> Carcinoma, Renal Cell	34079763	0																																		
+RAC1	P29S	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	Cerebrovascular Disorders	RAC1 -[Activation]-> Cerebrovascular Disorders	34079763	0																																		
+RAC1	P29S	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	DNA Damage	RAC1 -[Activation]-> DNA Damage	25056119	0																																		
+RAC1	P29S	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	Disease	RAC1 -[Activation]-> Disease	34079763	0																																		
+RAC1	P29S	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	Glioblastoma	RAC1 -[Activation]-> Glioblastoma	34079763	0																																		
+RAC1	P29S	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	Glioma	RAC1 -[Inhibition]-> Glioma	34079763	0																																		
+RAC1	P29S	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	Melanoma	RAC1 -[Activation]-> Melanoma	26176707	0																																		
+RAC1	P29S	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	Melanoma	RAC1 -[Activation]-> Melanoma	31257073	0																																		
+RAC1	P29S	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	Neoplasm Invasiveness	RAC1 -[Activation]-> Neoplasm Invasiveness	27104658	0																																		
+RAC1	P29S	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	Neoplasm Invasiveness	RAC1 -[Activation]-> Neoplasm Invasiveness	29432733	0																																		
+RAC1	P29S	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	Neoplasm Invasiveness	RAC1 -[Activation]-> Neoplasm Invasiveness	34079763	0																																		
+RAC1	P29S	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	Neoplasm Metastasis	RAC1 -[Activation]-> Neoplasm Metastasis	27104658	0																																		
+RAC1	P29S	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	Neoplasm Metastasis	RAC1 -[Activation]-> Neoplasm Metastasis	34079763	0																																		
+RAC1	P29S	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	Neoplasms	RAC1 -[Activation]-> Neoplasms	34079763	0																																		
+RAC1	P29S	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	angiogenesis	RAC1 -[Activation]-> angiogenesis	34079763	0																																		
+RAC1	P29S	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	apoptotic process	RAC1 -[Activation]-> apoptotic process	26176707	0																																		
+RAC1	P29S	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	apoptotic process	RAC1 -[Activation]-> apoptotic process	31257073	0																																		
+RAC1	P29S	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	apoptotic process	RAC1 -[Inhibition]-> apoptotic process	25056119	0																																		
+RAC1	P29S	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	apoptotic process	RAC1 -[Inhibition]-> apoptotic process	27104658	0																																		
+RAC1	P29S	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	cell death	RAC1 -[Inhibition]-> cell death	26176707	0																																		
+RAC1	P29S	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	cell migration	RAC1 -[Activation]-> cell migration	34079763	0																																		
+RAC1	P29S	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	cell population proliferation	RAC1 -[Activation]-> cell population proliferation	23850828	0																																		
+RAC1	P29S	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	cell population proliferation	RAC1 -[Activation]-> cell population proliferation	26176707	0																																		
+RAC1	P29S	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	cell population proliferation	RAC1 -[Activation]-> cell population proliferation	29432733	0																																		
+RAC1	P29S	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	cell population proliferation	RAC1 -[Activation]-> cell population proliferation	34079763	0																																		
+RAC1	P29S	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	gene expression	RAC1 -[Activation]-> gene expression	34079763	0																																		
+RAC1	P29S	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	glycolytic process	RAC1 -[Activation]-> glycolytic process	34079763	0																																		
+RAC1	P29S	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	immune response	RAC1 -[Inhibition]-> immune response	26176707	0																																		
+RAC1	P29S	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	immune response	RAC1 -[Inhibition]-> immune response	27104658	0																																		
+RAC1	P29S	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	signal transduction	RAC1 -[Activation]-> signal transduction	34079763	0																																		
+RAC1	Q61L	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	ATPase activity	RAC1 -[Inhibition]-> SMARCA4 -[Complex]-> ATPase activity	34233189	0																																		
+RAC1	Q61L	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	Carcinogenesis	RAC1 -[Activation]-> IQGAP1 -[Activation]-> Carcinogenesis	18541705	0																																		
+RAC1	Q61L	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	Carcinoma, Pancreatic Ductal	RAC1 -[Inhibition]-> Carcinoma, Pancreatic Ductal	21624123	0																																		
+RAC1	Q61L	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	DNA Damage	RAC1 -[Activation]-> TGFB -[Phosphorylation]-> SMAD3 -[Activation]-> DNA Damage	16051607	0																																		
+RAC1	Q61L	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	Melanoma	RAC1 -[Activation]-> Melanoma	26176707	0																																		
+RAC1	Q61L	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	Neoplasm Invasiveness	RAC1 -[Activation]-> IQGAP1 -[Complex]-> EXOC -[Inhibition]-> Neoplasm Invasiveness	18541705	0																																		
+RAC1	Q61L	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	Neoplasm Invasiveness	RAC1 -[Activation]-> Neoplasm Invasiveness	21851337	0																																		
+RAC1	Q61L	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	Neoplasm Invasiveness	RAC1 -[Inhibition]-> Neoplasm Invasiveness	25361001	0																																		
+RAC1	Q61L	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	Neoplasms	RAC1 -[Inhibition]-> SMARCC1 -[Inhibition]-> NELL2 -[Inhibition]-> Neoplasms	34233189	0																																		
+RAC1	Q61L	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	Sarcoma, Ewing	RAC1 -[Inhibition]-> SMARCC1 -[Inhibition]-> NELL2 -[Inhibition]-> Sarcoma, Ewing	34233189	0																																		
+RAC1	Q61L	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	actin filament polymerization	RAC1 -[Activation]-> actin filament polymerization	33107705	0																																		
+RAC1	Q61L	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	angiogenesis	RAC1 -[Activation]-> angiogenesis	21980400	0																																		
+RAC1	Q61L	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	apoptotic process	RAC1 -[Activation]-> apoptotic process	26176707	0																																		
+RAC1	Q61L	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	apoptotic process	RAC1 -[Activation]-> miR-100 -[Inhibition]-> apoptotic process	25361001	0																																		
+RAC1	Q61L	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	apoptotic process	RAC1 -[Inhibition]-> apoptotic process	21624123	0																																		
+RAC1	Q61L	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	autocrine signaling	RAC1 -[Inhibition]-> SMARCC1 -[Inhibition]-> NELL2 -[Activation]-> autocrine signaling	34233189	0																																		
+RAC1	Q61L	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	autophagy	RAC1 -[Inhibition]-> MIR100 -[DecreaseAmount]-> ICMT -[Inhibition]-> autophagy	25361001	0																																		
+RAC1	Q61L	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	axon guidance	RAC1 -[Inhibition]-> SMARCC1 -[Inhibition]-> NELL2 -[Activation]-> axon guidance	34233189	0																																		
+RAC1	Q61L	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	cell adhesion	RAC1 -[Activation]-> Arp2_3_protein -[Activation]-> cell adhesion	28912124	0																																		
+RAC1	Q61L	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	cell adhesion	RAC1 -[Activation]-> cell adhesion	22825554	0																																		
+RAC1	Q61L	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	cell adhesion	RAC1 -[Phosphorylation]-> PTK2 -[Activation]-> cell adhesion	24858039	0																																		
+RAC1	Q61L	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	cell cycle	RAC1 -[Inhibition]-> MIR100 -[DecreaseAmount]-> ICMT -[Inhibition]-> cell cycle	25361001	0																																		
+RAC1	Q61L	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	cell death	RAC1 -[Inhibition]-> MIR100 -[DecreaseAmount]-> ICMT -[Inhibition]-> cell death	25361001	0																																		
+RAC1	Q61L	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	cell death	RAC1 -[Inhibition]-> cell death	26176707	0																																		
+RAC1	Q61L	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	cell growth	RAC1 -[Inhibition]-> MIR100 -[Inhibition]-> cell growth	25361001	0																																		
+RAC1	Q61L	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	cell growth	RAC1 -[Inhibition]-> cell growth	29362425	0																																		
+RAC1	Q61L	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	cell migration	RAC1 -[Activation]-> cell migration	21624123	0																																		
+RAC1	Q61L	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	cell migration	RAC1 -[Activation]-> cell migration	25361001	0																																		
+RAC1	Q61L	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	cell motility	RAC1 -[Inhibition]-> cell motility	21624123	0																																		
+RAC1	Q61L	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	cell population proliferation	RAC1 -[Activation]-> LRRK1 -[Activation]-> cell population proliferation	28326224	0																																		
+RAC1	Q61L	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	cell population proliferation	RAC1 -[Activation]-> cell population proliferation	10873802	0																																		
+RAC1	Q61L	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	cell population proliferation	RAC1 -[Activation]-> cell population proliferation	21624123	0																																		
+RAC1	Q61L	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	cell population proliferation	RAC1 -[Activation]-> cell population proliferation	26176707	0																																		
+RAC1	Q61L	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	cell population proliferation	RAC1 -[Complex]-> FBLN5 -[Activation]-> cell population proliferation	33107705	0																																		
+RAC1	Q61L	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	cell population proliferation	RAC1 -[Inhibition]-> SMARCC1 -[Inhibition]-> NELL2 -[Activation]-> cell population proliferation	34233189	0																																		
+RAC1	Q61L	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	chromatin remodeling	RAC1 -[Inhibition]-> SMARCC1 -[Inhibition]-> NELL2 -[Activation]-> chromatin remodeling	34233189	0																																		
+RAC1	Q61L	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	cytokinesis	RAC1 -[Inhibition]-> cytokinesis	22945935	0																																		
+RAC1	Q61L	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	gene expression	RAC1 -[Inhibition]-> SMARCC1 -[Inhibition]-> NELL2 -[Inhibition]-> gene expression	34233189	0																																		
+RAC1	Q61L	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	immune response	RAC1 -[Inhibition]-> immune response	26176707	0																																		
+RAC1	Q61L	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	localization	RAC1 -[Activation]-> 2-hydroxy-17beta-estradiol -[Inhibition]-> localization	22825554	0																																		
+RAC1	Q61L	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	localization	RAC1 -[Inhibition]-> Pyk2OE -[Activation]-> localization	29911975	0																																		
+RAC1	Q61L	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	proteolysis	RAC1 -[Activation]-> IQGAP1 -[Activation]-> proteolysis	18541705	0																																		
+RAC1	Q61L	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	response to hypoxia	RAC1 -[DecreaseAmount]-> HIF1A -[Activation]-> response to hypoxia	21980400	0																																		
+RAC1	R163A	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	cell population proliferation	RAC1 -[Activation]-> cell population proliferation	22905193	0																																		
+RAC1	R163A	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	localization	RAC1 -[Activation]-> localization	22905193	0																																		
+RAC1	S17N	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	cell growth	RAC1 -[IncreaseAmount]-> RAB5A -[Inhibition]-> mTORC1 -[Activation]-> cell growth	29119228	0																																		
+RAC1	S17N	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	cell population proliferation	RAC1 -[IncreaseAmount]-> RAB5A -[Inhibition]-> mTORC1 -[Activation]-> cell population proliferation	29119228	0																																		
+RAC1	S17N	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	cellular component biogenesis	RAC1 -[IncreaseAmount]-> RAB5A -[Inhibition]-> mTORC1 -[Activation]-> cellular component biogenesis	29119228	0																																		
+RAC1	T17N	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	Carcinogenesis	RAC1 -[Activation]-> IQGAP1 -[Activation]-> Carcinogenesis	18541705	0																																		
+RAC1	T17N	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	DNA Damage	RAC1 -[Activation]-> TGFB -[Phosphorylation]-> SMAD3 -[Activation]-> DNA Damage	16051607	0																																		
+RAC1	T17N	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	Multiple Myeloma	RAC1 -[Activation]-> STAT3 -[Complex]-> CDC42 -[Activation]-> Multiple Myeloma	32915198	0																																		
+RAC1	T17N	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	Neoplasm Invasiveness	RAC1 -[Activation]-> IQGAP1 -[Complex]-> EXOC -[Inhibition]-> Neoplasm Invasiveness	18541705	0																																		
+RAC1	T17N	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	Neoplasm Invasiveness	RAC1 -[Inhibition]-> Neoplasm Invasiveness	22829165	0																																		
+RAC1	T17N	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	angiogenesis	RAC1 -[Activation]-> angiogenesis	21980400	0																																		
+RAC1	T17N	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	apoptotic process	RAC1 -[Activation]-> RNASEL -[Activation]-> apoptotic process	28257035	0																																		
+RAC1	T17N	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	apoptotic process	RAC1 -[Inhibition]-> CTNNB1 -[Inhibition]-> apoptotic process	18339714	0																																		
+RAC1	T17N	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	cell adhesion	RAC1 -[Phosphorylation]-> PTK2 -[Activation]-> cell adhesion	24858039	0																																		
+RAC1	T17N	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	cell cycle	RAC1 -[Activation]-> STAT3 -[Complex]-> CDC42 -[Activation]-> cell cycle	32915198	0																																		
+RAC1	T17N	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	cell death	RAC1 -[Activation]-> STAT3 -[Complex]-> CDC42 -[Activation]-> cell death	32915198	0																																		
+RAC1	T17N	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	cell differentiation	RAC1 -[Activation]-> TGFB -[Inhibition]-> cell differentiation	12566226	0																																		
+RAC1	T17N	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	cell migration	RAC1 -[Activation]-> RNASEL -[Inhibition]-> cell migration	28257035	0																																		
+RAC1	T17N	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	cell migration	RAC1 -[Activation]-> cell migration	21118970	0																																		
+RAC1	T17N	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	cell motility	RAC1 -[Activation]-> cell motility	15263022	0																																		
+RAC1	T17N	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	cell population proliferation	RAC1 -[Activation]-> cell population proliferation	32915198	0																																		
+RAC1	T17N	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	localization	RAC1 -[Activation]-> RNASEL -[Inhibition]-> localization	28257035	0																																		
+RAC1	T17N	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	localization	RAC1 -[Inhibition]-> EGF -[Activation]-> localization	10589680	0																																		
+RAC1	T17N	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	proteolysis	RAC1 -[Activation]-> IQGAP1 -[Activation]-> proteolysis	18541705	0																																		
+RAC1	T17N	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	response to hypoxia	RAC1 -[DecreaseAmount]-> HIF1A -[Activation]-> response to hypoxia	21980400	0																																		
+RAC1	T17N	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	transcription, DNA-templated	RAC1 -[Activation]-> STAT3 -[Activation]-> transcription, DNA-templated	32915198	0																																		
+RAC1	W56F	RAC1_HUMAN	CHAIN	Ras-related C3 botulinum toxin substrate 1	RhoGDI	RAC1 -[Inhibition]-> RhoGDI	17074770	0																																		

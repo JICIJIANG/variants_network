@@ -1,0 +1,15 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+MITF	E318K	MITF_HUMAN	CHAIN;DOMAIN	Microphthalmia-associated transcription factor;bHLH	Carcinogenesis	MITF -[Activation]-> Carcinogenesis	22080950	0																																		
+MITF	E318K	MITF_HUMAN	CHAIN;DOMAIN	Microphthalmia-associated transcription factor;bHLH	Hypopigmentation	MITF -[Activation]-> Syndrome -[Inhibition]-> Hypopigmentation	34289891	0																																		
+MITF	E318K	MITF_HUMAN	CHAIN;DOMAIN	Microphthalmia-associated transcription factor;bHLH	Neoplasm Invasiveness	MITF -[Activation]-> Neoplasm Invasiveness	22260482	0																																		
+MITF	E318K	MITF_HUMAN	CHAIN;DOMAIN	Microphthalmia-associated transcription factor;bHLH	Neoplasm Invasiveness	MITF -[Activation]-> Neoplasm Invasiveness	34289891	0																																		
+MITF	E318K	MITF_HUMAN	CHAIN;DOMAIN	Microphthalmia-associated transcription factor;bHLH	Syndrome	MITF -[Activation]-> Syndrome	34289891	0																																		
+MITF	E318K	MITF_HUMAN	CHAIN;DOMAIN	Microphthalmia-associated transcription factor;bHLH	cellular senescence	MITF -[Inhibition]-> cellular senescence	28376192	0																																		
+MITF	E318K	MITF_HUMAN	CHAIN;DOMAIN	Microphthalmia-associated transcription factor;bHLH	transcription, DNA-templated	MITF -[Activation]-> transcription, DNA-templated	22080950	0																																		
+MITF	S73A	MITF_HUMAN	CHAIN	Microphthalmia-associated transcription factor	Neoplasm Invasiveness	MITF -[Inhibition]-> Neoplasm Invasiveness	25818589	0																																		
+MITF	S73A	MITF_HUMAN	CHAIN	Microphthalmia-associated transcription factor	cell cycle	MITF -[Activation]-> cell cycle	25818589	0																																		
+MITF	S73A	MITF_HUMAN	CHAIN	Microphthalmia-associated transcription factor	cell differentiation	MITF -[Activation]-> cell differentiation	25818589	0																																		
+MITF	S73A	MITF_HUMAN	CHAIN	Microphthalmia-associated transcription factor	cell population proliferation	MITF -[Activation]-> cell population proliferation	25818589	0																																		
+MITF	S73A	MITF_HUMAN	CHAIN	Microphthalmia-associated transcription factor	transcription, DNA-templated	MITF -[Activation]-> transcription, DNA-templated	25818589	0																																		
+MITF	V600E				Neoplasm Invasiveness	MITF -[Activation]-> Neoplasm Invasiveness	23831555	0																																		
+MITF	V600E				apoptotic process	MITF -[Activation]-> apoptotic process	23831555	0																																		

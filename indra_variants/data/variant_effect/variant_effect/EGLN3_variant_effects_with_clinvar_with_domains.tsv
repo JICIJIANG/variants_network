@@ -1,0 +1,16 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+EGLN3	D137A	EGLN3_HUMAN	CHAIN;DOMAIN	Prolyl hydroxylase EGLN3;Fe2OG dioxygenase	Carcinogenesis	EGLN3 -[Hydroxylation]-> PKM2 -[Activation]-> Carcinogenesis	21620138	0																																		
+EGLN3	D137A	EGLN3_HUMAN	CHAIN;DOMAIN	Prolyl hydroxylase EGLN3;Fe2OG dioxygenase	Oxygen Consumption	EGLN3 -[Inhibition]-> Oxygen Consumption	21620138	0																																		
+EGLN3	D137A	EGLN3_HUMAN	CHAIN;DOMAIN	Prolyl hydroxylase EGLN3;Fe2OG dioxygenase	metabolic process	EGLN3 -[Hydroxylation]-> PKM2 -[Inhibition]-> metabolic process	21620138	0																																		
+EGLN3	D137A	EGLN3_HUMAN	CHAIN;DOMAIN	Prolyl hydroxylase EGLN3;Fe2OG dioxygenase	oxidative phosphorylation	EGLN3 -[Hydroxylation]-> PKM2 -[Inhibition]-> oxidative phosphorylation	21620138	0																																		
+EGLN3	D137A	EGLN3_HUMAN	CHAIN;DOMAIN	Prolyl hydroxylase EGLN3;Fe2OG dioxygenase	transcription, DNA-templated	EGLN3 -[Inhibition]-> transcription, DNA-templated	21620138	0																																		
+EGLN3	H135A	EGLN3_HUMAN	CHAIN;DOMAIN	Prolyl hydroxylase EGLN3;Fe2OG dioxygenase	Carcinogenesis	EGLN3 -[Hydroxylation]-> PKM2 -[Activation]-> Carcinogenesis	21620138	0																																		
+EGLN3	H135A	EGLN3_HUMAN	CHAIN;DOMAIN	Prolyl hydroxylase EGLN3;Fe2OG dioxygenase	Oxygen Consumption	EGLN3 -[Inhibition]-> Oxygen Consumption	21620138	0																																		
+EGLN3	H135A	EGLN3_HUMAN	CHAIN;DOMAIN	Prolyl hydroxylase EGLN3;Fe2OG dioxygenase	metabolic process	EGLN3 -[Hydroxylation]-> PKM2 -[Inhibition]-> metabolic process	21620138	0																																		
+EGLN3	H135A	EGLN3_HUMAN	CHAIN;DOMAIN	Prolyl hydroxylase EGLN3;Fe2OG dioxygenase	oxidative phosphorylation	EGLN3 -[Hydroxylation]-> PKM2 -[Inhibition]-> oxidative phosphorylation	21620138	0																																		
+EGLN3	H135A	EGLN3_HUMAN	CHAIN;DOMAIN	Prolyl hydroxylase EGLN3;Fe2OG dioxygenase	transcription, DNA-templated	EGLN3 -[Inhibition]-> transcription, DNA-templated	21620138	0																																		
+EGLN3	H196A	EGLN3_HUMAN	CHAIN;DOMAIN	Prolyl hydroxylase EGLN3;Fe2OG dioxygenase	Carcinogenesis	EGLN3 -[Inhibition]-> Carcinogenesis	37814811	0																																		
+EGLN3	H196A	EGLN3_HUMAN	CHAIN;DOMAIN	Prolyl hydroxylase EGLN3;Fe2OG dioxygenase	Neoplasm Metastasis	EGLN3 -[Inhibition]-> Neoplasm Metastasis	37814811	0																																		
+EGLN3	M1585A				cell population proliferation	EGLN3 -[Complex]-> KMT2A -[Inhibition]-> cell population proliferation	33823889	0																																		
+EGLN3	M1585A				hemopoiesis	EGLN3 -[Complex]-> KMT2A -[Activation]-> hemopoiesis	33823889	0																																		
+EGLN3	M1585A				transcription, DNA-templated	EGLN3 -[Complex]-> PPIE -[Inhibition]-> transcription, DNA-templated	33823889	0																																		

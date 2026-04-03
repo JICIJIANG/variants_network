@@ -1,0 +1,14 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+HMGB1	C106S	HMGB1_HUMAN	CHAIN;REGION	High mobility group protein B1;Cytokine-stimulating activity	Cell Survival	HMGB1 -[Activation]-> Cell Survival	20622903	0																																		
+HMGB1	C106S	HMGB1_HUMAN	CHAIN;REGION	High mobility group protein B1;Cytokine-stimulating activity	Death	HMGB1 -[Activation]-> Death	20622903	0																																		
+HMGB1	C106S	HMGB1_HUMAN	CHAIN;REGION	High mobility group protein B1;Cytokine-stimulating activity	Neoplasms	HMGB1 -[Activation]-> Neoplasms	20622903	0																																		
+HMGB1	C106S	HMGB1_HUMAN	CHAIN;REGION	High mobility group protein B1;Cytokine-stimulating activity	apoptotic process	HMGB1 -[Inhibition]-> apoptotic process	20622903	0																																		
+HMGB1	C106S	HMGB1_HUMAN	CHAIN;REGION	High mobility group protein B1;Cytokine-stimulating activity	apoptotic process	HMGB1 -[Inhibition]-> apoptotic process	20819940	0																																		
+HMGB1	C106S	HMGB1_HUMAN	CHAIN;REGION	High mobility group protein B1;Cytokine-stimulating activity	autophagy	HMGB1 -[Activation]-> autophagy	20622903	0																																		
+HMGB1	C106S	HMGB1_HUMAN	CHAIN;REGION	High mobility group protein B1;Cytokine-stimulating activity	autophagy	HMGB1 -[Activation]-> autophagy	20819940	0																																		
+HMGB1	C106S	HMGB1_HUMAN	CHAIN;REGION	High mobility group protein B1;Cytokine-stimulating activity	cell death	HMGB1 -[Activation]-> cell death	20622903	0																																		
+HMGB1	C106S	HMGB1_HUMAN	CHAIN;REGION	High mobility group protein B1;Cytokine-stimulating activity	localization	HMGB1 -[Activation]-> localization	20819940	0																																		
+HMGB1	C23S	HMGB1_HUMAN	CHAIN;REGION	High mobility group protein B1;Sufficient for interaction with HAVCR2	apoptotic process	HMGB1 -[Activation]-> apoptotic process	25126737	0																																		
+HMGB1	C23S	HMGB1_HUMAN	CHAIN;REGION	High mobility group protein B1;Sufficient for interaction with HAVCR2	autophagy	HMGB1 -[Activation]-> autophagy	25126737	0																																		
+HMGB1	K282930R				Death	HMGB1 -[Complex]-> SIRT1 -[Activation]-> Death	26522327	0																																		
+HMGB1	K282930R				localization	HMGB1 -[Activation]-> localization	26522327	0																																		

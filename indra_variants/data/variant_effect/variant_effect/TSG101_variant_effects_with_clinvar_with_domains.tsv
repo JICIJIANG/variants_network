@@ -1,0 +1,11 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+TSG101	M95A	TS101_HUMAN	CHAIN;DOMAIN	Tumor susceptibility gene 101 protein;UEV	G1 phase	TSG101 -[Inhibition]-> G1 phase	32075127	0																																		
+TSG101	M95A	TS101_HUMAN	CHAIN;DOMAIN	Tumor susceptibility gene 101 protein;UEV	Neoplasms	TSG101 -[Activation]-> Neoplasms	32075127	0																																		
+TSG101	M95A	TS101_HUMAN	CHAIN;DOMAIN	Tumor susceptibility gene 101 protein;UEV	apoptotic process	TSG101 -[Inhibition]-> apoptotic process	32075127	0																																		
+TSG101	M95A	TS101_HUMAN	CHAIN;DOMAIN	Tumor susceptibility gene 101 protein;UEV	autophagic cell death	TSG101 -[Inhibition]-> autophagic cell death	32075127	0																																		
+TSG101	M95A	TS101_HUMAN	CHAIN;DOMAIN	Tumor susceptibility gene 101 protein;UEV	autophagy	TSG101 -[Activation]-> autophagy	32075127	0																																		
+TSG101	M95A	TS101_HUMAN	CHAIN;DOMAIN	Tumor susceptibility gene 101 protein;UEV	cell death	TSG101 -[Inhibition]-> cell death	32075127	0																																		
+TSG101	M95A	TS101_HUMAN	CHAIN;DOMAIN	Tumor susceptibility gene 101 protein;UEV	cell population proliferation	TSG101 -[Activation]-> cell population proliferation	32075127	0																																		
+TSG101	M95A	TS101_HUMAN	CHAIN;DOMAIN	Tumor susceptibility gene 101 protein;UEV	lactation	TSG101 -[Activation]-> lactation	32075127	0																																		
+TSG101	M95A	TS101_HUMAN	CHAIN;DOMAIN	Tumor susceptibility gene 101 protein;UEV	mammary gland development	TSG101 -[Activation]-> mammary gland development	32075127	0																																		
+TSG101	M95A	TS101_HUMAN	CHAIN;DOMAIN	Tumor susceptibility gene 101 protein;UEV	proteolysis	TSG101 -[Activation]-> Ubiquitin -[Activation]-> proteolysis	32075127	0																																		

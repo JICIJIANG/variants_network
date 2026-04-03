@@ -1,0 +1,20 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+GHR	T51I	GHR_HUMAN	CHAIN;CHAIN	Growth hormone receptor;Growth hormone-binding protein	signal transduction	GHR -[Inhibition]-> signal transduction	12423626	0																																		
+GHR	Y627F	GHR_HUMAN	CHAIN	Growth hormone receptor	B cell differentiation	GHR -[Inhibition]-> GH1 -[Activation]-> B cell differentiation	33312162	0																																		
+GHR	Y627F	GHR_HUMAN	CHAIN	Growth hormone receptor	DNA repair	GHR -[Activation]-> JAK2 -[Activation]-> different systems -[Activation]-> DNA repair	33312162	0																																		
+GHR	Y627F	GHR_HUMAN	CHAIN	Growth hormone receptor	Dwarfism	GHR -[Inhibition]-> GH1 -[Inhibition]-> Dwarfism	33312162	0																																		
+GHR	Y627F	GHR_HUMAN	CHAIN	Growth hormone receptor	T cell differentiation	GHR -[Inhibition]-> GH1 -[Activation]-> T cell differentiation	33312162	0																																		
+GHR	Y627F	GHR_HUMAN	CHAIN	Growth hormone receptor	antigen binding	GHR -[Inhibition]-> GH1 -[Activation]-> antigen binding	33312162	0																																		
+GHR	Y627F	GHR_HUMAN	CHAIN	Growth hormone receptor	apoptotic process	GHR -[Inhibition]-> GH1 -[Inhibition]-> apoptotic process	33312162	0																																		
+GHR	Y627F	GHR_HUMAN	CHAIN	Growth hormone receptor	cell differentiation	GHR -[Inhibition]-> GH1 -[Activation]-> cell differentiation	33312162	0																																		
+GHR	Y627F	GHR_HUMAN	CHAIN	Growth hormone receptor	cell growth	GHR -[Inhibition]-> GH1 -[Activation]-> cell growth	33312162	0																																		
+GHR	Y627F	GHR_HUMAN	CHAIN	Growth hormone receptor	cell population proliferation	GHR -[Inhibition]-> GH1 -[Activation]-> cell population proliferation	33312162	0																																		
+GHR	Y627F	GHR_HUMAN	CHAIN	Growth hormone receptor	cytokine production	GHR -[Inhibition]-> GH1 -[Activation]-> cytokine production	33312162	0																																		
+GHR	Y627F	GHR_HUMAN	CHAIN	Growth hormone receptor	endocytosis	GHR -[Activation]-> endocytosis	33312162	0																																		
+GHR	Y627F	GHR_HUMAN	CHAIN	Growth hormone receptor	epithelial to mesenchymal transition	GHR -[Activation]-> JAK2 -[Activation]-> different systems -[Activation]-> ABC-multidrug efflux pumps -[Activation]-> epithelial to mesenchymal transition	33312162	0																																		
+GHR	Y627F	GHR_HUMAN	CHAIN	Growth hormone receptor	gluconeogenesis	GHR -[Inhibition]-> GH1 -[IncreaseAmount]-> IGF1 -[Inhibition]-> gluconeogenesis	33312162	0																																		
+GHR	Y627F	GHR_HUMAN	CHAIN	Growth hormone receptor	glucose import	GHR -[Inhibition]-> GH1 -[IncreaseAmount]-> IGF1 -[Activation]-> glucose import	33312162	0																																		
+GHR	Y627F	GHR_HUMAN	CHAIN	Growth hormone receptor	immune response	GHR -[Inhibition]-> GH1 -[Activation]-> immune response	33312162	0																																		
+GHR	Y627F	GHR_HUMAN	CHAIN	Growth hormone receptor	signaling receptor activity	GHR -[Inhibition]-> GH1 -[Activation]-> signaling receptor activity	33312162	0																																		
+GHR	Y627F	GHR_HUMAN	CHAIN	Growth hormone receptor	transcription, DNA-templated	GHR -[Activation]-> transcription, DNA-templated	33312162	0																																		
+GHR	Y627F	GHR_HUMAN	CHAIN	Growth hormone receptor	transport	GHR -[Inhibition]-> GH1 -[Activation]-> PI3K -[Activation]-> transport	33312162	0																																		

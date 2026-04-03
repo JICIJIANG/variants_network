@@ -1,0 +1,86 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+ARF6	N48I	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	exocytosis	ARF6 -[Inhibition]-> exocytosis	12379803	0																																		
+ARF6	N48R	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	autophagy	ARF6 -[Activation]-> autophagy	27123470	0																																		
+ARF6	N48R	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	autophagy	ARF6 -[Inhibition]-> autophagy	22351926	0																																		
+ARF6	N48R	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	endocytosis	ARF6 -[Inhibition]-> autophagy -[Activation]-> endocytosis	22351926	0																																		
+ARF6	N48R	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	localization	ARF6 -[Activation]-> localization	22351926	0																																		
+ARF6	Q67L	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	GAP	ARF6 -[Activation]-> RAB35 -[Complex]-> GAP	22226746	0																																		
+ARF6	Q67L	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	Immunologic Deficiency Syndromes	ARF6 -[Inhibition]-> Immunologic Deficiency Syndromes	21346189	0																																		
+ARF6	Q67L	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	Infections	ARF6 -[Inhibition]-> Infections	21346189	0																																		
+ARF6	Q67L	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	Neoplasm Invasiveness	ARF6 -[DecreaseAmount]-> BSG -[Activation]-> Neoplasm Invasiveness	31752956	0																																		
+ARF6	Q67L	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	Neoplasm Invasiveness	ARF6 -[Inhibition]-> Neoplasm Invasiveness	23462101	0																																		
+ARF6	Q67L	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	Neoplasm Invasiveness	ARF6 -[Inhibition]-> Neoplasm Invasiveness	31048499	0																																		
+ARF6	Q67L	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	Neoplasm Metastasis	ARF6 -[Activation]-> Neoplasm Metastasis	23462101	0																																		
+ARF6	Q67L	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	Neoplasm Metastasis	ARF6 -[Activation]-> Neoplasm Metastasis	31048499	0																																		
+ARF6	Q67L	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	angiogenesis	ARF6 -[Activation]-> Cell-Derived Microparticles -[Activation]-> angiogenesis	33473262	0																																		
+ARF6	Q67L	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	apoptotic process	ARF6 -[Inhibition]-> apoptotic process	31048499	0																																		
+ARF6	Q67L	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	autophagy	ARF6 -[Inhibition]-> autophagy	22351926	0																																		
+ARF6	Q67L	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	cell adhesion	ARF6 -[Activation]-> cell adhesion	20116244	0																																		
+ARF6	Q67L	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	cell adhesion	ARF6 -[DecreaseAmount]-> BSG -[Activation]-> cell adhesion	31752956	0																																		
+ARF6	Q67L	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	cell growth	ARF6 -[Activation]-> GNAQ -[Inhibition]-> cell growth	27265506	0																																		
+ARF6	Q67L	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	cell motility	ARF6 -[Activation]-> cell motility	23462101	0																																		
+ARF6	Q67L	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	cell population proliferation	ARF6 -[Activation]-> cell population proliferation	27265506	0																																		
+ARF6	Q67L	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	cell-cell adhesion	ARF6 -[Activation]-> cell-cell adhesion	20116244	0																																		
+ARF6	Q67L	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	cellular component biogenesis	ARF6 -[Activation]-> Cell-Derived Microparticles -[Activation]-> CDC42 -[Activation]-> cellular component biogenesis	33473262	0																																		
+ARF6	Q67L	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	cytokinesis	ARF6 -[Activation]-> cytokinesis	22226746	0																																		
+ARF6	Q67L	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	endocytic recycling	ARF6 -[Inhibition]-> endocytic recycling	31752956	0																																		
+ARF6	Q67L	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	endocytosis	ARF6 -[Activation]-> Cell-Derived Microparticles -[Activation]-> CDC42 -[Activation]-> endocytosis	33473262	0																																		
+ARF6	Q67L	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	endocytosis	ARF6 -[Activation]-> endocytosis	27265506	0																																		
+ARF6	Q67L	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	endocytosis	ARF6 -[Complex]-> GDP -[Activation]-> endocytosis	21346189	0																																		
+ARF6	Q67L	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	endocytosis	ARF6 -[Inhibition]-> Clathrin -[Activation]-> endocytosis	12847086	0																																		
+ARF6	Q67L	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	endocytosis	ARF6 -[Inhibition]-> autophagy -[Activation]-> endocytosis	22351926	0																																		
+ARF6	Q67L	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	endocytosis	ARF6 -[Inhibition]-> endocytosis	22053287	0																																		
+ARF6	Q67L	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	endocytosis	ARF6 -[Inhibition]-> endocytosis	23621612	0																																		
+ARF6	Q67L	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	endocytosis	ARF6 -[Inhibition]-> endocytosis	31752956	0																																		
+ARF6	Q67L	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	exocytosis	ARF6 -[Inhibition]-> exocytosis	12379803	0																																		
+ARF6	Q67L	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	exocytosis	ARF6 -[Inhibition]-> exocytosis	12925709	0																																		
+ARF6	Q67L	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	inflammatory response	ARF6 -[Activation]-> inflammatory response	23462101	0																																		
+ARF6	Q67L	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	localization	ARF6 -[Activation]-> RAB35 -[Activation]-> localization	26229970	0																																		
+ARF6	Q67L	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	localization	ARF6 -[Activation]-> RAB35 -[Inhibition]-> localization	22226746	0																																		
+ARF6	Q67L	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	localization	ARF6 -[Activation]-> SRE-luciferase reporter -[Inhibition]-> localization	22053287	0																																		
+ARF6	Q67L	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	localization	ARF6 -[Activation]-> localization	12925709	0																																		
+ARF6	Q67L	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	localization	ARF6 -[Activation]-> localization	22351926	0																																		
+ARF6	Q67L	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	localization	ARF6 -[Activation]-> phosphatidylinositol -[Inhibition]-> localization	19802344	0																																		
+ARF6	Q67L	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	localization	ARF6 -[Inhibition]-> localization	21951725	0																																		
+ARF6	Q67L	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	transcription, DNA-templated	ARF6 -[Activation]-> transcription, DNA-templated	23462101	0																																		
+ARF6	T157A	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	endocytosis	ARF6 -[Inhibition]-> endocytosis	22053287	0																																		
+ARF6	T157A	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	localization	ARF6 -[Activation]-> SRE-luciferase reporter -[Inhibition]-> localization	22053287	0																																		
+ARF6	T22N	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	cell growth	ARF6 -[Activation]-> M 2  receptor -[Inhibition]-> cell growth	24705159	0																																		
+ARF6	T22N	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	endocytosis	ARF6 -[Inhibition]-> endocytosis	24705159	0																																		
+ARF6	T27N	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	Neoplasm Invasiveness	ARF6 -[Activation]-> EGF -[Activation]-> Neoplasm Invasiveness	22701712	0																																		
+ARF6	T27N	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	Neoplasm Invasiveness	ARF6 -[DecreaseAmount]-> WNT5A -[Activation]-> Neoplasm Invasiveness	25779663	0																																		
+ARF6	T27N	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	Neoplasm Invasiveness	ARF6 -[Inhibition]-> Neoplasm Invasiveness	31048499	0																																		
+ARF6	T27N	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	Neoplasm Metastasis	ARF6 -[Activation]-> EGF -[Activation]-> Neoplasm Metastasis	22701712	0																																		
+ARF6	T27N	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	Neoplasm Metastasis	ARF6 -[Activation]-> Neoplasm Metastasis	31048499	0																																		
+ARF6	T27N	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	angiogenesis	ARF6 -[Activation]-> angiogenesis	15692085	0																																		
+ARF6	T27N	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	apoptotic process	ARF6 -[Inhibition]-> apoptotic process	31048499	0																																		
+ARF6	T27N	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	cell adhesion	ARF6 -[Activation]-> RALBP1 -[Activation]-> cell adhesion	16966426	0																																		
+ARF6	T27N	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	cell migration	ARF6 -[Activation]-> RALBP1 -[Activation]-> cell migration	16966426	0																																		
+ARF6	T27N	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	cell migration	ARF6 -[Activation]-> cell migration	22701712	0																																		
+ARF6	T27N	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	cell migration	ARF6 -[DecreaseAmount]-> WNT5A -[Activation]-> cell migration	25779663	0																																		
+ARF6	T27N	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	cell motility	ARF6 -[DecreaseAmount]-> WNT5A -[Activation]-> cell motility	25779663	0																																		
+ARF6	T27N	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	cell population proliferation	ARF6 -[Activation]-> RALBP1 -[Activation]-> RRAS -[Inhibition]-> cell population proliferation	16966426	0																																		
+ARF6	T27N	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	cell population proliferation	ARF6 -[Inhibition]-> VEGF -[Inhibition]-> cell population proliferation	23639002	0																																		
+ARF6	T27N	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	cell population proliferation	ARF6 -[Inhibition]-> cell population proliferation	22962618	0																																		
+ARF6	T27N	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	endocytosis	ARF6 -[Activation]-> endocytosis	16966426	0																																		
+ARF6	T27N	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	endocytosis	ARF6 -[Activation]-> endocytosis	22849338	0																																		
+ARF6	T27N	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	endocytosis	ARF6 -[Inhibition]-> Clathrin -[Activation]-> endocytosis	12847086	0																																		
+ARF6	T27N	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	endocytosis	ARF6 -[Inhibition]-> endocytosis	10508850	0																																		
+ARF6	T27N	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	endocytosis	ARF6 -[Inhibition]-> endocytosis	22053287	0																																		
+ARF6	T27N	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	epithelial to mesenchymal transition	ARF6 -[Activation]-> epithelial to mesenchymal transition	25779663	0																																		
+ARF6	T27N	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	exocytosis	ARF6 -[Inhibition]-> exocytosis	12379803	0																																		
+ARF6	T27N	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	exocytosis	ARF6 -[Inhibition]-> exocytosis	12873702	0																																		
+ARF6	T27N	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	exocytosis	ARF6 -[Inhibition]-> exocytosis	22962618	0																																		
+ARF6	T27N	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	localization	ARF6 -[Activation]-> Actin -[Activation]-> localization	25296758	0																																		
+ARF6	T27N	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	localization	ARF6 -[Activation]-> RAB35 -[Activation]-> localization	26229970	0																																		
+ARF6	T27N	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	localization	ARF6 -[Activation]-> SRE-luciferase reporter -[Inhibition]-> localization	22053287	0																																		
+ARF6	T27N	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	localization	ARF6 -[Inhibition]-> localization	16966426	0																																		
+ARF6	T44N	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	Immunologic Deficiency Syndromes	ARF6 -[Inhibition]-> Immunologic Deficiency Syndromes	21346189	0																																		
+ARF6	T44N	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	Infections	ARF6 -[Inhibition]-> Infections	21346189	0																																		
+ARF6	T44N	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	apoptotic process	ARF6 -[Complex]-> GDP -[Complex]-> ARL4D -[Activation]-> apoptotic process	22927989	0																																		
+ARF6	T44N	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	cell death	ARF6 -[Complex]-> GDP -[Complex]-> ARL4D -[Activation]-> cell death	22927989	0																																		
+ARF6	T44N	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	endocytosis	ARF6 -[Complex]-> GDP -[Activation]-> endocytosis	21346189	0																																		
+ARF6	T44N	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	endocytosis	ARF6 -[Inhibition]-> endocytosis	22053287	0																																		
+ARF6	T44N	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	localization	ARF6 -[Activation]-> Actin -[Activation]-> localization	25296758	0																																		
+ARF6	T44N	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	localization	ARF6 -[Activation]-> SRE-luciferase reporter -[Inhibition]-> localization	22053287	0																																		
+ARF6	T44N	ARF6_HUMAN	CHAIN	ADP-ribosylation factor 6	regulation of mitochondrial membrane potential	ARF6 -[Complex]-> GDP -[Complex]-> ARL4D -[Inhibition]-> regulation of mitochondrial membrane potential	22927989	0																																		

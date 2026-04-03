@@ -1,0 +1,35 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+RACK1	K38E	RACK1_HUMAN	CHAIN;CHAIN;REPEAT	Small ribosomal subunit protein RACK1;;WD 1	Neoplasm Metastasis	RACK1 -[Activation]-> Neoplasm Metastasis	28518135	0																																		
+RACK1	K38E	RACK1_HUMAN	CHAIN;CHAIN;REPEAT	Small ribosomal subunit protein RACK1;;WD 1	autophagy	RACK1 -[Inhibition]-> autophagy	28518135	0																																		
+RACK1	K38E	RACK1_HUMAN	CHAIN;CHAIN;REPEAT	Small ribosomal subunit protein RACK1;;WD 1	translation	RACK1 -[Activation]-> translation	28518135	0																																		
+RACK1	R36D	RACK1_HUMAN	CHAIN;CHAIN;REPEAT	Small ribosomal subunit protein RACK1;;WD 1	Neoplasm Metastasis	RACK1 -[Activation]-> Neoplasm Metastasis	28518135	0																																		
+RACK1	R36D	RACK1_HUMAN	CHAIN;CHAIN;REPEAT	Small ribosomal subunit protein RACK1;;WD 1	autophagy	RACK1 -[Inhibition]-> autophagy	28518135	0																																		
+RACK1	R36D	RACK1_HUMAN	CHAIN;CHAIN;REPEAT	Small ribosomal subunit protein RACK1;;WD 1	translation	RACK1 -[Activation]-> translation	28518135	0																																		
+RACK1	S124A	RACK1_HUMAN	CHAIN;CHAIN;REPEAT	Small ribosomal subunit protein RACK1;;WD 3	Cell Polarity	RACK1 -[Inhibition]-> epithelial to mesenchymal transition -[Inhibition]-> Cell Polarity	28797110	0																																		
+RACK1	S124A	RACK1_HUMAN	CHAIN;CHAIN;REPEAT	Small ribosomal subunit protein RACK1;;WD 3	Neoplasm Metastasis	RACK1 -[Inhibition]-> Neoplasm Metastasis	28797110	0																																		
+RACK1	S124A	RACK1_HUMAN	CHAIN;CHAIN;REPEAT	Small ribosomal subunit protein RACK1;;WD 3	Stomach Neoplasms	RACK1 -[Inhibition]-> Stomach Neoplasms	28797110	0																																		
+RACK1	S124A	RACK1_HUMAN	CHAIN;CHAIN;REPEAT	Small ribosomal subunit protein RACK1;;WD 3	cell-cell adhesion	RACK1 -[Inhibition]-> epithelial to mesenchymal transition -[Inhibition]-> cell-cell adhesion	28797110	0																																		
+RACK1	S124A	RACK1_HUMAN	CHAIN;CHAIN;REPEAT	Small ribosomal subunit protein RACK1;;WD 3	epithelial to mesenchymal transition	RACK1 -[Inhibition]-> epithelial to mesenchymal transition	28797110	0																																		
+RACK1	S124A	RACK1_HUMAN	CHAIN;CHAIN;REPEAT	Small ribosomal subunit protein RACK1;;WD 3	translation	RACK1 -[Activation]-> translation	28797110	0																																		
+RACK1	Y246F	RACK1_HUMAN	CHAIN;CHAIN;REPEAT	Small ribosomal subunit protein RACK1;;WD 6	autophagy	RACK1 -[Activation]-> autophagy	30287278	0																																		
+RACK1	Y246F	RACK1_HUMAN	CHAIN;CHAIN;REPEAT	Small ribosomal subunit protein RACK1;;WD 6	cell cycle	RACK1 -[Activation]-> cell cycle	30287278	0																																		
+RACK1	Y246F	RACK1_HUMAN	CHAIN;CHAIN;REPEAT	Small ribosomal subunit protein RACK1;;WD 6	cell growth	RACK1 -[Activation]-> cell growth	30287278	0																																		
+RACK1	Y246F	RACK1_HUMAN	CHAIN;CHAIN;REPEAT	Small ribosomal subunit protein RACK1;;WD 6	cell population proliferation	RACK1 -[Inhibition]-> cell population proliferation	30287278	0																																		
+RACK1	Y246F	RACK1_HUMAN	CHAIN;CHAIN;REPEAT	Small ribosomal subunit protein RACK1;;WD 6	localization	RACK1 -[Inhibition]-> localization	22523568	0																																		
+RACK1	Y246F	RACK1_HUMAN	CHAIN;CHAIN;REPEAT	Small ribosomal subunit protein RACK1;;WD 6	translation	RACK1 -[Activation]-> translation	22523568	0																																		
+RACK1	Y246F	RACK1_HUMAN	CHAIN;CHAIN;REPEAT	Small ribosomal subunit protein RACK1;;WD 6	translation	RACK1 -[Activation]-> translation	30287278	0																																		
+RACK1	Y302F	RACK1_HUMAN	CHAIN;CHAIN;REPEAT	Small ribosomal subunit protein RACK1;;WD 7	autophagy	RACK1 -[Activation]-> autophagy	30287278	0																																		
+RACK1	Y302F	RACK1_HUMAN	CHAIN;CHAIN;REPEAT	Small ribosomal subunit protein RACK1;;WD 7	cell cycle	RACK1 -[Activation]-> cell cycle	30287278	0																																		
+RACK1	Y302F	RACK1_HUMAN	CHAIN;CHAIN;REPEAT	Small ribosomal subunit protein RACK1;;WD 7	cell growth	RACK1 -[Activation]-> cell growth	30287278	0																																		
+RACK1	Y302F	RACK1_HUMAN	CHAIN;CHAIN;REPEAT	Small ribosomal subunit protein RACK1;;WD 7	cell population proliferation	RACK1 -[Inhibition]-> cell population proliferation	30287278	0																																		
+RACK1	Y302F	RACK1_HUMAN	CHAIN;CHAIN;REPEAT	Small ribosomal subunit protein RACK1;;WD 7	translation	RACK1 -[Activation]-> translation	30287278	0																																		
+RACK1	Y320F				autophagy	RACK1 -[Activation]-> autophagy	30287278	0																																		
+RACK1	Y320F				cell cycle	RACK1 -[Activation]-> cell cycle	30287278	0																																		
+RACK1	Y320F				cell growth	RACK1 -[Activation]-> cell growth	30287278	0																																		
+RACK1	Y320F				cell population proliferation	RACK1 -[Inhibition]-> cell population proliferation	30287278	0																																		
+RACK1	Y320F				translation	RACK1 -[Activation]-> translation	30287278	0																																		
+RACK1	Y52F	RACK1_HUMAN	CHAIN;CHAIN	Small ribosomal subunit protein RACK1;	cell death	RACK1 -[Dephosphorylation]-> Receptors, Chimeric Antigen -[Activation]-> cell death	23652203	0																																		
+RACK1	Y52F	RACK1_HUMAN	CHAIN;CHAIN	Small ribosomal subunit protein RACK1;	cell growth	RACK1 -[Dephosphorylation]-> Receptors, Chimeric Antigen -[Activation]-> cell growth	23652203	0																																		
+RACK1	Y52F	RACK1_HUMAN	CHAIN;CHAIN	Small ribosomal subunit protein RACK1;	cell migration	RACK1 -[Dephosphorylation]-> Receptors, Chimeric Antigen -[Activation]-> PPP2 -[Activation]-> cell migration	23652203	0																																		
+RACK1	Y52F	RACK1_HUMAN	CHAIN;CHAIN	Small ribosomal subunit protein RACK1;	generation of precursor metabolites and energy	RACK1 -[Dephosphorylation]-> Receptors, Chimeric Antigen -[Activation]-> generation of precursor metabolites and energy	23652203	0																																		
+RACK1	Y52F	RACK1_HUMAN	CHAIN;CHAIN	Small ribosomal subunit protein RACK1;	metabolic process	RACK1 -[Dephosphorylation]-> Receptors, Chimeric Antigen -[Activation]-> metabolic process	23652203	0																																		

@@ -1,0 +1,6 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+CDK1	D146N	CDK1_HUMAN	CHAIN;DOMAIN	Cyclin-dependent kinase 1;Protein kinase	apoptotic process	CDK1 -[Inhibition]-> apoptotic process	12150824	0																																		
+CDK1	T8A	CDK1_HUMAN	CHAIN;DOMAIN	Cyclin-dependent kinase 1;Protein kinase	cytokinesis	CDK1 -[Activation]-> cytokinesis	16461284	0																																		
+CDK1	Y15F	CDK1_HUMAN	CHAIN;DOMAIN	Cyclin-dependent kinase 1;Protein kinase	DNA Damage	CDK1 -[Inhibition]-> DNA Damage	23166842	0																																		
+CDK1	Y15F	CDK1_HUMAN	CHAIN;DOMAIN	Cyclin-dependent kinase 1;Protein kinase	localization	CDK1 -[Inhibition]-> DNA Damage -[Activation]-> localization	23166842	0																																		
+CDK1	Y15F	CDK1_HUMAN	CHAIN;DOMAIN	Cyclin-dependent kinase 1;Protein kinase	mitotic cell cycle	CDK1 -[Activation]-> mitotic cell cycle	10958988	0																																		

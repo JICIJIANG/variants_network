@@ -1,0 +1,5 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+MT-ND4	G11778A				Optic Nerve Diseases	MT-ND4 -[Activation]-> Optic Nerve Diseases	32105823	0																																		
+MT-ND4	R340H	NU4M_HUMAN	CHAIN	NADH-ubiquinone oxidoreductase chain 4	apoptotic process	MT-ND4 -[Activation]-> apoptotic process	24457989	0																																		
+MT-ND4	R340H	NU4M_HUMAN	CHAIN	NADH-ubiquinone oxidoreductase chain 4	inflammatory response	MT-ND4 -[Activation]-> inflammatory response	24457989	0																																		
+MT-ND4	R340H	NU4M_HUMAN	CHAIN	NADH-ubiquinone oxidoreductase chain 4	oxidative phosphorylation	MT-ND4 -[Inhibition]-> oxidative phosphorylation	24457989	0																																		

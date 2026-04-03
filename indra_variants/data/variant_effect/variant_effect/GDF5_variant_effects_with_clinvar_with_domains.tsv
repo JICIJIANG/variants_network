@@ -1,0 +1,12 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+GDF5	L263P	GDF5_HUMAN	REGION	Disordered	cell differentiation	GDF5 -[Activation]-> cell differentiation	25092592	0																																		
+GDF5	L263P	GDF5_HUMAN	REGION	Disordered	cell population proliferation	GDF5 -[Activation]-> cell population proliferation	25092592	0																																		
+GDF5	L263P	GDF5_HUMAN	REGION	Disordered	signal transduction	GDF5 -[Activation]-> signal transduction	25092592	0																																		
+GDF5	L373R				Autosomal dominant inheritance	GDF5 -[Complex]-> Autosomal dominant inheritance	29371961	1	23431	single nucleotide variant	NM_000557.5(GDF5):c.1118T>G (p.Leu373Arg)	121909349	Symphalangism, proximal, 1B	Pathogenic	0.0																											
+GDF5	L373R				proteolysis	GDF5 -[Activation]-> proteolysis	29371961	1	23431	single nucleotide variant	NM_000557.5(GDF5):c.1118T>G (p.Leu373Arg)	121909349	Symphalangism, proximal, 1B	Pathogenic	0.0																											
+GDF5	L373R				signal transduction	GDF5 -[Complex]-> BMPR1B -[Activation]-> signal transduction	29371961	1	23431	single nucleotide variant	NM_000557.5(GDF5):c.1118T>G (p.Leu373Arg)	121909349	Symphalangism, proximal, 1B	Pathogenic	0.0																											
+GDF5	T201P				cell differentiation	GDF5 -[Activation]-> cell differentiation	25092592	0																																		
+GDF5	T201P				cell population proliferation	GDF5 -[Activation]-> cell population proliferation	25092592	0																																		
+GDF5	T201P				signal transduction	GDF5 -[Activation]-> signal transduction	25092592	0																																		
+GDF5	W408R	GDF5_HUMAN	CHAIN	Growth/differentiation factor 5	cell differentiation	GDF5 -[Inhibition]-> cell differentiation	27030100	0																																		
+GDF5	W408R	GDF5_HUMAN	CHAIN	Growth/differentiation factor 5	signal transduction	GDF5 -[Activation]-> signal transduction	27030100	0																																		

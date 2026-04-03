@@ -1,0 +1,15 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+UNC93B1	D34A	UN93B_HUMAN	CHAIN	Protein unc-93 homolog B1	Cell Survival	UNC93B1 -[Complex]-> TLR7 -[Activation]-> Cell Survival	25681333	0																																		
+UNC93B1	D34A	UN93B_HUMAN	CHAIN	Protein unc-93 homolog B1	cell death	UNC93B1 -[Complex]-> TLR7 -[Activation]-> TLR9 -[Activation]-> cell death	25681333	0																																		
+UNC93B1	D34A	UN93B_HUMAN	CHAIN	Protein unc-93 homolog B1	cell differentiation	UNC93B1 -[Complex]-> TLR7 -[Activation]-> cell differentiation	25681333	0																																		
+UNC93B1	D34A	UN93B_HUMAN	CHAIN	Protein unc-93 homolog B1	cell growth	UNC93B1 -[Complex]-> TLR7 -[Activation]-> TLR9 -[Inhibition]-> cell growth	25681333	0																																		
+UNC93B1	D34A	UN93B_HUMAN	CHAIN	Protein unc-93 homolog B1	cell population proliferation	UNC93B1 -[Complex]-> TLR7 -[Activation]-> TLR9 -[Activation]-> cell population proliferation	25681333	0																																		
+UNC93B1	D34A	UN93B_HUMAN	CHAIN	Protein unc-93 homolog B1	inflammatory response	UNC93B1 -[Activation]-> inflammatory response	24848930	0																																		
+UNC93B1	D34A	UN93B_HUMAN	CHAIN	Protein unc-93 homolog B1	innate immune response	UNC93B1 -[Activation]-> innate immune response	24848930	0																																		
+UNC93B1	H412R	UN93B_HUMAN	CHAIN	Protein unc-93 homolog B1	Cell Survival	UNC93B1 -[Inhibition]-> Cell Survival	26509685	0																																		
+UNC93B1	H412R	UN93B_HUMAN	CHAIN	Protein unc-93 homolog B1	Death	UNC93B1 -[Activation]-> Death	26509685	0																																		
+UNC93B1	H412R	UN93B_HUMAN	CHAIN	Protein unc-93 homolog B1	apoptotic process	UNC93B1 -[Activation]-> apoptotic process	26509685	0																																		
+UNC93B1	H412R	UN93B_HUMAN	CHAIN	Protein unc-93 homolog B1	cell death	UNC93B1 -[Activation]-> cell death	26509685	0																																		
+UNC93B1	H412R	UN93B_HUMAN	CHAIN	Protein unc-93 homolog B1	cytokine production	UNC93B1 -[Activation]-> TLR7 -[Activation]-> cytokine production	28928743	0																																		
+UNC93B1	H412R	UN93B_HUMAN	CHAIN	Protein unc-93 homolog B1	immune response	UNC93B1 -[Activation]-> TLR7 -[Activation]-> immune response	28928743	0																																		
+UNC93B1	H412R	UN93B_HUMAN	CHAIN	Protein unc-93 homolog B1	localization	UNC93B1 -[Activation]-> localization	28928743	0																																		

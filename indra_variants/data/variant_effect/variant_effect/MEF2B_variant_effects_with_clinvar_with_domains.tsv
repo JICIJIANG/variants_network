@@ -1,0 +1,16 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+MEF2B	D83V	MEF2B_HUMAN	CHAIN	Myocyte-specific enhancer factor 2B	Lymphoma, Large B-Cell, Diffuse	MEF2B -[Activation]-> Lymphoma, Large B-Cell, Diffuse	26245647	0																																		
+MEF2B	D83V	MEF2B_HUMAN	CHAIN	Myocyte-specific enhancer factor 2B	cell migration	MEF2B -[Inhibition]-> cell migration	26245647	0																																		
+MEF2B	D83V	MEF2B_HUMAN	CHAIN	Myocyte-specific enhancer factor 2B	chemotaxis	MEF2B -[Inhibition]-> chemotaxis	26245647	0																																		
+MEF2B	D83V	MEF2B_HUMAN	CHAIN	Myocyte-specific enhancer factor 2B	epithelial to mesenchymal transition	MEF2B -[Activation]-> epithelial to mesenchymal transition	26245647	0																																		
+MEF2B	D83V	MEF2B_HUMAN	CHAIN	Myocyte-specific enhancer factor 2B	transcription, DNA-templated	MEF2B -[Inhibition]-> transcription, DNA-templated	26245647	0																																		
+MEF2B	K4E	MEF2B_HUMAN	CHAIN;DOMAIN	Myocyte-specific enhancer factor 2B;MADS-box	Lymphoma, Large B-Cell, Diffuse	MEF2B -[Activation]-> Lymphoma, Large B-Cell, Diffuse	26245647	0																																		
+MEF2B	K4E	MEF2B_HUMAN	CHAIN;DOMAIN	Myocyte-specific enhancer factor 2B;MADS-box	cell migration	MEF2B -[Inhibition]-> cell migration	26245647	0																																		
+MEF2B	K4E	MEF2B_HUMAN	CHAIN;DOMAIN	Myocyte-specific enhancer factor 2B;MADS-box	chemotaxis	MEF2B -[Inhibition]-> chemotaxis	26245647	0																																		
+MEF2B	K4E	MEF2B_HUMAN	CHAIN;DOMAIN	Myocyte-specific enhancer factor 2B;MADS-box	epithelial to mesenchymal transition	MEF2B -[Activation]-> epithelial to mesenchymal transition	26245647	0																																		
+MEF2B	K4E	MEF2B_HUMAN	CHAIN;DOMAIN	Myocyte-specific enhancer factor 2B;MADS-box	transcription, DNA-templated	MEF2B -[Inhibition]-> transcription, DNA-templated	26245647	0																																		
+MEF2B	Y69H	MEF2B_HUMAN	CHAIN	Myocyte-specific enhancer factor 2B	Lymphoma, Large B-Cell, Diffuse	MEF2B -[Activation]-> Lymphoma, Large B-Cell, Diffuse	26245647	0																																		
+MEF2B	Y69H	MEF2B_HUMAN	CHAIN	Myocyte-specific enhancer factor 2B	cell migration	MEF2B -[Inhibition]-> cell migration	26245647	0																																		
+MEF2B	Y69H	MEF2B_HUMAN	CHAIN	Myocyte-specific enhancer factor 2B	chemotaxis	MEF2B -[Inhibition]-> chemotaxis	26245647	0																																		
+MEF2B	Y69H	MEF2B_HUMAN	CHAIN	Myocyte-specific enhancer factor 2B	epithelial to mesenchymal transition	MEF2B -[Activation]-> epithelial to mesenchymal transition	26245647	0																																		
+MEF2B	Y69H	MEF2B_HUMAN	CHAIN	Myocyte-specific enhancer factor 2B	transcription, DNA-templated	MEF2B -[Inhibition]-> transcription, DNA-templated	26245647	0																																		

@@ -1,0 +1,17 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+FGF2	C754G				Melanoma	FGF2 -[Activation]-> Melanoma	28219779	0																																		
+FGF2	K125E	FGF2_HUMAN	REGION;COMPBIAS	Disordered;Low complexity	FGFR	FGF2 -[Complex]-> FGFR	28302677	0																																		
+FGF2	K125E	FGF2_HUMAN	REGION;COMPBIAS	Disordered;Low complexity	angiogenesis	FGF2 -[Inhibition]-> angiogenesis	28302677	0																																		
+FGF2	K125E	FGF2_HUMAN	REGION;COMPBIAS	Disordered;Low complexity	cell adhesion	FGF2 -[Activation]-> cell adhesion	28302677	0																																		
+FGF2	K125E	FGF2_HUMAN	REGION;COMPBIAS	Disordered;Low complexity	cell migration	FGF2 -[Activation]-> cell migration	28302677	0																																		
+FGF2	K125E	FGF2_HUMAN	REGION;COMPBIAS	Disordered;Low complexity	cell population proliferation	FGF2 -[Complex]-> Integrins -[Activation]-> cell population proliferation	28302677	0																																		
+FGF2	K125E	FGF2_HUMAN	REGION;COMPBIAS	Disordered;Low complexity	signaling	FGF2 -[Inhibition]-> signaling	28302677	0																																		
+FGF2	K125E	FGF2_HUMAN	REGION;COMPBIAS	Disordered;Low complexity	tube formation	FGF2 -[Inhibition]-> tube formation	28302677	0																																		
+FGF2	K134A				Brain Infarction	FGF2 -[Inhibition]-> Brain Infarction	17524524	0																																		
+FGF2	R120E	FGF2_HUMAN	REGION;COMPBIAS	Disordered;Low complexity	FGFR	FGF2 -[Complex]-> FGFR	28302677	0																																		
+FGF2	R120E	FGF2_HUMAN	REGION;COMPBIAS	Disordered;Low complexity	angiogenesis	FGF2 -[Inhibition]-> angiogenesis	28302677	0																																		
+FGF2	R120E	FGF2_HUMAN	REGION;COMPBIAS	Disordered;Low complexity	cell adhesion	FGF2 -[Activation]-> cell adhesion	28302677	0																																		
+FGF2	R120E	FGF2_HUMAN	REGION;COMPBIAS	Disordered;Low complexity	cell migration	FGF2 -[Activation]-> cell migration	28302677	0																																		
+FGF2	R120E	FGF2_HUMAN	REGION;COMPBIAS	Disordered;Low complexity	cell population proliferation	FGF2 -[Complex]-> Integrins -[Activation]-> cell population proliferation	28302677	0																																		
+FGF2	R120E	FGF2_HUMAN	REGION;COMPBIAS	Disordered;Low complexity	signaling	FGF2 -[Inhibition]-> signaling	28302677	0																																		
+FGF2	R120E	FGF2_HUMAN	REGION;COMPBIAS	Disordered;Low complexity	tube formation	FGF2 -[Inhibition]-> tube formation	28302677	0																																		

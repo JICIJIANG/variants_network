@@ -1,0 +1,23 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+CASP8	C360S	CASP8_HUMAN	CHAIN	Caspase-8 subunit p18	apoptotic process	CASP8 -[Inhibition]-> apoptotic process	9430227	0																																		
+CASP8	C362S	CASP8_HUMAN	CHAIN	Caspase-8 subunit p18	Death	CASP8 -[Activation]-> Death	31748744	0																																		
+CASP8	C362S	CASP8_HUMAN	CHAIN	Caspase-8 subunit p18	Neoplasms	CASP8 -[Activation]-> Neoplasms	34028029	0																																		
+CASP8	C362S	CASP8_HUMAN	CHAIN	Caspase-8 subunit p18	Tumor Microenvironment	CASP8 -[Activation]-> Tumor Microenvironment	34028029	0																																		
+CASP8	C362S	CASP8_HUMAN	CHAIN	Caspase-8 subunit p18	inflammatory response	CASP8 -[Inhibition]-> inflammatory response	31748744	0																																		
+CASP8	C362S	CASP8_HUMAN	CHAIN	Caspase-8 subunit p18	necroptotic process	CASP8 -[Activation]-> necroptotic process	34028029	0																																		
+CASP8	C362S	CASP8_HUMAN	CHAIN	Caspase-8 subunit p18	necroptotic process	CASP8 -[Inhibition]-> necroptotic process	31748744	0																																		
+CASP8	C362S	CASP8_HUMAN	CHAIN	Caspase-8 subunit p18	pyroptosis	CASP8 -[Activation]-> pyroptosis	34028029	0																																		
+CASP8	C377A				Cell Survival	CASP8 -[Activation]-> HECTD3 -[Activation]-> Cell Survival	24287696	0																																		
+CASP8	C377A				apoptotic process	CASP8 -[Activation]-> apoptotic process	24287696	0																																		
+CASP8	D387A	CASP8_HUMAN	CHAIN	Caspase-8 subunit p10	apoptotic process	CASP8 -[Activation]-> apoptotic process	27737018	0																																		
+CASP8	D387A	CASP8_HUMAN	CHAIN	Caspase-8 subunit p10	cell death	CASP8 -[Activation]-> cell death	27737018	0																																		
+CASP8	D387A	CASP8_HUMAN	CHAIN	Caspase-8 subunit p10	cytokine production	CASP8 -[Activation]-> cytokine production	27737018	0																																		
+CASP8	D387A	CASP8_HUMAN	CHAIN	Caspase-8 subunit p10	necrotic cell death	CASP8 -[Inhibition]-> necrotic cell death	27737018	0																																		
+CASP8	D387A	CASP8_HUMAN	CHAIN	Caspase-8 subunit p10	transcription, DNA-templated	CASP8 -[Activation]-> transcription, DNA-templated	27737018	0																																		
+CASP8	G325A	CASP8_HUMAN	CHAIN	Caspase-8 subunit p18	Carcinogenesis	CASP8 -[Inhibition]-> Carcinogenesis	23659359	0																																		
+CASP8	Q482H				apoptotic process	CASP8 -[Inhibition]-> apoptotic process	29191655	0																																		
+CASP8	S387A	CASP8_HUMAN	CHAIN	Caspase-8 subunit p10	cell death	CASP8 -[Inhibition]-> doxorubicin -[Activation]-> cell death	26036637	0																																		
+CASP8	S387A	CASP8_HUMAN	CHAIN	Caspase-8 subunit p10	cell population proliferation	CASP8 -[Inhibition]-> doxorubicin -[Inhibition]-> cell population proliferation	26036637	0																																		
+CASP8	Y380E				Death	CASP8 -[Activation]-> Death	27109099	0																																		
+CASP8	Y380E				apoptotic process	CASP8 -[Activation]-> apoptotic process	27109099	0																																		
+CASP8	Y380E				cell death	CASP8 -[Activation]-> cell death	27109099	0																																		

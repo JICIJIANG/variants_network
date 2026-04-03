@@ -1,0 +1,24 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+ULK1	D211A	ULK1_HUMAN	CHAIN;DOMAIN	Serine/threonine-protein kinase ULK1;Protein kinase	Parkinson Disease	ULK1 -[Inhibition]-> ATG4 -[Activation]-> Atg8 -[Complex]-> Parkinson Disease	28821724	0																																		
+ULK1	D211A	ULK1_HUMAN	CHAIN;DOMAIN	Serine/threonine-protein kinase ULK1;Protein kinase	autophagy	ULK1 -[Inhibition]-> autophagy	28821724	0																																		
+ULK1	K46I	ULK1_HUMAN	CHAIN;DOMAIN	Serine/threonine-protein kinase ULK1;Protein kinase	Cell Survival	ULK1 -[Inhibition]-> autophagy -[Activation]-> Cell Survival	29367588	0																																		
+ULK1	K46I	ULK1_HUMAN	CHAIN;DOMAIN	Serine/threonine-protein kinase ULK1;Protein kinase	apoptotic process	ULK1 -[Inhibition]-> autophagy -[Activation]-> apoptotic process	29367588	0																																		
+ULK1	K46I	ULK1_HUMAN	CHAIN;DOMAIN	Serine/threonine-protein kinase ULK1;Protein kinase	autophagy	ULK1 -[Inhibition]-> autophagy	20921139	0																																		
+ULK1	K46I	ULK1_HUMAN	CHAIN;DOMAIN	Serine/threonine-protein kinase ULK1;Protein kinase	autophagy	ULK1 -[Inhibition]-> autophagy	27932574	0																																		
+ULK1	K46I	ULK1_HUMAN	CHAIN;DOMAIN	Serine/threonine-protein kinase ULK1;Protein kinase	autophagy	ULK1 -[Inhibition]-> autophagy	29367588	0																																		
+ULK1	K46I	ULK1_HUMAN	CHAIN;DOMAIN	Serine/threonine-protein kinase ULK1;Protein kinase	cell death	ULK1 -[Inhibition]-> autophagy -[Activation]-> cell death	29367588	0																																		
+ULK1	K46I	ULK1_HUMAN	CHAIN;DOMAIN	Serine/threonine-protein kinase ULK1;Protein kinase	cell death	ULK1 -[Inhibition]-> autophagy -[Inhibition]-> cell death	27932574	0																																		
+ULK1	K46I	ULK1_HUMAN	CHAIN;DOMAIN	Serine/threonine-protein kinase ULK1;Protein kinase	proteolysis	ULK1 -[Inhibition]-> autophagy -[Inhibition]-> proteolysis	29367588	0																																		
+ULK1	K46I	ULK1_HUMAN	CHAIN;DOMAIN	Serine/threonine-protein kinase ULK1;Protein kinase	proteolysis	ULK1 -[Inhibition]-> proteolysis	27932574	0																																		
+ULK1	K46R	ULK1_HUMAN	CHAIN;DOMAIN	Serine/threonine-protein kinase ULK1;Protein kinase	autophagy	ULK1 -[Activation]-> autophagy	21258367	0																																		
+ULK1	M92A	ULK1_HUMAN	CHAIN;DOMAIN	Serine/threonine-protein kinase ULK1;Protein kinase	Neoplasm Invasiveness	ULK1 -[Inhibition]-> Neoplasm Invasiveness	31913283	0																																		
+ULK1	M92A	ULK1_HUMAN	CHAIN;DOMAIN	Serine/threonine-protein kinase ULK1;Protein kinase	Neoplasm Metastasis	ULK1 -[Inhibition]-> Neoplasm Metastasis	31913283	0																																		
+ULK1	M92T	ULK1_HUMAN	CHAIN;DOMAIN	Serine/threonine-protein kinase ULK1;Protein kinase	autophagy	ULK1 -[Inhibition]-> autophagy	25833948	0																																		
+ULK1	S423D	ULK1_HUMAN	CHAIN;REGION;COMPBIAS	Serine/threonine-protein kinase ULK1;Disordered;Low complexity	autophagy	ULK1 -[Activation]-> autophagy	30154410	0																																		
+ULK1	S556D	ULK1_HUMAN	CHAIN;REGION	Serine/threonine-protein kinase ULK1;Disordered	autophagy	ULK1 -[Activation]-> autophagy	24119841	0																																		
+ULK1	S757A	ULK1_HUMAN	CHAIN;REGION	Serine/threonine-protein kinase ULK1;Disordered	autophagy	ULK1 -[Activation]-> autophagy	21258367	0																																		
+ULK1	S758A	ULK1_HUMAN	CHAIN;REGION	Serine/threonine-protein kinase ULK1;Disordered	autophagy	ULK1 -[Activation]-> autophagy	21383122	0																																		
+ULK1	Y89A	ULK1_HUMAN	CHAIN;DOMAIN	Serine/threonine-protein kinase ULK1;Protein kinase	apoptotic process	ULK1 -[Inhibition]-> LYN-1604 -[Activation]-> apoptotic process	28553505	0																																		
+ULK1	Y89A	ULK1_HUMAN	CHAIN;DOMAIN	Serine/threonine-protein kinase ULK1;Protein kinase	autophagy	ULK1 -[Activation]-> autophagy	28553505	0																																		
+ULK1	Y89A	ULK1_HUMAN	CHAIN;DOMAIN	Serine/threonine-protein kinase ULK1;Protein kinase	cell death	ULK1 -[Inhibition]-> cell death	28553505	0																																		
+ULK1	Y89A	ULK1_HUMAN	CHAIN;DOMAIN	Serine/threonine-protein kinase ULK1;Protein kinase	cell population proliferation	ULK1 -[Activation]-> RAD21 -[Inhibition]-> cell population proliferation	28553505	0																																		

@@ -1,0 +1,7 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+SHMT1	C1420T				Adenocarcinoma	SHMT1 -[Activation]-> Adenocarcinoma	16536979	0																																		
+SHMT1	C1420T				DNA Damage	SHMT1 -[Inhibition]-> DNA Damage	27347936	0																																		
+SHMT1	C1420T				Neoplasms	SHMT1 -[Activation]-> Neoplasms	24716966	0																																		
+SHMT1	C1420T				biosynthetic process	SHMT1 -[Activation]-> biosynthetic process	26666829	0																																		
+SHMT1	L474F	GLYC_HUMAN	CHAIN	Serine hydroxymethyltransferase, cytosolic	biosynthetic process	SHMT1 -[Activation]-> biosynthetic process	19513116	1	167454	single nucleotide variant	NM_004169.5(SHMT1):c.1420C>T (p.Leu474Phe)	1979277	Gastrointestinal stromal tumor	Uncertain significance	0.0																											
+SHMT1	L474F	GLYC_HUMAN	CHAIN	Serine hydroxymethyltransferase, cytosolic	localization	SHMT1 -[Inhibition]-> localization	19513116	1	167454	single nucleotide variant	NM_004169.5(SHMT1):c.1420C>T (p.Leu474Phe)	1979277	Gastrointestinal stromal tumor	Uncertain significance	0.0																											

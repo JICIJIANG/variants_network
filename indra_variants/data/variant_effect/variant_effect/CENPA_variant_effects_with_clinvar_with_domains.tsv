@@ -1,0 +1,6 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+CENPA	H115A	CENPA_HUMAN	CHAIN;REGION	Histone H3-like centromeric protein A;CATD	localization	CENPA -[Activation]-> localization	27052173	0																																		
+CENPA	L128A	CENPA_HUMAN	CHAIN	Histone H3-like centromeric protein A	localization	CENPA -[Activation]-> localization	27052173	0																																		
+CENPA	S18D	CENPA_HUMAN	CHAIN;REGION	Histone H3-like centromeric protein A;Disordered	Chromosomal Instability	CENPA -[Activation]-> Chromosomal Instability	28760857	0																																		
+CENPA	S18D	CENPA_HUMAN	CHAIN;REGION	Histone H3-like centromeric protein A;Disordered	Neoplasms	CENPA -[Activation]-> Neoplasms	28760857	0																																		
+CENPA	S18D	CENPA_HUMAN	CHAIN;REGION	Histone H3-like centromeric protein A;Disordered	localization	CENPA -[Inhibition]-> localization	28760857	0																																		

@@ -1,0 +1,20 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+MCF2L2	G9A	MF2L2_HUMAN	CHAIN	Probable guanine nucleotide exchange factor MCF2L2	Hyperalgesia	MCF2L2 -[Activation]-> MOR -[Activation]-> Hyperalgesia	27927796	0																																		
+MCF2L2	G9A	MF2L2_HUMAN	CHAIN	Probable guanine nucleotide exchange factor MCF2L2	Hypersensitivity	MCF2L2 -[Activation]-> Hypersensitivity	34383386	0																																		
+MCF2L2	G9A	MF2L2_HUMAN	CHAIN	Probable guanine nucleotide exchange factor MCF2L2	Neuralgia	MCF2L2 -[Activation]-> Neuralgia	27874088	0																																		
+MCF2L2	G9A	MF2L2_HUMAN	CHAIN	Probable guanine nucleotide exchange factor MCF2L2	Neuralgia	MCF2L2 -[Activation]-> Neuralgia	27927796	0																																		
+MCF2L2	G9A	MF2L2_HUMAN	CHAIN	Probable guanine nucleotide exchange factor MCF2L2	Neuralgia	MCF2L2 -[Activation]-> Neuralgia	28741410	0																																		
+MCF2L2	G9A	MF2L2_HUMAN	CHAIN	Probable guanine nucleotide exchange factor MCF2L2	Neuralgia	MCF2L2 -[Activation]-> Neuralgia	31497620	0																																		
+MCF2L2	G9A	MF2L2_HUMAN	CHAIN	Probable guanine nucleotide exchange factor MCF2L2	Neuralgia	MCF2L2 -[Activation]-> Neuralgia	33340498	0																																		
+MCF2L2	G9A	MF2L2_HUMAN	CHAIN	Probable guanine nucleotide exchange factor MCF2L2	Neuralgia	MCF2L2 -[IncreaseAmount]-> EHMT2 -[Activation]-> Neuralgia	34383386	0																																		
+MCF2L2	G9A	MF2L2_HUMAN	CHAIN	Probable guanine nucleotide exchange factor MCF2L2	Pain	MCF2L2 -[Activation]-> Pain	27874088	0																																		
+MCF2L2	G9A	MF2L2_HUMAN	CHAIN	Probable guanine nucleotide exchange factor MCF2L2	Pain	MCF2L2 -[Activation]-> Pain	31497620	0																																		
+MCF2L2	G9A	MF2L2_HUMAN	CHAIN	Probable guanine nucleotide exchange factor MCF2L2	Pain	MCF2L2 -[Inhibition]-> RALY -[Activation]-> Pain	34383386	0																																		
+MCF2L2	G9A	MF2L2_HUMAN	CHAIN	Probable guanine nucleotide exchange factor MCF2L2	Pain	MCF2L2 -[Inhibition]-> morphine -[Activation]-> Pain	27927796	0																																		
+MCF2L2	G9A	MF2L2_HUMAN	CHAIN	Probable guanine nucleotide exchange factor MCF2L2	gene expression	MCF2L2 -[Activation]-> gene expression	27874088	0																																		
+MCF2L2	G9A	MF2L2_HUMAN	CHAIN	Probable guanine nucleotide exchange factor MCF2L2	gene expression	MCF2L2 -[Activation]-> gene expression	31497620	0																																		
+MCF2L2	G9A	MF2L2_HUMAN	CHAIN	Probable guanine nucleotide exchange factor MCF2L2	hypersensitivity	MCF2L2 -[Activation]-> hypersensitivity	34383386	0																																		
+MCF2L2	G9A	MF2L2_HUMAN	CHAIN	Probable guanine nucleotide exchange factor MCF2L2	hypersensitivity	MCF2L2 -[Inhibition]-> hypersensitivity	33340498	0																																		
+MCF2L2	G9A	MF2L2_HUMAN	CHAIN	Probable guanine nucleotide exchange factor MCF2L2	neurotransmitter secretion	MCF2L2 -[Activation]-> neurotransmitter secretion	27927796	0																																		
+MCF2L2	G9A	MF2L2_HUMAN	CHAIN	Probable guanine nucleotide exchange factor MCF2L2	neurotransmitter secretion	MCF2L2 -[Activation]-> neurotransmitter secretion	34383386	0																																		
+MCF2L2	G9A	MF2L2_HUMAN	CHAIN	Probable guanine nucleotide exchange factor MCF2L2	tolerance induction	MCF2L2 -[Activation]-> tolerance induction	34383386	0																																		

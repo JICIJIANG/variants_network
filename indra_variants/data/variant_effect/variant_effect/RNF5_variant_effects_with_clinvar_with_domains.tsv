@@ -1,0 +1,16 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+RNF5	C42S	RNF5_HUMAN	CHAIN;ZN_FING	E3 ubiquitin-protein ligase RNF5;RING-type	Neoplasms	RNF5 -[DecreaseAmount]-> ABCG2 -[Inhibition]-> Neoplasms	21184741	0																																		
+RNF5	C42S	RNF5_HUMAN	CHAIN;ZN_FING	E3 ubiquitin-protein ligase RNF5;RING-type	cell population proliferation	RNF5 -[Activation]-> TTR -[Glycosylation]-> STT3B -[Activation]-> cell population proliferation	22607976	0																																		
+RNF5	C42S	RNF5_HUMAN	CHAIN;ZN_FING	E3 ubiquitin-protein ligase RNF5;RING-type	homeostatic process	RNF5 -[Activation]-> TTR -[Glycosylation]-> STT3B -[Activation]-> cell population proliferation -[Inhibition]-> homeostatic process	22607976	0																																		
+RNF5	C42S	RNF5_HUMAN	CHAIN;ZN_FING	E3 ubiquitin-protein ligase RNF5;RING-type	innate immune response	RNF5 -[Activation]-> STING1 -[Activation]-> innate immune response	19285439	0																																		
+RNF5	C42S	RNF5_HUMAN	CHAIN;ZN_FING	E3 ubiquitin-protein ligase RNF5;RING-type	transcription, DNA-templated	RNF5 -[Complex]-> RHBDF2 -[Inhibition]-> transcription, DNA-templated	29155878	0																																		
+RNF5	C42S	RNF5_HUMAN	CHAIN;ZN_FING	E3 ubiquitin-protein ligase RNF5;RING-type	transport	RNF5 -[DecreaseAmount]-> ABCG2 -[Activation]-> transport	21184741	0																																		
+RNF5	C42S	RNF5_HUMAN	CHAIN;ZN_FING	E3 ubiquitin-protein ligase RNF5;RING-type	type I interferon receptor binding	RNF5 -[Inhibition]-> IRF3 -[Activation]-> type I interferon receptor binding	19285439	0																																		
+RNF5	C42S	RNF5_HUMAN	CHAIN;ZN_FING	E3 ubiquitin-protein ligase RNF5;RING-type	viral release from host cell	RNF5 -[Activation]-> SARS-CoV-2 -[Activation]-> viral release from host cell	35100873	0																																		
+RNF5	E3S	RNF5_HUMAN	CHAIN	E3 ubiquitin-protein ligase RNF5	proteolysis	RNF5 -[Ubiquitination]-> MAVS -[Activation]-> proteolysis	26712804	0																																		
+RNF5	E3S	RNF5_HUMAN	CHAIN	E3 ubiquitin-protein ligase RNF5	transcription, DNA-templated	RNF5 -[Ubiquitination]-> MAVS -[Complex]-> RLR -[IncreaseAmount]-> Interferon -[Activation]-> transcription, DNA-templated	26712804	0																																		
+RNF5	T2256V				Cell Survival	RNF5 -[Activation]-> Cell Survival	17591920	0																																		
+RNF5	T2256V				beta-adrenergic receptor activity	RNF5 -[Activation]-> PDGF_BB -[Activation]-> beta-adrenergic receptor activity	17591920	0																																		
+RNF5	T2256V				cell migration	RNF5 -[Activation]-> cell migration	17591920	0																																		
+RNF5	T2256V				cell motility	RNF5 -[Activation]-> cell motility	17591920	0																																		
+RNF5	T2256V				cell population proliferation	RNF5 -[Inhibition]-> cell population proliferation	17591920	0																																		

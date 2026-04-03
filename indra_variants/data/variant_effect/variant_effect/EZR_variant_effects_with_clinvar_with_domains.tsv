@@ -1,0 +1,43 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+EZR	R40L	EZRI_HUMAN	CHAIN;DOMAIN	Ezrin;FERM	PDGF	EZR -[Inhibition]-> PDGF	22132106	0																																		
+EZR	R579A	EZRI_HUMAN	CHAIN;REGION	Ezrin;Interaction with SCYL3	PDGF	EZR -[Inhibition]-> PDGF	22132106	0																																		
+EZR	S66A	EZRI_HUMAN	CHAIN;DOMAIN	Ezrin;FERM	Death_receptor	EZR -[Activation]-> Death_receptor	26010871	0																																		
+EZR	S66A	EZRI_HUMAN	CHAIN;DOMAIN	Ezrin;FERM	Lymphoma	EZR -[Activation]-> Lymphoma	26010871	0																																		
+EZR	S66A	EZRI_HUMAN	CHAIN;DOMAIN	Ezrin;FERM	apoptotic process	EZR -[Inhibition]-> apoptotic process	26010871	0																																		
+EZR	S66A	EZRI_HUMAN	CHAIN;DOMAIN	Ezrin;FERM	cell adhesion	EZR -[Activation]-> cell adhesion	26010871	0																																		
+EZR	S66A	EZRI_HUMAN	CHAIN;DOMAIN	Ezrin;FERM	cell death	EZR -[Inhibition]-> cell death	26010871	0																																		
+EZR	S66D	EZRI_HUMAN	CHAIN;DOMAIN	Ezrin;FERM	Death_receptor	EZR -[Activation]-> Death_receptor	26010871	0																																		
+EZR	S66D	EZRI_HUMAN	CHAIN;DOMAIN	Ezrin;FERM	Lymphoma	EZR -[Activation]-> Lymphoma	26010871	0																																		
+EZR	S66D	EZRI_HUMAN	CHAIN;DOMAIN	Ezrin;FERM	apoptotic process	EZR -[Inhibition]-> apoptotic process	26010871	0																																		
+EZR	S66D	EZRI_HUMAN	CHAIN;DOMAIN	Ezrin;FERM	cell adhesion	EZR -[Activation]-> cell adhesion	26010871	0																																		
+EZR	S66D	EZRI_HUMAN	CHAIN;DOMAIN	Ezrin;FERM	cell death	EZR -[Inhibition]-> cell death	26010871	0																																		
+EZR	T567A	EZRI_HUMAN	CHAIN;REGION	Ezrin;Interaction with SCYL3	cell motility	EZR -[Activation]-> cell motility	11792551	0																																		
+EZR	T567A	EZRI_HUMAN	CHAIN;REGION	Ezrin;Interaction with SCYL3	contact inhibition	EZR -[Inhibition]-> contact inhibition	10970850	0																																		
+EZR	T567A	EZRI_HUMAN	CHAIN;REGION	Ezrin;Interaction with SCYL3	localization	EZR -[Inhibition]-> localization	26042733	0																																		
+EZR	T567A	EZRI_HUMAN	CHAIN;REGION	Ezrin;Interaction with SCYL3	transport	EZR -[Activation]-> transport	26042733	0																																		
+EZR	T567D	EZRI_HUMAN	CHAIN;REGION	Ezrin;Interaction with SCYL3	B cell activation	EZR -[Activation]-> B cell activation	32098334	0																																		
+EZR	T567D	EZRI_HUMAN	CHAIN;REGION	Ezrin;Interaction with SCYL3	Cell Polarity	EZR -[Inhibition]-> Cell Polarity	23579783	0																																		
+EZR	T567D	EZRI_HUMAN	CHAIN;REGION	Ezrin;Interaction with SCYL3	Neoplasm Invasiveness	EZR -[Dephosphorylation]-> PPP2 -[Inhibition]-> Neoplasm Invasiveness	18426979	0																																		
+EZR	T567D	EZRI_HUMAN	CHAIN;REGION	Ezrin;Interaction with SCYL3	Neoplasm Metastasis	EZR -[Activation]-> RAC1 -[Inhibition]-> cell adhesion -[Inhibition]-> Neoplasm Metastasis	19737400	0																																		
+EZR	T567D	EZRI_HUMAN	CHAIN;REGION	Ezrin;Interaction with SCYL3	apoptotic process	EZR -[Activation]-> apoptotic process	10893267	0																																		
+EZR	T567D	EZRI_HUMAN	CHAIN;REGION	Ezrin;Interaction with SCYL3	cell adhesion	EZR -[Activation]-> RAC1 -[Inhibition]-> cell adhesion	19737400	0																																		
+EZR	T567D	EZRI_HUMAN	CHAIN;REGION	Ezrin;Interaction with SCYL3	cell adhesion	EZR -[Inhibition]-> cell adhesion	24728215	0																																		
+EZR	T567D	EZRI_HUMAN	CHAIN;REGION	Ezrin;Interaction with SCYL3	cell adhesion	EZR -[Inhibition]-> cell adhesion	32098334	0																																		
+EZR	T567D	EZRI_HUMAN	CHAIN;REGION	Ezrin;Interaction with SCYL3	cell differentiation	EZR -[Activation]-> CDC42 -[Activation]-> cell differentiation	24379416	0																																		
+EZR	T567D	EZRI_HUMAN	CHAIN;REGION	Ezrin;Interaction with SCYL3	cell migration	EZR -[Activation]-> cell migration	15504914	0																																		
+EZR	T567D	EZRI_HUMAN	CHAIN;REGION	Ezrin;Interaction with SCYL3	cell population proliferation	EZR -[Activation]-> cell population proliferation	24728215	0																																		
+EZR	T567D	EZRI_HUMAN	CHAIN;REGION	Ezrin;Interaction with SCYL3	cell-cell adhesion	EZR -[Activation]-> RAC1 -[Inhibition]-> cell-cell adhesion	19737400	0																																		
+EZR	T567D	EZRI_HUMAN	CHAIN;REGION	Ezrin;Interaction with SCYL3	chemotaxis	EZR -[Inhibition]-> chemotaxis	32098334	0																																		
+EZR	T567D	EZRI_HUMAN	CHAIN;REGION	Ezrin;Interaction with SCYL3	diapedesis	EZR -[Inhibition]-> diapedesis	32098334	0																																		
+EZR	T567D	EZRI_HUMAN	CHAIN;REGION	Ezrin;Interaction with SCYL3	localization	EZR -[Activation]-> ERM -[Activation]-> localization	24958772	0																																		
+EZR	T567D	EZRI_HUMAN	CHAIN;REGION	Ezrin;Interaction with SCYL3	mitotic cell cycle	EZR -[Activation]-> ERM -[Activation]-> mitotic cell cycle	24958772	0																																		
+EZR	T567E	EZRI_HUMAN	CHAIN;REGION	Ezrin;Interaction with SCYL3	cell adhesion	EZR -[Inhibition]-> RAP1 -[Activation]-> cell adhesion	26634692	0																																		
+EZR	Y145F	EZRI_HUMAN	CHAIN;DOMAIN	Ezrin;FERM	Neoplasm Invasiveness	EZR -[Inhibition]-> Neoplasm Invasiveness	22397367	0																																		
+EZR	Y145F	EZRI_HUMAN	CHAIN;DOMAIN	Ezrin;FERM	Neoplasm Metastasis	EZR -[Inhibition]-> Neoplasm Metastasis	22397367	0																																		
+EZR	Y145F	EZRI_HUMAN	CHAIN;DOMAIN	Ezrin;FERM	localization	EZR -[Activation]-> localization	22397367	0																																		
+EZR	Y146E	EZRI_HUMAN	CHAIN;DOMAIN	Ezrin;FERM	Cell Survival	EZR -[Inhibition]-> Cell Survival	26936397	0																																		
+EZR	Y146E	EZRI_HUMAN	CHAIN;DOMAIN	Ezrin;FERM	cell population proliferation	EZR -[Activation]-> EGFR -[Activation]-> cell population proliferation	26936397	0																																		
+EZR	Y353F	EZRI_HUMAN	CHAIN;REGION;COILED	Ezrin;Interaction with SCYL3;	apoptotic process	EZR -[Activation]-> apoptotic process	10893267	0																																		
+EZR	Y477F	EZRI_HUMAN	CHAIN;REGION	Ezrin;Interaction with SCYL3	Neoplasm Invasiveness	EZR -[Inhibition]-> Neoplasm Invasiveness	22397367	0																																		
+EZR	Y477F	EZRI_HUMAN	CHAIN;REGION	Ezrin;Interaction with SCYL3	Neoplasm Metastasis	EZR -[Inhibition]-> Neoplasm Metastasis	22397367	0																																		
+EZR	Y477F	EZRI_HUMAN	CHAIN;REGION	Ezrin;Interaction with SCYL3	localization	EZR -[Activation]-> localization	22397367	0																																		

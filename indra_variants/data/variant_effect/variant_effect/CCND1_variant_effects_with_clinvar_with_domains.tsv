@@ -1,0 +1,31 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+CCND1	A870G				Laryngeal Neoplasms	CCND1 -[Inhibition]-> Laryngeal Neoplasms	15350626	0																																		
+CCND1	C47S	CCND1_HUMAN	CHAIN;DOMAIN	G1/S-specific cyclin-D1;Cyclin N-terminal	Cell Survival	CCND1 -[Activation]-> ibrutinib -[Inhibition]-> Cell Survival	27713153	0																																		
+CCND1	C47S	CCND1_HUMAN	CHAIN;DOMAIN	G1/S-specific cyclin-D1;Cyclin N-terminal	apoptotic process	CCND1 -[Activation]-> ibrutinib -[Activation]-> apoptotic process	27713153	0																																		
+CCND1	C47S	CCND1_HUMAN	CHAIN;DOMAIN	G1/S-specific cyclin-D1;Cyclin N-terminal	cell growth	CCND1 -[Activation]-> ibrutinib -[Inhibition]-> cell growth	27713153	0																																		
+CCND1	C47S	CCND1_HUMAN	CHAIN;DOMAIN	G1/S-specific cyclin-D1;Cyclin N-terminal	cell population proliferation	CCND1 -[IncreaseAmount]-> Cyclin -[Activation]-> cell population proliferation	29969496	0																																		
+CCND1	C47S	CCND1_HUMAN	CHAIN;DOMAIN	G1/S-specific cyclin-D1;Cyclin N-terminal	localization	CCND1 -[Activation]-> localization	27713153	0																																		
+CCND1	C47S	CCND1_HUMAN	CHAIN;DOMAIN	G1/S-specific cyclin-D1;Cyclin N-terminal	proteolysis	CCND1 -[IncreaseAmount]-> Cyclin -[Activation]-> proteolysis	29969496	0																																		
+CCND1	E36K	CCND1_HUMAN	CHAIN;DOMAIN	G1/S-specific cyclin-D1;Cyclin N-terminal	Cell Survival	CCND1 -[Activation]-> ibrutinib -[Inhibition]-> Cell Survival	27713153	0																																		
+CCND1	E36K	CCND1_HUMAN	CHAIN;DOMAIN	G1/S-specific cyclin-D1;Cyclin N-terminal	apoptotic process	CCND1 -[Activation]-> ibrutinib -[Activation]-> apoptotic process	27713153	0																																		
+CCND1	E36K	CCND1_HUMAN	CHAIN;DOMAIN	G1/S-specific cyclin-D1;Cyclin N-terminal	cell growth	CCND1 -[Activation]-> ibrutinib -[Inhibition]-> cell growth	27713153	0																																		
+CCND1	E36K	CCND1_HUMAN	CHAIN;DOMAIN	G1/S-specific cyclin-D1;Cyclin N-terminal	localization	CCND1 -[Activation]-> localization	27713153	0																																		
+CCND1	G870A				Stomach Neoplasms	CCND1 -[Activation]-> Stomach Neoplasms	27623072	0																																		
+CCND1	G870A				cell growth	CCND1 -[Activation]-> cell growth	24570185	0																																		
+CCND1	G870A				transcription, DNA-templated	CCND1 -[Complex]-> ERCC2 -[Activation]-> transcription, DNA-templated	15754315	0																																		
+CCND1	K112E	CCND1_HUMAN	CHAIN;DOMAIN	G1/S-specific cyclin-D1;Cyclin N-terminal	Neoplasm Invasiveness	CCND1 -[Activation]-> Neoplasm Invasiveness	27105504	0																																		
+CCND1	K112E	CCND1_HUMAN	CHAIN;DOMAIN	G1/S-specific cyclin-D1;Cyclin N-terminal	Neoplasm Metastasis	CCND1 -[Activation]-> Neoplasm Metastasis	27105504	0																																		
+CCND1	K112E	CCND1_HUMAN	CHAIN;DOMAIN	G1/S-specific cyclin-D1;Cyclin N-terminal	cell cycle	CCND1 -[Activation]-> cell cycle	27105504	0																																		
+CCND1	K112E	CCND1_HUMAN	CHAIN;DOMAIN	G1/S-specific cyclin-D1;Cyclin N-terminal	cell migration	CCND1 -[Activation]-> cell migration	27105504	0																																		
+CCND1	K112E	CCND1_HUMAN	CHAIN;DOMAIN	G1/S-specific cyclin-D1;Cyclin N-terminal	cell motility	CCND1 -[Activation]-> cell motility	27105504	0																																		
+CCND1	K112E	CCND1_HUMAN	CHAIN;DOMAIN	G1/S-specific cyclin-D1;Cyclin N-terminal	cell population proliferation	CCND1 -[Activation]-> cell population proliferation	27105504	0																																		
+CCND1	K112E	CCND1_HUMAN	CHAIN;DOMAIN	G1/S-specific cyclin-D1;Cyclin N-terminal	transcription, DNA-templated	CCND1 -[Activation]-> transcription, DNA-templated	27105504	0																																		
+CCND1	T286A	CCND1_HUMAN	CHAIN;REGION	G1/S-specific cyclin-D1;Disordered	Cell Transformation, Neoplastic	CCND1 -[Activation]-> Cell Transformation, Neoplastic	22037875	0																																		
+CCND1	T286A	CCND1_HUMAN	CHAIN;REGION	G1/S-specific cyclin-D1;Disordered	Neoplasm Invasiveness	CCND1 -[Complex]-> CDK4 -[Complex]-> Cyclin -[Activation]-> Neoplasm Invasiveness	19415719	0																																		
+CCND1	T286A	CCND1_HUMAN	CHAIN;REGION	G1/S-specific cyclin-D1;Disordered	cell cycle	CCND1 -[Complex]-> DYRK1A -[Activation]-> cell cycle	24119401	0																																		
+CCND1	Y44D	CCND1_HUMAN	CHAIN;DOMAIN	G1/S-specific cyclin-D1;Cyclin N-terminal	Cell Survival	CCND1 -[Activation]-> ibrutinib -[Inhibition]-> Cell Survival	27713153	0																																		
+CCND1	Y44D	CCND1_HUMAN	CHAIN;DOMAIN	G1/S-specific cyclin-D1;Cyclin N-terminal	apoptotic process	CCND1 -[Activation]-> ibrutinib -[Activation]-> apoptotic process	27713153	0																																		
+CCND1	Y44D	CCND1_HUMAN	CHAIN;DOMAIN	G1/S-specific cyclin-D1;Cyclin N-terminal	cell growth	CCND1 -[Activation]-> ibrutinib -[Inhibition]-> cell growth	27713153	0																																		
+CCND1	Y44D	CCND1_HUMAN	CHAIN;DOMAIN	G1/S-specific cyclin-D1;Cyclin N-terminal	cell population proliferation	CCND1 -[IncreaseAmount]-> Cyclin -[Activation]-> cell population proliferation	29969496	0																																		
+CCND1	Y44D	CCND1_HUMAN	CHAIN;DOMAIN	G1/S-specific cyclin-D1;Cyclin N-terminal	localization	CCND1 -[Activation]-> localization	27713153	0																																		
+CCND1	Y44D	CCND1_HUMAN	CHAIN;DOMAIN	G1/S-specific cyclin-D1;Cyclin N-terminal	proteolysis	CCND1 -[IncreaseAmount]-> Cyclin -[Activation]-> proteolysis	29969496	0																																		

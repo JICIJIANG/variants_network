@@ -1,0 +1,18 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+NFS1	R72Q				electron transport chain	NFS1 -[Inhibition]-> electron transport chain	34488769	1	1161574	single nucleotide variant	NM_021100.5(NFS1):c.215G>A (p.Arg72Gln)	200592030	Combined oxidative phosphorylation deficiency 52	Conflicting classifications of pathogenicity	0.0	not provided																										
+NFS1	S293A				Cell Survival	NFS1 -[Activation]-> Cell Survival	35221331	0																																		
+NFS1	S293A				Melanoma	NFS1 -[DecreaseAmount]-> Reactive Oxygen Species -[Activation]-> Melanoma	35221331	0																																		
+NFS1	S293A				Neoplasm Metastasis	NFS1 -[Activation]-> Neoplasm Metastasis	35221331	0																																		
+NFS1	S293A				Neoplasms	NFS1 -[Inhibition]-> Neoplasms	35221331	0																																		
+NFS1	S293A				apoptotic process	NFS1 -[Inhibition]-> oxaliplatin -[Activation]-> apoptotic process	35221331	0																																		
+NFS1	S293A				cell death	NFS1 -[Inhibition]-> cell death	35221331	0																																		
+NFS1	S293A				cell population proliferation	NFS1 -[Activation]-> cell population proliferation	35221331	0																																		
+NFS1	S293A				translation	NFS1 -[Activation]-> translation	35221331	0																																		
+NFS1	S293D				Cell Survival	NFS1 -[Activation]-> Cell Survival	35221331	0																																		
+NFS1	S293D				Melanoma	NFS1 -[DecreaseAmount]-> Reactive Oxygen Species -[Activation]-> Melanoma	35221331	0																																		
+NFS1	S293D				Neoplasm Metastasis	NFS1 -[Activation]-> Neoplasm Metastasis	35221331	0																																		
+NFS1	S293D				Neoplasms	NFS1 -[Inhibition]-> Neoplasms	35221331	0																																		
+NFS1	S293D				apoptotic process	NFS1 -[Inhibition]-> oxaliplatin -[Activation]-> apoptotic process	35221331	0																																		
+NFS1	S293D				cell death	NFS1 -[Inhibition]-> cell death	35221331	0																																		
+NFS1	S293D				cell population proliferation	NFS1 -[Activation]-> cell population proliferation	35221331	0																																		
+NFS1	S293D				translation	NFS1 -[Activation]-> translation	35221331	0																																		

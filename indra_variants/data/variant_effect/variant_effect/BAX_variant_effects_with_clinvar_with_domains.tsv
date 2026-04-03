@@ -1,0 +1,34 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+BAX	D68A	BAX_HUMAN	CHAIN;MOTIF	Apoptosis regulator BAX;BH3	apoptotic process	BAX -[Activation]-> apoptotic process	9395483	0																																		
+BAX	D68R	BAX_HUMAN	CHAIN;MOTIF	Apoptosis regulator BAX;BH3	apoptotic process	BAX -[Activation]-> apoptotic process	18981409	0																																		
+BAX	E69A	BAX_HUMAN	CHAIN;MOTIF	Apoptosis regulator BAX;BH3	apoptotic process	BAX -[Activation]-> apoptotic process	9395483	0																																		
+BAX	G179E	BAX_HUMAN	CHAIN	Apoptosis regulator BAX	apoptotic process	BAX -[Activation]-> apoptotic process	24786774	0																																		
+BAX	L63A	BAX_HUMAN	CHAIN;MOTIF	Apoptosis regulator BAX;BH3	apoptotic process	BAX -[Activation]-> apoptotic process	15574335	0																																		
+BAX	L63A	BAX_HUMAN	CHAIN;MOTIF	Apoptosis regulator BAX;BH3	cell death	BAX -[Inhibition]-> cell death	15574335	0																																		
+BAX	L63E	BAX_HUMAN	CHAIN;MOTIF	Apoptosis regulator BAX;BH3	apoptotic process	BAX -[Activation]-> apoptotic process	30127460	0																																		
+BAX	P168G	BAX_HUMAN	CHAIN	Apoptosis regulator BAX	apoptotic process	BAX -[Activation]-> BH3 -[Activation]-> apoptotic process	21070973	0																																		
+BAX	P168G	BAX_HUMAN	CHAIN	Apoptosis regulator BAX	apoptotic process	BAX -[Activation]-> apoptotic process	27425408	0																																		
+BAX	R109D	BAX_HUMAN	CHAIN;MOTIF	Apoptosis regulator BAX;BH1	apoptotic process	BAX -[Activation]-> apoptotic process	32327636	0																																		
+BAX	R134E	BAX_HUMAN	CHAIN	Apoptosis regulator BAX	apoptotic process	BAX -[Activation]-> apoptotic process	33602934	0																																		
+BAX	R134E	BAX_HUMAN	CHAIN	Apoptosis regulator BAX	cell death	BAX -[Activation]-> cell death	33602934	0																																		
+BAX	R134E	BAX_HUMAN	CHAIN	Apoptosis regulator BAX	homeostatic process	BAX -[Activation]-> cell death -[Activation]-> homeostatic process	33602934	0																																		
+BAX	R34A	BAX_HUMAN	CHAIN	Apoptosis regulator BAX	apoptotic process	BAX -[Activation]-> apoptotic process	32327636	0																																		
+BAX	S184A	BAX_HUMAN	CHAIN	Apoptosis regulator BAX	Death	BAX -[Complex]-> AKT -[Inhibition]-> Death	29987135	0																																		
+BAX	S184A	BAX_HUMAN	CHAIN	Apoptosis regulator BAX	apoptotic process	BAX -[Activation]-> apoptotic process	25482509	0																																		
+BAX	S184A	BAX_HUMAN	CHAIN	Apoptosis regulator BAX	apoptotic process	BAX -[Activation]-> apoptotic process	29987135	0																																		
+BAX	S184A	BAX_HUMAN	CHAIN	Apoptosis regulator BAX	cell death	BAX -[Complex]-> AKT -[Inhibition]-> Death -[Activation]-> cell death	29987135	0																																		
+BAX	S184A	BAX_HUMAN	CHAIN	Apoptosis regulator BAX	localization	BAX -[Complex]-> AKT -[Inhibition]-> localization	29987135	0																																		
+BAX	S184C	BAX_HUMAN	CHAIN	Apoptosis regulator BAX	apoptotic process	BAX -[Activation]-> apoptotic process	22442658	0																																		
+BAX	S184C	BAX_HUMAN	CHAIN	Apoptosis regulator BAX	localization	BAX -[Activation]-> localization	22442658	0																																		
+BAX	S184E	BAX_HUMAN	CHAIN	Apoptosis regulator BAX	Death	BAX -[Complex]-> AKT -[Inhibition]-> Death	29987135	0																																		
+BAX	S184E	BAX_HUMAN	CHAIN	Apoptosis regulator BAX	apoptotic process	BAX -[Activation]-> apoptotic process	26418181	0																																		
+BAX	S184E	BAX_HUMAN	CHAIN	Apoptosis regulator BAX	apoptotic process	BAX -[Activation]-> apoptotic process	29987135	0																																		
+BAX	S184E	BAX_HUMAN	CHAIN	Apoptosis regulator BAX	cell death	BAX -[Activation]-> cell death	26418181	0																																		
+BAX	S184E	BAX_HUMAN	CHAIN	Apoptosis regulator BAX	cell death	BAX -[Complex]-> AKT -[Inhibition]-> Death -[Activation]-> cell death	29987135	0																																		
+BAX	S184E	BAX_HUMAN	CHAIN	Apoptosis regulator BAX	localization	BAX -[Complex]-> AKT -[Inhibition]-> localization	29987135	0																																		
+BAX	S184V	BAX_HUMAN	CHAIN	Apoptosis regulator BAX	apoptotic process	BAX -[Activation]-> apoptotic process	19917256	0																																		
+BAX	T167A	BAX_HUMAN	CHAIN	Apoptosis regulator BAX	Death	BAX -[Activation]-> PIN1 -[Inhibition]-> Death	19182807	0																																		
+BAX	T167A	BAX_HUMAN	CHAIN	Apoptosis regulator BAX	apoptotic process	BAX -[Activation]-> apoptotic process	19182807	0																																		
+BAX	T167A	BAX_HUMAN	CHAIN	Apoptosis regulator BAX	cell death	BAX -[Activation]-> cell death	19182807	0																																		
+BAX	T167A	BAX_HUMAN	CHAIN	Apoptosis regulator BAX	localization	BAX -[Activation]-> PIN1 -[Inhibition]-> localization	19182807	0																																		
+BAX	V177C	BAX_HUMAN	CHAIN	Apoptosis regulator BAX	apoptotic process	BAX -[Activation]-> BH3 -[Activation]-> apoptotic process	21070973	0																																		

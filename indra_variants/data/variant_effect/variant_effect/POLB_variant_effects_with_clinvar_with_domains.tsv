@@ -1,0 +1,9 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+POLB	K72A	DPOLB_HUMAN	CHAIN	DNA polymerase beta	DNA Damage	POLB -[Complex]-> XRCC1 -[Complex]-> Reactive Oxygen Species -[Activation]-> DNA Damage	25423885	0																																		
+POLB	K72A	DPOLB_HUMAN	CHAIN	DNA polymerase beta	DNA repair	POLB -[Complex]-> XRCC1 -[Inhibition]-> DNA repair	25423885	0																																		
+POLB	P242R	DPOLB_HUMAN	CHAIN	DNA polymerase beta	Cell Transformation, Neoplastic	POLB -[Inhibition]-> Cell Transformation, Neoplastic	23144635	0																																		
+POLB	P242R	DPOLB_HUMAN	CHAIN	DNA polymerase beta	Neoplasms	POLB -[Activation]-> Neoplasms	23144635	0																																		
+POLB	R152C	DPOLB_HUMAN	CHAIN	DNA polymerase beta	Cell Transformation, Neoplastic	POLB -[Inhibition]-> Cell Transformation, Neoplastic	26760506	0																																		
+POLB	T889C				Neoplasm Invasiveness	POLB -[Activation]-> Neoplasm Invasiveness	27471563	0																																		
+POLB	T889C				Stomach Neoplasms	POLB -[Activation]-> Stomach Neoplasms	27471563	0																																		
+POLB	T889C				cell migration	POLB -[IncreaseAmount]-> PGR -[Activation]-> cell migration	27471563	0																																		

@@ -1,0 +1,8 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+TLR7	C445A	TLR7_HUMAN	CHAIN	Toll-like receptor 7	cytokine production	TLR7 -[Activation]-> CYBB -[Inhibition]-> cytokine production	28701733	0																																		
+TLR7	C445A	TLR7_HUMAN	CHAIN	Toll-like receptor 7	immune response	TLR7 -[Activation]-> CYBB -[Inhibition]-> immune response	28701733	0																																		
+TLR7	C445A	TLR7_HUMAN	CHAIN	Toll-like receptor 7	inflammatory response	TLR7 -[Activation]-> CYBB -[Activation]-> Reactive Oxygen Species -[Activation]-> inflammatory response	28701733	0																																		
+TLR7	Y892A	TLR7_HUMAN	CHAIN;DOMAIN	Toll-like receptor 7;TIR	Virus Diseases	TLR7 -[Activation]-> Virus Diseases	28854257	0																																		
+TLR7	Y892A	TLR7_HUMAN	CHAIN;DOMAIN	Toll-like receptor 7;TIR	cytokine production	TLR7 -[Complex]-> HGS -[Activation]-> cytokine production	28854257	0																																		
+TLR7	Y892A	TLR7_HUMAN	CHAIN;DOMAIN	Toll-like receptor 7;TIR	inflammatory response	TLR7 -[Activation]-> inflammatory response	28854257	0																																		
+TLR7	Y892A	TLR7_HUMAN	CHAIN;DOMAIN	Toll-like receptor 7;TIR	protein-containing complex assembly	TLR7 -[Complex]-> HGS -[Activation]-> protein-containing complex assembly	28854257	0																																		

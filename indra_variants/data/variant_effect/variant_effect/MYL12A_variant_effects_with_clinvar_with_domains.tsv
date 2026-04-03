@@ -1,0 +1,19 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+MYL12A	A13T	ML12A_HUMAN	CHAIN	Myosin regulatory light chain 12A	ATPase activity	MYL12A -[Complex]-> Actin -[Activation]-> ATPase activity	26385864	0																																		
+MYL12A	D94A	ML12A_HUMAN	CHAIN	Myosin regulatory light chain 12A	ATPase activity	MYL12A -[Complex]-> Actin -[Activation]-> ATPase activity	26385864	0																																		
+MYL12A	S19D	ML12A_HUMAN	CHAIN	Myosin regulatory light chain 12A	Cell Polarity	MYL12A -[Activation]-> ROCK1 -[Activation]-> Cell Polarity	26169356	0																																		
+MYL12A	S19D	ML12A_HUMAN	CHAIN	Myosin regulatory light chain 12A	cell adhesion	MYL12A -[Activation]-> cell adhesion	26169356	0																																		
+MYL12A	S19D	ML12A_HUMAN	CHAIN	Myosin regulatory light chain 12A	cell differentiation	MYL12A -[Activation]-> ROCK1 -[Activation]-> cell differentiation	26169356	0																																		
+MYL12A	T18D	ML12A_HUMAN	CHAIN	Myosin regulatory light chain 12A	Cell Polarity	MYL12A -[Activation]-> ROCK1 -[Activation]-> Cell Polarity	26169356	0																																		
+MYL12A	T18D	ML12A_HUMAN	CHAIN	Myosin regulatory light chain 12A	cell adhesion	MYL12A -[Activation]-> cell adhesion	26169356	0																																		
+MYL12A	T18D	ML12A_HUMAN	CHAIN	Myosin regulatory light chain 12A	cell differentiation	MYL12A -[Activation]-> ROCK1 -[Activation]-> cell differentiation	26169356	0																																		
+MYL12A	Y155E	ML12A_HUMAN	CHAIN;DOMAIN	Myosin regulatory light chain 12A;EF-hand 3	cell adhesion	MYL12A -[Activation]-> cell adhesion	32502416	0																																		
+MYL12A	Y155E	ML12A_HUMAN	CHAIN;DOMAIN	Myosin regulatory light chain 12A;EF-hand 3	cell migration	MYL12A -[Activation]-> cell migration	32502416	0																																		
+MYL12A	Y155E	ML12A_HUMAN	CHAIN;DOMAIN	Myosin regulatory light chain 12A;EF-hand 3	cytokinesis	MYL12A -[Activation]-> cytokinesis	32502416	0																																		
+MYL12A	Y155E	ML12A_HUMAN	CHAIN;DOMAIN	Myosin regulatory light chain 12A;EF-hand 3	establishment of cell polarity	MYL12A -[Complex]-> Myosin_complex -[Activation]-> establishment of cell polarity	32502416	0																																		
+MYL12A	Y155E	ML12A_HUMAN	CHAIN;DOMAIN	Myosin regulatory light chain 12A;EF-hand 3	focal adhesion assembly	MYL12A -[Activation]-> focal adhesion assembly	32502416	0																																		
+MYL12A	Y155F	ML12A_HUMAN	CHAIN;DOMAIN	Myosin regulatory light chain 12A;EF-hand 3	cell adhesion	MYL12A -[Activation]-> cell adhesion	32502416	0																																		
+MYL12A	Y155F	ML12A_HUMAN	CHAIN;DOMAIN	Myosin regulatory light chain 12A;EF-hand 3	cell migration	MYL12A -[Activation]-> cell migration	32502416	0																																		
+MYL12A	Y155F	ML12A_HUMAN	CHAIN;DOMAIN	Myosin regulatory light chain 12A;EF-hand 3	cytokinesis	MYL12A -[Activation]-> cytokinesis	32502416	0																																		
+MYL12A	Y155F	ML12A_HUMAN	CHAIN;DOMAIN	Myosin regulatory light chain 12A;EF-hand 3	establishment of cell polarity	MYL12A -[Complex]-> Myosin_complex -[Activation]-> establishment of cell polarity	32502416	0																																		
+MYL12A	Y155F	ML12A_HUMAN	CHAIN;DOMAIN	Myosin regulatory light chain 12A;EF-hand 3	focal adhesion assembly	MYL12A -[Activation]-> focal adhesion assembly	32502416	0																																		

@@ -1,0 +1,12 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+CDC25C	S216A	MPIP3_HUMAN	CHAIN	M-phase inducer phosphatase 3	Cell Survival	CDC25C -[Activation]-> CDK1 -[Inhibition]-> Cell Survival	9585407	0																																		
+CDC25C	S216A	MPIP3_HUMAN	CHAIN	M-phase inducer phosphatase 3	G1 phase	CDC25C -[Activation]-> AMPK -[Inhibition]-> G1 phase	29467227	0																																		
+CDC25C	S216A	MPIP3_HUMAN	CHAIN	M-phase inducer phosphatase 3	G1 phase	CDC25C -[Complex]-> p14_3_3 -[Phosphorylation]-> CDK2 -[Complex]-> G1 phase	16697662	0																																		
+CDC25C	S216A	MPIP3_HUMAN	CHAIN	M-phase inducer phosphatase 3	G2 phase	CDC25C -[Activation]-> G2 phase	29467227	0																																		
+CDC25C	S216A	MPIP3_HUMAN	CHAIN	M-phase inducer phosphatase 3	autophagy	CDC25C -[Activation]-> AMPK -[Activation]-> autophagy	29467227	0																																		
+CDC25C	S216A	MPIP3_HUMAN	CHAIN	M-phase inducer phosphatase 3	cell cycle	CDC25C -[Complex]-> WEE1 -[Complex]-> AKT -[Activation]-> cell cycle	16697662	0																																		
+CDC25C	S216A	MPIP3_HUMAN	CHAIN	M-phase inducer phosphatase 3	cell cycle	CDC25C -[Inhibition]-> cell cycle	9585407	0																																		
+CDC25C	S216A	MPIP3_HUMAN	CHAIN	M-phase inducer phosphatase 3	cell death	CDC25C -[Activation]-> cell death	29467227	0																																		
+CDC25C	S216A	MPIP3_HUMAN	CHAIN	M-phase inducer phosphatase 3	cell population proliferation	CDC25C -[Activation]-> AMPK -[Inhibition]-> cell population proliferation	29467227	0																																		
+CDC25C	S216A	MPIP3_HUMAN	CHAIN	M-phase inducer phosphatase 3	mitotic cell cycle	CDC25C -[Activation]-> CDK1 -[Activation]-> mitotic cell cycle	9585407	0																																		
+CDC25C	S216A	MPIP3_HUMAN	CHAIN	M-phase inducer phosphatase 3	mitotic cell cycle	CDC25C -[Activation]-> mitotic cell cycle	29467227	0																																		

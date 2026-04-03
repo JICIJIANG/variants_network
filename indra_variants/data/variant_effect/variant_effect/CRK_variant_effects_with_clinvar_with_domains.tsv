@@ -1,0 +1,18 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+CRK	C3G	CRK_HUMAN	CHAIN	Adapter molecule crk	apoptotic process	CRK -[Inhibition]-> ABL1 -[Activation]-> apoptotic process	19001122	0																																		
+CRK	C3G	CRK_HUMAN	CHAIN	Adapter molecule crk	cell adhesion	CRK -[Inhibition]-> ABL1 -[Inhibition]-> cell adhesion	19001122	0																																		
+CRK	C3G	CRK_HUMAN	CHAIN	Adapter molecule crk	cell migration	CRK -[Inhibition]-> ABL1 -[Inhibition]-> cell migration	19001122	0																																		
+CRK	Y221F	CRK_HUMAN	CHAIN;REGION	Adapter molecule crk;Disordered	Neoplasm Invasiveness	CRK -[Inhibition]-> ABL1 -[Activation]-> Neoplasm Invasiveness	21602891	0																																		
+CRK	Y221F	CRK_HUMAN	CHAIN;REGION	Adapter molecule crk;Disordered	Neoplasms	CRK -[Inhibition]-> ABL1 -[Activation]-> Neoplasms	21602891	0																																		
+CRK	Y221F	CRK_HUMAN	CHAIN;REGION	Adapter molecule crk;Disordered	apoptotic process	CRK -[Complex]-> WEE1 -[Complex]-> Crk II -[Inhibition]-> apoptotic process	19426560	0																																		
+CRK	Y221F	CRK_HUMAN	CHAIN;REGION	Adapter molecule crk;Disordered	cell migration	CRK -[Activation]-> cell migration	12799422	0																																		
+CRK	Y221F	CRK_HUMAN	CHAIN;REGION	Adapter molecule crk;Disordered	cell migration	CRK -[Activation]-> cell migration	26656091	0																																		
+CRK	Y221F	CRK_HUMAN	CHAIN;REGION	Adapter molecule crk;Disordered	cell migration	CRK -[Dephosphorylation]-> PTK2 -[Inhibition]-> cell migration	19426560	0																																		
+CRK	Y221F	CRK_HUMAN	CHAIN;REGION	Adapter molecule crk;Disordered	cell motility	CRK -[Inhibition]-> cell motility	26656091	0																																		
+CRK	Y221P	CRK_HUMAN	CHAIN;REGION	Adapter molecule crk;Disordered	cell migration	CRK -[Activation]-> cell migration	16267043	0																																		
+CRK	Y251F	CRK_HUMAN	CHAIN;DOMAIN	Adapter molecule crk;SH3 2	Neoplasm Invasiveness	CRK -[Activation]-> Neoplasm Invasiveness	26473374	0																																		
+CRK	Y251F	CRK_HUMAN	CHAIN;DOMAIN	Adapter molecule crk;SH3 2	Neoplasm Invasiveness	CRK -[Inhibition]-> ABL1 -[Activation]-> Neoplasm Invasiveness	21602891	0																																		
+CRK	Y251F	CRK_HUMAN	CHAIN;DOMAIN	Adapter molecule crk;SH3 2	Neoplasms	CRK -[Inhibition]-> ABL1 -[Activation]-> Neoplasms	21602891	0																																		
+CRK	Y251F	CRK_HUMAN	CHAIN;DOMAIN	Adapter molecule crk;SH3 2	cell migration	CRK -[Inhibition]-> cell migration	26473374	0																																		
+CRK	Y251F	CRK_HUMAN	CHAIN;DOMAIN	Adapter molecule crk;SH3 2	cell motility	CRK -[Activation]-> cell motility	25381819	0																																		
+CRK	Y251F	CRK_HUMAN	CHAIN;DOMAIN	Adapter molecule crk;SH3 2	cell motility	CRK -[Activation]-> cell motility	26473374	0																																		

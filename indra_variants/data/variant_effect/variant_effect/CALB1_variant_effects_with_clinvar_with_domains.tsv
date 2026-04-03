@@ -1,0 +1,10 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+CALB1	D28K	CALB1_HUMAN	CHAIN;DOMAIN	Calbindin;EF-hand 1	Cell Survival	CALB1 -[Activation]-> Cell Survival	11489442	0																																		
+CALB1	D28K	CALB1_HUMAN	CHAIN;DOMAIN	Calbindin;EF-hand 1	Hypercalciuria	CALB1 -[Activation]-> Hypercalciuria	31628396	0																																		
+CALB1	D28K	CALB1_HUMAN	CHAIN;DOMAIN	Calbindin;EF-hand 1	apoptotic process	CALB1 -[Inhibition]-> apoptotic process	24894511	0																																		
+CALB1	D28K	CALB1_HUMAN	CHAIN;DOMAIN	Calbindin;EF-hand 1	apoptotic process	CALB1 -[Inhibition]-> apoptotic process	8611623	0																																		
+CALB1	D28K	CALB1_HUMAN	CHAIN;DOMAIN	Calbindin;EF-hand 1	apoptotic process	CALB1 -[Inhibition]-> apoptotic process	9501245	0																																		
+CALB1	D28K	CALB1_HUMAN	CHAIN;DOMAIN	Calbindin;EF-hand 1	apoptotic process	CALB1 -[Inhibition]-> staurosporine -[Activation]-> apoptotic process	9084441	0																																		
+CALB1	D28K	CALB1_HUMAN	CHAIN;DOMAIN	Calbindin;EF-hand 1	cell death	CALB1 -[Inhibition]-> staurosporine -[Inhibition]-> cell death	9084441	0																																		
+CALB1	D28K	CALB1_HUMAN	CHAIN;DOMAIN	Calbindin;EF-hand 1	homeostatic process	CALB1 -[Activation]-> homeostatic process	29370673	0																																		
+CALB1	D28K	CALB1_HUMAN	CHAIN;DOMAIN	Calbindin;EF-hand 1	homeostatic process	CALB1 -[Inhibition]-> PSEN1 -[Inhibition]-> homeostatic process	10091010	0																																		

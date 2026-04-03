@@ -1,0 +1,99 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+PTK2	E1015A	FAK1_HUMAN	CHAIN;REGION;REGION	Focal adhesion kinase 1;Interaction with TGFB1I1;Interaction with ARHGEF28	cell adhesion	PTK2 -[Inhibition]-> cell adhesion	22270917	0																																		
+PTK2	E1015A	FAK1_HUMAN	CHAIN;REGION;REGION	Focal adhesion kinase 1;Interaction with TGFB1I1;Interaction with ARHGEF28	cell migration	PTK2 -[Inhibition]-> talin -[Activation]-> cell migration	22270917	0																																		
+PTK2	E1015A	FAK1_HUMAN	CHAIN;REGION;REGION	Focal adhesion kinase 1;Interaction with TGFB1I1;Interaction with ARHGEF28	cell motility	PTK2 -[Inhibition]-> cell motility	22270917	0																																		
+PTK2	E1015A	FAK1_HUMAN	CHAIN;REGION;REGION	Focal adhesion kinase 1;Interaction with TGFB1I1;Interaction with ARHGEF28	localization	PTK2 -[Inhibition]-> localization	22270917	0																																		
+PTK2	E1015A	FAK1_HUMAN	CHAIN;REGION;REGION	Focal adhesion kinase 1;Interaction with TGFB1I1;Interaction with ARHGEF28	proteolysis	PTK2 -[Activation]-> calpain2 -[Activation]-> proteolysis	23860236	0																																		
+PTK2	F397Y	FAK1_HUMAN	CHAIN	Focal adhesion kinase 1	cell differentiation	PTK2 -[Activation]-> cell differentiation	21693107	0																																		
+PTK2	F397Y	FAK1_HUMAN	CHAIN	Focal adhesion kinase 1	cell population proliferation	PTK2 -[Activation]-> cell population proliferation	19889638	0																																		
+PTK2	H58A	FAK1_HUMAN	CHAIN;DOMAIN	Focal adhesion kinase 1;FERM	Neoplasm Metastasis	PTK2 -[Activation]-> Neoplasm Metastasis	24043698	0																																		
+PTK2	H58A	FAK1_HUMAN	CHAIN;DOMAIN	Focal adhesion kinase 1;FERM	cell adhesion	PTK2 -[Activation]-> cell adhesion	24043698	0																																		
+PTK2	K38A	FAK1_HUMAN	CHAIN;DOMAIN	Focal adhesion kinase 1;FERM	cell cycle	PTK2 -[Activation]-> cell cycle	15611137	0																																		
+PTK2	K38A	FAK1_HUMAN	CHAIN;DOMAIN	Focal adhesion kinase 1;FERM	cell migration	PTK2 -[Activation]-> cell migration	15611137	0																																		
+PTK2	K454R	FAK1_HUMAN	CHAIN;DOMAIN	Focal adhesion kinase 1;Protein kinase	Neoplasm Invasiveness	PTK2 -[Inhibition]-> Neoplasm Invasiveness	19364917	0																																		
+PTK2	K454R	FAK1_HUMAN	CHAIN;DOMAIN	Focal adhesion kinase 1;Protein kinase	Neoplasm Metastasis	PTK2 -[Activation]-> Neoplasm Metastasis	28213315	0																																		
+PTK2	K454R	FAK1_HUMAN	CHAIN;DOMAIN	Focal adhesion kinase 1;Protein kinase	cell adhesion	PTK2 -[Activation]-> SEMA3A -[Activation]-> cell adhesion	20159040	0																																		
+PTK2	K454R	FAK1_HUMAN	CHAIN;DOMAIN	Focal adhesion kinase 1;Protein kinase	cell adhesion	PTK2 -[DecreaseAmount]-> SRC -[Activation]-> cell adhesion	19364917	0																																		
+PTK2	K454R	FAK1_HUMAN	CHAIN;DOMAIN	Focal adhesion kinase 1;Protein kinase	cell migration	PTK2 -[Inhibition]-> cell migration	19364917	0																																		
+PTK2	K454R	FAK1_HUMAN	CHAIN;DOMAIN	Focal adhesion kinase 1;Protein kinase	cytokine production	PTK2 -[Activation]-> cytokine production	28213315	0																																		
+PTK2	P117S	FAK1_HUMAN	CHAIN;DOMAIN	Focal adhesion kinase 1;FERM	Neoplasm Metastasis	PTK2 -[Inhibition]-> Neoplasm Metastasis	29228673	0																																		
+PTK2	P117S	FAK1_HUMAN	CHAIN;DOMAIN	Focal adhesion kinase 1;FERM	cell adhesion	PTK2 -[Inhibition]-> cell adhesion	29228673	0																																		
+PTK2	P117S	FAK1_HUMAN	CHAIN;DOMAIN	Focal adhesion kinase 1;FERM	cell population proliferation	PTK2 -[Inhibition]-> cell population proliferation	29228673	0																																		
+PTK2	P875A	FAK1_HUMAN	CHAIN;REGION;REGION;COMPBIAS	Focal adhesion kinase 1;Interaction with TGFB1I1;Disordered;Pro residues	GAP	PTK2 -[Complex]-> GAP	30134553	0																																		
+PTK2	P875A	FAK1_HUMAN	CHAIN;REGION;REGION;COMPBIAS	Focal adhesion kinase 1;Interaction with TGFB1I1;Disordered;Pro residues	Neoplasm Invasiveness	PTK2 -[Activation]-> Neoplasm Invasiveness	30134553	0																																		
+PTK2	P875A	FAK1_HUMAN	CHAIN;REGION;REGION;COMPBIAS	Focal adhesion kinase 1;Interaction with TGFB1I1;Disordered;Pro residues	VEGFR	PTK2 -[Complex]-> VEGFR	30134553	0																																		
+PTK2	P875A	FAK1_HUMAN	CHAIN;REGION;REGION;COMPBIAS	Focal adhesion kinase 1;Interaction with TGFB1I1;Disordered;Pro residues	cell adhesion	PTK2 -[Complex]-> ITGA5 -[Activation]-> cell adhesion	30134553	0																																		
+PTK2	P875A	FAK1_HUMAN	CHAIN;REGION;REGION;COMPBIAS	Focal adhesion kinase 1;Interaction with TGFB1I1;Disordered;Pro residues	cell migration	PTK2 -[Complex]-> Actin -[Activation]-> cell migration	30134553	0																																		
+PTK2	P875A	FAK1_HUMAN	CHAIN;REGION;REGION;COMPBIAS	Focal adhesion kinase 1;Interaction with TGFB1I1;Disordered;Pro residues	cell motility	PTK2 -[Complex]-> PXN -[Inhibition]-> cell motility	30134553	0																																		
+PTK2	S732A	FAK1_HUMAN	CHAIN;REGION;REGION	Focal adhesion kinase 1;Disordered;Interaction with TGFB1I1	cell migration	PTK2 -[Inhibition]-> cell migration	22348083	0																																		
+PTK2	S910A	FAK1_HUMAN	CHAIN;REGION;REGION	Focal adhesion kinase 1;Interaction with TGFB1I1;Disordered	DNA Damage	PTK2 -[Phosphorylation]-> MAPK7 -[Activation]-> DNA Damage	32144580	0																																		
+PTK2	S910A	FAK1_HUMAN	CHAIN;REGION;REGION	Focal adhesion kinase 1;Interaction with TGFB1I1;Disordered	Neoplasm Invasiveness	PTK2 -[Phosphorylation]-> MAPK7 -[Activation]-> Neoplasm Invasiveness	32144580	0																																		
+PTK2	S910A	FAK1_HUMAN	CHAIN;REGION;REGION	Focal adhesion kinase 1;Interaction with TGFB1I1;Disordered	Neoplasm Metastasis	PTK2 -[Inhibition]-> Neoplasm Metastasis	32144580	0																																		
+PTK2	S910A	FAK1_HUMAN	CHAIN;REGION;REGION	Focal adhesion kinase 1;Interaction with TGFB1I1;Disordered	apoptotic process	PTK2 -[Phosphorylation]-> MAPK7 -[Activation]-> DNA Damage -[Activation]-> apoptotic process	32144580	0																																		
+PTK2	S910A	FAK1_HUMAN	CHAIN;REGION;REGION	Focal adhesion kinase 1;Interaction with TGFB1I1;Disordered	cell migration	PTK2 -[Activation]-> cell migration	32144580	0																																		
+PTK2	S910A	FAK1_HUMAN	CHAIN;REGION;REGION	Focal adhesion kinase 1;Interaction with TGFB1I1;Disordered	cell population proliferation	PTK2 -[Phosphorylation]-> MAPK7 -[Activation]-> cell population proliferation	32144580	0																																		
+PTK2	S910A	FAK1_HUMAN	CHAIN;REGION;REGION	Focal adhesion kinase 1;Interaction with TGFB1I1;Disordered	epithelial to mesenchymal transition	PTK2 -[Phosphorylation]-> MAPK7 -[Inhibition]-> epithelial to mesenchymal transition	32144580	0																																		
+PTK2	Y194E	FAK1_HUMAN	CHAIN;DOMAIN	Focal adhesion kinase 1;FERM	Neoplasm Invasiveness	PTK2 -[Activation]-> Neoplasm Invasiveness	21969470	0																																		
+PTK2	Y397A	FAK1_HUMAN	CHAIN	Focal adhesion kinase 1	Carcinogenesis	PTK2 -[Activation]-> Carcinogenesis	26119934	0																																		
+PTK2	Y397A	FAK1_HUMAN	CHAIN	Focal adhesion kinase 1	Cell Survival	PTK2 -[Activation]-> Cell Survival	26119934	0																																		
+PTK2	Y397A	FAK1_HUMAN	CHAIN	Focal adhesion kinase 1	Neoplasm Invasiveness	PTK2 -[Activation]-> Neoplasm Invasiveness	26119934	0																																		
+PTK2	Y397A	FAK1_HUMAN	CHAIN	Focal adhesion kinase 1	Neoplasms	PTK2 -[Activation]-> Neoplasms	26119934	0																																		
+PTK2	Y397A	FAK1_HUMAN	CHAIN	Focal adhesion kinase 1	cell growth	PTK2 -[Activation]-> cell growth	26119934	0																																		
+PTK2	Y397A	FAK1_HUMAN	CHAIN	Focal adhesion kinase 1	cellular component biogenesis	PTK2 -[Activation]-> cellular component biogenesis	26119934	0																																		
+PTK2	Y397A	FAK1_HUMAN	CHAIN	Focal adhesion kinase 1	glycolytic process	PTK2 -[Inhibition]-> glycolytic process	26119934	0																																		
+PTK2	Y397A	FAK1_HUMAN	CHAIN	Focal adhesion kinase 1	metabolic process	PTK2 -[Activation]-> metabolic process	26119934	0																																		
+PTK2	Y397A	FAK1_HUMAN	CHAIN	Focal adhesion kinase 1	monocarboxylic acid transmembrane transporter activity	PTK2 -[Activation]-> monocarboxylic acid transmembrane transporter activity	26119934	0																																		
+PTK2	Y397A	FAK1_HUMAN	CHAIN	Focal adhesion kinase 1	oxidative phosphorylation	PTK2 -[Activation]-> oxidative phosphorylation	26119934	0																																		
+PTK2	Y397A	FAK1_HUMAN	CHAIN	Focal adhesion kinase 1	pH reduction	PTK2 -[Activation]-> pH reduction	26119934	0																																		
+PTK2	Y397D	FAK1_HUMAN	CHAIN	Focal adhesion kinase 1	proteinase activated receptor activity	PTK2 -[Complex]-> F2 -[Activation]-> proteinase activated receptor activity	19917775	0																																		
+PTK2	Y397E	FAK1_HUMAN	CHAIN	Focal adhesion kinase 1	Carcinogenesis	PTK2 -[Activation]-> ZIC2 -[Activation]-> Carcinogenesis	34514099	0																																		
+PTK2	Y397E	FAK1_HUMAN	CHAIN	Focal adhesion kinase 1	Carcinoma, Non-Small-Cell Lung	PTK2 -[Activation]-> ZIC2 -[Activation]-> Carcinoma, Non-Small-Cell Lung	34514099	0																																		
+PTK2	Y397E	FAK1_HUMAN	CHAIN	Focal adhesion kinase 1	Neoplasm Metastasis	PTK2 -[Activation]-> ZIC2 -[Activation]-> Neoplasm Metastasis	34514099	0																																		
+PTK2	Y397E	FAK1_HUMAN	CHAIN	Focal adhesion kinase 1	anoikis	PTK2 -[Inhibition]-> anoikis	34514099	0																																		
+PTK2	Y397E	FAK1_HUMAN	CHAIN	Focal adhesion kinase 1	cell population proliferation	PTK2 -[Activation]-> ZIC2 -[Inhibition]-> cell population proliferation	34514099	0																																		
+PTK2	Y397E	FAK1_HUMAN	CHAIN	Focal adhesion kinase 1	positive regulation of focal adhesion assembly	PTK2 -[Complex]-> Integrins -[Activation]-> positive regulation of focal adhesion assembly	19553453	0																																		
+PTK2	Y397E	FAK1_HUMAN	CHAIN	Focal adhesion kinase 1	signal transduction	PTK2 -[Activation]-> ZIC2 -[Activation]-> signal transduction	34514099	0																																		
+PTK2	Y397F	FAK1_HUMAN	CHAIN	Focal adhesion kinase 1	Cell Survival	PTK2 -[Activation]-> Cell Survival	21887232	0																																		
+PTK2	Y397F	FAK1_HUMAN	CHAIN	Focal adhesion kinase 1	Cell Survival	PTK2 -[Activation]-> Cell Survival	22238361	0																																		
+PTK2	Y397F	FAK1_HUMAN	CHAIN	Focal adhesion kinase 1	Hyperalgesia	PTK2 -[Activation]-> Hyperalgesia	25612833	0																																		
+PTK2	Y397F	FAK1_HUMAN	CHAIN	Focal adhesion kinase 1	Neoplasm Invasiveness	PTK2 -[Activation]-> Neoplasm Invasiveness	19595712	0																																		
+PTK2	Y397F	FAK1_HUMAN	CHAIN	Focal adhesion kinase 1	Neoplasm Invasiveness	PTK2 -[Inhibition]-> Neoplasm Invasiveness	19364917	0																																		
+PTK2	Y397F	FAK1_HUMAN	CHAIN	Focal adhesion kinase 1	Neoplasm Invasiveness	PTK2 -[Inhibition]-> Neoplasm Invasiveness	29137326	0																																		
+PTK2	Y397F	FAK1_HUMAN	CHAIN	Focal adhesion kinase 1	Neoplasm Metastasis	PTK2 -[Activation]-> Neoplasm Metastasis	19595712	0																																		
+PTK2	Y397F	FAK1_HUMAN	CHAIN	Focal adhesion kinase 1	Neoplasm Metastasis	PTK2 -[Inhibition]-> CA9 -[Activation]-> Neoplasm Metastasis	29137326	0																																		
+PTK2	Y397F	FAK1_HUMAN	CHAIN	Focal adhesion kinase 1	Neoplasm Metastasis	PTK2 -[Inhibition]-> Neoplasm Metastasis	18606490	0																																		
+PTK2	Y397F	FAK1_HUMAN	CHAIN	Focal adhesion kinase 1	apoptotic process	PTK2 -[Inhibition]-> apoptotic process	21887232	0																																		
+PTK2	Y397F	FAK1_HUMAN	CHAIN	Focal adhesion kinase 1	cell adhesion	PTK2 -[Activation]-> cell adhesion	12876277	0																																		
+PTK2	Y397F	FAK1_HUMAN	CHAIN	Focal adhesion kinase 1	cell adhesion	PTK2 -[Activation]-> cell adhesion	28361970	0																																		
+PTK2	Y397F	FAK1_HUMAN	CHAIN	Focal adhesion kinase 1	cell adhesion	PTK2 -[DecreaseAmount]-> SRC -[Activation]-> cell adhesion	19364917	0																																		
+PTK2	Y397F	FAK1_HUMAN	CHAIN	Focal adhesion kinase 1	cell cycle	PTK2 -[Activation]-> cell cycle	12820964	0																																		
+PTK2	Y397F	FAK1_HUMAN	CHAIN	Focal adhesion kinase 1	cell death	PTK2 -[IncreaseAmount]-> TP53 -[Activation]-> cell death	21887232	0																																		
+PTK2	Y397F	FAK1_HUMAN	CHAIN	Focal adhesion kinase 1	cell migration	PTK2 -[Activation]-> cell migration	18606490	0																																		
+PTK2	Y397F	FAK1_HUMAN	CHAIN	Focal adhesion kinase 1	cell migration	PTK2 -[Activation]-> cell migration	26842895	0																																		
+PTK2	Y397F	FAK1_HUMAN	CHAIN	Focal adhesion kinase 1	cell migration	PTK2 -[Inhibition]-> CA9 -[Activation]-> cell migration	29137326	0																																		
+PTK2	Y397F	FAK1_HUMAN	CHAIN	Focal adhesion kinase 1	cell migration	PTK2 -[Inhibition]-> cell migration	19364917	0																																		
+PTK2	Y397F	FAK1_HUMAN	CHAIN	Focal adhesion kinase 1	cell migration	PTK2 -[Inhibition]-> cell migration	19595712	0																																		
+PTK2	Y397F	FAK1_HUMAN	CHAIN	Focal adhesion kinase 1	cell migration	PTK2 -[Inhibition]-> cell migration	28361970	0																																		
+PTK2	Y397F	FAK1_HUMAN	CHAIN	Focal adhesion kinase 1	cell migration	PTK2 -[Inhibition]-> cell migration	9425168	0																																		
+PTK2	Y397F	FAK1_HUMAN	CHAIN	Focal adhesion kinase 1	cell motility	PTK2 -[Activation]-> ERK -[Activation]-> cell motility	9425168	0																																		
+PTK2	Y397F	FAK1_HUMAN	CHAIN	Focal adhesion kinase 1	cell motility	PTK2 -[Activation]-> cell motility	19595712	0																																		
+PTK2	Y397F	FAK1_HUMAN	CHAIN	Focal adhesion kinase 1	cell motility	PTK2 -[Complex]-> CDK18 -[Inhibition]-> cell motility	28361970	0																																		
+PTK2	Y397F	FAK1_HUMAN	CHAIN	Focal adhesion kinase 1	cell motility	PTK2 -[Inhibition]-> CA9 -[Activation]-> cell motility	29137326	0																																		
+PTK2	Y397F	FAK1_HUMAN	CHAIN	Focal adhesion kinase 1	cell population proliferation	PTK2 -[Inhibition]-> PRL -[Activation]-> cell population proliferation	12907754	0																																		
+PTK2	Y397F	FAK1_HUMAN	CHAIN	Focal adhesion kinase 1	cell population proliferation	PTK2 -[Inhibition]-> cell population proliferation	21887232	0																																		
+PTK2	Y397F	FAK1_HUMAN	CHAIN	Focal adhesion kinase 1	cell population proliferation	PTK2 -[Inhibition]-> cell population proliferation	28361970	0																																		
+PTK2	Y397F	FAK1_HUMAN	CHAIN	Focal adhesion kinase 1	localization	PTK2 -[Activation]-> localization	26842895	0																																		
+PTK2	Y397F	FAK1_HUMAN	CHAIN	Focal adhesion kinase 1	localization	PTK2 -[Phosphorylation]-> BCAR1 -[Inhibition]-> localization	9425168	0																																		
+PTK2	Y397F	FAK1_HUMAN	CHAIN	Focal adhesion kinase 1	positive regulation of focal adhesion assembly	PTK2 -[Complex]-> Integrins -[Activation]-> positive regulation of focal adhesion assembly	19553453	0																																		
+PTK2	Y397F	FAK1_HUMAN	CHAIN	Focal adhesion kinase 1	signal transduction	PTK2 -[Activation]-> signal transduction	18606490	0																																		
+PTK2	Y397F	FAK1_HUMAN	CHAIN	Focal adhesion kinase 1	signal transduction	PTK2 -[Activation]-> signal transduction	29535802	0																																		
+PTK2	Y397F	FAK1_HUMAN	CHAIN	Focal adhesion kinase 1	signal transduction	PTK2 -[Activation]-> signal transduction	9425168	0																																		
+PTK2	Y576D	FAK1_HUMAN	CHAIN;DOMAIN	Focal adhesion kinase 1;Protein kinase	proteinase activated receptor activity	PTK2 -[Complex]-> F2 -[Activation]-> proteinase activated receptor activity	19917775	0																																		
+PTK2	Y861F	FAK1_HUMAN	CHAIN;REGION;REGION	Focal adhesion kinase 1;Interaction with TGFB1I1;Disordered	cell adhesion	PTK2 -[Inhibition]-> cell adhesion	21940449	0																																		
+PTK2	Y925F	FAK1_HUMAN	CHAIN;REGION;REGION	Focal adhesion kinase 1;Interaction with TGFB1I1;Interaction with ARHGEF28	cell adhesion	PTK2 -[Activation]-> ERK -[Activation]-> cell adhesion	11119718	0																																		
+PTK2	Y925F	FAK1_HUMAN	CHAIN;REGION;REGION	Focal adhesion kinase 1;Interaction with TGFB1I1;Interaction with ARHGEF28	cell adhesion	PTK2 -[Activation]-> SEMA3A -[Activation]-> cell adhesion	20159040	0																																		
+PTK2	Y925F	FAK1_HUMAN	CHAIN;REGION;REGION	Focal adhesion kinase 1;Interaction with TGFB1I1;Interaction with ARHGEF28	cell cycle	PTK2 -[Inhibition]-> cell cycle	11119718	0																																		
+PTK2	Y925F	FAK1_HUMAN	CHAIN;REGION;REGION	Focal adhesion kinase 1;Interaction with TGFB1I1;Interaction with ARHGEF28	cell migration	PTK2 -[Inhibition]-> cell migration	9425168	0																																		
+PTK2	Y925F	FAK1_HUMAN	CHAIN;REGION;REGION	Focal adhesion kinase 1;Interaction with TGFB1I1;Interaction with ARHGEF28	cell motility	PTK2 -[Activation]-> ERK -[Activation]-> cell motility	9425168	0																																		
+PTK2	Y925F	FAK1_HUMAN	CHAIN;REGION;REGION	Focal adhesion kinase 1;Interaction with TGFB1I1;Interaction with ARHGEF28	localization	PTK2 -[Phosphorylation]-> BCAR1 -[Inhibition]-> localization	9425168	0																																		
+PTK2	Y925F	FAK1_HUMAN	CHAIN;REGION;REGION	Focal adhesion kinase 1;Interaction with TGFB1I1;Interaction with ARHGEF28	signal transduction	PTK2 -[Activation]-> signal transduction	9425168	0																																		

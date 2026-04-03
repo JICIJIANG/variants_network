@@ -1,0 +1,20 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+RAN	G19V	RAN_HUMAN	CHAIN	GTP-binding nuclear protein Ran	cell growth	RAN -[Inhibition]-> cell growth	8655589	0																																		
+RAN	G19V	RAN_HUMAN	CHAIN	GTP-binding nuclear protein Ran	localization	RAN -[Inhibition]-> localization	20526328	0																																		
+RAN	K134R	RAN_HUMAN	CHAIN	GTP-binding nuclear protein Ran	mitotic cell cycle	RAN -[Activation]-> mitotic cell cycle	29040603	0																																		
+RAN	Q69L	RAN_HUMAN	CHAIN	GTP-binding nuclear protein Ran	cell population proliferation	RAN -[Inhibition]-> cell population proliferation	18280241	0																																		
+RAN	Q69L	RAN_HUMAN	CHAIN	GTP-binding nuclear protein Ran	proteolysis	RAN -[Inhibition]-> APC_C -[Activation]-> proteolysis	20471943	0																																		
+RAN	Q69L	RAN_HUMAN	CHAIN	GTP-binding nuclear protein Ran	transcription, DNA-templated	RAN -[Inhibition]-> STAT3 -[Activation]-> transcription, DNA-templated	21625522	0																																		
+RAN	Q69L	RAN_HUMAN	CHAIN	GTP-binding nuclear protein Ran	transcription, DNA-templated	RAN -[Inhibition]-> transcription, DNA-templated	33026942	0																																		
+RAN	Q69L	RAN_HUMAN	CHAIN	GTP-binding nuclear protein Ran	transport	RAN -[Complex]-> RANBP3 -[Activation]-> transport	18280241	0																																		
+RAN	Q69L	RAN_HUMAN	CHAIN	GTP-binding nuclear protein Ran	transport	RAN -[Inhibition]-> transport	10873783	0																																		
+RAN	Q69L	RAN_HUMAN	CHAIN	GTP-binding nuclear protein Ran	transport	RAN -[Inhibition]-> transport	16314522	0																																		
+RAN	T24N	RAN_HUMAN	CHAIN	GTP-binding nuclear protein Ran	cell growth	RAN -[Inhibition]-> cell growth	8655589	0																																		
+RAN	T24N	RAN_HUMAN	CHAIN	GTP-binding nuclear protein Ran	localization	RAN -[Complex]-> TgRCC1 -[Activation]-> localization	18761691	0																																		
+RAN	T24N	RAN_HUMAN	CHAIN	GTP-binding nuclear protein Ran	meiotic cell cycle	RAN -[Inhibition]-> meiotic cell cycle	17261848	0																																		
+RAN	T24N	RAN_HUMAN	CHAIN	GTP-binding nuclear protein Ran	mitotic cell cycle	RAN -[Inhibition]-> RCC1alpha -[Inhibition]-> mitotic cell cycle	20565941	0																																		
+RAN	T24N	RAN_HUMAN	CHAIN	GTP-binding nuclear protein Ran	proteolysis	RAN -[Inhibition]-> APC_C -[Activation]-> proteolysis	20471943	0																																		
+RAN	V187R	RAN_HUMAN	CHAIN	GTP-binding nuclear protein Ran	apoptotic process	RAN -[Activation]-> PPP1R13L -[Inhibition]-> TP53 -[Activation]-> apoptotic process	24855949	0																																		
+RAN	V187R	RAN_HUMAN	CHAIN	GTP-binding nuclear protein Ran	localization	RAN -[Activation]-> localization	24855949	0																																		
+RAN	V188R	RAN_HUMAN	CHAIN	GTP-binding nuclear protein Ran	apoptotic process	RAN -[Activation]-> PPP1R13L -[Inhibition]-> TP53 -[Activation]-> apoptotic process	24855949	0																																		
+RAN	V188R	RAN_HUMAN	CHAIN	GTP-binding nuclear protein Ran	localization	RAN -[Activation]-> localization	24855949	0																																		

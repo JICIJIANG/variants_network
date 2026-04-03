@@ -1,0 +1,75 @@
+variant_protein	variant_info	DomainProteinID	DomainFeature	DomainNote	biological_process/disease	chain	pmid	clinvar_match	#AlleleID	Type	Name	RS# (dbSNP)	disease_1	significance_1	star_1	disease_2	significance_2	star_2	disease_3	significance_3	star_3	disease_4	significance_4	star_4	disease_5	significance_5	star_5	disease_6	significance_6	star_6	disease_7	significance_7	star_7	disease_8	significance_8	star_8	disease_9	significance_9	star_9	disease_10	significance_10	star_10
+RAD51	D112R	RAD51_HUMAN	CHAIN	DNA repair protein RAD51 homolog 1	homologous recombination	RAD51 -[Inhibition]-> homologous recombination	21143322	0																																		
+RAD51	D316K	RAD51_HUMAN	CHAIN	DNA repair protein RAD51 homolog 1	DNA Breaks, Double-Stranded	RAD51 -[Activation]-> DNA Breaks, Double-Stranded	23810717	0																																		
+RAD51	D316K	RAD51_HUMAN	CHAIN	DNA repair protein RAD51 homolog 1	Radiation, Ionizing	RAD51 -[Complex]-> Radiation, Ionizing	23810717	0																																		
+RAD51	E38K	RAD51_HUMAN	CHAIN	DNA repair protein RAD51 homolog 1	ATPase activity	RAD51 -[Complex]-> recX -[Inhibition]-> ATPase activity	26047498	0																																		
+RAD51	E38K	RAD51_HUMAN	CHAIN	DNA repair protein RAD51 homolog 1	DNA Breaks, Double-Stranded	RAD51 -[Inhibition]-> DNA Breaks, Double-Stranded	24371286	0																																		
+RAD51	E38K	RAD51_HUMAN	CHAIN	DNA repair protein RAD51 homolog 1	DNA biosynthetic process	RAD51 -[Activation]-> dinB -[Activation]-> DNA biosynthetic process	32687193	0																																		
+RAD51	E38K	RAD51_HUMAN	CHAIN	DNA repair protein RAD51 homolog 1	DNA recombination	RAD51 -[Activation]-> DNA recombination	29097773	0																																		
+RAD51	E38K	RAD51_HUMAN	CHAIN	DNA repair protein RAD51 homolog 1	SOS response	RAD51 -[Activation]-> SOS response	32687193	0																																		
+RAD51	E38K	RAD51_HUMAN	CHAIN	DNA repair protein RAD51 homolog 1	cell growth	RAD51 -[Activation]-> cell growth	18627467	0																																		
+RAD51	E38K	RAD51_HUMAN	CHAIN	DNA repair protein RAD51 homolog 1	cell growth	RAD51 -[Activation]-> cell growth	26047498	0																																		
+RAD51	E38K	RAD51_HUMAN	CHAIN	DNA repair protein RAD51 homolog 1	homologous recombination	RAD51 -[Inhibition]-> homologous recombination	21143322	0																																		
+RAD51	E96D	RAD51_HUMAN	CHAIN	DNA repair protein RAD51 homolog 1	Cell Survival	RAD51 -[Inhibition]-> Cell Survival	19238688	0																																		
+RAD51	E96D	RAD51_HUMAN	CHAIN	DNA repair protein RAD51 homolog 1	localization	RAD51 -[Complex]-> RECQL5 -[Complex]-> EP300 -[Acetylation]-> RECQL4 -[Activation]-> localization	19238688	0																																		
+RAD51	F129V	RAD51_HUMAN	CHAIN	DNA repair protein RAD51 homolog 1	DNA-dependent ATPase activity	RAD51 -[Inhibition]-> DNA-dependent ATPase activity	21857994	0																																		
+RAD51	G103E	RAD51_HUMAN	CHAIN	DNA repair protein RAD51 homolog 1	Neoplasm Invasiveness	RAD51 -[Activation]-> Neoplasm Invasiveness	17544928	0																																		
+RAD51	G103E	RAD51_HUMAN	CHAIN	DNA repair protein RAD51 homolog 1	chromatin remodeling	RAD51 -[Activation]-> chromatin remodeling	17544928	0																																		
+RAD51	G135C	RAD51_HUMAN	CHAIN	DNA repair protein RAD51 homolog 1	Leukemia, Myeloid, Acute	RAD51 -[Inhibition]-> Leukemia, Myeloid, Acute	18033323	0																																		
+RAD51	G135C	RAD51_HUMAN	CHAIN	DNA repair protein RAD51 homolog 1	Myelodysplastic Syndromes	RAD51 -[Inhibition]-> Myelodysplastic Syndromes	21176850	0																																		
+RAD51	G135C	RAD51_HUMAN	CHAIN	DNA repair protein RAD51 homolog 1	Precursor Cell Lymphoblastic Leukemia-Lymphoma	RAD51 -[Activation]-> Precursor Cell Lymphoblastic Leukemia-Lymphoma	19549356	0																																		
+RAD51	G151D	RAD51_HUMAN	CHAIN	DNA repair protein RAD51 homolog 1	DNA Breaks, Double-Stranded	RAD51 -[Activation]-> ISPH -[Activation]-> DNA Breaks, Double-Stranded	27513445	0																																		
+RAD51	G151D	RAD51_HUMAN	CHAIN	DNA repair protein RAD51 homolog 1	Genomic Instability	RAD51 -[Activation]-> Genomic Instability	27513445	0																																		
+RAD51	G151D	RAD51_HUMAN	CHAIN	DNA repair protein RAD51 homolog 1	Neoplasm Invasiveness	RAD51 -[Activation]-> Neoplasm Invasiveness	27513445	0																																		
+RAD51	H294V	RAD51_HUMAN	CHAIN	DNA repair protein RAD51 homolog 1	DNA-dependent ATPase activity	RAD51 -[Inhibition]-> DNA-dependent ATPase activity	21857994	0																																		
+RAD51	I102L	RAD51_HUMAN	CHAIN	DNA repair protein RAD51 homolog 1	ATPase activity	RAD51 -[Complex]-> recX -[Inhibition]-> ATPase activity	26047498	0																																		
+RAD51	I102L	RAD51_HUMAN	CHAIN	DNA repair protein RAD51 homolog 1	cell growth	RAD51 -[Activation]-> cell growth	26047498	0																																		
+RAD51	I345T				DNA Damage	RAD51 -[Complex]-> Radiation, Ionizing -[Activation]-> DNA Damage	15164978	0																																		
+RAD51	I345T				DNA repair	RAD51 -[Inhibition]-> DNA repair	15164978	0																																		
+RAD51	I345T				Radiation, Ionizing	RAD51 -[Complex]-> Radiation, Ionizing	15164978	0																																		
+RAD51	I345T				signal transduction	RAD51 -[Complex]-> Radiation, Ionizing -[Activation]-> DNA Damage -[Activation]-> signal transduction	15164978	0																																		
+RAD51	K133A	RAD51_HUMAN	CHAIN	DNA repair protein RAD51 homolog 1	Neoplasm Invasiveness	RAD51 -[Complex]-> filament -[Inhibition]-> Neoplasm Invasiveness	33357432	0																																		
+RAD51	K133R	RAD51_HUMAN	CHAIN	DNA repair protein RAD51 homolog 1	Cell Survival	RAD51 -[Inhibition]-> Cell Survival	24319145	0																																		
+RAD51	K133R	RAD51_HUMAN	CHAIN	DNA repair protein RAD51 homolog 1	DNA Breaks, Double-Stranded	RAD51 -[Inhibition]-> RECQL5 -[Inhibition]-> homologous recombination -[Activation]-> DNA Breaks, Double-Stranded	20348101	0																																		
+RAD51	K133R	RAD51_HUMAN	CHAIN	DNA repair protein RAD51 homolog 1	DNA-dependent ATPase activity	RAD51 -[Inhibition]-> DNA-dependent ATPase activity	21857994	0																																		
+RAD51	K133R	RAD51_HUMAN	CHAIN	DNA repair protein RAD51 homolog 1	Genomic Instability	RAD51 -[Complex]-> RECQL5 -[Activation]-> Genomic Instability	33332547	0																																		
+RAD51	K133R	RAD51_HUMAN	CHAIN	DNA repair protein RAD51 homolog 1	Neoplasm Invasiveness	RAD51 -[Activation]-> Neoplasm Invasiveness	20348101	0																																		
+RAD51	K133R	RAD51_HUMAN	CHAIN	DNA repair protein RAD51 homolog 1	Neoplasm Invasiveness	RAD51 -[Complex]-> filament -[Activation]-> Neoplasm Invasiveness	24319145	0																																		
+RAD51	K133R	RAD51_HUMAN	CHAIN	DNA repair protein RAD51 homolog 1	cell death	RAD51 -[Inhibition]-> cell death	16388992	0																																		
+RAD51	K133R	RAD51_HUMAN	CHAIN	DNA repair protein RAD51 homolog 1	homologous recombination	RAD51 -[Complex]-> RECQL5 -[Inhibition]-> homologous recombination	24319145	0																																		
+RAD51	K133R	RAD51_HUMAN	CHAIN	DNA repair protein RAD51 homolog 1	homologous recombination	RAD51 -[Inhibition]-> RECQL5 -[Inhibition]-> homologous recombination	20348101	0																																		
+RAD51	K191A	RAD51_HUMAN	CHAIN;REGION	DNA repair protein RAD51 homolog 1;Interaction with PALB2	Neoplasm Invasiveness	RAD51 -[Activation]-> filament -[Activation]-> Neoplasm Invasiveness	17567608	0																																		
+RAD51	K191R	RAD51_HUMAN	CHAIN;REGION	DNA repair protein RAD51 homolog 1;Interaction with PALB2	DNA repair	RAD51 -[Activation]-> DNA repair	16321968	0																																		
+RAD51	K191R	RAD51_HUMAN	CHAIN;REGION	DNA repair protein RAD51 homolog 1;Interaction with PALB2	Neoplasm Invasiveness	RAD51 -[Activation]-> Neoplasm Invasiveness	17544928	0																																		
+RAD51	K191R	RAD51_HUMAN	CHAIN;REGION	DNA repair protein RAD51 homolog 1;Interaction with PALB2	chromatin remodeling	RAD51 -[Activation]-> chromatin remodeling	17544928	0																																		
+RAD51	K191R	RAD51_HUMAN	CHAIN;REGION	DNA repair protein RAD51 homolog 1;Interaction with PALB2	strand invasion	RAD51 -[Complex]-> ATP -[Complex]-> ATRX -[Activation]-> strand invasion	32502392	0																																		
+RAD51	K72R	RAD51_HUMAN	CHAIN;DOMAIN	DNA repair protein RAD51 homolog 1;HhH	DNA Damage	RAD51 -[Activation]-> DNA Damage	29088268	0																																		
+RAD51	K72R	RAD51_HUMAN	CHAIN;DOMAIN	DNA repair protein RAD51 homolog 1;HhH	Neoplasm Invasiveness	RAD51 -[Activation]-> Neoplasm Invasiveness	29088268	0																																		
+RAD51	K72R	RAD51_HUMAN	CHAIN;DOMAIN	DNA repair protein RAD51 homolog 1;HhH	cell growth	RAD51 -[Activation]-> cell growth	18627467	0																																		
+RAD51	K72R	RAD51_HUMAN	CHAIN;DOMAIN	DNA repair protein RAD51 homolog 1;HhH	homologous recombination	RAD51 -[Activation]-> homologous recombination	28101376	0																																		
+RAD51	L186P	RAD51_HUMAN	CHAIN;REGION	DNA repair protein RAD51 homolog 1;Interaction with PALB2	Neoplasm Invasiveness	RAD51 -[Activation]-> Neoplasm Invasiveness	15145576	0																																		
+RAD51	L186P	RAD51_HUMAN	CHAIN;REGION	DNA repair protein RAD51 homolog 1;Interaction with PALB2	homologous recombination	RAD51 -[Activation]-> homologous recombination	15145576	0																																		
+RAD51	M164Q	RAD51_HUMAN	CHAIN	DNA repair protein RAD51 homolog 1	DNA Damage	RAD51 -[Activation]-> DNA Damage	33605213	0																																		
+RAD51	M164Q	RAD51_HUMAN	CHAIN	DNA repair protein RAD51 homolog 1	DNA recombination	RAD51 -[Activation]-> DNA recombination	33605213	0																																		
+RAD51	S14A	RAD51_HUMAN	CHAIN	DNA repair protein RAD51 homolog 1	DNA Breaks, Double-Stranded	RAD51 -[Activation]-> DNA Breaks, Double-Stranded	34197606	0																																		
+RAD51	S14A	RAD51_HUMAN	CHAIN	DNA repair protein RAD51 homolog 1	homologous recombination	RAD51 -[Activation]-> homologous recombination	34197606	0																																		
+RAD51	S14A	RAD51_HUMAN	CHAIN	DNA repair protein RAD51 homolog 1	sensitization	RAD51 -[Activation]-> sensitization	34197606	0																																		
+RAD51	S2A	RAD51_HUMAN	CHAIN	DNA repair protein RAD51 homolog 1	localization	RAD51 -[Activation]-> localization	23634894	0																																		
+RAD51	S2D	RAD51_HUMAN	CHAIN	DNA repair protein RAD51 homolog 1	localization	RAD51 -[Activation]-> localization	23634894	0																																		
+RAD51	T131P	RAD51_HUMAN	CHAIN	DNA repair protein RAD51 homolog 1	DNA replication	RAD51 -[Inhibition]-> DNA replication	28757209	1	905063	single nucleotide variant	NM_002875.5(RAD51):c.391A>C (p.Thr131Pro)	1895530875	Fanconi anemia complementation group R	Pathogenic	0.0	not provided																										
+RAD51	T131P	RAD51_HUMAN	CHAIN	DNA repair protein RAD51 homolog 1	homologous recombination	RAD51 -[Inhibition]-> homologous recombination	26253028	1	905063	single nucleotide variant	NM_002875.5(RAD51):c.391A>C (p.Thr131Pro)	1895530875	Fanconi anemia complementation group R	Pathogenic	0.0	not provided																										
+RAD51	T309A	RAD51_HUMAN	CHAIN	DNA repair protein RAD51 homolog 1	Cell Survival	RAD51 -[Inhibition]-> MUS81 -[Activation]-> Cell Survival	24204313	0																																		
+RAD51	T309A	RAD51_HUMAN	CHAIN	DNA repair protein RAD51 homolog 1	DNA Damage	RAD51 -[Complex]-> RAD52 -[Activation]-> DNA Damage	24204313	0																																		
+RAD51	T309A	RAD51_HUMAN	CHAIN	DNA repair protein RAD51 homolog 1	DNA Damage	RAD51 -[Inhibition]-> TS inhibitors -[Inhibition]-> DNA Damage	22222428	0																																		
+RAD51	T309A	RAD51_HUMAN	CHAIN	DNA repair protein RAD51 homolog 1	Genomic Instability	RAD51 -[Complex]-> RAD52 -[Inhibition]-> Genomic Instability	24204313	0																																		
+RAD51	T309A	RAD51_HUMAN	CHAIN	DNA repair protein RAD51 homolog 1	Neoplasm Invasiveness	RAD51 -[Activation]-> Neoplasm Invasiveness	24204313	0																																		
+RAD51	T309A	RAD51_HUMAN	CHAIN	DNA repair protein RAD51 homolog 1	cell death	RAD51 -[Activation]-> cell death	24204313	0																																		
+RAD51	T309A	RAD51_HUMAN	CHAIN	DNA repair protein RAD51 homolog 1	homologous recombination	RAD51 -[Inhibition]-> homologous recombination	22222428	0																																		
+RAD51	T309A	RAD51_HUMAN	CHAIN	DNA repair protein RAD51 homolog 1	localization	RAD51 -[Inhibition]-> localization	22222428	0																																		
+RAD51	T309D	RAD51_HUMAN	CHAIN	DNA repair protein RAD51 homolog 1	Cell Survival	RAD51 -[Inhibition]-> MUS81 -[Activation]-> Cell Survival	24204313	0																																		
+RAD51	T309D	RAD51_HUMAN	CHAIN	DNA repair protein RAD51 homolog 1	DNA Damage	RAD51 -[Complex]-> RAD52 -[Activation]-> DNA Damage	24204313	0																																		
+RAD51	T309D	RAD51_HUMAN	CHAIN	DNA repair protein RAD51 homolog 1	Genomic Instability	RAD51 -[Complex]-> RAD52 -[Inhibition]-> Genomic Instability	24204313	0																																		
+RAD51	T309D	RAD51_HUMAN	CHAIN	DNA repair protein RAD51 homolog 1	Neoplasm Invasiveness	RAD51 -[Activation]-> Neoplasm Invasiveness	24204313	0																																		
+RAD51	T309D	RAD51_HUMAN	CHAIN	DNA repair protein RAD51 homolog 1	cell death	RAD51 -[Activation]-> cell death	24204313	0																																		
+RAD51	T309D	RAD51_HUMAN	CHAIN	DNA repair protein RAD51 homolog 1	cell death	RAD51 -[Activation]-> cell death	30554948	0																																		
+RAD51	T309D	RAD51_HUMAN	CHAIN	DNA repair protein RAD51 homolog 1	cell population proliferation	RAD51 -[Activation]-> FBXO5 -[Activation]-> cell population proliferation	30554948	0																																		
