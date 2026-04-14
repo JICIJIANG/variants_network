@@ -1,9 +1,15 @@
 import re
 import math
+import itertools as _it
+import logging
+import time as _time
 import urllib.parse as _url
 from pathlib import Path
 from collections import defaultdict
 from typing import Optional
+
+from scipy.optimize import linprog
+from scipy.sparse import lil_matrix
 
 import dash
 import dash_bootstrap_components as dbc
@@ -11,6 +17,9 @@ import dash_cytoscape as cyto
 import networkx as nx
 import pandas as pd
 from dash import html, dcc, Input, Output, State, MATCH
+
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 
 from indra_variants.app.config import DATA_DIR, PORT, DEBUG
 
@@ -66,6 +75,323 @@ def _find_endpoint_groups(endpoint_names: set, min_group: int = 3,
 
     return groups
 
+_log = logging.getLogger(__name__)
+
+# ---------- LNS crossing minimization (Wilson et al., IEEE TVCG 2025) ------
+import random as _rand
+
+
+def _n_comb3(n):
+    if n < 3:
+        return 0
+    return n * (n - 1) * (n - 2) // 6
+
+
+def _add_anchors(layer_nodes, cross_layer_edges, node_layer):
+    """Insert dummy anchor nodes for edges spanning >1 layer.
+
+    Returns (aug_layers, adj_edges, node_layer) – the augmented graph
+    where every edge connects adjacent layers.
+    """
+    aug = {li: list(ns) for li, ns in layer_nodes.items()}
+    adj_edges: list[tuple] = []
+    _aid = 0
+    for src, tgt, w in cross_layer_edges:
+        ls, lt = node_layer[src], node_layer[tgt]
+        if ls > lt:
+            src, tgt = tgt, src
+            ls, lt = lt, ls
+        if lt - ls == 1:
+            adj_edges.append((src, tgt, w))
+        else:
+            prev = src
+            for mid in range(ls + 1, lt):
+                aname = f"__anch_{_aid}"
+                _aid += 1
+                aug.setdefault(mid, []).append(aname)
+                node_layer[aname] = mid
+                adj_edges.append((prev, aname, w))
+                prev = aname
+            adj_edges.append((prev, tgt, w))
+    return aug, adj_edges
+
+
+def _count_adj_crossings(order, adj_edges, node_layer, pos):
+    """Count crossings between adjacent-layer edges using position dict."""
+    ebl: dict[int, list] = defaultdict(list)
+    for s, t, _w in adj_edges:
+        ls = node_layer[s]
+        ebl[ls].append((pos.get(s, 0.0), pos.get(t, 0.0)))
+    total = 0
+    for _li, edges in ebl.items():
+        for a in range(len(edges)):
+            for b in range(a + 1, len(edges)):
+                if (edges[a][0] - edges[b][0]) * \
+                   (edges[a][1] - edges[b][1]) < 0:
+                    total += 1
+    return total
+
+
+def _optimize_layer_ordering(layer_nodes, cross_layer_edges,
+                             time_budget=3.0, sub_time=0.3,
+                             neighbourhood_k=12, fixed_layers=None):
+    """Minimise edge crossings with Large Neighbourhood Search (LNS).
+
+    1. Add anchor (dummy) nodes so every edge spans exactly one layer.
+    2. Build a barycentric initial solution  (fast, O(n·iter)).
+    3. Repeatedly pick a random candidate node, collect a small
+       neighbourhood (≤ *neighbourhood_k* nodes per layer), solve
+       that sub-problem optimally via ILP, and splice the improved
+       ordering back into the global solution.
+    4. Stop when *time_budget* seconds have elapsed.
+    5. Strip anchor nodes from the final output.
+    """
+    fixed_layers = set(fixed_layers or [])
+    node_layer: dict = {}
+    for li, nodes in layer_nodes.items():
+        for n in nodes:
+            node_layer[n] = li
+
+    aug, adj_edges = _add_anchors(layer_nodes, cross_layer_edges, node_layer)
+
+    # Adjacency (including anchors) for barycentric
+    adj: dict = defaultdict(set)
+    for s, t, _w in adj_edges:
+        adj[s].add(t)
+        adj[t].add(s)
+
+    # Edge weight lookup keyed on (lower-layer-node, upper-layer-node)
+    edge_w: dict[tuple, float] = {}
+    for s, t, w in adj_edges:
+        edge_w[(s, t)] = edge_w.get((s, t), 0) + w
+
+    sorted_layers = sorted(aug.keys())
+    movable_nodes = [
+        n for li in sorted_layers if li not in fixed_layers for n in aug[li]
+    ]
+
+    # ---------- Phase 1: barycentric initial solution ---------------------
+    order: dict[int, list] = {li: list(ns) for li, ns in aug.items()}
+    pos: dict = {}
+
+    def _assign_pos(li):
+        for i, n in enumerate(order[li]):
+            pos[n] = float(i)
+
+    for li in sorted_layers:
+        _assign_pos(li)
+
+    def _bary(n):
+        vals = [pos[nb] for nb in adj[n] if nb in pos]
+        return sum(vals) / len(vals) if vals else pos.get(n, 0.0)
+
+    for _ in range(20):
+        for li in sorted_layers:
+            if li in fixed_layers:
+                continue
+            order[li].sort(key=lambda n: (_bary(n), n))
+            _assign_pos(li)
+        for li in reversed(sorted_layers):
+            if li in fixed_layers:
+                continue
+            order[li].sort(key=lambda n: (_bary(n), n))
+            _assign_pos(li)
+
+    # ---------- Phase 2: LNS – local ILP improvements --------------------
+    best_crossings = _count_adj_crossings(order, adj_edges, node_layer, pos)
+    t0 = _time.time()
+    n_improvements = 0
+    n_iters = 0
+
+    while movable_nodes and _time.time() - t0 < time_budget and best_crossings > 0:
+        n_iters += 1
+        candidate = _rand.choice(movable_nodes)
+        c_layer = node_layer[candidate]
+
+        # Neighbourhood: candidate + 1-hop + 2-hop, capped per layer
+        sub_set: dict[int, set] = defaultdict(set)
+        sub_set[c_layer].add(candidate)
+        for nb in adj[candidate]:
+            sub_set[node_layer[nb]].add(nb)
+        for nb in list(adj[candidate]):
+            for nb2 in adj[nb]:
+                sub_set[node_layer[nb2]].add(nb2)
+
+        sub_nodes: dict[int, list] = {}
+        for li, ns in sub_set.items():
+            if li in fixed_layers:
+                continue
+            lst = [n for n in order[li] if n in ns][:neighbourhood_k]
+            if lst:
+                sub_nodes[li] = lst
+
+        if all(len(ns) < 2 for ns in sub_nodes.values()):
+            continue
+
+        # Collect sub-edges (only between adjacent-layer sub-node pairs)
+        sub_node_all = {n for ns in sub_nodes.values() for n in ns}
+        sub_edges = [(s, t, w) for (s, t), w in edge_w.items()
+                     if s in sub_node_all and t in sub_node_all]
+        if not sub_edges:
+            continue
+
+        sub_result = _solve_sub_ilp(sub_nodes, sub_edges, node_layer,
+                                    sub_time)
+        if sub_result is None:
+            continue
+
+        # Splice improved sub-ordering back into global order
+        old_order = {li: list(order[li]) for li in sub_result}
+        for li, sub_ordered in sub_result.items():
+            sset = set(sub_ordered)
+            idx_map = sorted(i for i, n in enumerate(order[li]) if n in sset)
+            base = [n for n in order[li] if n not in sset]
+            for slot, n in zip(idx_map, sub_ordered):
+                base.insert(slot, n)
+            order[li] = base
+            _assign_pos(li)
+
+        new_crossings = _count_adj_crossings(order, adj_edges, node_layer, pos)
+        if new_crossings < best_crossings:
+            best_crossings = new_crossings
+            n_improvements += 1
+        else:
+            for li, old in old_order.items():
+                order[li] = old
+                _assign_pos(li)
+
+    elapsed = _time.time() - t0
+    _log.info("LNS crossing minimisation: %d crossings, %d improvements, "
+              "%d iters in %.2fs", best_crossings, n_improvements,
+              n_iters, elapsed)
+
+    # Strip anchors, return only original-node orderings
+    result: dict[int, list] = {}
+    for li in sorted(layer_nodes.keys()):
+        result[li] = [n for n in order[li]
+                      if not str(n).startswith("__anch_")]
+    return result
+
+
+def _solve_sub_ilp(layer_nodes, edges, node_layer, cutoff):
+    """Solve a small sub-problem exactly via ILP.  Returns optimised
+    orderings or *None* on failure."""
+    all_n = []
+    for li in sorted(layer_nodes):
+        all_n.extend(layer_nodes[li])
+    if len(all_n) < 2:
+        return None
+    iid = {n: i for i, n in enumerate(all_n)}
+
+    adj_e: list[tuple] = []
+    for s, t, w in edges:
+        ls, lt = node_layer[s], node_layer[t]
+        if ls == lt:
+            continue
+        if ls > lt:
+            s, t = t, s
+        adj_e.append((iid[s], iid[t], w))
+
+    x_vars: dict[tuple, int] = {}
+    nv = 0
+    for li in sorted(layer_nodes):
+        ids = sorted(iid[n] for n in layer_nodes[li])
+        for a, b in _it.combinations(ids, 2):
+            x_vars[(a, b)] = nv
+            nv += 1
+
+    # Group edges by (src_layer, tgt_layer) so only same-span pairs interact
+    ebl: dict[tuple, list] = defaultdict(list)
+    for s, t, w in adj_e:
+        ls, lt = node_layer[all_n[s]], node_layer[all_n[t]]
+        ebl[(min(ls, lt), max(ls, lt))].append((s, t, w))
+
+    c_vars: dict = {}
+    c_wt: dict = {}
+    for _lpair, elist in ebl.items():
+        for i in range(len(elist)):
+            u1, v1, w1 = elist[i]
+            for j in range(i + 1, len(elist)):
+                u2, v2, w2 = elist[j]
+                if u1 != u2 and v1 != v2:
+                    c_vars[((u1, v1), (u2, v2))] = nv
+                    c_wt[nv] = w1 * w2
+                    nv += 1
+
+    if not c_vars:
+        return None
+
+    n_trans = sum(
+        2 * _n_comb3(len(layer_nodes[li]))
+        for li in sorted(layer_nodes)
+    )
+    n_cons = n_trans + 2 * len(c_vars)
+    A = lil_matrix((n_cons, nv))
+    b_ub = [0.0] * n_cons
+    r = 0
+
+    for li in sorted(layer_nodes):
+        ids = sorted(iid[n] for n in layer_nodes[li])
+        for i, j, k in _it.combinations(ids, 3):
+            A[r, x_vars[(i, j)]] = -1
+            A[r, x_vars[(j, k)]] = -1
+            A[r, x_vars[(i, k)]] = 1
+            r += 1
+            A[r, x_vars[(i, j)]] = 1
+            A[r, x_vars[(j, k)]] = 1
+            A[r, x_vars[(i, k)]] = -1
+            b_ub[r] = 1
+            r += 1
+
+    def _xdir(a, b_id):
+        if (a, b_id) in x_vars:
+            return x_vars[(a, b_id)], 1, 0
+        return x_vars[(b_id, a)], -1, 1
+
+    for ((u1, v1), (u2, v2)), ci in c_vars.items():
+        xi_u, du, fu = _xdir(u1, u2)
+        xi_v, dv, fv = _xdir(v1, v2)
+        A[r, xi_u] = du;  A[r, xi_v] = -dv;  A[r, ci] = -1
+        b_ub[r] = fv - fu
+        r += 1
+        A[r, xi_u] = -du; A[r, xi_v] = dv;  A[r, ci] = -1
+        b_ub[r] = fu - fv
+        r += 1
+
+    obj = [0.0] * nv
+    for vi, w in c_wt.items():
+        obj[vi] = w
+
+    try:
+        res = linprog(
+            obj, method="highs",
+            A_ub=A.tocsc(), b_ub=b_ub,
+            bounds=[(0, 1)] * nv,
+            integrality=[1] * nv,
+            options={"time_limit": cutoff, "disp": False},
+        )
+    except Exception:
+        return None
+    if res.x is None:
+        return None
+
+    result: dict[int, list] = {}
+    for li in sorted(layer_nodes):
+        ids = sorted(iid[n] for n in layer_nodes[li])
+        if len(ids) < 2:
+            result[li] = [all_n[ids[0]]] if ids else []
+            continue
+        rank = {n: 0 for n in ids}
+        for a, b_id in _it.combinations(ids, 2):
+            if round(res.x[x_vars[(a, b_id)]]) == 1:
+                rank[b_id] += 1
+            else:
+                rank[a] += 1
+        ordered = sorted(ids, key=lambda n: rank[n])
+        result[li] = [all_n[n] for n in ordered]
+    return result
+
+
 def format_star_rating(star_val):
     review_map = {
         4.0: "practice guideline",
@@ -118,12 +444,15 @@ def build_elements(prot: str):
     variants = set(df["variant_info"])
     endpoints = set(df["biological_process/disease"])
     endpoint_freq = df["biological_process/disease"].value_counts().to_dict()
+    protein_uniprot_id = ""
 
     variant_meta = defaultdict(lambda: {
         "domains": set(),
         "domain_notes": set(),
         "clinvar_data": None,
-        "protein_pos": None
+        "protein_pos": None,
+        "allele_id": None,
+        "dbsnp_rs": None,
     })
     edge_bucket = defaultdict(lambda: {
         "pmids": set(),
@@ -131,10 +460,15 @@ def build_elements(prot: str):
         "clinvar_data": None,
         "count": 0
     })
+    chain_pos: dict[str, int] = {}
 
     for _, row in df.iterrows():
         var = row["variant_info"]
         name_label = row.get("Name", "")
+        if not protein_uniprot_id:
+            domain_protein_id = str(row.get("DomainProteinID", "")).strip()
+            if domain_protein_id and domain_protein_id.lower() != "nan":
+                protein_uniprot_id = domain_protein_id.split(";")[0].strip()
         protein_pos = extract_protein_position(var, name_label)
         if protein_pos is not None:
             prev = variant_meta[var]["protein_pos"]
@@ -153,6 +487,18 @@ def build_elements(prot: str):
                 "conditions": "; ".join(all_conditions)
             }
         variant_meta[var]["clinvar_data"] = choose_best_clinvar(variant_meta[var]["clinvar_data"], clinvar_data)
+        allele_id = str(row.get("#AlleleID", "")).strip()
+        if allele_id and allele_id.lower() != "nan":
+            try:
+                variant_meta[var]["allele_id"] = str(int(float(allele_id)))
+            except (TypeError, ValueError):
+                variant_meta[var]["allele_id"] = allele_id
+        dbsnp_rs = str(row.get("RS# (dbSNP)", "")).strip()
+        if dbsnp_rs and dbsnp_rs.lower() != "nan":
+            try:
+                variant_meta[var]["dbsnp_rs"] = str(int(float(dbsnp_rs)))
+            except (TypeError, ValueError):
+                variant_meta[var]["dbsnp_rs"] = dbsnp_rs
 
         # Keep domain information on variants, but hide domain nodes in layout.
         features = [f.strip() for f in (row.get("DomainFeature", "") or "").split(';') if f.strip()]
@@ -176,6 +522,7 @@ def build_elements(prot: str):
 
         # Causal chain from variant onwards.
         src = var
+        _hop = 0
         for seg in str(row.get("chain", "")).split(" -[")[1:]:
             if "]->" not in seg:
                 continue
@@ -184,6 +531,8 @@ def build_elements(prot: str):
             tgt = tgt.strip()
             if not tgt:
                 continue
+            _hop += 1
+            chain_pos[tgt] = max(chain_pos.get(tgt, 0), _hop)
             key = (src, tgt, rel)
             edge_bucket[key]["count"] += 1
             pmid = str(row.get("pmid", "")).strip()
@@ -299,85 +648,152 @@ def build_elements(prot: str):
                 G.add_edge(gid, tgt, relation=rel or "grouped",
                            note=f"{parent_name} ({len(members)} terms)")
 
-    # ---------- Layered layout with semi-fixed baseline ----------
+    # ---------- Longest-path layered layout with pseudo nodes ----------
+    # Layer 0: protein + variants (fixed)
+    # Layer -1: endpoints reachable ONLY directly from variants
+    # Layers 1..N: determined by longest path distance from any variant
+
+    # -- Step 1: layer assignment from chain positions ---------------------
+    node_depth: dict[str, int] = {}
+    for v in variants:
+        node_depth[v] = 0
+    node_depth[prot] = 0
+
+    _init_depth: dict[str, int] = {}
+    for n in G.nodes():
+        if n == prot or n in variants:
+            continue
+        if n in chain_pos:
+            _init_depth[n] = chain_pos[n]
+        elif motif_kind.get(n) == "onto_group":
+            members = motif_members.get(n, [])
+            depths = [chain_pos.get(m, 1) for m in members if m in chain_pos]
+            _init_depth[n] = max(depths) if depths else 1
+        else:
+            _init_depth[n] = 1
+
+    # -- Step 2: forward propagation on condensation DAG (cycle-safe) ---
+    #    Collapse SCCs so cycles don't cascade layer depths.
+    _non_vp = [n for n in G.nodes() if n != prot and n not in variants]
+    if _non_vp:
+        _H = nx.DiGraph()
+        for n in _non_vp:
+            _H.add_node(n)
+        for u, v, _ in G.edges(data=True):
+            if u in _H and v in _H:
+                _H.add_edge(u, v)
+        _C = nx.condensation(_H)
+        _scc_map = _C.graph["mapping"]
+        _scc_depth: dict[int, int] = {}
+        for n in _non_vp:
+            sid = _scc_map[n]
+            _scc_depth[sid] = max(_scc_depth.get(sid, 0),
+                                  _init_depth.get(n, 1))
+        for sid in nx.topological_sort(_C):
+            for succ_sid in _C.successors(sid):
+                if _scc_depth.get(succ_sid, 0) <= _scc_depth.get(sid, 0):
+                    _scc_depth[succ_sid] = _scc_depth[sid] + 1
+        for n in _non_vp:
+            node_depth[n] = _scc_depth[_scc_map[n]]
+    else:
+        for n, d in _init_depth.items():
+            node_depth[n] = d
+
+    # -- Step 3: identify "direct-only" endpoints → layer -1 -----------
+    _direct_only_eps = set()
+    for ep in endpoints:
+        preds = {u for u, _, _ in G.in_edges(ep, data=True) if u != prot}
+        if preds and all(p in variants for p in preds):
+            _direct_only_eps.add(ep)
+    for ep in _direct_only_eps & set(G.nodes()):
+        node_depth[ep] = -1
+
+    for gid, kind in motif_kind.items():
+        if kind == "onto_group" and gid in G.nodes():
+            preds = {u for u, _, _ in G.in_edges(gid, data=True) if u != prot}
+            if preds and all(p in variants for p in preds):
+                node_depth[gid] = -1
+
+    pseudo_nodes = set()
+
     def get_layer(n):
-        if motif_kind.get(n) == "onto_group":
-            return 2
         if n == prot or n in variants:
             return 0
-        if n in endpoints:
-            return 2
-        return 1
+        return node_depth.get(n, 1)
 
-    layers = {0: [], 1: [], 2: []}
+    # -- Step 4: collect all layers ------------------------------------
+    layers: dict[int, list] = defaultdict(list)
     for n in G.nodes():
         layers[get_layer(n)].append(n)
 
-    def variant_sort_key(node_id: str):
-        if motif_kind.get(node_id) == "fan":
-            pos_values = [variant_meta[m]["protein_pos"] for m in motif_members.get(node_id, [])]
-            pos_values = [p for p in pos_values if p is not None]
-            pos = sum(pos_values) / len(pos_values) if pos_values else float("inf")
-            return (0, pos, node_id)
-        if node_id in variants:
-            pos = variant_meta[node_id]["protein_pos"]
-            return (0, pos if pos is not None else float("inf"), node_id)
-        return (1, float("inf"), node_id)
+    def _variant_sort_key(variant_name: str):
+        protein_pos = variant_meta[variant_name]["protein_pos"]
+        return (
+            protein_pos is None,
+            protein_pos if protein_pos is not None else math.inf,
+            variant_name,
+        )
 
-    baseline_nodes = [n for n in layers[0] if n != prot]
-    baseline_nodes.sort(key=variant_sort_key)
-    baseline_spacing = 140.0
-    x_pos = {}
-    y_pos = {0: 280.0, 1: 90.0, 2: -80.0}
-    for i, n in enumerate(baseline_nodes):
-        x_pos[n] = i * baseline_spacing
-    if baseline_nodes:
-        x_pos[prot] = x_pos[baseline_nodes[-1]] + 260.0
-    else:
-        x_pos[prot] = 0.0
+    if 0 in layers:
+        ordered_variants = sorted(
+            [n for n in layers[0] if n in variants],
+            key=_variant_sort_key,
+        )
+        layer_zero_other = [n for n in layers[0] if n not in variants and n != prot]
+        layers[0] = ordered_variants + layer_zero_other + ([prot] if prot in layers[0] else [])
 
-    def adjacent_values(node_id: str, candidate_layer_values: dict):
-        vals = []
-        for u, _, _ in G.in_edges(node_id, data=True):
-            if u in candidate_layer_values:
-                vals.append(candidate_layer_values[u])
-            elif u in x_pos:
-                vals.append(x_pos[u])
-        for _, v, _ in G.out_edges(node_id, data=True):
-            if v in candidate_layer_values:
-                vals.append(candidate_layer_values[v])
-            elif v in x_pos:
-                vals.append(x_pos[v])
-        return vals
+    # -- Step 5: crossing minimisation (LNS) ---------------------------
+    _cross = {}
+    for u, v, _d in G.edges(data=True):
+        lu, lv = get_layer(u), get_layer(v)
+        if lu == lv:
+            continue
+        pair = (u, v) if lu < lv else (v, u)
+        _cross[pair] = _cross.get(pair, 0) + 1
+    weighted_cross = [(u, v, w) for (u, v), w in _cross.items()]
 
-    def assign_with_spacing(node_order, target_map, spacing):
-        if not node_order:
-            return
-        center = sum(x_pos[n] for n in baseline_nodes) / len(baseline_nodes) if baseline_nodes else 0.0
-        start = center - ((len(node_order) - 1) * spacing / 2.0)
-        for idx, n in enumerate(node_order):
-            target_map[n] = start + idx * spacing
+    optimized = _optimize_layer_ordering(
+        dict(layers),
+        weighted_cross,
+        fixed_layers={0},
+    )
 
-    # Initialize order for upper layers and refine by barycentric sweeps.
-    l1 = sorted(layers[1])
-    l2 = sorted(layers[2])
-    assign_with_spacing(l1, x_pos, 170.0)
-    assign_with_spacing(l2, x_pos, 200.0)
+    # -- Step 6: assign positions from optimised orderings -------------
+    x_pos: dict[str, float] = {}
+    sorted_layer_keys = sorted(optimized.keys())
+    max_layer = max(sorted_layer_keys) if sorted_layer_keys else 0
+    min_layer = min(sorted_layer_keys) if sorted_layer_keys else 0
+    layer_gap = 190.0
+    y_pos: dict[int, float] = {}
+    for li in sorted_layer_keys:
+        y_pos[li] = li * layer_gap
 
-    def barycenter_key(n):
-        vals = adjacent_values(n, x_pos)
-        return (sum(vals) / max(len(vals), 1), n)
+    for li, ordered in optimized.items():
+        if li == 0 and prot in ordered:
+            ordered = [n for n in ordered if n != prot]
+            ordered.append(prot)
+        n_nodes = len(ordered)
+        sp = 140.0 if li == 0 else 170.0
+        start = -((n_nodes - 1) * sp) / 2.0
+        for i, n in enumerate(ordered):
+            x_pos[n] = start + i * sp
 
-    for _ in range(8):
-        l1.sort(key=barycenter_key)
-        assign_with_spacing(l1, x_pos, 170.0)
-        l2.sort(key=barycenter_key)
-        assign_with_spacing(l2, x_pos, 200.0)
+    for n in G.nodes():
+        if n not in x_pos:
+            x_pos[n] = 0.0
 
-    pos = {n: (x_pos.get(n, 0.0), y_pos[get_layer(n)]) for n in G.nodes()}
+    pos = {n: (x_pos[n], y_pos.get(get_layer(n), 0.0)) for n in G.nodes()}
 
     def _css_safe(name: str) -> str:
         return re.sub(r'[^A-Za-z0-9_-]', '-', name)
+
+    def _short_label(text, max_len=28):
+        if len(text) <= max_len:
+            return text
+        cut = text[:max_len].rfind(' ')
+        if cut < max_len // 2:
+            cut = max_len
+        return text[:cut].rstrip() + "..."
 
     raw_rel_types = sorted({
         d['relation'] for _, _, d in G.edges(data=True)
@@ -394,31 +810,33 @@ def build_elements(prot: str):
     for n, (x, y) in pos.items():
         layer = get_layer(n)
         kind = motif_kind.get(n)
+
         if n == prot:
             size = 90
         elif kind == "onto_group":
             member_count = len(motif_members.get(n, []))
             size = 60 + min(30, 4 * member_count)
-        elif layer == 2:
+        elif n in endpoints or n in _direct_only_eps:
             size = 52 + min(24, 5 * endpoint_freq.get(n, 1))
         else:
             size = 54
 
-        label = n
-        if kind == "onto_group":
-            member_count = len(motif_members.get(n, []))
-            parent_name = n.replace("onto_group::", "")
-            label = f"{parent_name} ({member_count})"
-
         if n == prot:
+            label = n
             role_class = "role-protein"
         elif n in variants:
+            label = n
             role_class = "role-variant"
         elif kind == "onto_group":
+            member_count = len(motif_members.get(n, []))
+            parent_name = n.replace("onto_group::", "")
+            label = _short_label(f"{parent_name} ({member_count})")
             role_class = "role-endpoint"
-        elif layer == 2:
+        elif n in endpoints or n in _direct_only_eps:
+            label = _short_label(n)
             role_class = "role-endpoint"
         else:
+            label = _short_label(n)
             role_class = "role-intermediate"
 
         node_el = {
@@ -426,6 +844,7 @@ def build_elements(prot: str):
                 "id": n,
                 "label": label,
                 "real": n,
+                "role": role_class.replace("role-", ""),
                 "motif_type": kind or "",
                 "motif_members": "; ".join(motif_members.get(n, [])),
                 "domain_notes": "; ".join(sorted(variant_meta[n]["domain_notes"])) if n in variant_meta else ""
@@ -433,6 +852,17 @@ def build_elements(prot: str):
             "classes": f"L{layer} {role_class}" + (f" motif-{kind}" if kind else ""),
             "style": {"width": size, "height": size}
         }
+        if n == prot:
+            node_el["data"]["uniprot_id"] = protein_uniprot_id or prot
+        if n in variants and n in variant_meta:
+            vm = variant_meta[n]
+            node_el["data"]["gene_symbol"] = prot
+            if vm["allele_id"]:
+                node_el["data"]["clinvar_allele"] = vm["allele_id"]
+            if vm["dbsnp_rs"]:
+                node_el["data"]["dbsnp_rs"] = vm["dbsnp_rs"]
+            if vm["clinvar_data"]:
+                node_el["data"]["clinvar_data"] = vm["clinvar_data"]
 
         if n in pos:
             node_el["position"] = {"x": pos[n][0], "y": pos[n][1]}
@@ -546,12 +976,12 @@ def network_page(prot: str):
     sidebar = html.Div(
         id={'type': 'edge-info', 'prot': prot},
         children=[
-            html.Div("Domain & Variant Information", 
+            html.Div("Node & Edge Information", 
                     style={'fontSize': 18, 'fontWeight': 'bold', 
                            'marginBottom': 15, 'color': '#2c3e50',
                            'borderBottom': '2px solid #ecf0f1',
                            'paddingBottom': 10}),
-            html.Div("Click on an edge to see detailed information about domains, variants, and clinical data.",
+            html.Div("Click on a node or edge to see detailed information, full names, and external links.",
                     style={'color': '#7f8c8d', 'fontSize': 14, 'lineHeight': '1.4'})
         ],
         style={
@@ -625,21 +1055,13 @@ def network_page(prot: str):
             stylesheet=[
                 {'selector': 'node', 'style': {
                     'shape': 'ellipse', 'background-opacity': 0.5,
-                    'font-size': 18, 'font-weight': 'bold',
+                    'font-size': 16, 'font-weight': 'bold',
                     'label': 'data(label)',
+                    'text-wrap': 'wrap',
+                    'text-max-width': 100,
                     'text-valign': 'center',
                     'text-halign': 'center'}},
-                # Layer semantics: L0 (protein+variants), L1 (intermediate), L2 (endpoint)
-                {'selector': '.L0',
-                 'style': {'background-color': '#aacdd7',
-                          'color': '#004466'}},
-                {'selector': '.L1', 
-                 'style': {'background-color':"#8bb6b3",
-                           'color': '#125652'}},
-                {'selector': '.L2',
-                 'style': {'background-color': '#fabf77',
-                          'color': '#b05e04'}},
-                # Role classes override layer defaults for readability.
+                # Role classes for readability.
                 {'selector': '.role-protein',
                  'style': {'background-color': '#aacdd7', 'color': '#004466'}},
                 {'selector': '.role-variant',
@@ -648,6 +1070,12 @@ def network_page(prot: str):
                  'style': {'background-color': '#cce9b6', 'color': '#3f6330'}},
                 {'selector': '.role-endpoint',
                  'style': {'background-color': '#fabf77', 'color': '#b05e04'}},
+                {'selector': '.role-pseudo',
+                 'style': {'background-color': '#cccccc',
+                           'background-opacity': 0.6,
+                           'shape': 'ellipse',
+                           'width': 12, 'height': 12,
+                           'label': ''}},
                 # Ontology group nodes
                 {'selector': '.motif-onto_group',
                  'style': {'shape': 'round-rectangle',
@@ -662,6 +1090,9 @@ def network_page(prot: str):
                            'width': 2}},
                 
                 *[rel_style(css_cls, c) for css_cls, c in rel_color_safe.items()],
+                {'selector': '.edge-pseudo', 'style': {
+                    'line-style': 'dotted', 'width': 1.5,
+                    'target-arrow-shape': 'none'}},
                 {'selector': '.faded', 'style': {'opacity': 0.15}}
             ]),
 
@@ -709,134 +1140,107 @@ def router(path):
             return network_page(prot)
     return html.H3("404 – Not found")
 
-@app.callback(
-    Output({'type': 'edge-info', 'prot': MATCH}, 'children'),
-    Input({'type': 'cy-net', 'prot': MATCH}, 'tapEdgeData'),
-    prevent_initial_call=True)
-def show_edge_info(edge):
+def _sidebar_default():
+    return [
+        html.Div("Node & Edge Information",
+                 style={'fontSize': 18, 'fontWeight': 'bold',
+                        'marginBottom': 15, 'color': '#2c3e50',
+                        'borderBottom': '2px solid #ecf0f1',
+                        'paddingBottom': 10}),
+        html.Div("Click on a node or edge to see detailed information, full names, and external links.",
+                 style={'color': '#7f8c8d', 'fontSize': 14, 'lineHeight': '1.4'})
+    ]
+
+
+def _sidebar_card(children):
+    return html.Div(children, style={
+        'background': '#ffffff',
+        'padding': 12,
+        'borderRadius': 6,
+        'boxShadow': '0 1px 3px rgba(0,0,0,0.1)',
+        'marginBottom': 15,
+        'border': '1px solid #dee2e6'
+    })
+
+
+def _build_edge_info(edge):
     if not edge:
-        return [
-            html.Div("Domain & Variant Information", 
-                    style={'fontSize': 18, 'fontWeight': 'bold', 
-                           'marginBottom': 15, 'color': '#2c3e50',
-                           'borderBottom': '2px solid #ecf0f1',
-                           'paddingBottom': 10}),
-            html.Div("Click on an edge to see detailed information about domains, variants, and clinical data.",
-                    style={'color': '#7f8c8d', 'fontSize': 14, 'lineHeight': '1.4'})
-        ]
+        return _sidebar_default()
 
-    content = []
-
-    content.append(
-        html.Div("Edge Information", 
-                style={'fontSize': 18, 'fontWeight': 'bold', 
-                       'marginBottom': 15, 'color': '#2c3e50',
-                       'borderBottom': '2px solid #ecf0f1',
-                       'paddingBottom': 10})
-    )
+    content = [
+        html.Div("Edge Information",
+                 style={'fontSize': 18, 'fontWeight': 'bold',
+                        'marginBottom': 15, 'color': '#2c3e50',
+                        'borderBottom': '2px solid #ecf0f1',
+                        'paddingBottom': 10})
+    ]
 
     rel = edge.get('rel', 'N/A')
     source = edge.get('source', 'N/A')
     target = edge.get('target', 'N/A')
 
-    content.append(
-        html.Div([
-            html.Div("Relationship", 
-                    style={'fontSize': 14, 'fontWeight': 'bold', 
+    content.append(_sidebar_card([
+        html.Div("Relationship",
+                 style={'fontSize': 14, 'fontWeight': 'bold',
                         'color': '#34495e', 'marginBottom': 5}),
-            html.Div(f"{source} → {target}", 
-                    style={'fontSize': 14, 'color': '#2c3e50', 
+        html.Div(f"{source} → {target}",
+                 style={'fontSize': 14, 'color': '#2c3e50',
                         'marginBottom': 8, 'fontWeight': 'bold'}),
-            *( [] if rel in ['DV', 'PV', 'has_domain'] else [
-                html.Div(f"Type: {rel}", 
-                    style={'fontSize': 14, 'color': '#7f8c8d'})
-            ]),
-            *( [] if not edge.get('evidence_count') else [
-                html.Div(f"Evidence count: {edge['evidence_count']}",
-                    style={'fontSize': 13, 'color': '#7f8c8d', 'marginTop': 4})
-            ])
-        ], style={
-            'background': '#ffffff',
-            'padding': 12,
-            'borderRadius': 6,
-            'boxShadow': '0 1px 3px rgba(0,0,0,0.1)',
-            'marginBottom': 15,
-            'border': '1px solid #dee2e6'
-        })
-    )
+        *([] if rel in ['DV', 'PV', 'has_domain'] else [
+            html.Div(f"Type: {rel}",
+                     style={'fontSize': 14, 'color': '#7f8c8d'})
+        ]),
+        *([] if not edge.get('evidence_count') else [
+            html.Div(f"Evidence count: {edge['evidence_count']}",
+                     style={'fontSize': 13, 'color': '#7f8c8d', 'marginTop': 4})
+        ])
+    ]))
 
     if rel == 'DV':
-        if 'note' in edge and edge['note']:
-            content.append(
-                html.Div([
-                    html.Div("Domain Description", 
-                            style={'fontSize': 14, 'fontWeight': 'bold', 
-                                   'color': '#34495e', 'marginBottom': 8}),
-                    html.Div(edge['note'], 
-                            style={'fontSize': 14, 'color': '#2c3e50',
-                                   'lineHeight': '1.4'})
-                ], style={
-                    'background': '#ffffff',
-                    'padding': 12,
-                    'borderRadius': 6,
-                    'boxShadow': '0 1px 3px rgba(0,0,0,0.1)',
-                    'marginBottom': 15,
-                    'border': '1px solid #dee2e6'
-                })
-            )
+        if edge.get('note'):
+            content.append(_sidebar_card([
+                html.Div("Domain Description",
+                         style={'fontSize': 14, 'fontWeight': 'bold',
+                                'color': '#34495e', 'marginBottom': 8}),
+                html.Div(edge['note'],
+                         style={'fontSize': 14, 'color': '#2c3e50',
+                                'lineHeight': '1.4'})
+            ]))
     else:
-        if 'note' in edge and edge['note']:
-            content.append(
-                html.Div([
-                    html.Div("Description", 
-                            style={'fontSize': 14, 'fontWeight': 'bold', 
-                                   'color': '#34495e', 'marginBottom': 8}),
-                    html.Div(edge['note'], 
-                            style={'fontSize': 14, 'color': '#2c3e50',
-                                   'lineHeight': '1.4'})
-                ], style={
-                    'background': '#ffffff',
-                    'padding': 12,
-                    'borderRadius': 6,
-                    'boxShadow': '0 1px 3px rgba(0,0,0,0.1)',
-                    'marginBottom': 15,
-                    'border': '1px solid #dee2e6'
-                })
-            )
+        if edge.get('note'):
+            content.append(_sidebar_card([
+                html.Div("Description",
+                         style={'fontSize': 14, 'fontWeight': 'bold',
+                                'color': '#34495e', 'marginBottom': 8}),
+                html.Div(edge['note'],
+                         style={'fontSize': 14, 'color': '#2c3e50',
+                                'lineHeight': '1.4'})
+            ]))
 
-    if 'clinvar_data' in edge and edge['clinvar_data']:
+    if edge.get('clinvar_data'):
         data = edge['clinvar_data']
-        content.append(
+        content.append(_sidebar_card([
+            html.Div("ClinVar Information",
+                     style={'fontSize': 14, 'fontWeight': 'bold',
+                            'color': '#34495e', 'marginBottom': 10}),
             html.Div([
-                html.Div("ClinVar Information", 
-                        style={'fontSize': 14, 'fontWeight': 'bold', 
-                               'color': '#34495e', 'marginBottom': 10}),
                 html.Div([
-                    html.Div([
-                        html.Span("Pathogenicity: ", style={'fontWeight': 'bold'}),
-                        html.Span(data.get('pathogenicity', 'N/A'))
-                    ], style={'marginBottom': 6}),
-                    html.Div([
-                        html.Span("Review Status: ", style={'fontWeight': 'bold'}),
-                        html.Span(data.get('review', 'N/A'))
-                    ], style={'marginBottom': 6}),
-                    html.Div([
-                        html.Span("Associated Condition: ", style={'fontWeight': 'bold'}),
-                        html.Div(data.get('conditions', 'N/A'),
-                                style={'marginTop': 4, 'fontStyle': 'italic'})
-                    ])
-                ], style={'fontSize': 13, 'color': '#2c3e50', 'lineHeight': '1.4'})
-            ], style={
-                'background': '#ffffff',
-                'padding': 12,
-                'borderRadius': 6,
-                'boxShadow': '0 1px 3px rgba(0,0,0,0.1)',
-                'marginBottom': 15,
-                'border': '1px solid #dee2e6'
-            })
-        )
+                    html.Span("Pathogenicity: ", style={'fontWeight': 'bold'}),
+                    html.Span(data.get('pathogenicity', 'N/A'))
+                ], style={'marginBottom': 6}),
+                html.Div([
+                    html.Span("Review Status: ", style={'fontWeight': 'bold'}),
+                    html.Span(data.get('review', 'N/A'))
+                ], style={'marginBottom': 6}),
+                html.Div([
+                    html.Span("Associated Condition: ", style={'fontWeight': 'bold'}),
+                    html.Div(data.get('conditions', 'N/A'),
+                             style={'marginTop': 4, 'fontStyle': 'italic'})
+                ])
+            ], style={'fontSize': 13, 'color': '#2c3e50', 'lineHeight': '1.4'})
+        ]))
 
-    if 'pmid' in edge and edge['pmid']:
+    if edge.get('pmid'):
         pmid_raw = edge['pmid']
         pmid_list = [p.strip() for p in pmid_raw.replace(";", ",").split(",") if p.strip()]
         pubmed_links = []
@@ -849,33 +1253,171 @@ def show_edge_info(edge):
                               'marginBottom': 4, 'color': '#0366d6',
                               'textDecoration': 'none', 'fontSize': 13})
             )
-        content.append(
-            html.Div([
-                html.Div("External Resources",
-                         style={'fontSize': 14, 'fontWeight': 'bold',
-                                'color': '#34495e', 'marginBottom': 10}),
-                html.Div(pubmed_links,
-                         style={'marginBottom': 8, 'lineHeight': '1.8'}),
-                html.A("View in INDRA",
-                       href=(f"https://discovery.indra.bio/search/"
-                             f"?agent={_url.quote_plus(edge['src4indra'])}"
-                             f"&other_agent={_url.quote_plus(edge['target'])}"
-                             "&agent_role=subject&other_role=object"),
-                       target="_blank",
-                       style={'display': 'block', 'color': '#0366d6',
-                              'textDecoration': 'none', 'fontSize': 13,
-                              'fontWeight': 'bold'})
-            ], style={
-                'background': '#ffffff',
-                'padding': 12,
-                'borderRadius': 6,
-                'boxShadow': '0 1px 3px rgba(0,0,0,0.1)',
-                'marginBottom': 15,
-                'border': '1px solid #dee2e6'
-            })
-        )
+        content.append(_sidebar_card([
+            html.Div("External Resources",
+                     style={'fontSize': 14, 'fontWeight': 'bold',
+                            'color': '#34495e', 'marginBottom': 10}),
+            html.Div(pubmed_links,
+                     style={'marginBottom': 8, 'lineHeight': '1.8'}),
+            html.A("View in INDRA",
+                   href=(f"https://discovery.indra.bio/search/"
+                         f"?agent={_url.quote_plus(edge['src4indra'])}"
+                         f"&other_agent={_url.quote_plus(edge['target'])}"
+                         "&agent_role=subject&other_role=object"),
+                   target="_blank",
+                   style={'display': 'block', 'color': '#0366d6',
+                          'textDecoration': 'none', 'fontSize': 13,
+                          'fontWeight': 'bold'})
+        ]))
 
     return content
+
+
+def _build_node_info(node):
+    if not node:
+        return _sidebar_default()
+
+    real_name = node.get('real', node.get('label', 'N/A'))
+    role = node.get('role', 'unknown').replace('-', ' ').replace('_', ' ').title()
+    if node.get('motif_type') == 'onto_group':
+        role = "Endpoint Group"
+
+    content = [
+        html.Div("Node Information",
+                 style={'fontSize': 18, 'fontWeight': 'bold',
+                        'marginBottom': 15, 'color': '#2c3e50',
+                        'borderBottom': '2px solid #ecf0f1',
+                        'paddingBottom': 10})
+    ]
+
+    content.append(_sidebar_card([
+        html.Div("Full Name",
+                 style={'fontSize': 14, 'fontWeight': 'bold',
+                        'color': '#34495e', 'marginBottom': 5}),
+        html.Div(real_name,
+                 style={'fontSize': 14, 'color': '#2c3e50',
+                        'marginBottom': 8, 'fontWeight': 'bold',
+                        'lineHeight': '1.4'}),
+        html.Div(f"Role: {role}",
+                 style={'fontSize': 13, 'color': '#7f8c8d'})
+    ]))
+
+    if node.get('domain_notes'):
+        content.append(_sidebar_card([
+            html.Div("Domain Notes",
+                     style={'fontSize': 14, 'fontWeight': 'bold',
+                            'color': '#34495e', 'marginBottom': 8}),
+            html.Div(node['domain_notes'],
+                     style={'fontSize': 14, 'color': '#2c3e50',
+                            'lineHeight': '1.4'})
+        ]))
+
+    if node.get('clinvar_data'):
+        data = node['clinvar_data']
+        content.append(_sidebar_card([
+            html.Div("ClinVar Information",
+                     style={'fontSize': 14, 'fontWeight': 'bold',
+                            'color': '#34495e', 'marginBottom': 10}),
+            html.Div([
+                html.Div([
+                    html.Span("Pathogenicity: ", style={'fontWeight': 'bold'}),
+                    html.Span(data.get('pathogenicity', 'N/A'))
+                ], style={'marginBottom': 6}),
+                html.Div([
+                    html.Span("Review Status: ", style={'fontWeight': 'bold'}),
+                    html.Span(data.get('review', 'N/A'))
+                ], style={'marginBottom': 6}),
+                html.Div([
+                    html.Span("Associated Condition: ", style={'fontWeight': 'bold'}),
+                    html.Div(data.get('conditions', 'N/A'),
+                             style={'marginTop': 4, 'fontStyle': 'italic'})
+                ])
+            ], style={'fontSize': 13, 'color': '#2c3e50', 'lineHeight': '1.4'})
+        ]))
+
+    external_links = [
+        html.A("Search in INDRA",
+               href=f"https://discovery.indra.bio/search/?agent={_url.quote_plus(real_name)}",
+               target="_blank",
+               style={'display': 'block', 'color': '#0366d6',
+                      'textDecoration': 'none', 'fontSize': 13,
+                      'fontWeight': 'bold', 'marginBottom': 6})
+    ]
+    if node.get('uniprot_id'):
+        uid = node['uniprot_id']
+        if '_' in uid:
+            uniprot_href = (
+                f"https://www.uniprot.org/uniprotkb/"
+                f"{_url.quote_plus(uid)}/entry"
+            )
+        else:
+            uniprot_href = (
+                "https://www.uniprot.org/uniprotkb?query="
+                f"{_url.quote_plus(f'gene_exact:{uid} AND organism_id:9606')}"
+            )
+        external_links.append(
+            html.A("View in UniProt",
+                   href=uniprot_href,
+                   target="_blank",
+                   style={'display': 'block', 'color': '#0366d6',
+                          'textDecoration': 'none', 'fontSize': 13,
+                          'marginBottom': 6})
+        )
+    if node.get('clinvar_allele'):
+        external_links.append(
+            html.A("View in ClinVar",
+                   href=("https://www.ncbi.nlm.nih.gov/clinvar/?term="
+                         f"{_url.quote_plus(str(node['clinvar_allele']) + '[alleleid]')}"),
+                   target="_blank",
+                   style={'display': 'block', 'color': '#0366d6',
+                          'textDecoration': 'none', 'fontSize': 13,
+                          'marginBottom': 6})
+        )
+    elif node.get('gene_symbol'):
+        clinvar_query = f"{node['gene_symbol']}[gene] AND {real_name}"
+        external_links.append(
+            html.A("Search ClinVar",
+                   href=("https://www.ncbi.nlm.nih.gov/clinvar/?term="
+                         f"{_url.quote_plus(clinvar_query)}"),
+                   target="_blank",
+                   style={'display': 'block', 'color': '#0366d6',
+                          'textDecoration': 'none', 'fontSize': 13,
+                          'marginBottom': 6})
+        )
+    if node.get('dbsnp_rs'):
+        external_links.append(
+            html.A("View in dbSNP",
+                   href=f"https://www.ncbi.nlm.nih.gov/snp/rs{node['dbsnp_rs']}",
+                   target="_blank",
+                   style={'display': 'block', 'color': '#0366d6',
+                          'textDecoration': 'none', 'fontSize': 13})
+        )
+
+    content.append(_sidebar_card([
+        html.Div("External Resources",
+                 style={'fontSize': 14, 'fontWeight': 'bold',
+                        'color': '#34495e', 'marginBottom': 10}),
+        *external_links
+    ]))
+
+    return content
+
+
+@app.callback(
+    Output({'type': 'edge-info', 'prot': MATCH}, 'children'),
+    Input({'type': 'cy-net', 'prot': MATCH}, 'tapNodeData'),
+    Input({'type': 'cy-net', 'prot': MATCH}, 'tapEdgeData'),
+    prevent_initial_call=True)
+def show_sidebar_info(node, edge):
+    if not dash.ctx.triggered:
+        return dash.no_update
+
+    prop = dash.ctx.triggered[0]['prop_id'].split('.')[-1]
+    if prop == 'tapNodeData' and node:
+        return _build_node_info(node)
+    if prop == 'tapEdgeData' and edge:
+        return _build_edge_info(edge)
+    return dash.no_update
 
 # ---------------------- subgraph modal callback ----------------------------
 def _css_safe_global(name: str) -> str:
