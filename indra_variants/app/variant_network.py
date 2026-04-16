@@ -18,7 +18,8 @@ import dash_bootstrap_components as dbc
 import dash_cytoscape as cyto
 import networkx as nx
 import pandas as pd
-from dash import html, dcc, Input, Output, State, MATCH
+import plotly.graph_objects as go
+from dash import html, dcc, Input, Output, State, MATCH, ctx
 
 import sys
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
@@ -122,6 +123,172 @@ def _build_endpoint_index() -> tuple[list[str], dict[str, dict[str, dict[str, in
 ENDPOINTS, ENDPOINT_INDEX = _build_endpoint_index()
 ENDPOINT_OPTIONS = [{'label': e, 'value': e} for e in ENDPOINTS]
 
+# Reference coverage tables (publication / supplementary-style summary).
+_STATS_BP_ROWS = [
+    ("Cell population proliferation", 2206, 749, 1370, 1742),
+    ("Apoptotic process", 1878, 667, 1252, 1495),
+    ("DNA-templated transcription", 1113, 500, 883, 863),
+    ("Cell death", 1105, 413, 763, 849),
+    ("Neoplasm invasiveness", 812, 339, 567, 623),
+    ("Localization", 776, 418, 679, 572),
+    ("Cell differentiation", 749, 350, 538, 630),
+    ("Cell growth", 699, 332, 526, 532),
+    ("Cell survival", 695, 309, 528, 529),
+    ("Cell migration", 570, 277, 472, 408),
+]
+_STATS_DISEASE_ROWS = [
+    ("Neoplasms", 503, 231, 359, 382),
+    ("Parkinson disease", 210, 37, 79, 156),
+    ("Alzheimer disease", 143, 55, 100, 116),
+    ("Melanoma", 75, 24, 37, 61),
+    ("Breast neoplasms", 55, 33, 48, 42),
+    ("Syndrome", 46, 29, 46, 28),
+    ("Infections", 38, 31, 38, 35),
+    ("Amyotrophic lateral sclerosis", 34, 4, 32, 6),
+    ("Disease", 33, 28, 33, 26),
+    ("Frontotemporal lobar degeneration", 32, 4, 32, 5),
+]
+# (gene, paths, variants, bps_or_diseases, pmids)
+_STATS_GENE_ROWS = [
+    ("TP53", 1298, 87, 110, 261),
+    ("BRAF", 1218, 30, 130, 562),
+    ("KRAS", 1152, 27, 162, 365),
+    ("TARDBP", 909, 35, 54, 30),
+    ("LRRK2", 398, 17, 77, 166),
+    ("SOD1", 305, 16, 53, 141),
+    ("JAK2", 231, 16, 50, 125),
+    ("HRAS", 225, 14, 56, 89),
+    ("MAPT", 187, 19, 77, 55),
+    ("RPS6KB1", 183, 4, 58, 100),
+    ("PIK3CA", 180, 9, 47, 55),
+    ("EGFR", 179, 29, 38, 78),
+    ("SNCA", 178, 10, 45, 52),
+    ("NRAS", 173, 14, 47, 63),
+    ("CTNNB1", 156, 20, 36, 59),
+    ("DNM1L", 156, 16, 41, 48),
+    ("RAC1", 151, 16, 51, 54),
+    ("MDM2", 136, 22, 41, 37),
+    ("GSK3B", 128, 15, 39, 40),
+    ("PTEN", 127, 23, 39, 40),
+]
+
+
+def _stats_value_bp_disease(row: tuple, metric: str) -> int:
+    _name, paths, genes, variants, pmids = row
+    return {"path": paths, "gene": genes, "variant": variants,
+            "pmid": pmids}[metric]
+
+
+def _stats_value_gene(row: tuple, metric: str) -> int:
+    _gene, paths, variants, bp_dis, pmids = row
+    return {"path": paths, "gene": bp_dis, "variant": variants,
+            "pmid": pmids}[metric]
+
+
+def _stats_axis_label(metric: str, for_gene_chart: bool) -> str:
+    if metric == "path":
+        return "Paths"
+    if metric == "variant":
+        return "Variants"
+    if metric == "pmid":
+        return "PMIDs"
+    return "BPs / diseases" if for_gene_chart else "Genes"
+
+
+def _stats_network_href(label: str, for_gene_chart: bool) -> str:
+    """Resolve bar label to an in-app network URL, or '' if not indexed."""
+    key = (label or "").strip()
+    if not key:
+        return ""
+    if for_gene_chart:
+        for p in PROTS:
+            if p.casefold() == key.casefold():
+                return _protein_href(p)
+        return ""
+    for ep in ENDPOINT_INDEX:
+        if ep.casefold() == key.casefold():
+            return _endpoint_href(ep)
+    return ""
+
+
+def _stats_point_href(point: dict) -> Optional[str]:
+    cd = point.get("customdata")
+    if isinstance(cd, (list, tuple)) and len(cd) >= 1:
+        href = cd[0]
+        if isinstance(href, str) and href.startswith("/"):
+            return href
+    if isinstance(cd, str) and cd.startswith("/"):
+        return cd
+    return None
+
+
+def _stats_bar_figure(
+    rows: list[tuple],
+    metric: str,
+    title: str,
+    for_gene_chart: bool,
+    value_fn,
+    *,
+    bar_color: str,
+    plot_bg: str = "#f8fafc",
+    paper_bg: str = "rgba(0,0,0,0)",
+) -> go.Figure:
+    scored = [(value_fn(r, metric), r) for r in rows]
+    scored.sort(key=lambda t: t[0], reverse=True)
+    values = [v for v, _ in scored]
+    labels = [r[0] for _, r in scored]
+    axis_title = _stats_axis_label(metric, for_gene_chart)
+    hrefs = [_stats_network_href(lab, for_gene_chart) for lab in labels]
+    hover_hint = [
+        "Click to open graph" if h else "No matching graph in this build"
+        for h in hrefs
+    ]
+    customdata = list(zip(hrefs, hover_hint))
+    bar_height = 22
+    fig = go.Figure(
+        data=[go.Bar(
+            x=values,
+            y=labels,
+            orientation="h",
+            marker=dict(
+                color=bar_color,
+                line=dict(color="rgba(255,255,255,0.45)", width=1),
+            ),
+            text=values,
+            textposition="outside",
+            textfont=dict(color=U["ink_soft"], size=11),
+            cliponaxis=False,
+            customdata=customdata,
+            hovertemplate=(
+                "<b>%{y}</b><br>"
+                "%{x} " + axis_title + "<br>"
+                "<span style='font-size:11px;color:#6f6b63'>%{customdata[1]}</span>"
+                "<extra></extra>"
+            ),
+        )]
+    )
+    fig.update_layout(
+        title=dict(text=title, font=dict(size=15, color=U["ink"],
+                                          family=U["font_display"])),
+        xaxis_title=axis_title,
+        yaxis=dict(autorange="reversed", title=""),
+        margin=dict(l=8, r=88, t=52, b=44),
+        height=max(380, bar_height * len(labels) + 120),
+        font=dict(family=U["font_ui"], size=12, color=U["ink_soft"]),
+        paper_bgcolor=paper_bg,
+        plot_bgcolor=plot_bg,
+        hoverlabel=dict(bgcolor=U["panel"], font_size=12,
+                        font_family=U["font_ui"]),
+    )
+    fig.update_xaxes(
+        gridcolor="rgba(45, 42, 36, 0.08)",
+        zeroline=False,
+        title_font=dict(color=U["muted"], size=12, family=U["font_ui"]),
+    )
+    fig.update_yaxes(tickfont=dict(size=11, color=U["ink_soft"],
+                                   family=U["font_ui"]))
+    return fig
+
 
 def _build_alpha_directory(items, query: str, href_builder, columns: int = 3):
     query_norm = (query or "").strip().casefold()
@@ -145,7 +312,7 @@ def _build_alpha_directory(items, query: str, href_builder, columns: int = 3):
                         item,
                         href=href_builder(item),
                         style={'textDecoration': 'none',
-                               'color': '#0366d6',
+                               'color': U['link'],
                                'fontWeight': 'bold'
                                if query_norm and query_norm in item.casefold()
                                else 'normal'}))
@@ -157,8 +324,9 @@ def _build_alpha_directory(items, query: str, href_builder, columns: int = 3):
 
     if blocks:
         return blocks
-    return html.Div("No matches found.",
-                    style={'color': '#6c757d', 'fontSize': 16, 'padding': '12px 0'})
+    return html.Div("No results.",
+                    style={'color': U['muted'], 'fontSize': 15,
+                           'padding': '12px 0', 'fontFamily': U['font_ui']})
 
 
 def _find_endpoint_groups(endpoint_names: set, min_group: int = 3,
@@ -1096,9 +1264,9 @@ def build_elements(prot: str):
 
     edge_set = {(u, v) for u, v, _ in G.edges(data=True)}
 
-    legend_rels = ['Gene to Variant'] + raw_rel_types
+    legend_rels = ['Gene–variant'] + raw_rel_types
     legend_colors = {
-        'Gene to Variant': '#d5cbc9',
+        'Gene–variant': '#c9c4bf',
         **{rel_display.get(k, k): v for k, v in rel_color_safe.items()}
     }
 
@@ -1385,18 +1553,55 @@ def _build_endpoint_elements_cached(endpoint: str):
             "classes": cls,
         })
 
-    legend_rels = ["Gene to Variant"] + raw_rel_types
+    legend_rels = ["Gene–variant"] + raw_rel_types
     legend_colors = {
-        "Gene to Variant": "#d5cbc9",
+        "Gene–variant": "#c9c4bf",
         **{rel_display.get(k, k): v for k, v in rel_color_safe.items()},
     }
     return els, legend_rels, legend_colors, rel_color_safe, list(edge_set), {}
 
 
+# --- Shared UI theme (warm paper / ink; avoids generic “AI gradient” look) ---
+U = {
+    "font_ui": (
+        "system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', "
+        "Arial, sans-serif"
+    ),
+    "font_display": "Georgia, Cambria, 'Times New Roman', Times, serif",
+    "ink": "#1c1b18",
+    "ink_soft": "#454036",
+    "muted": "#6f6b63",
+    "paper": "#f2efe6",
+    "panel": "#fdfbf7",
+    "card": "#fffcf7",
+    "wash": "#ebe6dc",
+    "rule": "#e0dbd2",
+    "link": "#2a4a66",
+    "hero": "#262422",
+    "hero_hi": "#32302c",
+    "hero_deep": "#1a1917",
+    "hero_text": "#f7f4ec",
+    "hero_muted": "#c4beb4",
+    "shadow": "0 1px 2px rgba(28, 27, 24, 0.05), 0 6px 20px rgba(28, 27, 24, 0.06)",
+    "shadow_strong": "0 2px 8px rgba(28, 27, 24, 0.1)",
+    "chart_bp": "#4d5f52",
+    "chart_dis": "#8b534c",
+    "chart_gene": "#4d5866",
+    "plot_bp": "#eef1ec",
+    "plot_dis": "#f3eceb",
+    "plot_gene": "#eceff2",
+    "accent_card_bp": "#6d7f72",
+    "accent_card_dis": "#a1665f",
+    "accent_card_gene": "#6a7484",
+    "graph_bg": "#f7f5f0",
+    "legend_bg": "rgba(253, 251, 247, 0.96)",
+}
+
+
 # ------------------------Dash App------------------------–
 app = dash.Dash(__name__,
                 suppress_callback_exceptions=True,
-                external_stylesheets=[dbc.themes.FLATLY])
+                external_stylesheets=[dbc.themes.SANDSTONE])
 # Set the server for deployment, see https://dash.plotly.com/deployment
 server = app.server
 app.layout = html.Div([dcc.Location(id="url"), html.Div(id="page")])
@@ -1407,26 +1612,36 @@ def _browse_panel(title: str, helper_text: str, dropdown_id: str, options: list,
                   summary_text: str, note_text: Optional[str] = None):
     return html.Div([
         html.H4(title, style={'marginTop': 0, 'marginBottom': 10,
-                              'color': '#2c3e50'}),
+                              'color': U['ink'],
+                              'fontFamily': U['font_display'],
+                              'fontWeight': 600}),
         html.P(helper_text, style={'fontSize': 16, 'margin': '0 0 16px 0',
-                                   'color': '#495057'}),
+                                   'color': U['ink_soft'],
+                                   'fontFamily': U['font_ui'],
+                                   'lineHeight': 1.45}),
         dcc.Dropdown(id=dropdown_id, options=options,
                      placeholder=placeholder,
-                     style={'fontSize': 18}, clearable=True,
+                     style={'fontSize': 16, 'fontFamily': U['font_ui']},
+                     clearable=True,
                      searchable=True),
-        dbc.Button("Search", id=button_id, n_clicks=0,
+        dbc.Button("Open", id=button_id, n_clicks=0,
                    color="primary", style={'marginTop': 18,
-                                           'fontSize': 18}),
+                                           'fontSize': 16,
+                                           'fontFamily': U['font_ui'],
+                                           'fontWeight': 600,
+                                           'padding': '8px 22px'}),
         html.Div(summary_text,
                  style={'marginTop': 16, 'marginBottom': 10,
-                        'fontSize': 14, 'color': '#6c757d'}),
+                        'fontSize': 14, 'color': U['muted'],
+                        'fontFamily': U['font_ui']}),
         *([] if not note_text else [
             html.Div(note_text,
                      style={'marginBottom': 14, 'fontSize': 14,
-                            'color': '#6c757d', 'fontStyle': 'italic'})
+                            'color': U['muted'], 'fontStyle': 'italic',
+                            'fontFamily': U['font_ui'], 'lineHeight': 1.45})
         ]),
         html.Div(id=directory_id,
-                 style={'fontFamily': 'Arial, sans-serif'})
+                 style={'fontFamily': U['font_ui']})
     ], style={'padding': '12px 6px 6px'})
 
 
@@ -1444,13 +1659,15 @@ def _render_network_page(view_key: str, root_node_id: str, title: str,
     sidebar = html.Div(
         id={'type': 'edge-info', 'prot': view_key},
         children=[
-            html.Div("Node & Edge Information",
-                    style={'fontSize': 18, 'fontWeight': 'bold',
-                           'marginBottom': 15, 'color': '#2c3e50',
-                           'borderBottom': '2px solid #ecf0f1',
+            html.Div("Details",
+                    style={'fontSize': 17, 'fontWeight': 600,
+                           'fontFamily': U['font_display'],
+                           'marginBottom': 15, 'color': U['ink'],
+                           'borderBottom': f'1px solid {U["rule"]}',
                            'paddingBottom': 10}),
-            html.Div("Click on a node or edge to see detailed information, full names, and external links.",
-                    style={'color': '#7f8c8d', 'fontSize': 14, 'lineHeight': '1.4'})
+            html.Div("Select a node or edge for attributes, evidence, and external links.",
+                    style={'color': U['muted'], 'fontSize': 14,
+                           'lineHeight': '1.45', 'fontFamily': U['font_ui']})
         ],
         style={
             'position': 'fixed',
@@ -1458,12 +1675,12 @@ def _render_network_page(view_key: str, root_node_id: str, title: str,
             'top': 0,
             'width': 350,
             'height': '100vh',
-            'background': 'linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%)',
-            'padding': 20,
-            'boxShadow': '2px 0 10px rgba(0,0,0,0.1)',
-            'borderRight': '1px solid #dee2e6',
-            'fontSize': 16,
-            'fontFamily': 'Arial, sans-serif',
+            'background': U['graph_bg'],
+            'padding': '22px 20px',
+            'boxShadow': U['shadow_strong'],
+            'borderRight': f'1px solid {U["rule"]}',
+            'fontSize': 15,
+            'fontFamily': U['font_ui'],
             'zIndex': 1000,
             'overflowY': 'auto'
         }
@@ -1471,18 +1688,21 @@ def _render_network_page(view_key: str, root_node_id: str, title: str,
 
     main_content = html.Div([
         html.Div([
-            dcc.Link("← Home", href="/",
-                    style={'color': '#0366d6', 'textDecoration': 'none',
-                           'fontSize': 15, 'fontWeight': 'bold'}),
+            dcc.Link("← Overview", href="/",
+                    style={'color': U['link'], 'textDecoration': 'none',
+                           'fontSize': 14, 'fontWeight': 600,
+                           'fontFamily': U['font_ui']}),
             html.H4(title,
-                   style={'textAlign': 'center', 'margin': '2px 0',
-                          'color': '#2c3e50'}),
-            html.P("Tip: click the root node for this view to clear all highlights.",
+                   style={'textAlign': 'center', 'margin': '6px 0 2px',
+                          'color': U['ink'],
+                          'fontFamily': U['font_display'],
+                          'fontWeight': 600}),
+            html.P("Select the root node to clear highlighting.",
                    style={'textAlign': 'center', 'marginTop': 0,
-                          'marginBottom': 15, 'color': '#666',
-                          'fontFamily': 'Arial, sans-serif', 'fontSize': 14})
-        ], style={'padding': '10px 10px', 'background': '#ffffff',
-                  'borderBottom': '1px solid #dee2e6'}),
+                          'marginBottom': 15, 'color': U['muted'],
+                          'fontFamily': U['font_ui'], 'fontSize': 13})
+        ], style={'padding': '14px 16px', 'background': U['panel'],
+                  'borderBottom': f'1px solid {U["rule"]}'}),
 
         dcc.Store(id={'type': 'store-els',  'prot': view_key},  data=els),
         dcc.Store(id={'type': 'store-edges', 'prot': view_key},  data=edge_set),
@@ -1498,18 +1718,21 @@ def _render_network_page(view_key: str, root_node_id: str, title: str,
                     cyto.Cytoscape(
                         id={'type': 'cy-subgraph', 'prot': view_key},
                         elements=[], layout={'name': 'preset'},
-                        style={'width': '70%', 'height': '100%'},
+                        style={'width': '70%', 'height': '100%',
+                               'backgroundColor': U['paper']},
                         stylesheet=[]),
                     html.Div(
                         id={'type': 'subgraph-edge-info', 'prot': view_key},
                         children=[
-                            html.Div("Click an edge to see details",
-                                     style={'color': '#7f8c8d', 'fontSize': 14,
-                                            'padding': 16})
+                            html.Div("Select an edge for details.",
+                                     style={'color': U['muted'], 'fontSize': 14,
+                                            'padding': 16,
+                                            'fontFamily': U['font_ui']})
                         ],
                         style={'width': '30%', 'height': '100%',
-                               'overflowY': 'auto', 'borderLeft': '1px solid #dee2e6',
-                               'background': '#f8f9fa'})
+                               'overflowY': 'auto',
+                               'borderLeft': f'1px solid {U["rule"]}',
+                               'background': U['paper']})
                 ], style={'display': 'flex', 'height': '70vh'}),
                 style={'padding': 0}),
         ], id={'type': 'subgraph-modal', 'prot': view_key},
@@ -1519,32 +1742,33 @@ def _render_network_page(view_key: str, root_node_id: str, title: str,
             id={'type': 'cy-net', 'prot': view_key},
             elements=els,
             layout=layout,
-            style={'width': '100%', 'height': 'calc(100vh - 120px)'},
+            style={'width': '100%', 'height': 'calc(100vh - 120px)',
+                   'backgroundColor': U['paper']},
             stylesheet=[
                 {'selector': 'node', 'style': {
-                    'shape': 'ellipse', 'background-opacity': 0.5,
-                    'font-size': 16, 'font-weight': 'bold',
+                    'shape': 'ellipse', 'background-opacity': 0.92,
+                    'font-size': 15, 'font-weight': '600',
                     'label': 'data(label)',
                     'text-wrap': 'wrap',
                     'text-max-width': 100,
                     'text-valign': 'center',
                     'text-halign': 'center'}},
                 {'selector': '.role-protein',
-                 'style': {'background-color': '#aacdd7', 'color': '#004466'}},
+                 'style': {'background-color': '#c5d2ce', 'color': '#2a3d38'}},
                 {'selector': '.role-variant',
-                 'style': {'background-color': '#a492bb', 'color': '#573d82'}},
+                 'style': {'background-color': '#c9c0d4', 'color': '#3d324d'}},
                 {'selector': '.role-intermediate',
-                 'style': {'background-color': '#cce9b6', 'color': '#3f6330'}},
+                 'style': {'background-color': '#cfd9c3', 'color': '#35422e'}},
                 {'selector': '.role-endpoint',
-                 'style': {'background-color': '#fabf77', 'color': '#b05e04'}},
+                 'style': {'background-color': '#e8d4bc', 'color': '#5c3f24'}},
                 {'selector': '.motif-onto_group',
                  'style': {'shape': 'round-rectangle',
-                           'background-color': '#ffcc80',
-                           'background-opacity': 0.7,
-                           'border-width': 2,
-                           'border-color': '#e65100'}},
+                           'background-color': '#e6dfd2',
+                           'background-opacity': 0.95,
+                           'border-width': 1,
+                           'border-color': '#a89882'}},
                 {'selector': '.edge-PV',
-                 'style': {'line-color': '#d5cbc9',
+                 'style': {'line-color': '#c9c4bf',
                            'target-arrow-shape': 'triangle',
                            'width': 2}},
                 *[rel_style(css_cls, c) for css_cls, c in rel_color_safe.items()],
@@ -1552,59 +1776,103 @@ def _render_network_page(view_key: str, root_node_id: str, title: str,
             ]),
 
         html.Div([
-            html.H4("Legend",
-                    style={'margin': 0, 'fontSize': 16,
-                           'fontWeight': 'bold',
-                           'fontFamily': 'Arial, sans-serif',
-                           'color': '#2c3e50'}),
+            html.H4("Edge types",
+                    style={'margin': 0, 'fontSize': 14,
+                           'fontWeight': 600,
+                           'fontFamily': U['font_display'],
+                           'color': U['ink'],
+                           'letterSpacing': '0.02em'}),
             html.Ul([
                 html.Li([html.Span('→',
-                                  style={'color': legend_colors.get(r, '#d5cbc9'),
+                                  style={'color': legend_colors.get(r, '#c9c4bf'),
                                          'marginRight': 8,
-                                         'fontSize': 16}), r],
-                        style={'fontSize': 14, 'listStyle': 'none',
-                               'margin': '2px 0'})
+                                         'fontSize': 14}), r],
+                        style={'fontSize': 13, 'listStyle': 'none',
+                               'margin': '4px 0',
+                               'color': U['ink_soft'],
+                               'fontFamily': U['font_ui']})
                 for r in legend_rels
             ], style={'paddingLeft': 0, 'margin': '8px 0 0 0'})
         ], style={'position': 'absolute', 'top': 20, 'right': 20,
-                  'background': 'rgba(255,255,255,0.95)',
-                  'padding': '12px 16px',
-                  'borderRadius': 8,
-                  'boxShadow': '0 2px 8px rgba(0,0,0,0.15)',
-                  'fontFamily': 'Arial, sans-serif',
+                  'background': U['legend_bg'],
+                  'padding': '14px 18px',
+                  'borderRadius': 6,
+                  'border': f'1px solid {U["rule"]}',
+                  'boxShadow': U['shadow'],
+                  'fontFamily': U['font_ui'],
                   'maxHeight': '70vh',
                   'overflowY': 'auto'})
 
     ], style={
         'marginLeft': 350,
         'position': 'relative',
-        'height': '100vh'
+        'height': '100vh',
+        'backgroundColor': U['paper'],
     })
 
     return html.Div([sidebar, main_content])
 
 
-# ---Homepage---
-def homepage():
+def _app_footer():
+    return html.Div(
+        [
+            html.Span("Maintained by the "),
+            html.A("Gyori Lab", href="https://gyorilab.github.io",
+                   target="_blank",
+                   style={'color': U['link'], 'fontWeight': 500}),
+            html.Span(", Northeastern University."),
+            html.Br(),
+            html.Span("Supported by DARPA ASKEM / ARPA-H BDF (HR00112220036).")
+        ],
+        style={'background': U['wash'],
+               'padding': '16px 24px',
+               'textAlign': 'center', 'fontSize': 13,
+               'fontFamily': U['font_ui'],
+               'color': U['muted'],
+               'borderTop': f'1px solid {U["rule"]}'},
+    )
+
+
+# ---Search / browse (gene & endpoint pickers)---
+def search_page():
     search_card = html.Div(
         [
-            html.H1("Variant Network Explorer",
-                    style={'marginTop': 0, 'marginBottom': 12}),
-            html.P("Browse either gene-centric or endpoint-centric variant networks.",
-                   style={'fontSize': 18, 'margin': '0 0 20px 0'}),
+            dcc.Link(
+                "← Overview",
+                href="/",
+                style={'color': U['link'], 'textDecoration': 'none',
+                       'fontSize': 14, 'fontWeight': 600,
+                       'display': 'inline-block', 'marginBottom': 10,
+                       'fontFamily': U['font_ui']}),
+            html.H1("Variant network browser",
+                    style={'marginTop': 0, 'marginBottom': 14,
+                           'color': U['ink'],
+                           'fontFamily': U['font_display'],
+                           'fontWeight': 600,
+                           'fontSize': '2rem',
+                           'letterSpacing': '-0.01em'}),
+            html.P([
+                "Gene-centric graphs are keyed by protein; endpoint-centric graphs by "
+                "disease or pathway term. ",
+                dcc.Link("Summary metrics",
+                         href="/",
+                         style={'color': U['link'], 'fontWeight': 600}),
+                " are on the overview.",
+            ], style={'fontSize': 16, 'margin': '0 0 22px 0', 'color': U['ink_soft'],
+                      'fontFamily': U['font_ui'], 'lineHeight': 1.5}),
             dcc.Tabs([
                 dcc.Tab(
                     label="Gene-centric",
                     children=[
                         _browse_panel(
-                            title="Protein / Gene",
-                            helper_text="Type a protein or gene name below, or browse alphabetically.",
+                            title="Protein or gene",
+                            helper_text="Search or browse A–Z; then open the graph.",
                             dropdown_id='prot-search',
                             options=PROT_OPTIONS,
-                            placeholder="search protein / gene …",
+                            placeholder="Protein or gene symbol…",
                             button_id='submit-prot',
                             directory_id='prot-directory',
-                            summary_text=f"{len(PROTS)} protein/gene pages available.",
+                            summary_text=f"{len(PROTS)} graphs available.",
                         )
                     ]
                 ),
@@ -1612,48 +1880,248 @@ def homepage():
                     label="Endpoint-centric",
                     children=[
                         _browse_panel(
-                            title="Disease / Result / Endpoint",
-                            helper_text="Type an end node from the current graph, or browse alphabetically.",
+                            title="Disease, phenotype, or pathway",
+                            helper_text="Search or browse A–Z; terms come from biological_process/disease in the source data.",
                             dropdown_id='endpoint-search',
                             options=ENDPOINT_OPTIONS,
-                            placeholder="search disease / result / endpoint …",
+                            placeholder="Endpoint or disease term…",
                             button_id='submit-endpoint',
                             directory_id='endpoint-directory',
                             summary_text=(
-                                f"{len(ENDPOINTS)} unique end nodes currently indexed "
-                                f"from biological_process/disease."
+                                f"{len(ENDPOINTS)} indexed endpoints."
                             ),
                             note_text=(
-                                "Large endpoint pages are aggregated at the protein level "
-                                "so common diseases/results stay explorable."
+                                "High-degree endpoints are grouped by protein to keep graphs usable."
                             ),
                         )
                     ]
                 )
             ])
         ],
-        style={'maxWidth': 880, 'margin': '40px auto',
-               'background': '#f8f9fa', 'padding': '32px 48px',
-               'borderRadius': 8, 'boxShadow': '0 0 8px rgba(0,0,0,0.15)',
-               'fontFamily': 'Arial, sans-serif'}
+        style={'maxWidth': 860, 'margin': '48px auto',
+               'background': U['panel'], 'padding': '40px 48px',
+               'borderRadius': 4,
+               'boxShadow': U['shadow'],
+               'fontFamily': U['font_ui'],
+               'border': f'1px solid {U["rule"]}'}
     )
 
-    footer = html.Div(
+    return html.Div([search_card, _app_footer()],
+                    style={'minHeight': '100vh', 'background': U['paper']})
+
+
+def statistics_page():
+    """Landing page: static reference tables for top BPs / diseases / genes."""
+    _cta_wrap = {
+        'textDecoration': 'none',
+        'display': 'block',
+        'width': '100%',
+    }
+    hero = html.Div(
         [
-            html.Span("Developed by the "),
-            html.A("Gyori Lab", href="https://gyorilab.github.io",
-                   target="_blank"),
-            html.Span(" at Northeastern University"),
-            html.Br(),
-            html.Span("INDRA Variant is funded under DARPA ASKEM / "
-                      "ARPA-H BDF (HR00112220036)")
+            html.Div(
+                style={'height': 3, 'background': '#b8a06e', 'opacity': 0.85}),
+            html.Div(
+                [
+                    html.Div(
+                        [
+                            html.Span(
+                                "INDRA variant networks",
+                                style={'fontSize': 11, 'letterSpacing': '0.14em',
+                                       'textTransform': 'uppercase',
+                                       'color': U['hero_muted'],
+                                       'fontWeight': 600,
+                                       'fontFamily': U['font_ui']}),
+                            html.H1(
+                                "Coverage overview",
+                                style={'fontSize': '2.05rem', 'fontWeight': 600,
+                                       'fontFamily': U['font_display'],
+                                       'color': U['hero_text'], 'margin': '12px 0 10px',
+                                       'lineHeight': 1.2,
+                                       'letterSpacing': '-0.02em'}),
+                            html.P(
+                                "Ranked biological processes, diseases, and genes "
+                                "from the reference path statistics (static summary).",
+                                style={'fontSize': 15, 'color': U['hero_muted'],
+                                       'maxWidth': 620, 'margin': 0, 'lineHeight': 1.55,
+                                       'fontFamily': U['font_ui']}),
+                        ],
+                        style={'flex': '1 1 320px', 'minWidth': 0}),
+                    html.Div(
+                        [
+                            html.Div("Graphs", style={
+                                'fontSize': 11, 'textTransform': 'uppercase',
+                                'letterSpacing': '0.12em', 'color': U['hero_muted'],
+                                'marginBottom': 10, 'fontWeight': 600,
+                                'fontFamily': U['font_ui']}),
+                            dcc.Link(
+                                dbc.Button(
+                                    "Open browser",
+                                    color="light",
+                                    className="w-100 mb-2",
+                                    style={'fontWeight': 600, 'color': U['hero'],
+                                           'border': 'none',
+                                           'fontFamily': U['font_ui']}),
+                                href="/search",
+                                style={**_cta_wrap, 'boxShadow': U['shadow']}),
+                            dcc.Link(
+                                dbc.Button(
+                                    "Gene-centric tab",
+                                    outline=True,
+                                    color="light",
+                                    className="w-100 mb-2",
+                                    style={'fontWeight': 500,
+                                           'borderColor': 'rgba(247,244,236,0.35)',
+                                           'color': U['hero_text'],
+                                           'fontFamily': U['font_ui']}),
+                                href="/search",
+                                style={'textDecoration': 'none'}),
+                            dcc.Link(
+                                dbc.Button(
+                                    "Endpoint-centric tab",
+                                    outline=True,
+                                    color="light",
+                                    className="w-100",
+                                    style={'fontWeight': 500,
+                                           'borderColor': 'rgba(247,244,236,0.35)',
+                                           'color': U['hero_text'],
+                                           'fontFamily': U['font_ui']}),
+                                href="/search",
+                                style={'textDecoration': 'none'}),
+                            html.P(
+                                "Opens /search (use tabs to switch view).",
+                                style={'fontSize': 12, 'color': U['hero_muted'],
+                                       'marginTop': 12, 'marginBottom': 0,
+                                       'lineHeight': 1.45,
+                                       'fontFamily': U['font_ui']}),
+                        ],
+                        style={'flex': '0 0 260px', 'maxWidth': '100%'}),
+                ],
+                style={'display': 'flex', 'flexWrap': 'wrap',
+                       'gap': '32px 40px', 'alignItems': 'flex-start',
+                       'justifyContent': 'space-between',
+                       'padding': '32px 40px 36px'},
+            ),
         ],
-        style={'background': '#f1f1f1', 'padding': '10px 24px',
-               'textAlign': 'center', 'fontSize': 14,
-               'fontFamily': 'Arial, sans-serif', 'marginTop': 40}
+        style={
+            'background': f'linear-gradient(165deg, {U["hero_hi"]} 0%, {U["hero"]} 55%, {U["hero_deep"]} 100%)',
+            'borderBottom': f'1px solid {U["rule"]}',
+            'boxShadow': U['shadow_strong'],
+        },
     )
 
-    return html.Div([search_card, footer])
+    metric_row = html.Div(
+        [
+            html.Span(
+                "Metric",
+                style={'fontWeight': 600, 'marginRight': 14, 'alignSelf': 'center',
+                       'color': U['ink_soft'], 'fontSize': 13,
+                       'fontFamily': U['font_ui'],
+                       'letterSpacing': '0.04em', 'textTransform': 'uppercase'}),
+            dbc.ButtonGroup(
+                [
+                    dbc.Button("Paths", id="stats-btn-path", n_clicks=0,
+                               color="primary", outline=False,
+                               style={'fontFamily': U['font_ui']}),
+                    dbc.Button("Genes", id="stats-btn-gene", n_clicks=0,
+                               color="secondary", outline=True,
+                               style={'fontFamily': U['font_ui']}),
+                    dbc.Button("Variants", id="stats-btn-variant", n_clicks=0,
+                               color="secondary", outline=True,
+                               style={'fontFamily': U['font_ui']}),
+                    dbc.Button("PMIDs", id="stats-btn-pmid", n_clicks=0,
+                               color="secondary", outline=True,
+                               style={'fontFamily': U['font_ui']}),
+                ],
+                size="md",
+            ),
+            html.Span(
+                "Same selection for all charts.",
+                style={'marginLeft': 14, 'color': U['muted'], 'fontSize': 13,
+                       'alignSelf': 'center', 'fontFamily': U['font_ui']}),
+        ],
+        style={'display': 'flex', 'flexWrap': 'wrap', 'alignItems': 'center',
+               'marginBottom': 8, 'padding': '14px 18px',
+               'background': U['panel'],
+               'borderRadius': 4,
+               'border': f'1px solid {U["rule"]}',
+               'boxShadow': U['shadow']},
+    )
+
+    explain = html.P(
+        "Bars sort by the active metric (descending). "
+        "Genes: gene count on process/disease charts; BP/disease term count on the gene chart. "
+        "Click a bar to open its network when the label is indexed in this deployment.",
+        style={'fontSize': 14, 'color': U['muted'], 'maxWidth': 920,
+               'margin': '12px 0 0', 'lineHeight': 1.55,
+               'fontFamily': U['font_ui']},
+    )
+
+    _card = lambda gid, accent, body_pad: dbc.Card(
+        dbc.CardBody(
+            dcc.Graph(id=gid, config={'displayModeBar': False}),
+            style={'paddingTop': body_pad, 'paddingBottom': 12},
+        ),
+        className="mb-4",
+        style={
+            'border': f'1px solid {U["rule"]}',
+            'borderRadius': 4,
+            'overflow': 'hidden',
+            'boxShadow': U['shadow'],
+            'borderTop': f'3px solid {accent}',
+            'background': U['card'],
+        },
+    )
+
+    charts = html.Div(
+        [
+            _card("stats-fig-bp", U['accent_card_bp'], 4),
+            _card("stats-fig-disease", U['accent_card_dis'], 4),
+            _card("stats-fig-genes", U['accent_card_gene'], 4),
+        ],
+        style={'marginTop': 22},
+    )
+
+    bottom_cta = html.Div(
+        [
+            html.Hr(style={'border': 'none', 'borderTop': f'1px solid {U["rule"]}',
+                           'margin': '32px 0 22px'}),
+            html.Div(
+                [
+                    html.Span(
+                        "Open a gene or endpoint graph",
+                        style={'fontSize': 15, 'color': U['ink_soft'],
+                               'fontWeight': 600, 'marginRight': 16,
+                               'fontFamily': U['font_display']}),
+                    dcc.Link(
+                        dbc.Button(
+                            "Browser →",
+                            color="primary",
+                            style={'fontWeight': 600,
+                                   'fontFamily': U['font_ui'],
+                                   'padding': '8px 20px'}),
+                        href="/search",
+                        style={'textDecoration': 'none'}),
+                ],
+                style={'display': 'flex', 'flexWrap': 'wrap', 'alignItems': 'center',
+                       'gap': 12, 'justifyContent': 'center'},
+            ),
+        ],
+    )
+
+    body = html.Div(
+        [
+            hero,
+            html.Div(
+                [metric_row, explain, charts, bottom_cta, dcc.Store(id="stats-metric", data="path")],
+                style={'maxWidth': 1080, 'margin': '0 auto', 'padding': '28px 22px 48px',
+                       'fontFamily': U['font_ui']},
+            ),
+            _app_footer(),
+        ],
+        style={'minHeight': '100vh', 'background': U['paper']},
+    )
+    return body
 
 
 # ---Network Page---
@@ -1661,7 +2129,7 @@ def network_page(prot: str):
     return _render_network_page(
         view_key=f"protein::{prot}",
         root_node_id=prot,
-        title=f"{prot} Variant Network",
+        title=f"{prot} — variant network",
         graph_tuple=build_elements(prot),
     )
 
@@ -1670,7 +2138,7 @@ def endpoint_network_page(endpoint: str):
     return _render_network_page(
         view_key=f"endpoint::{endpoint}",
         root_node_id=endpoint,
-        title=f"{endpoint} Endpoint-Centric Network",
+        title=f"{endpoint} — endpoint-centric network",
         graph_tuple=build_endpoint_elements(endpoint),
         layout={
             'name': 'dagre',
@@ -1687,8 +2155,10 @@ def endpoint_network_page(endpoint: str):
 # ----
 @app.callback(Output("page", "children"), Input("url", "pathname"))
 def router(path):
-    if path in (None, "/"):
-        return homepage()
+    if path in (None, "/", "/statistics"):
+        return statistics_page()
+    if path == "/search":
+        return search_page()
     if path.startswith("/protein/"):
         prot = _decode_route_value(path.split("/protein/", 1)[1])
         if prot in PROTS:
@@ -1697,28 +2167,50 @@ def router(path):
         endpoint = _decode_route_value(path.split("/endpoint/", 1)[1])
         if endpoint in ENDPOINT_INDEX:
             return endpoint_network_page(endpoint)
-    return html.H3("404 – Not found")
+    return html.Div(
+        [
+            html.H3("404 Not found",
+                    style={'color': U['ink'], 'fontFamily': U['font_display'],
+                           'fontWeight': 600}),
+            html.P(
+                [
+                    dcc.Link("Overview", href="/",
+                             style={'marginRight': 16, 'color': U['link'],
+                                    'fontWeight': 600}),
+                    dcc.Link("Browser", href="/search",
+                             style={'color': U['link'], 'fontWeight': 600}),
+                ],
+                style={'fontSize': 15, 'fontFamily': U['font_ui']},
+            ),
+        ],
+        style={'maxWidth': 560, 'margin': '80px auto',
+               'fontFamily': U['font_ui'], 'background': U['paper'],
+               'minHeight': '100vh', 'padding': '0 20px'},
+    )
 
 def _sidebar_default():
     return [
-        html.Div("Node & Edge Information",
-                 style={'fontSize': 18, 'fontWeight': 'bold',
-                        'marginBottom': 15, 'color': '#2c3e50',
-                        'borderBottom': '2px solid #ecf0f1',
+        html.Div("Details",
+                 style={'fontSize': 17, 'fontWeight': 600,
+                        'fontFamily': U['font_display'],
+                        'marginBottom': 15, 'color': U['ink'],
+                        'borderBottom': f'1px solid {U["rule"]}',
                         'paddingBottom': 10}),
-        html.Div("Click on a node or edge to see detailed information, full names, and external links.",
-                 style={'color': '#7f8c8d', 'fontSize': 14, 'lineHeight': '1.4'})
+        html.Div("Select a node or edge for attributes, evidence, and external links.",
+                 style={'color': U['muted'], 'fontSize': 14, 'lineHeight': '1.45',
+                        'fontFamily': U['font_ui']})
     ]
 
 
 def _sidebar_card(children):
     return html.Div(children, style={
-        'background': '#ffffff',
+        'background': U['card'],
         'padding': 12,
-        'borderRadius': 6,
-        'boxShadow': '0 1px 3px rgba(0,0,0,0.1)',
+        'borderRadius': 4,
+        'boxShadow': U['shadow'],
         'marginBottom': 15,
-        'border': '1px solid #dee2e6'
+        'border': f'1px solid {U["rule"]}',
+        'fontFamily': U['font_ui'],
     })
 
 
@@ -1727,10 +2219,10 @@ def _build_edge_info(edge):
         return _sidebar_default()
 
     content = [
-        html.Div("Edge Information",
+        html.Div("Edge",
                  style={'fontSize': 18, 'fontWeight': 'bold',
-                        'marginBottom': 15, 'color': '#2c3e50',
-                        'borderBottom': '2px solid #ecf0f1',
+                        'marginBottom': 15, 'color': U['ink'],
+                        'borderBottom': f'1px solid {U["rule"]}',
                         'paddingBottom': 10})
     ]
 
@@ -1739,30 +2231,30 @@ def _build_edge_info(edge):
     target = edge.get('target', 'N/A')
 
     content.append(_sidebar_card([
-        html.Div("Relationship",
+        html.Div("Relation",
                  style={'fontSize': 14, 'fontWeight': 'bold',
-                        'color': '#34495e', 'marginBottom': 5}),
+                        'color': U['ink_soft'], 'marginBottom': 5}),
         html.Div(f"{source} → {target}",
-                 style={'fontSize': 14, 'color': '#2c3e50',
+                 style={'fontSize': 14, 'color': U['ink'],
                         'marginBottom': 8, 'fontWeight': 'bold'}),
         *([] if rel in ['DV', 'PV', 'has_domain'] else [
             html.Div(f"Type: {rel}",
-                     style={'fontSize': 14, 'color': '#7f8c8d'})
+                     style={'fontSize': 14, 'color': U['muted']})
         ]),
         *([] if not edge.get('evidence_count') else [
-            html.Div(f"Evidence count: {edge['evidence_count']}",
-                     style={'fontSize': 13, 'color': '#7f8c8d', 'marginTop': 4})
+            html.Div(f"Statements: {edge['evidence_count']}",
+                     style={'fontSize': 13, 'color': U['muted'], 'marginTop': 4})
         ])
     ]))
 
     if rel == 'DV':
         if edge.get('note'):
             content.append(_sidebar_card([
-                html.Div("Domain Description",
+                html.Div("Domain",
                          style={'fontSize': 14, 'fontWeight': 'bold',
-                                'color': '#34495e', 'marginBottom': 8}),
+                                'color': U['ink_soft'], 'marginBottom': 8}),
                 html.Div(edge['note'],
-                         style={'fontSize': 14, 'color': '#2c3e50',
+                         style={'fontSize': 14, 'color': U['ink'],
                                 'lineHeight': '1.4'})
             ]))
     else:
@@ -1770,33 +2262,33 @@ def _build_edge_info(edge):
             content.append(_sidebar_card([
                 html.Div("Description",
                          style={'fontSize': 14, 'fontWeight': 'bold',
-                                'color': '#34495e', 'marginBottom': 8}),
+                                'color': U['ink_soft'], 'marginBottom': 8}),
                 html.Div(edge['note'],
-                         style={'fontSize': 14, 'color': '#2c3e50',
+                         style={'fontSize': 14, 'color': U['ink'],
                                 'lineHeight': '1.4'})
             ]))
 
     if edge.get('clinvar_data'):
         data = edge['clinvar_data']
         content.append(_sidebar_card([
-            html.Div("ClinVar Information",
+            html.Div("ClinVar",
                      style={'fontSize': 14, 'fontWeight': 'bold',
-                            'color': '#34495e', 'marginBottom': 10}),
+                            'color': U['ink_soft'], 'marginBottom': 10}),
             html.Div([
                 html.Div([
                     html.Span("Pathogenicity: ", style={'fontWeight': 'bold'}),
                     html.Span(data.get('pathogenicity', 'N/A'))
                 ], style={'marginBottom': 6}),
                 html.Div([
-                    html.Span("Review Status: ", style={'fontWeight': 'bold'}),
+                    html.Span("Review: ", style={'fontWeight': 'bold'}),
                     html.Span(data.get('review', 'N/A'))
                 ], style={'marginBottom': 6}),
                 html.Div([
-                    html.Span("Associated Condition: ", style={'fontWeight': 'bold'}),
+                    html.Span("Condition: ", style={'fontWeight': 'bold'}),
                     html.Div(data.get('conditions', 'N/A'),
                              style={'marginTop': 4, 'fontStyle': 'italic'})
                 ])
-            ], style={'fontSize': 13, 'color': '#2c3e50', 'lineHeight': '1.4'})
+            ], style={'fontSize': 13, 'color': U['ink'], 'lineHeight': '1.4'})
         ]))
 
     if edge.get('pmid'):
@@ -1809,22 +2301,22 @@ def _build_edge_info(edge):
                        href=f"https://pubmed.ncbi.nlm.nih.gov/{pid}/",
                        target="_blank",
                        style={'display': 'inline-block', 'marginRight': 10,
-                              'marginBottom': 4, 'color': '#0366d6',
+                              'marginBottom': 4, 'color': U['link'],
                               'textDecoration': 'none', 'fontSize': 13})
             )
         content.append(_sidebar_card([
-            html.Div("External Resources",
+            html.Div("Links",
                      style={'fontSize': 14, 'fontWeight': 'bold',
-                            'color': '#34495e', 'marginBottom': 10}),
+                            'color': U['ink_soft'], 'marginBottom': 10}),
             html.Div(pubmed_links,
                      style={'marginBottom': 8, 'lineHeight': '1.8'}),
-            html.A("View in INDRA",
+            html.A("INDRA Discovery",
                    href=(f"https://discovery.indra.bio/search/"
                          f"?agent={_url.quote_plus(edge['src4indra'])}"
                          f"&other_agent={_url.quote_plus(edge['target'])}"
                          "&agent_role=subject&other_role=object"),
                    target="_blank",
-                   style={'display': 'block', 'color': '#0366d6',
+                   style={'display': 'block', 'color': U['link'],
                           'textDecoration': 'none', 'fontSize': 13,
                           'fontWeight': 'bold'})
         ]))
@@ -1842,23 +2334,23 @@ def _build_node_info(node):
         role = "Endpoint Group"
 
     content = [
-        html.Div("Node Information",
+        html.Div("Node",
                  style={'fontSize': 18, 'fontWeight': 'bold',
-                        'marginBottom': 15, 'color': '#2c3e50',
-                        'borderBottom': '2px solid #ecf0f1',
+                        'marginBottom': 15, 'color': U['ink'],
+                        'borderBottom': f'1px solid {U["rule"]}',
                         'paddingBottom': 10})
     ]
 
     content.append(_sidebar_card([
-        html.Div("Full Name",
+        html.Div("Name",
                  style={'fontSize': 14, 'fontWeight': 'bold',
-                        'color': '#34495e', 'marginBottom': 5}),
+                        'color': U['ink_soft'], 'marginBottom': 5}),
         html.Div(real_name,
-                 style={'fontSize': 14, 'color': '#2c3e50',
+                 style={'fontSize': 14, 'color': U['ink'],
                         'marginBottom': 8, 'fontWeight': 'bold',
                         'lineHeight': '1.4'}),
         html.Div(f"Role: {role}",
-                 style={'fontSize': 13, 'color': '#7f8c8d'})
+                 style={'fontSize': 13, 'color': U['muted']})
     ]))
 
     stat_lines = []
@@ -1874,64 +2366,64 @@ def _build_node_info(node):
         ], style={'marginBottom': 6}))
     if node.get('n_records') is not None:
         stat_lines.append(html.Div([
-            html.Span("Supporting records: ", style={'fontWeight': 'bold'}),
+            html.Span("Source rows: ", style={'fontWeight': 'bold'}),
             html.Span(str(node['n_records']))
         ]))
     if stat_lines:
         content.append(_sidebar_card([
-            html.Div("Summary",
+            html.Div("Counts",
                      style={'fontSize': 14, 'fontWeight': 'bold',
-                            'color': '#34495e', 'marginBottom': 10}),
+                            'color': U['ink_soft'], 'marginBottom': 10}),
             *stat_lines
         ]))
 
     if node.get('domain_notes'):
         content.append(_sidebar_card([
-            html.Div("Domain Notes",
+            html.Div("Domain notes",
                      style={'fontSize': 14, 'fontWeight': 'bold',
-                            'color': '#34495e', 'marginBottom': 8}),
+                            'color': U['ink_soft'], 'marginBottom': 8}),
             html.Div(node['domain_notes'],
-                     style={'fontSize': 14, 'color': '#2c3e50',
+                     style={'fontSize': 14, 'color': U['ink'],
                             'lineHeight': '1.4'})
         ]))
 
     if node.get('clinvar_data'):
         data = node['clinvar_data']
         content.append(_sidebar_card([
-            html.Div("ClinVar Information",
+            html.Div("ClinVar",
                      style={'fontSize': 14, 'fontWeight': 'bold',
-                            'color': '#34495e', 'marginBottom': 10}),
+                            'color': U['ink_soft'], 'marginBottom': 10}),
             html.Div([
                 html.Div([
                     html.Span("Pathogenicity: ", style={'fontWeight': 'bold'}),
                     html.Span(data.get('pathogenicity', 'N/A'))
                 ], style={'marginBottom': 6}),
                 html.Div([
-                    html.Span("Review Status: ", style={'fontWeight': 'bold'}),
+                    html.Span("Review: ", style={'fontWeight': 'bold'}),
                     html.Span(data.get('review', 'N/A'))
                 ], style={'marginBottom': 6}),
                 html.Div([
-                    html.Span("Associated Condition: ", style={'fontWeight': 'bold'}),
+                    html.Span("Condition: ", style={'fontWeight': 'bold'}),
                     html.Div(data.get('conditions', 'N/A'),
                              style={'marginTop': 4, 'fontStyle': 'italic'})
                 ])
-            ], style={'fontSize': 13, 'color': '#2c3e50', 'lineHeight': '1.4'})
+            ], style={'fontSize': 13, 'color': U['ink'], 'lineHeight': '1.4'})
         ]))
 
     external_links = [
-        html.A("Search in INDRA",
+        html.A("INDRA Discovery",
                href=f"https://discovery.indra.bio/search/?agent={_url.quote_plus(real_name)}",
                target="_blank",
-               style={'display': 'block', 'color': '#0366d6',
+               style={'display': 'block', 'color': U['link'],
                       'textDecoration': 'none', 'fontSize': 13,
                       'fontWeight': 'bold', 'marginBottom': 6})
     ]
     if node.get('protein_page'):
         external_links.insert(
             0,
-            dcc.Link("Open protein-centric view",
+            dcc.Link("Gene-centric graph",
                      href=node['protein_page'],
-                     style={'display': 'block', 'color': '#0366d6',
+                     style={'display': 'block', 'color': U['link'],
                             'textDecoration': 'none', 'fontSize': 13,
                             'fontWeight': 'bold', 'marginBottom': 6})
         )
@@ -1948,47 +2440,47 @@ def _build_node_info(node):
                 f"{_url.quote_plus(f'gene_exact:{uid} AND organism_id:9606')}"
             )
         external_links.append(
-            html.A("View in UniProt",
+            html.A("UniProt",
                    href=uniprot_href,
                    target="_blank",
-                   style={'display': 'block', 'color': '#0366d6',
+                   style={'display': 'block', 'color': U['link'],
                           'textDecoration': 'none', 'fontSize': 13,
                           'marginBottom': 6})
         )
     if node.get('clinvar_allele'):
         external_links.append(
-            html.A("View in ClinVar",
+            html.A("ClinVar",
                    href=("https://www.ncbi.nlm.nih.gov/clinvar/?term="
                          f"{_url.quote_plus(str(node['clinvar_allele']) + '[alleleid]')}"),
                    target="_blank",
-                   style={'display': 'block', 'color': '#0366d6',
+                   style={'display': 'block', 'color': U['link'],
                           'textDecoration': 'none', 'fontSize': 13,
                           'marginBottom': 6})
         )
     elif node.get('gene_symbol'):
         clinvar_query = f"{node['gene_symbol']}[gene] AND {real_name}"
         external_links.append(
-            html.A("Search ClinVar",
+            html.A("ClinVar (search)",
                    href=("https://www.ncbi.nlm.nih.gov/clinvar/?term="
                          f"{_url.quote_plus(clinvar_query)}"),
                    target="_blank",
-                   style={'display': 'block', 'color': '#0366d6',
+                   style={'display': 'block', 'color': U['link'],
                           'textDecoration': 'none', 'fontSize': 13,
                           'marginBottom': 6})
         )
     if node.get('dbsnp_rs'):
         external_links.append(
-            html.A("View in dbSNP",
+            html.A("dbSNP",
                    href=f"https://www.ncbi.nlm.nih.gov/snp/rs{node['dbsnp_rs']}",
                    target="_blank",
-                   style={'display': 'block', 'color': '#0366d6',
+                   style={'display': 'block', 'color': U['link'],
                           'textDecoration': 'none', 'fontSize': 13})
         )
 
     content.append(_sidebar_card([
-        html.Div("External Resources",
+        html.Div("Links",
                  style={'fontSize': 14, 'fontWeight': 'bold',
-                        'color': '#34495e', 'marginBottom': 10}),
+                        'color': U['ink_soft'], 'marginBottom': 10}),
         *external_links
     ]))
 
@@ -2094,18 +2586,18 @@ def open_subgraph_modal(node, subgraphs, rel_colors):
             "background-opacity": 0.7,
             "text-wrap": "wrap", "text-max-width": 110}},
         {"selector": ".role-protein", "style": {
-            "background-color": "#aacdd7", "color": "#004466"}},
+            "background-color": "#c5d2ce", "color": "#2a3d38"}},
         {"selector": ".role-variant", "style": {
-            "background-color": "#a492bb", "color": "#573d82"}},
+            "background-color": "#c9c0d4", "color": "#3d324d"}},
         {"selector": ".role-intermediate", "style": {
-            "background-color": "#cce9b6", "color": "#3f6330"}},
+            "background-color": "#cfd9c3", "color": "#35422e"}},
         {"selector": ".role-endpoint", "style": {
-            "background-color": "#fabf77", "color": "#b05e04"}},
+            "background-color": "#e8d4bc", "color": "#5c3f24"}},
         {"selector": ".edge-PV", "style": {
-            "line-color": "#d5cbc9", "target-arrow-color": "#d5cbc9",
+            "line-color": "#c9c4bf", "target-arrow-color": "#c9c4bf",
             "target-arrow-shape": "triangle", "curve-style": "bezier",
             "width": 1.5, "label": "data(label)",
-            "font-size": 9, "color": "#d5cbc9", "text-rotation": "autorotate"}},
+            "font-size": 9, "color": "#a8a29e", "text-rotation": "autorotate"}},
     ]
     for css_cls, color in rel_colors.items():
         stylesheet.append({
@@ -2116,7 +2608,7 @@ def open_subgraph_modal(node, subgraphs, rel_colors):
                 "font-size": 9, "color": color, "text-rotation": "autorotate"}
         })
 
-    title = f"{parent_name}  ({n_endpoints} members)"
+    title = f"{parent_name} — {n_endpoints} endpoints"
     return True, title, sub_els, stylesheet
 
 # ---------------------- subgraph edge-info callback ------------------------
@@ -2126,32 +2618,33 @@ def open_subgraph_modal(node, subgraphs, rel_colors):
     prevent_initial_call=True)
 def show_subgraph_edge_info(edge):
     if not edge:
-        return [html.Div("Click an edge to see details",
-                         style={'color': '#7f8c8d', 'fontSize': 14, 'padding': 16})]
+        return [html.Div("Select an edge for details.",
+                         style={'color': U['muted'], 'fontSize': 14, 'padding': 16})]
 
     rel = edge.get('rel', '')
     source = edge.get('source', '')
     target = edge.get('target', '')
 
-    card_style = {'background': '#ffffff', 'padding': 12, 'borderRadius': 6,
-                  'boxShadow': '0 1px 3px rgba(0,0,0,0.1)',
-                  'marginBottom': 12, 'border': '1px solid #dee2e6'}
+    card_style = {'background': U['card'], 'padding': 12, 'borderRadius': 4,
+                  'boxShadow': U['shadow'],
+                  'marginBottom': 12, 'border': f'1px solid {U["rule"]}',
+                  'fontFamily': U['font_ui']}
 
     content = [
-        html.Div("Edge Detail",
-                 style={'fontSize': 16, 'fontWeight': 'bold', 'color': '#2c3e50',
-                        'borderBottom': '2px solid #ecf0f1', 'paddingBottom': 8,
+        html.Div("Edge",
+                 style={'fontSize': 16, 'fontWeight': 'bold', 'color': U['ink'],
+                        'borderBottom': f'1px solid {U["rule"]}', 'paddingBottom': 8,
                         'marginBottom': 12, 'padding': '12px 16px 8px'}),
         html.Div([
             html.Div(f"{source} → {target}",
                      style={'fontSize': 13, 'fontWeight': 'bold',
-                            'color': '#2c3e50', 'marginBottom': 6}),
+                            'color': U['ink'], 'marginBottom': 6}),
             *([] if rel in ('PV',) else [
                 html.Div(f"Type: {rel}",
-                         style={'fontSize': 13, 'color': '#7f8c8d'})]),
+                         style={'fontSize': 13, 'color': U['muted']})]),
             *([] if not edge.get('evidence_count') else [
-                html.Div(f"Evidence count: {edge['evidence_count']}",
-                         style={'fontSize': 12, 'color': '#7f8c8d', 'marginTop': 4})]),
+                html.Div(f"Statements: {edge['evidence_count']}",
+                         style={'fontSize': 12, 'color': U['muted'], 'marginTop': 4})]),
         ], style={**card_style, 'margin': '0 12px 12px'}),
     ]
 
@@ -2159,9 +2652,9 @@ def show_subgraph_edge_info(edge):
         content.append(html.Div([
             html.Div("Description",
                      style={'fontSize': 13, 'fontWeight': 'bold',
-                            'color': '#34495e', 'marginBottom': 6}),
+                            'color': U['ink_soft'], 'marginBottom': 6}),
             html.Div(edge['note'],
-                     style={'fontSize': 13, 'color': '#2c3e50', 'lineHeight': '1.4'})
+                     style={'fontSize': 13, 'color': U['ink'], 'lineHeight': '1.4'})
         ], style={**card_style, 'margin': '0 12px 12px'}))
 
     if edge.get('clinvar_data'):
@@ -2169,7 +2662,7 @@ def show_subgraph_edge_info(edge):
         content.append(html.Div([
             html.Div("ClinVar",
                      style={'fontSize': 13, 'fontWeight': 'bold',
-                            'color': '#34495e', 'marginBottom': 6}),
+                            'color': U['ink_soft'], 'marginBottom': 6}),
             html.Div([
                 html.Span("Pathogenicity: ", style={'fontWeight': 'bold'}),
                 html.Span(data.get('pathogenicity', 'N/A'))
@@ -2179,7 +2672,7 @@ def show_subgraph_edge_info(edge):
                 html.Span(data.get('review', ''))
             ], style={'fontSize': 12, 'marginBottom': 4}),
             html.Div([
-                html.Span("Conditions: ", style={'fontWeight': 'bold'}),
+                html.Span("Condition: ", style={'fontWeight': 'bold'}),
                 html.Span(data.get('conditions', ''))
             ], style={'fontSize': 12, 'lineHeight': '1.4'}),
         ], style={**card_style, 'margin': '0 12px 12px'}))
@@ -2190,16 +2683,16 @@ def show_subgraph_edge_info(edge):
         links = []
         for p in pmids:
             links.append(html.A(
-                f"PMID:{p}",
+                f"PMID {p}",
                 href=f"https://pubmed.ncbi.nlm.nih.gov/{p}/",
                 target="_blank",
-                style={'display': 'block', 'color': '#0366d6',
+                style={'display': 'block', 'color': U['link'],
                        'textDecoration': 'none', 'fontSize': 12,
                        'marginBottom': 3}))
         content.append(html.Div([
             html.Div("PubMed",
                      style={'fontSize': 13, 'fontWeight': 'bold',
-                            'color': '#34495e', 'marginBottom': 6}),
+                            'color': U['ink_soft'], 'marginBottom': 6}),
             *links
         ], style={**card_style, 'margin': '0 12px 12px'}))
 
@@ -2288,6 +2781,98 @@ def jump_to_protein(_, value):
               prevent_initial_call=True)
 def jump_to_endpoint(_, value):
     return _endpoint_href(value) if value else dash.no_update
+
+
+@app.callback(
+    Output("url", "href", allow_duplicate=True),
+    Input("stats-fig-bp", "clickData"),
+    Input("stats-fig-disease", "clickData"),
+    Input("stats-fig-genes", "clickData"),
+    prevent_initial_call=True,
+)
+def stats_bar_open_network(bp_click, dis_click, genes_click):
+    trig = ctx.triggered_id
+    if trig == "stats-fig-bp":
+        payload = bp_click
+    elif trig == "stats-fig-disease":
+        payload = dis_click
+    elif trig == "stats-fig-genes":
+        payload = genes_click
+    else:
+        return dash.no_update
+    if not payload or not payload.get("points"):
+        return dash.no_update
+    href = _stats_point_href(payload["points"][0])
+    return href if href else dash.no_update
+
+
+@app.callback(
+    Output("stats-metric", "data"),
+    Input("stats-btn-path", "n_clicks"),
+    Input("stats-btn-gene", "n_clicks"),
+    Input("stats-btn-variant", "n_clicks"),
+    Input("stats-btn-pmid", "n_clicks"),
+    prevent_initial_call=True,
+)
+def stats_set_metric(_p, _g, _v, _m):
+    key = ctx.triggered_id
+    return {
+        "stats-btn-path": "path",
+        "stats-btn-gene": "gene",
+        "stats-btn-variant": "variant",
+        "stats-btn-pmid": "pmid",
+    }.get(key, "path")
+
+
+@app.callback(
+    Output("stats-fig-bp", "figure"),
+    Output("stats-fig-disease", "figure"),
+    Output("stats-fig-genes", "figure"),
+    Output("stats-btn-path", "color"),
+    Output("stats-btn-path", "outline"),
+    Output("stats-btn-gene", "color"),
+    Output("stats-btn-gene", "outline"),
+    Output("stats-btn-variant", "color"),
+    Output("stats-btn-variant", "outline"),
+    Output("stats-btn-pmid", "color"),
+    Output("stats-btn-pmid", "outline"),
+    Input("stats-metric", "data"),
+)
+def stats_render(metric):
+    metric = metric or "path"
+    fig_bp = _stats_bar_figure(
+        _STATS_BP_ROWS, metric,
+        "Biological processes (top 10)",
+        for_gene_chart=False,
+        value_fn=_stats_value_bp_disease,
+        bar_color=U["chart_bp"],
+        plot_bg=U["plot_bp"],
+        paper_bg="rgba(0,0,0,0)",
+    )
+    fig_dis = _stats_bar_figure(
+        _STATS_DISEASE_ROWS, metric,
+        "Diseases (top 10)",
+        for_gene_chart=False,
+        value_fn=_stats_value_bp_disease,
+        bar_color=U["chart_dis"],
+        plot_bg=U["plot_dis"],
+        paper_bg="rgba(0,0,0,0)",
+    )
+    fig_genes = _stats_bar_figure(
+        _STATS_GENE_ROWS, metric,
+        "Genes (top 20)",
+        for_gene_chart=True,
+        value_fn=_stats_value_gene,
+        bar_color=U["chart_gene"],
+        plot_bg=U["plot_gene"],
+        paper_bg="rgba(0,0,0,0)",
+    )
+    btn = []
+    for m in ("path", "gene", "variant", "pmid"):
+        active = metric == m
+        btn.append("primary" if active else "secondary")
+        btn.append(not active)
+    return (fig_bp, fig_dis, fig_genes, *btn)
 
 
 # --------------------Run App----------------------------–
