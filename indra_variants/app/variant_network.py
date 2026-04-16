@@ -781,15 +781,29 @@ def build_elements(prot: str):
     node_kind = {n: _node_kind(n) for n in G.nodes()}
 
     # -- Step 1: identify "direct-only" endpoints → layer -1 ------------
+    # An endpoint qualifies as "direct-only" when ALL its graph neighbours
+    # (both predecessors and successors, excluding the root protein) are
+    # variants.  If it also feeds into intermediates or other endpoints it
+    # participates in longer chains and must go through normal layering.
     _direct_only_nodes: dict[str, int] = {}
+
+    def _is_direct_only(node: str) -> bool:
+        preds = {u for u, _, _ in G.in_edges(node, data=True) if u != prot}
+        succs = {v for _, v, _ in G.out_edges(node, data=True)}
+        if not preds:
+            return False
+        all_variant_preds = all(p in variants for p in preds)
+        has_non_variant_succs = any(
+            s not in variants and s != prot for s in succs
+        )
+        return all_variant_preds and not has_non_variant_succs
+
     for ep in endpoints:
-        preds = {u for u, _, _ in G.in_edges(ep, data=True) if u != prot}
-        if preds and all(p in variants for p in preds):
+        if _is_direct_only(ep):
             _direct_only_nodes[ep] = -1
     for gid, kind in motif_kind.items():
         if kind == "onto_group" and gid in G.nodes():
-            preds = {u for u, _, _ in G.in_edges(gid, data=True) if u != prot}
-            if preds and all(p in variants for p in preds):
+            if _is_direct_only(gid):
                 _direct_only_nodes[gid] = -1
     _direct_only_eps = {n for n in _direct_only_nodes if n in endpoints}
 
@@ -881,10 +895,10 @@ def build_elements(prot: str):
             for n in _ep_nodes:
                 node_depth[n] = _ep_depth[n]
 
-        # Kind-zone separation: uniformly shift each kind so zones
-        # don't overlap.  A uniform per-kind shift guarantees that
-        # nodes of the same kind at the same original depth stay on
-        # the same final layer.
+        # Kind-zone separation: shift each kind so zones don't overlap.
+        # Canonical order: intermediate first, then endpoint.
+        # When the kind-feed graph has cycles (e.g. endpoint <-> intermediate),
+        # fall back to the canonical order instead of skipping the shift.
         _kind_layers: dict[str, set] = defaultdict(set)
         for n in _non_vp:
             _kind_layers[node_kind[n]].add(node_depth[n])
@@ -895,25 +909,47 @@ def build_elements(prot: str):
             if ku and kv and ku != kv and ku != "variant" and kv != "variant":
                 _kind_feeds.add((ku, kv))
 
+        _CANONICAL_KIND_ORDER = ["intermediate", "endpoint"]
+
         if _kind_feeds:
             _kind_dag = nx.DiGraph(list(_kind_feeds))
             if _kind_dag.nodes and nx.is_directed_acyclic_graph(_kind_dag):
-                _kind_shift: dict[str, int] = defaultdict(int)
-                for src_k in nx.topological_sort(_kind_dag):
-                    for dst_k in _kind_dag.successors(src_k):
-                        if not _kind_layers.get(src_k) or not _kind_layers.get(dst_k):
-                            continue
-                        src_max = max(_kind_layers[src_k]) + _kind_shift[src_k]
-                        dst_min = min(_kind_layers[dst_k]) + _kind_shift[dst_k]
-                        if dst_min <= src_max:
-                            _kind_shift[dst_k] += src_max + 1 - dst_min
-                for n in _non_vp:
-                    node_depth[n] += _kind_shift.get(node_kind[n], 0)
+                _ordered_kinds = list(nx.topological_sort(_kind_dag))
+            else:
+                _ordered_kinds = [k for k in _CANONICAL_KIND_ORDER
+                                  if k in _kind_layers]
+
+            _kind_shift: dict[str, int] = defaultdict(int)
+            for i in range(len(_ordered_kinds) - 1):
+                src_k = _ordered_kinds[i]
+                dst_k = _ordered_kinds[i + 1]
+                if not _kind_layers.get(src_k) or not _kind_layers.get(dst_k):
+                    continue
+                src_max = max(_kind_layers[src_k]) + _kind_shift[src_k]
+                dst_min = min(_kind_layers[dst_k]) + _kind_shift[dst_k]
+                if dst_min <= src_max:
+                    _kind_shift[dst_k] += src_max + 1 - dst_min
+
+            for n in _non_vp:
+                node_depth[n] += _kind_shift.get(node_kind[n], 0)
     else:
         for n, d in _init_depth.items():
             node_depth[n] = d
 
     node_depth.update(_direct_only_nodes)
+
+    # Safety net: no endpoint (except direct-only at -1) may share layer 0
+    # with variants, and no endpoint may share a layer with intermediates.
+    _max_int_depth = max(
+        (node_depth[n] for n in node_depth
+         if node_kind.get(n) == "intermediate"),
+        default=0,
+    )
+    _min_ep_floor = max(_max_int_depth + 1, 1)
+    for n in list(node_depth):
+        if node_kind.get(n) == "endpoint" and n not in _direct_only_nodes:
+            if node_depth[n] < _min_ep_floor:
+                node_depth[n] = _min_ep_floor
 
     def get_layer(n):
         if n == prot or n in variants:
@@ -1254,6 +1290,19 @@ def _build_endpoint_elements_cached(endpoint: str):
                     tgt_id = endpoint
                 elif tgt == prot:
                     tgt_id = prot
+                elif tgt in prot_stats:
+                    # This target also has its own variants for this disease,
+                    # so it already exists as a protein node.  Give it a
+                    # distinct intermediate-role ID so both can coexist.
+                    tgt_id = f"{tgt}::inode"
+                    if tgt_id not in intermediate_nodes:
+                        intermediate_nodes[tgt_id] = {
+                            "label": _short_label(tgt),
+                            "real": tgt,
+                            "row_count": 0,
+                            "is_known_protein": True,
+                        }
+                    intermediate_nodes[tgt_id]["row_count"] += 1
                 else:
                     tgt_id = tgt
                     if tgt_id not in intermediate_nodes:
@@ -1293,35 +1342,239 @@ def _build_endpoint_elements_cached(endpoint: str):
     rel_color_safe = {_css_safe(r): palette[i % len(palette)] for i, r in enumerate(raw_rel_types)}
     rel_display = {_css_safe(r): r for r in raw_rel_types}
 
-    els = [{
-        "data": {
-            "id": endpoint,
-            "label": _short_label(endpoint, max_len=36),
-            "real": endpoint,
-            "role": "endpoint",
-            "n_proteins": total_proteins,
-            "n_variants": total_variants,
-            "n_records": total_records,
-        },
-        "classes": "L0 role-endpoint",
-        "style": {"width": 110, "height": 110},
-    }]
+    # --- Layered layout --------------------------------------------------
+    # Indirect paths (gene→variant→intermediates→disease) go BELOW disease.
+    # Direct paths (gene→variant→disease, no intermediates) go ABOVE disease.
+    #
+    # Bottom section:  layer 0  = indirect genes
+    #                  layer 1  = indirect variants
+    #                  layer 2+ = intermediate nodes (longest-path depth)
+    # Middle:          layer N  = disease endpoint
+    # Top section:     layer N+1 = direct genes
+    #                  layer N+2 = direct variants
+
+    _G_ep = nx.DiGraph()
+    for _s, _t in edge_set:
+        _G_ep.add_edge(_s, _t)
+
+    # Classify genes: direct-only if every variant edge leads straight to endpoint
+    _direct_genes: set[str] = set()
+    for _prot in protein_nodes:
+        _my_vars = {vid for vid in variant_nodes
+                    if variant_nodes[vid]["protein"] == _prot}
+        _out = {tgt for (src, tgt) in edge_set if src in _my_vars}
+        if _out and _out <= {endpoint}:
+            _direct_genes.add(_prot)
+    _indirect_genes = set(protein_nodes.keys()) - _direct_genes
+
+    # Nodes whose layer is set from the start (will be excluded from
+    # the condensation-DAG propagation for intermediates)
+    _direct_nodes: set[str] = _direct_genes | {
+        vid for vid in variant_nodes
+        if variant_nodes[vid]["protein"] in _direct_genes
+    }
+
+    node_layer: dict[str, int] = {}
+    for _prot in _indirect_genes:
+        node_layer[_prot] = 0
+    for _vid in variant_nodes:
+        if variant_nodes[_vid]["protein"] not in _direct_genes:
+            node_layer[_vid] = 1
+
+    # Longest-path depth for intermediate nodes (cycle-safe via condensation)
+    _non_fixed = [n for n in _G_ep.nodes()
+                  if n not in node_layer and n not in _direct_nodes and n != endpoint]
+    if _non_fixed:
+        _H = nx.DiGraph()
+        _H.add_nodes_from(_non_fixed)
+        for _u, _v in _G_ep.edges():
+            if _u in _H and _v in _H:
+                _H.add_edge(_u, _v)
+        _init: dict[str, int] = {}
+        for n in _non_fixed:
+            _kp = [p for p in _G_ep.predecessors(n) if p in node_layer]
+            _init[n] = (max(node_layer[p] for p in _kp) + 1) if _kp else 2
+        _C = nx.condensation(_H)
+        _scc_map = _C.graph["mapping"]
+        _scc_d: dict[int, int] = {}
+        for n in _non_fixed:
+            sid = _scc_map[n]
+            _scc_d[sid] = max(_scc_d.get(sid, 0), _init.get(n, 2))
+        for sid in nx.topological_sort(_C):
+            for succ_sid in _C.successors(sid):
+                if _scc_d.get(succ_sid, 0) <= _scc_d.get(sid, 0):
+                    _scc_d[succ_sid] = _scc_d[sid] + 1
+        for n in _non_fixed:
+            node_layer[n] = _scc_d[_scc_map[n]]
+
+    # Disease endpoint sits above all indirect/intermediate layers
+    _ep_layer = max(node_layer.values(), default=1) + 1
+    node_layer[endpoint] = _ep_layer
+
+    # Direct paths placed above disease; variant layer is closer to disease,
+    # gene layer is one step further – mirroring the indirect section structure.
+    for _prot in _direct_genes:
+        node_layer[_prot] = _ep_layer + 2
+    for _vid in variant_nodes:
+        if variant_nodes[_vid]["protein"] in _direct_genes:
+            node_layer[_vid] = _ep_layer + 1
+
+    # --- Build layer groups with crossing-minimising orderings -----------
+    _layers: dict[int, list] = defaultdict(list)
+    for n, li in node_layer.items():
+        _layers[li].append(n)
+
+    def _order_gene_variant_layers(gene_layer: int, var_layer: int,
+                                   genes: set, var_rank_source: list):
+        """Sort variants grouped by gene; sort genes by variant centroid."""
+        vl = sorted(
+            _layers.get(var_layer, []),
+            key=lambda vid: (
+                variant_nodes[vid]["protein"].casefold() if vid in variant_nodes else "",
+                vid.casefold(),
+            ),
+        )
+        _layers[var_layer] = vl
+        vrank = {vid: i for i, vid in enumerate(vl)}
+        def _centroid(g):
+            mv = [v for v in vl if v in variant_nodes and variant_nodes[v]["protein"] == g]
+            return (sum(vrank[v] for v in mv) / len(mv)) if mv else 0.0
+        _layers[gene_layer] = sorted(_layers.get(gene_layer, []), key=_centroid)
+        return vl
+
+    _indirect_var_list = _order_gene_variant_layers(0, 1, _indirect_genes, [])
+    _direct_var_list   = _order_gene_variant_layers(
+        _ep_layer + 2, _ep_layer + 1, _direct_genes, []
+    )
+
+    # Intermediate and endpoint layers: alphabetical baseline
+    for li in _layers:
+        if li not in {0, 1, _ep_layer + 1, _ep_layer + 2}:
+            _layers[li].sort(key=lambda n: n.casefold())
+
+    # LNS crossing optimisation – fix all gene/variant layers, optimise the rest
+    _fixed_layers = {0, 1}
+    if _direct_genes:
+        _fixed_layers |= {_ep_layer + 1, _ep_layer + 2}
+
+    _cross_w: dict[tuple, int] = {}
+    for _s, _t in edge_set:
+        ls, lt = node_layer.get(_s, 0), node_layer.get(_t, 0)
+        if ls == lt:
+            continue
+        pair = (_s, _t) if ls < lt else (_t, _s)
+        _cross_w[pair] = _cross_w.get(pair, 0) + 1
+    _optimized = _optimize_layer_ordering(
+        dict(_layers),
+        [(u, v, w) for (u, v), w in _cross_w.items()],
+        fixed_layers=_fixed_layers,
+    )
+
+    _layer_gap = 190.0
+    _sp = 170.0
+    pos: dict[str, tuple[float, float]] = {}
+    for li, ordered in _optimized.items():
+        n_nodes = len(ordered)
+        start = -((n_nodes - 1) * _sp) / 2.0
+        y = li * _layer_gap
+        for i, n in enumerate(ordered):
+            pos[n] = (start + i * _sp, y)
+
+    # Align gene x to exact centroid of its variants' x-positions (both sections)
+    for _var_list_section in (_indirect_var_list, _direct_var_list):
+        for prot in protein_nodes:
+            mv = [v for v in _var_list_section
+                  if v in variant_nodes and variant_nodes[v]["protein"] == prot]
+            xs = [pos[v][0] for v in mv if v in pos]
+            if xs:
+                pos[prot] = (sum(xs) / len(xs), pos.get(prot, (0, 0))[1])
+
+    # --- Barycentric x for intermediate layers ----------------------------
+    # Sparse intermediate layers tend to cluster in the centre; instead,
+    # position each node at the average x of its lower-layer neighbours,
+    # bounded by the span of the widest layer.
+    _max_half = max(
+        (len(nodes) - 1) * _sp / 2.0
+        for nodes in _optimized.values()
+        if len(nodes) > 1
+    ) if any(len(v) > 1 for v in _optimized.values()) else _sp
+
+    _adj_lo: dict[str, list] = defaultdict(list)
+    for _s, _t in edge_set:
+        if node_layer.get(_s, 0) < node_layer.get(_t, 0):
+            _adj_lo[_t].append(_s)
+
+    _fixed_li = {0, 1, _ep_layer, _ep_layer + 1, _ep_layer + 2}
+    _inter_layers = sorted(li for li in _optimized if li not in _fixed_li)
+    _min_sep = 60.0
+
+    for li in _inter_layers:
+        ordered = list(_optimized[li])
+        if not ordered:
+            continue
+        y = li * _layer_gap
+
+        # Barycentric x from lower-layer neighbours; fall back to current x
+        bary: dict[str, float] = {}
+        for nd in ordered:
+            nbrs = [nb for nb in _adj_lo.get(nd, []) if nb in pos]
+            bary[nd] = (
+                sum(pos[nb][0] for nb in nbrs) / len(nbrs)
+                if nbrs else pos.get(nd, (0.0, 0.0))[0]
+            )
+
+        # Sort by barycentric x, then enforce minimum spacing within bounds
+        sorted_nodes = sorted(ordered, key=lambda nd: bary[nd])
+        xs = [max(-_max_half, min(_max_half, bary[nd])) for nd in sorted_nodes]
+
+        # Forward pass: minimum separation
+        for idx in range(1, len(xs)):
+            if xs[idx] < xs[idx - 1] + _min_sep:
+                xs[idx] = xs[idx - 1] + _min_sep
+        # Shift left if right boundary exceeded
+        if xs and xs[-1] > _max_half:
+            shift = xs[-1] - _max_half
+            xs = [x - shift for x in xs]
+        # Backward pass: fix any left-side violations after shift
+        for idx in range(len(xs) - 2, -1, -1):
+            if xs[idx] > xs[idx + 1] - _min_sep:
+                xs[idx] = xs[idx + 1] - _min_sep
+
+        for nd, x in zip(sorted_nodes, xs):
+            pos[nd] = (x, y)
+
+    def _ep_el(nid, data, role_cls, size):
+        li = node_layer.get(nid, 0)
+        el = {
+            "data": data,
+            "classes": f"L{li} {role_cls}",
+            "style": {"width": size, "height": size},
+        }
+        if nid in pos:
+            el["position"] = {"x": pos[nid][0], "y": pos[nid][1]}
+        return el
+
+    els = [_ep_el(endpoint, {
+        "id": endpoint,
+        "label": _short_label(endpoint, max_len=36),
+        "real": endpoint,
+        "role": "endpoint",
+        "n_proteins": total_proteins,
+        "n_variants": total_variants,
+        "n_records": total_records,
+    }, "role-endpoint", 110)]
 
     for prot, info in ordered_proteins:
         size = 48 + min(26, 5 * math.sqrt(max(len(info["variant_ids"]), 1)))
-        els.append({
-            "data": {
-                "id": prot,
-                "label": prot,
-                "real": prot,
-                "role": "protein",
-                "n_variants": len(info["variant_ids"]),
-                "n_records": info["row_count"],
-                "protein_page": _protein_href(prot),
-            },
-            "classes": "role-protein",
-            "style": {"width": size, "height": size},
-        })
+        els.append(_ep_el(prot, {
+            "id": prot,
+            "label": prot,
+            "real": prot,
+            "role": "protein",
+            "n_variants": len(info["variant_ids"]),
+            "n_records": info["row_count"],
+            "protein_page": _protein_href(prot),
+        }, "role-protein", size))
 
     for variant_id, info in ordered_variants:
         size = 42 + min(18, 4 * math.sqrt(max(info["row_count"], 1)))
@@ -1340,12 +1593,7 @@ def _build_endpoint_elements_cached(endpoint: str):
             node_data["dbsnp_rs"] = info["dbsnp_rs"]
         if info["clinvar_data"]:
             node_data["clinvar_data"] = info["clinvar_data"]
-
-        els.append({
-            "data": node_data,
-            "classes": "role-variant",
-            "style": {"width": size, "height": size},
-        })
+        els.append(_ep_el(variant_id, node_data, "role-variant", size))
 
     for nid, info in sorted(intermediate_nodes.items(), key=lambda kv: kv[0].casefold()):
         size = 44 + min(20, 3 * math.sqrt(max(info["row_count"], 1)))
@@ -1357,12 +1605,8 @@ def _build_endpoint_elements_cached(endpoint: str):
             "n_records": info["row_count"],
         }
         if info["is_known_protein"]:
-            node_data["protein_page"] = _protein_href(nid)
-        els.append({
-            "data": node_data,
-            "classes": "role-intermediate",
-            "style": {"width": size, "height": size},
-        })
+            node_data["protein_page"] = _protein_href(info["real"])
+        els.append(_ep_el(nid, node_data, "role-intermediate", size))
 
     for (src, tgt, rel), payload in sorted(edge_bucket.items()):
         if rel == "PV":
@@ -1672,15 +1916,7 @@ def endpoint_network_page(endpoint: str):
         root_node_id=endpoint,
         title=f"{endpoint} Endpoint-Centric Network",
         graph_tuple=build_endpoint_elements(endpoint),
-        layout={
-            'name': 'dagre',
-            'rankDir': 'BT',
-            'rankSep': 120,
-            'nodeSep': 25,
-            'edgeSep': 15,
-            'fit': True,
-            'animate': False,
-        },
+        layout={'name': 'preset'},
     )
 
 
