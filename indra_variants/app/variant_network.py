@@ -1,11 +1,13 @@
 import re
 import math
+import copy
 import itertools as _it
 import logging
 import time as _time
 import urllib.parse as _url
 from pathlib import Path
 from collections import defaultdict
+from functools import lru_cache
 from typing import Optional
 
 from scipy.optimize import linprog
@@ -26,12 +28,44 @@ from indra_variants.app.config import DATA_DIR, PORT, DEBUG
 cyto.load_extra_layouts()
 
 TSV_RE = re.compile(r"^(?P<prot>.+)_variant_effects_with_clinvar_with_domains\.tsv$", re.I)
-PROTS = sorted(TSV_RE.match(p.name).group("prot")
-               for p in Path(DATA_DIR).iterdir()
-               if TSV_RE.match(p.name))
 AA_SUB_RE = re.compile(r"^[A-Za-z\*]+(?P<pos>\d+)[A-Za-z\*=]+$")
 P_DOT_RE = re.compile(r"p\.[A-Za-z\*]+(?P<pos>\d+)[A-Za-z\*=]+", re.I)
 
+
+def _sort_text(value: str) -> str:
+    return value.casefold()
+
+
+def _alpha_bucket(value: str) -> str:
+    if not value:
+        return "#"
+    first = value[0].upper()
+    return first if "A" <= first <= "Z" else "#"
+
+
+def _encode_route_value(value: str) -> str:
+    return _url.quote(value, safe="")
+
+
+def _decode_route_value(value: str) -> str:
+    return _url.unquote(value)
+
+
+def _protein_href(prot: str) -> str:
+    return f"/protein/{_encode_route_value(prot)}"
+
+
+def _endpoint_href(endpoint: str) -> str:
+    return f"/endpoint/{_encode_route_value(endpoint)}"
+
+
+TSV_FILES = {
+    TSV_RE.match(p.name).group("prot"): p
+    for p in Path(DATA_DIR).iterdir()
+    if TSV_RE.match(p.name)
+}
+PROTS = sorted(TSV_FILES, key=_sort_text)
+PROT_OPTIONS = [{'label': p, 'value': p} for p in PROTS]
 # ---------- OBO ontology cache (pre-built JSON) ----------
 import json as _json
 
@@ -42,6 +76,89 @@ if _OBO_CACHE_PATH.exists():
         _OBO_CACHE = _json.load(_f)
 else:
     _OBO_CACHE = {}
+
+
+def _build_endpoint_index() -> tuple[list[str], dict[str, dict[str, dict[str, int]]]]:
+    endpoint_index: dict[str, dict[str, dict[str, int]]] = defaultdict(dict)
+
+    for prot, tsv_path in TSV_FILES.items():
+        try:
+            df = pd.read_csv(
+                tsv_path,
+                sep="\t",
+                usecols=["biological_process/disease", "variant_info"]
+            ).fillna('')
+        except ValueError:
+            df = pd.read_csv(tsv_path, sep="\t").fillna('')
+            if "biological_process/disease" not in df.columns:
+                continue
+
+        work = pd.DataFrame({
+            "endpoint": df["biological_process/disease"].astype(str).str.strip(),
+            "variant": (
+                df["variant_info"].astype(str).str.strip()
+                if "variant_info" in df.columns
+                else pd.Series("", index=df.index)
+            ),
+        })
+        work = work[work["endpoint"].ne("")]
+        if work.empty:
+            continue
+
+        grouped = work.groupby("endpoint", sort=False).agg(
+            row_count=("endpoint", "size"),
+            variant_count=("variant", lambda s: s[s.ne("")].nunique()),
+        )
+        for endpoint_name, stats in grouped.iterrows():
+            endpoint_index[endpoint_name][prot] = {
+                "row_count": int(stats["row_count"]),
+                "variant_count": int(stats["variant_count"]),
+            }
+
+    endpoint_names = sorted(endpoint_index, key=_sort_text)
+    return endpoint_names, dict(endpoint_index)
+
+
+ENDPOINTS, ENDPOINT_INDEX = _build_endpoint_index()
+ENDPOINT_OPTIONS = [{'label': e, 'value': e} for e in ENDPOINTS]
+
+
+def _build_alpha_directory(items, query: str, href_builder, columns: int = 3):
+    query_norm = (query or "").strip().casefold()
+    blocks = []
+    bucket_order = list("ABCDEFGHIJKLMNOPQRSTUVWXYZ") + ["#"]
+
+    for letter in bucket_order:
+        group = [item for item in items if _alpha_bucket(item) == letter]
+        if query_norm:
+            group = [item for item in group if query_norm in item.casefold()]
+        if not group:
+            continue
+
+        summary_label = "Other" if letter == "#" else letter
+        blocks.append(
+            html.Details([
+                html.Summary(f"{summary_label} ({len(group)})",
+                             style={'cursor': 'pointer', 'fontSize': 20}),
+                html.Ul([
+                    html.Li(html.A(
+                        item,
+                        href=href_builder(item),
+                        style={'textDecoration': 'none',
+                               'color': '#0366d6',
+                               'fontWeight': 'bold'
+                               if query_norm and query_norm in item.casefold()
+                               else 'normal'}))
+                    for item in sorted(group, key=_sort_text)
+                ], style={'columnCount': columns, 'listStyle': 'none',
+                          'padding': 0, 'margin': '6px 0'})
+            ], open=bool(query_norm))
+        )
+
+    if blocks:
+        return blocks
+    return html.Div("No matches found.",
+                    style={'color': '#6c757d', 'fontSize': 16, 'padding': '12px 0'})
 
 
 def _find_endpoint_groups(endpoint_names: set, min_group: int = 3,
@@ -415,7 +532,7 @@ def format_star_rating(star_val):
     
 # ----------------------Build Graph--------------------------–
 def build_elements(prot: str):
-    df_path = Path(DATA_DIR) / f"{prot}_variant_effects_with_clinvar_with_domains.tsv"
+    df_path = TSV_FILES[prot]
     df = pd.read_csv(df_path, sep="\t").fillna('')
 
     def extract_protein_position(variant_label: str, name_label: str) -> Optional[int]:
@@ -648,12 +765,35 @@ def build_elements(prot: str):
                 G.add_edge(gid, tgt, relation=rel or "grouped",
                            note=f"{parent_name} ({len(members)} terms)")
 
-    # ---------- Longest-path layered layout with pseudo nodes ----------
+    # ---------- Kind-aware layered layout with pseudo nodes ----------
     # Layer 0: protein + variants (fixed)
     # Layer -1: endpoints reachable ONLY directly from variants
-    # Layers 1..N: determined by longest path distance from any variant
+    # Layers 1..N: longest-path depth plus extra spacing for repeated kinds
+    # (e.g. protein -> protein or endpoint -> endpoint).
 
-    # -- Step 1: layer assignment from chain positions ---------------------
+    def _node_kind(n: str) -> str:
+        if n in variants:
+            return "variant"
+        if motif_kind.get(n) == "onto_group" or n in endpoints:
+            return "endpoint"
+        return "intermediate"
+
+    node_kind = {n: _node_kind(n) for n in G.nodes()}
+
+    # -- Step 1: identify "direct-only" endpoints → layer -1 ------------
+    _direct_only_nodes: dict[str, int] = {}
+    for ep in endpoints:
+        preds = {u for u, _, _ in G.in_edges(ep, data=True) if u != prot}
+        if preds and all(p in variants for p in preds):
+            _direct_only_nodes[ep] = -1
+    for gid, kind in motif_kind.items():
+        if kind == "onto_group" and gid in G.nodes():
+            preds = {u for u, _, _ in G.in_edges(gid, data=True) if u != prot}
+            if preds and all(p in variants for p in preds):
+                _direct_only_nodes[gid] = -1
+    _direct_only_eps = {n for n in _direct_only_nodes if n in endpoints}
+
+    # -- Step 2: layer seeds from chain positions -------------------------
     node_depth: dict[str, int] = {}
     for v in variants:
         node_depth[v] = 0
@@ -661,7 +801,7 @@ def build_elements(prot: str):
 
     _init_depth: dict[str, int] = {}
     for n in G.nodes():
-        if n == prot or n in variants:
+        if n == prot or n in variants or n in _direct_only_nodes:
             continue
         if n in chain_pos:
             _init_depth[n] = chain_pos[n]
@@ -672,9 +812,13 @@ def build_elements(prot: str):
         else:
             _init_depth[n] = 1
 
-    # -- Step 2: forward propagation on condensation DAG (cycle-safe) ---
-    #    Collapse SCCs so cycles don't cascade layer depths.
-    _non_vp = [n for n in G.nodes() if n != prot and n not in variants]
+    # -- Step 3: condensation DAG propagation (cycle-safe) ---------------
+    #    Collapse SCCs so cycles don't cascade layer depths, then align
+    #    later kinds after the deepest preceding layer of the source kind.
+    _non_vp = [
+        n for n in G.nodes()
+        if n != prot and n not in variants and n not in _direct_only_nodes
+    ]
     if _non_vp:
         _H = nx.DiGraph()
         for n in _non_vp:
@@ -689,39 +833,94 @@ def build_elements(prot: str):
             sid = _scc_map[n]
             _scc_depth[sid] = max(_scc_depth.get(sid, 0),
                                   _init_depth.get(n, 1))
-        for sid in nx.topological_sort(_C):
+        _topo_sids = list(nx.topological_sort(_C))
+        for sid in _topo_sids:
             for succ_sid in _C.successors(sid):
                 if _scc_depth.get(succ_sid, 0) <= _scc_depth.get(sid, 0):
                     _scc_depth[succ_sid] = _scc_depth[sid] + 1
+
         for n in _non_vp:
             node_depth[n] = _scc_depth[_scc_map[n]]
+
+        # Rewrite endpoint depths: use only within-endpoint distance
+        # so that all endpoints directly reachable from intermediates
+        # land on the same (first) endpoint layer, and only
+        # endpoint-to-endpoint chains create additional endpoint layers.
+        _ep_nodes = {n for n in _non_vp if node_kind[n] == "endpoint"}
+        if _ep_nodes:
+            _ep_depth: dict[str, int] = {}
+            for n in _ep_nodes:
+                has_non_ep_pred = any(
+                    node_kind.get(u, "variant") != "endpoint"
+                    for u, _, _ in G.in_edges(n, data=True)
+                )
+                _ep_depth[n] = 0 if has_non_ep_pred else 1
+
+            _ep_sub = nx.DiGraph()
+            for n in _ep_nodes:
+                _ep_sub.add_node(n)
+            for u, v, _ in G.edges(data=True):
+                if u in _ep_nodes and v in _ep_nodes:
+                    _ep_sub.add_edge(u, v)
+
+            if _ep_sub.edges:
+                _ep_C = nx.condensation(_ep_sub)
+                _ep_scc = _ep_C.graph["mapping"]
+                _ep_scc_d: dict[int, int] = {}
+                for n in _ep_nodes:
+                    sid = _ep_scc[n]
+                    _ep_scc_d[sid] = min(
+                        _ep_scc_d.get(sid, 999), _ep_depth[n])
+                for sid in nx.topological_sort(_ep_C):
+                    for succ in _ep_C.successors(sid):
+                        if _ep_scc_d.get(succ, 0) <= _ep_scc_d[sid]:
+                            _ep_scc_d[succ] = _ep_scc_d[sid] + 1
+                for n in _ep_nodes:
+                    _ep_depth[n] = _ep_scc_d[_ep_scc[n]]
+
+            for n in _ep_nodes:
+                node_depth[n] = _ep_depth[n]
+
+        # Kind-zone separation: uniformly shift each kind so zones
+        # don't overlap.  A uniform per-kind shift guarantees that
+        # nodes of the same kind at the same original depth stay on
+        # the same final layer.
+        _kind_layers: dict[str, set] = defaultdict(set)
+        for n in _non_vp:
+            _kind_layers[node_kind[n]].add(node_depth[n])
+
+        _kind_feeds: set = set()
+        for u, v, _ in G.edges(data=True):
+            ku, kv = node_kind.get(u, ""), node_kind.get(v, "")
+            if ku and kv and ku != kv and ku != "variant" and kv != "variant":
+                _kind_feeds.add((ku, kv))
+
+        if _kind_feeds:
+            _kind_dag = nx.DiGraph(list(_kind_feeds))
+            if _kind_dag.nodes and nx.is_directed_acyclic_graph(_kind_dag):
+                _kind_shift: dict[str, int] = defaultdict(int)
+                for src_k in nx.topological_sort(_kind_dag):
+                    for dst_k in _kind_dag.successors(src_k):
+                        if not _kind_layers.get(src_k) or not _kind_layers.get(dst_k):
+                            continue
+                        src_max = max(_kind_layers[src_k]) + _kind_shift[src_k]
+                        dst_min = min(_kind_layers[dst_k]) + _kind_shift[dst_k]
+                        if dst_min <= src_max:
+                            _kind_shift[dst_k] += src_max + 1 - dst_min
+                for n in _non_vp:
+                    node_depth[n] += _kind_shift.get(node_kind[n], 0)
     else:
         for n, d in _init_depth.items():
             node_depth[n] = d
 
-    # -- Step 3: identify "direct-only" endpoints → layer -1 -----------
-    _direct_only_eps = set()
-    for ep in endpoints:
-        preds = {u for u, _, _ in G.in_edges(ep, data=True) if u != prot}
-        if preds and all(p in variants for p in preds):
-            _direct_only_eps.add(ep)
-    for ep in _direct_only_eps & set(G.nodes()):
-        node_depth[ep] = -1
-
-    for gid, kind in motif_kind.items():
-        if kind == "onto_group" and gid in G.nodes():
-            preds = {u for u, _, _ in G.in_edges(gid, data=True) if u != prot}
-            if preds and all(p in variants for p in preds):
-                node_depth[gid] = -1
-
-    pseudo_nodes = set()
+    node_depth.update(_direct_only_nodes)
 
     def get_layer(n):
         if n == prot or n in variants:
             return 0
         return node_depth.get(n, 1)
 
-    # -- Step 4: collect all layers ------------------------------------
+    # -- Step 4: collect all layers -------------------------------------
     layers: dict[int, list] = defaultdict(list)
     for n in G.nodes():
         layers[get_layer(n)].append(n)
@@ -758,15 +957,16 @@ def build_elements(prot: str):
         fixed_layers={0},
     )
 
-    # -- Step 6: assign positions from optimised orderings -------------
+    # -- Step 6: assign positions from optimised orderings --------------
     x_pos: dict[str, float] = {}
     sorted_layer_keys = sorted(optimized.keys())
     max_layer = max(sorted_layer_keys) if sorted_layer_keys else 0
     min_layer = min(sorted_layer_keys) if sorted_layer_keys else 0
     layer_gap = 190.0
-    y_pos: dict[int, float] = {}
-    for li in sorted_layer_keys:
-        y_pos[li] = li * layer_gap
+    y_pos = {
+        li: li * layer_gap
+        for li in range(min_layer, max_layer + 1)
+    }
 
     for li, ordered in optimized.items():
         if li == 0 and prot in ordered:
@@ -876,12 +1076,12 @@ def build_elements(prot: str):
         else: cls = f"edge-{_css_safe(relation)}"
 
         src4indra = prot if u in variants else u
-        edge_data={
-            "id" :f"{u}->{v}_{d.get('pmid', '')}_{d.get('note', '')}",
+        edge_data = {
+            "id": f"{u}->{v}_{d.get('pmid', '')}_{d.get('note', '')}",
             "source": u,
             "target": v,
             "rel": relation,
-            "src4indra": src4indra
+            "src4indra": src4indra,
         }
         if 'pmid' in d and d['pmid']:
             edge_data['pmid'] = d['pmid']
@@ -892,12 +1092,10 @@ def build_elements(prot: str):
         if 'weight' in d:
             edge_data['evidence_count'] = d['weight']
 
-        els.append({
-            "data": edge_data,
-            "classes": cls
-        })
+        els.append({"data": edge_data, "classes": cls})
 
-    edge_set = {(u, v) for u, v in G.edges()}
+    edge_set = {(u, v) for u, v, _ in G.edges(data=True)}
+
     legend_rels = ['Gene to Variant'] + raw_rel_types
     legend_colors = {
         'Gene to Variant': '#d5cbc9',
@@ -905,6 +1103,294 @@ def build_elements(prot: str):
     }
 
     return els, legend_rels, legend_colors, rel_color_safe, list(edge_set), subgraph_data
+
+
+def build_endpoint_elements(endpoint: str):
+    return copy.deepcopy(_build_endpoint_elements_cached(endpoint))
+
+
+@lru_cache(maxsize=32)
+def _build_endpoint_elements_cached(endpoint: str):
+    prot_stats = ENDPOINT_INDEX.get(endpoint, {})
+    if not prot_stats:
+        return [], [], {}, {}, [], {}
+
+    def _css_safe(name: str) -> str:
+        return re.sub(r'[^A-Za-z0-9_-]', '-', name)
+
+    def _short_label(text, max_len=28):
+        if len(text) <= max_len:
+            return text
+        cut = text[:max_len].rfind(' ')
+        if cut < max_len // 2:
+            cut = max_len
+        return text[:cut].rstrip() + "..."
+
+    def choose_best_clinvar(existing: Optional[dict], candidate: Optional[dict]):
+        if not candidate:
+            return existing
+        if not existing:
+            return candidate
+        prev_len = len(existing.get("conditions", ""))
+        cand_len = len(candidate.get("conditions", ""))
+        if cand_len > prev_len:
+            return candidate
+        return existing
+
+    protein_nodes: dict[str, dict] = {}
+    variant_nodes: dict[str, dict] = {}
+    intermediate_nodes: dict[str, dict] = {}
+    edge_bucket: dict[tuple, dict] = defaultdict(lambda: {
+        "count": 0, "pmids": set(), "notes": set(),
+    })
+    edge_set: set[tuple[str, str]] = set()
+
+    read_columns = [
+        "biological_process/disease",
+        "variant_info",
+        "chain",
+        "pmid",
+        "#AlleleID",
+        "RS# (dbSNP)",
+        "significance_1",
+        "star_1",
+        *[f"disease_{i}" for i in range(1, 11)],
+    ]
+
+    for prot in sorted(prot_stats, key=_sort_text):
+        tsv_path = TSV_FILES[prot]
+        try:
+            df = pd.read_csv(tsv_path, sep="\t", usecols=read_columns).fillna('')
+        except ValueError:
+            df = pd.read_csv(tsv_path, sep="\t").fillna('')
+
+        if "biological_process/disease" not in df.columns or "variant_info" not in df.columns:
+            continue
+
+        endpoint_series = df["biological_process/disease"].astype(str).str.strip()
+        sub = df[endpoint_series.eq(endpoint)]
+        if sub.empty:
+            continue
+
+        protein_entry = protein_nodes.setdefault(prot, {
+            "row_count": 0,
+            "variant_ids": set(),
+        })
+
+        for _, row in sub.iterrows():
+            variant_label = str(row.get("variant_info", "")).strip()
+            if not variant_label:
+                continue
+
+            variant_id = f"{prot}::{variant_label}"
+            protein_entry["row_count"] += 1
+            protein_entry["variant_ids"].add(variant_id)
+
+            variant_entry = variant_nodes.setdefault(variant_id, {
+                "label": variant_label,
+                "real": f"{prot} {variant_label}",
+                "protein": prot,
+                "row_count": 0,
+                "pmids": set(),
+                "clinvar_data": None,
+                "allele_id": None,
+                "dbsnp_rs": None,
+            })
+            variant_entry["row_count"] += 1
+
+            pmid_val = str(row.get("pmid", "")).strip()
+            if pmid_val:
+                variant_entry["pmids"].add(pmid_val)
+
+            all_conditions = []
+            for i in range(1, 11):
+                disease = str(row.get(f"disease_{i}", "")).strip()
+                if disease and 'not provided' not in disease.lower():
+                    all_conditions.append(disease)
+            clinvar_data = None
+            if all_conditions:
+                clinvar_data = {
+                    "pathogenicity": row.get("significance_1", "N/A"),
+                    "review": format_star_rating(row.get("star_1", 0.0)),
+                    "conditions": "; ".join(all_conditions),
+                }
+            variant_entry["clinvar_data"] = choose_best_clinvar(
+                variant_entry["clinvar_data"], clinvar_data
+            )
+
+            allele_id = str(row.get("#AlleleID", "")).strip()
+            if allele_id and allele_id.lower() != "nan":
+                try:
+                    variant_entry["allele_id"] = str(int(float(allele_id)))
+                except (TypeError, ValueError):
+                    variant_entry["allele_id"] = allele_id
+
+            dbsnp_rs = str(row.get("RS# (dbSNP)", "")).strip()
+            if dbsnp_rs and dbsnp_rs.lower() != "nan":
+                try:
+                    variant_entry["dbsnp_rs"] = str(int(float(dbsnp_rs)))
+                except (TypeError, ValueError):
+                    variant_entry["dbsnp_rs"] = dbsnp_rs
+
+            pv_key = (prot, variant_id, "PV")
+            edge_bucket[pv_key]["count"] += 1
+            if pmid_val:
+                edge_bucket[pv_key]["pmids"].add(pmid_val)
+            edge_set.add((prot, variant_id))
+
+            chain_str = str(row.get("chain", ""))
+            segs = chain_str.split(" -[")[1:]
+            src = variant_id
+            for seg in segs:
+                if "]->" not in seg:
+                    continue
+                rel, tgt = seg.split("]->", 1)
+                rel = rel.strip()
+                tgt = tgt.strip()
+                if not tgt:
+                    continue
+
+                if tgt == endpoint:
+                    tgt_id = endpoint
+                elif tgt == prot:
+                    tgt_id = prot
+                else:
+                    tgt_id = tgt
+                    if tgt_id not in intermediate_nodes:
+                        is_known_prot = tgt_id in prot_stats or tgt_id in TSV_FILES
+                        intermediate_nodes[tgt_id] = {
+                            "label": _short_label(tgt_id),
+                            "real": tgt_id,
+                            "row_count": 0,
+                            "is_known_protein": is_known_prot,
+                        }
+                    intermediate_nodes[tgt_id]["row_count"] += 1
+
+                ekey = (src, tgt_id, rel)
+                edge_bucket[ekey]["count"] += 1
+                if pmid_val:
+                    edge_bucket[ekey]["pmids"].add(pmid_val)
+                edge_set.add((src, tgt_id))
+                src = tgt_id
+
+    ordered_proteins = sorted(
+        protein_nodes.items(),
+        key=lambda kv: (-len(kv[1]["variant_ids"]), -kv[1]["row_count"], kv[0].casefold())
+    )
+    ordered_variants = sorted(
+        variant_nodes.items(),
+        key=lambda kv: (-kv[1]["row_count"], kv[1]["protein"].casefold(), kv[1]["label"].casefold())
+    )
+
+    total_proteins = len(ordered_proteins)
+    total_variants = len(ordered_variants)
+    total_records = sum(info["row_count"] for info in protein_nodes.values())
+
+    raw_rel_types = sorted({
+        rel for (_s, _t, rel) in edge_bucket if rel != "PV"
+    })
+    palette = ["#e74c3c", "#2ecc71", "#3498db", "#f39c12", "#9b59b6"]
+    rel_color_safe = {_css_safe(r): palette[i % len(palette)] for i, r in enumerate(raw_rel_types)}
+    rel_display = {_css_safe(r): r for r in raw_rel_types}
+
+    els = [{
+        "data": {
+            "id": endpoint,
+            "label": _short_label(endpoint, max_len=36),
+            "real": endpoint,
+            "role": "endpoint",
+            "n_proteins": total_proteins,
+            "n_variants": total_variants,
+            "n_records": total_records,
+        },
+        "classes": "L0 role-endpoint",
+        "style": {"width": 110, "height": 110},
+    }]
+
+    for prot, info in ordered_proteins:
+        size = 48 + min(26, 5 * math.sqrt(max(len(info["variant_ids"]), 1)))
+        els.append({
+            "data": {
+                "id": prot,
+                "label": prot,
+                "real": prot,
+                "role": "protein",
+                "n_variants": len(info["variant_ids"]),
+                "n_records": info["row_count"],
+                "protein_page": _protein_href(prot),
+            },
+            "classes": "role-protein",
+            "style": {"width": size, "height": size},
+        })
+
+    for variant_id, info in ordered_variants:
+        size = 42 + min(18, 4 * math.sqrt(max(info["row_count"], 1)))
+        node_data = {
+            "id": variant_id,
+            "label": info["label"],
+            "real": info["real"],
+            "role": "variant",
+            "gene_symbol": info["protein"],
+            "n_records": info["row_count"],
+            "protein_page": _protein_href(info["protein"]),
+        }
+        if info["allele_id"]:
+            node_data["clinvar_allele"] = info["allele_id"]
+        if info["dbsnp_rs"]:
+            node_data["dbsnp_rs"] = info["dbsnp_rs"]
+        if info["clinvar_data"]:
+            node_data["clinvar_data"] = info["clinvar_data"]
+
+        els.append({
+            "data": node_data,
+            "classes": "role-variant",
+            "style": {"width": size, "height": size},
+        })
+
+    for nid, info in sorted(intermediate_nodes.items(), key=lambda kv: kv[0].casefold()):
+        size = 44 + min(20, 3 * math.sqrt(max(info["row_count"], 1)))
+        node_data = {
+            "id": nid,
+            "label": info["label"],
+            "real": info["real"],
+            "role": "intermediate",
+            "n_records": info["row_count"],
+        }
+        if info["is_known_protein"]:
+            node_data["protein_page"] = _protein_href(nid)
+        els.append({
+            "data": node_data,
+            "classes": "role-intermediate",
+            "style": {"width": size, "height": size},
+        })
+
+    for (src, tgt, rel), payload in sorted(edge_bucket.items()):
+        if rel == "PV":
+            cls = "edge-PV"
+        else:
+            cls = f"edge-{_css_safe(rel)}"
+        edge_data = {
+            "id": f"{src}->{tgt}::{rel}",
+            "source": src,
+            "target": tgt,
+            "rel": rel,
+            "src4indra": src,
+            "evidence_count": payload["count"],
+        }
+        if payload["pmids"]:
+            pmids = sorted(payload["pmids"])
+            edge_data["pmid"] = "; ".join(pmids[:20])
+        els.append({
+            "data": edge_data,
+            "classes": cls,
+        })
+
+    legend_rels = ["Gene to Variant"] + raw_rel_types
+    legend_colors = {
+        "Gene to Variant": "#d5cbc9",
+        **{rel_display.get(k, k): v for k, v in rel_color_safe.items()},
+    }
+    return els, legend_rels, legend_colors, rel_color_safe, list(edge_set), {}
 
 
 # ------------------------Dash App------------------------–
@@ -916,56 +1402,38 @@ server = app.server
 app.layout = html.Div([dcc.Location(id="url"), html.Div(id="page")])
 
 
-# ---Homepage---
-def homepage():
-    prot_options = [{'label': p, 'value': p} for p in PROTS]
-
-    search_card = html.Div(
-        [
-            html.H1("Protein Variant Network Explorer",
-                    style={'marginTop': 0, 'marginBottom': 12}),
-            html.P("Type a protein/gene name below (auto-suggest enabled) "
-                   "or browse alphabetically.",
-                   style={'fontSize': 18, 'margin': '0 0 20px 0'}),
-            dcc.Dropdown(id='prot-search', options=prot_options,
-                         placeholder="search protein / gene …",
-                         style={'fontSize': 18}, clearable=True,
-                         searchable=True),
-            dbc.Button("Search", id='submit-prot', n_clicks=0,
-                       color="primary", style={'marginTop': 18,
-                                               'fontSize': 18}),
-        ],
-        style={'maxWidth': 880, 'margin': '40px auto',
-               'background': '#f8f9fa', 'padding': '32px 48px',
-               'borderRadius': 8, 'boxShadow': '0 0 8px rgba(0,0,0,0.15)',
-               'fontFamily': 'Arial, sans-serif'}
-    )
-
-    directory = html.Div(id='prot-directory',
-                         style={'maxWidth': 880, 'margin': '0 auto',
-                                'fontFamily': 'Arial, sans-serif'})
-
-    footer = html.Div(
-        [
-            html.Span("Developed by the "),
-            html.A("Gyori Lab", href="https://gyorilab.github.io",
-                   target="_blank"),
-            html.Span(" at Northeastern University"),
-            html.Br(),
-            html.Span("INDRA Variant is funded under DARPA ASKEM / "
-                      "ARPA-H BDF (HR00112220036)")
-        ],
-        style={'background': '#f1f1f1', 'padding': '10px 24px',
-               'textAlign': 'center', 'fontSize': 14,
-               'fontFamily': 'Arial, sans-serif', 'marginTop': 40}
-    )
-
-    return html.Div([search_card, directory, footer])
+def _browse_panel(title: str, helper_text: str, dropdown_id: str, options: list,
+                  placeholder: str, button_id: str, directory_id: str,
+                  summary_text: str, note_text: Optional[str] = None):
+    return html.Div([
+        html.H4(title, style={'marginTop': 0, 'marginBottom': 10,
+                              'color': '#2c3e50'}),
+        html.P(helper_text, style={'fontSize': 16, 'margin': '0 0 16px 0',
+                                   'color': '#495057'}),
+        dcc.Dropdown(id=dropdown_id, options=options,
+                     placeholder=placeholder,
+                     style={'fontSize': 18}, clearable=True,
+                     searchable=True),
+        dbc.Button("Search", id=button_id, n_clicks=0,
+                   color="primary", style={'marginTop': 18,
+                                           'fontSize': 18}),
+        html.Div(summary_text,
+                 style={'marginTop': 16, 'marginBottom': 10,
+                        'fontSize': 14, 'color': '#6c757d'}),
+        *([] if not note_text else [
+            html.Div(note_text,
+                     style={'marginBottom': 14, 'fontSize': 14,
+                            'color': '#6c757d', 'fontStyle': 'italic'})
+        ]),
+        html.Div(id=directory_id,
+                 style={'fontFamily': 'Arial, sans-serif'})
+    ], style={'padding': '12px 6px 6px'})
 
 
-# ---Network Page---
-def network_page(prot: str):
-    els, legend_rels, legend_colors, rel_color_safe, edge_set, subgraph_data = build_elements(prot)
+def _render_network_page(view_key: str, root_node_id: str, title: str,
+                         graph_tuple: tuple, layout: Optional[dict] = None):
+    els, legend_rels, legend_colors, rel_color_safe, edge_set, subgraph_data = graph_tuple
+    layout = layout or {'name': 'preset'}
 
     def rel_style(css_cls, c):
         return {'selector': f'.edge-{css_cls}',
@@ -974,10 +1442,10 @@ def network_page(prot: str):
                           'curve-style': 'bezier', 'width': 2}}
 
     sidebar = html.Div(
-        id={'type': 'edge-info', 'prot': prot},
+        id={'type': 'edge-info', 'prot': view_key},
         children=[
-            html.Div("Node & Edge Information", 
-                    style={'fontSize': 18, 'fontWeight': 'bold', 
+            html.Div("Node & Edge Information",
+                    style={'fontSize': 18, 'fontWeight': 'bold',
                            'marginBottom': 15, 'color': '#2c3e50',
                            'borderBottom': '2px solid #ecf0f1',
                            'paddingBottom': 10}),
@@ -1003,37 +1471,37 @@ def network_page(prot: str):
 
     main_content = html.Div([
         html.Div([
-            dcc.Link("← Home", href="/", 
-                    style={'color': '#0366d6', 'textDecoration': 'none', 
+            dcc.Link("← Home", href="/",
+                    style={'color': '#0366d6', 'textDecoration': 'none',
                            'fontSize': 15, 'fontWeight': 'bold'}),
-            html.H4(f"{prot} Variant Network", 
+            html.H4(title,
                    style={'textAlign': 'center', 'margin': '2px 0',
                           'color': '#2c3e50'}),
-            html.P("Tip: click the central protein/gene to clear all highlights.",
+            html.P("Tip: click the root node for this view to clear all highlights.",
                    style={'textAlign': 'center', 'marginTop': 0,
                           'marginBottom': 15, 'color': '#666',
                           'fontFamily': 'Arial, sans-serif', 'fontSize': 14})
         ], style={'padding': '10px 10px', 'background': '#ffffff',
                   'borderBottom': '1px solid #dee2e6'}),
 
-        dcc.Store(id={'type': 'store-els',  'prot': prot},  data=els),
-        dcc.Store(id={'type': 'store-edges', 'prot': prot},  data=edge_set),
-        dcc.Store(id={'type': 'store-root', 'prot': prot},  data=prot),
-        dcc.Store(id={'type': 'store-subgraphs', 'prot': prot}, data=subgraph_data),
-        dcc.Store(id={'type': 'store-relcolors', 'prot': prot}, data=rel_color_safe),
+        dcc.Store(id={'type': 'store-els',  'prot': view_key},  data=els),
+        dcc.Store(id={'type': 'store-edges', 'prot': view_key},  data=edge_set),
+        dcc.Store(id={'type': 'store-root', 'prot': view_key},  data=root_node_id),
+        dcc.Store(id={'type': 'store-subgraphs', 'prot': view_key}, data=subgraph_data),
+        dcc.Store(id={'type': 'store-relcolors', 'prot': view_key}, data=rel_color_safe),
 
         dbc.Modal([
             dbc.ModalHeader(dbc.ModalTitle(
-                id={'type': 'subgraph-title', 'prot': prot})),
+                id={'type': 'subgraph-title', 'prot': view_key})),
             dbc.ModalBody(
                 html.Div([
                     cyto.Cytoscape(
-                        id={'type': 'cy-subgraph', 'prot': prot},
+                        id={'type': 'cy-subgraph', 'prot': view_key},
                         elements=[], layout={'name': 'preset'},
                         style={'width': '70%', 'height': '100%'},
                         stylesheet=[]),
                     html.Div(
-                        id={'type': 'subgraph-edge-info', 'prot': prot},
+                        id={'type': 'subgraph-edge-info', 'prot': view_key},
                         children=[
                             html.Div("Click an edge to see details",
                                      style={'color': '#7f8c8d', 'fontSize': 14,
@@ -1044,13 +1512,13 @@ def network_page(prot: str):
                                'background': '#f8f9fa'})
                 ], style={'display': 'flex', 'height': '70vh'}),
                 style={'padding': 0}),
-        ], id={'type': 'subgraph-modal', 'prot': prot},
+        ], id={'type': 'subgraph-modal', 'prot': view_key},
            size="xl", is_open=False),
 
         cyto.Cytoscape(
-            id={'type': 'cy-net', 'prot': prot},
-            elements=els, 
-            layout={'name': 'preset'},
+            id={'type': 'cy-net', 'prot': view_key},
+            elements=els,
+            layout=layout,
             style={'width': '100%', 'height': 'calc(100vh - 120px)'},
             stylesheet=[
                 {'selector': 'node', 'style': {
@@ -1061,7 +1529,6 @@ def network_page(prot: str):
                     'text-max-width': 100,
                     'text-valign': 'center',
                     'text-halign': 'center'}},
-                # Role classes for readability.
                 {'selector': '.role-protein',
                  'style': {'background-color': '#aacdd7', 'color': '#004466'}},
                 {'selector': '.role-variant',
@@ -1070,29 +1537,17 @@ def network_page(prot: str):
                  'style': {'background-color': '#cce9b6', 'color': '#3f6330'}},
                 {'selector': '.role-endpoint',
                  'style': {'background-color': '#fabf77', 'color': '#b05e04'}},
-                {'selector': '.role-pseudo',
-                 'style': {'background-color': '#cccccc',
-                           'background-opacity': 0.6,
-                           'shape': 'ellipse',
-                           'width': 12, 'height': 12,
-                           'label': ''}},
-                # Ontology group nodes
                 {'selector': '.motif-onto_group',
                  'style': {'shape': 'round-rectangle',
                            'background-color': '#ffcc80',
                            'background-opacity': 0.7,
                            'border-width': 2,
                            'border-color': '#e65100'}},
-                # Edges
-                {'selector': '.edge-PV', 
-                 'style': {'line-color': '#d5cbc9', 
-                           'target-arrow-shape': 'triangle', 
+                {'selector': '.edge-PV',
+                 'style': {'line-color': '#d5cbc9',
+                           'target-arrow-shape': 'triangle',
                            'width': 2}},
-                
                 *[rel_style(css_cls, c) for css_cls, c in rel_color_safe.items()],
-                {'selector': '.edge-pseudo', 'style': {
-                    'line-style': 'dotted', 'width': 1.5,
-                    'target-arrow-shape': 'none'}},
                 {'selector': '.faded', 'style': {'opacity': 0.15}}
             ]),
 
@@ -1104,9 +1559,9 @@ def network_page(prot: str):
                            'color': '#2c3e50'}),
             html.Ul([
                 html.Li([html.Span('→',
-                                   style={'color': legend_colors.get(r, '#d5cbc9'),
-                                          'marginRight': 8,
-                                          'fontSize': 16}), r],
+                                  style={'color': legend_colors.get(r, '#d5cbc9'),
+                                         'marginRight': 8,
+                                         'fontSize': 16}), r],
                         style={'fontSize': 14, 'listStyle': 'none',
                                'margin': '2px 0'})
                 for r in legend_rels
@@ -1119,7 +1574,7 @@ def network_page(prot: str):
                   'fontFamily': 'Arial, sans-serif',
                   'maxHeight': '70vh',
                   'overflowY': 'auto'})
-        
+
     ], style={
         'marginLeft': 350,
         'position': 'relative',
@@ -1129,15 +1584,119 @@ def network_page(prot: str):
     return html.Div([sidebar, main_content])
 
 
+# ---Homepage---
+def homepage():
+    search_card = html.Div(
+        [
+            html.H1("Variant Network Explorer",
+                    style={'marginTop': 0, 'marginBottom': 12}),
+            html.P("Browse either gene-centric or endpoint-centric variant networks.",
+                   style={'fontSize': 18, 'margin': '0 0 20px 0'}),
+            dcc.Tabs([
+                dcc.Tab(
+                    label="Gene-centric",
+                    children=[
+                        _browse_panel(
+                            title="Protein / Gene",
+                            helper_text="Type a protein or gene name below, or browse alphabetically.",
+                            dropdown_id='prot-search',
+                            options=PROT_OPTIONS,
+                            placeholder="search protein / gene …",
+                            button_id='submit-prot',
+                            directory_id='prot-directory',
+                            summary_text=f"{len(PROTS)} protein/gene pages available.",
+                        )
+                    ]
+                ),
+                dcc.Tab(
+                    label="Endpoint-centric",
+                    children=[
+                        _browse_panel(
+                            title="Disease / Result / Endpoint",
+                            helper_text="Type an end node from the current graph, or browse alphabetically.",
+                            dropdown_id='endpoint-search',
+                            options=ENDPOINT_OPTIONS,
+                            placeholder="search disease / result / endpoint …",
+                            button_id='submit-endpoint',
+                            directory_id='endpoint-directory',
+                            summary_text=(
+                                f"{len(ENDPOINTS)} unique end nodes currently indexed "
+                                f"from biological_process/disease."
+                            ),
+                            note_text=(
+                                "Large endpoint pages are aggregated at the protein level "
+                                "so common diseases/results stay explorable."
+                            ),
+                        )
+                    ]
+                )
+            ])
+        ],
+        style={'maxWidth': 880, 'margin': '40px auto',
+               'background': '#f8f9fa', 'padding': '32px 48px',
+               'borderRadius': 8, 'boxShadow': '0 0 8px rgba(0,0,0,0.15)',
+               'fontFamily': 'Arial, sans-serif'}
+    )
+
+    footer = html.Div(
+        [
+            html.Span("Developed by the "),
+            html.A("Gyori Lab", href="https://gyorilab.github.io",
+                   target="_blank"),
+            html.Span(" at Northeastern University"),
+            html.Br(),
+            html.Span("INDRA Variant is funded under DARPA ASKEM / "
+                      "ARPA-H BDF (HR00112220036)")
+        ],
+        style={'background': '#f1f1f1', 'padding': '10px 24px',
+               'textAlign': 'center', 'fontSize': 14,
+               'fontFamily': 'Arial, sans-serif', 'marginTop': 40}
+    )
+
+    return html.Div([search_card, footer])
+
+
+# ---Network Page---
+def network_page(prot: str):
+    return _render_network_page(
+        view_key=f"protein::{prot}",
+        root_node_id=prot,
+        title=f"{prot} Variant Network",
+        graph_tuple=build_elements(prot),
+    )
+
+
+def endpoint_network_page(endpoint: str):
+    return _render_network_page(
+        view_key=f"endpoint::{endpoint}",
+        root_node_id=endpoint,
+        title=f"{endpoint} Endpoint-Centric Network",
+        graph_tuple=build_endpoint_elements(endpoint),
+        layout={
+            'name': 'dagre',
+            'rankDir': 'BT',
+            'rankSep': 120,
+            'nodeSep': 25,
+            'edgeSep': 15,
+            'fit': True,
+            'animate': False,
+        },
+    )
+
+
 # ----
 @app.callback(Output("page", "children"), Input("url", "pathname"))
 def router(path):
     if path in (None, "/"):
         return homepage()
     if path.startswith("/protein/"):
-        prot = path.split("/")[2]
+        prot = _decode_route_value(path.split("/protein/", 1)[1])
         if prot in PROTS:
             return network_page(prot)
+    if path.startswith("/endpoint/"):
+        endpoint = _decode_route_value(path.split("/endpoint/", 1)[1])
+        if endpoint in ENDPOINT_INDEX:
+            return endpoint_network_page(endpoint)
     return html.H3("404 – Not found")
 
 def _sidebar_default():
@@ -1302,6 +1861,30 @@ def _build_node_info(node):
                  style={'fontSize': 13, 'color': '#7f8c8d'})
     ]))
 
+    stat_lines = []
+    if node.get('n_proteins') is not None:
+        stat_lines.append(html.Div([
+            html.Span("Proteins: ", style={'fontWeight': 'bold'}),
+            html.Span(str(node['n_proteins']))
+        ], style={'marginBottom': 6}))
+    if node.get('n_variants') is not None:
+        stat_lines.append(html.Div([
+            html.Span("Variants: ", style={'fontWeight': 'bold'}),
+            html.Span(str(node['n_variants']))
+        ], style={'marginBottom': 6}))
+    if node.get('n_records') is not None:
+        stat_lines.append(html.Div([
+            html.Span("Supporting records: ", style={'fontWeight': 'bold'}),
+            html.Span(str(node['n_records']))
+        ]))
+    if stat_lines:
+        content.append(_sidebar_card([
+            html.Div("Summary",
+                     style={'fontSize': 14, 'fontWeight': 'bold',
+                            'color': '#34495e', 'marginBottom': 10}),
+            *stat_lines
+        ]))
+
     if node.get('domain_notes'):
         content.append(_sidebar_card([
             html.Div("Domain Notes",
@@ -1343,6 +1926,15 @@ def _build_node_info(node):
                       'textDecoration': 'none', 'fontSize': 13,
                       'fontWeight': 'bold', 'marginBottom': 6})
     ]
+    if node.get('protein_page'):
+        external_links.insert(
+            0,
+            dcc.Link("Open protein-centric view",
+                     href=node['protein_page'],
+                     style={'display': 'block', 'color': '#0366d6',
+                            'textDecoration': 'none', 'fontSize': 13,
+                            'fontWeight': 'bold', 'marginBottom': 6})
+        )
     if node.get('uniprot_id'):
         uid = node['uniprot_id']
         if '_' in uid:
@@ -1673,31 +2265,13 @@ def highlight(node, elements, edge_set, root_prot):
 @app.callback(Output('prot-directory', 'children'),
               Input('prot-search', 'value'))
 def filter_directory(query):
-    query = (query or "").strip().lower()
-    blocks = []
-    for letter in "ABCDEFGHIJKLMNOPQRSTUVWXYZ":
-        group = [p for p in PROTS if p.startswith(letter)]
-        if query:
-            group = [p for p in group if query in p.lower()]
-        if not group:
-            continue
-        blocks.append(
-            html.Details([
-                html.Summary(f"{letter} ({len(group)})",
-                             style={'cursor': 'pointer', 'fontSize': 20}),
-                html.Ul([
-                    html.Li(html.A(p, href=f"/protein/{p}",
-                                   style={'textDecoration': 'none',
-                                          'color': '#0366d6',
-                                          'fontWeight': 'bold'
-                                          if query and query in p.lower()
-                                          else 'normal'}))
-                    for p in group
-                ], style={'columnCount': 3, 'listStyle': 'none',
-                          'padding': 0, 'margin': '6px 0'})
-            ], open=bool(query))
-        )
-    return blocks
+    return _build_alpha_directory(PROTS, query, _protein_href, columns=3)
+
+
+@app.callback(Output('endpoint-directory', 'children'),
+              Input('endpoint-search', 'value'))
+def filter_endpoint_directory(query):
+    return _build_alpha_directory(ENDPOINTS, query, _endpoint_href, columns=2)
 
 
 @app.callback(Output('url', 'href', allow_duplicate=True),
@@ -1705,7 +2279,15 @@ def filter_directory(query):
               State('prot-search', 'value'),
               prevent_initial_call=True)
 def jump_to_protein(_, value):
-    return f"/protein/{value}" if value else dash.no_update
+    return _protein_href(value) if value else dash.no_update
+
+
+@app.callback(Output('url', 'href', allow_duplicate=True),
+              Input('submit-endpoint', 'n_clicks'),
+              State('endpoint-search', 'value'),
+              prevent_initial_call=True)
+def jump_to_endpoint(_, value):
+    return _endpoint_href(value) if value else dash.no_update
 
 
 # --------------------Run App----------------------------–
