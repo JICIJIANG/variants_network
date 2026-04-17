@@ -67,17 +67,6 @@ TSV_FILES = {
 }
 PROTS = sorted(TSV_FILES, key=_sort_text)
 PROT_OPTIONS = [{'label': p, 'value': p} for p in PROTS]
-# ---------- OBO ontology cache (pre-built JSON) ----------
-import json as _json
-
-_OBO_CACHE_PATH = Path(DATA_DIR).parent.parent / "obo_endpoint_cache.json"
-
-if _OBO_CACHE_PATH.exists():
-    with open(_OBO_CACHE_PATH) as _f:
-        _OBO_CACHE = _json.load(_f)
-else:
-    _OBO_CACHE = {}
-
 
 def _build_endpoint_index() -> tuple[list[str], dict[str, dict[str, dict[str, int]]]]:
     endpoint_index: dict[str, dict[str, dict[str, int]]] = defaultdict(dict)
@@ -339,36 +328,6 @@ def _build_alpha_directory(items, query: str, href_builder, columns: int = 3):
                            'padding': '12px 0', 'fontFamily': U['font_ui']})
 
 
-def _find_endpoint_groups(endpoint_names: set, min_group: int = 3,
-                          max_depth: int = 2) -> list:
-    """Group endpoint names by shared ontology parent (from pre-built cache).
-
-    Returns list of (parent_name, [member_endpoint_names]).
-    Each endpoint appears in at most one group (the tightest / shallowest).
-    """
-    parent_to_children = defaultdict(set)
-    for name in endpoint_names:
-        entry = _OBO_CACHE.get(name)
-        if not entry:
-            continue
-        for anc_id, anc_info in entry.get("ancestors", {}).items():
-            depth = anc_info.get("depth", 99)
-            if depth <= max_depth:
-                parent_to_children[(anc_id, depth, anc_info.get("name", anc_id))].add(name)
-
-    candidates = sorted(parent_to_children.items(),
-                        key=lambda kv: (kv[0][1], -len(kv[1])))
-
-    used: set = set()
-    groups = []
-    for (_, _depth, parent_name), members in candidates:
-        available = members - used
-        if len(available) < min_group:
-            continue
-        groups.append((parent_name, sorted(available)))
-        used |= available
-
-    return groups
 
 _log = logging.getLogger(__name__)
 
@@ -856,102 +815,8 @@ def build_elements(prot: str, variant_aa_range: Optional[tuple[float, float]] = 
             edge_attrs["clinvar_data"] = payload["clinvar_data"]
         G.add_edge(u, v, **edge_attrs)
 
-    motif_kind = {}
-    motif_members = {}
-    subgraph_data = {}
+    subgraph_data: dict = {}
 
-    # ---------- Ontology-based endpoint aggregation ----------
-    endpoint_groups = _find_endpoint_groups(endpoints, min_group=3, max_depth=2)
-    for parent_name, members in endpoint_groups:
-        gid = f"onto_group::{parent_name}"
-        G.add_node(gid)
-        motif_kind[gid] = "onto_group"
-        motif_members[gid] = members
-
-        sub_nodes = {}
-        sub_edges_map = {}
-        incoming = defaultdict(set)
-        outgoing = defaultdict(set)
-        members_set = set(members)
-
-        def _edge_payload(d):
-            p = {"rel": d.get("relation", "")}
-            if d.get("pmid"):   p["pmid"] = d["pmid"]
-            if d.get("note"):   p["note"] = d["note"]
-            if d.get("clinvar_data"): p["clinvar_data"] = d["clinvar_data"]
-            if d.get("weight"): p["evidence_count"] = d["weight"]
-            return p
-
-        def _role(n):
-            if n == prot: return "protein"
-            if n in variants: return "variant"
-            return "intermediate"
-
-        for m in members:
-            if not G.has_node(m):
-                continue
-            sub_nodes[m] = {"label": m, "role": "endpoint"}
-
-            for u, _, d in G.in_edges(m, data=True):
-                if u in members_set:
-                    continue
-                incoming[u].add(d.get("relation", ""))
-                role = _role(u)
-                sub_nodes.setdefault(u, {"label": u, "role": role})
-                ek = (u, m, d.get("relation", ""))
-                if ek not in sub_edges_map:
-                    sub_edges_map[ek] = _edge_payload(d)
-
-                if role == "intermediate":
-                    for uu, _, dd in G.in_edges(u, data=True):
-                        r2 = _role(uu)
-                        sub_nodes.setdefault(uu, {"label": uu, "role": r2})
-                        ek2 = (uu, u, dd.get("relation", ""))
-                        if ek2 not in sub_edges_map:
-                            sub_edges_map[ek2] = _edge_payload(dd)
-                        if r2 == "variant":
-                            for uuu, _, ddd in G.in_edges(uu, data=True):
-                                if uuu == prot:
-                                    sub_nodes.setdefault(prot, {"label": prot, "role": "protein"})
-                                    ek3 = (prot, uu, ddd.get("relation", ""))
-                                    if ek3 not in sub_edges_map:
-                                        sub_edges_map[ek3] = _edge_payload(ddd)
-                elif role == "variant":
-                    for uu, _, dd in G.in_edges(u, data=True):
-                        if uu == prot:
-                            sub_nodes.setdefault(prot, {"label": prot, "role": "protein"})
-                            ek2 = (prot, u, dd.get("relation", ""))
-                            if ek2 not in sub_edges_map:
-                                sub_edges_map[ek2] = _edge_payload(dd)
-
-            for _, v, d in G.out_edges(m, data=True):
-                if v in members_set:
-                    continue
-                outgoing[v].add(d.get("relation", ""))
-                sub_nodes.setdefault(v, {"label": v, "role": _role(v)})
-                ek = (m, v, d.get("relation", ""))
-                if ek not in sub_edges_map:
-                    sub_edges_map[ek] = _edge_payload(d)
-
-            G.remove_node(m)
-
-        sub_edges = []
-        for (s, t, _rel), payload in sub_edges_map.items():
-            e = {"source": s, "target": t}
-            e.update(payload)
-            sub_edges.append(e)
-
-        subgraph_data[gid] = {"nodes": sub_nodes, "edges": sub_edges,
-                              "parent_name": parent_name}
-        endpoints -= set(members)
-        for src, rels in incoming.items():
-            for rel in rels:
-                G.add_edge(src, gid, relation=rel or "grouped",
-                           note=f"{parent_name} ({len(members)} terms)")
-        for tgt, rels in outgoing.items():
-            for rel in rels:
-                G.add_edge(gid, tgt, relation=rel or "grouped",
-                           note=f"{parent_name} ({len(members)} terms)")
 
     if variant_aa_range is not None:
         lo, hi = float(variant_aa_range[0]), float(variant_aa_range[1])
@@ -990,11 +855,6 @@ def build_elements(prot: str, variant_aa_range: Optional[tuple[float, float]] = 
                     G.remove_node(n)
         variants = {v for v in variants if G.has_node(v)}
         endpoints = {e for e in endpoints if G.has_node(e)}
-        for k in list(motif_kind.keys()):
-            if not G.has_node(k):
-                motif_members.pop(k, None)
-                subgraph_data.pop(k, None)
-                del motif_kind[k]
         for k in list(chain_pos.keys()):
             if not G.has_node(k):
                 del chain_pos[k]
@@ -1008,7 +868,7 @@ def build_elements(prot: str, variant_aa_range: Optional[tuple[float, float]] = 
     def _node_kind(n: str) -> str:
         if n in variants:
             return "variant"
-        if motif_kind.get(n) == "onto_group" or n in endpoints:
+        if n in endpoints:
             return "endpoint"
         return "intermediate"
 
@@ -1035,10 +895,6 @@ def build_elements(prot: str, variant_aa_range: Optional[tuple[float, float]] = 
     for ep in endpoints:
         if _is_direct_only(ep):
             _direct_only_nodes[ep] = -1
-    for gid, kind in motif_kind.items():
-        if kind == "onto_group" and gid in G.nodes():
-            if _is_direct_only(gid):
-                _direct_only_nodes[gid] = -1
     _direct_only_eps = {n for n in _direct_only_nodes if n in endpoints}
 
     # -- Step 2: layer seeds from chain positions -------------------------
@@ -1053,10 +909,6 @@ def build_elements(prot: str, variant_aa_range: Optional[tuple[float, float]] = 
             continue
         if n in chain_pos:
             _init_depth[n] = chain_pos[n]
-        elif motif_kind.get(n) == "onto_group":
-            members = motif_members.get(n, [])
-            depths = [chain_pos.get(m, 1) for m in members if m in chain_pos]
-            _init_depth[n] = max(depths) if depths else 1
         else:
             _init_depth[n] = 1
 
@@ -1328,21 +1180,14 @@ def build_elements(prot: str, variant_aa_range: Optional[tuple[float, float]] = 
     })
     palette = ["#e74c3c", "#2ecc71", "#3498db", "#f39c12", "#9b59b6"]
     rel_color_safe = {_css_safe(r): palette[i % len(palette)] for i, r in enumerate(raw_rel_types)}
-    rel_color_safe.update({
-        "grouped": "#e65100",
-    })
     rel_display = {_css_safe(r): r for r in raw_rel_types}
 
     els = []
     for n, (x, y) in pos.items():
         layer = get_layer(n)
-        kind = motif_kind.get(n)
 
         if n == prot:
             size = 90
-        elif kind == "onto_group":
-            member_count = len(motif_members.get(n, []))
-            size = 60 + min(30, 4 * member_count)
         elif n in endpoints or n in _direct_only_eps:
             size = 52 + min(24, 5 * endpoint_freq.get(n, 1))
         else:
@@ -1354,11 +1199,6 @@ def build_elements(prot: str, variant_aa_range: Optional[tuple[float, float]] = 
         elif n in variants:
             label = n
             role_class = "role-variant"
-        elif kind == "onto_group":
-            member_count = len(motif_members.get(n, []))
-            parent_name = n.replace("onto_group::", "")
-            label = _short_label(f"{parent_name} ({member_count})")
-            role_class = "role-endpoint"
         elif n in endpoints or n in _direct_only_eps:
             label = _short_label(n)
             role_class = "role-endpoint"
@@ -1372,11 +1212,11 @@ def build_elements(prot: str, variant_aa_range: Optional[tuple[float, float]] = 
                 "label": label,
                 "real": n,
                 "role": role_class.replace("role-", ""),
-                "motif_type": kind or "",
-                "motif_members": "; ".join(motif_members.get(n, [])),
+                "motif_type": "",
+                "motif_members": "",
                 "domain_notes": "; ".join(sorted(variant_meta[n]["domain_notes"])) if n in variant_meta else ""
             },
-            "classes": f"L{layer} {role_class}" + (f" motif-{kind}" if kind else ""),
+            "classes": f"L{layer} {role_class}",
             "style": {"width": size, "height": size}
         }
         if n == prot:
@@ -2132,9 +1972,10 @@ def _protein_lollipop_figure(prot: str) -> Optional[go.Figure]:
         xaxis="x2",
     ))
 
-    x_lo = 0.0           # show from AA 0 so the bar represents the full protein
-    # Right padding: proportional to protein length so the rightmost variant
-    # circle (radius ~13 px) is never clipped regardless of protein size.
+    # Left/right padding: proportional to protein length so variant circles
+    # (radius ~13 px) are never clipped regardless of protein size.
+    _pad = float(max_pos) * 0.03 + 15
+    x_lo = -_pad
     x_hi = float(max_pos) * 1.06 + 30
     fig.update_layout(
         xaxis2=dict(
@@ -2402,12 +2243,6 @@ def _render_network_page(view_key: str, root_node_id: str, title: str,
                 {'selector': '.role-endpoint',
                  'style': {'background-color': GRAPH_ENDPOINT_BG,
                            'color': GRAPH_ENDPOINT_FG}},
-                {'selector': '.motif-onto_group',
-                 'style': {'shape': 'round-rectangle',
-                           'background-color': '#e6dfd2',
-                           'background-opacity': 0.95,
-                           'border-width': 1,
-                           'border-color': '#a89882'}},
                 {'selector': '.edge-PV',
                  'style': {'line-color': '#c9c4bf',
                            'target-arrow-shape': 'triangle',
@@ -2508,7 +2343,7 @@ def _render_network_page(view_key: str, root_node_id: str, title: str,
                 for r in legend_rels
             ], style={'paddingLeft': 0, 'margin': '10px 0 0 0'})
         ], style={'position': 'absolute',
-                  'top': _NETWORK_HEADER_PX + 14, 'right': 22,
+                  'top': _NETWORK_HEADER_PX + 47, 'right': 22,
                   'background': U['card'],
                   'padding': '14px 18px',
                   'borderRadius': 4,
@@ -3062,8 +2897,6 @@ def _build_node_info(node):
 
     real_name = node.get('real', node.get('label', 'N/A'))
     role = node.get('role', 'unknown').replace('-', ' ').replace('_', ' ').title()
-    if node.get('motif_type') == 'onto_group':
-        role = "Endpoint Group"
 
     content = [
         html.Div("Node",
