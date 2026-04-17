@@ -1,6 +1,6 @@
 # VarAtlas
 
-**VarAtlas** is an interactive web-based platform for exploring variant–gene–disease regulatory pathways derived from the [INDRA](https://indra.readthedocs.io/) knowledge graph. It provides two complementary views — a layered biological network graph and a protein-level variant map — enabling hypothesis-driven investigation of disease-associated genetic variants.
+**VarAtlas** is an interactive web-based platform for exploring variant–gene–disease regulatory pathways derived from the [INDRA](https://discovery.indra.bio/) knowledge graph. It provides two complementary views — a layered biological network graph and a protein-level variant map — enabling hypothesis-driven investigation of disease-associated genetic variants.
 
 A live deployment is available at: [https://jicijiang-varatlas.hf.space](https://jicijiang-varatlas.hf.space)
 
