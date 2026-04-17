@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: variants-network
+    env: python
+    region: oregon
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn "indra_variants.app.variant_network:server" --bind 0.0.0.0:$PORT --workers 1 --timeout 120
+    envVars:
+      - key: DASH_DEBUG
+        value: "0"
+      - key: PYTHON_VERSION
+        value: "3.11.0"
