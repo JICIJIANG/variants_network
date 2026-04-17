@@ -2052,6 +2052,7 @@ def _adjacency_from_elements(els: list) -> tuple[dict, dict]:
 
 # ------------------------Dash App------------------------–
 app = dash.Dash(__name__,
+                title="VarAtlas · INDRA Variant",
                 suppress_callback_exceptions=True,
                 external_stylesheets=[dbc.themes.SANDSTONE])
 # Set the server for deployment, see https://dash.plotly.com/deployment
