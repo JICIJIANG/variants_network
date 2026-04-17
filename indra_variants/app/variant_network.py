@@ -6,7 +6,7 @@ import logging
 import time as _time
 import urllib.parse as _url
 from pathlib import Path
-from collections import defaultdict
+from collections import defaultdict, deque
 from functools import lru_cache
 from typing import Optional
 
@@ -222,6 +222,15 @@ def _stats_point_href(point: dict) -> Optional[str]:
     return None
 
 
+# Per-bar pixel height – kept constant so all three charts have the same bar size.
+STATS_BAR_PX = 34
+STATS_FIG_MARGIN_PX = 118   # title + x-axis + padding
+# Convenience heights (used by both the figure and the card container)
+STATS_FIG_HEIGHT_10 = STATS_BAR_PX * 10 + STATS_FIG_MARGIN_PX   # BP & disease
+STATS_FIG_HEIGHT_20 = STATS_BAR_PX * 20 + STATS_FIG_MARGIN_PX   # gene (top 20)
+STATS_FIG_HEIGHT = STATS_FIG_HEIGHT_10   # backward-compat alias
+
+
 def _stats_bar_figure(
     rows: list[tuple],
     metric: str,
@@ -232,6 +241,7 @@ def _stats_bar_figure(
     bar_color: str,
     plot_bg: str = "#f8fafc",
     paper_bg: str = "rgba(0,0,0,0)",
+    height: int = STATS_FIG_HEIGHT_10,
 ) -> go.Figure:
     scored = [(value_fn(r, metric), r) for r in rows]
     scored.sort(key=lambda t: t[0], reverse=True)
@@ -272,8 +282,8 @@ def _stats_bar_figure(
                                           family=U["font_display"])),
         xaxis_title=axis_title,
         yaxis=dict(autorange="reversed", title=""),
-        margin=dict(l=8, r=88, t=52, b=44),
-        height=max(380, bar_height * len(labels) + 120),
+        margin=dict(l=10, r=88, t=52, b=44),
+        height=height,
         font=dict(family=U["font_ui"], size=12, color=U["ink_soft"]),
         paper_bgcolor=paper_bg,
         plot_bgcolor=plot_bg,
@@ -513,6 +523,14 @@ def _optimize_layer_ordering(layer_nodes, cross_layer_edges,
         if all(len(ns) < 2 for ns in sub_nodes.values()):
             continue
 
+        # Expand each touched layer to include ALL its nodes (up to the cap).
+        # Without this, two source nodes in the same layer (e.g. PTGS2 and
+        # glucocorticoid) whose anchor chains only share a fixed ancestor
+        # (layer 0 variants) are never simultaneously visible in a single
+        # sub-problem, so the ILP cannot detect or fix their crossing edges.
+        for li in list(sub_nodes.keys()):
+            sub_nodes[li] = order[li][:neighbourhood_k]
+
         # Collect sub-edges (only between adjacent-layer sub-node pairs)
         sub_node_all = {n for ns in sub_nodes.values() for n in ns}
         sub_edges = [(s, t, w) for (s, t), w in edge_w.items()
@@ -697,20 +715,22 @@ def format_star_rating(star_val):
             
     except (ValueError, TypeError):
         return "(no review info)"
-    
+
+
+def _variant_aa_position(variant_label: str, name_label: str = "") -> Optional[int]:
+    m = AA_SUB_RE.match((variant_label or "").strip())
+    if m:
+        return int(m.group("pos"))
+    m = P_DOT_RE.search((name_label or "").strip())
+    if m:
+        return int(m.group("pos"))
+    return None
+
+
 # ----------------------Build Graph--------------------------–
-def build_elements(prot: str):
+def build_elements(prot: str, variant_aa_range: Optional[tuple[float, float]] = None):
     df_path = TSV_FILES[prot]
     df = pd.read_csv(df_path, sep="\t").fillna('')
-
-    def extract_protein_position(variant_label: str, name_label: str) -> Optional[int]:
-        m = AA_SUB_RE.match((variant_label or "").strip())
-        if m:
-            return int(m.group("pos"))
-        m = P_DOT_RE.search((name_label or "").strip())
-        if m:
-            return int(m.group("pos"))
-        return None
 
     def choose_best_clinvar(existing: Optional[dict], candidate: Optional[dict]):
         if not candidate:
@@ -754,7 +774,7 @@ def build_elements(prot: str):
             domain_protein_id = str(row.get("DomainProteinID", "")).strip()
             if domain_protein_id and domain_protein_id.lower() != "nan":
                 protein_uniprot_id = domain_protein_id.split(";")[0].strip()
-        protein_pos = extract_protein_position(var, name_label)
+        protein_pos = _variant_aa_position(var, name_label)
         if protein_pos is not None:
             prev = variant_meta[var]["protein_pos"]
             variant_meta[var]["protein_pos"] = protein_pos if prev is None else min(prev, protein_pos)
@@ -932,6 +952,52 @@ def build_elements(prot: str):
             for rel in rels:
                 G.add_edge(gid, tgt, relation=rel or "grouped",
                            note=f"{parent_name} ({len(members)} terms)")
+
+    if variant_aa_range is not None:
+        lo, hi = float(variant_aa_range[0]), float(variant_aa_range[1])
+        exclude = set()
+        for v in variants:
+            if not G.has_node(v):
+                continue
+            vm = variant_meta.get(v, {})
+            p = vm.get("protein_pos")
+            if p is not None:
+                try:
+                    pi = int(p)
+                except (TypeError, ValueError):
+                    pi = None
+            else:
+                pi = None
+            if pi is None:
+                po = _variant_aa_position(v, "")
+                pi = int(po) if po is not None else None
+            if pi is None or pi < lo or pi > hi:
+                exclude.add(v)
+        for v in exclude:
+            if G.has_node(v):
+                G.remove_node(v)
+        if G.has_node(prot):
+            seen = {prot}
+            dq = deque([prot])
+            while dq:
+                u = dq.popleft()
+                for _, v, _ in G.out_edges(u, data=True):
+                    if v not in seen:
+                        seen.add(v)
+                        dq.append(v)
+            for n in list(G.nodes()):
+                if n not in seen:
+                    G.remove_node(n)
+        variants = {v for v in variants if G.has_node(v)}
+        endpoints = {e for e in endpoints if G.has_node(e)}
+        for k in list(motif_kind.keys()):
+            if not G.has_node(k):
+                motif_members.pop(k, None)
+                subgraph_data.pop(k, None)
+                del motif_kind[k]
+        for k in list(chain_pos.keys()):
+            if not G.has_node(k):
+                del chain_pos[k]
 
     # ---------- Kind-aware layered layout with pseudo nodes ----------
     # Layer 0: protein + variants (fixed)
@@ -1177,7 +1243,7 @@ def build_elements(prot: str):
             ordered = [n for n in ordered if n != prot]
             ordered.append(prot)
         n_nodes = len(ordered)
-        sp = 140.0 if li == 0 else 170.0
+        sp = 160.0 if li == 0 else 210.0
         start = -((n_nodes - 1) * sp) / 2.0
         for i, n in enumerate(ordered):
             x_pos[n] = start + i * sp
@@ -1185,6 +1251,63 @@ def build_elements(prot: str):
     for n in G.nodes():
         if n not in x_pos:
             x_pos[n] = 0.0
+
+    # -- Step 6.5: Barycentric repositioning for non-variant layers ----------
+    # The uniform even-spacing above looks artificially symmetric.  Reposition
+    # each node to the centroid of its "toward-layer-0" parents so the layout
+    # reflects actual connection structure, while preserving the crossing-
+    # minimised ordering the LNS found.  Process layers in order of increasing
+    # distance from layer 0 so parent positions are finalised first.
+    _max_half_px = max(
+        (len(nodes) - 1) * 170.0 / 2.0
+        for nodes in optimized.values() if len(nodes) > 1
+    ) if any(len(v) > 1 for v in optimized.values()) else 170.0
+
+    # For each node, collect the adjacent-layer neighbors that are closer to
+    # layer 0 (the variant layer).  Those are the "parents" that anchor x.
+    _parent_adj: dict[str, list] = defaultdict(list)
+    for _u, _v, _d in G.edges(data=True):
+        _lu, _lv = get_layer(_u), get_layer(_v)
+        if _lu == _lv:
+            continue
+        if _lu == 0:
+            _parent_adj[_v].append(_u)
+        elif _lv == 0:
+            _parent_adj[_u].append(_v)
+        elif abs(_lu) < abs(_lv):
+            _parent_adj[_v].append(_u)
+        else:
+            _parent_adj[_u].append(_v)
+
+    _bary_min_sep = 80.0
+    for _li in sorted((li for li in optimized if li != 0), key=abs):
+        _ordered = list(optimized[_li])
+        if not _ordered:
+            continue
+        # Target x = centroid of parents already placed in x_pos
+        _bx: dict[str, float] = {}
+        for _nd in _ordered:
+            _nbrs = [_nb for _nb in _parent_adj.get(_nd, []) if _nb in x_pos]
+            _bx[_nd] = (
+                sum(x_pos[_nb] for _nb in _nbrs) / len(_nbrs)
+                if _nbrs else x_pos.get(_nd, 0.0)
+            )
+        # Keep LNS order; just slide each node toward its centroid x
+        _xs = [max(-_max_half_px, min(_max_half_px, _bx[_nd])) for _nd in _ordered]
+        # Forward pass: enforce minimum separation
+        for _idx in range(1, len(_xs)):
+            if _xs[_idx] < _xs[_idx - 1] + _bary_min_sep:
+                _xs[_idx] = _xs[_idx - 1] + _bary_min_sep
+        # Shift left if right boundary exceeded
+        if _xs and _xs[-1] > _max_half_px:
+            _shift = _xs[-1] - _max_half_px
+            _xs = [_x - _shift for _x in _xs]
+        # Backward pass: fix left-side violations after the shift
+        for _idx in range(len(_xs) - 2, -1, -1):
+            if _xs[_idx] > _xs[_idx + 1] - _bary_min_sep:
+                _xs[_idx] = _xs[_idx + 1] - _bary_min_sep
+        for _nd, _x in zip(_ordered, _xs):
+            x_pos[_nd] = _x
 
     pos = {n: (x_pos[n], y_pos.get(get_layer(n), 0.0)) for n in G.nodes()}
 
@@ -1261,6 +1384,8 @@ def build_elements(prot: str):
         if n in variants and n in variant_meta:
             vm = variant_meta[n]
             node_el["data"]["gene_symbol"] = prot
+            if vm.get("protein_pos") is not None:
+                node_el["data"]["protein_pos"] = vm["protein_pos"]
             if vm["allele_id"]:
                 node_el["data"]["clinvar_allele"] = vm["allele_id"]
             if vm["dbsnp_rs"]:
@@ -1639,7 +1764,7 @@ def _build_endpoint_elements_cached(endpoint: str):
     )
 
     _layer_gap = 190.0
-    _sp = 170.0
+    _sp = 210.0
     pos: dict[str, tuple[float, float]] = {}
     for li, ordered in _optimized.items():
         n_nodes = len(ordered)
@@ -1674,7 +1799,7 @@ def _build_endpoint_elements_cached(endpoint: str):
 
     _fixed_li = {0, 1, _ep_layer, _ep_layer + 1, _ep_layer + 2}
     _inter_layers = sorted(li for li in _optimized if li not in _fixed_li)
-    _min_sep = 60.0
+    _min_sep = 80.0
 
     for li in _inter_layers:
         ordered = list(_optimized[li])
@@ -1841,6 +1966,248 @@ U = {
     "legend_bg": "rgba(253, 251, 247, 0.96)",
 }
 
+GRAPH_PROTEIN_BG = "#c5d2ce"
+GRAPH_PROTEIN_FG = "#2a3d38"
+GRAPH_VARIANT_BG = "#c9c0d4"
+GRAPH_VARIANT_FG = "#3d324d"
+GRAPH_INTERMEDIATE_BG = "#cfd9c3"
+GRAPH_INTERMEDIATE_FG = "#35422e"
+GRAPH_ENDPOINT_BG = "#e8d4bc"
+GRAPH_ENDPOINT_FG = "#5c3f24"
+
+# Cytoscape main graph `node` uses this opacity over `backgroundColor` (U["paper"]).
+GRAPH_NODE_BG_OPACITY = 0.92
+
+
+def _hex_to_rgb(h: str) -> tuple[int, int, int]:
+    h = (h or "").strip().lstrip("#")
+    if len(h) != 6:
+        return 0, 0, 0
+    return int(h[0:2], 16), int(h[2:4], 16), int(h[4:6], 16)
+
+
+def _rgb_to_hex(r: int, g: int, b: int) -> str:
+    return f"#{r:02x}{g:02x}{b:02x}"
+
+
+def _graph_node_fill_hex(fg_hex: str, blend_on: Optional[str] = None) -> str:
+    """Blend fg onto canvas (default paper, e.g. card for the variant strip)."""
+    fg = _hex_to_rgb(fg_hex)
+    bg = _hex_to_rgb(blend_on or U["paper"])
+    a = GRAPH_NODE_BG_OPACITY
+    return _rgb_to_hex(
+        int(fg[0] * a + bg[0] * (1 - a)),
+        int(fg[1] * a + bg[1] * (1 - a)),
+        int(fg[2] * a + bg[2] * (1 - a)),
+    )
+
+
+def _network_frame_style() -> dict:
+    """White functional panel like stats chart cards."""
+    return {
+        "background": U["card"],
+        "border": f"1px solid {U['rule']}",
+        "borderRadius": 4,
+        "boxShadow": U["shadow"],
+        "overflow": "hidden",
+    }
+
+
+def _variant_strip_wrap_style() -> dict:
+    """Variant strip: white surface, no frame (per design), allow markers to paint fully."""
+    return {
+        "background": U["card"],
+        "border": "none",
+        "boxShadow": "none",
+        "borderRadius": 4,
+        "overflow": "visible",
+    }
+
+
+# Header row under URL bar (approx.) — remainder is graph + bottom strip
+_NETWORK_HEADER_PX = 96
+_GENE_STRIP_VH_PCT = 22
+_GENE_STRIP_VH = f"{_GENE_STRIP_VH_PCT}vh"
+_GENE_STRIP_GRAPH_INNER_H = f"calc({_GENE_STRIP_VH_PCT}vh - 26px)"
+
+
+def _protein_lollipop_figure(prot: str) -> Optional[go.Figure]:
+    """Lollipop plot: wide protein bar as backbone, variant discs above with stems.
+
+    The protein bar spans the full paper width so it is always visible.  A
+    protein-node circle sits at the right boundary (on secondary x2 axis) and
+    appears as a cap at the bar's right end.  Variant markers float above the bar
+    connected by thin stems, at their amino-acid positions on the primary axis.
+    """
+    if prot not in TSV_FILES:
+        return None
+    df = pd.read_csv(TSV_FILES[prot], sep="\t").fillna("")
+    pos_to_vars: dict[int, set[str]] = defaultdict(set)
+    for _, row in df.iterrows():
+        var = str(row.get("variant_info", "")).strip()
+        if not var:
+            continue
+        pos = _variant_aa_position(var, str(row.get("Name", "")).strip())
+        if pos is None:
+            continue
+        pos_to_vars[pos].add(var)
+    if not pos_to_vars:
+        return None
+
+    ordered = {p: sorted(pos_to_vars[p], key=_sort_text) for p in sorted(pos_to_vars)}
+    max_pos = max(ordered)
+    min_pos = min(ordered)
+
+    # Layout constants
+    y_track  = 0.0    # vertical centre of the protein bar
+    bar_half = 0.20   # half-height of the bar (thick backbone)
+    y_var    = 0.72   # vertical centre of variant discs (above bar)
+
+    vx, vy, vtxt, vhov = [], [], [], []
+    for pos, labs in ordered.items():
+        n = len(labs)
+        xs = ([float(pos)] if n == 1 else
+              [float(pos) + 0.45 * (i - (n - 1) / 2.0) for i in range(n)])
+        for x, lab in zip(xs, labs):
+            vx.append(x)
+            vy.append(y_var)
+            vtxt.append(lab)
+            vhov.append(f"{lab} · aa {pos}<extra></extra>")
+
+    fig = go.Figure()
+    fill_protein = _graph_node_fill_hex(GRAPH_PROTEIN_BG, U["card"])
+    fill_variant = _graph_node_fill_hex(GRAPH_VARIANT_BG, U["card"])
+
+    # ── Protein backbone bar ──────────────────────────────────────────────────
+    # Uses paper coordinates for x so it spans the full primary-axis area and
+    # is never clipped when the user zooms. y is still in data space so the
+    # bar aligns with variant stems correctly.
+    # The bar extends to paper x=0.93 (the protein circle centre) so the bar
+    # visually "connects" to and terminates at the protein cap node.
+    fig.add_shape(
+        type="rect",
+        xref="paper", yref="y",
+        x0=0.0, x1=0.93,
+        y0=y_track - bar_half, y1=y_track + bar_half,
+        fillcolor=fill_protein, line=dict(width=0),
+        layer="below",
+    )
+
+    # ── Stems: one vertical line per variant ─────────────────────────────────
+    stem_x: list = []
+    stem_y: list = []
+    for px in vx:
+        stem_x.extend([px, px, None])
+        stem_y.extend([y_var, y_track + bar_half, None])
+    fig.add_trace(go.Scatter(
+        x=stem_x, y=stem_y, mode="lines",
+        line=dict(color=fill_variant, width=1.5),
+        showlegend=False, hoverinfo="skip",
+    ))
+
+    # ── Variant discs ─────────────────────────────────────────────────────────
+    fig.add_trace(go.Scatter(
+        x=vx, y=vy, mode="markers+text",
+        marker=dict(size=30, color=fill_variant, line=dict(width=0)),
+        text=vtxt, textposition="middle center",
+        textfont=dict(size=11, color=GRAPH_VARIANT_FG, family=U["font_ui"], weight=600),
+        customdata=vhov, hovertemplate="%{customdata}<extra></extra>",
+        showlegend=False,
+    ))
+
+    # ── Protein cap node (secondary x-axis, always fixed at right) ────────────
+    # x2.domain=[0.87, 1.0], x2.range=[0,1], protein at x=0.5
+    # → paper x = 0.87 + 0.5 * 0.13 = 0.935 ≈ 0.93.
+    # The entire circle stays inside x2 domain so Plotly does not clip it.
+    # The bar (paper x1=0.93) terminates at the circle centre giving an
+    # "embedded cap" appearance identical to the reference image.
+    fig.add_trace(go.Scatter(
+        x=[0.5], y=[y_track],
+        mode="markers+text",
+        marker=dict(size=32, color=fill_protein, line=dict(width=0)),
+        text=[prot], textposition="middle center",
+        textfont=dict(size=12, color=GRAPH_PROTEIN_FG, family=U["font_ui"], weight=600),
+        hovertemplate=f"<b>{prot}</b><extra></extra>",
+        showlegend=False,
+        xaxis="x2",
+    ))
+
+    x_lo = 0.0           # show from AA 0 so the bar represents the full protein
+    # Right padding: proportional to protein length so the rightmost variant
+    # circle (radius ~13 px) is never clipped regardless of protein size.
+    x_hi = float(max_pos) * 1.06 + 30
+    fig.update_layout(
+        xaxis2=dict(
+            range=[0, 1],          # x=0.5 → paper x = 0.87 + 0.5*0.13 = 0.935
+            domain=[0.87, 1.0],    # wider x2 domain so circle is not clipped
+            visible=False,
+            fixedrange=True,
+        ),
+        margin=dict(l=54, r=14, t=16, b=30),
+        plot_bgcolor=U["card"],
+        paper_bgcolor=U["card"],
+        font=dict(family=U["font_ui"], size=10, color=U["ink_soft"]),
+        xaxis=dict(
+            title="Amino acid position",
+            range=[x_lo, x_hi],
+            domain=[0, 0.87],
+            showgrid=True, gridcolor="rgba(45,42,36,0.06)",
+            zeroline=False,
+            tickfont=dict(size=9, color=U["ink_soft"], family=U["font_ui"]),
+            fixedrange=False,
+        ),
+        yaxis=dict(visible=False, range=[-0.52, 1.6], fixedrange=True),
+        height=116,
+        hovermode="closest",
+        dragmode="zoom",
+    )
+    return fig
+
+
+def _relayout_xaxis_range(relayout: Optional[dict]) -> Optional[tuple[float, float]]:
+    """Parse Plotly relayout dict for x-axis range; None means no zoom box / full span."""
+    if not relayout:
+        return None
+    if relayout.get("xaxis.autorange") is True:
+        return None
+    k0, k1 = "xaxis.range[0]", "xaxis.range[1]"
+    if k0 not in relayout or k1 not in relayout:
+        return None
+    try:
+        a = float(relayout[k0])
+        b = float(relayout[k1])
+    except (TypeError, ValueError):
+        return None
+    return (a, b) if a <= b else (b, a)
+
+
+def _norm_map_range(mr) -> Optional[tuple[float, float]]:
+    if not mr or not isinstance(mr, (list, tuple)) or len(mr) != 2:
+        return None
+    try:
+        a, b = float(mr[0]), float(mr[1])
+    except (TypeError, ValueError):
+        return None
+    return (a, b) if a <= b else (b, a)
+
+
+def _cy_net_layout_preset() -> dict:
+    return {"name": "preset"}
+
+
+def _adjacency_from_elements(els: list) -> tuple[dict, dict]:
+    """Directed forward and reverse adjacency from edge elements only."""
+    fwd: dict = defaultdict(set)
+    rev: dict = defaultdict(set)
+    for el in els:
+        d = el.get("data") or {}
+        if "source" not in d:
+            continue
+        s, t = d["source"], d["target"]
+        fwd[s].add(t)
+        rev[t].add(s)
+    return fwd, rev
+
 
 # ------------------------Dash App------------------------–
 app = dash.Dash(__name__,
@@ -1890,7 +2257,8 @@ def _browse_panel(title: str, helper_text: str, dropdown_id: str, options: list,
 
 
 def _render_network_page(view_key: str, root_node_id: str, title: str,
-                         graph_tuple: tuple, layout: Optional[dict] = None):
+                         graph_tuple: tuple, layout: Optional[dict] = None,
+                         lollipop_figure: Optional[go.Figure] = None):
     els, legend_rels, legend_colors, rel_color_safe, edge_set, subgraph_data = graph_tuple
     layout = layout or {'name': 'preset'}
 
@@ -1953,6 +2321,22 @@ def _render_network_page(view_key: str, root_node_id: str, title: str,
         dcc.Store(id={'type': 'store-root', 'prot': view_key},  data=root_node_id),
         dcc.Store(id={'type': 'store-subgraphs', 'prot': view_key}, data=subgraph_data),
         dcc.Store(id={'type': 'store-relcolors', 'prot': view_key}, data=rel_color_safe),
+        dcc.Store(id={'type': 'store-map-range', 'prot': view_key}, data=None),
+        *([] if lollipop_figure is not None else [
+            html.Div([
+                dcc.Graph(
+                    id={'type': 'gene-map', 'prot': view_key},
+                    figure={'data': [], 'layout': {'margin': {'t': 0, 'b': 0, 'l': 0, 'r': 0}}},
+                    config={'displayModeBar': False, 'staticPlot': True},
+                    style={'display': 'none', 'height': 0, 'width': 0},
+                ),
+                html.Button(
+                    id={'type': 'gene-map-reset', 'prot': view_key},
+                    n_clicks=0,
+                    style={'display': 'none'},
+                ),
+            ], style={'display': 'none'}),
+        ]),
 
         dbc.Modal([
             dbc.ModalHeader(dbc.ModalTitle(
@@ -1982,13 +2366,22 @@ def _render_network_page(view_key: str, root_node_id: str, title: str,
         ], id={'type': 'subgraph-modal', 'prot': view_key},
            size="xl", is_open=False),
 
-        cyto.Cytoscape(
-            id={'type': 'cy-net', 'prot': view_key},
-            elements=els,
-            layout=layout,
-            style={'width': '100%', 'height': 'calc(100vh - 120px)',
-                   'backgroundColor': U['paper']},
-            stylesheet=[
+        html.Div(
+            [
+                html.Div(
+                    [
+                        cyto.Cytoscape(
+                            id={'type': 'cy-net', 'prot': view_key},
+                            elements=els,
+                            layout=layout,
+                            style={
+                                'width': '100%',
+                                'height': '100%',
+                                'flex': '1 1 auto',
+                                'minHeight': 0,
+                                'backgroundColor': U['card'],
+                            },
+                            stylesheet=[
                 {'selector': 'node', 'style': {
                     'shape': 'ellipse', 'background-opacity': 0.92,
                     'font-size': 15, 'font-weight': '600',
@@ -1998,13 +2391,17 @@ def _render_network_page(view_key: str, root_node_id: str, title: str,
                     'text-valign': 'center',
                     'text-halign': 'center'}},
                 {'selector': '.role-protein',
-                 'style': {'background-color': '#c5d2ce', 'color': '#2a3d38'}},
+                 'style': {'background-color': GRAPH_PROTEIN_BG,
+                           'color': GRAPH_PROTEIN_FG}},
                 {'selector': '.role-variant',
-                 'style': {'background-color': '#c9c0d4', 'color': '#3d324d'}},
+                 'style': {'background-color': GRAPH_VARIANT_BG,
+                           'color': GRAPH_VARIANT_FG}},
                 {'selector': '.role-intermediate',
-                 'style': {'background-color': '#cfd9c3', 'color': '#35422e'}},
+                 'style': {'background-color': GRAPH_INTERMEDIATE_BG,
+                           'color': GRAPH_INTERMEDIATE_FG}},
                 {'selector': '.role-endpoint',
-                 'style': {'background-color': '#e8d4bc', 'color': '#5c3f24'}},
+                 'style': {'background-color': GRAPH_ENDPOINT_BG,
+                           'color': GRAPH_ENDPOINT_FG}},
                 {'selector': '.motif-onto_group',
                  'style': {'shape': 'round-rectangle',
                            'background-color': '#e6dfd2',
@@ -2017,7 +2414,80 @@ def _render_network_page(view_key: str, root_node_id: str, title: str,
                            'width': 2}},
                 *[rel_style(css_cls, c) for css_cls, c in rel_color_safe.items()],
                 {'selector': '.faded', 'style': {'opacity': 0.15}}
-            ]),
+            ],
+                        ),
+                    ],
+                    style={
+                        **_network_frame_style(),
+                        'display': 'flex',
+                        'flexDirection': 'column',
+                        'flex': '1 1 auto',
+                        'minHeight': 0,
+                    },
+                ),
+                *([] if lollipop_figure is None else [
+                    html.Div(
+                        [
+                            html.Div([
+                                html.Span(
+                                    "Variant map",
+                                    style={
+                                        'fontSize': 12, 'color': U['ink_soft'],
+                                        'fontFamily': U['font_ui'],
+                                        'fontWeight': 600,
+                                        'letterSpacing': '0.06em',
+                                        'textTransform': 'uppercase',
+                                        'flex': '1',
+                                    }),
+                                dbc.Button(
+                                    "Reset view",
+                                    id={'type': 'gene-map-reset', 'prot': view_key},
+                                    n_clicks=0, size="sm", outline=True,
+                                    style={
+                                        'fontSize': 11, 'padding': '2px 10px',
+                                        'fontFamily': U['font_ui'],
+                                    }),
+                            ], style={
+                                'display': 'flex', 'alignItems': 'center',
+                                'justifyContent': 'space-between',
+                                'padding': '6px 10px 4px',
+                                'background': U['card'],
+                            }),
+                            dcc.Graph(
+                                id={'type': 'gene-map', 'prot': view_key},
+                                figure=lollipop_figure,
+                                config={
+                                    'displayModeBar': False,
+                                    'scrollZoom': True,
+                                    'doubleClick': False,
+                                },
+                                style={
+                                    'height': _GENE_STRIP_GRAPH_INNER_H,
+                                    'width': '100%', 'margin': 0,
+                                    'paddingLeft': 6, 'paddingRight': 6,
+                                    'boxSizing': 'border-box',
+                                },
+                            ),
+                        ],
+                        style={
+                            **_variant_strip_wrap_style(),
+                            'flex': f'0 0 {_GENE_STRIP_VH}',
+                            'minHeight': 0,
+                            'display': 'flex',
+                            'flexDirection': 'column',
+                        },
+                    ),
+                ]),
+            ],
+            style={
+                'display': 'flex', 'flexDirection': 'column',
+                'flex': '1 1 auto', 'minHeight': 0,
+                'height': f'calc(100vh - {_NETWORK_HEADER_PX}px)',
+                'gap': 10,
+                'padding': '12px 14px 14px',
+                'boxSizing': 'border-box',
+            },
+        ),
 
         html.Div([
             html.H4("Edge types",
@@ -2032,26 +2502,30 @@ def _render_network_page(view_key: str, root_node_id: str, title: str,
                                          'marginRight': 8,
                                          'fontSize': 14}), r],
                         style={'fontSize': 13, 'listStyle': 'none',
-                               'margin': '4px 0',
+                               'margin': '6px 0',
                                'color': U['ink_soft'],
                                'fontFamily': U['font_ui']})
                 for r in legend_rels
-            ], style={'paddingLeft': 0, 'margin': '8px 0 0 0'})
-        ], style={'position': 'absolute', 'top': 20, 'right': 20,
-                  'background': U['legend_bg'],
+            ], style={'paddingLeft': 0, 'margin': '10px 0 0 0'})
+        ], style={'position': 'absolute',
+                  'top': _NETWORK_HEADER_PX + 14, 'right': 22,
+                  'background': U['card'],
                   'padding': '14px 18px',
-                  'borderRadius': 6,
+                  'borderRadius': 4,
                   'border': f'1px solid {U["rule"]}',
                   'boxShadow': U['shadow'],
                   'fontFamily': U['font_ui'],
-                  'maxHeight': '70vh',
-                  'overflowY': 'auto'})
+                  'maxHeight': '60vh',
+                  'overflowY': 'auto',
+                  'zIndex': 10})
 
     ], style={
         'marginLeft': 350,
         'position': 'relative',
         'height': '100vh',
-        'backgroundColor': U['paper'],
+        'backgroundColor': U['wash'],
+        'display': 'flex',
+        'flexDirection': 'column',
     })
 
     return html.Div([sidebar, main_content])
@@ -2096,7 +2570,7 @@ def search_page():
                            'fontSize': '2rem',
                            'letterSpacing': '-0.01em'}),
             html.P([
-                "Gene-centric graphs are keyed by protein; endpoint-centric graphs by "
+                "protein-centric graphs are keyed by protein; phenotype-centric graphs by "
                 "disease or pathway term. ",
                 dcc.Link("Summary metrics",
                          href="/",
@@ -2106,14 +2580,14 @@ def search_page():
                       'fontFamily': U['font_ui'], 'lineHeight': 1.5}),
             dcc.Tabs([
                 dcc.Tab(
-                    label="Gene-centric",
+                    label="Protein-centric",
                     children=[
                         _browse_panel(
-                            title="Protein or gene",
-                            helper_text="Search or browse A–Z; then open the graph.",
+                            title="Protein",
+                            helper_text="Search or browse A–Z",
                             dropdown_id='prot-search',
                             options=PROT_OPTIONS,
-                            placeholder="Protein or gene symbol…",
+                            placeholder="Protein symbol…",
                             button_id='submit-prot',
                             directory_id='prot-directory',
                             summary_text=f"{len(PROTS)} graphs available.",
@@ -2121,21 +2595,18 @@ def search_page():
                     ]
                 ),
                 dcc.Tab(
-                    label="Endpoint-centric",
+                    label="Phenotype-centric",
                     children=[
                         _browse_panel(
-                            title="Disease, phenotype, or pathway",
-                            helper_text="Search or browse A–Z; terms come from biological_process/disease in the source data.",
+                            title="Phenotype",
+                            helper_text="Search or browse A–Z",
                             dropdown_id='endpoint-search',
                             options=ENDPOINT_OPTIONS,
-                            placeholder="Endpoint or disease term…",
+                            placeholder="Biological process or disease term…",
                             button_id='submit-endpoint',
                             directory_id='endpoint-directory',
                             summary_text=(
-                                f"{len(ENDPOINTS)} indexed endpoints."
-                            ),
-                            note_text=(
-                                "High-degree endpoints are grouped by protein to keep graphs usable."
+                                f"{len(ENDPOINTS)} indexed phenotypes nodes."
                             ),
                         )
                     ]
@@ -2170,14 +2641,14 @@ def statistics_page():
                     html.Div(
                         [
                             html.Span(
-                                "INDRA variant networks",
+                                "VarAtlas INDRA variant networks",
                                 style={'fontSize': 11, 'letterSpacing': '0.14em',
                                        'textTransform': 'uppercase',
                                        'color': U['hero_muted'],
                                        'fontWeight': 600,
                                        'fontFamily': U['font_ui']}),
                             html.H1(
-                                "Coverage overview",
+                                "Variant networks overview",
                                 style={'fontSize': '2.05rem', 'fontWeight': 600,
                                        'fontFamily': U['font_display'],
                                        'color': U['hero_text'], 'margin': '12px 0 10px',
@@ -2201,39 +2672,48 @@ def statistics_page():
                             dcc.Link(
                                 dbc.Button(
                                     "Open browser",
-                                    color="light",
                                     className="w-100 mb-2",
-                                    style={'fontWeight': 600, 'color': U['hero'],
-                                           'border': 'none',
-                                           'fontFamily': U['font_ui']}),
+                                    style={
+                                        'fontWeight': 600,
+                                        'fontFamily': U['font_ui'],
+                                        'background': '#b8a06e',
+                                        'color': '#1c1b18',
+                                        'border': 'none',
+                                        'letterSpacing': '0.02em',
+                                        'boxShadow': '0 2px 8px rgba(184,160,110,0.35)',
+                                    }),
                                 href="/search",
-                                style={**_cta_wrap, 'boxShadow': U['shadow']}),
+                                style=_cta_wrap),
                             dcc.Link(
                                 dbc.Button(
-                                    "Gene-centric tab",
-                                    outline=True,
-                                    color="light",
+                                    "Protein-centric",
                                     className="w-100 mb-2",
-                                    style={'fontWeight': 500,
-                                           'borderColor': 'rgba(247,244,236,0.35)',
-                                           'color': U['hero_text'],
-                                           'fontFamily': U['font_ui']}),
+                                    style={
+                                        'fontWeight': 500,
+                                        'fontFamily': U['font_ui'],
+                                        'background': '#4d7c8a',
+                                        'color': '#f7f4ec',
+                                        'border': 'none',
+                                        'letterSpacing': '0.02em',
+                                    }),
                                 href="/search",
-                                style={'textDecoration': 'none'}),
+                                style=_cta_wrap),
                             dcc.Link(
                                 dbc.Button(
-                                    "Endpoint-centric tab",
-                                    outline=True,
-                                    color="light",
-                                    className="w-100",
-                                    style={'fontWeight': 500,
-                                           'borderColor': 'rgba(247,244,236,0.35)',
-                                           'color': U['hero_text'],
-                                           'fontFamily': U['font_ui']}),
+                                    "Phenotype-centric",
+                                    className="w-100 mb-2",
+                                    style={
+                                        'fontWeight': 500,
+                                        'fontFamily': U['font_ui'],
+                                        'background': '#a1665f',
+                                        'color': '#f7f4ec',
+                                        'border': 'none',
+                                        'letterSpacing': '0.02em',
+                                    }),
                                 href="/search",
-                                style={'textDecoration': 'none'}),
+                                style=_cta_wrap),
                             html.P(
-                                "Opens /search (use tabs to switch view).",
+                                "Opens /search — use tabs to switch view.",
                                 style={'fontSize': 12, 'color': U['hero_muted'],
                                        'marginTop': 12, 'marginBottom': 0,
                                        'lineHeight': 1.45,
@@ -2289,7 +2769,8 @@ def statistics_page():
                'background': U['panel'],
                'borderRadius': 4,
                'border': f'1px solid {U["rule"]}',
-               'boxShadow': U['shadow']},
+               'boxShadow': U['shadow'],
+               'width': '100%', 'boxSizing': 'border-box'},
     )
 
     explain = html.P(
@@ -2301,13 +2782,19 @@ def statistics_page():
                'fontFamily': U['font_ui']},
     )
 
-    _card = lambda gid, accent, body_pad: dbc.Card(
+    _card = lambda gid, accent, body_pad, fig_h: dbc.Card(
         dbc.CardBody(
-            dcc.Graph(id=gid, config={'displayModeBar': False}),
+            dcc.Graph(
+                id=gid,
+                config={'displayModeBar': False},
+                style={'height': fig_h, 'width': '100%'},
+            ),
             style={'paddingTop': body_pad, 'paddingBottom': 12},
         ),
         className="mb-4",
         style={
+            'width': '100%',
+            'boxSizing': 'border-box',
             'border': f'1px solid {U["rule"]}',
             'borderRadius': 4,
             'overflow': 'hidden',
@@ -2319,11 +2806,19 @@ def statistics_page():
 
     charts = html.Div(
         [
-            _card("stats-fig-bp", U['accent_card_bp'], 4),
-            _card("stats-fig-disease", U['accent_card_dis'], 4),
-            _card("stats-fig-genes", U['accent_card_gene'], 4),
+            _card("stats-fig-bp", U['accent_card_bp'], 4, STATS_FIG_HEIGHT_10),
+            _card("stats-fig-disease", U['accent_card_dis'], 4, STATS_FIG_HEIGHT_10),
+            _card("stats-fig-genes", U['accent_card_gene'], 4, STATS_FIG_HEIGHT_20),
         ],
-        style={'marginTop': 22},
+        style={
+            'marginTop': 22,
+            'display': 'flex',
+            'flexDirection': 'column',
+            'gap': 16,
+            'alignItems': 'stretch',
+            'width': '100%',
+            'maxWidth': 920,
+        },
     )
 
     bottom_cta = html.Div(
@@ -2358,7 +2853,7 @@ def statistics_page():
             hero,
             html.Div(
                 [metric_row, explain, charts, bottom_cta, dcc.Store(id="stats-metric", data="path")],
-                style={'maxWidth': 1080, 'margin': '0 auto', 'padding': '28px 22px 48px',
+                style={'maxWidth': 920, 'margin': '0 auto', 'padding': '28px 22px 48px',
                        'fontFamily': U['font_ui']},
             ),
             _app_footer(),
@@ -2375,6 +2870,7 @@ def network_page(prot: str):
         root_node_id=prot,
         title=f"{prot} — variant network",
         graph_tuple=build_elements(prot),
+        lollipop_figure=_protein_lollipop_figure(prot),
     )
 
 
@@ -2382,7 +2878,7 @@ def endpoint_network_page(endpoint: str):
     return _render_network_page(
         view_key=f"endpoint::{endpoint}",
         root_node_id=endpoint,
-        title=f"{endpoint} — endpoint-centric network",
+        title=f"{endpoint} — phenotypecentric network",
         graph_tuple=build_endpoint_elements(endpoint),
         layout={'name': 'preset'},
     )
@@ -2657,7 +3153,7 @@ def _build_node_info(node):
     if node.get('protein_page'):
         external_links.insert(
             0,
-            dcc.Link("Gene-centric graph",
+            dcc.Link("Protein-centric graph",
                      href=node['protein_page'],
                      style={'display': 'block', 'color': U['link'],
                             'textDecoration': 'none', 'fontSize': 13,
@@ -2739,6 +3235,36 @@ def show_sidebar_info(node, edge):
         return _build_edge_info(edge)
     return dash.no_update
 
+
+@app.callback(
+    Output({'type': 'gene-map', 'prot': MATCH}, 'figure'),
+    Input({'type': 'gene-map-reset', 'prot': MATCH}, 'n_clicks'),
+    State({'type': 'gene-map', 'prot': MATCH}, 'id'),
+    prevent_initial_call=True)
+def reset_gene_variant_map(_n_clicks, gid):
+    rid = (gid or {}).get('prot', '')
+    if not rid.startswith('protein::'):
+        return dash.no_update
+    gene = rid.split('::', 1)[1]
+    fig = _protein_lollipop_figure(gene)
+    return fig if fig is not None else dash.no_update
+
+
+@app.callback(
+    Output({'type': 'store-map-range', 'prot': MATCH}, 'data'),
+    Input({'type': 'gene-map', 'prot': MATCH}, 'relayoutData'),
+    Input({'type': 'gene-map-reset', 'prot': MATCH}, 'n_clicks'),
+    prevent_initial_call=True)
+def sync_gene_map_x_range(relayout, _n_reset):
+    trig = ctx.triggered_id
+    if isinstance(trig, dict) and trig.get('type') == 'gene-map-reset':
+        return None
+    xr = _relayout_xaxis_range(relayout if isinstance(relayout, dict) else None)
+    if xr is None:
+        return dash.no_update
+    return [xr[0], xr[1]]
+
+
 # ---------------------- subgraph modal callback ----------------------------
 def _css_safe_global(name: str) -> str:
     return re.sub(r'[^A-Za-z0-9_-]', '-', name)
@@ -2819,16 +3345,18 @@ def open_subgraph_modal(node, subgraphs, rel_colors):
             "label": "data(label)",
             "text-valign": "center", "text-halign": "center",
             "font-size": 11, "font-weight": "bold",
-            "background-opacity": 0.7,
+            "background-opacity": GRAPH_NODE_BG_OPACITY,
             "text-wrap": "wrap", "text-max-width": 110}},
         {"selector": ".role-protein", "style": {
-            "background-color": "#c5d2ce", "color": "#2a3d38"}},
+            "background-color": GRAPH_PROTEIN_BG, "color": GRAPH_PROTEIN_FG}},
         {"selector": ".role-variant", "style": {
-            "background-color": "#c9c0d4", "color": "#3d324d"}},
+            "background-color": GRAPH_VARIANT_BG, "color": GRAPH_VARIANT_FG}},
         {"selector": ".role-intermediate", "style": {
-            "background-color": "#cfd9c3", "color": "#35422e"}},
+            "background-color": GRAPH_INTERMEDIATE_BG,
+            "color": GRAPH_INTERMEDIATE_FG}},
         {"selector": ".role-endpoint", "style": {
-            "background-color": "#e8d4bc", "color": "#5c3f24"}},
+            "background-color": GRAPH_ENDPOINT_BG,
+            "color": GRAPH_ENDPOINT_FG}},
         {"selector": ".edge-PV", "style": {
             "line-color": "#c9c4bf", "target-arrow-color": "#c9c4bf",
             "target-arrow-shape": "triangle", "curve-style": "bezier",
@@ -2936,22 +3464,45 @@ def show_subgraph_edge_info(edge):
 
 # ---------------------- highlight callback ---------------------------------
 @app.callback(
-    Output({'type': 'cy-net', 'prot': MATCH}, 'elements'),
+    [Output({'type': 'cy-net', 'prot': MATCH}, 'elements'),
+     Output({'type': 'cy-net', 'prot': MATCH}, 'layout')],
     Input({'type': 'cy-net', 'prot': MATCH}, 'tapNodeData'),
-    [State({'type': 'store-els',   'prot': MATCH}, 'data'),
-     State({'type': 'store-edges', 'prot': MATCH}, 'data'),
-     State({'type': 'store-root',  'prot': MATCH}, 'data')],
+    Input({'type': 'store-map-range', 'prot': MATCH}, 'data'),
+    [State({'type': 'store-els', 'prot': MATCH}, 'data'),
+     State({'type': 'store-root', 'prot': MATCH}, 'data')],
     prevent_initial_call=True)
-def highlight(node, elements, edge_set, root_prot):
+def highlight(node, map_range, elements, root_prot):
+    base = copy.deepcopy(elements)
+    xr = _norm_map_range(map_range)
+    trig = ctx.triggered_id
+    range_changed = (
+        isinstance(trig, dict) and trig.get("type") == "store-map-range"
+    )
+    if xr and root_prot in TSV_FILES:
+        els = build_elements(root_prot, variant_aa_range=xr)[0]
+        # Always preset so node `position` from the same layered algorithm as the full graph is applied.
+        layout_out = _cy_net_layout_preset()
+    else:
+        els = base
+        layout_out = (
+            _cy_net_layout_preset() if range_changed else dash.no_update
+        )
+
+    fwd, rev = _adjacency_from_elements(els)
+
+    def _strip_faded():
+        for el in els:
+            c = el.get('classes') or ''
+            el['classes'] = c.replace(' faded', '')
+
     if not node:
-        return elements
+        _strip_faded()
+        return els, layout_out
 
     if node['id'] == root_prot:
-        for el in elements:
-            el['classes'] = el['classes'].replace(' faded', '')
-        return elements
+        _strip_faded()
+        return els, layout_out
 
-    edge_set = {tuple(e) for e in edge_set}
     sel = node['id']
     keep_nodes = {sel}
     keep_edges = set()
@@ -2959,35 +3510,37 @@ def highlight(node, elements, edge_set, root_prot):
     stack = [sel]
     while stack:
         cur = stack.pop()
-        for s, t in edge_set:
-            if s == cur and (s, t) not in keep_edges:
-                keep_edges.add((s, t))
+        for t in fwd.get(cur, ()):
+            if (cur, t) not in keep_edges:
+                keep_edges.add((cur, t))
                 keep_nodes.add(t)
                 stack.append(t)
 
     stack = [sel]
     while stack:
         cur = stack.pop()
-        for s, t in edge_set:
-            if t == cur and (s, t) not in keep_edges:
-                keep_edges.add((s, t))
+        for s in rev.get(cur, ()):
+            if (s, cur) not in keep_edges:
+                keep_edges.add((s, cur))
                 keep_nodes.add(s)
                 stack.append(s)
 
-    for el in elements:
-        if 'source' in el['data']:  # edge
-            keep = ((el['data']['source'], el['data']['target']) in keep_edges
-                    or el['data']['rel'] == 'PV')
-        else:  # node
-            keep = el['data']['id'] in keep_nodes
-
-        if keep:
-            el['classes'] = el['classes'].replace(' faded', '')
+    for el in els:
+        d = el.get('data') or {}
+        if 'source' in d:
+            keep = ((d['source'], d['target']) in keep_edges
+                    or d.get('rel') == 'PV')
         else:
-            if 'faded' not in el['classes']:
-                el['classes'] += ' faded'
+            keep = d.get('id') in keep_nodes
 
-    return elements
+        c = el.get('classes') or ''
+        if keep:
+            el['classes'] = c.replace(' faded', '')
+        else:
+            if 'faded' not in c:
+                el['classes'] = c + ' faded'
+
+    return els, layout_out
 
 
 # ---------------------- Search -------------------------------
@@ -3084,6 +3637,7 @@ def stats_render(metric):
         bar_color=U["chart_bp"],
         plot_bg=U["plot_bp"],
         paper_bg="rgba(0,0,0,0)",
+        height=STATS_FIG_HEIGHT_10,
     )
     fig_dis = _stats_bar_figure(
         _STATS_DISEASE_ROWS, metric,
@@ -3093,6 +3647,7 @@ def stats_render(metric):
         bar_color=U["chart_dis"],
         plot_bg=U["plot_dis"],
         paper_bg="rgba(0,0,0,0)",
+        height=STATS_FIG_HEIGHT_10,
     )
     fig_genes = _stats_bar_figure(
         _STATS_GENE_ROWS, metric,
@@ -3102,6 +3657,7 @@ def stats_render(metric):
         bar_color=U["chart_gene"],
         plot_bg=U["plot_gene"],
         paper_bg="rgba(0,0,0,0)",
+        height=STATS_FIG_HEIGHT_20,
     )
     btn = []
     for m in ("path", "gene", "variant", "pmid"):
